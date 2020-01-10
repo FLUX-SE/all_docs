@@ -1,6 +1,6 @@
 import os
 import re
-rootdir = './docs/'
+rootdir = './documentation/'
 
 dirs_dict = dict()
 
