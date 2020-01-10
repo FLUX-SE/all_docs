@@ -1,13 +1,11 @@
 # Setup
-<image name="PLoudMeterSetup"
-filename="C:\Sources\Flux\FluxtAnalyzer\Software\FluxTAnalyzer\Documents\graphics\Cropped\Metering\PLoudMeterSetup.png"></image>
+![](../../../include/PLoudMeterSetup.png)
 
 EBU R128 <link type="document" target="Loudness">Loudness</link> metering setup
 
 ## Presets
 
-<image name="Presets Loudness"
-filename="C:\Sources\Flux\FluxtAnalyzer\Software\FluxTAnalyzer\Documents\graphics\New Screenshots\added3\Presets Loudness.png"></image>
+![](../../../include/Presets_Loudness.png)
 
 ### Custom
 Use user-defined custom range according to min./max. values

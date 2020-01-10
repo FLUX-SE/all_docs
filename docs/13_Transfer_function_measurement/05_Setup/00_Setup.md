@@ -1,6 +1,5 @@
 # Setup
-<image name="Transfer-Function-Setup"
-filename="C:\Sources\Flux\FluxtAnalyzer\Software\FluxTAnalyzer\Documents\graphics\New Screenshots\added2\Transfer-Function-Setup.png"></image>
+![](../../../include/Transfer-Function-Setup.png)
 
 Transfer function setup options
 

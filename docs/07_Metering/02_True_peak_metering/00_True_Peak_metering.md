@@ -24,8 +24,7 @@ the analog domain.
 
 
 
-<image name="TruePeakMeterSetup"
-filename="C:\Sources\Flux\FluxtAnalyzer\Software\FluxTAnalyzer\Documents\graphics\Cropped\Metering\TruePeakMeterSetup.png"></image>
+![](../../../include/TruePeakMeterSetup.png)
 
 TruePeak metering setup options
 

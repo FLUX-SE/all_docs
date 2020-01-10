@@ -20,30 +20,16 @@ corresponding channel.
 the stereo field.
 
 * Incoming spectrum-space frames are added back to the previous frames.
-* Past frames are progressively �forgotten�, using blur and dimming, in order to make place for
+* Past frames are progressively "forgotten", using blur and dimming, in order to make place for
 new information, and increase legibility.
 
 
 
-<table>
-<tr>
-<td>
-<image name="Nebula ST"
-filename="C:\Sources\Flux\FluxtAnalyzer\Software\FluxTAnalyzer\Documents\graphics\New Screenshots\added\Nebula ST.png"></image>
-</td>
-<td>
-<image name="Nebula 51"
-filename="C:\Sources\Flux\FluxtAnalyzer\Software\FluxTAnalyzer\Documents\graphics\New Screenshots\added\Nebula 51.png"></image>
-</td>
-</tr>
-<tr>
-<td>Nebula / Spatial Spectrogram display with stereo input</td>
-<td>Nebula / Spatial Spectrogram display with surround input</td>
-</tr>
-</table>
+![](../../include/Nebula_ST.png) | ![](../../include/Nebula_51.png)
+---------------------------------|-------------------------------------
+Nebula / Spatial Spectrogram display with stereo input | Nebula / Spatial Spectrogram display with surround input
 
-<image name="Spatial Spectrogram Setup"
-filename="C:\Sources\Flux\FluxtAnalyzer\Software\FluxTAnalyzer\Documents\graphics\New Screenshots\added2\Spatial Spectrogram Setup.png"></image>
+![](../../include/Spatial_Spectrogram_Setup.png)
 
 Nebula / Spatial Spectrogram setup options
 

@@ -27,8 +27,7 @@ components. Typical uses for this curve is to monitor the global frequency balan
 visualize the influence of broad equalizer corrections on the mix.
 
 # Curve display
-<image name="CurveDisplay"
-filename="C:\Sources\Flux\FluxtAnalyzer\Software\FluxTAnalyzer\Documents\graphics\Cropped\Spectrum\CurveDisplay.png"></image>
+![](../../include/CurveDisplay.png)
 
 Toggles between the following curve display modes:
 * Full: main curve only (no smoothing)
@@ -39,8 +38,7 @@ Toggles between the following curve display modes:
 several channels and/or snapshots.
 
 # Max curve
-<image name="MaxCurve"
-filename="C:\Sources\Flux\FluxtAnalyzer\Software\FluxTAnalyzer\Documents\graphics\Cropped\Spectrum\MaxCurve.png"></image>
+![](../../include/MaxCurve.png)
 
 The max curve employs much longer release time compared to the main curve, and as such registers
 short peaks much more easily.
@@ -54,8 +52,7 @@ The max curve setting controls its visibility and wether smoothing is applied:
 main curve, since this type of curve does not evolve in time.
 
 # Peak type
-<image name="PeakType"
-filename="C:\Sources\Flux\FluxtAnalyzer\Software\FluxTAnalyzer\Documents\graphics\Cropped\Spectrum\PeakType.png"></image>
+![](../../include/PeakType.png)
 
 This setting controls the manner in which spectrum magnitude peaks are computed:
 * Max (global): compute a global maximum over the entire spectrum range.
@@ -63,8 +60,7 @@ This setting controls the manner in which spectrum magnitude peaks are computed:
 the <link type="document" target="Peak range">Peak range</link>.
 
 # Peak label
-<image name="PeakLabel"
-filename="C:\Sources\Flux\FluxtAnalyzer\Software\FluxTAnalyzer\Documents\graphics\Cropped\Spectrum\PeakLabel.png"></image>
+![](../../include/PeakLabel.png)
 
 Determines the appearance of the peak display:
 * None: peaks are not shown.

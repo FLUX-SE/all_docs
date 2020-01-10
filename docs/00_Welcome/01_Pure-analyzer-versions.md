@@ -20,10 +20,10 @@ The main difference between the two are:
 <tr>
 <td><b>I/O Configuration</b></td>
 <td>
-<link type="document" target="SampleGrabber">SampleGrabber</link> Plug-in (No Hardware I/O)
+SampleGrabber Plug-in (No Hardware I/O)
 </td>
 <td>
-<link type="document" target="SampleGrabber">SampleGrabber</link> Plug-in
+SampleGrabber Plug-in
 <br>Hardware I/O:
 ASIO / Core Audio
 </td>
@@ -37,7 +37,7 @@ ASIO / Core Audio
 <tr>
 <td><b>Supported Options</b></td>
 <td></td>
-<td>Live / <link type="document" target="Metering">Metering</link> / MultiChannel
+<td>Live / Metering / MultiChannel
 </td>
 </tr>
 </table>

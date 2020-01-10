@@ -5,8 +5,7 @@ configuration and settings, this will include:
 * Available SampleGrabber instance(s), either local or remote.
 * Available hardware device(s), if one or several sound cards are present on the host system, and
 the corresponding device has been selected in the <link type="document" target="Hardware IO">
-Hardware IO
-</link> configuration dialog.
+Hardware IO </link> configuration dialog.
 
 
 

@@ -1,6 +1,5 @@
 # Main setup
-<image name="IRSetup"
-filename="C:\Sources\Flux\FluxtAnalyzer\Software\FluxTAnalyzer\Documents\graphics\Cropped\IR\IRSetup.png"></image>
+![](../../include/IRSetup.png)
 
 Impulse response setup options
 

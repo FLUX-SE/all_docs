@@ -11,35 +11,30 @@ to assess their performance.
 A pass-trough device, or equivalently, a completely dead space such as an anechoic chamber exhibit a
 unit impulse response, whose value at zero time is gain, and is zero at all other instants.
 
-<image name="IR"
-filename="C:\Sources\Flux\FluxtAnalyzer\Software\FluxTAnalyzer\Documents\graphics\Cropped\IR\IR.png"></image>
+![](../../include/IR.png)
 
 Impulse response display example
 
 ## Analyze / freeze
-The <image name="Play" filename="C:\Sources\Flux\FluxtAnalyzer\Software\FluxTAnalyzer\RES\Play.png"></image>button
+The ![](../../include/Play.png) button
 toggles the impulse response real-time update on and off.
 
 ## Delay Set
-The <image name="Set2Delay" filename="C:\Sources\Flux\FluxtAnalyzer\Software\FluxTAnalyzer\RES\Set2Delay.png"></image> 
-delay Set button set value of the peak time location to the delay value currently set for microphone channels
-in the <link type="document" target="Live IO">Live IO</link> panel.
+The ![](../../include/Set2Delay.png) delay Set button set value of the peak time location to the delay value currently 
+set for microphone channels in the <link type="document" target="Live IO">Live IO</link> panel.
 
 If Real <link type="document" target="Time">Time</link> curve is disable, the Max value of the selected
 snap shot is used.
 
 ## Delay add
-The <image name="Add2Delay"
-filename="C:\Sources\Flux\FluxtAnalyzer\Software\FluxTAnalyzer\RES\Add2Delay.png"></image> delay
-add button adds value of the peak time location to the delay value currently set for microphone channels
-in the <link type="document" target="Live IO">Live IO</link> panel.
+The ![](../../include/Add2Delay.png) delay add button adds value of the peak time location to the delay value currently 
+set for microphone channels in the <link type="document" target="Live IO">Live IO</link> panel.
 
 If Real <link type="document" target="Time">Time</link> curve is disable, the Max value of the selected
 snap shot is used.
 
 ## Delay subtract
-The <image name="Subtract2Delay"
-filename="C:\Sources\Flux\FluxtAnalyzer\Software\FluxTAnalyzer\RES\Subtract2Delay.png"></image> delay
+The ![](../../include/Subtract2Delay.png) delay
 subtract button subtracts the peak value to the microphone channels delay.
 
 If Real <link type="document" target="Time">Time</link> curve is disable, the Max value of the selected

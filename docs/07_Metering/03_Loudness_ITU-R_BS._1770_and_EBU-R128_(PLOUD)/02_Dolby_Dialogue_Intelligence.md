@@ -61,12 +61,11 @@ Left/Right and Center channels are taken into account, if present.
 type="document" target="Loudness">Loudness </link> values.
 Toggling Dialogue Intelligence on and off forces a reset of the meter values.
 
-<title>Copyright &amp; patent information</title>
-<b>Created under license from Dolby Laboratories Licensing Corporation. Use of this Software
-does not convey a license nor imply a right under any patent, or any other industrial or
-intellectual property right of Dolby Laboratories.</b>
-
 # Copyright & patent information
+**Created under license from Dolby Laboratories Licensing Corporation. Use of this Software
+does not convey a license nor imply a right under any patent, or any other industrial or
+intellectual property right of Dolby Laboratories.**
+
 Dolby and the double-D symbol are registered trademarks of Dolby Laboratories. Dialogue
 Intelligence is a trademark of Dolby Laboratories.
 

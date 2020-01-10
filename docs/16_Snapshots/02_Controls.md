@@ -1,6 +1,5 @@
 # Controls
-<image name="Snapshots"
-filename="C:\Sources\Flux\FluxtAnalyzer\Software\FluxTAnalyzer\Documents\graphics\New Screenshots\added\Snapshots.png"></image>
+![](../../include/Snapshots.png)
 
 Snapshot list and controls
 
@@ -21,8 +20,7 @@ Clicking the icon immediately creates a new snapshot, stores it on disk, adds it
 current project and selects it.
 
 ## Acquire sweep
-The <image name="Sweep"
-filename="C:\Sources\Flux\FluxtAnalyzer\Software\FluxTAnalyzer\RES\Sweep.png"></image> button
+The ![](../../include/Sweep.png) button
 launches acquisition of a sweep snapshot. This special type of snapshot automates the
 acquisition of transfer function and impulse response curves using a swept sine generator
 output.
@@ -40,8 +38,7 @@ data has been acquired and the snapshot is computed and ready for display.
 reasonable levels in order to prevent damage to your equipment and hearing loss.
 
 ## Create average
-Click the <image name="Average"
-filename="C:\Sources\Flux\FluxtAnalyzer\Software\FluxTAnalyzer\RES\Average.png"></image> button
+Click the ![](../../include/Average.png) button
 with multiple snapshots selected to create a new snapshot average of these.
 
 The new snapshot curve data is computed from the selected snapshot data as follows:
@@ -70,8 +67,7 @@ conditions are not met.
 you change the snapshots in any way, the snapshot average will not change.
 
 ## Update current
-Clicking the <image name="Update"
-filename="C:\Sources\Flux\FluxtAnalyzer\Software\FluxTAnalyzer\RES\Update.png"></image> button
+Clicking the ![](../../include/Update.png) button
 will overwrite the last selected snapshot contents with the most current data.
 
 This is especially useful when you are fine-tuning your measurement setup and only want to keep

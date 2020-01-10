@@ -31,8 +31,7 @@ of the pen used to draw the max curve.
 # Color grading
 Applies an optional frequency-dependent coloring to the main channel-sum curve.
 
-<image name="Spectrum4"
-filename="C:\Sources\Flux\FluxtAnalyzer\Software\FluxTAnalyzer\Documents\graphics\Cropped\Spectrum\Spectrum4.png"></image>
+![](../../include/Spectrum4.png)
 
 <link type="document" target="Magnitude">Magnitude</link>
 spectrum with color grading enabled

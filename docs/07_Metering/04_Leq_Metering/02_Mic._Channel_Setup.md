@@ -1,7 +1,5 @@
 # Mic. channel Leq setup
-<image name="LeqMeterSetup"
-filename="C:\Sources\Flux\FluxtAnalyzer\Software\FluxTAnalyzer\Documents\graphics\Cropped\Metering\LeqMeterSetup.png">
-</image>
+![](../../../include/LeqMeterSetup.png)
 
 <link type="document" target="Mic">Mic</link>. channel Leq setup
 

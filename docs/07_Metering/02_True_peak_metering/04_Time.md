@@ -13,8 +13,7 @@ When
 enabled, peaks are held until the next reset, which is useful for checking a whole track never
 clips.
 ## Reset
-Clicking the <image name="Refresh"
-                    filename="C:\Sources\Flux\FluxtAnalyzer\Software\FluxTAnalyzer\RES\Refresh.png"></image> button
+![](../../../include/Refresh.png) button
 resets the meter to its initial state (values and peaks at minimum).
 
 

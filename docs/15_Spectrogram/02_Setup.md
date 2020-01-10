@@ -1,13 +1,11 @@
 # Setup
-<image name="Spectrogram Setup"
-filename="C:\Sources\Flux\FluxtAnalyzer\Software\FluxTAnalyzer\Documents\graphics\New Screenshots\added2\Spectrogram\Spectrogram Setup.png"></image>
+![](../../include/Spectrogram Setup.png)
 
 <link type="document" target="Spectrogram">Spectrogram</link>
 setup
 
 ## Direction
-<image name="SpectrogramSetupDirection"
-filename="C:\Sources\Flux\FluxtAnalyzer\Software\FluxTAnalyzer\Documents\graphics\New Screenshots\added2\Spectrogram\SpectrogramSetupDirection.png"></image>
+![](../../include/SpectrogramSetupDirection.png)
 
 Define the scrolling direction of the spectrogram.
 
@@ -31,8 +29,7 @@ Sets the maximum amplitude spectrum value to be displayed.
 
 ## Color Mode
 
-<image name="SpectrogramColorMode"
-filename="C:\Sources\Flux\FluxtAnalyzer\Software\FluxTAnalyzer\Documents\graphics\New Screenshots\added2\Spectrogram\SpectrogramColorMode.png"></image>
+![](../../include/SpectrogramColorMode.png)
 
 ### Duotone
 In this color mode, the amplitude of a time-frequency point is mapped to

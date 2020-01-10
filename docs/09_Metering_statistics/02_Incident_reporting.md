@@ -6,8 +6,7 @@ the incident, then playback again the corresponding source material in order to 
 the problem.
 
 # Setup
-<image name="TruePeakIncSetup"
-filename="C:\Sources\Flux\FluxtAnalyzer\Software\FluxTAnalyzer\Documents\graphics\Cropped\MeteringStats\TruePeakIncSetup.png"></image>
+![](../../include/TruePeakIncSetup.png)
 
 Incidents setup options
 

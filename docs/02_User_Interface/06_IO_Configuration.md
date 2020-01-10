@@ -1,6 +1,5 @@
 # IO Configuration
-<image name="IOSetup"
-filename="C:\Sources\Flux\FluxtAnalyzer\Software\FluxTAnalyzer\Documents\graphics\Cropped\IO\IOSetup.png"></image>
+![](../../include/IOSetup.png)
 
 IO configuration dialog
 
@@ -11,8 +10,7 @@ Saves / restores a complete user defined configuration.
 
 ## Device
 
-<image name="Device"
-filename="C:\Sources\Flux\FluxtAnalyzer\Software\FluxTAnalyzer\Documents\graphics\Cropped\IO\Device.png"></image>
+![](../../include/Device.png)
 
 This setting lets you choose amongst a selection of devices, depending on your particular hardware
 configuration.
@@ -36,8 +34,7 @@ ASIO Driver or similar.
 
 
 ## Sampling rate
-<image name="SamplingRate"
-filename="C:\Sources\Flux\FluxtAnalyzer\Software\FluxTAnalyzer\Documents\graphics\Cropped\IO\SamplingRate.png"></image>
+![](../../include/SamplingRate.png)
 
 Available sampling rates (hardware specific)
 
@@ -50,8 +47,7 @@ above these values increases the processing power require to carry out the compu
 benefit for most practical applications.
 
 ## Buffer size
-<image name="BufferSize"
-filename="C:\Sources\Flux\FluxtAnalyzer\Software\FluxTAnalyzer\Documents\graphics\Cropped\IO\BufferSize.png"></image>
+![](../../include/BufferSize.png)
 
 Displays the current soundcard I/O buffer size. Depending on your soundcard, you might be able to
 change this to a different value directly in Pure Analyzer without opening its control panel
@@ -72,8 +68,7 @@ hardware, such as routing, input gain etc.
 # Channels
 
 ## Max number of channels
-<image name="Channels"
-filename="C:\Sources\Flux\FluxtAnalyzer\Software\FluxTAnalyzer\Documents\graphics\Cropped\IO\Channels.png"></image>
+![](../../include/Channels.png)
 
 Selects the maximum number of channels to be used by the application, or equivalently the number of
 channels in the application I/O buss. You should set this according to the source material format
@@ -84,8 +79,7 @@ the <link type="document" target="Surround scope">Surround scope</link> is displ
 !> **IMPORTANT!** - The Pure Analyzer Studio Session supports only 2 channels of audio.
 
 ## Reference configuration
-<image name="RefConfiguration"
-filename="C:\Sources\Flux\FluxtAnalyzer\Software\FluxTAnalyzer\Documents\graphics\Cropped\IO\RefConfiguration.png"></image>
+![](../../include/RefConfiguration.png)
 
 <link type="document" target="Reference">Reference</link>
 configurations available with 8 max. channels
@@ -104,8 +98,7 @@ The channels are labeled according to this configuration to make them easier to 
 # Signal generator
 ## Output
 
-<image name="OutputChoice"
-filename="C:\Sources\Flux\FluxtAnalyzer\Software\FluxTAnalyzer\Documents\graphics\Cropped\IO\OutputChoice.png"></image>
+![](../../include/OutputChoice.png)
 
 Example output channel routing (hardware specific)
 

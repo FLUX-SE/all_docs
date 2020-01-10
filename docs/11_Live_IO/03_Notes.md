@@ -5,8 +5,7 @@ The maximum measurable delay time is
 adjustable in the settings. Attempting to measure a delay greater than this will inevitably lead to
 corrupt measurements. The default setting is 1s, which should cover the vast majority of real-world
 situations, since it covers a distance of 330 meters.
-## Ensure stable conditions while performing
-a measurement
+## Ensure stable conditions while performing a measurement
 You should ensure both source and response signals have reached have reached
 stability before attempting measurement. In particular, do not stop or start the audio, change the
 volume or any other parameter just before or during measurement. This would invalidate the measurement

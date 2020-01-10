@@ -1,14 +1,12 @@
 # Setup
-<image name="WaveScope04"
-filename="C:\Sources\Flux\FluxtAnalyzer\Software\FluxTAnalyzer\Documents\graphics\Cropped\Scope\Stereo\WaveScope04.png"></image>
+![](../../include/WaveScope04.png)
 
 ## Time
 time window in millisecond
 
 ## Color Mode
 
-<image name="WaveScopeColorModes"
-filename="C:\Sources\Flux\FluxtAnalyzer\Software\FluxTAnalyzer\Documents\graphics\Cropped\Scope\Stereo\WaveScopeColorModes.png"></image>
+![](../../include/WaveScopeColorModes.png)
 
 ### Static
 

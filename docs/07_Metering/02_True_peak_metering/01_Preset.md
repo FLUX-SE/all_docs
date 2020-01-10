@@ -1,7 +1,6 @@
 # Preset
 
-<image name="Presets TruePeak"
-filename="C:\Sources\Flux\FluxtAnalyzer\Software\FluxTAnalyzer\Documents\graphics\New Screenshots\added3\Presets TruePeak.png"></image>
+![](../../../include/Presets_TruePeak.png)
 
 ## Custom
 User defined values.
@@ -10,15 +9,15 @@ User defined values.
 ## Default
 This preset uses the following all-round settings:
 
-* <link type="document" target="Range">Range</link>: -72 ... +3 dB referenced at 0dB.
+* Range: -72 ... +3 dB referenced at 0dB.
 
-* <link type="document" target="Scale">Scale</link>: 1.8x power factor, 0.06x reference
+* Scale: 1.8x power factor, 0.06x reference
 display offset.
 
-* <link type="document" target="Ballistics">Ballistics</link>: 16dB/s release time, 1dB/s peak
+* Ballistics: 16dB/s release time, 1dB/s peak
 release, 60 frames peak hold.
 
-* <link type="document" target="Scale">Scale</link> / split: -72, -40, -18, -9, -6, -1, 0, +1, +3 dB.
+* Scale / split: -72, -40, -18, -9, -6, -1, 0, +1, +3 dB.
 
 ## EBU R128
 Referenced at -1dB

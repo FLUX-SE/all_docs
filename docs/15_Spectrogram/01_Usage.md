@@ -10,12 +10,8 @@ as a horizontal line, and a transient as a vertical line.
 
 Harmonic content appears as horizontal groups of parallel lines and vertical bars respectively, etc.
 
-
-<image name="SpectrogramView"
-filename="C:\Sources\Flux\FluxtAnalyzer\Software\FluxTAnalyzer\Documents\graphics\New Screenshots\added2\Spectrogram\SpectrogramView.png"></image>
-
-<image name="SpectrogramView2"
-filename="C:\Sources\Flux\FluxtAnalyzer\Software\FluxTAnalyzer\Documents\graphics\New Screenshots\added2\Spectrogram\SpectrogramView2.png"></image>
+![](../../include/SpectrogramView.png)
+![](../../include/SpectrogramView2.png)
 
 Example spectrogram view
 

@@ -1,6 +1,5 @@
 # Setup
-<image name="MeterHistorySetup"
-filename="C:\Sources\Flux\FluxtAnalyzer\Software\FluxTAnalyzer\Documents\graphics\Cropped\MeteringHistory\MeterHistorySetup.png"></image>
+![](../../include/MeterHistorySetup.png)
 
 <link type="document" target="Metering">Metering</link>
 history setup options

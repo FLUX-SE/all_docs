@@ -29,11 +29,9 @@ factor greater than one, shifts the current scale.
 Alt + Clicking + dragging inside an item with a <link type="document" target="Zoom">Zoom</link> Factor,
 allow to setup a new zoom according to the defined selection.
 
-<image name="ZoomSelection2"
-filename="C:\Sources\Flux\FluxtAnalyzer\Software\FluxTAnalyzer\Documents\graphics\New Screenshots\added\ZoomSelection2.png"></image>
+![](../../../include/ZoomSelection2.png)
 
-<image name="ZoomSelection1"
-filename="C:\Sources\Flux\FluxtAnalyzer\Software\FluxTAnalyzer\Documents\graphics\New Screenshots\added\ZoomSelection1.png"></image>
+![](../../../include/ZoomSelection1.png)
 
 ## Scroll wheel + click and drag
 Turning the middle mouse wheel, if present,

@@ -6,33 +6,27 @@ displayed left and right in time-code format.
 Selecting which meters are to be included in the display is done by clicking the corresponding buttons
 in the setup.
 
-<image name="Metering History"
-filename="C:\Sources\Flux\FluxtAnalyzer\Software\FluxTAnalyzer\Documents\graphics\New Screenshots\added\Metering History.png"></image>
+![](../../include/Metering_History.png)
 
 <link type="document" target="Metering">Metering</link>
 history display
 
 
 ## Timecode offset
-Clicking the <image name="TCOffset"
-                    filename="C:\Sources\Flux\FluxtAnalyzer\Software\FluxTAnalyzer\RES\TCOffset.png"></image> button
-defines the current time as the Timecode offset.
+Clicking the ![](../../include/TCOffset.png) defines the current time as the Timecode offset.
 ## Timecode offset reset
-Clicking the <image
-name="ResetTCOffset"
-filename="C:\Sources\Flux\FluxtAnalyzer\Software\FluxTAnalyzer\RES\ResetTCOffset.png"></image> button
-resets the Timecode offset to zero. Absolute and relative Timecode will then be the same.
+Clicking the ![](../../include/ResetTCOffset.png) button resets the Timecode offset to zero. 
+Absolute and relative Timecode will then be the same.
 ## Play
-Clicking the <image name="Play"
-   filename="C:\Sources\Flux\FluxtAnalyzer\Software\FluxTAnalyzer\RES\Play.png"></image>toggles
+Clicking the ![](../../include/Play.png) toggles
 history recording on and off. <link type="document" target="Metering">Metering</link> values are
 discarded when off.
 
 >The metering history relies on the same settings as those defined in the various
 meters. However, when multiple meter values are displayed simultaneously, the display range of the
 history is adapted so it encompasses the display ranges of the meters.
-
-Keep in mind different meters can be set to different zero reference points when comparing meter history
+>
+>Keep in mind different meters can be set to different zero reference points when comparing meter history
 curves.
 
 

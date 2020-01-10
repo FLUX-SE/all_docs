@@ -12,8 +12,8 @@ The algorithms employed here are specific to phase, and have more options than t
 employed for spectrum magnitude, transfer function magnitude and coherence, in case you wish to
 fine-tune their behavior.
 
-<image name="Phase Display"
-filename="C:\Sources\Flux\FluxtAnalyzer\Software\FluxTAnalyzer\Documents\graphics\Cropped\Bode\Phase Display.png"></image>
+
+![](../../../include/Phase_Display.png)
 
 ## Display
 Toggle between the various phase curve display modes:
@@ -66,8 +66,8 @@ Size of the pen used to draw the phase curve.
 of the pen used to draw the phase curve.
 
 # Method
-<image name="Phase Smooth Method"
-filename="C:\Sources\Flux\FluxtAnalyzer\Software\FluxTAnalyzer\Documents\graphics\Cropped\Bode\Phase Smooth Method.png"></image>
+
+![](../../../include/Phase_Smooth_Method.png)
 
 Available phase smoothing algorithms.
 

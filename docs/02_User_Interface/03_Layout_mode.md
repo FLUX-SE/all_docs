@@ -2,8 +2,7 @@
 Pure Analyzer offers a number of user interface layouts designed and named according to typical
 tasks:
 
-<image name="Global-Presets"
-filename="C:\Sources\Flux\FluxtAnalyzer\Software\FluxTAnalyzer\Documents\graphics\New Screenshots\added\Global-Presets.png"></image>
+![](../../include/Global-Presets.png)
 
 The layouts are grouped into categories, as described below.
 
@@ -37,8 +36,7 @@ monitoring of the principal level and spectral indicators of the FOH mix.
 <link type="document" target="Overview">Overview</link>
 of all metering data at a glance.
 
-<image name="Layout-Feature-Matrix-export"
-filename="C:\Sources\Flux\FluxtAnalyzer\Software\FluxTAnalyzer\Documents\Diagrams\Layout-Feature-Matrix-export.png"></image>
+![](../../include/Layout-Feature-Matrix-export.png)
 
 Layout contents matrix
 

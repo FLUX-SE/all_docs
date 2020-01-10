@@ -11,32 +11,27 @@ that of the current sampling rate (or Nyquist frequency in signal processing jar
 the most commonplace and most easily understood spectrum analyzer visualization, and is the place where
 you should start most of the time when you want to inspect the frequency content of your audio material.
 
-<image name="AnOtherSpectrum"
-filename="C:\Sources\Flux\FluxtAnalyzer\Software\FluxTAnalyzer\Documents\graphics\New Screenshots\added2\AnOtherSpectrum.png"></image>
+![](../../include/AnOtherSpectrum.png)
 
 <link type="document" target="Magnitude">Magnitude</link>
 spectrum of a stereo signal with summing disabled, max and smoothed curves enabled
 
-<image name="Spectrum Sum"
-filename="C:\Sources\Flux\FluxtAnalyzer\Software\FluxTAnalyzer\Documents\graphics\New Screenshots\added\Spectrum Sum.png"></image>
+![](../../include/Spectrum_Sum.png)
 
 <link type="document" target="Magnitude">Magnitude</link>
 spectrum of a 5.1 surround signal sum with max and smoothed curves enabled
 
-<image name="Spectrum 51"
-filename="C:\Sources\Flux\FluxtAnalyzer\Software\FluxTAnalyzer\Documents\graphics\New Screenshots\added\Spectrum 51.png"></image>
+![](../../include/Spectrum_51.png)
 
 <link type="document" target="Magnitude">Magnitude</link>
 spectrum of a 5.1 surround signal with summing disabled
 
-<image name="SpectrumSlide"
-filename="C:\Sources\Flux\FluxtAnalyzer\Software\FluxTAnalyzer\Documents\graphics\New Screenshots\added\SpectrumSlide.png"></image>
+![](../../include/SpectrumSlide.png)
 
 <link type="document" target="Magnitude">Magnitude</link>
 spectrum with <link type="document" target="Slide">Slide</link> option enabled (Real time waterfall)
 
-<image name="Setup"
-filename="C:\Sources\Flux\FluxtAnalyzer\Software\FluxTAnalyzer\Documents\graphics\Cropped\Spectrum\Setup.png"></image>
+![](../../include/Setup.png)
 
 <link type="document" target="Magnitude">Magnitude</link>
 spectrum setup dialog

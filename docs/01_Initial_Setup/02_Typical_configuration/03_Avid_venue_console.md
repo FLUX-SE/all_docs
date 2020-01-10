@@ -7,7 +7,6 @@ When performing transfer function and impulse response measurements, a recommend
 to insert a SampleGrabber on the master output and set the microphone signal as key input. This
 simplifies the routing and allows for fast switching between different microphones.
 
-<image name="VENUE"
-filename="C:\Sources\Flux\FluxtAnalyzer\Software\FluxTAnalyzer\Documents\Seting Pictures\VENUE.png"></image>
+![](../../../include/VENUE.png)
 
 Recommended setup with Avid Venue console

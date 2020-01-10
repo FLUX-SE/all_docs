@@ -19,8 +19,8 @@ at different frequencies, in degrees, ranging from -180 to 180.
 > consequence of the complex nature of the system, and not a limitation of the instrument. We advise to
 > use Pure spectrum analysis mode which mitigates phase computation inaccuracies compared to plain FFT.
 >
-> <image name="TransferFunction"
-> filename="C:\Sources\Flux\FluxtAnalyzer\Software\FluxTAnalyzer\Documents\graphics\Cropped\Bode\TransferFunction.png"></image>
+> 
+> ![](../../include/TransferFunction.png)
 >
 > Typical transfer function display in a live room
 

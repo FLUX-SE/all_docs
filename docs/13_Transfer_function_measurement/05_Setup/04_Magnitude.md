@@ -8,8 +8,7 @@ decibels.
 Toggles between various combinations of raw and smoothed
 magnitude curve display.
 
-<image name="Magnitude Display"
-filename="C:\Sources\Flux\FluxtAnalyzer\Software\FluxTAnalyzer\Documents\graphics\Cropped\Bode\Magnitude Display.png"></image>
+![](../../../include/Magnitude_Display.png)
 
 Available magnitude display modes
 

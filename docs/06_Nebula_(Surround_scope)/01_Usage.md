@@ -15,32 +15,28 @@ reference.
 # Music
 This is the typical surround speaker arrangement for musical reproduction.
 
-<image name="FluxTAnalyzer 2011-08-05 17-19-06-77"
-filename="C:\Sources\Flux\FluxtAnalyzer\Software\FluxTAnalyzer\Documents\graphics\New Screenshots\SurScope\FluxTAnalyzer 2011-08-05 17-19-06-77.png"></image>
+![](../../include/FluxTAnalyzer_2011-08-05_17-19-06-77.png)
 
 Nebula | Surround scope in Music speaker mode
 
 # Equidistant
 This mode employs equidistant speakers arranged as an equilateral polygon.
 
-<image name="FluxTAnalyzer 2011-08-05 17-22-58-75"
-filename="C:\Sources\Flux\FluxtAnalyzer\Software\FluxTAnalyzer\Documents\graphics\New Screenshots\SurScope\FluxTAnalyzer 2011-08-05 17-22-58-75.png"></image>
+![](../../include/FluxTAnalyzer_2011-08-05_17-22-58-75.png)
 
 Nebula | Surround scope display with equidistant speaker mode selected
 
 # Square
 This arrangement employs speakers arranged on a square.
 
-<image name="FluxTAnalyzer 2011-08-05 17-23-22-75"
-filename="C:\Sources\Flux\FluxtAnalyzer\Software\FluxTAnalyzer\Documents\graphics\New Screenshots\SurScope\FluxTAnalyzer 2011-08-05 17-23-22-75.png"></image>
+![](../../include/FluxTAnalyzer_2011-08-05_17-23-22-75.png)
 
 Nebula | Surround scope display in Square speaker mode
 
 # Theater
 This is the typical arrangement employed in movie theaters, with redundant rear channels.
 
-<image name="FluxTAnalyzer 2011-08-05 17-23-45-87"
-filename="C:\Sources\Flux\FluxtAnalyzer\Software\FluxTAnalyzer\Documents\graphics\New Screenshots\SurScope\FluxTAnalyzer 2011-08-05 17-23-45-87.png"></image>
+![](../../include/FluxTAnalyzer_2011-08-05_17-23-45-87.png)
 
 Nebula | Surround scope display in Theater speaker mode
 

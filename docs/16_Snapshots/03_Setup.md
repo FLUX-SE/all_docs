@@ -1,6 +1,5 @@
 # Setup
-<image name="SnapShotSetup"
-filename="C:\Sources\Flux\FluxtAnalyzer\Software\FluxTAnalyzer\Documents\graphics\Cropped\Snapshot\SnapShotSetup.png"></image>
+![](../../include/SnapShotSetup.png)
 
 Snapshot setup options
 

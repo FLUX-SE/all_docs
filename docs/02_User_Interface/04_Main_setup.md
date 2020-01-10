@@ -1,6 +1,5 @@
 # Main setup
-<image name="MainSetup"
-filename="C:\Sources\Flux\FluxtAnalyzer\Software\FluxTAnalyzer\Documents\graphics\Cropped\General\MainSetup.png"></image>
+![](../../include/MainSetup.png)
 
 <link type="document" target="Main">Main</link>
 setup dialog
@@ -20,8 +19,7 @@ provides moderate protection, and is not intended to replace other security guar
 etc.
 
 ## Graphic engine
-<image name="EngineFrameRate"
-filename="C:\Sources\Flux\FluxtAnalyzer\Software\FluxTAnalyzer\Documents\graphics\Cropped\General\EngineFrameRate.png"></image>
+![](../../include/EngineFrameRate.png)
 
 Available graphic engine frame rates
 
@@ -31,8 +29,7 @@ rates place higher demands on the GPU, and to a lesser extent, on the CPU.
 >The effective frame rate can be displayed by typing `SetRenderStats(1)` in the console.
 
 ## Time code
-<image name="DisplayFrameRate"
-filename="C:\Sources\Flux\FluxtAnalyzer\Software\FluxTAnalyzer\Documents\graphics\Cropped\General\DisplayFrameRate.png"></image>
+![](../../include/DisplayFrameRate.png)
 
 Available display frame rates
 
@@ -50,8 +47,7 @@ history usage</link> for information on working with Timecode.
 ## Main
 
 ### RTA block size
-<image name="MainBlockSize"
-filename="C:\Sources\Flux\FluxtAnalyzer\Software\FluxTAnalyzer\Documents\graphics\Cropped\General\MainBlockSize.png"></image>
+![](../../include/MainBlockSize.png)
 
 Defines the size of the blocks, in samples, fed to the main spectrum analyzer engine, which is used
 by the spectrum magnitude, Nebula and spectrogram views.
@@ -59,8 +55,7 @@ by the spectrum magnitude, Nebula and spectrogram views.
 Pure spectrum Toggles between optimized frequency analysis (default) and standard FFT.
 
 ### TF/Sweep Block size
-<image name="Block Size"
-filename="C:\Sources\Flux\FluxtAnalyzer\Software\FluxTAnalyzer\Documents\graphics\Cropped\Bode\Block Size.png"></image>
+![](../../include/Block_Size.png)
 
 Block size used for the transfer function and snapshot performed with sine-sweep. The default is
 32768, which is appropriate for most cases.
@@ -69,8 +64,7 @@ Increasing this value gives better frequency resolution, at the expense of CPU l
 can be employed if you're only interested in the overall response of the analyzed system.
 
 ### Overlap Mode
-<image name="OverlapMode"
-filename="C:\Sources\Flux\FluxtAnalyzer\Software\FluxTAnalyzer\Documents\graphics\Cropped\General\OverlapMode.png"></image>
+![](../../include/OverlapMode.png)
 
 The overlap mode setting determines how much incoming audio frames overlap each-other. A higher
 overlap results in a smoother display update, at the expense of increased CPU usage. The available
@@ -82,8 +76,7 @@ settings are
 
 
 ### Analysis window
-<image name="AnalysisWindow"
-filename="C:\Sources\Flux\FluxtAnalyzer\Software\FluxTAnalyzer\Documents\graphics\Cropped\General\AnalysisWindow.png"></image>
+![](../../include/AnalysisWindow.png)
 
 Selects the analysis window applied to the incoming blocks.
 
@@ -101,8 +94,7 @@ There is no reason to change this setting unless you have a specific reason to d
 understand the implications.
 
 ### Normalization
-<image name="normalization"
-filename="C:\Sources\Flux\FluxtAnalyzer\Software\FluxTAnalyzer\Documents\graphics\Cropped\General\normalization.png"></image>
+![](../../include/normalization.png)
 
 Selects the normalization mode used to normalize the global gain of the spectrum display.
 
@@ -115,8 +107,7 @@ gives 0dB power
 
 
 ### Scaling
-<image name="Scaling"
-filename="C:\Sources\Flux\FluxtAnalyzer\Software\FluxTAnalyzer\Documents\graphics\Cropped\General\Scaling.png"></image>
+![](../../include/Scaling.png)
 
 This setting controls the frequency dependent amplitude spectrum correction curve.
 
@@ -131,8 +122,7 @@ displayed as a flat curve.
 
 
 ## Averaging
-<image name="Mode"
-filename="C:\Sources\Flux\FluxtAnalyzer\Software\FluxTAnalyzer\Documents\graphics\Cropped\General\Mode.png"></image>
+![](../../include/Mode.png)
 
 <link type="document" target="Time">Time</link>
 averaging

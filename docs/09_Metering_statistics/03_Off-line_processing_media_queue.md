@@ -10,8 +10,7 @@ they appear in the list.
 Audio files are added by clicking the icon, which
 brings up a standard file selection dialog, where you can select as many files as you want, provided
 they all have the same channel count and in a supported format, with a recognized extension (.wav).
-When you are ready, click the <image name="Play"
-     filename="C:\Sources\Flux\FluxtAnalyzer\Software\FluxTAnalyzer\RES\Play.png"></image> icon
+When you are ready, click the ![](../../include/Play.png) icon
 to start processing the list, which will be computed much faster than real-time, especially if you
 have a fast computer.
 

@@ -3,17 +3,17 @@ The vector scope tool is displayed when a stereo input is detected, otherwise th
 to <link type="document" target="Surround scope">Surround scope</link> provided your edition of Pure
 Analyzer includes this option.
 
-<image name="Vector Scope"
-filename="C:\Sources\Flux\FluxtAnalyzer\Software\FluxTAnalyzer\Documents\graphics\New Screenshots\added\Vector Scope.png"></image>
+![](../../include/Vector_Scope.png)
+
 Vector scope display in stereo
 
-<image name="Vector-Scope-SR"
-filename="C:\Sources\Flux\FluxtAnalyzer\Software\FluxTAnalyzer\Documents\graphics\New Screenshots\added\Vector-Scope-SR.png"></image>
+![](../../include/Vector-Scope-SR.png)
+
 Vector scope display in surround (with selection menu)
 
-Modes in Surround :
-<image name="Vector-Scope-SR-Menu"
-filename="C:\Sources\Flux\FluxtAnalyzer\Software\FluxTAnalyzer\Documents\graphics\New Screenshots\added\Vector-Scope-SR-Menu.png"></image>
+## Modes in Surround :
+
+![](../../include/Vector-Scope-SR-Menu.png)
 
 **L-R**
 

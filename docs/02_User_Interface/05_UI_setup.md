@@ -1,6 +1,5 @@
 # UI Setup
-<image name="UISetup"
-filename="C:\Sources\Flux\FluxtAnalyzer\Software\FluxTAnalyzer\Documents\graphics\Cropped\UI\UISetup.png"></image>
+![](../../include/UISetup.png)
 
 User interface setup dialog
 
@@ -29,12 +28,10 @@ Adjusts global user interface contrast.
 When engaged, the user interface color scheme switches from
 white/grey on black to black/grey on white, for improved readability in an outdoor environment.
 
-<image name="Small Full Dark"
-filename="C:\Sources\Flux\FluxtAnalyzer\Software\FluxTAnalyzer\Documents\graphics\New Screenshots\added3\Small Full Dark.png"></image>
+![](../../include/Small_Full_Dark.png)
 Reverse color scheme off
 
-<image name="Small Full Bright"
-filename="C:\Sources\Flux\FluxtAnalyzer\Software\FluxTAnalyzer\Documents\graphics\New Screenshots\added3\Small Full Bright.png"></image>
+![](../../include/Small_Full_Bright.png)
 Reverse color scheme on
 
 ## Layout Shortcuts

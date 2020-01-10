@@ -1,6 +1,5 @@
 # Setup
-<image name="Signal Gen Setup"
-filename="C:\Sources\Flux\FluxtAnalyzer\Software\FluxTAnalyzer\Documents\graphics\New Screenshots\added2\Signal Gen Setup.png"></image>
+![](../../include/Signal_Gen_Setup.png)
 
 Signal generator setup options
 

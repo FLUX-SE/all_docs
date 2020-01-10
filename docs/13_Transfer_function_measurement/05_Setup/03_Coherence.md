@@ -18,9 +18,7 @@ Toggles between one of three modes:
 * Smoothed: smoothed coherence only.
 * All: both.
 
-
-<image name="Coherence Display"
-filename="C:\Sources\Flux\FluxtAnalyzer\Software\FluxTAnalyzer\Documents\graphics\Cropped\Bode\Coherence Display.png"></image>
+![](../../../include/Coherence_Display.png)
 
 Available coherence display modes
 

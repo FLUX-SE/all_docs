@@ -1,6 +1,5 @@
 # Reference
-<image name="RMSMeterSetup"
-filename="C:\Sources\Flux\FluxtAnalyzer\Software\FluxTAnalyzer\Documents\graphics\Cropped\Metering\RMSMeterSetup.png"></image>
+![](../../../include/RMSMeterSetup.png)
 
 <link type="document" target="RMS">RMS</link>
 metering setup options
@@ -15,9 +14,7 @@ Standard values are -18dB for DVD authoring and -20dB for film.
 
 
 ## Weighting
-
-<image name="RMSWeighting"
-filename="C:\Sources\Flux\FluxtAnalyzer\Software\FluxTAnalyzer\Documents\graphics\Cropped\Metering\RMSWeighting.png"></image>
+![](../../../include/RMSWeighting.png)
 
 Applies an optional weighting filter conforming to various standard curves:
 

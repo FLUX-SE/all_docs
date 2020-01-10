@@ -2,8 +2,7 @@
 The metering statistics view shows a synthetic view of the current and past meter values in numeric form.
 It also serves to process multiple existing audio files in one pass, display and export the results to disk.
 
-<image name="MeteringStats2"
-filename="C:\Sources\Flux\FluxtAnalyzer\Software\FluxTAnalyzer\Documents\graphics\New Screenshots\added2\MeteringStats2.png"></image>
+![](../../include/MeteringStats2.png)
 
 <link type="document" target="Metering">Metering</link>
 statistics display
@@ -25,13 +24,11 @@ incorporates statistical computations, only the current values are shown.
 ## File export
 Exports a report containing a summary of the metering statistics data to a text file.
 
-Clicking the <image name="Export"
-filename="C:\Sources\Flux\FluxtAnalyzer\Software\FluxTAnalyzer\RES\Export.png"></image> button
+Clicking the ![](../../include/Export.png) button
 brings up a standard file dialog where you can specify the desired file name for the dialog.
 
 ## Setup
-<image name="MeteringStatSetup"
-filename="C:\Sources\Flux\FluxtAnalyzer\Software\FluxTAnalyzer\Documents\graphics\Cropped\MeteringStats\MeteringStatSetup.png"></image>
+![](../../include/MeteringStatSetup.png)
 
 ### Absolute Timecode
 

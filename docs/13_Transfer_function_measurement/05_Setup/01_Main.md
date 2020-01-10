@@ -7,10 +7,7 @@ snapshot done with sweep. The default is 32768, which is appropriate for most ca
 Increasing this value gives better frequency resolution, at the expense of CPU load. Lower values
 can be employed if you're only interested in the overall response of the analyzed system.
 
-
-
-<image name="Block Size"
-filename="C:\Sources\Flux\FluxtAnalyzer\Software\FluxTAnalyzer\Documents\graphics\Cropped\Bode\Block Size.png"></image>
+![](../../../include/Block_Size.png)
 
 Transfer function block size
 

@@ -8,8 +8,7 @@ past particles longer, whereas increasing this make them disappear faster.
 the size of individual particles with respect to screen size.
 
 # Blur kernel size
-<image name="BlurKernelSize"
-filename="C:\Sources\Flux\FluxtAnalyzer\Software\FluxTAnalyzer\Documents\graphics\Cropped\Nebula\BlurKernelSize.png"></image>
+![](../../include/BlurKernelSize.png)
 
 <link type="document" target="Controls">Controls</link>
 the radius of the blur effect applied to past particles. Particles are "smeared" more and more as

@@ -4,12 +4,10 @@ Running your preferred DAW host application alongside with an instance of Pure A
 raises the requirements. Operating in this way will most probably require a dual-screen setup in
 order to be able to monitor the Pure Analyzer display and DAW interface simultaneously.
 
-<image name="SG DAW Insert"
-filename="C:\Sources\Flux\FluxtAnalyzer\Software\FluxTAnalyzer\Documents\Seting Pictures\SG DAW Insert.png"></image>
+![](../../../include/SG_DAW_Insert.png)
 
 SampleGrabber and Pure Analyzer running on the same machine
 
-<image name="Dual hardware host config"
-filename="C:\Sources\Flux\FluxtAnalyzer\Software\FluxTAnalyzer\Documents\Seting Pictures\Dual hardware host config.png"></image>
+![](../../../include/Dual_hardware_host_config.png)
 
 Audio source and Pure Analyzer on separate hardware

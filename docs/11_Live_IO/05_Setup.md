@@ -1,6 +1,5 @@
 # Setup
-<image name="SetupDelayFinder"
-filename="C:\Sources\Flux\FluxtAnalyzer\Software\FluxTAnalyzer\Documents\graphics\Cropped\DelayFinder\SetupDelayFinder.png"></image>
+![](../../include/SetupDelayFinder.png)
 
 Delay finder setup options
 
@@ -12,8 +11,7 @@ practical applications. You can decrease this value as this minimizes the possib
 readings.
 
 # Algorithm
-<image name="Algorithm"
-filename="C:\Sources\Flux\FluxtAnalyzer\Software\FluxTAnalyzer\Documents\graphics\Cropped\DelayFinder\Algorithm.png"></image>
+![](../../include/Algorithm.png)
 
 Selects between three different delay finding algorithms:
 
@@ -25,8 +23,7 @@ In the rare case where the standard method fails in your particular environment,
 other methods.
 
 # Search passes
-<image name="Search Passes"
-filename="C:\Sources\Flux\FluxtAnalyzer\Software\FluxTAnalyzer\Documents\graphics\Cropped\DelayFinder\Search Passes.png"></image>
+![](../../include/Search_Passes.png)
 
 The delay can be set to work in one or two passes:
 

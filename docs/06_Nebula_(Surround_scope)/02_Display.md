@@ -1,14 +1,12 @@
 # Display
-<image name="Surround scope Setup"
-filename="C:\Sources\Flux\FluxtAnalyzer\Software\FluxTAnalyzer\Documents\graphics\New Screenshots\added2\Surround scope Setup.png"></image>
+![](../../include/Surround_scope_Setup.png)
 
 Nebula | Surround scope setup options
 
 # Mode
 ## Speaker mode
 
-<image name="SpeakerMode"
-filename="C:\Sources\Flux\FluxtAnalyzer\Software\FluxTAnalyzer\Documents\graphics\Cropped\Scope\51\SpeakerMode.png"></image>
+![](../../include/SpeakerMode.png)
 
 Selects between various commonly employed surround speaker arrangements.
 
@@ -48,8 +46,7 @@ gives some visibility to lower levels also.
 
 # Display
 
-<image name="ColorMode"
-filename="C:\Sources\Flux\FluxtAnalyzer\Software\FluxTAnalyzer\Documents\graphics\Cropped\Nebula\ColorMode.png"></image>
+![](../../include/ColorMode.png)
 
 ## Fading
 

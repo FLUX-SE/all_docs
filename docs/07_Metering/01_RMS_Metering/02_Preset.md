@@ -1,7 +1,7 @@
 # Preset
 A number of presets covering widely and not so widely-used metering standards are provided.
-<image name="Presets RMS"
-filename="C:\Sources\Flux\FluxtAnalyzer\Software\FluxTAnalyzer\Documents\graphics\New Screenshots\added3\Presets RMS.png"></image>
+
+![](../../../include/Presets_RMS.png)
 
 Available <link type="document" target="RMS">RMS</link> metering presets
 

@@ -9,6 +9,7 @@ whereas a 5.1 configuration at 96kHz demands a little less than 20Mbps. A proper
 standard Ethernet 100Mbps network should therefore be more than sufficient to handle most scenarios.
 
 >The above bandwidth requirements naturally do not apply when using both
-SampleGrabber and Pure Analyzer on the same machine.
-<br>Please check with your network administrator if you have any bandwidth issues and/or special
+>SampleGrabber and Pure Analyzer on the same machine.
+>
+>Please check with your network administrator if you have any bandwidth issues and/or special
 requirements.

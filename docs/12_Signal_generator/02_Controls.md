@@ -1,12 +1,10 @@
 # Controls
-<image name="Signal Gen"
-filename="C:\Sources\Flux\FluxtAnalyzer\Software\FluxTAnalyzer\Documents\graphics\New Screenshots\added\Signal Gen.png"></image>
+![](../../include/Signal Gen.png)
 
 Signal generator controls
 
 # Type
-<image name="NoiseType"
-filename="C:\Sources\Flux\FluxtAnalyzer\Software\FluxTAnalyzer\Documents\graphics\Cropped\Signal Gen\NoiseType.png"></image>
+![](../../include/NoiseType)
 
 Sets the <link type="document" target="Signal types">signal type</link> to generate.
 

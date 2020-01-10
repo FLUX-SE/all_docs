@@ -13,15 +13,13 @@ The meter display has the following arrangement
 (LU) values, Gated indicator lights red when gate is active
 
 ## Pause
-Clicking the <image name="Pause"
-              filename="C:\Sources\Flux\FluxtAnalyzer\Software\FluxTAnalyzer\RES\Pause.png"></image> button
+Clicking the ![](../../../include/Pause.png) button
 pauses measurement; clicking again resumes it. This allows you to make adjustments without affecting
 Integrated <link type="document" target="Loudness">Loudness</link>, instead of having to start all
 over again.
 
 ## Reset
-Clicking the <image name="Refresh" filename="C:\Sources\Flux\FluxtAnalyzer\Software\FluxTAnalyzer\RES\Refresh.png">
-</image>button resets the meter to its initial state.
+Clicking the ![](../../../include/Refresh.png) button resets the meter to its initial state.
 
 >Don't forget to reset the <link type="document" target="Loudness">Loudness</link> meter
 if you're starting playback of a new track, as Integrated <link type="document" target="Loudness">

@@ -1,11 +1,11 @@
 # Display
-<image name="VectorScope"
-filename="C:\Sources\Flux\FluxtAnalyzer\Software\FluxTAnalyzer\Documents\graphics\Cropped\Scope\Stereo\VectorScope.png"></image>
+![](../../include/VectorScope.png)
+
 Vector scope setup options
 
 # Fs
-<image name="FS"
-filename="C:\Sources\Flux\FluxtAnalyzer\Software\FluxTAnalyzer\Documents\graphics\Cropped\Scope\Stereo\FS.png"></image>
+![](../../include/FS.png)
+
 Over-sampling factor in multiples of FS, that is the incoming audio is up-sampled as necessary to
 reach this multiple times 48kHz. Increasing this value increases the display precision and
 reactivity, at the expense of a little CPU overhead.
@@ -35,8 +35,7 @@ keep in mind values that above 5 will require a sufficiently powerful graphics c
 maintain a responsive display.
 
 # Color mode
-<image name="ColorMode2"
-filename="C:\Sources\Flux\FluxtAnalyzer\Software\FluxTAnalyzer\Documents\graphics\Cropped\Scope\Stereo\ColorMode2.png"></image>
+![](../../include/ColorMode2.png)
 
 This defines how the particle color is determined:
 * Static color: use only particle start color (see below)

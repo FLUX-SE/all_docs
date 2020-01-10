@@ -1,6 +1,5 @@
 # Slide (Real Time waterfall)
-<image name="SpectrumSlide"
-filename="C:\Sources\Flux\FluxtAnalyzer\Software\FluxTAnalyzer\Documents\graphics\New Screenshots\added\SpectrumSlide.png"></image>
+![](../../include/SpectrumSlide.png)
 
 # Enable
 <link type="document" target="Enable">Enable</link>/disable the slide mode

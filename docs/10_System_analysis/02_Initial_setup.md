@@ -13,8 +13,7 @@ up directly at the DAW output or recorded with a second microphone placed in fro
 loudspeaker(s), depending on whether you want to include the loudspeaker’s influence or not in the
 measurement.
 
-<image name="SystemAnalysisPrinciple"
-filename="C:\Sources\Flux\FluxtAnalyzer\Software\FluxTAnalyzer\Documents\Seting Pictures\SystemAnalysisPrinciple.png"></image>
+![](../../include/SystemAnalysisPrinciple.png)
 
 System analysis overall principle
 
