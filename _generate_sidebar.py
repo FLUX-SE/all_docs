@@ -47,6 +47,6 @@ def list_files(startpath):
     return output
 
 
-with open("_sidebar.md", "w") as _sidebar_md:
+with open("sidebar.md", "w") as _sidebar_md:
     _sidebar_md.write(list_files(rootdir))
 
