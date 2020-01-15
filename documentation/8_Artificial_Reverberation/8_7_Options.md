@@ -1,6 +1,6 @@
 # 8.7 Options
 
-#### �
+![](../../include/SpatRevolution_UserGuide_-156.jpg)
 
 **Infinite**
 

@@ -1,6 +1,6 @@
 # 8.5 Perceptual Factors
 
-#### �
+![](../../include/SpatRevolution_UserGuide_-152.jpg)
 
 **Reverberance**
 

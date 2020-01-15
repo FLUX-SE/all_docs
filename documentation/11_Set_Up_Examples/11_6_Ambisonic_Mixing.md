@@ -1,6 +1,6 @@
 ## 11.6 Ambisonic Mixing
 
-#### �
+![](../../include/SpatRevolution_UserGuide_-225.jpg)
 
 
 **_Setup View_**
@@ -12,7 +12,7 @@
 
 **_Room View_**
 
-#### �
+![](../../include/SpatRevolution_UserGuide_-227.jpg)
 
 - Mix by manipulating virtual channel based Groups in HOA Room using
     Source Properties
@@ -22,7 +22,7 @@
 
 **Explore Ambisonic Decoding Methods**
 
-#### �
+![](../../include/SpatRevolution_UserGuide_-229.jpg)
 
 **_Setup View_**
 
@@ -33,7 +33,7 @@ stereo - many balances of mix separation can be achieved exploring different Amb
 
 **_Room View_**
 
-#### �
+![](../../include/SpatRevolution_UserGuide_-231.jpg)
 
 - Filter some faders to create a multi source interface
 - Mix using selected parameters and graphic positioning of source

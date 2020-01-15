@@ -1,6 +1,6 @@
 # 9.8 Radiation
 
-#### �
+![](../../include/SpatRevolution_UserGuide_-176.jpg)
 
 This section controls the simulation of acoustic radiation in relation to the location
 and emitter orientation of the virtual source. Use these parameters to simulate how
@@ -36,7 +36,7 @@ Angle of the source direct orientation relative to the listener-source axis, in 
 Source direct orientation pitch angle, in degrees. Think of _pitch_ in the nautical
 sense of the word, how a boat _pitches_ up and down in stormy seas.
 
-★ **Pitch and Yaw can be used to make a source more diffuse
+> ★ **Pitch and Yaw can be used to make a source more diffuse
 by turning its direct sound away from the listener**
 
 **Aperture**

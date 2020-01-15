@@ -1,6 +1,6 @@
 # 10.4 Introduction to Generic OSC
 
-#### �
+![](../../include/SpatRevolution_UserGuide_-197.png)
 
 If you are developing your own control systems to integrate with Spat, you might
 find it useful to know that it is possible to export a detailed description of all OSC

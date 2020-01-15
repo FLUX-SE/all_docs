@@ -1,6 +1,6 @@
 # 9.6 Reverb Options
 
-#### �
+![](../../include/SpatRevolution_UserGuide_-172.jpg)
 
 **Reverb Enabled**
 

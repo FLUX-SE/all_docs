@@ -4,7 +4,7 @@ In Spat Revolution, spatialisation of virtual sources takes places inside _Virtu
 Rooms_. To enter a Room and open its graphic editor environment, you double click
 on a Virtual Room module in the Setup graph, or select a room tab from the Navigation bar.
 
-#### �
+![](../../../include/SpatRevolution_UserGuide_-092.jpg)
 
 The first thing to notice, is that you can add any number of Rooms. In the screenshot above, two HOA 3D rooms are being used, each with differently designed
 acoustics. There is plenty of flexibility built into Spat Revolution, in order to encompass different workflow ideas or experimental approaches. For example, the same
@@ -17,7 +17,7 @@ with its Index identification number. You can click on the Index number of each
 source, and the _Source Parameter_ editor for that virtual source will appear (see section 9).
 
 
-#### �
+![](../../../include/SpatRevolution_UserGuide_-094.jpg)
 
 > ★ If a source consists of a configuration of linked emitters there will be
 only one index and one set of parameters for the whole cluster

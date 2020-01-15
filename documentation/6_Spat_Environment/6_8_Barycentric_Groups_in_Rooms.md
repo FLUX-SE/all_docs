@@ -4,7 +4,7 @@ When a Virtual Source in a Room has more than one channel in its format, it will
 represented as a single source with ONE unique index. It will be visualised as a
 group in its assigned channel based speaker arrangement.
 
-#### �
+![](../../include/SpatRevolution_UserGuide_-122.jpg)
 
 In the above screenshot, the red source consists of 5 channels arranged as a DTU
 5.0 surround sound configuration. A multichannel cluster can be conveniently positioned and manipulated _as a single group_ which maintains its correct internal spatial positioning relationships but moves in relation to the absolute listener position

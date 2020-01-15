@@ -5,6 +5,7 @@ well be panning in Channel based, Ambisonic or binaural format, but it always
 needs Channel Based streams as inputs. More about this in the _Virtual Room_ section. Format transcoding may not always need re-spatialising in a Room. There are
 some contexts where you will not use a Virtual Room in the signal flow,
 
+![](../../../include/SpatRevolution_UserGuide_-088.jpg)
 
 Here is an example of decoding an Ambisonic signal using an Input
 Transcoder module. This could also be done in the Master Transcoder section of the graph.

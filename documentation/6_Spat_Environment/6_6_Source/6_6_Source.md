@@ -10,7 +10,7 @@ adjust the overall gain of a Source here no matter how many channels it might
 have. The Source modules are also important for parameter automation using the
 _Spat Send_ plug-in, and also in the case of external OSC control.
 
-#### �
+![](../../../include/SpatRevolution_UserGuide_-090.jpg)
 
 External software needs to know how to identify virtual objects, and that will done
 using an Index number rather than a name. This Index number refers to one of

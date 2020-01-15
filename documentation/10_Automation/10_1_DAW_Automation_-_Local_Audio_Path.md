@@ -5,7 +5,7 @@ local audio path workflow (see section 7.3) the plug-in automatically establishe
 parameter control connection with the current Spat Revolution project. You can
 then automate every parameter available via the Spat plug-in from your DAW automation lanes, with no further configuration.
 
-#### �
+![](../../include/SpatRevolution_UserGuide_-189.jpg)
 
 In the above screenshot, you see the _Reaper_ DAW display all available automation
 parameters in a Spat SEND plug-in. Just arm and record or manually create automation lanes for the parameters you want to automate.

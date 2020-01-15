@@ -19,14 +19,13 @@ you set this in the preferences and in Reaper in the Audio Device preferences. I
 they don't match at first, you _may_ need write the correct settings to the preferences
 by quitting and restarting both applications to get the correct green sync status between the apps.
 
-#### �
-
+![](../../include/SpatRevolution_UserGuide_-233.jpg)
 
 **Setting Up Tracks in Reaper**
 
 It is a good idea to work with Track Folder structures in your Arrange.
 
-#### �
+![](../../include/SpatRevolution_UserGuide_-235.jpg)
 
 In the screenshot above, the B-Format Master has been set to be a Folder Parent
 with 4 Track Channels. Reaper channel routing is set on a track by track basis, using
@@ -39,7 +38,7 @@ on.
 Alternatively, an interleaved four channel audio file (B-Format audio in this example) can be placed on one Child Track, which has been specified to have 4 channels.
 
 
-#### �
+![](../../include/SpatRevolution_UserGuide_-237.jpg)
 
 Now different interleaved files in the same format can overlap and be composed
 on the same Track, and they will be summed to the Folder track, and therefore to
@@ -49,7 +48,7 @@ Envelope Lanes of the Parent Folder track.
 
 **Setting Up Spat SEND in Reaper**
 
-#### �
+![](../../include/SpatRevolution_UserGuide_-239.jpg)
 
 Put the Spat SEND on the Parent Track. This means that as the composition grows,
 you may have multiple Child tracks sending different audio material to the same
@@ -70,7 +69,7 @@ If all is well, then you will see the Send appear as an input at the top of the 
 graph in your Spat project. If you do not see it, then try clicking on _Get send/return_
 to force Spat to look for virtual IO.
 
-#### �
+![](../../include/SpatRevolution_UserGuide_-241.jpg)
 
 In the screenshot above, the Orange ' _BFormat_ ' Send input is the one being routed
 by the SEND plug on the Parent Track we have set up. At first it will appear in Spat
@@ -82,25 +81,24 @@ There are a couple of things to watch out for which cause inconsistent behaviour
 
 !> Full Plug-in State Save is set in Plug-in Compatibility Preferences
 
-#### �
-
+![](../../include/SpatRevolution_UserGuide_-243.jpg)
 
 
 !> "Prevent Anticipative FX" should be enabled on tracks where SEND / RETURN are inserted
 
-#### �
+![](../../include/SpatRevolution_UserGuide_-245.jpg)
 
 
 **Spat Source Automation in Reaper**
 
-#### �
+![](../../include/SpatRevolution_UserGuide_-247.png)
 
 Now it is simply a case of adding some Envelope lanes for parameters you wish to
 automate from the DAW timeline. Here the B-Format source is being introduced
 from a distance automating _Aperture, Warmth and Distance_.
 
 
-#### �
+![](../../include/SpatRevolution_UserGuide_-249.jpg)
 
 In the Spat HOA Room, we see the B-Format source (transcoded into an _Auro3D
 virtual speaker configuration_ in this example) fly gradually into the scene with the
@@ -113,7 +111,7 @@ In Reaper it is easy to map any MIDI controllers (including 14-bit) to a Plug-In
 external MIDI controllers, so you could control some of the sources live by hand
 during a performance.
 
-#### �
+![](../../include/SpatRevolution_UserGuide_-251.jpg)
 
 In the Automation parameter list for Spat SEND just click on the LEARN... button to
 manually assign an external controller that you have set up in the Reaper Controller
@@ -122,31 +120,27 @@ Also from this page by clicking on the MOD... button of an automatable parameter
 the background, quick and dirty way to spatialise live inputs sources with autopan
 type effects for example.
 
-
-#### �
-
+![](../../include/SpatRevolution_UserGuide_-253.jpg)
 
 **Setting up Spat Return in Reaper**
 
 Now we want to render that scene from the Room to disk as an interleaved 3rd Order HOA, for example. From the formula in section 6.45, we can calculate that
 3HOA3D needs 16 channels.
 
-#### �
+![](../../include/SpatRevolution_UserGuide_-255.jpg)
 
 First of all set up a Track in Reaper that can handle 16 channels at once. Then add a
 Spat RETURN plug-in on that track. It should automatically inherit the channel
 count, if not do it manually using the IO config of the plug-in, available from the
 little cog wheel in the top corner of Spat RETURN.
 
-
-#### �
+![](../../include/SpatRevolution_UserGuide_-257.jpg)
 
 Enable the Local Audio Path and you should see a Return output module appear in
 the Spat signal graph. Connect it to the 3HOA3D stream output from the Room (or
 Rooms in a mixer/transcoder) and it should inherit the format.
 
-#### �
-
+![](../../include/SpatRevolution_UserGuide_-259.jpg)
 
 Now it is necessary to make Reaper record the software OUTPUT of the audio track
 
@@ -154,13 +148,13 @@ Now it is necessary to make Reaper record the software OUTPUT of the audio track
 plug-in so it will _not_ appear at the _Inputs_ list of the Track. Right click on the record
 arm button on the track, and the Track record contextual menu will appear.
 
-#### �
+![](../../include/SpatRevolution_UserGuide_-261.jpg)
 
 
 Arm the track to record, press play and render the scene to a 3HOA3D interleaved
 16 channel WAV file (avoid using FLAC for higher than 8 channels)
 
-#### �
+![](../../include/SpatRevolution_UserGuide_-263.png)
 
 The same process can be followed to render any Channel Based or other stream
 type from Spat to disk for further composition, mastering or final delivery.

@@ -1,6 +1,6 @@
 # 8.4 Reverb General
 
-#### �
+![](../../include/SpatRevolution_UserGuide_-150.jpg)
 
 **Reverb Enabled**
 

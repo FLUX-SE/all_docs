@@ -1,6 +1,6 @@
 # 9.11 Barycentric
 
-#### �
+![](../../../include/SpatRevolution_UserGuide_-181.jpg)
 
 These rotational transformations will only work on a virtual source that consists of
 more than one emitter in a grouped channel based arrangement. They will also

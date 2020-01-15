@@ -11,7 +11,7 @@ loudspeakers and can even be reliable on relatively asymmetric setups.
 Three important dependencies to consider when using VBAP;
 
 1. Speakers must be placed _around_ the listening position.
-2. Speakers ideally should be equidistant from the listening position^2
+2. Speakers ideally should be equidistant from the listening position*
 3. 2D Speakers should be on the same horizontal plane as the ears
 4. VBAP works best when the listening room is not very reverberant
 
@@ -27,6 +27,6 @@ sounds using _spread_.
 
 > ★ Widen a VBAP point source by increasing the Spread source parameter.
 
-(^2) See section 4.5 the speaker Alignment feature can give the impression that the actual
+*See section 4.5 the speaker Alignment feature can give the impression that the actual
 speakers are equidistant even when they are not
 

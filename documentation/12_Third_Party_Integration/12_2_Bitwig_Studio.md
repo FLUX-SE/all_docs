@@ -5,7 +5,7 @@ Along with its highly animated and intuitive graphic interface, it offers well d
 designers have included a complete suite of powerful and great sounding native
 effects and digital instruments, with many performance and modulation features for many users, its the parameter modulators and their well designed routing system that makes it compelling to create music and sound design in BitWig.
 
-#### �
+![](../../include/SpatRevolution_UserGuide_-265.png)
 
 
 **Setting Up Sync in BitWig**
@@ -16,25 +16,22 @@ In Spat you do this in the preferences and in Bitwig you do in the audio engine 
 preferences by quitting and restarting both applications to get the correct green
 sync status between the apps.
 
+![](../../include/SpatRevolution_UserGuide_-266.jpg)
 
-#### �
-
-#### �
-
+![](../../include/SpatRevolution_UserGuide_-268.png)
 
 **Setting Up Tracks in BitWig**
 
 One good way to work with Bitwig and Spat together, is to set Bitwig tracks to output their audio to _Effect Track_ types - they are like Aux busses in other software you do that routing from an audio track output assignment settings.
 
-#### �
-
+![](../../include/SpatRevolution_UserGuide_-270.jpg)
 
 **Setting Up Spat SEND in BitWig**
 
 Put the Spat SEND plug-ins on individual _Effect Tracks_ , enable the local audio path
 with **THRU** set to off, so all audio streams are rendered to output in Spat.
 
-#### �
+![](../../include/SpatRevolution_UserGuide_-272.jpg)
 
 Like in all Local Path Audio workflows, you should see Spat SEND inputs appearing
 in the Spat Environment Setup graph which relate directly to the plug-ins hosted in
@@ -48,7 +45,7 @@ you will see all the parameters of Spat sources available as dials. Use the Bitw
 ( + ) to open the Device Parameter Modulators and assign the many and varied
 modulation sources to control Azimuth, Distance or other Source Parameters.
 
-#### �
+![](../../include/SpatRevolution_UserGuide_-274.jpg)
 
 **Setting Up Controllers in BitWig**
 
@@ -72,7 +69,7 @@ Memory_. It is available by right-clicking anywhere in the background of the sig
 graph editor. A pop-up menu will appear with various options and shortcuts. Scroll
 to the bottom and choose _Help/Clean Shared Memory_
 
-#### �
+![](../../include/SpatRevolution_UserGuide_-276.png)
 
 If this command is executed, Spat **and** the plug-in host will then need to be restarted.
 

@@ -13,5 +13,5 @@ in your DAW. The software RETURN workflow offers an easy way to render the spati
 > ★ Create multiple output routes to capture Ambisonic recordings at
 the same time as sound system specific rendering
 
-#### �
+![](../../include/SpatRevolution_UserGuide_-126.jpg)
 

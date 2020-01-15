@@ -1,6 +1,6 @@
 # 8.6 Room Response Parameters
 
-#### �
+![](../../include/SpatRevolution_UserGuide_-154.jpg)
 
 _Early_ refers to _Early Reflections_ stage of the Room response which is one of the
 most significant stages involved in our rapid aural perception of spatial properties

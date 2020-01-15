@@ -25,7 +25,7 @@ guarantee correct sync in this scenario. Proceed with caution if this is unavoid
 In simple projects, when having a single return plugin on master track, you should
 not encounter any sync issue as long as each SEND track is routed to the master.
 
-#### �
+![](../include/SpatRevolution_UserGuide_-346.png)
 
 
 **Single RETURN on an AUX track**
@@ -33,7 +33,7 @@ not encounter any sync issue as long as each SEND track is routed to the master.
 Issues may happen when return is inserted on an AUX track. Make sure that each
 SEND track is routed to the AUX track (RETURN track) using AUX send (see example below).
 
-#### �
+![](../include/SpatRevolution_UserGuide_-347.png)
 
 > ★ You might achieve the same by routing the track outputs to a buss
 
@@ -47,8 +47,7 @@ example, we added a 'dummy' track, that avoids using several AUX sends on the
 The 'dummy' AUX track is routed to all the RETURN tracks (using AUX send)
 Then, simply route all your SEND tracks to this 'dummy' track (using aux send).
 
-#### �
-
+![](../include/SpatRevolution_UserGuide_-349.png)
 
 **Independent Dry and Wet Signals**
 
@@ -58,8 +57,7 @@ and insert the send plugins on these AUX tracks.
 
 This way, you keep the dry signal on the audio track's output.
 
-#### �
-
+![](../include/SpatRevolution_UserGuide_-351.png)
 
 **Clearing Shared Memory**
 
@@ -75,7 +73,7 @@ Memory_. It is available by right-clicking anywhere in the background of the sig
 graph editor. A pop-up menu will appear with various options and shortcuts. Scroll
 to the bottom and choose _Help/Clean Shared Memory_
 
-#### �
+![](../include/SpatRevolution_UserGuide_-276.png)
 
 If this command is executed, Spat and the plug-in host will then need to be restarted.
 

@@ -24,3 +24,4 @@ whatever speaker or headphone setups she might have access to - such as binaural
 more or less intact after decoding. Of course, there's still tuning work to do in practice, but it is much better than imagining how things are going to sound, and further more - is a very interesting application of an audio technology with quite a
 legacy behind it. Time for a quick introduction to Ambisonic technology.
 
+![](../../include/SpatRevolution_UserGuide_-043.jpg)

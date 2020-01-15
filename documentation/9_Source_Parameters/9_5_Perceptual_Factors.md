@@ -1,6 +1,6 @@
 # 9.5 Perceptual Factors
 
-#### �
+![](../../include/SpatRevolution_UserGuide_-170.jpg)
 
 This parameter group holds settings affecting the way the sources direct and reverberated acoustic properties are perceived by the listener.
 

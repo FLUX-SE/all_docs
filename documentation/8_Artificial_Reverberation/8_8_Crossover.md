@@ -1,6 +1,6 @@
 # 8.8 Crossover
 
-#### �
+![](../../include/SpatRevolution_UserGuide_-158.jpg)
 
 **Crossover L**
 

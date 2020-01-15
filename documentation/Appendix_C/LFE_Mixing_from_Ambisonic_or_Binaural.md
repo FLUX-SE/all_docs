@@ -1,6 +1,6 @@
 # LFE Mixing from Ambisonic or Binaural Rooms
 
-#### �
+![](../../include/SpatRevolution_UserGuide_-358.jpg)
 
 Currently in Spat Revolution version 1.1, it is necessary to create a mono mix for a
 LFE channel using a workaround method. To get a mono LFE mix that will be
@@ -9,7 +9,7 @@ room. It should not have reverb, and is a special channel based configuration
 called 1.1 - a Mono speaker plus LFE room.
 
 
-#### �
+![](../../include/SpatRevolution_UserGuide_-360.jpg)
 
 As we are not going to have an actual satellite speaker in this room, we need to set
 the unwanted virtual mono speaker gain to -144.5 (silent) inside the 1.1 LFE room.
@@ -23,18 +23,17 @@ from the DAW of course).
 
 
 How to Sum the .1 LFE
-#### �
-
+![](../../include/SpatRevolution_UserGuide_-362.jpg)
 
 
 Use the Parameter Filter to create mixer of LFE sends for each source
-#### �
+![](../../include/SpatRevolution_UserGuide_-364.jpg)
 
 
 Here is another 'rough and ready' suggestion that will yield a separate output route
 for the bass content.
 
-#### �
+![](../../include/SpatRevolution_UserGuide_-366.jpg)
 
 Reduce the output of the HOA room down to MONO using a master transcoder
 module and send that to the sub speaker. The sub-bass signal will have its own

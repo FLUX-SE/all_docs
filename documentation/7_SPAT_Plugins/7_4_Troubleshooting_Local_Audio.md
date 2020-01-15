@@ -4,7 +4,7 @@ If you see red indicators on SEND and RETURN modules in Spat, and the Status bar
 is indicating dropped sync, then it is most likely to have a mismatch in Frame size
 or sample rate, or CPU performance is overloading.
 
-#### �
+![](../../include/SpatRevolution_UserGuide_-138.png)
 
 Frame size ( sometimes called Buffer Size or Block Size) should be matched in the
 host DAW and Spat Revolution. If the audio processing is too demanding for your
@@ -17,8 +17,7 @@ If you are experiencing lost sync when using Local Audio:
 3. Change the block size in your host DAW to match the new setting
 4. Reopen Spat Revolution
 
-
-#### �
+![](../../include/SpatRevolution_UserGuide_-140.jpg)
 
 There are also some performance preferences that may help in the case that your
 host machine CPU is overloading and causing audio glitches.

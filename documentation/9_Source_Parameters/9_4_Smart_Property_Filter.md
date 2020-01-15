@@ -6,5 +6,5 @@ Type "azimuth elevation distance " in the filter box for example, and you will s
 faders appear for only these properties, grouped for each of the sources as
 demonstrated in the following screenshot.
 
-#### �
+![](../../include/SpatRevolution_UserGuide_-168.jpg)
 

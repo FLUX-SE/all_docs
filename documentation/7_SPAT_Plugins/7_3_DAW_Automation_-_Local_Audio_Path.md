@@ -8,7 +8,7 @@ In answer to this challenge, Flux have created three plugins for AU, VST and AAX
 hosts. The Spat Plug-ins offer a straightforward way to integrate the Spat Revolution
 spatialisation environment with other digital audio workstation environments - _running on the same machine._
 
-#### �
+![](../../include/SpatRevolution_UserGuide_-132.jpg)
 
 **Spat Send**
 
@@ -38,13 +38,13 @@ You can configure these settings in the Spat Revolution Preferences, and matchin
 there is an IO configuration setting inside each plug-in, accessible from the small
 'cogs' icon.
 
-#### �
+![](../../include/SpatRevolution_UserGuide_-134.jpg)
 
 Set the IO Channel Count for each of the plug-ins this way. Each Plug-In instance
 can carry up to 64 channels to and from Spat. Once you have selected the channel
 count, _Enable_ the software routing using the _Local audio path_ switch.
 
-#### �
+![](../../include/SpatRevolution_UserGuide_-136.jpg)
 
 If Spat is running, then a SEND or RETURN IO module will automatically appear in
 the _Environment Setup_ labelled with the _Track Name_ of the Spat plug-in, and set to

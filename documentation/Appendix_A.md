@@ -8,16 +8,16 @@ the same third party network interface (NIC) of the BlackTrax server hardware.
 In the BlackTrax software, press on the output configuration button or access
 output configuration via the menu bar in the Settings section. Shortcut Ctrl+T
 
-#### �
+![](../include/SpatRevolution_UserGuide_-324.jpg)
 
-#### �
+![](../include/SpatRevolution_UserGuide_-326.jpg)
 
 In the Output Configuration window, you will need to create with the + sign 1 (or
 multiple if running a main and a back up Spat computer engine) output that will be
 sending tracking RTTrPM data to Spat. Clicking the + sign will give you an edit window
 
 
-#### �
+![](../include/SpatRevolution_UserGuide_-328.jpg)
 
 In the edit window, you will first label you Output to the desired name (Ex: Spat
 Main). Type of of output will be RTTrPM, the third party motion protocol of BlackTrax.
@@ -35,7 +35,7 @@ the BlackTrax system and the default port preconfigured into Spat software.
 Press Apply and you are set with this step.
 
 
-#### �
+![](../include/SpatRevolution_UserGuide_-330.jpg)
 
 Pressing the Advanced button will give you some advanced option. Your default
 Coordinate System should be Stage. You can apply these settings.
@@ -45,26 +45,24 @@ In the Active Output window, select you Spat Main output. On the bottom right,
 select the Beacon you would like to have data sending and press Enable Selected.
 You can multi-select when pressing the CTRL key or select all with CTRL+A
 
-
-#### �
+![](../include/SpatRevolution_UserGuide_-332.jpg)
 
 When done Like with all operations with BlackTrax, you want to Apply the changes
 to the system. You can at this point close the Output Configuration window and go
 back to the main BlackTrax page. You will want to apply the changes to the system
 
-#### �
+![](../include/SpatRevolution_UserGuide_-334.jpg)
 
 You can confirm that you are actually sending data by going back to the Output
 Configuration page. The status will give you this information
 
-#### �
-
+![](../include/SpatRevolution_UserGuide_-336.jpg)
 
 Now let’s go and configure the Spat software. In the preference page accessible by
 clicking on the top right button you can scroll down to the BlackTrax preference
 section
 
-#### �
+![](../include/SpatRevolution_UserGuide_-338.jpg)
 
 You can from there, Enable BlackTrax RTTrPM tracking, Select the amount of Max
 Beacon you system may need (1, 2, 4, 8, 16, 24, 32 or more), Select the network interface you are using on your computer for the BlackTrax integration (Or leave to
@@ -78,8 +76,7 @@ want for this audio source). The list will be based on your Max Beacon preferenc
 It is possible to have the same Index for multiple source providing the ability to
 have multiple sources track a single beacon
 
-
-#### �
+![](../include/SpatRevolution_UserGuide_-340.jpg)
 
 Your second option is to assign a Beacon ID to an actual room in order to have the
 listener position tracked. Selecting a room will give you the room menu options. In
@@ -89,11 +86,9 @@ your Max Beacon preference. A Tracking Scale setting is as well provide which
 would allow to scale the incoming data to adjust to your speaker output setup size
 if need b
 
-#### �
-
+![](../include/SpatRevolution_UserGuide_-342.jpg)
 
 In the actual room output parameters in the room view, you will also see a tracking
 option become available.
 
-#### �
-
+![](../include/SpatRevolution_UserGuide_-344.jpg)

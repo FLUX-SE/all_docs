@@ -1,6 +1,6 @@
 # 2.4 Installation Options
 
-#### �
+![](../../include/SpatRevolution_UserGuide_-019.jpg)
 
 When you open _Flux:: Center_ you will see a page that lists all _Flux_ products available for you to install. You will also find information about which version you have
 currently installed on your system and which new versions might be available for
@@ -9,10 +9,10 @@ the pull down menus. If you would like to access more installer options such as
 your preferred plug-in format, please click on the gear icon to the top right of the
 header area.
 
-#### �
+![](../../include/SpatRevolution_UserGuide_-021.jpg)
 
 
-#### �
+![](../../include/SpatRevolution_UserGuide_-023.jpg)
 
 This preferences page will allow you to choose various installation options such as
 preferred plug-in formats for your system. Choosing your format and returning to

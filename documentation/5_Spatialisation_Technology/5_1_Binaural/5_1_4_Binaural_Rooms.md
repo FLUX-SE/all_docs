@@ -1,6 +1,6 @@
 # 5.1.4 Binaural Rooms
 
-#### �
+![](../../../include/SpatRevolution_UserGuide_-052.jpg)
 
 
 > ★ For the best Binaural Monitoring set up two rooms, one all Channel

@@ -28,9 +28,7 @@ start with a couple of broad workflow concepts involved in the production of dig
 
 
 > **Virtual scenes are rendered as graphics**
->
 > **on a monitor screen as sounds in a**
->
 > **physical space and as stems to disk.**
 
 Spat Revolution gives you an unprecedented level of control over the position and
@@ -38,5 +36,5 @@ characteristics of virtual sound sources placed in virtual spaces. This is the m
 function of the **Virtual Rooms** editor where you can adjust and visualise the position and acoustic characteristics of virtual sound sources and compose virtual
 scenes with them on screen.
 
-#### �
+![](../../include/SpatRevolution_UserGuide_-006.jpg)
 

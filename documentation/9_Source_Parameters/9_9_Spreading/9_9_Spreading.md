@@ -1,6 +1,6 @@
 # 9.9 Spreading
 
-#### �
+![](../../../include/SpatRevolution_UserGuide_-178.jpg)
 
 **Spread Factor**
 

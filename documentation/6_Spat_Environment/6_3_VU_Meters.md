@@ -8,5 +8,5 @@ Also, notice how the 'wire' that graphically connects Modules in the Set Up sign
 graph dœs not visually change even though it is handling a load of channels.
 
 
-#### �
+![](../../include/SpatRevolution_UserGuide_-078.jpg)
 

@@ -52,28 +52,24 @@ states over a period of time to create smooth transitions. Thus creating movemen
 in time with the VENUE Snapshots. Important to note that all parameters (with time
 value) become available on 4 page tables in the encoder section for the plugin.
 
-
-#### �
-
+![](../../include/SpatRevolution_UserGuide_-312.jpg)
 
 Spat plugin on S6L CKM module – Page 1 of 4
 
-#### �
-
+![](../../include/SpatRevolution_UserGuide_-314.jpg)
 
 **Spat Revolution computer connected to the AVB Port**
 
 Now let’s configure the OSC part of this integration. Although provide files are a
 start template to explore, the OSC settings (plugin and Spat Revolution) are specific to your console and to the Spat Revolution preference
 
-#### �
-
+![](../../include/SpatRevolution_UserGuide_-316.jpg)
 
 Spat Send Plugin in the Plug-Ins rack of VENUE
 
 **Spat Send Plugin setup**
 
-#### �
+![](../../include/SpatRevolution_UserGuide_-318.jpg)
 
 The PI interface dœsn’t have much and it straight forward.
 
@@ -108,7 +104,7 @@ let’s set up your preferences in Spat Revolution preferences page :
 
 **Spat OSC Connections preferences**
 
-#### �
+![](../../include/SpatRevolution_UserGuide_-320.png)
 
 - Set the In IP address by pulling then the menu and choosing the 169.254.x.x
     of your SPAT application computer (or whatever network interface you are
@@ -130,7 +126,7 @@ option as this can help to confirm OSC communication.
 
 **Spat Hardware IO (Audio) preferences**
 
-#### �
+![](../../include/SpatRevolution_UserGuide_-322.png)
 
 - In Devices, please select your core audio device. In this case we are using
     the AVB Core Audio E6 Engine entity in 128 channel mode but this could be

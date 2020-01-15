@@ -8,3 +8,5 @@ case of a grouped source grab any one of the emitters that belong to the group.
 Alternatively, sources can be positioned by manipulating their co-ordinate related
 source parameter controls (see section 9).
 
+![](../../../include/SpatRevolution_UserGuide_-096.jpg)
+

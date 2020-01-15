@@ -5,7 +5,7 @@ inputs into Spat at the top of the setup environment and route to the units phys
 outputs at the bottom of the setup graph - these are labelled as 'Hardware' IO in
 Spat.
 
-#### �
+![](../../include/SpatRevolution_UserGuide_-128.jpg)
 
 Hardware inputs connections could include:
 
@@ -22,5 +22,5 @@ Hardware inputs connections could include:
 Hardware input formats could be mono, stereo or a format with any number of
 channels. Channels could be set up as single virtual sources, or as group multichannel sources using only one input/source module.
 
-#### �
+![](../../include/SpatRevolution_UserGuide_-130.jpg)
 

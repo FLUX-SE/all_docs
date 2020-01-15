@@ -1,7 +1,6 @@
-#### �
+![](../include/LOGO_SPAT-White.png)
 
-#### �
-
+![](../include/SpatRevolution_UserGuide_-002.jpg)
 
 # Flux Spat Revolution
 
@@ -14,9 +13,7 @@
 with contributions from
 Gäel Martinet, Hugo Larin, Vincent Carlier, Thibaut Carpentier, Anders Tveit.
 
-#### �
-
-
+---
 
 **Legal Information**
 

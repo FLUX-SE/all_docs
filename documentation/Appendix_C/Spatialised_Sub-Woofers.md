@@ -1,6 +1,6 @@
 # Spatialised Sub-Woofers
 
-#### �
+![](../../include/SpatRevolution_UserGuide_-356.jpg)
 
 In a venue or a system that has sub-woofers in the corners or at particular locations,
 sometimes it is a good idea to use them all independently. Here is a suggested set

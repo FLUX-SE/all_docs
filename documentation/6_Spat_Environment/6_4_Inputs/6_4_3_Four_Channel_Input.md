@@ -3,7 +3,7 @@
 The next significant channel count that needs disambiguation from the user, is a
 four channel stream.
 
-#### �
+![](../../../include/SpatRevolution_UserGuide_-082.jpg)
 
 A four channel stream could contain the format of a four speaker Channel Based
 formats ( QUAD , 4.0 , LCRS ) but could also contain different formats of interleaved

@@ -10,7 +10,7 @@ a Channel Based room, by the _Speaker Arrangement_ pull down menu. All Channel
 Based speaker layout presets are stored, duplicatable and editable in the **Custom
 Speaker Configuration** editor.
 
-#### �
+![](../../include/SpatRevolution_UserGuide_-035.jpg)
 
 Spat Revolution can accept real world measurements which you have entered
 manually, and can save this system as a speaker arrangement preset to be used in
@@ -22,7 +22,7 @@ can enter Angles, to map the model in Polar space, and Spat will calculate Carte
 (0,0,0) at the Listener Position, then Spat Revolution will take care of the polar
 co-ordinates.
 
-#### �
+![](../../include/SpatRevolution_UserGuide_-037.jpg)
 
 In addition, it can also use the measurements to compute the optimum delays and
 gains for better spatial results on a custom speaker configuration. This is an advanced speaker management technique made easily accessible by a single press
@@ -42,11 +42,11 @@ between listener position and virtual speakers in a channel based configuration.
 
 **Before Alignment Compute**
 
-#### �
+![](../../include/SpatRevolution_UserGuide_-039.jpg)
 
 **After Alignment Compute**
 
-#### �
+![](../../include/SpatRevolution_UserGuide_-041.jpg)
 
 A detailed tutorial on advanced scripting of Custom Speaker Configurations using
 the Python language is available on line at the Flux:: support website.

@@ -12,8 +12,7 @@ An interesting difference between DBAP and KNN is that the user gets manual cont
 called _Nearest Neighbour Spreading_. It sets a maximum limit to the number of
 speakers that the algorithm can use as neighbours - the parameter becomes available as a continuously variable percentage _for each virtual source_ in a Spat room.
 
-#### �
-
+![](../../../include/SpatRevolution_UserGuide_-064.jpg)
 
 What makes this particularly interesting is that different sources can activate less or
 more of the sound system dynamically and in a very smooth way. For example, one

@@ -15,5 +15,5 @@ distance of 17 cm between the two capsules. Also known as **ORTF**.
 > tracking techniques. Try them on close miked sources or any mono
 > source, to get a realistic stereo image.
 
-#### �
+![](../../../include/SpatRevolution_UserGuide_-066.jpg)
 

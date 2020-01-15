@@ -1,6 +1,6 @@
 # 9.12 Options
 
-#### �
+![](../../../include/SpatRevolution_UserGuide_-183.jpg)
 
 Finally, there are some options available for each source.
 

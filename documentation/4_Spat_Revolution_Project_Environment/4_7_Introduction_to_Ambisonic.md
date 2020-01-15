@@ -11,7 +11,7 @@ Ambeo, Coresound TetraMic and more. Alternatively, a sound field can be synthesi
 a virtual 3D sound environment by placing the sources at locations in a virtual 3
 dimensional field.
 
-#### �
+![](../../include/SpatRevolution_UserGuide_-045.jpg)
 
 In the simplest form of Ambisonic - the 1st order ( also called **B-format** ) - only 4
 channels is needed to represent a full 3D sound. The 4 channels or spherical components W, X, Y and Z resemble the pressure patterns found in an omni microphone (W) and three figure-of-8 microphones for left/right (Y), front/back (X) and
@@ -26,9 +26,9 @@ the chosen decoder.
 When Ambisonic is played back on speakers all the speakers contribute to the directional content, what one is hearing is not the sound coming from a specific
 speaker but from a specific direction.
 
-#### �
+![](../../include/SpatRevolution_UserGuide_-047.jpg)
 
-> Overview of a 5 HOA 3D Ambisonic File created by Tine Surell Lange
+Overview of a 5 HOA 3D Ambisonic File created by Tine Surell Lange
 
 Ambisonic was originally developed by the late British mathematician and sound
 engineer Michæl Gerzon and others in the 1970s. Although it was a commercial
@@ -39,6 +39,7 @@ getting a new renaissance being a perfect format for such applications.
 If you want to learn more about Ambisonic and its mathematical foundation here
 are some good starting points:
 
-https://www.researchgate.net/publication/280010078_Introduction_to_Ambisonics
+[https://www.researchgate.net/publication/280010078_Introduction_to_Ambisonics](https://www.researchgate.net/publication/280010078_Introduction_to_Ambisonics)
+
 [http://flo.mur.at/writings/HOA-intro.pdf](http://flo.mur.at/writings/HOA-intro.pdf)
 

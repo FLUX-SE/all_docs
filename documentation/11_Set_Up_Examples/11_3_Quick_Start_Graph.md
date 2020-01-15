@@ -6,5 +6,5 @@ row, add some outputs on the bottom row. Select all and choose _Connect_. A star
 
 See example below.
 
-#### �
+![](../../include/SpatRevolution_UserGuide_-205.jpg)
 

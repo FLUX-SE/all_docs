@@ -16,12 +16,12 @@ types projects.
 
 **_Setup View_**
 
-#### �
+![](../../include/SpatRevolution_UserGuide_-209.png)
 
 
 **_Room View_**
 
-#### �
+![](../../include/SpatRevolution_UserGuide_-211.jpg)
 
 - Select All ( _Command-A_ )
 - _Generate colours_
@@ -32,12 +32,12 @@ types projects.
 
 **_Setup View_**
 
-#### �
+![](../../include/SpatRevolution_UserGuide_-213.jpg)
 
 
 **_Room View_**
 
-#### �
+![](../../include/SpatRevolution_UserGuide_-215.jpg)
 
 - Using _Scale_ and natural distance drop off to mix
 - Using _Aperture_ , _Filters & Perceptual Factors_ to mix
@@ -48,12 +48,12 @@ types projects.
 
 **_Setup View_**
 
-#### �
+![](../../include/SpatRevolution_UserGuide_-217.jpg)
 
 
 **_Room View_**
 
-#### �
+![](../../include/SpatRevolution_UserGuide_-219.jpg)
 
 - Stereo Room with XY Microphone Panning Type
 - Using _Filters Position & Perceptual Factors_ to mix
@@ -64,12 +64,12 @@ types projects.
 
 **_Setup View_**
 
-#### �
+![](../../include/SpatRevolution_UserGuide_-221.jpg)
 
 
 **_Room View_**
 
-#### �
+![](../../include/SpatRevolution_UserGuide_-223.jpg)
 
 - Design a new sound stage acoustic to up-mix into
 - Mix using Source Gains, _Barycentric_ and _Radiation_

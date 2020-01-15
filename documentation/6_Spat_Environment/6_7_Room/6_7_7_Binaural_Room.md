@@ -18,5 +18,5 @@ headphone output.
 > ★ For the best Binaural Monitoring try setting up two rooms, one all
 Channel Based going to speakers and one Binaural for your 3D headphone mix.
 
-#### �
+![](../../../include/SpatRevolution_UserGuide_-052.jpg)
 

@@ -14,8 +14,7 @@ When you have selected an ad-hoc group using the shift-click technique, you can
 then pop-up the _Source Parameter_ panel by clicking on the property panel header
 'fold arrow' as shown in the screenshot below.
 
-#### �
-
+![](../../include/SpatRevolution_UserGuide_-166.jpg)
 
 Any Source Parameter variables you adjust manually will assign that same setting
 on all selected sources in the group. A barycentric will then become practical to

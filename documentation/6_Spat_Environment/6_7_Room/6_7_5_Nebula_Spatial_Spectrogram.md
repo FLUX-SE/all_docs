@@ -3,8 +3,7 @@
 _Nebula_ is a technology adapted from our flagship **Flux PURE Analyzer System** a
 suite of highly regarded professional mastering and mixing visualisation tools.
 
-#### �
-
+![](../../../include/SpatRevolution_UserGuide_-100.jpg)
 
 Screeshot from a Flux Pure Analyzer session
 
@@ -33,6 +32,6 @@ to the surround sound field radius or sphere. Past analysis frames are progressi
 which gives the graphic display increased legibility and its characteristic 'nebulous'
 quality.
 
-#### �
+![](../../../include/SpatRevolution_UserGuide_-102.jpg)
 
 

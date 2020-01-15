@@ -10,7 +10,7 @@ co-ordinates of (0,0,0) in relation to the speaker positions. In Spat Revolution
 optimum listening area is represented by the dummy head and the inner circle that
 surrounds it.
 
-#### �
+![](../../include/SpatRevolution_UserGuide_-058.jpg)
 
 
 The dummy head indicates the _Listener Position_. In SPAT the _Listener Position_ is actually a bit more useful than just an indication of the Sweet Spot. In general it is
@@ -34,7 +34,7 @@ speaker distributions. We will get to them shortly.
 
 > ★ The Listener Position can be moved in a Spat Revolution room.
 
-#### �
+![](../../include/SpatRevolution_UserGuide_-060.jpg)
 
 In certain advanced situations which might combine position tracking systems with
 realtime binaural audio it is even possible to transform the _Listener Position_ in SPAT.

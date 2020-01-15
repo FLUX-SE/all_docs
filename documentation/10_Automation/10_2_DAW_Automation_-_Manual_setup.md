@@ -4,7 +4,7 @@ When you are not using the local audio path workflow, and instead working direct
 
 The first step is to go to the _Spat Preferences_ and _Enable OSC_
 
-#### �
+![](../../include/SpatRevolution_UserGuide_-191.jpg)
 
 You then need to set up an OSC port and host route, in order to connect with Spat
 plug-ins via OSC. The port and host should match that of the Spat plug-ins. If you
@@ -19,7 +19,7 @@ to identify which Room you wish to control
 !> Some systems require you to press TAB key and not ENTER after
 editing a field in the Plug-in
 
-#### �
+![](../../include/SpatRevolution_UserGuide_-193.jpg)
 
 
 > ★ All SEND plug-in instances in one DAW arrange will have the same IP

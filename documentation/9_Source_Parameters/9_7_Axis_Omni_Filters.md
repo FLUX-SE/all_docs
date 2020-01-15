@@ -1,6 +1,6 @@
 # 9.7 Axis Omni Filters
 
-#### �
+![](../../include/SpatRevolution_UserGuide_-174.jpg)
 
 These two spectral processors can be considered as being equalisers that have
 been especially designed for virtual sound emitters simulated in virtual spaces.

@@ -14,7 +14,7 @@ now.
 
 **Film with Multichannel Audio**
 
-#### �
+![](../../include/SpatRevolution_UserGuide_-296.jpg)
 
 If you are making a screening for a client or an audience and do not want to go
 down the Dolby DCP route, then this is a simple way to do it in QLab. All the stems
@@ -38,7 +38,7 @@ To do this, first open your QLab project with leaving Spat Revolution applicatio
 close and go to the Workspace Settings in QLab. Click the Audio Section then
 choose and Audio Patch to Edit by clicking on the Edit Patch section.
 
-#### �
+![](../../include/SpatRevolution_UserGuide_-298.jpg)
 
 Click the Add effect, Scroll to the Flux category and Choose SpatRevolution-Sendx64. The Spat Revolution Send Plug-In User interface will appear with the default
 Local audio path disable. Make sure to initialise the audio and automation path by
@@ -56,7 +56,7 @@ and you will be able to patch the desired output to the desired return busses.
 
 To do this, please press on the Device Outputs tab in QLab.
 
-#### �
+![](../../include/SpatRevolution_UserGuide_-300.jpg)
 
 _1_ Choose either 1 or 2 channel arrangement in the pull down menu.
 _2_ Click the Add effect
@@ -77,27 +77,27 @@ of the show then Network OSC type cues can be sent from QLab to Spat to control
 all aspects of the Spat rendering software. To do this amazing interaction, it is necessary to setup the inter-application OSC communication. It is relatively straightforward.
 In the Spat Revolution preferences make sure the OSC Enable is engaged.
 
-#### �
+![](../../include/SpatRevolution_UserGuide_-302.png)
 
 
 > ★ Enable commands log to view the commands and confirm you are
 receiving data (Shift + F7 will open the log window)
 
-#### �
+![](../../include/SpatRevolution_UserGuide_-304.png)
 
-_1_ change the pulldown from None to In (meaning you are setting a OSC Input to
-Spat)
-_2_ Select the network interface you want to be receiving the commands from. Doing a local integration will require you to choose the localhost / loopback address
+_1_ - change the pulldown from None to In (meaning you are setting a OSC Input to Spat)
+
+_2_ - Select the network interface you want to be receiving the commands from. Doing a local integration will require you to choose the localhost / loopback address
 127.0.0.1
-_3_ Set the Port # to the corresponding QLab Network Patch Output Port. In this
-case 53000
-_4_ Choose if you want OSC only for Sources or Add Room to permit to change
-Room Parameters
+
+_3_ - Set the Port # to the corresponding QLab Network Patch Output Port. In this case 53000
+
+_4_ - Choose if you want OSC only for Sources or Add Room to permit to change Room Parameters
 
 
 **QLab Network Cues**
 
-#### �
+![](../../include/SpatRevolution_UserGuide_-306.jpg)
 
 On the QLab side, use the Network settings to setup multiple OSC destinations.
 One of them can be SPAT - another could be Reaper or OSCulator or whatever
@@ -107,10 +107,9 @@ You can now send OSC network cues from QLab to Spat, and control _ALL PARAMETERS
 get the hang of it, this is really very straightforward. As of QLab4 there is a time interpolated 2D fade system for creating spatial XY gestures or similar multi parameter control ideas.
 
 
-#### �
+![](../../include/SpatRevolution_UserGuide_-308.jpg)
 
-> ★ Flux team have created a full command template for QLab available
-on request
+> ★ Flux team have created a full command template for QLab available on request
 
 
 **Clearing Shared Memory**
@@ -129,7 +128,7 @@ Memory_. It is available by right-clicking anywhere in the background of the sig
 graph editor. A pop-up menu will appear with various options and shortcuts. Scroll
 to the bottom and choose _Help/Clean Shared Memory_
 
-#### �
+![](../../include/SpatRevolution_UserGuide_-276.png)
 
 When this command is executed, **both** Spat and the plug-in host will then need to
 be restarted.

@@ -4,7 +4,7 @@ It might be self-evident, but it's worth pointing out that Spat Revolution itsel
 not play audio files. It handles the spatialisation and rendering of signal sources
 routed through it in realtime like some kind of vast spatial sound mixing console.
 
-#### �
+![](../../../include/SpatRevolution_UserGuide_-080.jpg)
 
 The top row of the signal graph represents the input sources that will provide the
 source content for the current project. You add an input module using the (+) icon,

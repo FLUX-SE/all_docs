@@ -1,9 +1,9 @@
 # 6.7.6 Virtual Room Concepts
 
-#### �
+![](../../../include/SpatRevolution_UserGuide_-104.jpg)
 
 
-**Simulated Speaker Diffusion**
+## Simulated Speaker Diffusion
 
 When a Virtual Room is Channel Based, the speaker configuration layout is modelled as fixed speakers which appear in the Room graphically according to their
 programmed positions ( _see section 4.5 Custom Speaker Configuration_ ) - you will
@@ -46,6 +46,7 @@ binaural monitor or a dedicated, parallel, binaural room as mentioned in section
 5.1. This is workable enough to allow you to keep on arranging a mix and spatial
 composition 'off-location' without too many surprises when it comes to the final result.
 
+![](../../../include/SpatRevolution_UserGuide_-106.jpg)
 
 > ★ Channel Based simulations render localisable virtual sources by
 controlling the virtual speaker array in a similar way that panning-laws
@@ -53,9 +54,7 @@ do on real world physical systems. They do not model the positions of
 virtual sound sources, but instead control the gains of the virtual
 speakers in the model to render perceived positions.
 
-#### �
-
-**Multichannel Virtual Sources**
+## Multichannel Virtual Sources
 
 All inputs to a Room must be in some kind of Channel Based format, even when
 the Room is an Ambisonic or Binaural Room. Even a Mono source can be considered as a channel based signal of one channel (see section 6.41). For any source
@@ -65,7 +64,7 @@ source in a discrete self-contained system. The sound, size and positioning of t
 configuration can now be manipulated as a unified group.
 
 
-#### �
+![](../../../include/SpatRevolution_UserGuide_-108.jpg)
 
 ## Speakerless Virtual Rooms - Binaural and Ambisonic
 
@@ -94,7 +93,7 @@ applies in the virtual acoustic space. Instead, sound emitters grow wings and be
 space, contributing even more to the cultural experience of music.
 
 
-**Upmixing and Downmixing**
+## Upmixing and Downmixing
 
 One workflow that is often required, is that of re-mixing a pre-rendered channel
 based mix of a particular format, to get that mix expressed into a different channel
@@ -109,7 +108,7 @@ Here is an example of that in the Room view. Notice how it is possible to re-bal
 A room simulation reverb is also playing a significant role in the cross-format mixing process, as the reverb simulation adds new spatial information to the mix,
 which might help get a more immersive result in the output format.
 
-#### �
+![](../../../include/SpatRevolution_UserGuide_-110.jpg)
 
 This is an example of a multiple format changing signal graph, which changes format in two ways, to provide an alternative result. Firstly, by transcoding the output
 of an HOA Room into various other Channel Based formats, but also a room that
@@ -117,13 +116,13 @@ simulates how the target speaker configuration might render the source speaker
 configuration. Both methods will give different results and the choice is up to the
 designer.
 
-#### �
+![](../../../include/SpatRevolution_UserGuide_-112.jpg)
 
 Options are available when _transcoding_ (aka _decoding_ ) from a High Order Ambisonic room into a Channel Based stream. These decoding options will affect the
 sound in quite different ways - luckily it is possible to listen to the results of different Ambisonic decoding options in realtime. More about this in section 6.7.8 which
 details more on the HOA Room concept.
 
-**Virtual Stereo Diffusion and Microphones**
+## Virtual Stereo Diffusion and Microphones
 
 When a Virtual Room is set to be Channel Based / Stereo it will model a stereo
 speaker system in the virtual room acoustics _and_ virtualise stereo microphones in
@@ -133,7 +132,7 @@ broadcast or playback. The microphone modes were described in section 5.68 and
 become available under the Panning Type menu of the Room when it is set to
 Channel Based Stereo.
 
-#### �
+![](../../../include/SpatRevolution_UserGuide_-114.jpg)
 
 You will notice how the Spat Reverberation handles the stereo image naturally, because it is modelling the entire mix scene in the acoustic context of a Virtual Room,
 rather than the conventional 'voltage controlled' left-right pan pot that all audio

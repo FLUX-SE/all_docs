@@ -1,6 +1,6 @@
 # 6.5.1 Transcoding Matrix
 
-#### �
+![](../../../include/SpatRevolution_UserGuide_-086.jpg)
 
 In the case where an incoming Channel Based stream needs transcoding into an
 outgoing Channel Based stream which has less channels, the IO Matrix is used to

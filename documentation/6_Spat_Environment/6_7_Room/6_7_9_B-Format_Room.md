@@ -7,7 +7,7 @@ decoded quickly and efficiently in realtime. If you are producing content that i
 The output configuration is preset for B-Format Room, although it is possible to
 change to 2D or 3D.
 
-#### �
+![](../../../include/SpatRevolution_UserGuide_-120.jpg)
 
 In the classic Furse-Malham (FuMa) sorting system for 1st order is: WXYZ. W is the
 mono sum and it is carried on channel 1. In the ACN channel order convention a

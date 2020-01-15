@@ -3,7 +3,7 @@
 There is a lot of flexibility in the OSC Connections matrix. You find it in the Spat
 Preferences page. It is great for setting up networking, given the possibility of multiple network destination, source and message configurations.
 
-#### �
+![](../../include/SpatRevolution_UserGuide_-195.png)
 
 The matrix switches serve as a way to filter some messages out, if you are not using
 them or to alter the message format if you need to. For example, if you do not want

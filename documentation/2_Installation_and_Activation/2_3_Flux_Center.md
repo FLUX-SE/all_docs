@@ -1,6 +1,6 @@
 # 2.3 Flux Center
 
-#### �
+![](../../include/SpatRevolution_UserGuide_-017.jpg)
 
 Next step is to get the installers for the _Flux_ products you are licensed for. All the
 software and plugins from _Flux_ are available via our custom _Flux:: Center_ software.

@@ -37,7 +37,7 @@ data stream - so therefore it is quite possible to record and HOA stream to disk
 without decoding. This is a powerful way to work, as the HOA format encodes full
 sphere spatial information which can then be decoded/transcoded at a later stage.
 
-#### �
+![](../../../include/SpatRevolution_UserGuide_-118.jpg)
 
 
 In an HOA Room, the Order and other Ambisonic encoding parameters can be

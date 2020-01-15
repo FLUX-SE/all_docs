@@ -1,6 +1,6 @@
 # 5.1.3 Binaural Monitoring Module
 
-#### �
+![](../../../include/SpatRevolution_UserGuide_-050.jpg)
 
 In the _Environment Setup_ of Spat Revolution, you will find a module dedicated to
 Binaural Monitoring. Its purpose is to monitor any kind of speaker setup using

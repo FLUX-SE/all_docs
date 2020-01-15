@@ -2,7 +2,7 @@
 
 Almost all parameters of Spat Revolution can be continuously controlled in realtime using Spat's high resolution _automated control_ features.
 
-#### �
+![](../../include/SpatRevolution_UserGuide_-185.jpg)
 
 Control data can be sent via _Open Sound Control_ ( **OSC** ) or through multiple SPAT
 plug-ins in your **DAW**. Parameter control can be played back from pre-composed
@@ -22,7 +22,7 @@ If you are working with algorithmic gesture generators and modulators then your
 controls signals can be easily sent into the Spat Renderer via OSC to distribute and
 control spatial sound sources in realtime using your own control programs.
 
-#### �
+![](../../include/SpatRevolution_UserGuide_-187.jpg)
 
 > ★ **Get creative with spatial sound design using OSC and Spat**
 

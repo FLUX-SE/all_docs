@@ -23,6 +23,4 @@ possible formats:
 - **Mid Side** _(see 6.7.10)_
     - Virtualised MS microphone arrangement
 
-```
-★ Different Virtual Room types can be used in parallel
-```
+> ★ Different Virtual Room types can be used in parallel

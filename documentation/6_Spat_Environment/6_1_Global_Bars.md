@@ -1,6 +1,6 @@
 # 6.1 Global Bars
 
-#### �
+![](../../include/SpatRevolution_UserGuide_-070.jpg)
 
 The Navigation bar appears at the top of all views. As well as links to different editor views and the Preferences, it also offers you the possibility to Mute and UnMute
 Rooms.
@@ -11,5 +11,5 @@ Some inline help also appears here when the mouse moves over elements of the
 SPAT graphical user interface. The _Provide feedback_ button sends a message directly to Flux support which automatically includes your system information for our
 support team.
 
-#### �
+![](../../include/SpatRevolution_UserGuide_-072.jpg)
 

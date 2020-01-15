@@ -4,8 +4,6 @@ The camera angle of the 3D scene can be moved continuously using a **controldrag
 zoom the camera in and out of the scene. Furthermore a change (or resetting) of
 view orientation can be selected from the _View_ pull down menu, to show 'topdown' view of the scene.
 
-#### �
+![](../../../include/SpatRevolution_UserGuide_-098.jpg)
 
-```
 A split screen Top-Front view is also available
-```

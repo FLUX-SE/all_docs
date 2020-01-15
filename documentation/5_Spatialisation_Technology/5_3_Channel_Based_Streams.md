@@ -3,7 +3,7 @@
 Spat Revolution is setup to work with a number of different Input and Output formats. The different IO configurations are represented throughout the _Environment
 Setup_ as _Stream Types_.
 
-#### �
+![](../../include/SpatRevolution_UserGuide_-054.jpg)
 
 We have already covered the two channel Binaural stream type for monitoring and
 final encoding into Binaural format. One of the other important Stream Types is referred to as _Channel Based_. This stream can range from a single channel mono to
@@ -48,7 +48,7 @@ Top Front Left | Back Center | Top Front Left
 Some common Speaker Channel naming conventions
 
 
-#### �
+![](../../include/SpatRevolution_UserGuide_-056.jpg)
 
 The process of matching the correct channel to the correct speaker is absolutely
 vital to the successful rendering of the spatial composition from a SPAT _Virtual

@@ -39,11 +39,6 @@ stage of the authoring and rendering environment. It is good to know that _Spat
 Revolution_ is built with such a high level of technical expertise in such an intuitive
 package.
 
-> **Whatever the scale of your spatialised**
->
-> **audio production, Spat Revolution**
->
-> **makes it simple to craft an impressive**
->
+> **Whatever the scale of your spatialised audio production, Spat Revolution makes it simple to craft an impressive**
 > **and reliable end result.**
 

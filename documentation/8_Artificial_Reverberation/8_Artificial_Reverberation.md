@@ -8,7 +8,7 @@ tuned, scaled and stored. Open the _Artificial Reverberation_ graphical editor b
 clicking on the ( **R** ) index at the bottom of the list of Sources in the left side panel of
 the Room, or entering a room directly from a tab in the top _global bar_.
 
-#### �
+![](../../include/SpatRevolution_UserGuide_-142.jpg)
 
 Internally the Spat Revolution reverb engine models many technical acoustic parameters, but the user interface has been simplified a great deal, to make artificial
 reverb design more straightforward and functional.

@@ -9,7 +9,7 @@ rooms outputting to an _n.1 surround_ speaker arrangement, each source will have
 an individual _LFE Send_ which controls how much of its signal is sent to the LFE
 channel at the output.
 
-#### �
+![](../../include/SpatRevolution_UserGuide_-180.jpg)
 
 This parameter is available inside the Room editor, but also available directly from
 a Source module in the _Environment Setup_ graph.

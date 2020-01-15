@@ -16,5 +16,5 @@ Based mix, an HOA encoded mix and a Binaural mix simultaneously.
 See example below.
 
 
-#### �
+![](../../include/SpatRevolution_UserGuide_-201.jpg)
 

@@ -10,17 +10,17 @@ signal to the correct output. In a virtual sound system, or when channels need t
 remapped, the Matrix will be an invaluable workflow tool. We have found it to be
 much less complicated than trying to handle virtual cables on screen.
 
+![](../../include/SpatRevolution_UserGuide_-031.png)
+
 !> Avoid cable swapping on the loudspeaker setup, use software routing instead
 
-
 > **Spat Revolution simplifies**
->
 > **multichannel configuration in real and**
->
 > **virtual spaces.**
 
-#### �
+![](../../include/SpatRevolution_UserGuide_-033.jpg)
 
 The speaker configuration editor, clear channel labelling and the built-in routing
-matrix system all help to make the process of signal routing, checking and debugging more straight-forward on location, in the virtual mix and in the studio.
+matrix system all help to make the process of signal routing, checking and debugging more straight-forward on location, 
+in the virtual mix and in the studio.
 
