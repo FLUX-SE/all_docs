@@ -1,6 +1,6 @@
-![](../include/LOGO_SPAT-White.png)
+![](/include/LOGO_SPAT-White.png)
 
-![](../include/SpatRevolution_UserGuide_-002.jpg)
+![](/include/SpatRevolution_UserGuide_-002.jpg)
 
 # Flux Spat Revolution
 
