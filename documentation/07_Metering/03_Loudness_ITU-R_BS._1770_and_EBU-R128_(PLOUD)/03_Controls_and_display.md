@@ -5,8 +5,7 @@ The meter display has the following arrangement
 
 * left bar: Momentary <link type="document" target="Loudness">Loudness</link> value
 
-* right bar: Short-term
-<link type="document" target="Loudness">Loudness</link>
+* right bar: Short-term <link type="document" target="Loudness">Loudness</link>
 
 * text overlay: Integrated <link type="document" target="Loudness">Loudness</link> and
 <linktype="document" target="Loudness">Loudness</link> <link type="document" target="Range">Range</link>

@@ -38,7 +38,7 @@ up to the reference.
 
 ## Dolby Dialogue Intelligence
 
-### Dolby Dialogue Intelligence™
+### Dolby Dialogue Intelligence (TM)
 Toggle usage of Dolby Dialogue Intelligence
 speech gate.
 ### Speech threshold

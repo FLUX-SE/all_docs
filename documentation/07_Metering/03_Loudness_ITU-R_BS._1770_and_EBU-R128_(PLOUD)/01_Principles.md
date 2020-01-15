@@ -2,9 +2,7 @@
 ITU-R BS.1170-2 notably defines LU (<link type="document" target="Loudness">Loudness</link> Unit)
 and LUFS (<link type="document" target="Loudness">Loudness</link> Unit, referenced to Full <link
 type="document" target="Scale">Scale</link>) units, which are used by EBU R128, and
-Maximum True
-<link type="document" target="Peak">Peak</link>
-<link type="document" target="Level">Level</link>.
+Maximum True <link type="document" target="Peak">Peak</link> <link type="document" target="Level">Level</link>.
 
 * LU is used for measurements <i>relative</i> to a reference level and measuring range.
 
