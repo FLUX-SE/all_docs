@@ -1,5 +1,5 @@
 # Setup
-![](../../include/Spectrogram Setup.png)
+![](../../include/Spectrogram_Setup.png)
 
 <link type="document" target="Spectrogram">Spectrogram</link>
 setup

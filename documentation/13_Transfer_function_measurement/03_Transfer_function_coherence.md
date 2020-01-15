@@ -35,6 +35,6 @@ magnitude curve is also modulated with the coherence values, which increases rea
 dimming untrustworthy curve portions. In addition to controls and settings identical to those of the
 spectrum magnitude curve, you can toggle the <i>coherence curve</i> on and off with the '<link
 type="document" target="Enable">Enable</link>' switch under '<link type="document"
-                                   target="Coherence"> Coherence</link>' in the settings.
+                                   target="Coherence">Coherence</link>' in the settings.
 
 
