@@ -53,11 +53,11 @@ Madje Malki
 
 Niels Barletta
 
-Jérôme Blondel
+Jerome Blondel
 
 Sergio Valero Garcia
 
-Anthony Bélard
+Anthony Belard
 </td>
 </tr>
 </table>
