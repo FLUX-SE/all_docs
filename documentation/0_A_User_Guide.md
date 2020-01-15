@@ -19,7 +19,7 @@ Gäel Martinet, Hugo Larin, Vincent Carlier, Thibaut Carpentier, Anders Tveit.
 
 First edition of Flux:: Spat Revolution User Guide published November 2018
 
-All writing is protected under copyright ©2018 Cristian Vogel / FLUX SOFTWARE ENGINEERING
+All writing is protected under copyright © 2020 Cristian Vogel / FLUX SOFTWARE ENGINEERING
 
 ---
 Flux Sound and Picture Development is a trademark of Gaël Yvan Son et Developpement.
@@ -34,5 +34,5 @@ FLUX SOFTWARE ENGINEERING
 R.C.S 431 616 770 ORLEANS
 ```
 
-IRCAMTOOLS SPAT Copyright 2018 FLUX SOFTWARE ENGINEERING and IRCAM. All rights reserved.
-SPAT Revolution Copyright 2018 FLUX SOFTWARE ENGINEERING and IRCAM. All rights reserved.
+IRCAMTOOLS SPAT Copyright 2020 FLUX SOFTWARE ENGINEERING and IRCAM. All rights reserved.
+SPAT Revolution Copyright 2020 FLUX SOFTWARE ENGINEERING and IRCAM. All rights reserved.
