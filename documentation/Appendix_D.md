@@ -124,11 +124,11 @@ Frédérick Rousseau
 Gaël Martinet
 
 ```
-Flux:: sound and picture development
+FLUX SOFTWARE ENGINEERING
 Orléans, France, http://www.flux.audio
-Copyright 2018 Flux:: sound and picture development, All Rights Reserved.
+Copyright 2018 FLUX SOFTWARE ENGINEERING, All Rights Reserved.
 ```
-IRCAMTOOLS SPAT and "SPAT Revolution" Copyright 2018 Flux:: sound and picture development and IRCAM. All rights
+IRCAMTOOLS SPAT and "SPAT Revolution" Copyright 2018 FLUX SOFTWARE ENGINEERING and IRCAM. All rights
 reserved.
 
 ```
