@@ -8,7 +8,7 @@ Increasing this value not only requires more processing power, it also increases
 wait for the display to be updated, as the calculations involved need a greater amount of incoming
 audio samples to be processed.
 
-Combining time averaging and a long length setting mean you’ll have to wait 30 seconds or so for the
+Combining time averaging and a long length setting mean you'll have to wait 30 seconds or so for the
 display to stabilize, so you should really do this if you need to or do not mind waiting.
 
 # Time averaging

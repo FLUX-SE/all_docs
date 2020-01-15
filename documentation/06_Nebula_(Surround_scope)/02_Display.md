@@ -62,7 +62,7 @@ the size of individual particles with respect to screen size.
 ## Blur kernel size
 
 <link type="document" target="Controls">Controls</link>
-the radius of the blur effect applied to past particles. Particles are �smeared� more and more
+the radius of the blur effect applied to past particles. Particles are "smeared" more and more
 as they become older, depending on this setting. Naturally, a bigger value increases the
 smearing, at the expense of processing power.
 
@@ -87,4 +87,4 @@ RMS </link> power.
 * Freq. grading: color is modulated by frequency.
 
 # Power color grading
-Determines the start and end colors used with �Power grading� color mode selected.
+Determines the start and end colors used with "Power grading" color mode selected.

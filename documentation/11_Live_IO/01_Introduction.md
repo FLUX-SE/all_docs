@@ -1,5 +1,5 @@
 # Introduction
-The delay finder’s role is to determine the total delay of the signal path, from source to response.
+The delay finder's role is to determine the total delay of the signal path, from source to response.
 Note that this excludes any delays induced by your soundcard and DAW, as these should be compensated for
 and equivalent to zero as explained before. Here we are only concerned with the time taken by
 sound-pressure waves to travel the distance from loudspeakers to the measurement microphone placed at

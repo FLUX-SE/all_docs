@@ -29,9 +29,11 @@ When engaged, the user interface color scheme switches from
 white/grey on black to black/grey on white, for improved readability in an outdoor environment.
 
 ![](../../include/Small_Full_Dark.png)
+
 Reverse color scheme off
 
 ![](../../include/Small_Full_Bright.png)
+
 Reverse color scheme on
 
 ## Layout Shortcuts

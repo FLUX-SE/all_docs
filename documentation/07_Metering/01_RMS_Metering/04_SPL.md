@@ -1,7 +1,7 @@
 # SPL
 ## SPL reference
 
-This is the reference level of the calibrator’s output, indicated on the device itself or in the
+This is the reference level of the calibrator's output, indicated on the device itself or in the
 corresponding datasheet. A typical value is -94dB.
 
 ## SPL trim

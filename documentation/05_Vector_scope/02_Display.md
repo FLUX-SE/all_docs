@@ -26,7 +26,7 @@ the size of individual particles with respect to screen size.
 
 # Blur kernel size
 <link type="document" target="Controls">Controls</link>
-the radius of the blur effect applied to past particles. Particles are �smeared� more and more as
+the radius of the blur effect applied to past particles. Particles are "smeared" more and more as
 they become older, depending on this setting. Naturally, a bigger value increases the smearing, at
 the expense of processing power.
 

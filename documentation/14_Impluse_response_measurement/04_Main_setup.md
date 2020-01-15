@@ -8,7 +8,7 @@ Toggles impulse response live update on and off. Default is on. You can temporar
 impulse response with this button, to examine it in detail at your leisure, without worrying about
 changing external conditions.
 
-Disabling ‘Run’ is equivalent to freezing the measurement, and leaves the averaging buffer as is.
+Disabling ‘Run' is equivalent to freezing the measurement, and leaves the averaging buffer as is.
 
 # Reset
 Resets the impulse response computation, including the averaging buffer.

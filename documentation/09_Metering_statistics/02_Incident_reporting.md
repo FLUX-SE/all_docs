@@ -12,7 +12,7 @@ Incidents setup options
 
 ## Max. incident count
 
-To avoid overloading the display, and eventually, the computer’s memory, there is a limit placed on
+To avoid overloading the display, and eventually, the computer's memory, there is a limit placed on
 the number of registered incidents, which is 2000 by default. If you go above this, it might be a
 good idea to back off the master fader a bit anyway to let that music breathe !
 

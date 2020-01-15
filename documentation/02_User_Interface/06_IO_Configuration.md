@@ -21,7 +21,7 @@ No hardware input/output options are supported for the Pure Analyzer Session.
 ### None
 This disables hardware input and output altogether. This is the recommended
 choice if you do not want to take advantage of Pure Analyzer's built-in audio capabilities, for
-example if you’re working with a SampleGrabber inside a DAW or Avid Venue console setup. With some
+example if you're working with a SampleGrabber inside a DAW or Avid Venue console setup. With some
 sound cards that aren't multi-client capable - meaning only one program can access it at once -
 disabling I/O is necessary to continue using another program simultaneously.
 
@@ -41,7 +41,7 @@ Available sampling rates (hardware specific)
 Sets the sampling rate used internally by the application. When a hardware device is selected, be
 sure to match this to the sampling rate set in the application panel of your soundcard control
 panel. We deliberately chose not to employ resampling, which in our opinion has no place in a
-measurement instrument. Instead we generally advise you to set your soundcard’s sampling rate to
+measurement instrument. Instead we generally advise you to set your soundcard's sampling rate to
 44.1k or 48k, which covers the entire audio hearing range (20-20kHz). Increasing the sampling rate
 above these values increases the processing power require to carry out the computations without any
 benefit for most practical applications.

@@ -10,10 +10,10 @@ Because the software cannot detect whenever you make changes to the analyzed sys
 the <link type="document" target="Reset">Reset</link> button in the setup or wait for the display to
 stabilize before reading the display.
 
-Once your test setup is ready, press the ‘<link type="document" target="Reset">Reset</link>’ button and
+Once your test setup is ready, press the ‘<link type="document" target="Reset">Reset</link>' button and
 wait for the display showing remaining time to disappear, at which point the IR display is ready. When a
 sufficient amount of samples have been accumulated, IR computation goes on as long as the ‘<link
-type="document" target="Run">Run</link>’ button is active, and is updated with new incoming
+type="document" target="Run">Run</link>' button is active, and is updated with new incoming
 samples.
 
 >Make sure the actual impulse response is shorter than the maximum specified time,
