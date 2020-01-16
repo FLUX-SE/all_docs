@@ -1,6 +1,6 @@
 # BitterSweet V3 
 
-![](/include/Bittersweet_00.png)
+![](/include/Bittersweet_00.PNG)
 
 ## Bypass (1)
 
