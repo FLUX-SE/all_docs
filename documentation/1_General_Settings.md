@@ -4,14 +4,12 @@
 
 |                                       |                                               |
 |           ---                         |                       ---                     |
-|   [Bypass](#bypass)                   |    [Mode](#mode)                              |
-|   [Speed](#speed)                     |    [Clip](#clip)                              |
-|   [Lookahead](#lookahead)             |    [Output Gain](#output-gain)                |
-|   [Dynamic](#dynamic)                 |    [Processing Display](#graph)               |
-|   [Frequency Range](#freqency-range)  |    [Geek](#geek)                              |
-|   [Frequency Order](#freqency-order)  |    [Plugin Settings](#plugin-settings)        |
-|   [Static Gain](#static-gain)         |    [Preset Management](#preset-management)    |
-|   [Period](#period)                   |                                               |
+|   [Bypass](#bypass)                   |    [Static Gain](#static-gain)                |
+|   [Speed](#speed)                     |    [Period](#period)                          |
+|   [Lookahead](#lookahead)             |    [Mode](#mode)                              |
+|   [Dynamic](#dynamic)                 |    [Clip](#clip)                              |
+|   [Frequency Range](#freqency-range)  |    [Output Gain](#output-gain)                |
+|   [Frequency Order](#freqency-order)  |    [Processing Display](#graph)               |
 
 ## Bypass
 
