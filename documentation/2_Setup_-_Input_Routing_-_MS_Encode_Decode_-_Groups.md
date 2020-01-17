@@ -1,5 +1,7 @@
 # Setup - Input Routing - MS Encode Decode - Groups
 
+![](../include/Epure_02.png)
+
 ## Setup (17)
 Input Routing, MS Encoder/Decoder, Internal Channels and Groups setup.
 
@@ -26,6 +28,8 @@ example) are applied to all channels in the group (Channels 5 & 6 in the example
 
 > Please note that morphing between two parameter settings using the Morphing Slider (12) affects the settings of
 the Setup section as well.
+
+![](../include/Epure_02.png)
 
 ## Groups (18)
 Select EQ-channel Group.  

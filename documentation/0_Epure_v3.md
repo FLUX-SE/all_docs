@@ -1,5 +1,7 @@
 # Epure v3
 
+![](/include/Epure_01.png)
+
 Epure v3 is a state-of-the-art five-band equalizer designed to provide the absolute finest audio quality within the
 domain of digital audio processing. Built with our proprietary State-Space technology, carefully tuned to preserve
 the optimal signal to noise ratio independent of the parameter settings preventing the signal from deteriorating
