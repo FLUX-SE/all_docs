@@ -1,0 +1,6 @@
+* [Level magic](documentation/0_Level_Magic.md)
+* [General settings](documentation/1_General_Settings.md)
+* [Preset management](documentation/2_Preset_Management.md)
+    * [Preset manager window](documentation/3_Preset_Manager_Window.md)
+* [Specifications](documentation/4_Specifications.md)
+* [Open sound control (osc)](documentation/5_Open_Sound_Control_(OSC).md)
