@@ -1,5 +1,8 @@
 # Alchemist V3 - The Alchemist concept
 
+[Product Page](https://www.flux.audio/project/alchemist-v3/) 
+| [Shop Page](https://shop.flux.audio/en_US/products/alchemist)
+
 ![](/include/Alchemist_00.PNG)
 
 At first, the wideband signal is split into frequency bands by a slope adjustable cross-over. Each band is individually 
