@@ -30,8 +30,7 @@ Default Value: Solera
 - Solera: The Attack setting also controls the integration time for RMS detection. When “Auto” is engaged for the
 delay value, the produced attack time is zero.
 - Solera Feed Backward: The Attack setting also controls the integration time for RMS detection which is done on
-the output of the processor. This mode disables the Delay feature. Note also that the Solera Feed Backward pre-
-vents
+the output of the processor. This mode disables the Delay feature. Note also that the Solera Feed Backward prevents
 to use the external side chain because it’s the processed signal which feed the side chain.
 - Classic Fast: The integration time for RMS detection is 10 ms with no direct relation with the Attack setting. But
 when “Auto” is engaged for the delay value, the produced attack time is zero.
@@ -40,19 +39,16 @@ But when “Auto” is engaged for the delay value, the produced attack time is 
 - Classic Slow: The integration time for RMS detection is 80 ms with no direct relation with the Attack setting. But
 when “Auto” is engaged for the delay value, the produced attack time is zero.
 - Classic Feed Backward Fast: The integration time is 10 ms for RMS detection which is done on the output of the
-processor. This mode disables the Delay feature. Note also that the Feed Backward mode prevents to use the ex-
-ternal
+processor. This mode disables the Delay feature. Note also that the Feed Backward mode prevents to use the external
 side chain because it’s the processed signal which feed the side chain.
 - Classic Feed Backward Medium: The integration time is 40 ms for RMS detection which is done on the output
 of the processor. Note also that the Feed Backward mode prevents to use the external side chain because it’s the
 processed signal which feed the side chain.
 - Classic Feed Backward Slow: The integration time is 80 ms for RMS detection which is done on the output of the
-processor. Note also that the Feed Backward mode prevents to use the external side chain because it’s the pro-
-cessed signal which feed the side chain.
+processor. Note also that the Feed Backward mode prevents to use the external side chain because it’s the processed signal which feed the side chain.
 
 
-These Feed Backward modes have been inspired by vintage hardware architectures. they create a sort of auto regu-
-lation of the processing which produces a naturally beefy sound.
+These Feed Backward modes have been inspired by vintage hardware architectures. they create a sort of auto regulation of the processing which produces a naturally beefy sound.
 
 
 ## Attack (50)
@@ -69,8 +65,7 @@ incoming signal.
 
 Unit: ms - Value Range: 0 ms / 500 ms. Default Value: 0 ms
 
-This parameter is the only one in the time related settings, that is independent per dynamic processor. The com-
-pressor and the expander may have different hold time.
+This parameter is the only one in the time related settings, that is independent per dynamic processor. The compressor and the expander may have different hold time.
 
 Used in the Expander section, this setting allows very precise gating of drum tracks. It can also be used for creative
 purpose on the other dynamic sections.
@@ -82,8 +77,7 @@ Default Value: Auto
 Three release modes are available for the envelop of the dynamic processing.
 - Manual corresponds to the value you have set.
 - Auto enables our specific algorithm to generate a signal dependent value to avoid typical pumping effects.
-- Advanced gives access to two different values for release and to the control of the velocity of the variations be-
-tween the maximum and the minimum release values.
+- Advanced gives access to two different values for release and to the control of the velocity of the variations between the maximum and the minimum release values.
 
 
 ## Release (53)

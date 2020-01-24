@@ -12,8 +12,7 @@ amount parameters, L.I.D. (Level independent Detector) and its threshold adjustm
 transient manager can be inserted pre or post dynamic processing. To achieve a total control on the audio signal, a
 MS management is available on every frequency band.
 
-Then all the frequency bands are summed to rebuild a wideband processed signal. A soft clipper featuring a thresh-
-old for soft knee, and a dry mix control are available.
+Then all the frequency bands are summed to rebuild a wideband processed signal. A soft clipper featuring a threshold for soft knee, and a dry mix control are available.
 
 Alchemist gathers in a single plug-in all the Flux science about filtering and dynamic processing.
 

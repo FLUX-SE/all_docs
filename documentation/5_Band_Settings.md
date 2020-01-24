@@ -17,8 +17,7 @@ Default: Enabled
 By default the maximum value issued from all channels feeding the side chain is retained as source for processing.
 This manner, the space information is kept for the processed multi-channel signals.
 
-When disabled, every channel uses its own value for individual processing. This configuration may be used in con-
-junction with the MS width section which encode the signal in MS before processing, and decode at the output. This
+When disabled, every channel uses its own value for individual processing. This configuration may be used in conjunction with the MS width section which encode the signal in MS before processing, and decode at the output. This
 manner, the M signal can be processed while keeping the S channel untouched.
 
 
