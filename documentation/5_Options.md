@@ -31,8 +31,7 @@ hardware is sufficiently fast to handle the extra processing demands.
 ## (46) Mode
 Sets the internal analysis/re-synthesis engine type to use.
 
-* Auto: default setting, selects best setting for lowest CPU utilization and best quality depending on the value of trans-
-formation parameters
+* Auto: default setting, selects best setting for lowest CPU utilization and best quality depending on the value of transformation parameters
 * Frequency domain: lowest CPU utilization, performs best when pitching up
 * Time-domain: highest quality and CPU utilization
 

@@ -20,8 +20,7 @@ most weird and technically absurd combinations, your imagination and taste is th
 
 ## (1) Voice
 Voice Mode is specifically targeted at voice processing, be it spoken word or sung material. By default, the Polyphonic
-option is disabled in this mode, as a monophonic voice (one speaker or singer) is the most common case. If you’re deal-
-ing with a choir or harmonized voice, you should enable the polyphonic setting - but not when processing double-tracked
+option is disabled in this mode, as a monophonic voice (one speaker or singer) is the most common case. If you’re dealing with a choir or harmonized voice, you should enable the polyphonic setting - but not when processing double-tracked
 vocals.
 
 
@@ -29,8 +28,7 @@ vocals.
 Instrument Mode should be used when dealing with any kind of material other than vocals, whether this originates from
 an acoustic, analog or digital source recording, as long as it originates from an instrument that is playing individual pitched
 notes. Polyphonic is disabled by default in this mode, and should only be enabled with a true polyphonic recording, such
-as a guitar or piano playing chords or a melody accompanied by a bass line. A mix of two different instruments, each play-
-ing an independent monophonic line, does not fall into this case, as it involves two different timbres, and the Music mode
+as a guitar or piano playing chords or a melody accompanied by a bass line. A mix of two different instruments, each playing an independent monophonic line, does not fall into this case, as it involves two different timbres, and the Music mode
 should therefore be used instead.
 
 

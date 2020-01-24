@@ -54,8 +54,7 @@ The following list of registers is available in Voice mode
 * Singing Mezzo Soprano
 * Singing Soprano
 
-The selection of spoken and singing registers changes not only the analysis parameters but also the transformation algo-
-rithms that are linked to high level target controls. Transforming Man into Woman with Spoken voice will affect formant
+The selection of spoken and singing registers changes not only the analysis parameters but also the transformation algorithms that are linked to high level target controls. Transforming Man into Woman with Spoken voice will affect formant
 structure and pitch, while transforming Man Singing Tenor into Woman Singing tenor will only affect the formant structure.
 
 ### Instrument mode:
@@ -73,8 +72,7 @@ you can resort to manual tuning of the fundamental frequency, and refer to the c
 
 ## (7) F0 Min
 This low-level parameter defines the minimum of the allowed variation range for the source fundamental frequency. When
-doing manual adjustments, this frequency should roughly be set to that of the lowest note expected in your source mate-
-rial. This parameter determines the window size for monophonic material. Setting it too low may introduce reverberation
+doing manual adjustments, this frequency should roughly be set to that of the lowest note expected in your source material. This parameter determines the window size for monophonic material. Setting it too low may introduce reverberation
 artifacts, may prevent the detection of fast onsets ,and moreover, may introduce pitch detection errors. Setting it too high
 will create artifacts in low pitch notes and may as well lead to fundamental frequency estimation error.
 
