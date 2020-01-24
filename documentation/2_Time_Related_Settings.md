@@ -65,8 +65,7 @@ Unit: ms
 Value Range: 0 ms / 500 ms.  
 Default Value: 0 ms
 
-This parameter is the only one in the time related settings, that is independent per dynamic processor. The com-
-pressor and the expander may have different hold time.
+This parameter is the only one in the time related settings, that is independent per dynamic processor. The compressor and the expander may have different hold time.
 
 Used in the Expander section, this setting allows very precise gating of drum tracks. It can also be used for creative
 purpose on the other dynamic sections.

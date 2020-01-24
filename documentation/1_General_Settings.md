@@ -63,8 +63,7 @@ one processing a particular channel with its own settings.
 Side chain is only available for mono and stereo.
 
 When operating on a multi-channel bus, all channels are feeding the side chain by default, but it can be useful to
-prevent some channels feeding the side chain for some reasons. The external side chain button is the one that ap-
-pear with the channel count + 1 label (for mono, label is “2”, for stereo label is “3”).
+prevent some channels feeding the side chain for some reasons. The external side chain button is the one that appear with the channel count + 1 label (for mono, label is “2”, for stereo label is “3”).
 
 Here are the different behaviors for external side chain depending of the host applications:
 
