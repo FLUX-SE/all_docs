@@ -22,8 +22,7 @@ Step: 1
 Default Value: 0 % 
 
 > To start understanding this setting and easily hear it, take a full mixed drum kit or a complete mix with punchy 
-drums, set the compression threshold and ratio to values that makes it close to a pumping or an aggressive com-
-pression. Then increase the output gain to compensate the gain lost and toggle between 0 and 100% of Dynamic 
+drums, set the compression threshold and ratio to values that makes it close to a pumping or an aggressive compression. Then increase the output gain to compensate the gain lost and toggle between 0 and 100% of Dynamic 
 Ratio. At 100 % you should hear more air in the sound, more transient and less of the compression impression, 
 especially the attack.
 
@@ -47,8 +46,7 @@ increase the L.I.D. and you will hear the compression working again. Next decrea
 compression will continue to work equally completely independent of the sound level, only depending on Ratio, 
 Knee and sound content.
 >
-> When you have too much dynamic in the sound, going from -3, -6 dB Vu (or less) to +12 dB, and you want to com-
-press the low levels, you will get a pumping effect when the sound reaches the high levels. The only thing to do 
+> When you have too much dynamic in the sound, going from -3, -6 dB Vu (or less) to +12 dB, and you want to compress the low levels, you will get a pumping effect when the sound reaches the high levels. The only thing to do 
 with a standard compressor is to increase the threshold to retain the airiness in the sound. But when this is done 
 the compressor will not work any more on the low levels and you will hear differences (in term density, live space, 
 grain etc.) especially when the compressor starts working.
