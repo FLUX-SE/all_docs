@@ -5,13 +5,13 @@ depending of the configurations. Please see below.
 # Plug-in formats and platforms supported
 
 Windows XP, Vista, Windows 7, Windows 8 : All 32 / 64 bit  
-AAX : 32 / 64 bit (ProTools 10 or later required)  
-VST : 32 / 64 bit
+- AAX : 32 / 64 bit (ProTools 10 or later required)  
+- VST : 32 / 64 bit
 
 OS X 10.7 (Lion), 10.8 (Mountain Lion)  
-AAX : 32 / 64 bit (ProTools 10 or later required)  
-VST : 32 / 64 bit  
-AU : 32 / 64 bit
+- AAX : 32 / 64 bit (ProTools 10 or later required)  
+- VST : 32 / 64 bit  
+- AU : 32 / 64 bit
 
 Due to AVID ProTools changing to AAX, from Version 3 (v3) RTAS for AVID ProTools is no longer supported.
 
