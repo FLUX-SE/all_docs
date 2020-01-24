@@ -125,8 +125,10 @@ Gaël Martinet
 
 ```
 FLUX SOFTWARE ENGINEERING
-Orléans, France, http://www.flux.audio
-Copyright 2020 FLUX SOFTWARE ENGINEERING, All Rights Reserved.
+Orléans, France, 
+http://www.flux.audio
+Copyright 2020 FLUX SOFTWARE ENGINEERING, 
+All Rights Reserved.
 ```
 IRCAMTOOLS SPAT and "SPAT Revolution" Copyright 2020 FLUX SOFTWARE ENGINEERING and IRCAM. All rights
 reserved.

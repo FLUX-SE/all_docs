@@ -7,7 +7,7 @@ The reverb designer excels at creating static acoustic settings that will add al
 dimensionality and immersive depth to a virtual scene. But it also invites more creative reverberation ideas. Remember it works in 3D and interacts deeply with the
 parametric design of all virtual objects that are expressed through it.
 
-###**This is no ordinary reverb.**
+### **This is no ordinary reverb.**
 
 The Spat Reverb is a true acoustic modelling multi-channel reverb, not just a socalled 'true stereo' reverb. Despite its internal complexity, the user is invited to
 morph and modulate the characteristics of the virtual acoustics. To make this

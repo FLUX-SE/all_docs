@@ -16,9 +16,8 @@ integration the with MADI-192 option card. The template show file contains the f
 
 (Simultaneously to MADI 1-64 for and audio routing option)
 
-- 2 Snapshots. One for an **all source reset** and one for an **all source circle**
-    **spread**
-       (Both with a global time value of 2 seconds)
+- 2 Snapshots. One for an **all source reset** and one for an **all source circle spread**  
+(Both with a global time value of 2 seconds)
 - Spat Send Plug-In Index set to 1-64
 
 (OSC parameters remaining to be set see below)
@@ -28,9 +27,8 @@ integration the with MADI-192 option card. The template show file contains the f
 A Spat Revolution .JSON file is as well provided containing a 64 audio hardware
 inputs sources feeding a 3rd order ambisonic room and a transcode to be adjusted to a desired channel base speaker setup and as the following criteria;
 
-- Default template built using AVB E6 Engine128 as a Spat audio hardware
-    device
-       - Input 1-64 are fed from hardware audio 65-128
+- Default template built using AVB E6 Engine128 as a Spat audio hardware device
+   - Input 1-64 are fed from hardware audio 65-128
 
 
 (matching the above Avid S6L AVB patch, see input matrix)

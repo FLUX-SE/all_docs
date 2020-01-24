@@ -16,7 +16,9 @@ there. This illusion works up to a point, and breaks down if the speakers are to
 apart. With only two speakers in the system, the panning law is a simple graph
 which has become quite standardised over the years. Things get more complicated when panning over 2D or 3D speaker setups and methods for spatialising on
 multichannel systems are not really standardised yet. Many algorithms and standards have been advanced by the audio engineering industry, composers and
-academics. Essentially, when we start working with multiple speakers in different
+academics. 
+
+Essentially, when we start working with multiple speakers in different
 configurations, things get more complex for the panning algorithms - goals have
 also expanded over time, with spatial sound design able to reach beyond simple
 point source panning into fully immersive audio experiences that can be hyper-realistic or totally synthesised. Many practitioners will have their preferred methods,

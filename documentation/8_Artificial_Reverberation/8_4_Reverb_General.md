@@ -21,9 +21,9 @@ tail reverb parameters to match the room characteristics.
 **Reverb Start**
 
 Reverb start sets the duration between the direct, dry source signal, and the first
-late reflections, or start of the reverb tail. Please note its value can never go below
+late reflections, or start of the reverb tail. 
 
-
+> Please note its value can never go below
 that of the cluster minimum time as the reverb tail is fed with a signal derived from
 the cluster section.
 

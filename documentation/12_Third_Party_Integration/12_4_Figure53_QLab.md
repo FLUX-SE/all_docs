@@ -85,7 +85,7 @@ receiving data (Shift + F7 will open the log window)
 
 ![](../../include/SpatRevolution_UserGuide_-304.png)
 
-_1_ - change the pulldown from None to In (meaning you are setting a OSC Input to Spat)
+_1_ - Change the pulldown from None to In (meaning you are setting a OSC Input to Spat)
 
 _2_ - Select the network interface you want to be receiving the commands from. Doing a local integration will require you to choose the localhost / loopback address
 127.0.0.1

@@ -1,4 +1,4 @@
-## 11.6 Ambisonic Mixing
+# 11.6 Ambisonic Mixing
 
 ![](../../include/SpatRevolution_UserGuide_-225.jpg)
 

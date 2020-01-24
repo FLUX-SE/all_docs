@@ -40,5 +40,5 @@ In certain advanced situations which might combine position tracking systems wit
 realtime binaural audio it is even possible to transform the _Listener Position_ in SPAT.
 One application of this might be to give the sensation of getting closer to a sound
 emitter inside a virtual scene for a headset wearing participant at an interactive VR
-installation (see section 6.61)
+installation (see section 6.61).
 

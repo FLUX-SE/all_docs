@@ -14,8 +14,6 @@ analyser and a vector scope in a novel real-time display. It is a useful tool to
 realtime overview of your spatial mix in terms of spectral-spatial diffusion, and can
 give quite accurate representations of 'where' and 'how' sounds will manifest over
 a real world sound system. A lot of work has gone into optimising the real-time
-
-
 rendering of the display, not solely for æsthetic reasons, but because we wanted
 the display to react instantly to all the details in the incoming multichannel audio.
 The idea is literally for you to be able to see what the listener will hear and feel.

@@ -99,11 +99,12 @@ One workflow that is often required, is that of re-mixing a pre-rendered channel
 based mix of a particular format, to get that mix expressed into a different channel
 based format. For example, the need to down mix a 5.1 surround into stereo is
 quite common, but also the other way - perhaps a 5.1 surround mix needs to be
-up-mixed to a 7.1.
+up-mixed to a 7.1.  
 One way to do this, is to use an Ambisonic Virtual Room as a way to simulate the
 source configuration as if it were being diffused in a space, in its correct speaker
 format and with simulated, full sphere acoustics and then transcode the output to
-the desired format.
+the desired format.  
+
 Here is an example of that in the Room view. Notice how it is possible to re-balance and re-mix the original using the perceptual factors or positional parameters.
 A room simulation reverb is also playing a significant role in the cross-format mixing process, as the reverb simulation adds new spatial information to the mix,
 which might help get a more immersive result in the output format.

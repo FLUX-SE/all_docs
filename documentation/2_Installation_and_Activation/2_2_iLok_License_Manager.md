@@ -1,7 +1,7 @@
 # 2.2 iLok License Manager
 
 If you already have an iLok user account, licenses will have been connected directly
-to your account. Skip ahead to the next section guiding you through the _Flux Center_
+to your account. Skip ahead to the next section guiding you through the _Flux Center_.
 
 For new iLok users, the first step is to download and install the iLok license manager available on the home page of the iLok website. When your user account is
 successfully activated and the iLok license manager correctly installed, you can
