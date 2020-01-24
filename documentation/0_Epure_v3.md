@@ -1,4 +1,6 @@
 # Epure v3
+[Product Page](https://www.flux.audio/project/epure/) 
+| [Shop Page](https://shop.flux.audio/en_US/products/epure)
 
 ![](/include/Epure_01.png)
 
