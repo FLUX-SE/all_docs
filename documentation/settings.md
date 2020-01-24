@@ -38,4 +38,4 @@ When engaged, the output gain is compensated depending of the transient amount t
 
 ## Output Gain (7)
 
-It can’t be set when the Link to Output Gain button is engaged
+It can’t be set when the Link to Output Gain button is engaged.
