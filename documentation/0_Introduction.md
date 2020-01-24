@@ -1,5 +1,8 @@
 ![](/include/ManualEvoIn-000.jpg)
 
+[Product Page](https://www.flux.audio/project/evo-in/) 
+| [Shop Page](https://shop.flux.audio/en_US/products/evo-in)
+
 # Introduction
 
 EVO In - Stay In Phase – Maintain The Vitality
