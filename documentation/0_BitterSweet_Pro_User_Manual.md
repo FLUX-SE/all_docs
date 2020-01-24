@@ -1,4 +1,6 @@
 # BitterSweet Pro User Manual
+[Product Page](https://www.flux.audio/project/bittersweet-pro/) 
+| [Shop Page](https://shop.flux.audio/en_US/products/bittersweet-pro)
 
 ![](/include/flux-logo.png)
 
