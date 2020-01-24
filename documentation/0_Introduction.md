@@ -1,4 +1,6 @@
 # Introduction
+[Product Page](https://www.flux.audio/project/ircam-hear/) 
+| [Shop Page](https://shop.flux.audio/en_US/products/ircam-hear)
 
 ![](/include/hear_00.jpg)
 
