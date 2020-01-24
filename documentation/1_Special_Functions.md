@@ -14,8 +14,7 @@ Default Value: 0 dB
 
 ## X2 - Quick Gain Multiplier (14)
 Multiplies the band section gain values by two.  
-If the morphing slider is set in-between the parameter sections when the Quick Gain Multiplier is clicked, depend-
-ing on its current position, the morphing slider will move to one of the parameter sections and the values of that
+If the morphing slider is set in-between the parameter sections when the Quick Gain Multiplier is clicked, depending on its current position, the morphing slider will move to one of the parameter sections and the values of that
 section will be re-initialized with the current values of the actual section.
 
 ## X1/2- Quick Gain Divider (15)
