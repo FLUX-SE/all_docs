@@ -5,6 +5,6 @@ management system followed by the main download and installation through the
 Flux:: Center installation software.
 
 *If you have an activation code from a dealer purchase or from a trial request then please visit
-our activation page https://fluxhome.com/license-activation/
+our activation page https://flux.audio/license-activation/
 
 ![](../../include/SpatRevolution_UserGuide_-012.jpg)
