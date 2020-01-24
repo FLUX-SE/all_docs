@@ -3,7 +3,7 @@
 First of all, make sure you have the latest version of the installer.
 
 To download the latest installer, please go to:  
-http://www.fluxhome.com/download/
+http://www.flux.audio/download/
 
 From this page you will be able access the user download section by entering either your registered email address
 or your product reference.

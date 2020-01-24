@@ -5,7 +5,7 @@
 Unless you purchased your license in the fluxhome.com online store, you need to activate your license.
 
 To activate your license, please go to:  
-https://www.fluxhome.com/activation/
+https://www.flux.audio/activation/
 
 When your license is activated, you need to login with iLok.com and synchronize your iLok in order to download the
 new license to your iLok.
@@ -17,7 +17,7 @@ and no further action is needed.
 
 If you already own a Flux:: dongle and purchased a new license, please login to the user download area, then follow
 the instructions in the Authorization Updates section at the top of the page.
-http://www.fluxhome.com/download/
+http://www.flux.audio/download/
 
 When the corresponding authorization update is downloaded you need to install the license on your Flux:: dongle.
 
@@ -32,7 +32,7 @@ SecurityManager.exe located in: C:\Program Files\Flux\Plug-ins\Misc
 
 SecurityManager.app is found on the download section of fluxhome.com.
 
-http://www.fluxhome.com/download/
+http://www.flux.audio/download/
 
 Then press the Update button, select the license update that you previously downloaded, then press Open.
 
