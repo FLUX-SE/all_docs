@@ -39,7 +39,7 @@ In order to use the software one of the following alternatives is required
 
 ## More Information
 
-For more information about LevelMagic(TM) and the rest of our product line, visit our website: [http://fluxhome.com/](http://fluxhome.com/)
+For more information about LevelMagic(TM) and the rest of our product line, visit our website: [http://flux.audio/](http://flux.audio/)
 
 * LevelMagic(TM) AAX Native & AAX AudioSuite supports 32 bit in Pro Tools 10.3.5 and 64 bit in Pro Tools 11.
 
