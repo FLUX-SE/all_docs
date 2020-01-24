@@ -1,5 +1,8 @@
 ![](/include/ManualEvoChannel-000.jpg)
 
+[Product Page](https://www.flux.audio/project/evo-channel/) 
+| [Shop Page](https://shop.flux.audio/en_US/products/evo-channel)
+
 # Introduction
 
 **EVO Channel - The Ultimate Channel Strip Redefined**
