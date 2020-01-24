@@ -13,21 +13,18 @@ Then while listening:
 Bass settings.
 - Now do the same once again, but when you reach the maximum Amount, or any other value that you prefer, try
 increasing the Thick parameter.
-- Do the same process one more time, but with Lookahead enabled, and when you find a sound that you like, dis-
-able it and toggle between enabled/disabled to feel and hear the difference.
+- Do the same process one more time, but with Lookahead enabled, and when you find a sound that you like, disable it and toggle between enabled/disabled to feel and hear the difference.
 - Finally, switch Mode, and change the Velocity setting, and repeat one or several of the above tasks, more than
 once, to get a feel for how Mode and Velocity works.
 
-Another thing that can create quite interesting results is when modifying the Input Gain with different Amount set-
-tings.
+Another thing that can create quite interesting results is when modifying the Input Gain with different Amount settings.
 
 The Relax parameter is much more efficient and significant when Lookahead is enabled.
 
 Try the invert (Inv) without Thickness on drums or other percussion, you will pretty soon find out that this can create
 some very interesting results..
 
-With the Gain Comp enabled, Syrah will adjust the Output Gain, which can make it easier to compare with the in-
-coming signal and understand the changes you have made on the sound. And then you can enable the clipper to
+With the Gain Comp enabled, Syrah will adjust the Output Gain, which can make it easier to compare with the incoming signal and understand the changes you have made on the sound. And then you can enable the clipper to
 increase the Output Gain and make your sound louder.
 
 ## And some extra tricks

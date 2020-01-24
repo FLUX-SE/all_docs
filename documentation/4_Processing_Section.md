@@ -16,8 +16,8 @@ result that feels closer to the original material, more natural (unless you are 
 effectfull processing).
 
 - **Dynamic Soft (Default)**  
-    In Soft mode, the release becomes automatic (according to the "Velocity" setting) so does the compres-
-    sion, de-expansion, the clipper knee and the "Relax" value.  
+    In Soft mode, the release becomes automatic (according to the "Velocity" setting) so does the compression, 
+    de-expansion, the clipper knee and the "Relax" value.  
     This setting is suitable when a more natural kind of sound is desired, such as track compression, bus mix
     and final mix.
 - **Dynamic Deep**  
@@ -40,7 +40,7 @@ Default Value: 10.
 
 ## Velocity (11)
 Defines the release time as well as the global algorithm velocity (how fast the processing will react to the dynamic
-changes in the material.
+changes in the material).
 
 Unit: Percent (%)  
 Range: 0.00 to 100.  
@@ -71,8 +71,8 @@ no sound at all coming from the Output!
 
 ## M/S Mode (17)
 The Mid/Side mode is only available when processing stereo material.  
-When enabling the M/S Mode, the material is M/S encoded for individual processing, and then decoded back to ste-
-reo again just before the Dry Mix stage.  
+When enabling the M/S Mode, the material is M/S encoded for individual processing, and then decoded back to stereo 
+again just before the Dry Mix stage.  
 This is a well known technique often used in mastering allowing to increase or decrease the stereo image, keep or fall
 down center impact like kick, snare and similar.  
 An interesting feature with this mode, is that since Syrah analyzes the audio material to adapt the processing, the
@@ -85,8 +85,7 @@ component of the material.
 Only available when in "M/S Mode"  
 Since the M/S processing can dramatically change the stereo image (as in possibly making it too wide..), MS Width
 provides control over the actual stereo width.  
-This setting can be effective when there’s a need for enhancing the stereo image width, increasing the room impres-
-sion and similar tasks.
+This setting can be effective when there’s a need for enhancing the stereo image width, increasing the room impression and similar tasks.
 
 ## Thickness (19)
 Fattens up the processed material by enhancing the low level frequencies when possible. The processing action will

@@ -6,8 +6,7 @@ settings for each of the slots individually and alternate between their settings
 offering the possibility to morph between the slots and their corresponding settings. When clicking on one of the
 preset slots (38), the built in preset manager appears.  
 
-The preset manager contains three preset banks, the Factory bank contains factory presets, this bank is not avail-
-able for saving of presets but any of the presets can be loaded into a preset slot and then saved into, the User bank,
+The preset manager contains three preset banks, the Factory bank contains factory presets, this bank is not available for saving of presets but any of the presets can be loaded into a preset slot and then saved into, the User bank,
 where all user presets are saved. Finally, the Global bank, which is a bit special, here you can save a complete
 snapshot with all the settings from both preset slots, as well as the position of the morphing slider. 
  
