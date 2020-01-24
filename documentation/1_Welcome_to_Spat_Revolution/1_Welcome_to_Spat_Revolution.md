@@ -1,4 +1,6 @@
 # 1. Welcome to Spat Revolution
+[Product Page](https://www.flux.audio/project/spat-revolution/) 
+| [Shop Page](https://shop.flux.audio/en_US/products/spat-revolution)
 
 First of all, thank you for purchasing _Spat Revolution_. We hope it will provide you
 with new levels of productivity, creativity and experience in sound design. Our goal
