@@ -25,8 +25,7 @@ Activates the setup tab, where input, source and output mappings are determined.
 
 ## (4) Selected Source
 Selects the source currently active for editing, which is highlighted accordingly in the visual space representation.
-Each source has its own set of parameters which is completely independent of others, while sharing the same reverbera-
-tion engine(s) that depict the acoustic response of the simulated space these sources are place into.
+Each source has its own set of parameters which is completely independent of others, while sharing the same reverberation engine(s) that depict the acoustic response of the simulated space these sources are place into.
 
 > Note: The number of sources and mapping thereof is handled in the Setup tab.
 

@@ -8,5 +8,4 @@ working in parallel and independently, are available
 
 
 ## (51) Reverb On
-Toggles the currently selected reverb engine on or off. Use this switch at de-
-sign time, to listen to one reverb in isolation.
+Toggles the currently selected reverb engine on or off. Use this switch at design time, to listen to one reverb in isolation.

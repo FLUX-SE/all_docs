@@ -28,8 +28,7 @@ handling of elevation.
 
 ## (24) Pitch
 Source direction orientation pitch angle, in degrees.
-> Please pay attention to the fact that the graphic preview cannot not display pitch movements because of the 2D projection con-
-straints.
+> Please pay attention to the fact that the graphic preview cannot not display pitch movements because of the 2D projection constraints.
 
 ## (25) Aperture
 The aperture parameter relates to the "sound cone" projected by the virtual source in the acoustic space, and is measured in
