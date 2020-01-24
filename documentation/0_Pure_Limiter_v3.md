@@ -1,4 +1,6 @@
 # Pure Limiter v3
+[Product Page](https://www.flux.audio/project/pure-limiter/) 
+| [Shop Page](https://shop.flux.audio/en_US/products/pure-limiter)
 
 ![](/include/pure-limiter_01.PNG)
 
