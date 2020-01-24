@@ -1,4 +1,6 @@
 # Pure Compressor v3
+[Product Page](https://www.flux.audio/project/pure-compressor/) 
+| [Shop Page](https://shop.flux.audio/en_US/products/pure-compressor)
 
 ![](/include/pure-comp_01.PNG)
 
