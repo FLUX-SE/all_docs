@@ -1,4 +1,6 @@
 # Pure Expander V3
+[Product Page](https://www.flux.audio/project/pure-expander/) 
+| [Shop Page](https://shop.flux.audio/en_US/products/pure-expander)
 
 ![](/include/pure-exp_01.PNG)
 
