@@ -13,8 +13,7 @@ name for this modified preset featuring the current settings and press Save.
 Once a preset is selected from the preset list in the preset manager window it must be explicitly loaded into one of
 the A or B sections by using the recall button.
 
-Double clicking a preset in the preset list automatically recalls the preset to a slot and then the preset manager win-
-dow will close. Opening the preset manager clicking the A section (bottom left), recalls the preset into the A section,
+Double clicking a preset in the preset list automatically recalls the preset to a slot and then the preset manager window will close. Opening the preset manager clicking the A section (bottom left), recalls the preset into the A section,
 opening it clicking the B section (bottom right), recalls the preset into the B section. Opening the preset manager
 clicking the arrow in the Current Selected Preset (3) display recalls the preset into the section currently selected
 by the Preset A/B Switch (34). Information about where the preset will be recalled is displayed to the right of the

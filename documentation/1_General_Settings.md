@@ -66,8 +66,7 @@ human loudness perception.
 The ITU BS.1770-1 frequency weighted measurement has been extended by a gating function.
 
 
-The EBU PLOUD-Group developed a gating function to exclude quiet sections from the measurement to prevent pos-
-sible loudness under-read. An example is background noise, which does not contribute to the loudness perception as
+The EBU PLOUD-Group developed a gating function to exclude quiet sections from the measurement to prevent possible loudness under-read. An example is background noise, which does not contribute to the loudness perception as
 much as louder signals. This gating function consists of an absolute threshold at -70LUFS and a relative threshold 10LU
 below the absolute gated level.
 

@@ -20,8 +20,7 @@ The following parameters are used to configure OSC manually in LevelMagic(TM)
     are connected to the same network.
 - OSC Enable: When turned on this parameter creates a thread for receiving and sending OSC messages. This
     thread is multi-instances. This means that this will control all the instances of the plug-in. For example, if you
-    have four LevelMagic(TM) opened, all the communication and control via OSC will be done via this one config-
-    ured thread. You just have to be sure that the following parameters are well configured.
+    have four LevelMagic(TM) opened, all the communication and control via OSC will be done via this one configured thread. You just have to be sure that the following parameters are well configured.
 - Input Port: This is the port where the plug-in will be receiving OSC messages (the output of your control
     surface)
 - Output Port: This is the port where the plug-in will send feedback to (the input of your control surface).
