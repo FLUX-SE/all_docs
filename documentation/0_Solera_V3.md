@@ -1,4 +1,6 @@
 # Solera V3
+[Product Page](https://www.flux.audio/project/solera/) 
+| [Shop Page](https://shop.flux.audio/en_US/products/solera)
 
 The Solera v3 dynamic processor is a comprehensive dynamic processor providing a compressor, expander, 
 de-compressor and de-expander, that each may be enabled individually, all processing in parallel using one 
