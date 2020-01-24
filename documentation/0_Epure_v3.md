@@ -30,7 +30,9 @@ Default Value: On
 ## Filter Type (4)
 All mentioned filter types are available on all of the five bands.
 
-Default Value: PeakAdditional Filter Types:
+Default Value: Peak
+
+Additional Filter Types:
 
 - 12 dB per octave high pass filter (Low Cut)
 - Low shelving (Low Shlv)
@@ -62,7 +64,7 @@ are affected. The narrowest Q-Factor is 1/7 octave of 100 in displayed value and
 The effective Q-Factor depends on the amount of gain applied; the displayed value corresponds to the maximum
 gain variation (24 dB).
 
-Example: With 6 dB gain the max Q-Factor is not 100 as displayed, but instead 10 in a regular expression to the
+> Example: With 6 dB gain the max Q-Factor is not 100 as displayed, but instead 10 in a regular expression to the
 actual Q-Factor.
 
 Value Range: 1 / 100  
