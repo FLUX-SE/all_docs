@@ -67,8 +67,7 @@ of attack.
 
 
 ## Dynamic Ratio Inverter (31)
-When engaged, the behavior of the Dynamic Ratio is inverted. The ratio value is increased depending of the de-
-tected signal dynamic.
+When engaged, the behavior of the Dynamic Ratio is inverted. The ratio value is increased depending of the detected signal dynamic.
 
 
 ## L.I.D. (Level Independent Detector)(32)
@@ -82,8 +81,7 @@ with the standard compression scheme.
 
 > *Take a piece of full mixed music, set the ratio to 3-4 and the compression will start working. Now set the threshold
 of the compressor to the maximum value, the compressor will stop working because the sound level will never
-reach the threshold. Then increase the L.I.D.. and you will see (and hear) the compression working again!!! Now de-
-crease or increase the input gain (in Pure Expander, or before, as you want) and you will see that the compression
+reach the threshold. Then increase the L.I.D.. and you will see (and hear) the compression working again!!! Now decrease or increase the input gain (in Pure Expander, or before, as you want) and you will see that the compression
 will continue to work equally; it’s totally, completely independent of the sound level and depends only on Ratio,
 Knee and sound content.*
 
