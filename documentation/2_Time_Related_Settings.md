@@ -36,18 +36,15 @@ But when “Auto” is engaged for the delay value, the produced attack time is 
 - Classic Slow: The integration time for RMS detection is 80 ms with no direct relation with the Attack setting. But
 when “Auto” is engaged for the delay value, the produced attack time is zero.
 - Classic Feed Backward Fast: The integration time is 10 ms for RMS detection which is done on the output of the
-processor. This mode disables the Delay feature. Note also that the Feed Backward mode prevents to use the ex-
-ternal side chain because it’s the processed signal which feed the side chain.
+processor. This mode disables the Delay feature. Note also that the Feed Backward mode prevents to use the external side chain because it’s the processed signal which feed the side chain.
 - Classic Feed Backward Medium: The integration time is 40 ms for RMS detection which is done on the output
 of the processor. Note also that the Feed Backward mode prevents to use the external side chain because it’s the
 processed signal which feed the side chain.
 - Classic Feed Backward Slow: The integration time is 80 ms for RMS detection which is done on the output of the
-processor. Note also that the Feed Backward mode prevents to use the external side chain because it’s the pro-
-cessed signal which feed the side chain.
+processor. Note also that the Feed Backward mode prevents to use the external side chain because it’s the processed signal which feed the side chain.
 
 
-> These Feed Backward modes have been inspired by vintage hardware architectures. they create a sort of auto regu-
-lation of the processing which produces a naturally beefy sound.
+> These Feed Backward modes have been inspired by vintage hardware architectures. they create a sort of auto regulation of the processing which produces a naturally beefy sound.
 
 
 ## Attack (17)

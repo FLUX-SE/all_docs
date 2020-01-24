@@ -32,11 +32,9 @@ management window.
 ## Automation Control of the Morphing Slider (47)
 Default Value: Off
 
-When this button is disabled, all the plug-in parameters values are recorded when writing automation. The morph-
-ing slider is ignored.
+When this button is disabled, all the plug-in parameters values are recorded when writing automation. The morphing slider is ignored.
 
-When reading automation, if this button is disabled, all the plug-in parameters are controlled by the host automa-
-tion except the morphing slider.
+When reading automation, if this button is disabled, all the plug-in parameters are controlled by the host automation except the morphing slider.
 
 When this button is engaged, all parameters are recorded when writing automation uncluding the morphing slider.
 

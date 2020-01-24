@@ -92,8 +92,7 @@ want to compress the low levels you will hear the sound ™pumping∫ when the s
 to do with standard compressor will be to increase the threshold to rescue some airiness in the sound. But when doing that
 the compressor will not work any more on the low levels and you will hear some sound differences (in term density, live space,
 grain etcº ) especially when the compressor starts working. With Solera L.I.D.., adjust the threshold and ratio on the High levels
-to what you think OK, then increase the L.I.D.. (from 20 to 50 %) and listen now the low levels and especially the transition be-
-tween Low and High levels. You can also start increasing the ratio to increase the effect. You'll then notice that the compression
+to what you think OK, then increase the L.I.D.. (from 20 to 50 %) and listen now the low levels and especially the transition between Low and High levels. You can also start increasing the ratio to increase the effect. You'll then notice that the compression
 will always be active but can still take care of High, loud levels (unless you set 100% L.I.D..) and make the compression very
 smooth and no more pumpingº In addition with the Dynamic Ratio function, you'll be able to set a constant and very natural
 envelop that allows to increase low levels, low frequency and to keep important transients.*
