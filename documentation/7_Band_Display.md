@@ -19,7 +19,8 @@ the right meter.
 
 ## Resultant Envelop (59)
 
-Vu-meter not peak-meter, referenced to -16 dB Fs by default. The scale is +/- 12 dB.
+Vu-meter not peak-meter, referenced to -16 dB Fs by default.  
+The scale is +/- 12 dB.
 
 This is the compression, decompression, expander and de-expander summing envelop.
 
@@ -29,7 +30,8 @@ or post parallel dynamic processors.
 
 ## Dynamic difference between in and out (60)
 
-Vu-meter not peak-meter, referenced to -16 dB Fs by default. The scale is +/- 12 dB.
+Vu-meter not peak-meter, referenced to -16 dB Fs by default.  
+The scale is +/- 12 dB.
 
 This display doesn’t directly reflect the gain changes introduced by the Bitter Sweet section which can be placed pre
 or post parallel dynamic processors.
@@ -37,7 +39,8 @@ or post parallel dynamic processors.
 
 ## Level difference between in and out (61)
 
-Vu-meter not peak-meter, referenced to -16 dB Fs by default. The scale is +/- 12 dB.
+Vu-meter not peak-meter, referenced to -16 dB Fs by default.  
+The scale is +/- 12 dB.
 
 This is the compression, decompression, expander and de-expander summing envelop which also takes account of
 the input and output gains of the band.

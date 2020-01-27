@@ -3,7 +3,10 @@
 
 ## Peak Detection Amount (62)
 
-Unit: % - Value Range: 0 / 100 - Step: 1 Default Value: 0 %
+Unit: %  
+Value Range: 0 / 100  
+Step: 1  
+Default Value: 0 %
 
 Percentage of the instant peak value used to feed the detector section, making the dynamic processing more sensitive 
 to audio transients.
@@ -14,7 +17,10 @@ section. 50 % = fifty - fifty
 
 ## Dynamic Ratio (63)
 
-Unit: % - Value Range: 0 / 100 - Step: 1 Default Value: 0 %
+Unit: %  
+Value Range: 0 / 100  
+Step: 1  
+Default Value: 0 %
 
 This setting relaxes the ratio applied to the processor section when the detected signal dynamic raises.
 
@@ -36,7 +42,10 @@ When engaged, the behavior of the Dynamic Ratio is inverted. The ratio value is 
 
 ## L.I.D.. (Level Independent Detector) (64)
 
-Unit: % - Value Range: 0 / 100 - Step: 1 Default Value: 0 %
+Unit: %  
+Value Range: 0 / 100  
+Step: 1  
+Default Value: 0 %
 
 Allows process the audio signal independently of the sound level but regarding the signal dynamic range. It is mixed
 with the standard compression scheme.
@@ -77,7 +86,9 @@ feature allows the whole process to be more reactive to the signal content. It w
 
 ## Threshold (67)
 
-Unit: dB - Value Range: -32 to +16 (Compressor/DCompressor) -80 to +16 (Expander/DExpander) Default Value: 0
+Unit: dB  
+Value Range: -32 to +16 (Compressor/DCompressor) -80 to +16 (Expander/DExpander)  
+Default Value: 0
 
 Sets the threshold of the specific dynamic processing section. This dB scale refers to an RMS value.
 
@@ -86,7 +97,10 @@ The threshold effective value is modified by the L.I.D., the L.I.D. Threshold an
 
 ## Ratio (68)
 
-Unit: dB - Value Range: 1 to 10 - Step: 0.01 Default Value: 1
+Unit: dB  
+Value Range: 1 to 10  
+Step: 0.01  
+Default Value: 1
 
 Sets the ratio of the specific dynamic processing section.
 
@@ -100,14 +114,18 @@ Sets the ratio to its maximum possible value.
 
 ## Range (70)
 
-Unit: dB - Value Range: 0 to 48/140/24/16 (Compressor/Expander/DCompressor/DExpander) Default Value: 24/96/12/
+Unit: dB  
+Value Range: 0 to 48/140/24/16 (Compressor/Expander/DCompressor/DExpander)  
+Default Value: 24/96/12/
 
 Sets the maximum allowed gain variation for a specific dynamic processing section.
 
 
 ## Knee (71)
 
-Unit: dB - Value Range: 0 / +24 Default Value: 0
+Unit: dB  
+Value Range: 0 / +24  
+Default Value: 0
 
 Sets the smoothness of the transmission curve for the specific dynamic processing section. The curve is smoothed
 around the threshold value of the dB amount set with the knee value.

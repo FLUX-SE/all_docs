@@ -3,7 +3,9 @@
 
 ## Delay (47)
 
-Unit: ms - Value Range: 0 to 50.0 ms Default Value: 0 ms
+Unit: ms  
+Value Range: 0 to 50.0 ms  
+Default Value: 0 ms
 
 A delay reflecting the attack time can be introduced into the signal path in order to produce a zero attack time for
 the dynamic processing. Shifting the delay value from the attack time allows to control transients. A delay value
@@ -53,7 +55,9 @@ These Feed Backward modes have been inspired by vintage hardware architectures. 
 
 ## Attack (50)
 
-Unit: ms - Value Range: 0 ms to 100 ms Default Value: 0.0 ms
+Unit: ms  
+Value Range: 0 ms to 100 ms  
+Default Value: 0.0 ms
 
 Sets the attack time of the processing envelop. It also controls the manner the RMS value is computed from the
 incoming signal.
@@ -63,7 +67,9 @@ incoming signal.
 
 ## Hold (51)
 
-Unit: ms - Value Range: 0 ms / 500 ms. Default Value: 0 ms
+Unit: ms  
+Value Range: 0 ms / 500 ms.  
+Default Value: 0 ms
 
 This parameter is the only one in the time related settings, that is independent per dynamic processor. The compressor and the expander may have different hold time.
 
@@ -82,26 +88,37 @@ Three release modes are available for the envelop of the dynamic processing.
 
 ## Release (53)
 
-Unit: ms - Value Range: 0.67 ms / 10000.00 ms Default Value: 500.00 ms
+Unit: ms  
+Value Range: 0.67 ms / 10000.00 ms  
+Default Value: 500.00 ms
 
 Sets the manual release value and the maximum release value when in Advanced Mode.
 
 
 ## Release Minimum (54)
 
-Unit: ms - Value Range: 0.67ms / 5000.00 - Step: 0.01 Default Value: 1.30 ms
+Unit: ms  
+Value Range: 0.67ms / 5000.00  
+Step: 0.01  
+Default Value: 1.30 ms
 
 Sets the minimum release value when in Advanced Mode.
 
 
 ## Dynamic Factor (55)
 
-Unit: x - Value Range: 0 / 3.0 - Step: variable.  Default Value: 1
+Unit: x  
+Value Range: 0 / 3.0  
+Step: variable.  
+Default Value: 1
 
 Amplify or dim the extracted real time dynamic informations.
 
 ## Dynamic Velocity (56)
 
-Unit: % - Value Range: 10 / 1000 - Step: 1  Default Value: 50%
+Unit: %  
+Value Range: 10 / 1000  
+Step: 1  
+Default Value: 50%
 
 Sets the speed of variation on the dynamic informations.

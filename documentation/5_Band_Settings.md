@@ -23,14 +23,20 @@ manner, the M signal can be processed while keeping the S channel untouched.
 
 ## Input Gain (36)
 
-Unit: dB - Value Range: -12 / +12 - Step: 0.01 Default Value: 0 dB
+Unit: dB  
+Value Range: -12 / +12  
+Step: 0.01  
+Default Value: 0 dB
 
 Sets the gain applied to the dynamic processing input of the selected band.
 
 
 ## Output Gain (37)
 
-Unit: dB - Value Range: -12 / +12 - Step: 0.01 Default Value: 0 dB
+Unit: dB  
+Value Range: -12 / +12  
+Step: 0.01  
+Default Value: 0 dB
 
 Sets the global gain applied to the dynamic processing output of the selected band.
 
@@ -41,7 +47,9 @@ When engaged, the Bitter Sweet processing is active.
 
 ## Transient Amount (39)
 
-Unit: % - Value Range: -100 to +100 Default Value: 0
+Unit: %  
+Value Range: -100 to +100  
+Default Value: 0
 
 On the Sweet side (left), transients are reduced. It usually decreases percussive instruments in the mix.
 
@@ -77,14 +85,19 @@ to stereo. Since the S channel contains the spatial information, this mode allow
 
 ## Bitter Sweet Period (44)
 
-Unit: ms - Value Range: 3 to 450 ms Default Value: 42 ms
+Unit: ms  
+Value Range: 3 to 450 ms  
+Default Value: 42 ms
 
 This control sets the range of the time window used to detect transients that will be processed.
 
 
 ## MS Width Control (45)
 
-Unit: dB - Value Range: -6 / +6 - Step: 0.01 Default Value: 0
+Unit: dB  
+Value Range: -6 / +6  
+Step: 0.01  
+Default Value: 0
 
 Sets the stereo width of the processed signal. A -6 dB value deceases the stereo width. A +6 dB value increases the
 wideness of the stereo mix but can produce phase issue.
