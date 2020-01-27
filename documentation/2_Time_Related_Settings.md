@@ -9,9 +9,10 @@ Default Value: 0 ms
 A delay reflecting the attack time can be introduced into the signal path in order to produce a zero attack time for
 the dynamic processing. Shifting the delay value from the attack time allows to control transients. A delay value
 inferior to the attack value lets peaks untouched by the processing.
-Note that the different delay values of every band are automatically compensated. Solera can’t be used to produce
+> Note that the different delay values of every band are automatically compensated. Solera can’t be used to produce
 delay based special effects.
-Warning: Morphing between presets with different delay values produces sound artefacts.
+
+!> Warning: Morphing between presets with different delay values produces sound artefacts.
 Of course this delay introduces latency in the processing.
 
 
@@ -19,7 +20,7 @@ Of course this delay introduces latency in the processing.
 Default Value: Off
 When enabled, the delay value is linked to the attack value. Be aware that the latency introduced by this function
 is now equal to your attack time.
-Warning: The latency introduced by this function equals the Attack time plus 1.35 ms @ 48 KHz.
+!> Warning: The latency introduced by this function equals the Attack time plus 1.35 ms @ 48 KHz.
 
 
 ## Mode (16)
