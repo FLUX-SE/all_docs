@@ -18,16 +18,19 @@ the right meter.
 
 
 ## Resultant Envelop (38)   
-Vu-meter not peak-meter, referenced to -16 dB Fs by default. The scale is +/- 12 dB.  
+Vu-meter not peak-meter, referenced to -16 dB Fs by default.  
+The scale is +/- 12 dB.  
 This is the compression, decompression, expander and de-expander summing envelop.
 
 
 ## Dynamic difference between in and out (39)   
-Vu-meter not peak-meter, referenced to -16 dB Fs by default. The scale is +/- 12 dB.
+Vu-meter not peak-meter, referenced to -16 dB Fs by default.  
+The scale is +/- 12 dB.
 
 
 ## Level difference between in and out (40)   
-Vu-meter not peak-meter, referenced to -16 dB Fs by default. The scale is +/- 12 dB.  
+Vu-meter not peak-meter, referenced to -16 dB Fs by default.  
+The scale is +/- 12 dB.  
 This is the compression, decompression, expander and de-expander summing envelop which also takes account of
 the input and output gains of the band.
 
