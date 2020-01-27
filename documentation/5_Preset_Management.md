@@ -24,7 +24,7 @@ A global preset including the two loaded presets and the morphing slider positio
 management window.
 
 ## Automation Control of the Morphing Slider (47)
-Default Value: Off
+Default Value: Off  
 When this button is disabled, all the plug-in parameters values are recorded when writing automation. The morphing 
 slider is ignored.
 
