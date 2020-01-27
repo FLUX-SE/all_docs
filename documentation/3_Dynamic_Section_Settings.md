@@ -26,7 +26,9 @@ Sets the ratio to its maximum.
 ## Range (27)
 Unit: dB  
 Value Range: 0 to 48  
-Default Value: 24Sets the maximum allowed gain variation for a specific dynamic processing section.
+Default Value: 24
+
+Sets the maximum allowed gain variation for a specific dynamic processing section.
 
 
 ## Knee (28)
