@@ -16,16 +16,18 @@ When the MS Width section is engaged, the M (Mid) level is displayed on the left
 the right meter.
 
 ## Resultant Envelope (15)
-Vu-meter, not peak-meter, referenced to -16 dB Fs by default. The scale is +/- 12 dB. This is the compression, de-
-compression, expander and de-expander summing envelope.
+Vu-meter, not peak-meter, referenced to -16 dB Fs by default.  
+The scale is +/- 12 dB.  
+This is the compression, de-compression, expander and de-expander summing envelope.
 
 ## Dynamic difference between in and out (16)
-Vu-meter, not peak-meter, referenced to -16 dB Fs by default. The scale is +/- 12 dB.
+Vu-meter, not peak-meter, referenced to -16 dB Fs by default.  
+The scale is +/- 12 dB.
 
 ## Level difference between in and out (17)
-Vu-meter, not peak-meter, referenced to -16 dB Fs by default. The scale is +/- 12 dB.  This is the compression, de-
-compression, expander and de-expander summing envelop which also takes account of the input and output gains 
-of the band.
+Vu-meter, not peak-meter, referenced to -16 dB Fs by default.  
+The scale is +/- 12 dB.  This is the compression, de-compression, expander and de-expander summing envelop which 
+also takes account of the input and output gains of the band.
 
 ## Dynamic Activity Display (18)
 No scale  

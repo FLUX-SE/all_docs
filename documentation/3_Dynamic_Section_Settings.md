@@ -16,9 +16,9 @@ rises, and literally opens the sound, increases the dynamic impression and maint
 the ratio of every dynamic processing section in realtime, both their current ratio settings and the signal content 
 (mainly dynamic range).
 
-Unit: %
-Value Range: 0 / 100
-Step: 1
+Unit: %  
+Value Range: 0 / 100  
+Step: 1  
 Default Value: 0 % 
 
 > To start understanding this setting and easily hear it, take a full mixed drum kit or a complete mix with punchy 

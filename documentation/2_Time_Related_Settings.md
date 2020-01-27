@@ -21,7 +21,7 @@ Default Value: 0 ms
 ## Auto Delay (46)
 Links the Delay (47) to the Attack (49).
 
-Note that the latency introduced by this equals to the attack time divided by two.
+> Note that the latency introduced by this equals to the attack time divided by two.
 
 Default Value: Off 
 
