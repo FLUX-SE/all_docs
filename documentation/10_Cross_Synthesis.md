@@ -49,7 +49,7 @@ which produces the geometric mean of the amplitudes of both channels and is the 
 power of the product amplitude spectrum when compared to the original input amplitude spectra. Smaller values of the
 power control will equalize low and high amplitude components while larger values will amplify the differences in the
 amplitude spectrum (amplifying spectral components in locations that are strong in both input spectra and suppressing
-spectral components that are weak in either or both input spectra.
+spectral components that are weak in either or both input spectra).
 
 ## Frequency :
 
