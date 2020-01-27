@@ -54,12 +54,7 @@ Default Value: 0.0 ms
 Sets the attack time of the processing envelop. It also controls the manner the RMS value is computed from the
 incoming signal.
 
-!> Warning : The Attack setting also controls the integration time for RMS detection.Hold (18)
-
-Unit: ms  
-Value Range: 0 ms / 500 ms.  
-Default Value: 0 ms
-
+!> Warning : The Attack setting also controls the integration time for RMS detection.
 
 ## Hold (18)
 Unit: ms  
