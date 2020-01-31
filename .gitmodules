@@ -1,0 +1,3 @@
+[submodule "stereotool_doc"]
+	path = stereotool_doc
+	url = https://github.com/FLUX-SE/stereotool_doc
