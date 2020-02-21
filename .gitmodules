@@ -1,6 +1,0 @@
-[submodule "stereotool_doc"]
-	path = stereotool_doc
-	url = https://github.com/FLUX-SE/stereotool_doc
-[submodule "bittersweet_doc"]
-	path = bittersweet_doc
-	url = https://github.com/FLUX-SE/bittersweet_doc
