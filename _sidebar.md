@@ -1,0 +1,1 @@
+* [Settings](documentation/settings.md)
