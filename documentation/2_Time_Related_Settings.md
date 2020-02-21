@@ -1,0 +1,112 @@
+# Time Related Settings
+
+## Delay (14)
+Unit: ms  
+Value Range: 0 to 50.0 ms  
+Default Value: 0 ms
+
+A delay reflecting the attack time can be introduced into the signal path in order to produce a zero attack time for
+the dynamic processing. Shifting the delay value from the attack time allows to control transients. A delay value
+inferior to the attack value lets peaks untouched by the processing.
+
+> Note that the different delay values of every band are automatically compensated. Solera can’t be used to produce
+delay based special effects.
+
+!> Warning: Morphing between presets with different delay values produces sound artefacts.
+Of course this delay introduces latency in the processing.
+
+## Auto Delay (15)
+Default Value: Off  
+When enabled, the delay value is linked to the attack value. Be aware that the latency introduced by this function
+is now equal to your attack time devide by 2.
+
+## Mode (16)
+Default Value: Solera  
+8 different detection modes are available:
+
+- Solera: The Attack setting also controls the integration time for RMS detection. When “Auto” is engaged for the
+delay value, the produced attack time is zero.
+- Solera Feed Backward: The Attack setting also controls the integration time for RMS detection which is done on
+the output of the processor. This mode disables the Delay feature. Note also that the Solera Feed Backward prevents 
+to use the external side chain because it’s the processed signal which feed the side chain.
+- Classic Fast: The integration time for RMS detection is 10 ms with no direct relation with the Attack setting. But
+when “Auto” is engaged for the delay value, the produced attack time is zero.
+- Classic Medium: The integration time for RMS detection is 40 ms with no direct relation with the Attack setting.
+But when “Auto” is engaged for the delay value, the produced attack time is zero.
+- Classic Slow: The integration time for RMS detection is 80 ms with no direct relation with the Attack setting. But
+when “Auto” is engaged for the delay value, the produced attack time is zero.
+- Classic Feed Backward Fast: The integration time is 10 ms for RMS detection which is done on the output of the
+processor. This mode disables the Delay feature. Note also that the Feed Backward mode prevents to use the external side chain because it’s the processed signal which feed the side chain.
+- Classic Feed Backward Medium: The integration time is 40 ms for RMS detection which is done on the output
+of the processor. Note also that the Feed Backward mode prevents to use the external side chain because it’s the
+processed signal which feed the side chain.
+- Classic Feed Backward Slow: The integration time is 80 ms for RMS detection which is done on the output of the
+processor. Note also that the Feed Backward mode prevents to use the external side chain because it’s the processed signal which feed the side chain.
+
+
+> These Feed Backward modes have been inspired by vintage hardware architectures. they create a sort of auto regulation of the processing which produces a naturally beefy sound.
+
+
+## Attack (17)
+Unit: ms  
+Value Range: 0 ms to 100 ms  
+Default Value: 0.0 ms  
+Sets the attack time of the processing envelop. It also controls the manner the RMS value is computed from the
+incoming signal.
+
+!> Warning : The Attack setting also controls the integration time for RMS detection.
+
+## Hold (18)
+Unit: ms  
+Value Range: 0 ms / 500 ms.  
+Default Value: 0 ms
+
+This parameter is the only one in the time related settings, that is independent per dynamic processor. The compressor 
+and the expander may have different hold time.
+
+> Used in the Expander section, this setting allows very precise gating of drum tracks. It can also be used for creative
+purpose on the other dynamic sections.
+
+
+## Release Mode (19)
+Default Value: Auto  
+Three release modes are available for the envelop of the dynamic processing.
+
+- Manual corresponds to the value you have set.
+- Auto enables our specific algorithm to generate a signal dependent value to avoid typical pumping effects.
+- Advanced gives access to two different values for release and to the control of the velocity of the variations between 
+the maximum and the minimum release values.
+
+
+## Release (20)
+Unit: ms  
+Value Range: 0.67 ms / 10000.00 ms  
+Default Value: 500.00 ms
+
+Sets the manual release value and the maximum release value when in Advanced Mode.
+
+## Release Minimum (21)
+Unit: ms  
+Value Range: 0.67ms / 5000.00  
+Step: 0.01  
+Default Value: 1.30 ms
+
+Sets the minimum release value when in Advanced Mode.
+
+
+## Dynamic Factor (22)
+Unit: x  
+Value Range: 0 / 3.0  
+Step: variable.  
+Default Value: 1
+
+Amplify or dim the extracted real time dynamic informations.
+
+
+## Dynamic Velocity (23)
+Unit: %  
+Value Range: 10 / 1000  
+Step: 1  
+Default Value: 50 %
+
+Sets the speed of variation on the dynamic informations.
