@@ -1,7 +1,0 @@
-* [Solera](documentation/0_Solera.md)
-* [General settings](documentation/1_General_Settings.md)
-* [Time related settings](documentation/2_Time_Related_Settings.md)
-* [Dynamic section settings](documentation/3_Dynamic_Section_Settings.md)
-* [Display](documentation/4_Display.md)
-* [The SideChain EQ section](documentation/5_The_Side_Chain_EQ_Section.md)
-* [Preset management](documentation/6_Preset_Management.md)
