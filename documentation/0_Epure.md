@@ -2,7 +2,7 @@
 [Product Page](https://www.flux.audio/project/epure/) 
 | [Shop Page](https://shop.flux.audio/en_US/products/epure)
 
-![](/include/Epure_01.png)
+![](../include/Epure_01.png)
 
 Epure v3 is a state-of-the-art five-band equalizer designed to provide the absolute finest audio quality within the
 domain of digital audio processing. Built with our proprietary State-Space technology, carefully tuned to preserve
