@@ -1,4 +1,4 @@
-* [Spat](documentation/0_SPAT.md)
+* [Spat](documentation/0_Ircam_Spat.md)
 
 * [Sources](documentation/A_Sources.md)
     * [Main section](documentation/1_Main_Section.md)
