@@ -1,4 +1,4 @@
-* [Introduction](documentation/A_Introduction.md)
+* [Introduction](documentation/0_Ircam_Verb.md)
 * [Quick start guide](documentation/0_Quick_start_guide.md)
 * [Decay](documentation/1_Decay.md)
 * [Time structure display](documentation/2_Time_Structure_Display.md)
