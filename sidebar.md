@@ -1,4 +1,4 @@
-* [Epure v3](documentation/0_Epure_v3.md)
+* [Epure](documentation/0_Epure.md)
 * [Special functions](documentation/1_Special_Functions.md)
 * [Setup - Input routing - MS Encode/Decode - Groups](documentation/2_Setup_-_Input_Routing_-_MS_Encode_Decode_-_Groups.md)
 * [Specifications](documentation/3_Specifications.md)
