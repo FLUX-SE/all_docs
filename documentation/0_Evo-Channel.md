@@ -1,4 +1,4 @@
-![](/include/ManualEvoChannel-000.jpg)
+![](../include/ManualEvoChannel-000.jpg)
 
 [Product Page](https://www.flux.audio/project/evo-channel/) 
 | [Shop Page](https://shop.flux.audio/en_US/products/evo-channel)
@@ -12,7 +12,7 @@ efficient, fast, and making things sound great already from the start. EVO Chann
 fast and hands-on, adding the advantages of creative digital innovation in terms of workflow and sound,
 providing everything you need to stay in control of your sound!
 
-![](/include/ManualEvoChannel-003.jpg)
+![](../include/ManualEvoChannel-003.jpg)
 
 EVO Channel architecture :
-![](/include/ManualEvoChannel-005.png)
+![](../include/ManualEvoChannel-005.png)
