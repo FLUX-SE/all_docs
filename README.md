@@ -1,5 +1,4 @@
-![]
-(https://shop.flux.audio/flux/icons/logo.svg)
+![](https://shop.flux.audio/flux/icons/logo.svg)
 
 # Flux:: Documentation
 

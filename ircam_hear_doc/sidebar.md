@@ -1,5 +1,0 @@
-* [HEar](documentation/0_Ircam_Hear.md)
-* [Concepts](documentation/1_Concepts.md)
-* [Controls](documentation/2_Controls.md)
-* [Credits](documentation/3_Credits.md)
-* [References](documentation/4_References.md)

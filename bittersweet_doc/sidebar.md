@@ -1,1 +1,0 @@
-* [Bittersweet](documentation/0_Bittersweet.md)
