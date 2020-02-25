@@ -1,1 +1,0 @@
-* [Settings](documentation/0_StereoTool.md)
