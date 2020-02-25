@@ -2,7 +2,7 @@
 [Product Page](https://www.flux.audio/project/pure-limiter/) 
 | [Shop Page](https://shop.flux.audio/en_US/products/pure-limiter)
 
-![](/include/pure-limiter_01.PNG)
+![](../include/pure-limiter_01.PNG)
 
 Pure Limiter makes transparent limiting easy; a dramatic increase of the average audio level can now be accomplished 
 without damaging the perceived audio quality, with the exquisite proprietary Flux:: technology generating

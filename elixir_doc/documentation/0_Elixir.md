@@ -5,4 +5,4 @@
 
 Thank you for using Elixir v3. We hope that you will get good use of the information found in this manual.
 
-![](/include/Elixir_00.PNG)
+![](../include/Elixir_00.PNG)
