@@ -1,4 +1,4 @@
-* [Alchemist v3 - the alchemist concept](documentation/0_Alchemist_V3_-_The_Alchemist_concept.md)
+* [Alchemist](documentation/0_Alchemist.md)
 * [General settings and display](documentation/1_General_Settings_and_Display.md)
     * [General settings](documentation/2_General_Settings.md)
     * [General display](documentation/3_General_Display.md)
