@@ -2,9 +2,9 @@
 [Product Page](https://www.flux.audio/project/pure-compressor/) 
 | [Shop Page](https://shop.flux.audio/en_US/products/pure-compressor)
 
-![](/include/pure-comp_01.PNG)
+![](../include/pure-comp_01.PNG)
 
-![](/include/pure-comp_02.PNG)
+![](../include/pure-comp_02.PNG)
 
 Pure Compressor is the compressor section of the Solera. A compressor is used to automatically reduce the gain
 above the Threshold. Pure Compressor produces a wide range of compressions from ultra clean subtle compressions to classic heavy pumping ones - It’s all up to your artistic choices, not to the technology limitations.
