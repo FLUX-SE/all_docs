@@ -1,4 +1,4 @@
-* [Introduction](documentation/A_Introduction.md)
+* [Verb Session](documentation/0_Ircam_Verb_Session.md)
 * [Quick start](documentation/0_Quick_Start.md)
 * [Time structure display](documentation/1_Time_Structure_Display.md)
 * [Filter](documentation/2_Filter.md)
