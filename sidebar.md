@@ -1,5 +1,0 @@
-* [Evo In](documentation/0_Evo_In.md)
-* [General settings](documentation/1_General_Settings.md)
-* [Module settings](documentation/2_Module_Settings.md)
-* [Plugin settings](documentation/3_Plugin_Settings.md)
-* [Specifications](documentation/4_Specifications.md)
