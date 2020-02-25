@@ -1,4 +1,4 @@
-* [Welcome](analyser_doc/documentation/00_Pure_Analyzer.md/00_Pure_Analyzer.md)
+* [Welcome](analyser_doc/documentation/00_Pure_Analyzer/00_Pure_Analyzer.md)
     * [Pure analyzer versions](analyser_doc/documentation/00_Pure_Analyzer.md/01_Pure-analyzer-versions.md)
 * Initial setup
     * [Introduction](analyser_doc/documentation/01_Initial_Setup/00_Introduction.md)
