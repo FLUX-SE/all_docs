@@ -3,7 +3,7 @@
 # Flux:: Documentation
 
 [Alchemist](alchemist_doc/documentation/0_Alchemist.md)  
-[Analyser](analyser_doc/documentation/00_Pure_Analyzer.md)  
+[Analyzer](analyser_doc/documentation/00_Pure_Analyzer)  
 [Bittersweet](bittersweet_doc/documentation/0_Bittersweet.md)  
 [Bittersweet Pro](bittersweet-pro_doc/documentation/0_BitterSweet_Pro.md)  
 [Elixir](elixir_doc/documentation/0_Elixir.md)  
