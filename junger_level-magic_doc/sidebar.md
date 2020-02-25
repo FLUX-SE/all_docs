@@ -1,4 +1,4 @@
-* [Level magic](documentation/0_Level_Magic.md)
+* [Level Magic](documentation/0_Junger_level_Magic.md)
 * [General settings](documentation/1_General_Settings.md)
 * [Preset management](documentation/2_Preset_Management.md)
     * [Preset manager window](documentation/3_Preset_Manager_Window.md)

@@ -1,5 +1,5 @@
-* [Welcome](documentation/00_Welcome/00_Welcome.md)
-    * [Pure analyzer versions](documentation/00_Welcome/01_Pure-analyzer-versions.md)
+* [Welcome](documentation/00_Pure_Analyzer.md/00_Pure_Analyzer.md)
+    * [Pure analyzer versions](documentation/00_Pure_Analyzer.md/01_Pure-analyzer-versions.md)
 * Initial setup
     * [Introduction](documentation/01_Initial_Setup/00_Introduction.md)
     * Samplegrabber

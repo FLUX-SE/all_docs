@@ -1,4 +1,4 @@
-* [Introduction](documentation/A_Introduction.md)
+* [Trax](documentation/0_Ircam_Trax.md)
 * [Transformer](documentation/00_Transformer.md)
     * [Mode](documentation/0_Mode.md)
     * [Source](documentation/1_Source.md)

@@ -1,4 +1,4 @@
-* [Pure DExpander v3](documentation/0_Pure_DExpander_V3.md)
+* [Pure DExpander](documentation/0_Pure_DExpander.md)
 * [General settings](documentation/1_General_Settings.md)
 * [Time related settings](documentation/2_Time_Related_Settings.md)
 * [Dynamic section settings](documentation/3_Dynamic_Section_Settings.md)

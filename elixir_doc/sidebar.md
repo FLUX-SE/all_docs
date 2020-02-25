@@ -1,4 +1,4 @@
-* [Elixir v3   real multichannel true peak limiter](documentation/0_Elixir_v3_-_Real_Multichannel_True_Peak_Limiter.md)
+* [Elixir](documentation/0_Elixir.md)
 * [Introduction](documentation/1_Introduction.md)
 * [About true peak](documentation/2_About_True_Peak.md)
 * [Installation](documentation/3_Installation.md)
