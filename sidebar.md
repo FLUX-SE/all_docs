@@ -1,4 +1,4 @@
-* [Introduction](documentation/0_Introduction.md)
+* [Evo Channel](documentation/0_Evo-Channel.md)
 * [General settings](documentation/1_General_Settings.md)
 * [Module settings](documentation/2_Module_Settings.md)
 * [Shortcuts](documentation/3_Shortcuts.md)
