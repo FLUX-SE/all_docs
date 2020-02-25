@@ -1,4 +1,4 @@
-![](/include/spat_01.jpg)
+![](../include/spat_01.jpg)
 
 ## Introduction
 
