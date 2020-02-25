@@ -1,4 +1,4 @@
-* [Solera v3](documentation/0_Solera_V3.md)
+* [Solera](documentation/0_Solera.md)
 * [General settings](documentation/1_General_Settings.md)
 * [Time related settings](documentation/2_Time_Related_Settings.md)
 * [Dynamic section settings](documentation/3_Dynamic_Section_Settings.md)
