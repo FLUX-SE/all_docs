@@ -1,0 +1,8 @@
+* [Evo Channel](documentation/0_Evo-Channel.md)
+* [General settings](documentation/1_General_Settings.md)
+* [Module settings](documentation/2_Module_Settings.md)
+* [Shortcuts](documentation/3_Shortcuts.md)
+* [Plugin settings](documentation/4_Plugin_Settings.md)
+* [Preset management](documentation/5_Preset_Management.md)
+* [Preset manager](documentation/6_Preset_Manager.md)
+* [Specifications](documentation/7_Specifications.md)
