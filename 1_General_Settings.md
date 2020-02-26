@@ -12,7 +12,7 @@ to the user manual.
 
 |    |     |
 | --- | --- |
-| ![](../include/level_magic_01.PNG) | ![](../include/level_magic_02.PNG) |
+| ![](include/level_magic_01.PNG) | ![](include/level_magic_02.PNG) |
 | *Stereo Configuration* | *Multichannel (5.1) Configuration* |
 
 - Config: Current I/O configuration. Config is only available in certain VST hosts; typically hosts with limited
@@ -23,7 +23,7 @@ to the user manual.
 
 |     |
 | --- |
-| ![](../include/level_magic_03.PNG) |
+| ![](include/level_magic_03.PNG) |
 | *I/O Layout information* |
 
 - User Interface - Maximum Meter(s) Refresh: Enables/Disables the max refresh rate of the plug-in’s metering.
@@ -38,7 +38,7 @@ to the user manual.
     
 |     |
 | --- |
-| ![](../include/level_magic_04.PNG) |
+| ![](include/level_magic_04.PNG) |
 | OSC Settings|
 
 - Version Information: Plug-in version and build number information.
@@ -85,7 +85,7 @@ overall (integrated) loudness. Units are LU (EBU Tech Doc 3342). The maximum per
 during production is -1dBTP.
 
 - Summary, Available Modes
-![](../include/level_magic_05.PNG)
+![](include/level_magic_05.PNG)
 
 !> Important note:
 Systems working in ITU BS.1770-1 mode do not feature a gating function. Thus its output readings may vary from meters
@@ -101,14 +101,14 @@ Two link options are available for stereo and surround processing:
 - Stereo Mode: Linked/Unlinked
 - Surround Mode (Only affecting the LFE channel): Linked/Unlink LFE
 
-![](../include/level_magic_06.PNG)  
+![](include/level_magic_06.PNG)  
 Stereo Mode - Unlinked
 
 
 ## Recent Values (6)
 When pressed, the results of the recent loudness measurement cycle, before Reset (8) was pressed, are displayed.
 
-![](../include/level_magic_07.PNG)  
+![](include/level_magic_07.PNG)  
 The recent values are the values displayed in Green to the right of the RT values.
 
 ## Pause / Continue (7)
