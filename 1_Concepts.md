@@ -38,7 +38,7 @@ For Acoustic Research) dummy head and torso simulation. This type of manikin was
 during the 1970's for conducting acoustics experiments using a model with anthropometric dimensions
 equivalent to that of an average human listener.
 
-![](../include/hear_01.jpg)
+![](include/hear_01.jpg)
  
 Courtesy of G.R.A.S. Sound & Vibration  
 http://www.gras.dk/

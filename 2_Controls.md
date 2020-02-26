@@ -10,7 +10,7 @@ exclusively for use with headphones.
 
 The meters above the fi rst row indicate the source levels of individual input channels.
 
-![](../include/hear_02.jpg)
+![](include/hear_02.jpg)
 
 User controls
  
