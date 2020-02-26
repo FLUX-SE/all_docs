@@ -2,7 +2,7 @@
 [Product Page](https://www.flux.audio/project/bittersweet-v3/) 
 | [Download](https://flux.audio/download)
 
-![](../include/Bittersweet_00.PNG)
+![](include/Bittersweet_00.PNG)
 
 ## Bypass (1)
 
