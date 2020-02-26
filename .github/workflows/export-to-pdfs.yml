@@ -46,7 +46,7 @@ jobs:
         CI: true
 
     - name: Store artifacts
-        uses: actions/upload-artifact@v1
-        with:
-          name: doc-pdfs
-          path: build
+      uses: actions/upload-artifact@v1
+      with:
+        name: doc-pdfs
+        path: build
