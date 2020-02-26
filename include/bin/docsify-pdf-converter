@@ -13,18 +13,9 @@ const exportPdf = (path, name) => {
     const c = { ... config };
     c.pathToPublic = format(c.pathToPublic, name);
     c.contents.push(name+'/_sidebar.md');
-    console.log(c);
     docsifytopdf(c);
-    process.exit(0);
 };
-
-const getDirectories = source =>
-    readdirSync(source, { withFileTypes: true })
-        .filter(dirent => dirent.isDirectory() && dirent.name.match(/.+_doc$/))
-        .filter(dirent => dirent.name !== "analyser_doc")
-        .filter(dirent => dirent.name !== "spat_revolution_doc")
-        .map(dirent => dirent.name);
-
 const homedir = cwd();
-//exportPdf(homedir, "all_docs");
-getDirectories(homedir).forEach(dirname => exportPdf(homedir+"/"+dirname, dirname));
+const dirname = process.argv[process.argv.length-1];
+
+exportPdf(homedir+"/"+dirname, dirname);

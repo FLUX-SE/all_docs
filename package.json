@@ -12,7 +12,8 @@
   },
   "homepage": "https://doc.flux.audio",
   "scripts": {
-    "export-to-pdf": "include/bin/docsify-pdf-converter",
+    "export-to-pdf": "include/bin/export-all-docs.sh",
+    "convert": "include/bin/docsify-pdf-converter",
     "server": "grunt default"
   },
   "devDependencies": {
@@ -25,7 +26,6 @@
   "docsifytopdf": {
     "mainMdFilename": "README.md",
     "contents": [
-      "_sidebar.md"
     ],
     "pathToPublic": "build/%s.pdf",
     "removeTemp": true
