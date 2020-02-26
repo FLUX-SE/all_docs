@@ -44,3 +44,9 @@ jobs:
       run: yarn run export-to-pdf
       env:
         CI: true
+
+    - name: Store artifacts
+        uses: actions/upload-artifact@v1
+        with:
+          name: doc-pdfs
+          path: build
