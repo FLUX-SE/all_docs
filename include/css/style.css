@@ -1,0 +1,11 @@
+.sidebar-nav a::before {
+    content: "" !important;
+    margin: auto;
+}
+:root {
+    --table-row-even-background: hsl(201, 18%, 13%)/*var(--mono-shade3)*/
+}
+
+.docsify-footer {
+    text-align: right;
+}
