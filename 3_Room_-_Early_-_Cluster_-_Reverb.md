@@ -1,7 +1,7 @@
 # Room - Early - Cluster - Reverb
 A set of filters, following each part of the time structure, is available for a fine tune of the reverberation characteristics.
 
-![](../include/verb_05.PNG)
+![](include/verb_05.PNG)
 
 ## (18) Room
 This section sets the characteristics of the filter applied to the signal fed to the reverberation engine, affecting 

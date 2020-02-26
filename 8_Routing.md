@@ -1,5 +1,5 @@
 # Routing
-![](../include/verb_10.PNG)
+![](include/verb_10.PNG)
 
 This sub-panel is accessed by clicking the Setup button.
 

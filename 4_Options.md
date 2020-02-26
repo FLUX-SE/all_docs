@@ -1,6 +1,6 @@
 # Options
 
-![](../include/verb_06.PNG)
+![](include/verb_06.PNG)
 
 ## (28) Infinite
 When activated, the signal is recirculated indefinitely inside the reverberation engine.   

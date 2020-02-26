@@ -1,5 +1,5 @@
 # Decay
-![](../include/verb_03.PNG)
+![](include/verb_03.PNG)
 
 ## (1) Decay time
 
