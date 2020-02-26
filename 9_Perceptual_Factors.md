@@ -1,6 +1,6 @@
 # Perceptual Factors
 
-![](../include/spat_12.jpg)
+![](include/spat_12.jpg)
 
 ## (52) Reverberance
 Reverberance affects the amount by which the listener perceives the music to

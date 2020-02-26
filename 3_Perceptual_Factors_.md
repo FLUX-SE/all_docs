@@ -1,6 +1,6 @@
 # Perceptual Factors 
 
-![](../include/spat_05.jpg)
+![](include/spat_05.jpg)
 
 This parameter group holds settings affecting the way the reverb sound is perceived by the listener. As explained 
 previously, these are not simply names stuck onto any internal parameter dictated by the inner workings of the algorithm.

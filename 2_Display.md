@@ -1,6 +1,6 @@
 # Display
 
-![](../include/spat_04.jpg)
+![](include/spat_04.jpg)
 
 This sub-panel displays a to-scale representation of the sources and speakers spatial localization settings, projected 
 onto a 2D flat space.  

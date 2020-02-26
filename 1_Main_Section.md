@@ -1,6 +1,6 @@
 # Main Section
 
-![](../include/spat_03.jpg)
+![](include/spat_03.jpg)
 
 The source tab is where sources parameters are set and visualized.
 In essence, input channels are actually fed to one or several virtual sources that

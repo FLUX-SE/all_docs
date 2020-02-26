@@ -1,6 +1,6 @@
 # Room Response
 
-![](../include/spat_13.jpg)
+![](include/spat_13.jpg)
 
 ## (58) Early Shape
 Governs the amplitude rise or fall of early reflections. The default setting of 0.5 corresponds

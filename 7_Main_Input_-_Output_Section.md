@@ -1,6 +1,6 @@
 # Main Input - Output Section
 
-![](../include/spat_09.jpg)
+![](include/spat_09.jpg)
 
 ## (44) Input Gain
 Adjust the level of the signal fed to the plug-in, in

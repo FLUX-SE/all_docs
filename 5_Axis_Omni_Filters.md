@@ -1,6 +1,6 @@
 # Axis Omni Filters
 
-![](../include/spat_07.jpg)
+![](include/spat_07.jpg)
 
 
 ## (26) Omni

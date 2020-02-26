@@ -1,6 +1,6 @@
 # Main Section
 
-![](../include/spat_11.jpg)
+![](include/spat_11.jpg)
 
 ## (50) Selected Reverb
 Selects and indicates the reverb engine currently being edited. Three engines,

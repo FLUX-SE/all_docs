@@ -1,6 +1,6 @@
 # Options
 
-![](../include/spat_08.jpg)
+![](include/spat_08.jpg)
 
 ## (35) Target Reverb
 Drop-down menu indicating the currently selected reverb engine. Clicking this menu allows you to

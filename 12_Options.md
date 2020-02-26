@@ -1,6 +1,6 @@
 # Options
 
-![](../include/spat_15.jpg)
+![](include/spat_15.jpg)
 
 ## (71) Infinite
 When activated, decay time temporarily rises to infinity, making the signal recirculate indefinitely 

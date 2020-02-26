@@ -1,6 +1,6 @@
 # Routing
 
-![](../include/spat_18.jpg)
+![](include/spat_18.jpg)
 
 ## (86) Subwoofer On
 Activates send of a speaker output to the subwoofer bus.

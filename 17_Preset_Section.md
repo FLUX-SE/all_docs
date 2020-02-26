@@ -1,6 +1,6 @@
 # Preset Section
 
-![](../include/spat_20.jpg)
+![](include/spat_20.jpg)
 
 ## (95) Save
 Saves a snapshot of the current settings for future use.  
