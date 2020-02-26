@@ -2,7 +2,7 @@
 
 Clicking the cogwheel symbol opens a window with a range of general settings and a direct access button to the user manual.
 
-![](../include/bittersweet-pro_settings.jpg)
+![](include/bittersweet-pro_settings.jpg)
 
 |                             |                                            |
 |            ---              |                   ---                      |

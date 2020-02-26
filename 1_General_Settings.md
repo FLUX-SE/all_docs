@@ -1,6 +1,6 @@
 # General Settings
 
-![](../include/bittersweet-pro.jpg)
+![](include/bittersweet-pro.jpg)
 
 |                                       |                                               |
 |           ---                         |                       ---                     |
