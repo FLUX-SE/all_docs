@@ -1,6 +1,6 @@
 # Filters
 
-![](../include/trax_07.PNG)
+![](include/trax_07.PNG)
 
 ## (36) Filter Curve
 The filter curve displays the overall frequency response of the filter section.

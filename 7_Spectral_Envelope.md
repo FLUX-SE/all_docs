@@ -1,6 +1,6 @@
 # Spectral Envelope
 
-![](../include/trax_10.PNG)
+![](include/trax_10.PNG)
 
 The Spectral Envelope allows for complex remapping of the spectrum envelope, according to a freely definable curve.
 At startup, the spectral envelope is a diagonal line, giving a 1:1 remapping of the spectrum, i.e. no modification.

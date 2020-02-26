@@ -1,5 +1,5 @@
 # Preset Section
-![](../include/trax_15.PNG)
+![](include/trax_15.PNG)
 
 ## (90) Save Preset
 Saves a snapshot of the current settings for future use.

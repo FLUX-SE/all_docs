@@ -1,6 +1,6 @@
 # Options
 
-![](../include/trax_08.PNG)
+![](include/trax_08.PNG)
 
 The options panel controls a number of parameters affecting the analysis-re-synthesis engine. The default settings should
 prove adequate as a a starting basis.

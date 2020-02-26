@@ -1,5 +1,5 @@
 # Cross Synthesis
-![](../include/trax_13.PNG)
+![](include/trax_13.PNG)
 
 ## (69) Oversampling
 Adjusts the spectral domain oversampling factor, set to zero (none) by default. Increasing this setting can increase the

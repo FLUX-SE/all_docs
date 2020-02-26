@@ -1,6 +1,6 @@
 # Remix
 
-![](../include/trax_06.PNG)
+![](include/trax_06.PNG)
 
 ## (24) Remix On / Off
 Toggles the Remix console in and out of the signal path.  
