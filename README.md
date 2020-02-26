@@ -7,14 +7,12 @@
 |||
 |---|---|
 | [Spat Revolution](spat_revolution_doc/documentation/0_A_User_Guide.md) | [Ircam HEar](ircam_hear_doc/documentation/0_Ircam_Hear.md) |
-|||
 
 ## Analysis
 
 |||
 |---|---|
 | [Pure Analyzer](analyser_doc/documentation/00_Pure_Analyzer/00_Pure_Analyzer.md) | [Stereo Tool](stereotool_doc/documentation/0_StereoTool.md) | 
-|||
 
 ## Processing
 
@@ -28,11 +26,9 @@
 | [Pure Compressor](pure-compressor_doc/documentation/0_Pure_Compressor.md) | [Pure Dcompressor](pure-dcompressor_doc/documentation/0_Pure_DCompressor.md) | [Pure Dexpander](pure-dexpander_doc/documentation/0_Pure_DExpander.md) |
 | [Pure Expander](pure-expander_doc/documentation/0_Pure_Expander.md) | [Pure Limiter](pure-limiter_doc/documentation/0_Pure_Limiter.md) |  |
 | [Syrah](syrah_doc/documentation/0_Syrah.md) | [Syrah](syrah_doc/documentation/0_Syrah.md) |  |
-|  |  |  |
 
 ## Legacy
 
 ||
 |---|
 | [Ircam Spat (Plugin)](ircam_spat_doc/documentation/0_Ircam_Spat.md) |
-||
