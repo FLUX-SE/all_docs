@@ -21,7 +21,7 @@ Default Value : Light
 
 ## Flow
 
-![](../include/ManualEvoChannel-006.png)
+![](include/ManualEvoChannel-006.png)
 
 Flow allow you to change the order of the modules in EVO Channel. Simply drag and drop a module to set your
 perfect signal flow.

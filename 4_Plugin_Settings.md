@@ -3,7 +3,7 @@
 Clicking the cogwheel symbol opens a window with a range of general settings and a direct access button to
 the user manual.
 
-![](../include/ManualEvoChannel-012.jpg)
+![](include/ManualEvoChannel-012.jpg)
 
 ## Main Setup
 
