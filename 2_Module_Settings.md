@@ -22,13 +22,13 @@ Controlling the Phase of microphones is universal and relevant both for studio a
 Arbitrary and Linear Phase Rotation throughout the spectrum is provided, to accomplish the same natural thing
 as when physically moving a microphone, of course without adding any latency.
 
-![](../include/ManualEvoIn-004.jpg)
+![](include/ManualEvoIn-004.jpg)
 
 The phase must be enabled for all the drum tracks. Then set the same group number for all these tracks. It
 allows to enable and disable the phase for all the drums in one click (simply switch on/off for the phase in one of
 the tracks).
 
-![](../include/ManualEvoIn-005.jpg)
+![](include/ManualEvoIn-005.jpg)
 
 ### Phase Switch
 
