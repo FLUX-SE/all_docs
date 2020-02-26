@@ -23,6 +23,9 @@ jobs:
       id: yarn-cache-dir-path
       run: echo "::set-output name=dir::$(yarn cache dir)"
 
+    - name: Install yarn packages
+      run: yarn
+
     - uses: actions/cache@v1
       id: yarn-cache # use this to check for `cache-hit` (`steps.yarn-cache.outputs.cache-hit != 'true'`)
       with:
@@ -38,8 +41,6 @@ jobs:
           sudo systemctl restart systemd-sysctl.service
 
     - name: Export PDFs
-      run: |
-        yarn
-        yarn run export-to-pdf
+      run: yarn run export-to-pdf
       env:
         CI: true
