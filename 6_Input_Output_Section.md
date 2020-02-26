@@ -1,6 +1,6 @@
 # Input Output Section
 
-![](../include/verb_session_08.PNG)
+![](include/verb_session_08.PNG)
 
 ## (20) Input Gain
 Adjusts the level of the signal fed to the plug-in, in dB increments.

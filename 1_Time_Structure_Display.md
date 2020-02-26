@@ -1,5 +1,5 @@
 # Time Structure Display
-![](../include/verb_session_03.PNG)
+![](include/verb_session_03.PNG)
 
 ## (1) Direct signal
 The grey bar at the start of the reverberation pictogram represents the direct sound send at the input of the plug-in.   

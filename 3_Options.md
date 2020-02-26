@@ -1,6 +1,6 @@
 # Options
 
-![](../include/verb_session_05.PNG)
+![](include/verb_session_05.PNG)
 
 ## (7) Decay time
 This is the duration of the reverberation ‘tail’ in seconds, in other words how long it takes for the reverberated 

@@ -34,7 +34,7 @@ A Preset can directly be recalled into the preset section selected by the morphi
 on its name on the list. The preset lists can be filtered. This filter is applied to any preset information such as name,
 description, author, comments or key words.
 
-![](../include/verb_session_09.PNG)
+![](include/verb_session_09.PNG)
 
 ### Recall A
 Recalls the selected preset into the corresponding location.
@@ -70,7 +70,7 @@ Adds existing presets into the preset bank.
 ### Sorting arrows
 Moves a preset up and down in the list for sorting.
 
-![](../include/verb_session_10.PNG)
+![](include/verb_session_10.PNG)
 
 When engaged, the preset is protected, and any subsequent modifications or edits are allowed for the original author 
 only. This comes in handy in a multi-user configuration. Protected presets can of course still be loaded or deleted when 

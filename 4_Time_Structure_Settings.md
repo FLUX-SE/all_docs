@@ -1,6 +1,6 @@
 # Time Structure Settings
 
-![](../include/verb_session_06.PNG)
+![](include/verb_session_06.PNG)
 
 ## (10) Early Gain
 Controls the level of EARLY and CLUSTER contributed to the overall effect.
