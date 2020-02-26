@@ -2,7 +2,7 @@
 Stereo Tool V3 is the perfect tool for correcting the stereophonic image of audio tracks and buses, both for mixing and 
 mastering. The integrated goniometer allows you to easily visualize and identify problems with your stereo signals.
  
-![](../include/Stereotool_loupes.png)
+![](include/Stereotool_loupes.png)
  
 ## Channel adjustment parameters
 ### 1 - Left channel input gain trim  
@@ -29,21 +29,21 @@ the stereo image width and panning.
 ## Goniometer interpretation
 ### Identify mono signals
 **Mono centered**  
-![](../include/mono_center.png)
+![](include/mono_center.png)
 
 **Mono left panned**  
-![](../include/mono_left.png)
+![](include/mono_left.png)
 
 **Mono right panned**  
-![](../include/mono_right.png)
+![](include/mono_right.png)
 
 ### Identify issues in stereo signal
 
 **Out of phase**  
-![](../include/out_of_phase.png)
+![](include/out_of_phase.png)
 
 **Phase issue/ too wide**  
-![](../include/phase_issue.png)
+![](include/phase_issue.png)
 
 **Hyper-compressed signal**  
-![](../include/Stereotool_hypercompressed.png)
+![](include/Stereotool_hypercompressed.png)
