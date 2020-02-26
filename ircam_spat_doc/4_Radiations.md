@@ -1,0 +1,38 @@
+# Radiations
+
+![](include/spat_06.jpg)
+
+## (19) Distance
+Distance from the source to the center reference point (listener position), in meters.
+
+
+## (20) Azimuth
+Angle between the source location and the listener-front reference axis, in degrees.
+
+
+## (21) Yaw
+Angle of the source direction orientation relative to the listener-source axis, in degrees.
+
+
+## (22) Relative direction
+When engaged, the source movement done with the mouse in the display are done in a way that the source
+always keep the same source-listener orientation.  
+If not, the source direction is constant.
+
+## (23) Elevation
+Elevation angle, in degrees.
+
+> Please note that when the source is not located onto the base horizontal plane, at listener ear level (z = 0), a small gauge is
+displayed on the right edge of the preview, which gives the distance of the source to listener projected onto the Z axis, for easier
+handling of elevation.
+
+## (24) Pitch
+Source direction orientation pitch angle, in degrees.
+> Please pay attention to the fact that the graphic preview cannot not display pitch movements because of the 2D projection constraints.
+
+## (25) Aperture
+The aperture parameter relates to the "sound cone" projected by the virtual source in the acoustic space, and is measured in
+degrees. It determines wether the source will be very directive (small aperture), or omnidirectional (large aperture) inside the
+reverberant environment. You can use this parameter to simulate the how a source will interact with its acoustical environment.
+
+Each source has a set of two three-band equalizers associated with it, as described below.

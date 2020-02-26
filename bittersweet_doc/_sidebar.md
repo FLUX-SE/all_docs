@@ -1,1 +1,1 @@
-* [Bittersweet](bittersweet_doc/documentation/0_Bittersweet.md)
+* [Bittersweet](0_Bittersweet.md)

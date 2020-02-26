@@ -1,1 +1,1 @@
-* [Settings](stereotool_doc/documentation/0_StereoTool.md)
+* [Settings](0_StereoTool.md)
