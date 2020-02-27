@@ -8,11 +8,11 @@ presets can be recalled into a preset section and then saved into the User bank 
 - Global bank - Contains Global presets. A Global preset is a complete snapshot with all the settings from both
 of the preset sections as well as the position of the Preset A/B Switch (34).
 
-![](include/level_magic_08.PNG)  
+![](include/level_magic_08.png)  
 
 Preset Manager - Factory Bank
 
-![](include/level_magic_09.PNG)  
+![](include/level_magic_09.png)  
 
 Preset Manager - User Bank
 

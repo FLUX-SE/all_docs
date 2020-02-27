@@ -2,7 +2,7 @@
 
 The Verb is an algorithmic reverberation processor build in a modular way, with an recursive filtering based engine.
 
-![](include/verb_02.PNG)
+![](include/verb_02.png)
 
 This block diagram view explain the basics of this engine, to explain the time structure of the reverberation tail:
 

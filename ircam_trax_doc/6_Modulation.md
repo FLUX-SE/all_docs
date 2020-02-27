@@ -1,6 +1,6 @@
 # Modulation
 
-![](include/trax_09.PNG)
+![](include/trax_09.png)
 
 The Modulation panel allows for some additional modification of the material’s pitch and formants.
 

@@ -1,5 +1,5 @@
 # Mode
-![](include/trax_02.PNG)
+![](include/trax_02.png)
 
 The Mode selection buttons puts the plug-in into the one of three modes, each best suited for one of three different types
 of audio material: Voice, Instrument and Music, which are explained in detailed below.

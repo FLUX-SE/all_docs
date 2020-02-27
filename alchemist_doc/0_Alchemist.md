@@ -3,7 +3,7 @@
 [Product Page](https://www.flux.audio/project/alchemist-v3/) 
 | [Shop Page](https://shop.flux.audio/en_US/products/alchemist)
 
-![](include/Alchemist_00.PNG)
+![](include/Alchemist_00.png)
 
 At first, the wideband signal is split into frequency bands by a slope adjustable cross-over. Each band is individually 
 processed for dynamic. For every frequency band, every dynamic processing section, the compressor, the de-
@@ -16,4 +16,4 @@ Then all the frequency bands are summed to rebuild a wideband processed signal. 
 
 Alchemist gathers in a single plug-in all the Flux science about filtering and dynamic processing.
 
-![](include/Alchemist_01.PNG)
+![](include/Alchemist_01.png)
