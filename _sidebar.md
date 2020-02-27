@@ -1,5 +1,5 @@
 * [Alchemist](alchemist_doc/0_Alchemist.md)
-* [Analyser](analyser_doc/00_Pure_Analyzer/00_Pure_Analyzer.md)
+* [Analyser](analyser_doc/00_Pure_Analyzer_00_Pure_Analyzer.md)
 * [Bittersweet](bittersweet_doc/0_Bittersweet.md)
 * [Bittersweet Pro](bittersweet-pro_doc/0_BitterSweet_Pro.md)
 * [Elixir](elixir_doc/0_Elixir.md)
