@@ -1,5 +1,5 @@
 # Welcome
-### Thank You!
+## Thank You!
 Thank you for purchasing Flux:: Pure Analyzer System.
 
 [Product Page](https://www.flux.audio/project/pure-analyser-essential/) 
