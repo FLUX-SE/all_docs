@@ -45,8 +45,6 @@ jobs:
 
     - name: Export PDFs
       run: yarn run export-to-pdf
-      env:
-        CI: true
 
     - name: Store artifacts
       uses: actions/upload-artifact@v1
