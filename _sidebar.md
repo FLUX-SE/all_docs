@@ -32,7 +32,7 @@
     * [Mode](03_Spectrum_analyzer_09_Mode.md)
     * [Summation](03_Spectrum_analyzer_10_Summation.md)
     * [Channels](03_Spectrum_analyzer_11_Channels.md)
-    * [Slide (03_Spectrum_analyzer_12_Slide_Real_time_waterfall_.md)
+    * [Slide](03_Spectrum_analyzer_12_Slide_Real_time_waterfall_.md)
     * [Various](03_Spectrum_analyzer_13_Various.md)
 * Nebula (spatial spectrogram)
     * [Principle of operation and intended usage](04_Nebula_Spatial_Spectrogram_01_Principle_of_operation_and_intended_usage.md)
@@ -52,7 +52,7 @@
         * [Spl](07_Metering_01_RMS_Metering_04_SPL.md)
         * [Range](07_Metering_01_RMS_Metering_05_Range.md)
         * [Time](07_Metering_01_RMS_Metering_06_Time.md)
-        * [Scale & split](07_Metering_01_RMS_Metering_07_Scale_&_split.md)
+        * [Scale & split](07_Metering_01_RMS_Metering_07_Scale_and_split.md)
         * [Bar graph texturing](07_Metering_01_RMS_Metering_08_Bar_Graph_Texturing.md)
     * True peak metering
         * [True peak metering](07_Metering_02_True_peak_metering_00_True_Peak_metering.md)
