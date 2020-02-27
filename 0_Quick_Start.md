@@ -13,7 +13,7 @@ that parameter.
 
 ## Block diagram
 
-![](include/verb_session_02.PNG)
+![](include/verb_session_02.png)
 
 The block diagram above shows the global structure of the reverberation engine, which governs the time-structure of the
 reverberation tail.

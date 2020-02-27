@@ -1,5 +1,5 @@
 # Filter
-![](include/verb_session_04.PNG)
+![](include/verb_session_04.png)
 
 This section sets the characteristics of the filter applied to the signal fed to the reverberation engine, affecting the overall
 frequency response, if required.

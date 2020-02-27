@@ -1,6 +1,6 @@
 # Preset Section
 
-![](include/verb_session_07.PNG)
+![](include/verb_session_07.png)
 
 ## (14) Save
 Saves a snapshot of the current settings for future use.  
