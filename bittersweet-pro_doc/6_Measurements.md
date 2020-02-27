@@ -1,8 +1,6 @@
 # Measurements
 
-<link rel="stylesheet" href="/bittersweet-pro_doc/include/cssslider_files/csss_engine1/style.css"><!--[if IE]>
-<link rel="stylesheet" href=<link rel="stylesheet" href="/bittersweet-pro_doc/include/cssslider_files/csss_engine1/ie.css"><![endif]--><!--[if lte IE 9]>
-<script type="text/javascript" src=<script type="text/javascript" src="/bittersweet-pro_doc/include/cssslider_files/csss_engine1/ie.js"></script><![endif]-->
+<link rel="stylesheet" href="/bittersweet-pro_doc/include/cssslider_files/csss_engine1/style.css">
 <script type="text/javascript" src="/bittersweet-pro_doc/include/cssslider_files/csss_engine1/gestures.js"></script>
     
 <div class="csslider1 no-autoplay ">
@@ -40,7 +38,10 @@
     <input name="cs_anchor1" id="cs_slide1_31" type="radio" class="cs_anchor slide">
     <input name="cs_anchor1" id="cs_slide1_32" type="radio" class="cs_anchor slide">
     <ul>
-        <li class="cs_skeleton"><img src="/bittersweet-pro_doc/include/cssslider_files/csss_images1/bsprodynamicbandwidth12+12dbhighshelfat1khz6121824dbperoctave.jpg" style="width: 100%;"></li>
+        <li class="cs_skeleton"><img src="/bittersweet-pro_doc/include/cssslider_files/csss_images1/bsprodynamicbandwidth12+12dbhighshelfat1khz6121824dbperoctave.jpg"
+                                        style="width: 100%;"
+                                        alt="Dynamic BandWidth -12 to +12dB&#10;HighShelf @1KHz 6-12-18-24 dB / Octave"
+                                        title="Dynamic BandWidth -12 to +12dB&#10;HighShelf @1KHz 6-12-18-24 dB / Octave""></li>
         <li class="num0 img slide"><img src="/bittersweet-pro_doc/include/cssslider_files/csss_images1/bsprodynamicbandwidth12+12dbhighshelfat1khz6121824dbperoctave.jpg"
                                         alt="Dynamic BandWidth -12 to +12dB HighShelf @1KHz 6-12-18-24 dB / Octave"
                                         title="Dynamic BandWidth -12 to +12dB&#10;HighShelf @1KHz 6-12-18-24 dB / Octave"></li>
