@@ -9,27 +9,31 @@ window.$docsify = {
     routerMode: 'hash',
     logo: 'include/logo_flux_white.svg',
     relativePath: true,
-    alias: {
-        // Avoid 404
-        '/(.+_doc)/(.*)/_sidebar.md': '/$1/_sidebar.md',
-    },
-    plugins: [
-        EditOnGithubPlugin.create(
-            "https://github.com/FLUX-SE/all_docs/blob/master/",
-            null,
-            null
-        )
-    ],
-    pagination: {
-        previousText: 'Previous',
-        nextText: 'Next',
-        crossChapter: true,
-        crossChapterText: true,
-    }
+    plugins: []
 };
+
+window.$docsify.plugins.push(
+    EditOnGithubPlugin.create(
+        "https://github.com/FLUX-SE/all_docs/blob/master/",
+        null,
+        null
+    )
+);
 
 window.$docsify.footer = {
     copy: '<span>FLUX:: SE &copy; 2020 | </span>',
     pre: '',
     class: 'docsify-footer'
+};
+
+window.$docsify.search = {
+    maxAge: 3600,
+    namespace: 'flux-doc',
+};
+
+window.$docsify.pagination = {
+    previousText: 'Previous',
+    nextText: 'Next',
+    crossChapter: true,
+    crossChapterText: true,
 };
