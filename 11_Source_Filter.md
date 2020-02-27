@@ -1,5 +1,5 @@
 # Source Filter
-![](include/trax_14.PNG)
+![](include/trax_14.png)
 
 The Source Filter is an advanced type of vocoder to morph the spectrum and dynamics of one signal into another.
 

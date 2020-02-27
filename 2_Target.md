@@ -14,7 +14,7 @@ target parameters. T.R.A.X. allows for a large palette of transformations such a
 * Altering perceived gender, age, etc.
 * Special effects for sound design and such
 
-![](include/trax_05.PNG)
+![](include/trax_05.png)
 
 In all of these contexts, unwanted artifacts are kept to a minimum and the natural quality and timbre of voices
 and instruments are preserved, thanks to the innovative analysis algorithms used.

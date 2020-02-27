@@ -1,5 +1,5 @@
 # Cross Synthesis & Source Filter Tools
-![](include/trax_12.PNG)
+![](include/trax_12.png)
 
 ## Introduction:
 
