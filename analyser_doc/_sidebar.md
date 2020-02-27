@@ -1,4 +1,5 @@
-* [Welcome](00_Pure_Analyzer_00_Pure_Analyzer.md)
+* Welcome
+    * [Thank you](00_Pure_Analyzer_00_Pure_Analyzer.md)
     * [Pure analyzer versions](00_Pure_Analyzer_01_Pure-analyzer-versions.md)
 * Initial setup
     * [Introduction](01_Initial_Setup_00_Introduction.md)
