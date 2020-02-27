@@ -9,3 +9,14 @@
 .docsify-footer {
     text-align: right;
 }
+
+h1 img {
+    margin-bottom: -3px;
+}
+
+#immersive+ul,
+#analysis+ul,
+#processing+ul,
+#legacy+ul {
+    column-count: 4;
+}

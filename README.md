@@ -1,4 +1,4 @@
-# Flux:: Documentation
+# ![Flux::](./include/favicon-32x32.png ':class=img-title') Flux:: Documentation
 
 ## Immersive
 
@@ -8,15 +8,14 @@
 ## Analysis
 
  - [Pure Analyzer](analyser_doc/00_Pure_Analyzer/00_Pure_Analyzer.md)
- - [Stereo Tool](stereotool_doc/0_StereoTool.md) 
 
 ## Processing
 
  - [Alchemist](alchemist_doc/0_Alchemist.md)
  - [Bittersweet](bittersweet_doc/0_Bittersweet.md)
  - [Bittersweet Pro](bittersweet-pro_doc/0_BitterSweet_Pro.md)
- - [Epure](epure_doc/0_Epure.md)
  - [Elixir](elixir_doc/0_Elixir.md)
+ - [Epure](epure_doc/0_Epure.md)
  - [Evo Channel](evo-channel_doc/0_Evo-Channel.md)
  - [Evo In](evo-in_doc/0_Evo_In.md)
  - [Ircam Trax](ircam_trax_doc/0_Ircam_Trax.md)
@@ -28,8 +27,8 @@
  - [Pure Dexpander](pure-dexpander_doc/0_Pure_DExpander.md)
  - [Pure Expander](pure-expander_doc/0_Pure_Expander.md)
  - [Pure Limiter](pure-limiter_doc/0_Pure_Limiter.md)
+ - [Stereo Tool](stereotool_doc/0_StereoTool.md)
  - [Solera](solera_doc/0_Solera.md)
- - [Syrah](syrah_doc/0_Syrah.md)
  - [Syrah](syrah_doc/0_Syrah.md)
  
 ## Legacy
