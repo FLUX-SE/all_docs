@@ -2,9 +2,9 @@
 [Product Page](https://www.flux.audio/project/pure-expander/) 
 | [Shop Page](https://shop.flux.audio/en_US/products/pure-expander)
 
-![](include/pure-exp_01.PNG)
+![](include/pure-exp_01.png)
 
-![](include/pure-exp_02.PNG)
+![](include/pure-exp_02.png)
 
 Pure Expander is the expander section of the Solera. An expander is used to automatically reduce the gain below the 
 Threshold. The exclusive Dynamic Ratio algorithm developed by Flux:: allows you to remove unwanted noises or reverberation
