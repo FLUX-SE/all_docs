@@ -1,6 +1,6 @@
 # Time Structure Settings
 
-![](include/verb_07.PNG)
+![](include/verb_07.png)
 
 ## (35) Early shape
 Governs  the  amplitude  rise or fall of early reflections. The default  setting  of  0.5  corresponds to early reflections all 

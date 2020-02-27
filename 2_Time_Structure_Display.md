@@ -1,6 +1,6 @@
 # Time Structure Display
 
-![](include/verb_04.PNG)
+![](include/verb_04.png)
 
 ## (7) High density
 Toggles between standard and high density reverberation engine.   
