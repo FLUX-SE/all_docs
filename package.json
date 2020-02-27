@@ -28,6 +28,9 @@
     "contents": [
     ],
     "pathToPublic": "build/%s.pdf",
-    "removeTemp": true
+    "removeTemp": true,
+    "pdfOptions": {
+      "printBackground": true
+    }
   }
 }
