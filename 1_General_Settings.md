@@ -1,6 +1,6 @@
 # General Settings
 
-![](include/solera_01.PNG)
+![](include/solera_01.png)
 ## Input Gain (1)
 Adjusts the gain applied to the dynamics processing input.
 
