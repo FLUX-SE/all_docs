@@ -1,1 +1,0 @@
-# stereotool_doc

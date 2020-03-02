@@ -23,7 +23,7 @@ module.exports = function (grunt) {
                 files: [
                     '_config.yml',
                     'index.html',
-                    '*_doc/**',
+                    '**.md',
                     'include/**',
                 ],
                 tasks: ['shell:jekyllBuild'],
