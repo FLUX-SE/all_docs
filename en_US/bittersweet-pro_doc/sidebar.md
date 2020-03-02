@@ -1,0 +1,8 @@
+* [Bittersweet Pro](0_BitterSweet_Pro.md)
+* [General settings](1_General_Settings.md)
+* [Geek panel](2_Geek.md)
+* [Plugin settings](3_Plugin_Settings.md)
+* [Preset management](4_Preset_Management.md)
+* [Preset manager](5_Preset_Manager.md)
+* [Measurements](6_Measurements.md)
+* [Specifications](7_Specifications.md)
