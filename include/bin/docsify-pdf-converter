@@ -12,7 +12,7 @@ const { format } = require('util');
 const exportPdf = (path, name) => {
     const c = { ... config };
     c.pathToPublic = format(c.pathToPublic, name);
-    c.contents.push(name+'/_sidebar.md');
+    c.contents.push(name+'/sidebar.md');
     docsifytopdf(c);
 };
 const homedir = cwd();
