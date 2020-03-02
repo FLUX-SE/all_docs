@@ -18,5 +18,6 @@ h1 img {
 #analysis+ul,
 #processing+ul,
 #legacy+ul {
-    column-count: 4;
+    columns: 4 150px;
+    column-gap: 2em;
 }
