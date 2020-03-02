@@ -1,0 +1,36 @@
+# Main Input - Output Section
+![](include/trax_11.png)
+
+## (61) Input Level
+Adjusts the level of the signal fed to the plug-in, in dB increments.
+
+## (62) Input level-meter
+Shows the current peak level of the input signal after applying input gain, in RMS, with reference at -18 dB FS.
+
+
+## (63) Output Level
+Used to trim the output signal and possibly avoid any overloading of the signal in the rest of the signal-chain.
+
+
+## (64) Output level-meter
+Shows the current peak level of the input signal after applying output gain, in RMS, with reference at -18 dB FS.
+
+
+## (65) Day - Night
+Toggles between two interface schemes, which, as the name implies, are best suited to high or low light environments
+respectively. In a dimly-lit studio environment, switching to the nighttime scheme with its darker color palette and lower
+contrast helps to minimize eye-fatigue when doing long sessions.
+
+
+## (67) Bypass
+Bypasses the plug-in processing by routing the input direct to the output. The actual processing is still performed in the
+background allowing for a true and smooth transition between the processed and the actual incoming signal.
+
+
+## (68) Dry/Wet
+When used as insert effect, one can dial the right amount of "wet", processed signal with respect to the "dry", direct input
+signal.
+
+
+The default 100-percent wet setting is mostly intended for the typical and preferred use in a send-effect configuration.
+You can get some interesting chorus and harmonizer type effects if you blend the dry and wet signals.
