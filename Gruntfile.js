@@ -2,6 +2,9 @@
 
 module.exports = function (grunt) {
     grunt.initConfig({
+        app: {
+
+        },
         shell: {
             jekyllBuild: {
                 command: 'jekyll build'
@@ -21,7 +24,7 @@ module.exports = function (grunt) {
                     '_config.yml',
                     'index.html',
                     '*_doc/**',
-                    'includes/**',
+                    'include/**',
                 ],
                 tasks: ['shell:jekyllBuild'],
                 options: {

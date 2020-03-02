@@ -12,11 +12,20 @@ window.$docsify = {
     plugins: []
 };
 
+var editOnGithubPluginText = function (file) {
+    var language = file.split("/")[0];
+    switch (language) {
+        case 'fr_FR':
+            return '&#9998; Editer sur GitHub';
+        default:
+            return '&#9998; Edit on git';
+    }
+};
 window.$docsify.plugins.push(
     EditOnGithubPlugin.create(
         "https://github.com/FLUX-SE/all_docs/blob/master/",
         null,
-        null
+        editOnGithubPluginText
     )
 );
 
