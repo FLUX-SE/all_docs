@@ -2,7 +2,7 @@
 
 window.$docsify = {
     name: 'Flux:: Documentation',
-    loadSidebar: true,
+    loadSidebar: 'sidebar.md',
     subMaxLevel: 4,
     homepage: 'README.md',
     auto2top: true,
