@@ -59,7 +59,7 @@ Let’s now setup your preferences in Spat Revolution preferences page :
 ![Spat OSC Connections preferences](include/SpatRevolution_UserGuide_S6L_SpatOSC_Connections_preferences.png) 
 
 - Now you can look for the OSC connection section. You will see 6 OSC slots. Set one to In and one to Out.  We will use 2 slots for this. Out will be to go to S6L Spat Send PI. In will be to listen to S6L in SPAT. 
-	
+		
 **Spat OSC Connections Matrix**
 
 ![Spat OSC Connections Matrix](include/SpatRevolution_UserGuide_S6L_SpatOSC_Connections_matrix.png) 	
