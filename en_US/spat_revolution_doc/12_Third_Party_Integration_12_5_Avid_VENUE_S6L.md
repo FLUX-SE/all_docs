@@ -30,11 +30,12 @@ Now let’s look at configuring  the control (OSC)  part of this integration. Th
 **Spat Send Plugin in the Plug-Ins rack of VENUE**
 ![Spat Send Plugin in the Plug-Ins rack of VENUE](include/SpatRevolution_UserGuide_S6L_SpatSendPl_PIRackVENUE.png)  
 
-**Spat Send Plugin setup**
-![Spat Send Plugin setup](include/SpatRevolution_UserGuide_S6L_SpatSendPI_Setup.png) 	
-
 The PI interface doesn’t have much and it straight forward:
  
+ **Spat Send Plugin setup**
+ 
+![Spat Send Plugin setup](include/SpatRevolution_UserGuide_S6L_SpatSendPI_Setup.png) 	
+
 - Index refers to the object / source number in Spat application. This gets automatically generated every time there is a new instances in the console. (It can be changed by snapshots but it is unique and no instance can take over a currently used index).
 
 - In IP. Pull down will allow you to choose the ethernet interface you will be listening to OSC commands in the S6L coming from Spat  (you will need this address for setting up Spat preference later). This can be the AVB port 169.254.x.x or your ECx port of the console depending on the integration route.
@@ -51,15 +52,19 @@ The PI interface doesn’t have much and it straight forward:
 
 Let’s now setup your preferences in Spat Revolution preferences page :
 
-- Hit preference in the right corner. Look for the OSC connection section. You will see  6 OSC slots… Set one to In and one to Out.  We will use 2 slots for this. Out will be to go to S6L Spat Send PI. In will be to listen to S6L in SPAT. First you want to make sure that the checkbox Enable  
+- Hit preference in the right corner. First you want to make sure that the checkbox OSC Enable is active in the OSC Main section. 
 
 **Spat OSC Connections preferences**
 
-![Spat OSC Connections preferences](include/SpatRevolution_UserGuide_S6L_SpatOSC_Connections_preferences.png) 	
+![Spat OSC Connections preferences](include/SpatRevolution_UserGuide_S6L_SpatOSC_Connections_preferences.png) 
+
+- Now you can look for the OSC connection section. You will see 6 OSC slots. Set one to In and one to Out.  We will use 2 slots for this. Out will be to go to S6L Spat Send PI. In will be to listen to S6L in SPAT. 
+	
 **Spat OSC Connections Matrix**
+
 ![Spat OSC Connections Matrix](include/SpatRevolution_UserGuide_S6L_SpatOSC_Connections_matrix.png) 	
 
-Set the In IP address by pulling then the menu and choosing for example the 169.254.x.x of your Spat application computer (or whatever network interface you are using for this communication)
+- Set the In IP address by pulling then the menu and choosing for example the 169.254.x.x of your Spat application computer (or whatever network interface you are using for this communication)
 
 - Set the In port # to the desired port #. This is the port # that you have in the Out Port # of the S6L Spat Send PI. For Example you can use 53700
  
