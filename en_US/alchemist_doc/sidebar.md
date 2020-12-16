@@ -9,3 +9,5 @@
 * [Dynamic sections settings and display](8_Dynamic_Sections_Settings_and_Display.md)
     * [Dynamic sections settings](9_Dynamic_Sections_Settings.md)
     * [Dynamic sections display](10_Dynamic_Sections_Display.md)
+* Appendix 
+	* [Release Notes](../../flux_processing_release_notes.md)

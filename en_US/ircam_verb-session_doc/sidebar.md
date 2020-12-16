@@ -9,3 +9,5 @@
 * [Preset management](7_Preset_Management.md)
 * [Specifications](8_Specifications.md)
 * [Credits](9_Credits.md)
+* Appendix 
+	* [Release Notes](../../flux_processing_release_notes.md)

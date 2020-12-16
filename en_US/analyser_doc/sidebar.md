@@ -130,5 +130,5 @@
     * [Compatibility](18_System_Requirements_01_Compatibility.md)
 * Appendix 
 	* [Credits](19_Credits.md)
-	* [Release Notes 20.12](release_notes_20_12.md)
+	* [Release Notes](flux_analyser_release_notes.md)
 

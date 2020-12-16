@@ -8,5 +8,6 @@
 * [Plug-in settings](7_Plug-in_Settings.md)
 * [Get started](8_Get_started.md)
 * [Specifications](9_Specifications.md)
-
+* Appendix 
+	* [Release Notes](../../flux_processing_release_notes.md)
 [product]: syrah_doc/

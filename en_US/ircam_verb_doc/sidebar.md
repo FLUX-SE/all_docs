@@ -10,3 +10,5 @@
 * [Routing](8_Routing.md)
 * [Preset management](9_Preset_Management.md)
 * [Credits](10_Credits.md)
+* Appendix 
+	* [Release Notes](../../flux_processing_release_notes.md)

@@ -7,3 +7,5 @@
 * [Plug in settings](6_Plug-in_Settings.md)
 * [Specifications](7_Specifications.md)
 * [Compatibility](8_Compatibility.md)
+* Appendix 
+	* [Release Notes](../../flux_processing_release_notes.md)
