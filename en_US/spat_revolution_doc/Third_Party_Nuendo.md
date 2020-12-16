@@ -27,7 +27,7 @@ For troubleshooting, please review the **[Appendix B - Troubleshooting](Appendix
 
 ## Object-based mixing with Nuendo and Spat.
 
-As mentioned in the troubleshooting guide, **using specific tracks as your Spat source** is a best pratice for dealing with these sources/objects you are sending for external rendering. You can simply use tracks as you audio objects. (similar to many object-based mixing worklows proposed by DAW). This way you can leave the session audio tracks and their channel insertion as they are and simply send your audio tracks to the Spat Revolution object tracks. This allows you to send a single audio track or multiple ones (stem) to the Spat Revoution object track.
+As mentioned in the troubleshooting guide, **using specific tracks as your Spat source** is a best practice for dealing with these sources/objects you are sending for external rendering. You can simply use tracks as you use audio objects. (similar to many object-based mixing worklows proposed by DAW). This way you can leave the session audio tracks and their channel insertion as they are and simply send your audio tracks to the Spat Revolution object tracks. This allows you to send a single audio track or multiple ones (stem) to the Spat Revoution object track.
 
 Routing audio 
 
