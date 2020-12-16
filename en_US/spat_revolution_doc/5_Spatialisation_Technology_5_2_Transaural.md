@@ -18,5 +18,5 @@ spatial information will not be properly perceived._
 
 An optimum listening position such as that needed for Transaural decoding, is also
 known as ' **the sweet spot** '. It is a fundamental concept to be aware of as we move
-into the next section; _Channel Based_ streams and panning algorithms.
+into the next section: _Channel Based_ streams and panning algorithms.
 
