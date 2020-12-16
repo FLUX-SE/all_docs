@@ -12,16 +12,16 @@ Essentially, when we start working with multiple speakers in different configura
 panning algorithms for surround, immersive 3D or ad-hoc
 sound systems.**
 
-In SPAT you will be able to explore some of the best panning algorithms for multispeaker setups. You can apply them in realtime and identify their characteristic differences by ear. Trying them out in realtime on a setup will help you select the panning algorithm that is best suited for your particular project and material.
+In SPAT, you will be able to explore some of the best panning algorithms for multispeaker setups. You can apply them in realtime and identify their characteristic differences by ear. Trying them out in realtime on a setup will help you select the panning algorithm that is best suited for your particular project and material.
 
 Although there are technical aspects to be interested in and aware of, you are still invited to be creative and use your ears when deciding which are the right panning types for your project and intended audience.
 
 > ★ Try using more than one Spat Room to use different panning
-algorithms for sound material that has different sonic qualities
+algorithms for sound material that has different sonic qualities.
 
 ## Vector Base Amplitude panning (VBAP)
 
-Vector Base Amplitude Panning has become one of the more standardised methods for multichannel spatialisation. It can reproduce on a 2D or 3D configuration. Its sound is characterised by clearly localisable virtual sound sources. Multiple moving or stationary sounds can be positioned in any direction over the speaker array using this method. In theory VBAP can be used on an unlimited number of loudspeakers and can even be reliable on relatively asymmetric setups.
+Vector Base Amplitude Panning has become one of the more standardised methods for multichannel spatialisation. It can reproduce on a 2D or 3D configuration. Its sound is characterised by clearly localisable virtual sound sources. Multiple moving or stationary sounds can be positioned in any direction over the speaker array using this method. In theory, VBAP can be used on an unlimited number of loudspeakers and can even be reliable on relatively asymmetric setups.
 
 **How does it work?**
 
@@ -32,12 +32,12 @@ Three important dependencies to consider when using VBAP;
 3. 2D Speakers should be on the same horizontal plane as the ears
 4. VBAP works best when the listening room is not very reverberant
 
-Traditional VBAP works by manipulating the gain of the signals being routed to the two (in 2D) or three (in 3D) closest speakers to a virtual sound source. VBAP relies heavily on an accurate speaker arrangement model to do this. It triangulates gain vectors mathematically in order to render a virtual object in the physical space and achieves its characteristic 'sharp' focus by using only a few speakers closest to the virtual source location. Additionally it is possible to uniformly extend the traditional VBAP pair-wise (or triplet-wise) speaker picking and activate more of the sound system, effectively diffusing the relationship between individual speakers and sounds using _spread_.
+Traditional VBAP works by manipulating the gain of the signals being routed to the two (in 2D) or three (in 3D) closest speakers to a virtual sound source. VBAP relies heavily on an accurate speaker arrangement model to do this. It triangulates gain vectors mathematically in order to render a virtual object in the physical space and achieves its characteristic 'sharp' focus by using only a few speakers closest to the virtual source location. Additionally, it is possible to uniformly extend the traditional VBAP pair-wise (or triplet-wise) speaker picking and activate more of the sound system, effectively diffusing the relationship between individual speakers and sounds using _spread_.
 
 > ★ Widen a VBAP point source by increasing the Spread source parameter.
 
-*See section 4.5 the speaker Alignment feature can give the impression that the actual
-speakers are equidistant even when they are not
+*See section 4.5 the speaker alignment feature can give the impression that the actual
+speakers are equidistant even when they are not.
 
 ## Vector Base Intensity (VBIP)
 
@@ -45,7 +45,7 @@ Vector Base Intensity Panning is a similar variation to the VBAP technique. It c
 
 **How does it work?**
 
-VBIP was designed to improve on VBAP when calculating the high-frequency (above 700 hz) localisation criteria. The selection of which speakers to use to render a virtual sound source is very similar to VBAP, only the gain calculations differ.
+VBIP was designed to improve on VBAP when calculating the high-frequency (above 700 hz) localisation criteria. The selection of which speakers to use to render a virtual sound source is similar to VBAP, only the gain calculations differ.
 
 The same 4 dependencies mentioned for VBAP, also apply to VBIP. You will need to listen for quite a nuanced difference between these two panning algorithms. Try to compare how each panning type handles the higher frequency content of your material.
 
@@ -62,15 +62,15 @@ Amplitude panning is applied below the crossover frequency, while the intensity 
 The crossover frequency has been defined to 700Hz by default.
 
 The dependencies mentioned in the VBAP section also apply to Dual Band Vector Based Panning.
+
 ## Layer based amplitude panning (LBAP)
 
 Layer based amplitude panning could be thought as multiple 2D VBAP layers.
 The speaker setup is split into several layers, depending on the speaker elevation.
-The panning used between speakers on the same layer is the VBAP2D.
+The panning used between speakers on the same layer is the VBAP 2D.
 Between these layers, a crossfade is applied between the two nearest layers.
 
-The difference between VBAP3D and LBAP is the number of speakers which will be actived between the layers: 3 in VBAP versus 4 in LBAP.
-
+The difference between VBAP 3D and LBAP is the number of speakers which will be actived between the layers: 3 in VBAP versus 4 in LBAP.
 
 ## Distance Base Angular panning (DBAP)
 
@@ -85,7 +85,7 @@ reflections and reverberations in a room to enhance spatial aspects.
 
 ## K Nearest Neighbour (KNN)
 
-KNN is another panning type that dœs not depend on a sweet spot to be perceived correctly. It is a version of a 'Nearest-neighbour' interpolation algorithm. These family of algorithms are also used in the fields of complex systems, 3D graphics and network science to name a few. In Spat Revolution you can sonically explore a network of loudspeakers using this panning type and some virtual sound sources.
+KNN is another panning type that does not depend on a sweet spot to be perceived correctly. It is a version of a 'Nearest-neighbour' interpolation algorithm. This family of algorithms are also used in the fields of complex systems, 3D graphics and network science to name a few. In Spat Revolution you can sonically explore a network of loudspeakers using this panning type and some virtual sound sources.
 
 **How does it work?**
 
@@ -93,14 +93,14 @@ An interesting difference between DBAP and KNN is that the user gets manual cont
 
 ![](../include/SpatRevolution_UserGuide_-064.jpg)
 
-What makes this particularly interesting is that different sources can activate less or more of the sound system dynamically and in a very smooth way. For example, one virtual sound source might seem to pop in and out of individual speakers because its _Nearest Neighbours Spread_ parameter is set a low percentage. For example, on a 10 speaker arragnement :1-10% will use 1 speaker, 11% to 20% 2 and so on. Another sound source could seem diffuse over the entire sound system, because its spread variable is set to 100%.
+What makes this particularly interesting is that different sources can activate less or more of the sound system dynamically and in a very smooth way. For example, one virtual sound source might seem to pop in and out of individual speakers because its _Nearest Neighbours Spread_ parameter is set a low percentage. For example, on a 10-speakers arrangement :1-10% will use 1 speaker, 11% to 20% 2 and so on. Another sound source could seem diffuse over the entire sound system, because its spread variable is set to 100%.
 
 > ★ Try automating the Nearest Neighbours Spread in a relationship with
 another source property of the same sound source such as room presence.
 
 ## Speaker-Placement Correction Amplitude (SPCAP)
 
-SPCAP is a 3D panning algorithm which takes its inspiration from VBAP. SPCAP selects not just 2 or 3, but any number of speakers to render a virtual source and weights signal gains according to how much each selected speaker is actually contributing to the overall power output of the speaker configuration. Using this method SPCAP guarantees conservation of loudspeaker power output across any speaker arrangement. Its strengths lie in the down-mixing and up-mixing of virtual scenes from very different channel based speaker arrangements, and of being able to render wider sound sources by using more speakers in a smart way.
+SPCAP is a 3D panning algorithm which takes its inspiration from VBAP. SPCAP selects not just 2 or 3, but any number of speakers to render a virtual source and weights signal gains according to how much each selected speaker is actually contributing to the overall power output of the speaker configuration. Using this method SPCAP guarantees conservation of loudspeaker power output across any speaker arrangement. Its strengths lie in the down-mixing and up-mixing of virtual scenes from very different channel-based speaker arrangements, and of being able to render wider sound sources by using more speakers in a smart way.
 
 **How does it work?**
 
@@ -112,20 +112,20 @@ The result will still be sweet-spot dependent although it will be a wider listen
 > ★ SPCAP panning can do a good job of translating surround audio
 mixes from one speaker configuration to another.
 
-## Ambisonic Equivalent (AEP)
+## Ambisonic Equivalent Panning (AEP)
 
-In common with the channel based panning types we have covered so far, Ambisonics is a technology that also distributes virtual sound sources in space yet it achieves this in a fundamentally different way. Ambisonics relies on a two step process.
+In common with the channel based panning types we have covered so far, Ambisonics is a technology that also distributes virtual sound sources in space yet it achieves this in a fundamentally different way. Ambisonics relies on a two-steps process.
 
 1. **Encoding**
     Audio sources along with their positional information are wrapped up together using signal mathematics to create encoded Ambisonic audio. Ambisonic scenes are always carried on at least 3 channels of audio. They are not intended to be _listened to directly_ they are intended to be _decoded_.
 2. **Decoding**
     Ambisonic audio signals are unwrapped and the positional information contained within them is decoded _specifically_ for one type of speaker configuration. What we get is an immersive sound field that should accurately render the original spatial composition in 2D or 3D on the specified speaker configuration.
 
-Keeping these two steps separate has a number of advantages. Primarily, that of being able to record the encoded Ambisonic audio signals independently of any fixed speaker arrangement. On the other hand, it is possible to "fuse" the two stages of the process together resulting in what appears to be the output of a generalised channel based type of panning. That is the ÆP panning type in a nutshell.
+Keeping these two steps separate has a number of advantages. Primarily, that of being able to record the encoded Ambisonic audio signals independently of any fixed speaker arrangement. On the other hand, it is possible to "fuse" the two stages of the process together resulting in what appears to be the output of a generalised channel based type of panning. That is the AEP panning type in a nutshell.
 
 **How does it work?**
 
-ÆP has certain computational and ambisonic mixing advantages and exhibits very different behavior from the VBAP/VBIP pairwise approaches. It is up to you to decide whether to work with purely Ambisonic rooms (more about that in the later section) or to use ÆP as a channel based panning law. Both approaches are valid and could be useful. As we have mentioned a few times already, the choice of panning type depends on what sounds best in the context of your material, your compositional goals and the acoustics of the system you are working with.
+AEP has certain computational and ambisonic mixing advantages and exhibits very different behavior from the VBAP/VBIP pairwise approaches. It is up to you to decide whether to work with purely Ambisonic rooms (more about that in the later section) or to use AEP as a channel based panning law. Both approaches are valid and could be useful. As we have mentioned a few times already, the choice of panning type depends on what sounds best in the context of your material, your compositional goals and the acoustics of the system you are working with.
 
 ## Angular and PanR
 
