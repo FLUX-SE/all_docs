@@ -5,7 +5,7 @@ Setup_ as _Stream Types_.
 
 ![](include/SpatRevolution_UserGuide_-054.jpg)
 
-We have already covered the two channel Binaural stream type for monitoring and
+We have already covered the two-channels Binaural stream type for monitoring and
 final encoding into Binaural format. One of the other important Stream Types is referred to as _Channel Based_. This stream can range from a single channel mono to
 a multichannel audio stream of up to 64 signals which flow as a perfectly synchronised group through the signal graph defined in the _Environment Setup_. The
 channel count of the stream is set by the choice in the _Speaker Arrangement_ pull
@@ -20,7 +20,7 @@ Speaker Arrangement of the Output module. If the real loudspeaker arrangement
 does not correctly match the speaker arrangement model or there is a mistake in
 your routing somewhere, then the spatial sound image will be compromised.
 
-!> Each output channel must be routed to the correct speaker
+!> Each output channel must be routed to the correct speaker.
 
 The golden rule for spatialisation using Channel Based audio is that each rendered channel must be connected only to its corresponding sound emitter in the
 destination system. An exact correlation from the model to the physical system is
