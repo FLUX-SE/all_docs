@@ -1,4 +1,4 @@
-# Release Notes 20.12.
+# Release Notes
 
 ### Spat Revolution 20.12
 

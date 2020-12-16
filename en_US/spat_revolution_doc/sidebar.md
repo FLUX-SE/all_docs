@@ -51,4 +51,4 @@
 * [Appendix A - Spat Revolution Specification](Appendix_A.md)
 * [Appendix B - Troubleshooting](Appendix_B.md)
 * [Appendix C - OSC and ADM-OSC Table](Appendix_C_OSC_Table.md)
-* [Appendix D - Release Notes 20.12](Appendix_D_release_notes_20_12.md)
+* [Appendix D - Release Notes](Appendix_D_release_notes.md)
