@@ -128,4 +128,7 @@
 * System requirements
     * [System requirements](18_System_Requirements_00_System_requirements.md)
     * [Compatibility](18_System_Requirements_01_Compatibility.md)
-* [Credits](19_Credits.md)
+* Appendix 
+	* [Credits](19_Credits.md)
+	* [Release Notes 20.12](release_notes_20_12.md)
+
