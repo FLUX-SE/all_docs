@@ -5,7 +5,7 @@ interfaces that you will focus on at different stages of a spatialisation projec
 
 **Environment Setup**
 
-- Signal Routing, Format Transcoding, Panning Algorithms, Mixing
+- Signal Routing, Format Transcoding, Panning Algorithms
 
 **Speaker Configuration**
 
@@ -13,7 +13,7 @@ interfaces that you will focus on at different stages of a spatialisation projec
 
 **Virtual Rooms**
 
-- Dynamic control, Spatial positioning, Scene Visualisation
+- Dynamic control, Spatial positioning, Scene Visualisation, Mixing
 
 **Source Parameters**
 

@@ -1,6 +1,6 @@
 # Listener Position
 
-The impression of positioned audio which is rendered on a speaker array is generally successful when a listener is situated in the optimum position to perceive it the so-called _Sweet Spot_. Thanks to the popularity of stereo sound, people tend to know that if you want to hear a good a stereo image, you should place yourself in front of the two speakers and stand somewhere in the middle. That's a good way to describe the _Sweet Spot_ to an audience or client. In more complex speaker arrangements the _Sweet Spot_ is usually considered to be the area that all the speakers (or sound emitters in a virtual space) are pointing to. It has the cartesian co-ordinates of (0,0,0) in relation to the speaker positions. In Spat Revolution the optimum listening area is represented by the dummy head and the inner circle that surrounds it.
+The impression of positioned audio which is rendered on a speaker array is generally successful when a listener is situated in the optimum position to perceive it the so-called _Sweet Spot_. Thanks to the popularity of stereo sound, people tend to know that if you want to hear a good a stereo image, you should place yourself in front of the two speakers and stand somewhere in the middle. That's a good way to describe the _Sweet Spot_ to an audience or client. In more complex speaker arrangements the _Sweet Spot_ is usually considered to be the area that all the speakers (or sound emitters in a virtual space) are pointing to. It has the cartesian coordinates of (0,0,0) in relation to the speaker positions. In Spat Revolution the optimum listening area is represented by the dummy head and the inner circle that surrounds it.
 
 ![](include/SpatRevolution_UserGuide_-058.jpg)
 
@@ -12,7 +12,7 @@ The dummy head indicates the _Listener Position_. In SPAT the _Listener Position
 
 It is worth noting that there are some panning algorithms in SPAT that are **not** _Sweet Spot_ dependent. These are more suitable for use on arbitrarily positioned speaker distributions. We will get to them shortly.
 
-!> The dummy head is only visible for sweet spot dependent panning types
+!> The dummy head is only visible for sweet spot dependent panning types.
 
 > The Listener Position can be moved in a Spat Revolution room.
 
