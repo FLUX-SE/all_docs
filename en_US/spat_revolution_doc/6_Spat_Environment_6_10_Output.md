@@ -1,4 +1,4 @@
-# 6.10 Output
+# Output
 
 The main thing to note at the output stage, is that you can have any number of
 output routes. Like the Inputs (see section 6.4) they may be either direct hardware
@@ -10,7 +10,7 @@ Outputs may also be linked to Spat Revolution RETURN plug-ins, which returns aud
 in your DAW. The software RETURN workflow offers an easy way to render the spatial scene to disk, as _Ambisonic encoded_ , _Binaural encoded_ or _Sound system encoded_ multichannel audio.
 
 
-> ★ Create multiple output routes to capture Ambisonic recordings at
+> Create multiple output routes to capture Ambisonic recordings at
 the same time as sound system specific rendering
 
 ![](include/SpatRevolution_UserGuide_-126.jpg)

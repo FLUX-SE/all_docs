@@ -1,4 +1,4 @@
-# 7.3 DAW Automation - Local Audio Path
+# Spat PI : Local audio path
 
 You may only have the option to use one computer. In this case you need a software method to move multiple channels of audio from software running on the
 same machine as the Spat Revolution spatialisation environment. This is not normally a trivial task, and many previous solutions have been prone to drop outs and
@@ -32,8 +32,8 @@ spatialisation environment with other digital audio workstation environments - _
 In order for the audio software integration to function correctly, the user needs to
 take into account certain principles of configuration.
 
-!> _Sample Rate must match in both Spat and and the Plug-in Host_
-!> _Buffer Size must match in both Spat and the Plug-in Host_
+!> **Sample Rate and buffer size must match in both Spat and and the Plug-in Host**
+
 You can configure these settings in the Spat Revolution Preferences, and matching settings also need to be configured in the host DAW Preferences. Additionally,
 there is an IO configuration setting inside each plug-in, accessible from the small
 'cogs' icon.
@@ -51,7 +51,7 @@ the _Environment Setup_ labelled with the _Track Name_ of the Spat plug-in, and 
 the channel count you have configured in the plug-in. If all is well configuration
 wise, and a successful local audio stream has been established, the Send and Return modules will have a small green indicator.
 
-> ★ _On some machines, you need to use the TAB key to register a new Track
+> _On some machines, you need to use the TAB key to register a new Track
 Name or IP address change in a Spat Plug in_
 
 

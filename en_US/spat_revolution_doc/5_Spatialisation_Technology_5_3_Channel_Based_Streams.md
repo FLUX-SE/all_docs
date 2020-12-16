@@ -1,4 +1,4 @@
-# 5.3 Channel Based Streams
+# Channel Based Streams
 
 Spat Revolution is setup to work with a number of different Input and Output formats. The different IO configurations are represented throughout the _Environment
 Setup_ as _Stream Types_.

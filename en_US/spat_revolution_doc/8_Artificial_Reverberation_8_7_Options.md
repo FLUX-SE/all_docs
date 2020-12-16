@@ -17,7 +17,7 @@ closer.
 **Modal Density**
 
 Scales the modal density with respect to the current setting, which is internal to the
-plug-in engine, and depends on other parameters such as reverberation time, etc.
+application engine, and depends on other parameters such as reverberation time, etc.
 The modal density governs the frequency “smoothness” of the verb engine. Increasing this setting reduces the graininess of the reverberation. Adjust to taste,
 depending on the source material and desired result.
 

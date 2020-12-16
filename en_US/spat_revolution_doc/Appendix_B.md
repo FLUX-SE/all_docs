@@ -1,29 +1,58 @@
-# Spat Send and Return DAW Troubleshooting
+# Troubleshooting
 
-Sync issues encountered in Spat Revolution when using the Local Audio Path workflow, can often be fixed when following some guidelines for routing order inside
-the DAW.
+## Sync issues with LAP
 
-If you are using the Cockos REAPER DAW take a special look at the options that
-need to set to avoid sync problems (section 12.1).
+When using Local Audio Path (LAP), sync issues can be identified when sync indicators in Spat Revolution (bottom left corner) turns to red.  This can in some cases result in clicks, noises, and or loss of sound.
+
+![Sync Error](include/Sync_Error_1.png)
+
+***All 'green' indicators mean the sync is correct.***
+
+![Synk OK](include/Sync.png)
+
+Thanks to the DAW templates provided this should not happen unless the required routing is not in place (session modified, routing unpatched). To work properly, the Spat SEND plugins instances must be processed by the DAW before the Spat return plugin instances. 
+
+To force the DAW to process this way, each track with SEND plugin inserted must be routed (directly or indirectly) to the 'return' tracks, using DAW internal routing (ex: dummy busses in ProTools, direct routing in Reaper). 
+
+> CPU performance overloading could generate some sync errors.
+
+> You can reset the sync error by double-clicking on the sync error counter. 
+
+If you see red indicators on the bottom left corner section of Spat, this could be related to having a mismatch in Frame size  (buffer) or sample rate between the DAW and the Spat Revolution. 
+
+Frame size (sometimes called Buffer Size or Block Size) should be matched in the host DAW and Spat Revolution. A red message would indentify a different frame rate the the host DAW. Simply double-clicking on **smp/f** message in error will automatically change you spat block size setup to match the incoming audio.
+
+If the audio processing is too demanding for your computer at the current block size and sample rate, you may also experience dropouts and sync problems due to CPU overload. 
+
+If you are experiencing lost sync when using Local Audio:
+
+* Increase the block size in the Spat preferences.
+* Save your project and Quit Spat Revolution.
+* Change the block size in your host DAW to match the new setting.
+* Reopen Spat Revolution.
+
+
+Also please sure to read carefully the detailed advice of the various DAW in the **[Third party integration](Third_Party_Integration.md)** section of this guide and refer to the various provided templates.
+
+
+## Spat SEND and RETURN DAW
+
+When dealing with Spat SEND and RETURN, you do not need to have an hardware device configured in the preference. In this case, Spat Revolution will automatically adapt it's sample rate and synchronize to the incoming software audio I/O. 
+
+Sync issues encountered in Spat Revolution when using the Local Audio Path workflow can often be fixed when following some guidelines for routing order inside the DAW. Thanks to the various DAW templates, this is done for the users.
 
 To work properly, the SEND plug-ins instances must be processed by the DAW
-**before** the RETURN plug-in instances. To force the DAW to process this way, each
-track with SEND plug-in inserted must be routed (directly or indirectly) to the tracks
-hosting a RETURN plugin, using DAW internal routing.
+**before** the RETURN plug-in instances. To force the DAW to process this way, each track with SEND plug-in inserted must be routed (directly or indirectly) to the tracks hosting a RETURN plugin, using DAW internal routing.
 
 Following are 4 examples of recommended practice with DAW routing, which
-should cover the main use cases. If your problems persist even after implementing
-these suggestions, don't hesitate to drop us a line at Flux support.
+should cover the main use cases. If your problems persist even after implementing these suggestions, don't hesitate to drop us a line at FLUX:: support.
 
-> **PLEASE NOTE:** _In the current version 1.1, the mixing of HARDWARE inputs and
-LOCAL AUDIO PATH Send inputs may report a sync loss, as Spat Revolution cannot
-guarantee correct sync in this scenario. Proceed with caution if this is unavoidable._
+> **PLEASE NOTE:** _In the current version 20.12, the mixing of HARDWARE inputs and LOCAL AUDIO PATH  may report a sync loss, as Spat Revolution cannot guarantee correct sync in this scenario. Proceed with caution if this is unavoidable. This is not offically supported_
 
 
-**Return on master track**
+**Spat RETURN plug-in on master track**
 
-In simple projects, when having a single return plugin on master track, you should
-not encounter any sync issue as long as each SEND track is routed to the master.
+In simple projects, when having a single return plugin on a master track, you should not encounter any sync issue as long as each SEND track is routed to the master.
 
 ![](include/SpatRevolution_UserGuide_-346.png)
 
@@ -31,49 +60,74 @@ not encounter any sync issue as long as each SEND track is routed to the master.
 **Single RETURN on an AUX track**
 
 Issues may happen when return is inserted on an AUX track. Make sure that each
-SEND track is routed to the AUX track (RETURN track) using AUX send (see example below).
+SEND track is routed to the AUX track (RETURN track). Here is an example using AUX send (see example below).
 
 ![](include/SpatRevolution_UserGuide_-347.png)
 
-> ★ You might achieve the same by routing the track outputs to a buss
+> ★ You might achieve the same by routing the track outputs to the bus.
+
 
 **Several RETURN on AUX tracks**
 
-When you need several RETURN tracks (for example several rooms in Spat Revolution, and/or several outputs), you will have to route each SEND track to each RETURN track, using the same technique.
+When several RETURN tracks are needed (for example several rooms to render from Spat Revolution, and/or several output stream formats), you will have to route each SEND track to each RETURN track, using the same technique.
 
-But it can quickly become complicated as the project grows. So, in the following
-example, we added a 'dummy' track, that avoids using several AUX sends on the
-'SEND 'tracks. It makes routing more clear and fast to setup on large projects.
-The 'dummy' AUX track is routed to all the RETURN tracks (using AUX send)
-Then, simply route all your SEND tracks to this 'dummy' track (using aux send).
+As it can quickly become complicated as the project grows, in the following
+example, the use of a 'dummy' track, avoids using several AUX sends on the
+'SEND 'tracks. It makes routing clearer and easier to implement on larger projects. The 'dummy' AUX track is routed to all the RETURN tracks (using AUX sends or patching the output to a multichannel/multi-format 'dummy' bus). 
+
+Then, simply route all your SEND tracks to this 'dummy' track by simply patching it's output to the multichannel/multi-format 'dummy' bus or via the use of aux send).
 
 ![](include/SpatRevolution_UserGuide_-349.png)
 
-**Independent Dry and Wet Signals**
 
-In larger projects, when you need to keep both the dry signal and the Spat RETURN signals independent (when the mix requires to switch easily from one to the
-other), add one AUX (pre-fader may be useful) per audio track to be sent to Spat,
-and insert the send plugins on these AUX tracks.
+**Using specific tracks as your Spat source/object**
+
+One of the good practice to deal with the source/object you are sending for external rendering is to use tracks as dedicated objects. (similar to many object-based mixing workflows proposed by DAW). This way you can leave the session audio tracks and their channel insertion as they are and simply send your audio track to the Spat SEND object track. This allows you to send a single audio track or multiple ones (stem) to the Spat SEND object track.
+
+Doing this can segment your external rendering routing and is highly recommended to prevent audio track delay compensation systems in DAW to come and jeopordize the audio synchronisation between the DAW and Spat. This as well ensures that your audio track automation on levels for example is respected as some DAW don't have post-fader insertion (a pre-fader insert with Spat SEND PI will send audio to Spat Revolution prior to your fader automation.
+ 
+![](include/SpatRevolution_UserGuide_-351.png)
+
+The above best pratice ensures as well that you keep both the dry signal and the Spat RETURN signals independent (when the mix requires to switch easily from one to the other), add one object AUX track per audio track to be sent to Spat, and insert the SEND plug-in on these object AUX tracks.
 
 This way, you keep the dry signal on the audio track's output.
 
-![](include/SpatRevolution_UserGuide_-351.png)
 
-**Clearing Shared Memory**
+## Clearing Shared Memory
 
 Some users have experienced an issue where Spat SEND and RETURN plug-ins are
-not cleared from RAM when used with certain third-party hosts.
-If this happens, Spat SEND and RETURN modules will appear in the Spat setup
-graph editor, when there is no host software running in the background. It can
-cause problems, when a host with plugins is launched and more SEND and RETURN plug-ins appear to be doubled.
+not cleared from the shared memory when used with certain third-party DAW hosts (or seen after DAW chrash). Altough this should not happen and have been instensively improved in the latest releases of Spat Revolution, a **Clean Shared Memory** option can fix some connection issues (ghost modules, duplicated modules, modules not connecting when opening session). This sometime can be seen where Spat SEND and RETURN modules appear in the Spat setup page when there is no DAW host software running in the background. It can cause problems, when a host with plugins is launched and more SEND and RETURN plug-ins appear to be doubled.
 
-The workaround, if this is happening with your particular 3rd party software, is to
-invoke a special debug action in the Spat setup editor. It is called _Clean Shared
-Memory_. It is available by right-clicking anywhere in the background of the signal
-graph editor. A pop-up menu will appear with various options and shortcuts. Scroll
-to the bottom and choose _Help/Clean Shared Memory_
 
-![](include/SpatRevolution_UserGuide_-276.png)
+Altough rebooting the computer would fix this issue, the workaround if this is happening with your particular 3rd party software, is to invoke a special debug action called _Clean Shared Memory_.  It is available by the *Help* menu  _Help/Clean Shared Memory_
 
 If this command is executed, Spat and the plug-in host will then need to be restarted.
 
+
+## Performance issues
+
+There are also some performance preferences that may help in the case that your host machine CPU is overloading and causing audio glitches.
+
+* Lower UI frame rates.
+* Turn the 'Nebula Alpha' to 0 in your Rooms.
+* Lowering Reverb Density to 8x8 for all Rooms.
+* Adjust the Multi-Core Parallel Computation Algorithm via the engine preference.
+
+To lower UI graphic frame rates, go to the Spat preferences. 
+Changing the Edit Frame Rate will reduce pressure on the graphics updates and important when a host machine dœs not have dedicated GPU and CPU resources.
+
+The latest release of Spat Revolution includes a new Multi-Core Parallel Computation Algorithm. In the prefence of Spat Revolution, in the Engine section at the bottom, you can choose various computer harware presets that match your setup. This is a simple step to tuning the computation algorithm.
+
+If you are still experiencing performance and sync issues, you may want to ensure that your hardware configuration meets the **[Spat Revolution requirements and recommendations](Appendix_A.md)**
+
+Consider as well to kill as many processes not required as possible (Wi-Fi/internet, background services and activity)
+
+
+## Display Performance (CPU) measurements
+
+Includes in release version 20.12 is the ability to display performance (CPU) measurements. This can be done in the **Help** menu **Display Performance** option. This can be accesses as well with shortcut Shit + Option + Command + P.
+
+![Display Performance](include/display_performance.png)
+
+
+---

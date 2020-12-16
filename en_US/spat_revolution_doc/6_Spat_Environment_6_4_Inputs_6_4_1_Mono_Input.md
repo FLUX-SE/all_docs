@@ -1,4 +1,4 @@
-# 6.4.1 Mono Input
+# Mono Input
 
 A one channel audio stream is always treated as a Mono signal. It will appear in a
 _Virtual Room_ as one positionable virtual source with its own directivity and parameters. In many ways, Mono signals are the most straight forward format to work with

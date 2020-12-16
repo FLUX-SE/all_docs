@@ -1,4 +1,4 @@
-# 6.4.3 Four Channel Input
+# Four Channel Input
 
 The next significant channel count that needs disambiguation from the user, is a
 four channel stream.

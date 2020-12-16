@@ -1,4 +1,4 @@
-# 6.4.2 Two Channel
+# Two Channel
 
 A two channel audio stream will appear in the _Virtual Room_ as two mono sources
 linked together as a group. A two channel audio input will already open a few more

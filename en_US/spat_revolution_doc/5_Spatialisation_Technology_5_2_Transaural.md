@@ -1,4 +1,4 @@
-# 5.2 Transaural
+# Transaural
 
 Although we said earlier that Binaurally encoded files are not compatible with
 stereo loud speaker systems - well, it turns out that in _Spat Revolution_ there _is_ a way

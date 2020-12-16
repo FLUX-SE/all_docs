@@ -1,4 +1,4 @@
-# 11. Set Up Examples
+# Set Up Examples
 
 ![](include/SpatRevolution_UserGuide_-199.jpg)
 

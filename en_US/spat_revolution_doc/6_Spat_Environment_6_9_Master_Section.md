@@ -1,4 +1,4 @@
-# 6.9 Master Section
+# Master Section
 
 The **Sum** row of modules is used to mix the output of two or more Rooms of the
 same output configuration and in some contexts, to sum inputs directly without the
@@ -12,7 +12,7 @@ Left and Right Surround rear channels will have content summed from both rooms
 the but Left and Right Back surround will be only from the 7.1 room.
 
 
-> ★ Summing can also be done directly in Output Modules
+> Summing can also be done directly in Output Modules
 
 
 The **Master Transcoder** row of modules offers an opportunity to consolidate the

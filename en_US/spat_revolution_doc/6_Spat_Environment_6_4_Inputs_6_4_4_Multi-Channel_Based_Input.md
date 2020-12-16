@@ -1,4 +1,4 @@
-# 6.4.4 Multi-Channel Based Input
+# Multi-Channel Based Input
 
 Any input module configured to represent a stream of multi channel audio can be
 configured as a Speaker Arrangement format which would require that amount of

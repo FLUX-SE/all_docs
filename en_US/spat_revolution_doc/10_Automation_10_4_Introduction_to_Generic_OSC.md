@@ -41,4 +41,3 @@ a float denoting the values of the message.
 
 For more details about the Spat OSC dictionary and its usage syntax please refer to
 Appendix D
-

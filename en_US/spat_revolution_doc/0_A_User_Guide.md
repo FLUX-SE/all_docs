@@ -2,32 +2,31 @@
 
 ![](include/SpatRevolution_UserGuide_-002.jpg)
 
-# Flux Spat Revolution
+# FLUX:: Immersive Spat Revolution
 
 ## The Immersive Audio Revolution
 
 ## A User Guide
 
-**Written by Cristian Vogel**
+**Written by Cristian Vogel, Jean-Loup Pecquais, Hugo Larin and Nicolas Erard**
 
-with contributions from
-Gäel Martinet, Hugo Larin, Vincent Carlier, Thibaut Carpentier, Anders Tveit.
+with contributions from:
+Gäel Martinet, Vincent Carlier, Thibaut Carpentier, Anders Tveit and the IRCAM team.
 
 ---
 
 **Legal Information**
 
-First edition of Flux:: Spat Revolution User Guide published November 2018
+Second edition of FLUX:: Spat Revolution User Guide published December 2020
 
 All writing is protected under copyright © 2020 Cristian Vogel / FLUX SOFTWARE ENGINEERING
 
 ---
-Flux Sound and Picture Development is a trademark of Gaël Yvan Son et Developpement.
-
+FLUX:: is a trademark of FLUX SOFTWARE ENGINEERING
 All trademarks and the logos are copyright protected.
 
 ```
-Flux:: Spat Revolution is published by
+FLUX:: Spat Revolution is published by
 FLUX SOFTWARE ENGINEERING
 2, Rue de la Chasse
 45000 ORLEANS

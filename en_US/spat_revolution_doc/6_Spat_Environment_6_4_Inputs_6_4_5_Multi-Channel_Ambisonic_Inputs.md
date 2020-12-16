@@ -1,4 +1,4 @@
-# 6.4.5 Multi-Channel Ambisonic Inputs
+# Multi-Channel Ambisonic Inputs
 
 As we have mentioned a few times already, High Order Ambisonics is a technology
 that encodes sound sources along with full sphere positional information, as complex interleaved audio files that need decoding before they can be listened to on

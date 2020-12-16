@@ -1,4 +1,4 @@
-# 6.8 Barycentric Groups in Rooms
+# Barycentric Groups in Rooms
 
 When a Virtual Source in a Room has more than one channel in its format, it will be
 represented as a single source with ONE unique index. It will be visualised as a

@@ -1,4 +1,4 @@
-# 6.3 VU Meters
+# VU Meters
 
 Throughout Spat Revolution's different editors, you will see a complete set of accurate decibel meters giving you a visual display of all channel activity in an audio
 stream, whether Ambisonic or Channel Based. They are very useful to see when
