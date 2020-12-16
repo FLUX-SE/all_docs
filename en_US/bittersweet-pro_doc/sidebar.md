@@ -6,3 +6,5 @@
 * [Preset manager](5_Preset_Manager.md)
 * [Measurements](6_Measurements.md)
 * [Specifications](7_Specifications.md)
+* Appendix 
+	* [Release Notes](../../flux_processing_release_notes.md)

@@ -27,3 +27,5 @@
 * [Preset section](17_Preset_Section.md)
 * [Preset management](18_Preset_Management.md)
 * [Credits](19_Credits.md)
+* Appendix 
+	* [Release Notes](../../flux_processing_release_notes.md)
