@@ -132,21 +132,32 @@ Included in release version 20.12 is the ability to display performance (CPU) me
 
 ## Engine Parallel Processing profile
 
-Spat Revolution v20.12 introduces a new Multi-Core Parallel Computation Algorithm that is key to optimizing your hardware. This is for both the automation and the audio processing. The **Display Performance** option stated above will be our best friend to monitor the results. This can be accesses awith shortcut Shit + Option + Command + P.
+Spat Revolution v20.12 introduced a new Multi-Core Parallel Computation Algorithm that is key to optimizing your hardware. This is for both the automation and the audio processing. The **Display Performance** option stated above will be our best ally to monitor the results. This can be accessed with shortcut Shit + Option + Command + P.
 
-![Engine Parallel Processing profile](include/engine_profile_1.png)
+The Engine Preference section includes 3 Profiles for parallel processing 
+![New updated Engine Preference Section](include/engine_profile_1.png)
 
-**Automation frequency** provides the ability to set the refresh rate of the automation. By default we use 10.0 ms (100.00 fps). This can be increased if you see that the automation is becoming a burden at for your system with such low refresh.
+**Automation Rate** provides the ability to set the refresh rate (frequency) of the automation. By default, we use 10.0 ms (100.00 fps). This can be decreased to lower the frequency if you see that automation is becoming a burden for your system with such a fast refresh.
 
-![Engine Parallel Processing profile](include/engine_profile_4.png)
+![Automation Rate Optimization](include/engine_profile_4.png)
 
-**Automation frequency** provides the ability to set the refresh rate of the automation. By default we use 10.0 ms (100.00 fps). This can be increased if you see that the automation is becoming a burden at for your system with such low refresh.
+**Max Number of Core** is your ability to make more or fewer cores available to the Spat Revolution algorithm. By default, it will be at your number of native core. Not hyperthreading. This can be increased or reduced. Watch not to take all cores for a multitasking computers.
 
-![Engine Parallel Processing profile](include/engine_profile_3.png)
+![Max Number Of Cores - Engine Preference](include/engine_profile_3.png)
 
+Lastly are the 3 presets for you to choose from. 
 
-![Engine Parallel Processing profile](include/engine_profile_2.png)
+Parallel Profile;
 
+* **Max distribution** is for spreading the load as much as possible to all cores mainly with Desktop systems and dedicated real-time spat computers.
+  
+* **Favor First Core**  is a typical preset for Laptop computers where we find that loading cores as much as possible allows us to get out of the way of some of the laptop optimization (power and cooling) that are playing with available processing speed.
+
+* **Balanced Distribution** is a preset somehow in the middle. It intends to be a balance between both above options.
+
+![Parallel Processing Algo Profile](include/engine_profile_2.png)
+
+---
 
 
 ---
