@@ -1,6 +1,6 @@
 # Room
 
-In Spat Revolution, spatialisation of virtual sources takes places inside _Virtual Rooms_. To enter a Room and open its graphic editor environment, you double click on a Virtual Room module in the Setup graph, or select a room tab from the Navigation bar.
+In Spat Revolution, spatialisation of virtual sources takes places inside _Virtual Rooms_. To enter a Room and open its graphic editor environment, you double-click on a Virtual Room module in the Setup graph, or select a room tab from the Navigation bar.
 
 ![](include/SpatRevolution_UserGuide_-092.jpg)
 
@@ -11,7 +11,7 @@ When you enter a Virtual Room you will see the 3D positionable editor. All conne
 
 ![](include/SpatRevolution_UserGuide_-094.jpg)
 
-> If a source consists of a configuration of linked emitters there will be only one index and one set of parameters for the whole cluster
+> If a source consists of a configuration of linked emitters there will be only one index and one set of parameters for the whole cluster.
 
 Two special index items labelled as **(R) REVERB** and **(M) OUTPUT** appear fixed at the bottom of the left panel. By clicking on these you then enter two more parameter editors, one relating to the _Artificial Reverberation_ (see section 8) and one relating to the Room output configuration and listener position editor (see section 5.4).
 
@@ -25,7 +25,7 @@ Along with the audio modelling engine, one of Spat's key features is its ability
 
 ## Room 3D View
 
-The camera angle of the 3D scene can be moved continuously using a **controldrag** mouse or trackpad gesture applied directly onto the Room view. This will reposition the camera. A _forwards and backwards scroll_ on the mouse or trackpad will zoom the camera in and out of the scene. Furthermore a change (or resetting) of view orientation can be selected from the _View_ pull down menu, to show 'topdown' view of the scene.
+The camera angle of the 3D scene can be moved continuously using a **controldrag** mouse or trackpad gesture applied directly onto the Room view. This will reposition the camera. A _forwards and backwards scroll_ on the mouse or trackpad will zoom the camera in and out of the scene. Furthermore, a change (or resetting) of view orientation can be selected from the _View_ pull down menu, to show 'topdown' view of the scene.
 
 ![](include/SpatRevolution_UserGuide_-098.jpg)
 
@@ -55,7 +55,7 @@ A Room will compute internal virtual panning, reverberation and output in five p
 - [**Mid Side**](#Mid-Side-Room)
     - Virtualised MS microphone arrangement
 
-> Different Virtual Room types can be used in parallel
+> Different Virtual Room types can be used in parallel.
 
 In the output section, we can also mute specific speaker. This can be really helpfull for checking routing or for diagnostic its system.
 
@@ -63,7 +63,7 @@ In the output section, we can also mute specific speaker. This can be really hel
 
 If the output configuration is set to be **Channel Based** , then the user must decide on the appropriate _Panning Type_ to work with (see section 5.6). The loudspeaker array selected in the _Speaker Arrangement_ pulldown menu will be 'virtualised' in the Room and all the speakers will appear graphically.
 
-> Speaker Arrangement also defines the number of output channels
+> Speaker Arrangement also defines the number of output channels.
 
 The spatial composition of Virtual Sources is governed in the Virtual Room by the characteristics of the currently selected **Panning Type** and speaker positions. In other words, the _panning type_ is simulated inside the Room on the **Speaker Arrangement** model. **Artificial Reverberation** (see section 8) is also modelled in relation to the speaker arrangement in a Channel Based Room.
 
@@ -77,7 +77,7 @@ _Nebula_ is a technology adapted from our flagship **Flux PURE Analyzer System**
 
 Screeshot from a Flux Pure Analyzer session
 
-**Nebula** in Spat Revolution provides a unique representation of the sound field in terms of spectral content and localisation rendered directly inside the 3D speaker simulation and virtual room display. It combines the functionality of a spectrum analyser and a vector scope in a novel real-time display. It is a useful tool to get a realtime overview of your spatial mix in terms of spectral-spatial diffusion, and can give quite accurate representations of 'where' and 'how' sounds will manifest over a real world sound system. A lot of work has gone into optimising the real-time rendering of the display, not solely for æsthetic reasons, but because we wanted the display to react instantly to all the details in the incoming multichannel audio. The idea is literally for you to be able to see what the listener will hear and feel.
+**Nebula** in Spat Revolution provides a unique representation of the sound field in terms of spectral content and localisation rendered directly inside the 3D speaker simulation and virtual room display. It combines the functionality of a spectrum analyser and a vector scope in a novel real-time display. It is a useful tool to get a realtime overview of your spatial mix in terms of spectral-spatial diffusion, and can give quite accurate representations of 'where' and 'how' sounds will manifest over a real world sound system. A lot of work has gone into optimising the real-time rendering of the display, not solely for aesthetic reasons, but because we wanted the display to react instantly to all the details in the incoming multichannel audio. The idea is literally for you to be able to see what the listener will hear and feel.
 
 **How does it work?**
 
@@ -95,11 +95,9 @@ When a Virtual Room is Channel Based, the speaker configuration layout is modell
 
 The idea is that by simulating speaker positions and acoustic interactions, the process of mixing for a particular speaker layout becomes more predictable. For example, by monitoring binaurally a scene from a channel based room, it is possible to get an impression as to how the mix might sound diffused by a particular speaker arrangement (including the space between speakers and gain characteristics belonging to selected panning types). As we have mentioned earlier in section 4.6 on Ambisonics, there are also options for mixing and monitoring a particular Channel Based Room simulation transcoded to a different setup than that being simulated, which may also be useful in certain contexts.
 
-This is really all about mixing. Mixing in stereo is already a significant challenge, some have devoted their entire careers to it. Mixing for multiple speakers, is even more complex.
+This is really all about mixing. Mixing in stereo is already a significant challenge, some have devoted their entire careers to it. Mixing for multiple speakers is even more complex.
 
-As mentioned in section 4.6 and other places in this guide, it is advisable to think in parallel as far as room mixing gœs. You could think of SPAT Rooms as different kinds of spatial busses with integrated acoustic emulation units. Use them in parallel, send some or all of the sources to multiple Rooms at the same time and sum the outputs together into one output format. One room might have a huge reverb, and one might be a much smaller space. The fact of the matter is that different
-
-Channel Based Rooms will have different sounds, but they can all be summed into the same channel based format.
+As mentioned in section 4.6 and other places in this guide, it is advisable to think in parallel as far as room mixing goes. You could think of SPAT Rooms as different kinds of spatial busses with integrated acoustic emulation units. Use them in parallel, send some or all of the sources to multiple Rooms at the same time and sum the outputs together into one output format. One room might have a huge reverb, and one might be a much smaller space. Channel Based Rooms will have different sounds, but they can all be summed into the same channel based format.
 
 It is only in this kind of Channel Based room workflow that the _Nebula Spatial Spectrogram_ will appear, as it works by computing a diffusion map from the combined outputs of statically positioned sound sources - i.e. _speakers_.
 
@@ -150,11 +148,11 @@ You will notice how the Spat Reverberation handles the stereo image naturally, b
 
 This method of working in a stereo Room invites a different approach to stereo panorama source mixing in the studio or on twin stack PA systems. It can also be a way to down mix from a surround format to stereo by simulating the speaker configuration and 'recording' it in stereo.
 
-One final thing to note when working in an Ambisonic room, rather than a channel based room, is that the feeling of **Artificial Reverberation** (see section 8) that gets encoded into the High Order Ambisonic will have a much reduced strength than what is heard during a channel based room mix. This needs some trial and error to get a feel for
+One final thing to note when working in an Ambisonic room, rather than a channel based room, is that the feeling of **Artificial Reverberation** (see section 8) that gets encoded into the High Order Ambisonic will have a much reduced strength than what is heard during a channel based room mix.
+
 ## Binaural Room
 
-The Binaural Monitoring module is great for easy channel based system monitoring. But it is not the best binaural experience we can provide with Spat Revolution. The best way to work with binaural encoding in Spat Revolution is to use a _Virtual
-Room_ which is binaurally encoding each virtual source at its exact position in a virtual space, with _Artificial Reverberation_ but without modelling any virtual speakers. In fact, in a Binaural Room the only diffusion factor in the modelling is the _HRTF_ (see section 5.1).
+The Binaural Monitoring module is great for easy channel based system monitoring. But it is not the best binaural experience we can provide with Spat Revolution. The best way to work with binaural encoding in Spat Revolution is to use a _Virtual Room_ which is binaurally encoding each virtual source at its exact position in a virtual space, with _Artificial Reverberation_ but without modelling any virtual speakers. In fact, in a Binaural Room the only diffusion factor in the modelling is the _HRTF_ (see section 5.1).
 
 Each source's direct sound plus the reverberation it creates are modelled and synthesised binaurally for _each individual source_. This advanced processing can result in an excellent binaural experience; more precise and natural sounding than using the Binaural Monitoring module to listen to a virtualised Channel Based rendering. It is the preferred method to use when rendering Binaural content to disk. To do that, you simply need to connect the binaural stream from the room directly to a (stereo) SPAT Return path back to your DAW. You could record and listen to a Binaural Room by using two output modules, one to the recording route, and one to a headphone output.
 

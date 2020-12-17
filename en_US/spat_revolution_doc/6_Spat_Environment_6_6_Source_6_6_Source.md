@@ -1,7 +1,6 @@
 # Source
 
-The next row transforms the inputs into virtual objects according to their configuration. This is what needs to happen so that a virtual Source appears in a virtual room.
-If you try to connect an input directly into a Room, Spat will always put a Source module in-between.
+The next row transforms the inputs into virtual objects according to their configuration. This is what needs to happen so that a virtual Source appears in a virtual room. If you try to connect an input directly into a Room, Spat will always put a Source module in-between.
 
 The Source modules are where you set a descriptive Name of each virtual object. It's a good idea to do that, as things can get busy inside the Rooms. You can also adjust the overall gain of a Source here no matter how many channels it might have. The Source modules are also important for parameter automation using the _Spat Send_ plug-in, and also in the case of external OSC control.
 
@@ -19,8 +18,7 @@ When you have correctly setup the BlackTrax protocol (see Appendix A) then you c
 
 ## Sources Transformations
 
-As with the custom speaker arrangement editor, we can apply some transformation to one or multiple sources.
-This feature is especially handy if you wish to quickly set sources on a circle, or to put a selection of sources at the distance for exemples.
+As with the custom speaker arrangement editor, we can apply some transformations to one or multiple sources. This feature is especially handy if you wish to quickly set sources on a circle, or to put a selection of sources at the distance for examples.
 
 To open the transform menu, right click on a source in the source panel and choose "Transform".
 
@@ -35,15 +33,15 @@ Sources transformations also include an integration time which allow to create s
 
 ## Source Parameters
 
-Every virtual Source in a Room has its own set of variable parameters which define its simulated positional information, psycho acoustic properties, virtual acoustic properties and other options.
+Every virtual source in a Room has its own set of variable parameters which define its simulated positional information, psycho acoustic properties, virtual acoustic properties and other options.
 
-To edit the variables of a source in the _Source Parameter_ editor, you must first be inside a Room. Select the source you want to edit from the list on the left side panel of the Room editor by left clicking on its Index number. Alternatively, grab its 'emitter' object in the 3D Room visualisation ( or just one of them, if the source is a multichannel group). When you select a source, the _Source Parameter_ editor will pop up as a set of categorised groups with which you can alter the properties of the Virtual Source in the Room.
+To edit the variables of a source in the _Source Parameter_ editor, you must first be inside a Room. Select the source you want to edit from the list on the left side panel of the Room editor by left clicking on its Index number. Alternatively, grab its 'emitter' object in the 3D Room visualisation (or just one of them, if the source is a multichannel group). When you select a source, the _Source Parameter_ editor will pop up as a set of categorised groups with which you can alter the properties of the Virtual Source in the Room.
 
-Additionally a _right click_ on a Source Index number will bring up some further options, especially useful is the **Colour** option, which allows you to set an identification colour to a Source or Group.
+Additionally, a _right click_ on a Source Index number will bring up some further options, especially useful is the **Colour** option, which allows you to set an identification colour to a Source or Group.
 
 ### Defaults
 
-A double click on any Source Parameter dial will reset it to a Spat default setting. The default setting of a parameter is indicated around a dial as a larger tick than the other tick marks. Additionally a range is graphically indicated between the default setting and the current setting of a variable parameter.
+A double-click on any Source Parameter dial will reset it to a Spat default setting. The default setting of a parameter is indicated around a dial as a larger tick than the other tick marks. Additionally, a range is graphically indicated between the default setting and the current setting of a variable parameter.
 
 ![](include/SpatRevolution_UserGuide_-162.jpg)
 
@@ -51,7 +49,7 @@ A double click on any Source Parameter dial will reset it to a Spat default sett
 
 ### Preset Memories
 
-Each parameter has the possibility to store useful preset settings of your own choosing. Right click on a parameter dial, and a contextual menu will pop up. From there you can store the current setting to a Memory Slot, or Recall a setting from a previously save memory slot.
+Each parameter has the possibility to store useful preset settings of your own choosing. Right click on a parameter dial, and a contextual menu will pop up. From there you can store the current setting to a Memory Slot, or Recall a setting from a previously saved memory slot.
 
 ![](include/SpatRevolution_UserGuide_-148.jpg)
 
@@ -71,7 +69,7 @@ Any Source Parameter variables you adjust manually will assign that same setting
 
 ### Smart Property Filter
 
-This features allows you to display one or several parameters for all the sources that are in the same Room. It is a useful feature for fast editing. Type "azimuth elevation distance " in the filter box for example, and you will see faders appear for only these properties, grouped for each of the sources as demonstrated in the following screenshot.
+This feature allows you to display one or several parameters for all the sources that are in the same Room. It is a useful feature for fast editing. Type "azimuth elevation distance " in the filter box for example, and you will see faders appear for only these properties, grouped for each of the sources as demonstrated in the following screenshot.
 
 ![](include/SpatRevolution_UserGuide_-168.jpg)
 
@@ -81,7 +79,7 @@ This features allows you to display one or several parameters for all the source
 
 This parameter group holds settings affecting the way the sources direct and reverberated acoustic properties are perceived by the listener.
 
-As touched on previously, these are not simply names stuck onto a single internal parameter dictated by the inner workings of the algorithm. Instead, a true perceptually-oriented approach was used in the design, where a test panel of listeners was presented with a test-set of sounds, constructed from several different variations of the reverb engine inner parameters. The listeners were then asked to rate each set onto a few different scales with perceptually and æsthetically meaningful names. Using principal components analysis (PCA) and optimisation techniques, we then built an algorithm which reverses the process and automatically maps a given set of perceptual factor values to the many internal reverb engine parameters.
+As touched on previously, these are not simply names stuck onto a single internal parameter dictated by the inner workings of the algorithm. Instead, a true perceptually-oriented approach is used in the design, where a test panel of listeners is presented with a test-set of sounds, constructed from several different variations of the reverb engine inner parameters. The listeners are then asked to rate each set onto a few different scales with perceptually and aesthetically meaningful names. Using principal components analysis (PCA) and optimisation techniques, we then built an algorithm which reverses the process and automatically maps a given set of perceptual factor values to the many internal reverb engine parameters.
 
 As a general guideline, we encourage you to learn the meaning of these parameters by carefully listening to the audible characteristics when adjusting them. We do provide a short explanation of each of them below, but training your ears is really the best way to be able to use these in context.
 
@@ -110,7 +108,7 @@ This parameter controls the amount of perceived reverb when feeding a continuous
 
 **Envelopment**
 
-Envelopment corresponds to the the perceived notion of how much the listener feels that they are surrounded or immersed by the ambient sound. In a multichannel configuration, one could describe this as the feeling of being wrapped inside the imaginary “sound sphere” that the listener pictures in her mind. It can also be described as the energy of the early room effect with respect to direct sound.
+Envelopment corresponds to the perceived notion of how much the listener feels that they are surrounded or immersed by the ambient sound. In a multichannel configuration, one could describe this as the feeling of being wrapped inside the imaginary “sound sphere” that the listener pictures in her mind. It can also be described as the energy of the early room effect with respect to direct sound.
 
 ### Reverb Options
 
@@ -128,7 +126,7 @@ _Early_ refers to _Early Reflections_ stage of the Room response which is one of
 
 _Cluster_ refers to a secondary iteration of room response reflections and is quite significant in the cognition of room acoustics.
 
-_Tail_ refers to the diffuse reverberations that eventually decay in a direct relationship with the size and reflectivity of an acoustic space. The tail section of a reverb dœs not contribute much to the localisability of a sound source in a space, but instead gives a sense of depth and ambience.
+_Tail_ refers to the diffuse reverberations that eventually decay in a direct relationship with the size and reflectivity of an acoustic space. The tail section of a reverb dœs not contribute much to the localisability of a sound source in a space, but instead gives a sense of depth and ambiance.
 
 ### Axis Omni Filters
 
@@ -197,7 +195,7 @@ space**
 
 This variable parameter will only be available when the room is a Channel Based Format which features an LFE speaker in its configuration, such as DTU7.1 / 5.1 / AURO and ATMOS for example.
 
-It will send an amount of the source into the dedicated LFE speaker channel of the output channel based configuration. Take a look at Appendix C for more sub bass / LFE workflows.
+It will send an amount of the source into the dedicated LFE speaker channel of the output channel based configuration.
 
 > **Automate the LFE send for dynamic low frequency effects**
 
