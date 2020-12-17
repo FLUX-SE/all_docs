@@ -161,6 +161,8 @@ Various:
 ## Known Issues
 
 * LAP with AAX 96K synchronization issue.
-*
-
-
+* OSC -1 index doesn't work with /aed.
+* Record OSC message and snapshot interpolation via Local Audio Path automation is not working.
+* Shortcuts with Alt doesn't work on Windows 10.
+* Only the first LFE receives LFE send.
+* None direct sound with Spherical Head binaural and Snowman binaural 
