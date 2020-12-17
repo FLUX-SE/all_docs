@@ -55,16 +55,21 @@ Core:
 * Fixed snapshot reload issues.
 * Improved network connection stability.
 * Added workarounds for various OpenGL driver bugs that were causing display issues on certain setups. 
+* All sample rates initialized to 48k by default
+
 
 
 UI:
 
 * Display issues and improvements on Mac OS
 * Added workarounds for various OpenGL driver bugs that were causing display issues on certain setups.  
+* TruePeak preset name not reflected in UI
+* Meter peak value text is clamped to range
+
 
 Various: 
 
-* N/A
+* Fix data races
 
 
 
@@ -73,10 +78,16 @@ Various:
 
 **Fixes;**
 
+* SampleGrabber base name truncated after close/reopen host.
+* SampleGrabber AAX - Win&Mac - Changing the plug-ins layout has no effect on the analyser.
+* SampleGrabber - Win&Mac - AAX/AU/VST - GUI issue with Layout list.
+
 ## Known Issues
 
 * Wrong channel order with SampleGrabber and Nuendo
-* Issues in some scenarios with Avid VENUE S6L
+* Issues in some scenarios with Avid VENUE S6L - Sample Grabber AAX VENUE - Doesn't appear to work (works in AAX Native)
+* 
+
 
 
 -----

@@ -87,10 +87,13 @@
 * Pl: update page table
 * Rebuild GUI without reloading session
 
+**Fixes;**
+
 
 ## Bug fixes
 
 ### Spat Revolution Fixes
+#### Build 49880
 
 **Fixes;**
 
@@ -140,8 +143,17 @@ Various:
 * Fix default position with 5.1 sources
 * Fix opening session with non-ASCII characters
 
+#### Build 49890
 
+**Fixes;**
+
+
+* Crash when "Max Number of cores" is 1
+* Crash when build setup without any sources and with Audio Device enabled
+
+--
 ### Spat Plug-ins fixes
+#### Build 49880
 
 **Fixes;**
 
@@ -158,6 +170,7 @@ Various:
 * Fix DXD Blocksize mismatch
 * AAX DSP Version no longer supported
 
+
 ## Known Issues
 
 * LAP with AAX 96K synchronization issue.
@@ -165,4 +178,4 @@ Various:
 * Record OSC message and snapshot interpolation via Local Audio Path automation is not working.
 * Shortcuts with Alt doesn't work on Windows 10.
 * Only the first LFE receives LFE send.
-* None direct sound with Spherical Head binaural and Snowman binaural 
+* None direct sound with Spherical Head binaural and Snowman binaural
