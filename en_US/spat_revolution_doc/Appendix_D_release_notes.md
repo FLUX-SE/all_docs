@@ -178,4 +178,4 @@ Various:
 * Record OSC message and snapshot interpolation via Local Audio Path automation is not working.
 * Shortcuts with Alt doesn't work on Windows 10.
 * Only the first LFE receives LFE send.
-* None direct sound with Spherical Head binaural and Snowman binaural
+* No direct sound with Spherical Head binaural and Snowman binaural
