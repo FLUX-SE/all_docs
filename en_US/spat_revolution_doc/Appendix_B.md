@@ -125,9 +125,28 @@ Consider as well to kill as many processes not required as possible (Wi-Fi/inter
 
 ## Display Performance (CPU) measurements
 
-Includes in release version 20.12 is the ability to display performance (CPU) measurements. This can be done in the **Help** menu **Display Performance** option. This can be accesses as well with shortcut Shit + Option + Command + P.
+Included in release version 20.12 is the ability to display performance (CPU) measurements. This can be done in the **Help** menu **Display Performance** option. This can be accesses as well with shortcut Shit + Option + Command + P.
 
 ![Display Performance](include/display_performance.png)
+
+
+## Engine Parallel Processing profile
+
+Spat Revolution v20.12 introduces a new Multi-Core Parallel Computation Algorithm that is key to optimizing your hardware. This is for both the automation and the audio processing. The **Display Performance** option stated above will be our best friend to monitor the results. This can be accesses awith shortcut Shit + Option + Command + P.
+
+![Engine Parallel Processing profile](include/engine_profile_1.png)
+
+**Automation frequency** provides the ability to set the refresh rate of the automation. By default we use 10.0 ms (100.00 fps). This can be increased if you see that the automation is becoming a burden at for your system with such low refresh.
+
+![Engine Parallel Processing profile](include/engine_profile_4.png)
+
+**Automation frequency** provides the ability to set the refresh rate of the automation. By default we use 10.0 ms (100.00 fps). This can be increased if you see that the automation is becoming a burden at for your system with such low refresh.
+
+![Engine Parallel Processing profile](include/engine_profile_3.png)
+
+
+![Engine Parallel Processing profile](include/engine_profile_2.png)
+
 
 
 ---

@@ -1,6 +1,6 @@
 # Release Notes 20.12.
 
-### FLUX:: Analyser 20.12
+### FLUX:: Analyser 20.12.0.49880
 
 ## Major Additions
 
@@ -37,7 +37,8 @@
 
 ## Bug fixes
 
-### FLUX:: Analyser
+### FLUX:: Analyser 20.12.0.49880
+
 
 **Fixes;**
 
