@@ -1,4 +1,4 @@
-# Spat PI : Local audio path
+# Spat PI : Automation
 
 A computer running Spat Revolution becomes a spatial sound rendering engine, hosting the entire Spat software environment we are currently describing. Audio signals that flow in and out of Spat may be connected to a hardware multichannel audio device connected to the Spat host machine.
 
