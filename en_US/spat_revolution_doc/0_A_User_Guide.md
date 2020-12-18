@@ -4,7 +4,7 @@
 
 # FLUX:: Immersive Spat Revolution
 
-## The Immersive Audio Revolution
+## An Immersive Audio Revolution
 
 ## A User Guide
 
