@@ -5,7 +5,7 @@
 3. [Files & folders](Files_&_folders.md)
 4. [Users & applications](3_Users_and_Applications.md)
 5. [Spat Revolution environment](4_Spat_Revolution_Project_Environment_4_Spat_Revolution_Project_Environment.md)
-6. [Spatialisation technologies](5_Spatialisation_Technology_5_Spatialisation_Technology.md)
+6. [Spatialization technologies](5_Spatialisation_Technology_5_Spatialisation_Technology.md)
     1. [Listener position](5_Spatialisation_Technology_5_4_Listener_Position.md)
     2. [Binaural](5_Spatialisation_Technology_5_1_Binaural_5_1_Binaural.md)
     3. [Transaural](5_Spatialisation_Technology_5_2_Transaural.md)
