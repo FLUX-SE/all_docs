@@ -29,7 +29,7 @@
 * New Import and Export Spat preferences.
 	* System to System, to back up your preferences.
 * Basic snapshot system implementation;
-	* snapshots can now be generated, recalled (with interpolation - xfade option) , deleted or renamed. 
+	* snapshots can now be generated, recalled (with interpolation - crossfade option) , deleted or renamed. 
 	* Gives the ability to create static images instead of using full automation.
 	* Basic menu is provided to manage snapshots and available to OSC messages (Lemur and Qlab template available).
 * Import speaker arrangements;
@@ -65,7 +65,7 @@
 
 ## Other Improvements
 
-* BackGround - Set Background Offset Step to centimeters  
+* BackGround - Set Background Offset Step to centimetres  
 * Display Performances (CPU) measurements help option
 * Opening a new session doesn't prompt a "save current session" dialog  
 * Use calling thread (Audio) as thread 0 on parallel processing to avoid using other thread on small configuration.
@@ -77,13 +77,13 @@
 * Import speaker arrangement - Check the height of the arrangement and lower the all arrangement.
 * Check for update based on current installed version number
 * Display "new version" / "update information" at startup
-* Add number of channel property to Send/Return plugin to allow ReaEvolution to change to plugin format
+* Add number of channel property to Send/Return plugin to allow ReaVolution to change to plugin format
 * Automatically define speaker arrangement on Transcoder when possible
 * Add Duplicate room without same sources or with duplicated sources
 * Handle "dead" PyControl in UI
 * Ircam's exceptions handling in Transcoder
 * Dump all properties through OSC output after loading a session
-* Pl: remove Independant duration + rename as "interpolation time"
+* Pl: remove Independent duration + rename as "interpolation time"
 * Pl: update page table
 * Rebuild GUI without reloading session
 
@@ -93,6 +93,27 @@
 ## Bug fixes
 
 ### Spat Revolution Fixes
+
+
+#### Build 49920
+
+* Solved freezing issue on some Windows computers.
+
+**Fixes;**
+
+
+* Windows: Crash when "Max Number of cores" is 1
+* Windows: Crash when setup building without any sources and with audio device enabled 
+
+#### Build 49890
+
+**Fixes;**
+
+
+* Crash when "Max Number of cores" is 1
+* Crash when build setup without any sources and with Audio Device enabled
+
+
 #### Build 49880
 
 **Fixes;**
@@ -160,14 +181,14 @@ Various:
 * Fix stability issue with LAP
 * Room PI - Fix automation in VST
 * Room PI - Fix No automation parameter available in room PI AAX 
-* Room PI - Fix the non-linear behavior of the listener Yaw Automation
+* Room PI - Fix the non-linear behaviour of the listener Yaw Automation
 * Send PI - Improve stability on Avid S6L
 * Automation - Fix : reset values doesn't send automation point to LAP PI
 * VST - Fix latency compensation issue
 * AU - Fix automation
 * Ableton Live - Fix automation parameter not listed
 * Logic Pro X - Fix automation issues from Spat
-* Fix DXD Blocksize mismatch
+* Fix DXD Block-size mismatch
 * AAX DSP Version no longer supported
 
 
