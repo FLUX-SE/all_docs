@@ -1,6 +1,6 @@
 # Release Notes 20.12
 
-### FLUX:: Analyser 20.12.0 Build 49880
+### FLUX:: Analyser 20.12
 
 ## Major Additions
 
@@ -37,8 +37,15 @@
 
 ## Bug fixes
 
-### FLUX:: Analyser 20.12.0.49880
+### FLUX:: Analyser 20.12
 
+#### Build 49931
+
+**Fixes;**
+
+* Studio Session Analyzer is not working
+
+#### Build 49880
 
 **Fixes;**
 
