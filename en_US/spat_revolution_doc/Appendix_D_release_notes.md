@@ -99,7 +99,7 @@
 
 **Fixes;**
 
-* Solved freezing issue on some Windows computers.
+* Solved freezing issue on Windows computers.
 * Drop-down menu stuck
 * Error when deleting user config in Speaker Arrangement Editor
 * Change langage sets all rooms background to black (if they were white before)
