@@ -20,4 +20,6 @@
 * [Solera](en_US/solera_doc/0_Solera.md)
 * [Spat Revolution](en_US/spat_revolution_doc/0_A_User_Guide.md)
 * [Stereotool](en_US/stereotool_doc/0_StereoTool.md)
+*  [Studio Session Analyzer](en_US/analyser_doc/00_Pure_Analyzer_00_Pure_Analyzer.md)
+*  [Studio Session Plugins](en_US/analyser_doc/00_Pure_Analyzer_00_Pure_Analyzer.md)
 * [Syrah](en_US/syrah_doc/0_Syrah.md)
