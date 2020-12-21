@@ -1,6 +1,6 @@
 # Studio Session Plugins
 
-## Studio Session bundle
+## Welcome
 
 Thank you for purchasing the Studio Session Plugins (bundle)
 
@@ -27,17 +27,26 @@ The **Studio Session Plugins** are installed as a single bundle that contains th
 * No Support For Open Sound Control
 
 
+## User documentation and resources
 
-Please refer to the above links for the product specific user documentation.
+User documentation is the same as the standard products. Please refer to;
 
-You can refer to the following tutorials as well
+* [Bittersweet Pro](en_US/bittersweet-pro_doc/0_BitterSweet_Pro.md)
+* [Epure](en_US/epure_doc/0_Epure.md)
+* [Ircam Verb Session](en_US/ircam_verb-session_doc/0_Ircam_Verb_Session.md)
+* [Pure Compressor](en_US/pure-compressor_doc/0_Pure_Compressor.md)
+* [Pure Expander](en_US/pure-expander_doc/0_Pure_Expander.md)
+* [Pure Limiter](en_US/pure-limiter_doc/0_Pure_Limiter.md)
+* [Studio Session Analyzer](en_US/analyser_doc/00_Pure_Analyzer_00_Pure_Analyzer.md)
+* [Syrah](en_US/syrah_doc/0_Syrah.md)
 
-How to mix with **Studio Session Pack**;
 
-* [Balance and EQ](https://youtu.be/qrmlZNY9Ut0)
-* [Dynamic treatment](https://youtu.be/q1HDL98Nzv8)
-* [Reverberation ](https://youtu.be/Izn3Le6Th5Q)
-* [Last stage of production](https://youtu.be/SHARm5sLtjw)
+Tutorials are as well available for **How to mix with Studio Session Pack**;
+
+* [How to mix with Studio Session Pack- Balance and EQ](https://youtu.be/qrmlZNY9Ut0)
+* [How to mix with Studio Session Pack- Dynamic treatment](https://youtu.be/q1HDL98Nzv8)
+* [How to mix with Studio Session Pack - Reverberation ](https://youtu.be/Izn3Le6Th5Q)
+* [How to mix with Studio Session Pack- Last stage of production](https://youtu.be/SHARm5sLtjw)
 
 ----
 

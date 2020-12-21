@@ -1,11 +1,12 @@
 # Studio Session Analyser
 
+## Welcome
 
-Thank you for purchasing the Studio Session Plugins (bundle) which includes the Studio Session Analyser
+Thank you for purchasing the Studio Session Plugins (bundle) which includes the **Studio Session Analyser**
 
-The **Studio Session Analyser** is a light version of our renowned  - [FLUX:: Real Time Analyzer System](en_US/analyser_doc/00_Pure_Analyzer_00_Pure_Analyzer.md)
+The Studio Session Analyser is a light version of our renowned  [FLUX:: Real Time Analyzer System](en_US/analyser_doc/00_Pure_Analyzer_00_Pure_Analyzer.md)
 
-The **Studio Session Analyser** is installed as a single application. It has the same basic functioning with the following limitations
+The Session Analyser is installed as a single application. It has the same basic functioning as with the standard FLUX:: Analyser with the following limitations;
 
 
 * Inputs & Outputs : Mono / Stereo
@@ -15,8 +16,10 @@ The **Studio Session Analyser** is installed as a single application. It has the
 
 > Please note that the Studio Session Pack license is a bundle license and the Studio Session Analyzer can only be used on the same computer as the rest of the plug-ins in the bundle are used.
 
-Please refer to the - [FLUX:: Real Time Analyzer System](en_US/analyser_doc/00_Pure_Analyzer_00_Pure_Analyzer.md) user documentation on how to use the **FLUX:: Studio Session Analyser**
 
+## User documentation
+
+Please refer to the **[FLUX:: Real Time Analyzer System](en_US/analyser_doc/00_Pure_Analyzer_00_Pure_Analyzer.md)** user documentation.
 
 ...
 
