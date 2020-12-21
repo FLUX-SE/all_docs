@@ -1,3 +1,3 @@
 * [Studio Session Analyser](0_StudioSessionAnalyser.md)
 * Appendix 
-	* [Release Notes](../../flux_processing_release_notes.md)
+	* [Release Notes](../../flux_analyser_release_notes.md)
