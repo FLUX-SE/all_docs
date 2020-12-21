@@ -1,6 +1,6 @@
-# Release Notes 20.12
+# Release Notes
 
-### FLUX:: Analyser 20.12
+## FLUX:: Analyser 20.12
 
 ## Major Additions
 
@@ -81,7 +81,9 @@ Various:
 
 
 
-### Sample Grabber Plug-ins fixes
+### Sample Grabber Plug-ins 20.12
+
+#### Build 49880
 
 **Fixes;**
 
@@ -89,11 +91,11 @@ Various:
 * SampleGrabber AAX - Win&Mac - Changing the plug-ins layout has no effect on the analyser.
 * SampleGrabber - Win&Mac - AAX/AU/VST - GUI issue with Layout list.
 
+
 ## Known Issues
 
 * Wrong channel order with SampleGrabber and Nuendo
 * Issues in some scenarios with Avid VENUE S6L - Sample Grabber AAX VENUE - Doesn't appear to work (works in AAX Native)
-* 
 
 
 
