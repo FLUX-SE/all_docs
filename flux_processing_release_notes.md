@@ -1,20 +1,19 @@
-# Release Notes 20.12.
+# Release Notes
 
-### FLUX:: Processing with IRCAM Tools 20.12
+## FLUX:: Processing (including IRCAM Tools) 20.12
+
+This major release includes updates for all **FLUX::Immersive** products with the exception of IRCAM Spat V3 legacy product. Please refer to Spat V3 - Spat Revolution crossgrade options.  
 
 
 ## Major Additions
 
-
 ## Major optimizations
-
 
 ## Other Improvements
 
-
 ## Bug fixes
 
-### FLUX:: Processing 20.12 - ### FLUX:: IRCAM 20.12
+### FLUX:: Processing 20.12 
 
 **Fixes;**
 
