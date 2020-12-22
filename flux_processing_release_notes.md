@@ -42,7 +42,9 @@ Core:
 
 UI:
 
-Various: 
+* Current preset name disappear on re-opening GUI or session
+
+
 
 
 ## Known Issues
