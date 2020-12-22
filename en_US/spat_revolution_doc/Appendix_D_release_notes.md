@@ -190,13 +190,6 @@ Various:
 * Fix default position with 5.1 sources
 * Fix opening session with non-ASCII characters
 
-#### Build 49890
-
-**Fixes;**
-
-
-* Crash when "Max Number of cores" is 1
-* Crash when build setup without any sources and with Audio Device enabled
 
 --
 ### Spat Plug-ins fixes
