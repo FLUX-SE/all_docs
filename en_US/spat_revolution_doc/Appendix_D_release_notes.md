@@ -4,6 +4,8 @@
 
 ## Major Additions
 
+#### Build 49980
+
 
 * New MultiCore parallel processing algorithm. 
 	* A new preference option to select various engine processing profile.
@@ -86,9 +88,13 @@
 * Pl: remove Independent duration + rename as "interpolation time"
 * Pl: update page table
 * Rebuild GUI without reloading session
+
+#### Build 49943
+
 * Add IO overload Detection + auto mute + reset button
 * Spat Send (software) input sync error detection optimization
 * Audio processing optimizations
+
 
 
 
