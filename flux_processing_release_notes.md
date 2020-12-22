@@ -7,7 +7,6 @@ This major release includes updates for all **FLUX::Immersive** products with th
 ## Major optimizations
 
 * HiDPI / Retina support + display enhancements and fixes
-* Add scale factor combo in the plugin setup
 * Page Table unification for **Avid Control**, S1, S3, S4, S6 and S6L.
 * OSC Control for plugins.
 * **IRCAM Verb** support for Dolby Atmos, Multichannel support up to 16 channels 
@@ -33,7 +32,12 @@ Core:
 * IRCAM Verb -Dry signal still goes out in disabled channels when wet is 100%
 * All Pure Dynamics PI + Alchemist - Wrong Thresholds initialization values
 * AAX "monolithic" are broken like Hear, TRAX etc...
-* Almost all AAX plugins don't reload parameters from 47856 version session
+* Almost all AAX plugins don't reload parameters from 47856 version session.
+* Pure Limiter - Diff feature bypassed the input gain.
+* Pure Limiter - Inverted sidechain filters.
+* Any plugin except Evo Channel - Research Presets resets when click on a preset.
+* Evo channel - Wrong values when reloading touch section.
+
 
 
 UI:
