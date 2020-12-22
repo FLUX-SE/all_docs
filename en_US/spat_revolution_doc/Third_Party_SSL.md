@@ -53,7 +53,7 @@ With Solid State Logic live consoles, up to eight *Fader* (i.e. continuously var
 
 * In the OSC Connections section, use the pre-configured SSL Live OSC presets. In the pulldown, choose **input |SSL Live** and select the local IP address you are using to communicate with the desk. Then set a second OSC Connection for the output from Spat Revolution to the desk.  In the pulldown, choose **output | SSL Live**. You will  enter the desk IP address as found in the OSC settings. Port # 9300 (Input) and 9301 (Output) are pre-configured 
 
-![OSC Connections DiGiCo Presets](include/Digico_3.png)
+![OSC Connections DiGiCo Presets](include/ssl_osc_communication.png)
  
 
 
