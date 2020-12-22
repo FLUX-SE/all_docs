@@ -10,7 +10,7 @@ This major release includes updates for all **FLUX::Immersive** products with th
 * Page Table unification for **Avid Control**, S1, S3, S4, S6 and S6L.
 * OSC Control for plugins.
 * **IRCAM Verb** support for Dolby Atmos, Multichannel support up to 16 channels 
-* **IRCAM Hear** - Multichannel stability improvement, Now up to 10 channels 
+* **IRCAM Hear** - Multichannel stability improvement, Now up to 10 channels. (Dolby Atmos 7.1.2)
 * **IRCAM Tools** - Audio I/O Matrix and Multichannel enhancement 
 * Most plugins support of 8 channel.
 * 16 channel support for **Bittersweet Pro, Evo In and Evo Channel**
