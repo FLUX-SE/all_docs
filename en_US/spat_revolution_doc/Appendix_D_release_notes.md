@@ -86,24 +86,26 @@
 * Pl: remove Independent duration + rename as "interpolation time"
 * Pl: update page table
 * Rebuild GUI without reloading session
-
-**Fixes;**
+* Add IO overload Detection + auto mute + reset button
+* Spat Send (software) input sync error detection optimization
 
 
 ## Bug fixes
 
-### Spat Revolution Fixes
+### Spat Revolution Fixes 20.12
 
 
-#### Build 49920
-
-* Solved freezing issue on some Windows computers.
+#### Build 49930
 
 **Fixes;**
 
+* Solved freezing issue on Windows computers.
+* Drop-down menu stuck
+* Error when deleting user config in Speaker Arrangement Editor
+* Change langage sets all rooms background to black (if they were white before)
+* When list selected in a Dialog, type escape closes window instead of list
 
-* Windows: Crash when "Max Number of cores" is 1
-* Windows: Crash when setup building without any sources and with audio device enabled 
+
 
 #### Build 49890
 
@@ -195,8 +197,10 @@ Various:
 ## Known Issues
 
 * LAP with AAX 96K synchronization issue.
-* OSC -1 index doesn't work with /aed.
+* OSC -1 index doesn't work with Polar /aed.
 * Record OSC message and snapshot interpolation via Local Audio Path automation is not working.
 * Shortcuts with Alt doesn't work on Windows 10.
 * Only the first LFE receives LFE send.
 * No direct sound with Spherical Head binaural and Snowman binaural
+* Crash on transcoding B-Format 2D to HOA3D
+* Closing Nuendo and Ableton Live session with Spat PI crashed application. (VST Plug-ins)

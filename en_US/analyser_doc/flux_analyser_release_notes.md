@@ -1,6 +1,6 @@
-# Release Notes 20.12
+# Release Notes
 
-### FLUX:: Analyser 20.12.0 Build 49880
+## FLUX:: Analyser 20.12
 
 ## Major Additions
 
@@ -23,7 +23,7 @@
 * Now with 2 perceptual colormaps to spectrogram for improved readability.
 * Musical note peak display (label mode)
 * Improved spectrum display interpolation
-* Improved pure spectrum mode sidelobe analysis
+* Improved pure spectrum mode side-lobe analysis
 * External IR loading in snapshots 
 	* visualizing them as impulse responses and magnitude spectra
 * I/O layout preference for various channel based arrangements and order.
@@ -32,20 +32,32 @@
 
 ## Other Improvements
 
-* Application is now notarized to comply with macos Catalina, Big Sur requirements
+* Application is now notarized to comply with macOS Catalina, Big Sur requirements.
+* Spectrum Frequency scale start at 0Hz
+* Limit generator output level to prevent sound card clipping.
+* Smoother generator volume changes
+* New main menu on macOS (Edit and View Menu)
+
 
 
 ## Bug fixes
 
-### FLUX:: Analyser 20.12.0.49880
+### FLUX:: Analyser 20.12
 
+#### Build 49931
+
+**Fixes;**
+
+* Studio Session Analyzer is not working
+
+#### Build 49880
 
 **Fixes;**
 
 Core:
 
-* Meterering Stats (Offline processing) unstable or returning wrong values.
-* Meterering Stats (Offline processing) file batch loading issue.
+* Metering Stats (Offline processing) unstable or returning wrong values.
+* Metering Stats (Offline processing) file batch loading issue.
 * Ensure saved IO setup is still present on reload.
 * Fix transfer function magnitude smoothing.
 * Limit data tooltips to actual range and fix refresh lag.
@@ -74,7 +86,9 @@ Various:
 
 
 
-### Sample Grabber Plug-ins fixes
+### Sample Grabber Plug-ins 20.12
+
+#### Build 49880
 
 **Fixes;**
 
@@ -82,11 +96,11 @@ Various:
 * SampleGrabber AAX - Win&Mac - Changing the plug-ins layout has no effect on the analyser.
 * SampleGrabber - Win&Mac - AAX/AU/VST - GUI issue with Layout list.
 
+
 ## Known Issues
 
 * Wrong channel order with SampleGrabber and Nuendo
 * Issues in some scenarios with Avid VENUE S6L - Sample Grabber AAX VENUE - Doesn't appear to work (works in AAX Native)
-* 
 
 
 
