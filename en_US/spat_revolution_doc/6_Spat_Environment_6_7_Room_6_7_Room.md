@@ -1,35 +1,35 @@
 # Room
 
-In Spat Revolution, spatialisation of virtual sources takes places inside _Virtual Rooms_. To enter a Room and open its graphic editor environment, you double-click on a Virtual Room module in the Setup graph, or select a room tab from the Navigation bar.
+In Spat Revolution, spatialisation of virtual sources takes places inside _Virtual Rooms_. To enter a Room and open its graphic editor environment, double-click on a Virtual Room module in the Setup graph, or select a room tab from the Navigation bar.
 
 ![](include/SpatRevolution_UserGuide_-092.jpg)
 
-The first thing to notice, is that you can add any number of Rooms. In the screenshot above, two HOA 3D rooms are being used, each with differently designed acoustics. There is plenty of flexibility built into Spat Revolution, in order to encompass different workflow ideas or experimental approaches. For example, the same virtual sources may be assigned into multiple rooms, with multiple end destinations. Or as in the screen shot above, virtual sources might exist in different spaces, that get summed together.
+The first thing to notice is that we can add any number of Rooms. In the screenshot above, two HOA 3D rooms are being used, each with differently designed acoustics. There is plenty of flexibility built into Spat Revolution, in order to encompass different workflow ideas or experimental approaches. For example, the same virtual sources may be assigned into multiple rooms, with multiple end destinations. Or as in the screenshot above, virtual sources might exist in different spaces, that get summed together.
 
-When you enter a Virtual Room you will see the 3D positionable editor. All connected virtual sources and their emitters will appear on the 3D scene render. On the left side panel of the room editor, you get a list representation of each source with its Index identification number. You can click on the Index number of each source, and the _Source Parameter_ editor for that virtual source will appear (see section 9).
+When we enter a Virtual Room, we will see the 3D positionable editor. All connected virtual sources will appear on the 3D scene render. On the left side panel of the room editor, you get a list representation of each source with its Index identification number. We can click on the Index number of each source, and the _[source parameters](6_Spat_Environment_6_6_Source_6_6_Source?id=source-parameters.md)_ editor for that virtual source will appear.
 
 
 ![](include/SpatRevolution_UserGuide_-094.jpg)
 
-> If a source consists of a configuration of linked emitters there will be only one index and one set of parameters for the whole cluster.
+> If a source consists of a configuration of linked emitters, there will be only one index and one set of parameters for the whole cluster.
 
-Two special index items labelled as **(R) REVERB** and **(M) OUTPUT** appear fixed at the bottom of the left panel. By clicking on these you then enter two more parameter editors, one relating to the _Artificial Reverberation_ (see section 8) and one relating to the Room output configuration and listener position editor (see section 5.4).
+Two special index items labelled as **(R) REVERB** and **(M) OUTPUT** appear fixed at the bottom of the left panel. By clicking on these, we then enter into two more parameter editors: one relating to the _[Artificial reverberation](8_Artificial_Reverberation_8_Artificial_Reverberation.md)_ and one relating to the Room output configuration and [Listener Position](5_Spatialisation_Technology_5_4_Listener_Position.md)) editor.
 
-All sources and the entire room output can be put into solo or mute mode directly from this index list. When you have more than one Virtual Room in your project, then the SOURCES switch at the top left of a Room editor can be handy, as it will show all Sources from all Virtual Rooms in the same editor - allowing you to edit, mix, solo and mute them from one Room view.
+Mutes and Solos are manageable for all sources and for the entire room output from this index list. When you have more than one Virtual Room in your project, then the SOURCES switch at the top left of a Room editor can be handy, as it will show all Sources from all Virtual Rooms in the same editor - allowing edition, mix, solo and mute management all sources from one Room view.
 
 ## Room Graphic Engine
 
-Along with the audio modelling engine, one of Spat's key features is its ability to model a high definition graphical representation of the virtual space inside each Room. You can interact and move sources and 'camera view' directly with your mouse in an intuitive way. Move a source by grabbing its 'emitter' object or in the case of a grouped source grab any one of the emitters that belong to the group. Alternatively, sources can be positioned by manipulating their co-ordinate related source parameter controls (see section 9).
+Along with the audio modelling engine, one of Spat's key features is its ability to model a high definition graphical representation of the virtual space inside each Room. We can intuitively interact and move sources and 'camera view' directly with our mouse. Move a source by grabbing its 'emitter' object or in the case of a grouped source grab any one of the emitters that belong to the group. Alternatively, sources can be positioned by manipulating their coordinate related source parameter controls (see [ Radiation section](6_Spat_Environment_6_6_Source_6_6_Source?id=radiation)).
 
 ![](include/SpatRevolution_UserGuide_-096.jpg)
 
 ## Room 3D View
 
-The camera angle of the 3D scene can be moved continuously using a **controldrag** mouse or trackpad gesture applied directly onto the Room view. This will reposition the camera. A _forwards and backwards scroll_ on the mouse or trackpad will zoom the camera in and out of the scene. Furthermore, a change (or resetting) of view orientation can be selected from the _View_ pull down menu, to show 'topdown' view of the scene.
+The camera angle of the 3D scene can be moved continuously using a **controldrag** mouse or trackpad gesture applied directly onto the Room view. This will reposition the camera. A _forwards and backwards scroll_ on the mouse or trackpad will zoom the camera in and out of the scene. We can also move the 3D view with <code>Shift</code> and a **controldrag** mouse. Furthermore, a change (or resetting) of view orientation can be selected from the _View_ pull down menu, to show 'topdown' view of the scene. 
 
 ![](include/SpatRevolution_UserGuide_-098.jpg)
 
-A split screen Top-Front view is also available
+> A split screen Top-Front view is also available.
 
 Selecting a source also display its name over its 3D representation. At the top of the room, there is an option to display the name of the all sources or of all the speaker.
 
@@ -57,15 +57,15 @@ A Room will compute internal virtual panning, reverberation and output in five p
 
 > Different Virtual Room types can be used in parallel.
 
-In the output section, we can also mute specific speaker. This can be really helpfull for checking routing or for diagnostic its system.
+In the output section, we can also mute specific speaker. This can be really helpful for checking routing or for diagnostic its system.
 
 ## Channel Based Setup Examples
 
-If the output configuration is set to be **Channel Based** , then the user must decide on the appropriate _Panning Type_ to work with (see section 5.6). The loudspeaker array selected in the _Speaker Arrangement_ pulldown menu will be 'virtualised' in the Room and all the speakers will appear graphically.
+If the output configuration is set to **Channel Based** , the user must decide on the appropriate _[Panning Algorithm](5_Spatialisation_Technology_5_5_Panning_Algorithms.md)_ to work with. The loudspeaker array selected in the _Speaker Arrangement_ pulldown menu will be 'virtualised' in the Room and all the speakers will appear graphically.
 
 > Speaker Arrangement also defines the number of output channels.
 
-The spatial composition of Virtual Sources is governed in the Virtual Room by the characteristics of the currently selected **Panning Type** and speaker positions. In other words, the _panning type_ is simulated inside the Room on the **Speaker Arrangement** model. **Artificial Reverberation** (see section 8) is also modelled in relation to the speaker arrangement in a Channel Based Room.
+The spatial composition of Virtual Sources is governed in the Virtual Room by the characteristics of the currently selected **Panning Type** and speaker positions. In other words, the _panning type_ is simulated inside the Room on the **Speaker Arrangement** model. **[Artificial reverberation](8_Artificial_Reverberation_8_Artificial_Reverberation.md)** is also modelled in relation to the speaker arrangement in a Channel Based Room.
 
 Additionally, the powerful _Nebula Spatial Spectrogram_ is highly dependent on the virtual speakers model, panning type and simulated acoustics of a Channel Based Room. Let's take a quick a look at _Nebula_ before continuing with the Room types.
 
