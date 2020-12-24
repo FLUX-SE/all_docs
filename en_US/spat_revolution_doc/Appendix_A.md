@@ -17,7 +17,7 @@ unlimited number of Input and Output (Hardware and audio interface dependant).
 Sampling rate up to 384 kHz, Block size buffer starting at 16 blocks
 ## OS Compatibility
 
-Windows – 7 SP1, 8.1 and 10, all in 64 bits only.
+Windows 10, all in 64 bits only.
 macOS x (Intel) – All versions from 10.12 including macOS Big Sur compliant
 
 ## Software Licence Requirements
