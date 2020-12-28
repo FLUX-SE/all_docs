@@ -13,7 +13,7 @@ When we enter a Virtual Room, we will see the 3D positionable editor. All connec
 
 > If a source consists of a configuration of linked emitters, there will be only one index and one set of parameters for the whole cluster.
 
-Two special index items labelled as **(R) REVERB** and **(M) OUTPUT** appear fixed at the bottom of the left panel. By clicking on these, we then enter into two more parameter editors: one relating to the _[Artificial reverberation](8_Artificial_Reverberation_8_Artificial_Reverberation.md)_ and one relating to the Room output configuration and [Listener Position](5_Spatialisation_Technology_5_4_Listener_Position.md)) editor.
+Two special index items labelled as **(R) REVERB** and **(M) OUTPUT** appear fixed at the bottom of the left panel. By clicking on these, we then enter into two more parameter editors: one relating to the _[Artificial reverberation](8_Artificial_Reverberation_8_Artificial_Reverberation.md)_ and one relating to the Room output configuration and [Listener Position](5_Spatialisation_Technology_5_4_Listener_Position.md) editor.
 
 Mutes and Solos are manageable for all sources and for the entire room output from this index list. When you have more than one Virtual Room in your project, then the SOURCES switch at the top left of a Room editor can be handy, as it will show all Sources from all Virtual Rooms in the same editor - allowing edition, mix, solo and mute management all sources from one Room view.
 
