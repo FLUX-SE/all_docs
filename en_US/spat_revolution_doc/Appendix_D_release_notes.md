@@ -2,7 +2,10 @@
 
 ### Spat Revolution 20.12
 
+#### Build 49890
+
 ## Major Additions
+
 
 
 * New MultiCore parallel processing algorithm. 
@@ -86,13 +89,34 @@
 * Pl: remove Independent duration + rename as "interpolation time"
 * Pl: update page table
 * Rebuild GUI without reloading session
+
+#### Build 49943
+
 * Add IO overload Detection + auto mute + reset button
 * Spat Send (software) input sync error detection optimization
+* Audio processing optimizations
+
+
 
 
 ## Bug fixes
 
 ### Spat Revolution Fixes 20.12
+
+
+#### Build 49943
+
+**Fixes;**
+
+* Creating Snapshot freeze on Mac OS X.
+* Rename snapshot dialog not correctly initialized ; especially on retina display
+* Panning Tips - Display of Coincident speakers was broken.
+* Potential error when recalling snapshot.
+* Recurring crash in setup while doing connections with drag and drop
+* Strange issues with input OSC transforms
+* Transcoders - Wrong Normalization for AmbiX.
+* Yaw/Pitch/Roll - Number of digits in sliders 
+* Crash on connecting HOA order 7 input to source multiple time.
 
 
 #### Build 49930
@@ -166,13 +190,6 @@ Various:
 * Fix default position with 5.1 sources
 * Fix opening session with non-ASCII characters
 
-#### Build 49890
-
-**Fixes;**
-
-
-* Crash when "Max Number of cores" is 1
-* Crash when build setup without any sources and with Audio Device enabled
 
 --
 ### Spat Plug-ins fixes
