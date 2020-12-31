@@ -3,9 +3,11 @@
 
 ![](include/SpatRevolution_UserGuide_-197.png)
 
-If you are developing your own control systems to integrate with Spat, you might find it useful to know that it is possible to export a detailed description of all OSC patterns, syntax and usage to a text file for reference. You will find that option in the Spat preferences.
+If you are developing your own control systems to integrate with Spat, you might find it useful to know that it is possible to export a detailed description of all OSC patterns, syntax and usage to a text file for reference. 
+You will find that option in the Spat preferences.
+You will also find a complete [OSC table](Appendix_C_OSC_Table.md) in appendix.
 
-> Enable commands log to confirm you are receiving data (Shift + F7 will open the log window)
+> Enable commands log will display the received and emitted OSC messages in the log windows to confirm you are receiving data. <code>Shift + F7 </code> will open the log window.
 
 In general, Spat OSC patterns have the form of
 
