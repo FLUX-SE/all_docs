@@ -15,7 +15,7 @@ You can simply choose the needed decoder in the input transcoder.
 
 ![](include/SpatRevolution_HOApreset.png)
 
-B-Format can come in many flavours. Ambix is becoming the most used and spread out B-format in the production world. Inside transcoder blocs, there is some ambisonic preset that allow to quickly transcode the output of an ambisonic room, for example, into an Ambix B-format stream.
+Ambix is becoming the most used and spread out B-format in the production world. Inside transcoder blocs, there is some ambisonic presets that allow to quickly transcode the output of an ambisonic room, for example, into an B-format stream.
 
 
 ## Transcoding method
