@@ -79,7 +79,7 @@ The third button group contains four actions. The first one automatically group 
 
 ![toolbar2.jpg](include/toolbar2.jpg)
 
-On the left side of the arrangement view, above the TCP, there are two buttons. The red "M" one is a master mute, the other one is a master solo. If at any point one of the track is muted or soloed, the respective toggle will display on. By setting it off, it clears, respectively, all the mute or all the solo.
+On the left side of the arrangement view, above the track panel control (TCP), there are two buttons. The red "M" one is a master mute, the other one is a master solo. If at any point one of the track is muted or soloed, the respective toggle will display on. By setting it off, it clears, respectively, all the mute or all the solo.
 
 > To display the mixer, use <code>CTRL/CMD + =</code>
 > 
