@@ -18,7 +18,7 @@ Sampling rate up to 384 kHz, Block size buffer starting at 16 blocks
 ## OS Compatibility
 
 Windows 10, all in 64 bits only.
-macOS x (Intel) – All versions from 10.12 including macOS Big Sur compliant
+macOS x (Intel) – All versions from 10.12 including macOS Big Sur compliance.
 
 ## Software Licence Requirements
 
