@@ -4,7 +4,7 @@
 
 The expression “binaural technology” covers various methods of sound recording, synthesis and reproduction which can render 3D spatial audio content over headphones. For instance, binaural field recordings can be made by placing miniature microphones in the ear canals of a listener or of a dummy head (like ' **Kemar** ' or ' **KU100** ') and when played back over headphones such recordings can produce an authentic immersive auditory experience with enhanced spatial aspects. Recent advances in signal processing technology have made it possible to synthesise binaural signals without the need of microphones. 
 
-Using binaural synthesis, a sound can be arbitrarily positioned around a listener synthesising the sensory experience  of extended spatialisation. Like some other two channel formats such as Mid-Side Stereo, binaurally encoded audio recordings are not compatible with stereo speakers. If a binaural encoded audio file is played on a normal stereo setup, audio will be heard, but it won't sound good.
+Using binaural synthesis, a sound can be arbitrarily positioned around a listener synthesising the sensory experience  of extended spatialisation. Like some other two-channels formats such as Mid-Side Stereo, binaurally encoded audio recordings are not compatible with stereo speakers. If a binaural encoded audio file is played on a normal stereo setup, audio will be heard, but it won't sound good.
 
 !> It is important to point out to a client who might be new to binaural monitoring, _that binaural files should only be listened to on a good pair of headphones._
 
@@ -16,7 +16,7 @@ When synthesising binaural monitoring, a perfect result could be attained by ren
 
 ## HRTF Profiles
 
-The included HRTF profiles in Spat Revolution are taken from a number of large scale laboratory research projects where measurements were taken on many individuals\*. The chances are that one person's ears may sound more natural to you than others. For a quick way to monitor binaural, you should try to find a profile that you feel most comfortable with when monitoring your virtual scene on headphones. If you are providing a 3D in-ear monitor mix for a performer or a visitor to an installation, try to find an HRTF that suits them best. This can be fun. If you are not comfortable listening through someone else ears - which is understandable - you could look into creating a personalised HRTF from your own head and upper torso measurements. There already exists a number of services that can create HRTF profiles taken from laboratory measurements. If you decide to do this, for yourself or someone else, then you can add the personalised profile to the list in the HRTF Manager. In fact, you can import any HRTF in SOFA format to the Spat Revolution binaural encoding list, making Spat Revolution a very flexible solution for binaural monitoring and rendering.
+The included HRTF profiles in Spat Revolution are taken from a number of large scale laboratory research projects where measurements were taken on many individuals\*. The chances are that one person's ears may sound more natural to you than others. For a quick way to monitor binaural, you should try to find a profile that you feel most comfortable with when monitoring your virtual scene on headphones. If you are providing a 3D in-ear monitor mix for a performer or a visitor to an installation, try to find an HRTF that suits them best. This can be fun. If you are not comfortable listening through someone else ears - which is understandable - you could look into creating a personalised HRTF from your own head and upper torso measurements. There already exist a number of services that can create HRTF profiles taken from laboratory measurements. If you decide to do this, for yourself or someone else, then you can add the personalised profile to the list in the HRTF Manager. In fact, you can import any HRTF in SOFA format to the Spat Revolution binaural encoding list, making Spat Revolution a very flexible solution for binaural monitoring and rendering.
 
 !> _An imported HRTF profile should be in SOFA format and should match the sample rate for your project. It is preferable to use a "SimpleFreeFieldSOS" IIR type of HRTF._
 
@@ -33,7 +33,7 @@ This mode uses the selected HRTF in order to recreate the sound field.
 HRTF are generally mesured at 1 or 2 meters of the listener.
 In the reality, the HRTF are changing with the distance between the source and the listener, especially when sources are closed.
 
-The Near Field Binaural tends to recreate close HRTF, with an additionnal filter set applied.
+The Near Field Binaural tends to recreate close HRTF, with an additional filter set applied.
 
 ### Spherical head model
 

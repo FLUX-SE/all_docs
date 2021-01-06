@@ -2,6 +2,7 @@
 
 ## Default transcoding
 When patching an HOA or B-Format input to a source, or a HOA room to a channel-based output, a transcoder will be automatically inserted. This transcoder will, by default, be set to the Ring or Sloane speaker arrangement corresponding to the HOA order, and, will select an energy-preserving decoder.
+
 ## Transcoding presets
 ### Dealing with A-format
 
@@ -25,7 +26,7 @@ Ambix is becoming the most used and spread out B-format in the production world.
 Projection decoding is also sometimes called 'sampling ambisonic decoding' (SAD).
 It is the simplest form of ambisonic decoding.
 It samples the virtual panning function at the loudspeaker directions.
-SAD is optimal for loudspeakers arranged as t-design layouts, with $t \geqslant (2N+1)$ ($N$ being the Ambisonic order).
+SAD is optimal for loudspeakers arranged as t-design layouts, with $t \geqslant (2N+1)$ ($N$ being the Ambisonics order).
 Typically, the SAD should only be used for 2D loudspeaker layouts, i.e. arranged regularly in a circle. Avoids this decoder for 3D setups.
 
 *What is a t-design layout?*

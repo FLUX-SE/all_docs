@@ -24,7 +24,7 @@ Reverb preset can be stored and exported as *.reverbPresets.* They can later be 
 
 <code>Users/.../Document/Ircam</code>
 
-The FLUX SE Folder contains a subfolder named *Config*  which has 3 file:  
+The FLUX SE Folder contains a subfolder named *Config*  which has 3 files:  
 
 * .ioconfig contains your added speaker arrangements to Spat Revolution
 * .presets contains your reverb presets 
@@ -32,19 +32,19 @@ The FLUX SE Folder contains a subfolder named *Config*  which has 3 file:
 
 A subfolder named *Preferences* containing:
 
-*  hrtf.json file which includes your hrtf files location
+*  hrtf.json file which includes your HRTF files location
 *  users.json contains your saved software preferences
 *  Preferences.xml saves some paths
 *  UI.xml saves your user interface preferences
 *  Property Memory subfolder contains the memory slots saved by parameters
 
-A subfolder named *Shell* containining:
+A subfolder named *Shell* containing:
 
 *  history.txt an history of the terminal commands
 
 The FLUX SE - IRCAM Folder contains preferences and presets of the three Spat Revolution plug-ins. 
 
-The Ircam Folder contains a subfolfer called *sofa* which contains the sofa.catalog.xml file. The HRTF catalog.
+The Ircam Folder contains a subfolder called *sofa* which contains the sofa.catalog.xml file. The HRTF catalog.
 
 > *When backing up a system, make sure to copy all these folders to secure the  complete software configuration.*
 
@@ -54,4 +54,4 @@ The Ircam Folder contains a subfolfer called *sofa* which contains the sofa.cata
 
 <code>Users/.../Document/FLUX SE/Spat Revolution</code>
 
-> *An example of a script file is the [customSpeakerArrangement](https://public.3.basecamp.com/p/rQStK3igPkaXisYS4Gs5sJ2g) that can be used as a method to add arrangements to Spat Revolution.*
+> *An example of a script file is the [customSpeakerArrangement](https://public.3.basecamp.com/p/rQStK3igPkaXisYS4Gs5sJ2g/upload/download/customSpeakerArrangement.py?disposition=attachment) that can be used as a method to add arrangements to Spat Revolution.*

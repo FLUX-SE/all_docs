@@ -4,7 +4,7 @@ _Spat Revolution_ is aimed at all practitioners working in the medium of spatial
 
 Spat Revolution spatialises and renders audio in real-time. It is used in:
 
-- post production for film
+- post-production for film
 - studio composition
 - concert diffusion
 - virtual reality

@@ -43,9 +43,9 @@ In our effort to make Spat Revolution easier to use, we created a small utility 
 
 To open it, you can either :
 
-- Click on the "Setup Wizard" button in the top menu of the Setup page
+- Click on the <code>Setup Wizard</code> button in the top menu of the Setup page
 - Go to the main menu, into Setup, then "Setup Wizard"
-- Or, use ALT+W (The shortcut may not work in Windows)
+- Or, use <code>ALT + W</code> (The shortcut may not work in Windows)
 
 ![openWizard](include/openWizard.gif)
 
@@ -55,4 +55,6 @@ The main part of the Wizard allows creating up to 8 different types of sources. 
 
 ![setupWizard](include/setupWizard.gif)
 
-When we have done creating out different sources, we have to way to validate the operation. We can  either click on <code>Ok</code>, all the sources, rooms and outputs will be created, with a straight routing, or, we can choose to click on <code>Ok +  matrix</code>. This last option will open the input and output matrix of our whole Spat Revolution session to allow us to quickly customize or validate our patch. Also, if you need to easily create a line in Spat matrix, simply hold CMD or Ctrl and click on the starting point of your line.![setupWizard2](G:\# Flux\# Documentation\Spat Revolution SR2020\External files\SetupWizard\setupWizard2.gif)
+When we have done creating out different sources, we have to way to validate the operation. We can  either click on <code>Ok</code>, all the sources, rooms and outputs will be created, with a straight routing, or, we can choose to click on <code>Ok +  matrix</code>. This last option will open the input and output matrix of our whole Spat Revolution session to allow us to quickly customize or validate our patch. Also, if you need to easily create a line in Spat matrix, simply hold CMD or Ctrl and click on the starting point of your line. 
+
+![setupWizard2](include/setupWizard2.gif)
