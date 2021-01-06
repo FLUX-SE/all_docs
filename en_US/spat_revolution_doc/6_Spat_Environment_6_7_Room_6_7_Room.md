@@ -25,7 +25,7 @@ Along with the audio modelling engine, one of Spat's key features is its ability
 
 ## Room 3D View
 
-The camera angle of the 3D scene can be moved continuously using a **controldrag** mouse or trackpad gesture applied directly onto the Room view. This will reposition the camera. A _forwards and backwards scroll_ on the mouse or trackpad will zoom the camera in and out of the scene. We can also move the 3D view with <code>Shift</code> and a **controldrag** mouse. Furthermore, a change (or resetting) of view orientation can be selected from the _View_ pull down menu, to show 'topdown' view of the scene. 
+The camera angle of the 3D scene can be moved continuously using a **controldrag** mouse or trackpad gesture applied directly onto the Room view. This will reposition the camera. A _forwards and backwards scroll_ on the mouse or trackpad will zoom the camera in and out of the scene. We can also move the 3D view with <code>Shift</code> and a **controldrag** mouse. Furthermore, a change (or resetting) of view orientation can be selected from the _View_ pull down menu, to show 'Top/Down' view of the scene. 
 
 ![](include/SpatRevolution_UserGuide_-098.jpg)
 
@@ -61,7 +61,7 @@ In the output section, we can also mute specific speaker. This can be really hel
 
 ## Channel Based Setup Examples
 
-If the output configuration is set to **Channel Based** , the user must decide on the appropriate _[Panning Algorithm](5_Spatialisation_Technology_5_5_Panning_Algorithms.md)_ to work with. The loudspeaker array selected in the _Speaker Arrangement_ pulldown menu will be 'virtualised' in the Room and all the speakers will appear graphically.
+If the output configuration is set to **Channel Based**, the user must decide on the appropriate _[Panning Algorithm](5_Spatialisation_Technology_5_5_Panning_Algorithms.md)_ to work with. The loudspeaker array selected in the _Speaker Arrangement_ pull down menu will be 'virtualised' in the Room and all the speakers will appear graphically.
 
 > Speaker Arrangement also defines the number of output channels.
 
@@ -93,7 +93,7 @@ When a Virtual Room is Channel Based, the speaker configuration layout is modell
 
 > Each room can have a DIFFERENT Virtual Acoustic design and different sources.
 
-The idea is that by simulating speaker positions and acoustic interactions, the process of mixing for a particular speaker layout becomes more predictable. For example, by monitoring binaurally a scene from a channel based room, it is possible to get an impression as to how the mix might sound diffused by a particular speaker arrangement (including the space between speakers and gain characteristics belonging to selected panning types). As we have mentioned earlier in the section about [Ambisonics](Scene_based_streams.md), there are also options for mixing and monitoring a particular Channel Based Room simulation transcoded to a different setup than that being simulated, which may also be useful in certain contexts.
+The idea is that by simulating speaker positions and acoustic interactions, the process of mixing for a particular speaker layout becomes more predictable. For example, by monitoring binaurally a scene from a channel based room, it is possible to get an impression as to how the mix might sound diffused by a particular speaker arrangement, including the space between speakers and gain characteristics belonging to selected panning types. As we have mentioned earlier in the section about [Ambisonics](Scene_based_streams.md), there are also options for mixing and monitoring a particular Channel Based Room simulation transcoded to a different setup than that being simulated, which may also be useful in certain contexts.
 
 This is really all about mixing. Mixing in stereo is already a significant challenge, some have devoted their entire careers to it. Mixing for multiple speakers is even more complex.
 

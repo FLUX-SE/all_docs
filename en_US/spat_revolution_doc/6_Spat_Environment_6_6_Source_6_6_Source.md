@@ -8,13 +8,13 @@ The Source modules are where you set a descriptive Name of each virtual object. 
 
 External software needs to know how to identify virtual objects, and that will done using an Index number rather than a name. This Index number refers to one of these Source modules, numbered from left to right which in turn, becomes a Virtual sound emitting object in the _Virtual Room_. When working in a Channel Based Room outputting to an _n.1 surround_ speaker arrangement, each source will additionally acquire an individual _LFE Send_. This dial will be available in the Source Parameters inside the Virtual Room editor, and also mirrored here as a fader directly in the Source modules. _LFE Send_ controls how much of this source's signal is mixed into the LFE channel at the output.
 
-> When using a BlackTrax positional tracking system a Tracking index can be assigned to a virtual source directly from the Source module
+> When using a BlackTrax positional tracking system a Tracking index can be assigned to a virtual source directly from the Source module.
 
 ## Tracking
 
 Spat Revolution is able to receive data from RTTrPM open protocol tracking systems. Currently, BlackTrax™ is supported natively. BlackTrax™ is a vision-based system that connects to different third party applications, such as robotic lights, media servers and Spat Revolution.
 
-When you have correctly setup the BlackTrax protocol (see Appendix A) then you can directly assign Tracking Index to virtual sources, and also to listener position (see section 5.4) for advanced virtual reality interactive audio projects.
+When you have correctly setup the BlackTrax protocol (see Appendix A) then you can directly assign Tracking Index to virtual sources, and also to listener position (see [Listener position section](5_Spatialisation_Technology_5_4_Listener_Position.md)) for advanced virtual reality interactive audio projects.
 
 ## Sources Transformations
 
@@ -26,7 +26,7 @@ To open the transform menu, right click on a source in the source panel and choo
 
 <code>CMD/CTRL + SHIFT + T</code>
 
-Check the section about [Speaker Arrangement](Spatialisation_technology_Speaker_Arrangement.md) if you want more detail about the different transforms.
+Please check the section about [Speaker Arrangement](Spatialisation_technology_Speaker_Arrangement.md) if you want more details about the different transforms.
 Sources transformations also include an integration time which allow to create smooth transition between the current and the new sources position.
 
 ![](include/SpatRevolution_SourceTransform.png)
@@ -45,7 +45,7 @@ A double-click on any Source Parameter dial will reset it to a Spat default sett
 
 ![](include/SpatRevolution_UserGuide_-162.jpg)
 
-> ★ _Use the defaults as points of reference in your spatial sound design_
+> ★ _Use the defaults as points of reference in your spatial sound design._
 
 ### Preset Memories
 
@@ -65,11 +65,11 @@ When you have selected an ad-hoc group using the shift-click technique, you can 
 
 ![](include/SpatRevolution_UserGuide_-166.jpg)
 
-Any Source Parameter variables you adjust manually will assign that same setting on all selected sources in the group. A barycentric will then become practical to work from a center of mass perspective. For example, transformations like scaling, distance, rotation and directivity of the group is managed by Spat controlling each member of the group a barycentric relationship. Consider referring back to section 6.8 about groups in Rooms to read more about how they are represented.
+Any Source Parameter variables you adjust manually will assign that same setting on all selected sources in the group. A barycentric will then become practical to work from a center of mass perspective. For example, transformations like scaling, distance, rotation and directivity of the group is managed by Spat controlling each member of the group a barycentric relationship. Consider referring to section [Barycentric groups](6_Spat_Environment_6_8_Barycentric_Groups_in_Rooms.md) about groups in Rooms to read more about how they are represented.
 
 ### Smart Property Filter
 
-This feature allows you to display one or several parameters for all the sources that are in the same Room. It is a useful feature for fast editing. Type "azimuth elevation distance " in the filter box for example, and you will see faders appear for only these properties, grouped for each of the sources as demonstrated in the following screenshot.
+This feature allows you to display one or several parameters for all the sources that are in the same Room. It is a useful feature for fast editing. Type "azimuth elevation distance" in the filter box for example, and you will see faders appear for only these properties, grouped for each of the sources as demonstrated in the following screenshot.
 
 ![](include/SpatRevolution_UserGuide_-168.jpg)
 
@@ -104,7 +104,7 @@ Prominence of the reverberation with respect to the source, or in other words, h
 
 **Running Reverberance**
 
-This parameter controls the amount of perceived reverb when feeding a continuous music message, where the overall sound is a tight blend of the dry and wet signals and the reverb part cannot be mentally separated. It is linked to the early reflections decay time of the Spat Revolution Reverb engine. Note: this setting is not the same as the ‘reverberence’ in the _Reverb Properties_.
+This parameter controls the amount of perceived reverb when feeding a continuous music message, where the overall sound is a tight blend of the dry and wet signals and the reverb part cannot be mentally separated. It is linked to the early reflections decay time of the Spat Revolution Reverb engine. Note: this setting is not the same as the ‘reverberance’ in the _Reverb Properties_.
 
 **Envelopment**
 
@@ -128,7 +128,7 @@ _Cluster_ refers to a secondary iteration of room response reflections and is qu
 
 _Tail_ refers to the diffuse reverberations that eventually decay in a direct relationship with the size and reflectivity of an acoustic space. The tail section of a reverb dœs not contribute much to the localisability of a sound source in a space, but instead gives a sense of depth and ambiance.
 
-### Axis Omni Filters
+### Axis / Omni Filters
 
 ![](include/SpatRevolution_UserGuide_-174.jpg)
 
@@ -184,7 +184,7 @@ by turning its direct sound away from the listener**
 
 **Aperture**
 
-The aperture parameter relates to the “sound cone” projected by the virtual source in the acoustic space, and is measured in degrees. It determines wether the source will be very directive (small aperture), or omnidirectional (large aperture) inside the reverberant environment.
+The aperture parameter relates to the “sound cone” projected by the virtual source in the acoustic space, and is measured in degrees. It determines whether the source will be very directive (small aperture), or omnidirectional (large aperture) inside the reverberant environment.
 
 > **Aperture can make a source 'activate' more of the acoustic
 space**
@@ -215,7 +215,7 @@ Scale the group cluster, maintaining their barycentre and relative relationships
 
 **Relative Direction**
 
-The barycentric transformations will continue to orient their on-axis energy towards the listener position, if the relative direction algorithm is enabled (see section 9.6)
+The barycentric transformations will continue to orient their on-axis energy towards the listener position, if the relative direction algorithm is enabled.
 
 ### Options
 
@@ -254,8 +254,8 @@ Controls the width of the sound projection lobe of the early reflections from a 
 
 **Spread Factor**
 
-Spreading is a percentage factor that defines how a sound source will appear to spread out across speakers or virtual speakers. It is similar to _Aperture_ in its focussing effect but will translate differently across certain channel based speaker arrangements according to how many speakers are involved.
+Spreading is a percentage factor that defines how a sound source will appear to spread out across speakers or virtual speakers. It is similar to _Aperture_ in its focusing effect but will translate differently across certain channel based speaker arrangements according to how many speakers are involved.
 
 **Nearest Neighbours**
 
-This parameter is only available to a source, if the room it is simulated in has been specified to be using the _K Nearest Neighbour_ panning type (see section 5.64). It sets a maximum limit to the number of speakers that the algorithm can use as neighbours in its search for speakers to activate in relation to a virtual source. On a 10 speaker setup, 1-10 % will be the closest speaker to source. 11%-20% will be 2 and so forth.
+This parameter is only available to a source, if the room it is simulated in has been specified to be using the [_K Nearest Neighbour_ panning type](5_Spatialisation_Technology_5_5_Panning_Algorithms?id=k-nearest-neighbour-knn). It sets a maximum limit to the number of speakers that the algorithm can use as neighbours in its search for speakers to activate in relation to a virtual source. On a 10-speakers setup, 1-10 % will be the closest speaker to source. 11%-20% will be 2, and so forth.
