@@ -12,8 +12,7 @@ Any soundcard with a driver compliant with these standards:
 * ASIO(Windows).
 * Core Audio (Mac OS X).
 
-SampleGrabber is a 32-bit plug-in compatible using 64-bit double precision internal processing,
-compatible with 32-bit and 64-bit (via bridge) hosts
+SampleGrabber is a 32-bit plug-in compatible using 64-bit double precision internal processing, compatible with 32-bit and 64-bit (via bridge) hosts
 
 All major native formats (AAX, VST, AU, RTAS, TDM, AAX VENUE) are supported.
 

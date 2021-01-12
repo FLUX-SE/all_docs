@@ -2,22 +2,16 @@
 # Dolby Dialogue Intelligence
 
 ## Introduction
-While EBU R128 aims to measure global perceived loudness,
-irrespectively of the audio material, Dolby Dialogue Intelligence is a patented technology designed
-to specifically measure the perceived loudness of dialogue elements in the audio. It is therefore
-targeted towards broadcast applications.
+While EBU R128 aims to measure global perceived loudness, irrespectively of the audio material, Dolby Dialogue Intelligence is a patented technology designed to specifically measure the perceived loudness of dialogue elements in the audio. 
+It is therefore targeted towards broadcast applications.
 
 
 ## General principle
-Dialogue Intelligence replaces EBU R128's level-based gate
-with a speech-content ratio based gate. The algorithm computes several low-level features for the
-incoming signal in speech channels. These are then combined into an overall speech percentage
-figure. When speech content is detected, Integrated <link type="document" target="Loudness">
-Loudness </link> is computed from the speech channels which have a speech content ratio above a certain
-threshold (see <link type="document" target="DolbyDI">Dolby Dialog Intelligence</link>).
+Dialogue Intelligence replaces EBU R128's level-based gate with a speech-content ratio based gate. 
+The algorithm computes several low-level features for the incoming signal in speech channels. 
+These are then combined into an overall speech percentage figure. When speech content is detected, Integrated Loudness is computed from the speech channels which have a speech content ratio above a certain threshold.
 
-When other material is detected, <i>i.e.</i> not speech, standard EBU R128 Integrated <link
-type="document" target="Loudness">Loudness </link> computation is employed.
+When other material is detected, <i>i.e.</i> not speech, standard EBU R128 Integrated Loudness computation is employed.
 
 
 ## Display
@@ -38,36 +32,27 @@ Additionally, color coding indicates the speech content ratio.
 
 
 ## Delay and compensation
-The sophistication of the algorithms employed in Dialogue
-Intelligence incur an overall latency of 2048ms (approx. 2s).
+The sophistication of the algorithms employed in Dialogue Intelligence incurs an overall latency of 2048ms (approx. 2s).
 
-When Dialogue Intelligence is enabled, the display of other <link type="document" target="Loudness">
-Loudness </link> values is compensated to make sure meter readings are consistent. <link type="document"
-target="Other"> Other</link> real-time meter (<link type="document" target="RMS">RMS</link>, TruePeak) displays are not
-compensated, as we feel in this case maintaining the best reactivity to the incoming signal is more
-important.
+When Dialogue Intelligence is enabled, the display of other Loudness values is compensated to make sure meter readings are consistent. 
+Other real-time meter (RMS, TruePeak) displays are not compensated, as we feel in this case maintaining the best reactivity to the incoming signal is more important.
 
 All meter statistics are time-aligned.
 
 ## Surround
 
-<link type="document" target="Channels">Channels</link>
-taken into account by the algorithm are determined based on the current channel configuration.
+Channels taken into account by the algorithm are determined based on the current channel configuration.
 
-For mono/stereo signals, all channels are taken into account. For surround configurations, only
-Left/Right and Center channels are taken into account, if present.
+For mono/stereo signals, all channels are taken into account. For surround configurations, only Left/Right and Center channels are taken into account, if present.
 
->Dialogue Intelligence computation only affects I (Integrated) <link
-type="document" target="Loudness">Loudness </link> values.
-Toggling Dialogue Intelligence on and off forces a reset of the meter values.
+> Dialogue Intelligence computation only affects I (Integrated) Loudness  values. 
+> Toggling Dialogue Intelligence on and off forces a reset of the meter values.
 
 # Copyright & patent information
-**Created under license from Dolby Laboratories Licensing Corporation. Use of this Software
-does not convey a license nor imply a right under any patent, or any other industrial or
-intellectual property right of Dolby Laboratories.**
+**Created under license from Dolby Laboratories Licensing Corporation. Use of this Software does not convey a license nor imply a right under any patent, or any other industrial or intellectual property right of Dolby Laboratories.**
 
-Dolby and the double-D symbol are registered trademarks of Dolby Laboratories. Dialogue
-Intelligence is a trademark of Dolby Laboratories.
+Dolby and the double-D symbol are registered trademarks of Dolby Laboratories. 
+Dialogue Intelligence is a trademark of Dolby Laboratories.
 
 PATENT LIST - DIALOGUE INTELLIGENCE
 

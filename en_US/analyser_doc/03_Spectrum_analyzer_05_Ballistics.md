@@ -7,11 +7,9 @@ The release time determines how fast the main curve falls back to zero. Default 
 
 ## Max release time
 
-The controls the release time of the optional *Max* curve, which serves to display the
-medium-to-long term tendency of the magnitude spectrum. Longer times mean curve maxima/peaks will be
-seen for a longer period of time.
+The controls the release time of the optional *Max* curve, which serves to display the medium-to-long term tendency of the magnitude spectrum. Longer times mean curve maxima/peaks will be seen for a longer period.
 
 Default is 50 seconds.
 
->The attack time is zero so the curve displays reacts instantaneously to a rising amplitude.
+> The attack time is zero so the curve displays reacts instantaneously to a rising amplitude.
 
