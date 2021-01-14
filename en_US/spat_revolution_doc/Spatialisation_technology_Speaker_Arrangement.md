@@ -161,9 +161,11 @@ In ArrayCal, export all the sources with "Files/Export/EASE/Coordinates of all s
 
 **[Speaker import from Excel template](https://public.3.basecamp.com/p/w1VQL9UbbndSXP5P3qpU6DnU)**
 
-## FLUX IOCONFIG files
+## Speaker arrangements examples
   
 Here is some example of speaker configuration you can find in some venue, like RadioFrance Studio 115, Montreal Satosphere, or Berlin Planetarium. To discover it into Spat Revolution, copy the python file on your desktop: **[Speaker arrangements for various domes and planetariums](https://public.3.basecamp.com/p/pPtg3qFrUsxyPPmQ3b3JLPqW)**.
+
+## Speaker Arrangement Python File
 
 If you want to build your own custom speaker arrangement script, explanation are provided into the following python file:
 **[Custom Speaker Arrangement Script](https://public.3.basecamp.com/p/rQStK3igPkaXisYS4Gs5sJ2g)**.
