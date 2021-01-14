@@ -14,7 +14,7 @@ External software needs to know how to identify virtual objects, and that will d
 
 Spat Revolution is able to receive data from RTTrPM open protocol tracking systems. Currently, BlackTrax™ is supported natively. BlackTrax™ is a vision-based system that connects to different third party applications, such as robotic lights, media servers and Spat Revolution.
 
-When you have correctly setup the BlackTrax protocol (see Appendix A) then you can directly assign Tracking Index to virtual sources, and also to listener position (see [Listener position section](5_Spatialisation_Technology_5_4_Listener_Position.md)) for advanced virtual reality interactive audio projects.
+When you have correctly setup the BlackTrax protocol (see [BlackTrax Integration section](ThirdParty_BlackTrax.md)) then you can directly assign Tracking Index to virtual sources, and also to listener position (see [Listener position section](5_Spatialisation_Technology_5_4_Listener_Position.md)) for advanced virtual reality interactive audio projects.
 
 ## Sources Transformations
 

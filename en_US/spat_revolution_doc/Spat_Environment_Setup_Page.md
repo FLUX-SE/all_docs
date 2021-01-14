@@ -4,15 +4,15 @@
 
 The _Environment Setup_ editor is a relatively simple modular environment. The signal flow starts from the inputs at the top of the graph and concludes with the outputs at the bottom. You add modules to rows using the small (+) icon to the left of the window. Modules are:
 
-* Inputs
-* Input Transcoding
-* Sources
-* Room
-* Sum
-* Master Transcode
-* Master
-* Binaural Monitor
-* Output 
+* [Inputs](6_Spat_Environment_6_4_Inputs_6_4_Inputs.md)
+* [Input Transcoders](6_Spat_Environment_6_5_Input_Transcoder_6_5_Input_Transcoder.md)
+* [Sources](6_Spat_Environment_6_6_Source_6_6_Source.md)
+* [Rooms](6_Spat_Environment_6_7_Room_6_7_Room.md)
+* [Sums]((6_Spat_Environment_6_9_Master_Section.md))
+* [Master Transcoders]((6_Spat_Environment_6_9_Master_Section.md))
+* [Masters](6_Spat_Environment_6_9_Master_Section.md)
+* [Binaural Monitors](6_Spat_Environment_6_9_Master_Section.md?)
+* [Outputs](6_Spat_Environment_6_10_Output.md)
 
 ## Drag & Drop
 
@@ -29,7 +29,8 @@ This feature also works on a selection of multiple blocks of the same type. For 
 ![drag&drop3](include/drag&drop3.gif)
 
 The drag and drop feature also allows reorganizing the blocks of the same type. This means that you can now change the order of already created blocks. This gives to the setup page a more ergonomic and flexible feel. 
->! Important to note that this will be changing the index number of the source. So be careful with automation already created. This is specific to OSC like using the plugins with OSC where the index is important. Not the case with software sources/inputs which use a different ID system.
+
+!> Important to note that this will be changing the index number of the source. So be careful with automation already created. This is specific to OSC like using the plugins with OSC where the index is important. Not the case with software sources/inputs which use a different ID system.
 
 ![drag&drop5](include/drag&drop5.gif)
 
@@ -55,6 +56,6 @@ The main part of the Wizard allows creating up to 8 different types of sources. 
 
 ![setupWizard](include/setupWizard.gif)
 
-When we have done creating out different sources, we have to way to validate the operation. We can  either click on <code>Ok</code>, all the sources, rooms and outputs will be created, with a straight routing, or, we can choose to click on <code>Ok +  matrix</code>. This last option will open the input and output matrix of our whole Spat Revolution session to allow us to quickly customize or validate our patch. Also, if you need to easily create a line in Spat matrix, simply hold CMD or Ctrl and click on the starting point of your line. 
+When we have done creating out different sources, we have to way to validate the operation. We can  either click on <code>Ok</code>, all the sources, rooms and outputs will be created, with a straight routing, or, we can choose to click on <code>Ok +  matrix</code>. This last option will open the input and output matrix of our whole Spat Revolution session to allow us to quickly customize or validate our patch. Also, if you need to easily create a line in Spat matrix, simply hold <code>CMD</code> or <code>Ctrl</code> and click on the starting point of your line. 
 
 ![setupWizard2](include/setupWizard2.gif)

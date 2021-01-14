@@ -23,5 +23,5 @@ The main reason you will need to transcode inputs is when you are mixing and spa
 
 Here is an example of decoding an Ambisonics signal using an Input Transcoder module. This could also be done in the Master Transcoder section of the graph.
 
-As mentioned in 'Introduction to Ambisonics' (section 4.7) a decoding stage is absolutely necessary to
+As mentioned in [Introduction to Ambisonics](Scene_based_streams.md?id=introduction-to-ambisonics) a decoding stage is absolutely necessary to
 render Ambisonics encoded audio to speakers. It can be done like this without the need of a room.

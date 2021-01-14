@@ -77,7 +77,7 @@ Selects one or two physical channels to which the [Signal generator](12_Signal_g
 >In case of stereo output, the signal is identical on both channels. This is provided as a facility for soundcards with minimal routing capabilities, and to avoid using a Y patch cable.
 
 # Channel 1 / Channel 2
-The following group of settings are displayed for every channel selected in [Channels](02_User_Interface_06_IO_Configuration?id=channelss). The heading displays the channel number, followed by its name, and whether it corresponds to the reference or microphone input signal for the first two channels in [Live IO](11_Live_IO_00_Live_IO.md) mode.
+The following group of settings are displayed for every channel selected in [Channels](02_User_Interface_06_IO_Configuration?id=channels). The heading displays the channel number, followed by its name, and whether it corresponds to the reference or microphone input signal for the first two channels in [Live IO](11_Live_IO_00_Live_IO.md) mode.
 
 ## Phase invert
 When engaged, the phase of the corresponding channel is inverted in order to compensate for a reverse polarity somewhere else in the signal chain. Default is off.
