@@ -95,7 +95,7 @@ KNN is another panning type that does not depend on a sweet spot to be perceived
 
 **How does it work?**
 
-An interesting difference between DBAP and KNN is that the user gets manual control over one of the main cœfficients in the underlying algorithm. The parameter is called _Nearest Neighbour Spreading_. It sets a maximum limit to the number of speakers that the algorithm can use as neighbours - the parameter becomes available as a continuously variable percentage _for each virtual source_ in a Spat room.
+An interesting parameter of KNN is that the user gets manual control over one of the main coefficients in the underlying algorithm. The parameter is called _Nearest Neighbour Spreading_. It sets a maximum limit to the number of speakers that the algorithm can use as neighbours - the parameter becomes available as a continuously variable percentage _for each virtual source_ in a Spat room.
 
 ![](../include/SpatRevolution_UserGuide_-064.jpg)
 
