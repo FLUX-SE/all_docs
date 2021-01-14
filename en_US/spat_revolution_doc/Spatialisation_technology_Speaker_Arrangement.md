@@ -135,6 +135,8 @@ The routing matrix is available on hardware input and output for routing  as wel
 
 The speaker configuration editor, a clear channel labelling and the built-in routing matrix system all help to make the process of signal routing, checking and debugging more straight-forward on location, in the virtual mix and in the studio.
 
+> The shortcut <code>Ctrl + click</code> will route one per one all the following channels.
+
 ## Import Speaker Array
 
 For systems that are regularly changing such as in live production, setting up the speaker configuration in the simulation software and then  repeating it in the immersive software is not the most fun part!
