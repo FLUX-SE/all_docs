@@ -38,7 +38,7 @@ We can also reorganize  sources inside Rooms. Again, a simple drag and drop allo
 
 ![drag&drop4](include/drag&drop4.gif)
 
-## The wizard setup
+## The setup wizard
 
 In our effort to make Spat Revolution easier to use, we created a small utility to help you set up new Spat sessions. This is used mainly when dealing with hardware I/O.
 
