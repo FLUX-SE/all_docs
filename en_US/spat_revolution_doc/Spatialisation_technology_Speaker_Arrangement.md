@@ -107,12 +107,16 @@ It is a speaker alignment method on a speaker's physical configuration that may 
 
 In the Speaker Config window, we can found information about which pan law to use in regard of our speaker array. As there is many options available in Spat, this simplifies the choice to make.
 
+![](include/Panning_Tips.png)
+
 There are five colors associated with the possible panning types:
 - Green : this panning type is valid and functional with the selected speaker array
 - Orange : this panning type is somewhat functional, but there certainly is a better solution available. Hovering the panning type with the mouse will display a message to help improve the arrangement.
 - Bright red : this panning type is not functional with the selected speaker array. Hovering the panning type with the mouse will display a message to explain why it does not work.
 - Dark red : this panning type is not functional.
 - Grey : Two speakers are located at the same spot : the speaker arrangement is incorrect.
+
+![](include/Panning_Tips_Error.png)
 
 For more information about each pan law, check out the section [Panning algorithms](5_Spatialisation_Technology_5_5_Panning_Algorithms.md).
 
