@@ -59,3 +59,21 @@ The main part of the Wizard allows creating up to 8 different types of sources. 
 When we have done creating out different sources, we have to way to validate the operation. We can  either click on <code>Ok</code>, all the sources, rooms and outputs will be created, with a straight routing, or, we can choose to click on <code>Ok +  matrix</code>. This last option will open the input and output matrix of our whole Spat Revolution session to allow us to quickly customize or validate our patch. Also, if you need to easily create a line in Spat matrix, simply hold <code>CMD</code> or <code>Ctrl</code> and click on the starting point of your line. 
 
 ![setupWizard2](include/setupWizard2.gif)
+
+
+## Routing Matrix
+
+As you can imagine routing and patching high density channel counts can get complicated. 
+When it comes to that, the SPAT routing matrix is there to help. 
+You will find it at many points throughout the **Environment Setup** graph.
+
+![width=800, atl=Spat Revolution Matrix](include/SpatRevolution_UserGuide_-031.png)
+
+> *Avoid cable swapping on the loudspeaker setup, use software routing instead.*
+
+The routing matrix is available on hardware input and output for routing  as well as for remaping within some modules input and output. 
+(Input transcode, Master, and Master trancoder)
+
+The speaker configuration editor, a clear channel labelling and the built-in routing matrix system all help to make the process of signal routing, checking and debugging more straight-forward on location, in the virtual mix and in the studio.
+
+> The shortcut <code>Ctrl + click</code> will route one per one all the following channels.
