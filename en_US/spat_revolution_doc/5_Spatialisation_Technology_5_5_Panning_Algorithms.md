@@ -120,7 +120,7 @@ mixes from one speaker configuration to another.
 
 ## Ambisonic Equivalent Panning (AEP)
 
-In common with the channel based panning types we have covered so far, Ambisonics is a technology that also distributes virtual sound sources in space yet it achieves this in a fundamentally different way. Ambisonics relies on a two-steps process.
+In common with the channel based panning types we have covered so far, Ambisonics is a technology that also distributes virtual sound sources in space. Yet it achieves this in a fundamentally different way. Ambisonics relies on a two-steps process.
 
 1. **Encoding**
     Audio sources along with their positional information are wrapped up together using signal mathematics to create encoded Ambisonic audio. Ambisonic scenes are always carried on at least 3 channels of audio. They are not intended to be _listened to directly_ they are intended to be _decoded_.
