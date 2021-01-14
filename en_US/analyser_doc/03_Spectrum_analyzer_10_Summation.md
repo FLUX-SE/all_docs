@@ -2,7 +2,7 @@
 These settings allow you to modify the appearance of the curves in channel sum mode.
 
 # Filled
-Toggles wether the main curve is drawn as a a solid-color fill or a plain line.
+Toggles whether the main curve is drawn as a solid-color fill or a plain line.
 
 Default is on.
 
@@ -15,25 +15,21 @@ Default is 1.0.
 
 # Full curve color
 
-<link type="document" target="Color">Color</link>
-of the pen used to draw the main, full-detail, unsmoothed curve.
+Color of the pen used to draw the main, full-detail, unsmoothed curve.
 
 # Smoothed curve color
 
-<link type="document" target="Color">Color</link>
-of the pen used to draw the smoothed curve.
+Color of the pen used to draw the smoothed curve.
 
 # Max curve color
 
-<link type="document" target="Color">Color</link>
-of the pen used to draw the max curve.
+Color of the pen used to draw the max curve.
 
 # Color grading
 Applies an optional frequency-dependent coloring to the main channel-sum curve.
 
 ![](include/Spectrum4.png)
 
-<link type="document" target="Magnitude">Magnitude</link>
-spectrum with color grading enabled
+Magnitude spectrum with color grading enabled
 
->When enabled, any of the above fixed color settings are overridden.
+> When enabled, any of the above fixed color settings are overridden.

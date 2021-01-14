@@ -19,7 +19,7 @@ No hardware input/output options are supported for the Pure Analyzer Session.
 ## Analysis
 
 Mid-range desktop with an OpenGL/DirectX capable graphics card that
-meets the minimum <link type="document" target="System requirements">System requirements</link>
+meets the minimum [System requirements](18_System_Requirements_00_System_requirements.md).
 
 Capture and analysis can naturally be performed on the same machine, although you can also couple
 the system with a wireless transmitter to route a source test signal to the laptop in order to

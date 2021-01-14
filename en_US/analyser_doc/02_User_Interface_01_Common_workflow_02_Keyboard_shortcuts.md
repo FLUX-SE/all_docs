@@ -204,7 +204,7 @@ on/off
 <tr>
 <td>Add delay</td>
 <td>
-<i>Ctrl + Add / NUMPAD +</i>
+<i>Ctrl + Add (NUMPAD +)</i>
 </td>
 </tr>
 <tr>

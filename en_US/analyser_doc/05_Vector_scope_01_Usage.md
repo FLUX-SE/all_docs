@@ -1,15 +1,13 @@
 # Usage
-The vector scope tool is displayed when a stereo input is detected, otherwise the display will switch
-to <link type="document" target="Surround scope">Surround scope</link> provided your edition of Pure
-Analyzer includes this option.
+The vector scope tool is displayed when a stereo input is detected, otherwise the display will switch to [Surround scope](06_Nebula_Surround_scope_01_Usage.md) provided if your edition of Pure Analyzer includes this option.
 
 ![](include/Vector_Scope.png)
 
-Vector scope display in stereo
+> Vector scope display in stereo.
 
 ![](include/Vector-Scope-SR.png)
 
-Vector scope display in surround (with selection menu)
+> Vector scope display in surround (with selection menu).
 
 ## Modes in Surround :
 
@@ -17,34 +15,34 @@ Vector scope display in surround (with selection menu)
 
 **L-R**
 
-Use only Left and Right <link type="document" target="Channels">Channels</link>
+Use only Left and Right Channels.
 
 **Front**
 
-Use a stereo down mix with all front channels
+Use a stereo down mix with all front channels.
 
 **Rear**
 
-Use a stereo down mix with all Rear channels
+Use a stereo down mix with all Rear channels.
 
 **Stereo downmix**
 
-Use a stereo down mix with all channels
+Use a stereo down mix with all channels.
 
 **Lt/Rt downmix**
 
-Use a Lt/Rt down mix with all channels
+Use a Lt/Rt down mix with all channels.
 
 **LR-Lfe**
 
-Use a mono summation of Left and Right + the Lfe (sub) channel
+Use a mono summation of Left and Right + the Lfe (sub) channel.
 
 **Center-Lfe**
 
-Use Center + Lfe (sub) channel
+Use Center + Lfe (sub) channel.
 
 **Front-Lfe**
 
-Use a mono summation of the front channels + the Lfe (sub) channel
+Use a mono summation of the front channels + the Lfe (sub) channel.
 
 

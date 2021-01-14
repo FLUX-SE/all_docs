@@ -2,25 +2,25 @@
 The following settings control the visual aspect of the Leq display.
 
 ## Font back
-Common font background color
+Common font background color.
 
 ## Level
-<link type="document" target="Main">Main</link> level font color
+Main level font color.
 
 ## Time-weighted F
-Fast time-weighted level font color
+Fast time-weighted level font color.
 
 ## Time-weighted S
-Slow time-weighted level font color
+Slow time-weighted level font color.
 
 ## Name
-N/A
+Name font color
 
 ## Unit
-Unit display font color
+Unit display font color.
 
 ## Freq. weighting
-Frequency weighting type display font color
+Frequency weighting type display font color.
 
 ## Font blur 
 Toggles font blurring on (default) and off.
