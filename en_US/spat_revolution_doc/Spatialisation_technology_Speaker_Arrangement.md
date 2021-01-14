@@ -17,7 +17,7 @@ Speaker arrangements can be used to fit the format of a virtual room to match th
 
 The golden rule when working with multichannel based audio is to ensure to have the appropriate format, speaker arrangement, and channel routing throughout, otherwise the virtual space will not map correctly into a physical space.
 
-## Custom Arrangements
+## Speaker Configuration
 
 ![width=700, atl=Spat Revolution Speaker Config](include/SpatRevolution_SpeakerConfig_1.png)
 
