@@ -71,7 +71,7 @@ Additionally, the powerful _Nebula Spatial Spectrogram_ is highly dependent on t
 
 ## Nebula Spatial Spectrogram
 
-_Nebula_ is a technology adapted from our flagship **FLUX Pure Analyzer System** a suite of highly regarded professional mastering and mixing visualisation tools.
+_Nebula_ is a technology adapted from our flagship **FLUX:: Analyzer System** a suite of highly regarded professional mastering and mixing visualisation tools.
 
 ![](include/SpatRevolution_UserGuide_-100.jpg)
 
