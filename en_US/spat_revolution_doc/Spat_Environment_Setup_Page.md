@@ -56,6 +56,12 @@ The main part of the Wizard allows creating up to 8 different types of sources. 
 
 ![setupWizard](include/setupWizard.gif)
 
+Other shortcuts have been implemented in this wizard:
+- <code>Go up</code> and <code>Go down</code> to increase / decrease the number of source
+- <code>Go Left</code> or <code>Go Right</code> to change the Stream Type.
+- <code>Ctrl/Cmd + Go Left</code> or <code>Ctrl/Cmd + Go Right</code> to change the format (if Channel Based), or the Dimension (if HOA).
+- <code>Ctrl/Cmd + Shift + Go Left</code> or <code>Ctrl/Cmd + Shift + Go Right</code> to change the Order (if HOA).
+
 When we have done creating out different sources, we have to way to validate the operation. We can  either click on <code>Ok</code>, all the sources, rooms and outputs will be created, with a straight routing, or, we can choose to click on <code>Ok +  matrix</code>. This last option will open the input and output matrix of our whole Spat Revolution session to allow us to quickly customize or validate our patch. Also, if you need to easily create a line in Spat matrix, simply hold <code>CMD</code> or <code>Ctrl</code> and click on the starting point of your line. 
 
 ![setupWizard2](include/setupWizard2.gif)
