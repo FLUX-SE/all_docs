@@ -20,11 +20,7 @@ When you have correctly setup the BlackTrax protocol (see [BlackTrax Integration
 
 As with the custom speaker arrangement editor, we can apply some transformations to one or multiple sources. This feature is especially handy if you wish to quickly set sources on a circle, or to put a selection of sources at the distance for examples.
 
-To open the transform menu, right click on a source in the source panel and choose "Transform".
-
-**Shortcut**
-
-<code>CMD/CTRL + SHIFT + T</code>
+To open the transform menu, right click on a source in the source panel and choose "Transform". You can also use the shortcut <code>CMD/CTRL + SHIFT + T</code>.
 
 Please check the section about [Speaker Arrangement](Spatialisation_technology_Speaker_Arrangement.md) if you want more details about the different transforms.
 Sources transformations also include an integration time which allow to create smooth transition between the current and the new sources position.
@@ -57,7 +53,7 @@ Each parameter has the possibility to store useful preset settings of your own c
 
 You can shift-click on the Index number of separate Sources to create an ad-hoc edit group. When you have group Sources in this way, you can perform a number of group edit actions. When you Right Click on an ad-hoc group selection a menu will pop up where you can:
 
-- distribute the sources in the group evenly in a circle spread
+- distribute the sources in the group with the [Transform panel](6_Spat_Environment_6_6_Source_6_6_Source.md?id=sources-transformations)
 - generate different colours for the sources
 - reset the positions of the group
 
