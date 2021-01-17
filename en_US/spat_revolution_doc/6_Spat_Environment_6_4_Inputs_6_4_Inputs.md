@@ -8,7 +8,7 @@ The top row of the signal graph represents the input sources that will provide t
 
 > One Input module can represent any number of audio channels.
 
-The second important distinction between inputs, is whether or not it is a **hardware** input receiving an audio stream from an hardware device or a virtual **send** receiving its audio stream from another program currently running on the same machine as SPAT. The latter is done via a Spat Revolution _SEND_ plug-in - but before we go into Spat's powerful software signal routing integration, let's focus on the different input formats as these will remain consistent whether the input stream is coming from hardware or from a _SEND_ plug-in.
+The second important distinction between inputs, is whether it is a **hardware** input receiving an audio stream from an hardware device or a virtual **send** receiving its audio stream from another program currently running on the same machine as SPAT. The latter is done via a Spat Revolution _SEND_ plug-in - but before we go into Spat's powerful software signal routing integration, let's focus on the different input formats as these will remain consistent whether the input stream is coming from hardware or from a _SEND_ plug-in.
 
 ## Input naming
 
@@ -17,56 +17,3 @@ There are two ways to rename an input. The first solution is to simply select an
 If multiple input need to be renamed, the previous method can be tedious. The solution is to select multiple inputs blocs and to choose the option "Edit Inputs Names" in the inspector, or use the shortcut '''Alt + N'''. A new window will open with a list of all the selected inputs, ready to be renamed. To quickly navigate through the input names we can use either the '''enter''' or '''tab''' key.
 
 ![](include/SpatRevolution_InputNames.png)
-
-## Mono Input
-
-A one channel audio stream is always treated as a Mono signal. It will appear in a _Virtual Room_ as one positionable virtual source with its own directivity and parameters. In many ways, Mono signals are the most straight forward format to work with in a spatial composition. This is because a one channel signal discretely contains all its acoustic and spectral properties without inter-channel dependencies, such as those found in a wide stereo image for example. In practice, such point sources are easier to localise and balance spatially with others.
-
-> Mono sources are simple to work with when balancing a spatial mix.
-
-## Two Channel
-
-A two channel audio stream will appear in the _Virtual Room_ as two mono sources linked together as a group. A two channel audio input will already open a few more choices for disambiguating the configuration. Spat needs to know what format the two channels are in, so it knows how to correctly handle the audio stream later in the signal flow.
-
-- **Channel Based**
-    Treated as Normal stereo
-- **Mid-Side (MS)**
-    Treated as Mid Side encoded stereo
-- **Binaural / Transaural**
-    Treated as encoded 3D stereo
-
-## Four Channel Input
-
-The next significant channel count that needs disambiguation from the user, is a four channel stream.
-
-![](include/SpatRevolution_UserGuide_-082.jpg)
-
-A four channel stream could contain the format of a four speaker Channel Based formats (QUAD, 4.0, LCRS) but could also contain different formats of interleaved four-channels Ambisonic audio (A-Format, B-Format). You can read more about A-Format and B-Format in the [Ambisonics](Scene_based_streams.md) section of this user guide. The important thing to remember here is that confusing Ambisonic audio and Channel Based audio is a significant mistake, even though you might hear
-something 'wide sounding'.
-
-
-!> Do not confuse multi-channels based audio formats with multi-channel Ambisonic audio formats. They may have the same channel counts but are completely different!
-
-## Multi-Channel Based Input
-
-Any input module configured to represent a stream of multi-channels audio can be configured as a Speaker Arrangement format which would require that amount of channels, as a minimum. For example, _DTU 7.1_ needs 8 channels, and _DTU 5.1_ needs 6. _Auro3D 13.1_ needs 14 channels. Unfortunately things can get complicated in practice, as there are a few variations of standardised speaker layouts which have the same number of channels and seem very similar - but need disambiguation. This is important to get right, and will depend a lot on the context of your
-project and on changing standards in the audio industry. For example, at least four different 7.1 routing standards are to be found 'in the wild' and its important to know which one you are actually dealing with. Often, for example, the so-called 'Low Frequency Effects' channel in cinema surround formats, is not always on the same channel.
-
-> Try to stick to industry standard channel naming conventions
-throughout a cinematic surround sound project.
-
-
-
-L | C | R
----|---|---
-sL | | sR
-surround Left | | surround Right
-  | LFE |
-  | Low Frequency Effects |
-sbL | | sbR
-surround back Left | | surround back Right
-
-
-> * Some common Speaker Channel naming abbreviations.
-
-Please refer to Appendix C for special information about handling LFE and Mono Sub Woofer routing in Channel Based applications.
