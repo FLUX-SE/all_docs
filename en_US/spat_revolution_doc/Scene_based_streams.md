@@ -8,6 +8,19 @@ Ambisonics is also both a recording and a spatial synthesis technique, where one
 
 ![](include/SpatRevolution_UserGuide_-045.jpg)
 
+## Encoded audio
+
+Ambisonics as opposed to other surround and spatial techniques and methods does not carry a speaker signal. It is an **encoded** audio signal that has to be **decoded** to the speaker signals. This encoding / decoding scheme has the advantage of being very portable and flexible since one is not bound to a specific speaker setup. i.e you can have your ambisonic mix played on a number of speaker setups, for instance Quad, headphones (binaural), 5.1, 6, 8, 7 speakers etc. based on the chosen decoder.
+
+When Ambisonics is played back on speakers all the speakers contribute to the directional content, what one is hearing is not the sound coming from a specific speaker but from a specific direction.
+
+![](include/SpatRevolution_UserGuide_-047.jpg)
+
+> Overview of a 5th order HOA 3D Ambisonic File created by Tine Surell Lange.
+
+
+## Order, normalization, sorting and presets
+
 In the simplest form of Ambisonics - the 1st order, also called **B-format** - only 4 channels are needed to represent a full 3D sound. The 4 channels or spherical components W, X, Y and Z resemble the pressure patterns found in an omni microphone (W) and three figure-of-8 microphones for left/right (Y), front/back (X) and up/down (Z) as depicted in above figure. 
 
 The components' count increases with the order: WXYZUVSTRPQNOLMK... These different components are organised according to different standards, known as sorting. The three most used are available in Spat Revolution: 
@@ -27,9 +40,7 @@ To help with these different standards, we have created Ambisonics presets to si
 
 !> Do not forget to transcode the ambisonic input if the format is different than N2D/N3D and ACN.
 
-![](include/SpatRevolution_UserGuide_-047.jpg)
-
-> Overview of a 5th order HOA 3D Ambisonic File created by Tine Surell Lange.
+## History and references
 
 Ambisonics was originally developed by the late British mathematician and sound engineer Michael Gerzon and others in the 1970s. Although it was a commercial failure at the time, this very powerful spatial technique has since been advanced greatly by a number of composers, sound designers and researchers. With the introduction of Virtual Reality, fast decoders and related technology, Ambisonics is getting a new renaissance being a perfect format for such applications.
 
