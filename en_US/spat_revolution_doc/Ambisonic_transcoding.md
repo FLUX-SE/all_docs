@@ -5,22 +5,6 @@ When patching an HOA or B-Format input to a source, or a HOA room to a channel-b
 
 > Ring and Sloane are uniform setups which are recommended for optimized transcoding. I will guarantee a precise localization, in particular when transcoding an ambisonic input in order to use it in a room.
 
-## Transcoding presets
-### Dealing with A-format
-
-![](include/SpatRevolution_AFormatPreset.png)
-
-A-format is a 4-channel audio stream. It is the RAW output of a first-order ambisonic microphone, so it has not been encoded to ambisonic yet. Because each manufacturer has their own strategy to create such microphone, we have almost as many transcoder as a-format microphone builder. Spat Revolution comes with a comprehensive list of A-Format transcoder, including Sennheiser Ambeo, Soundfield, DPA, Oktava etc.
-
-You can simply choose the needed decoder in the input transcoder.
-
-### Dealing with Ambix
-
-![](include/SpatRevolution_HOApreset.png)
-
-Ambix is becoming the most used and spread out B-format in the production world. Inside transcoder blocs, there is some ambisonic presets that allow to quickly transcode the output of an ambisonic room, for example, into an B-format stream.
-
-
 ## Transcoding method
 
 ### Projection

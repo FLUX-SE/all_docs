@@ -40,6 +40,13 @@ To help with these different standards, we have created Ambisonics presets to si
 
 !> Do not forget to transcode the ambisonic input if the format is different than N2D/N3D and ACN.
 
+## A-Format
+
+![](include/SpatRevolution_AFormatPreset.png)
+
+A-format is a 4-channel audio stream. It is the RAW output of a first-order ambisonic microphone, so it has not been encoded to ambisonic yet. So we need to transcode a A-Format input to an HOA or a channel-based stream. Because each manufacturer has their own strategy to create such microphone, we have almost as many transcoder as A-format microphone builder. Spat Revolution comes with a comprehensive list of A-Format transcoder, including Sennheiser Ambeo, Soundfield, DPA, Oktava etc.
+
+
 ## History and references
 
 Ambisonics was originally developed by the late British mathematician and sound engineer Michael Gerzon and others in the 1970s. Although it was a commercial failure at the time, this very powerful spatial technique has since been advanced greatly by a number of composers, sound designers and researchers. With the introduction of Virtual Reality, fast decoders and related technology, Ambisonics is getting a new renaissance being a perfect format for such applications.
