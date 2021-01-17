@@ -100,7 +100,7 @@ You will find it at many points throughout the **Environment Setup** graph.
 > *Avoid cable swapping on the loudspeaker setup, use software routing instead.*
 
 The routing matrix is available on hardware input and output for routing  as well as for remaping within some modules input and output. 
-(Input transcode, Master, and Master trancoder)
+(Input transcoder, Master, and Master transcoder)
 
 The speaker configuration editor, a clear channel labelling and the built-in routing matrix system all help to make the process of signal routing, checking and debugging more straight-forward on location, in the virtual mix and in the studio.
 
