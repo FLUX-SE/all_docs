@@ -11,18 +11,21 @@ Ambisonics is also both a recording and a spatial synthesis technique, where one
 In the simplest form of Ambisonics - the 1st order, also called **B-format** - only 4 channels are needed to represent a full 3D sound. The 4 channels or spherical components W, X, Y and Z resemble the pressure patterns found in an omni microphone (W) and three figure-of-8 microphones for left/right (Y), front/back (X) and up/down (Z) as depicted in above figure. 
 
 The components' count increases with the order: WXYZUVSTRPQNOLMK... These different components are organised according to different standards, known as sorting. The three most used are available in Spat Revolution: 
-- ACN: Ambisonic Channel Number, WYZXVTRSUQOMKLNP... This is the sorting used in AmbiX.
+- ACN: Ambisonic Channel Number, WYZXVTRSUQOMKLNP...
 - SID: Single Index Designation, WXYZUVSTRPQNOLMK... 
-- FMH: Furse-Malham Harmonics, WXYZRSTUVKLMNOPQ... This is used in B-Format.
+- FMH: Furse-Malham Harmonics, WXYZRSTUVKLMNOPQ...
 
 Different normalizations exist also with ambisonics. This normalization defines the relative level of the omni component compared to the other channels. It differs according to the dimension of the ambisonics:
-- SN2D/SN3D: Schmidt-Seminormalized, used in AmbiX.
+- SN2D/SN3D: Schmidt-Seminormalized.
 - N2D/N3D: Fully-Normalized.
-- FuMa: Furse-Malham normalization, used in B-Format.     
+- FuMa: Furse-Malham normalization.
 
-Ambisonics as opposed to other surround and spatial techniques and methods does not carry a speaker signal. It is an **encoded** audio signal that has to be **decoded** to the speaker signals. This encoding / decoding scheme has the advantage of being very portable and flexible since one is not bound to a specific speaker setup. i.e you can have your ambisonic mix played on a number of speaker setups, for instance Quad, headphones (binaural), 5.1, 6, 8, 7 speakers etc. based on the chosen decoder.
+To help with these different standards, we have created Ambisonics presets to simplify the use of it. These setups the normalization and sorting with common standards:
+- AmbiX: used for example by Youtube and Facebook 360. The normalization is SN2D  /SN3D and the sorting ACN.
+- B-Format: the normalization is Fuma, and the sorting FMH.
+- Spat Room: the normalization is N2D / N3D and the sorting ACN.
 
-When Ambisonics is played back on speakers all the speakers contribute to the directional content, what one is hearing is not the sound coming from a specific speaker but from a specific direction.
+!> Do not forget to transcode the ambisonic input if the format is different than N2D/N3D and ACN.
 
 ![](include/SpatRevolution_UserGuide_-047.jpg)
 
