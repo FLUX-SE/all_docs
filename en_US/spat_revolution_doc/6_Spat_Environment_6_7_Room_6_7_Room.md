@@ -124,6 +124,7 @@ But the real big achievement of SPAT and High Order Ambisonic is the modelling o
 This is where we touch on what 'virtualisation' of sound sources really means.
 
 The technology of Virtual Sound Systems and Virtual Spaces invites us to stretch our imaginations beyond what is possible on a physical installation and into a place where sound emitters can continuously alter their structural dimensions, orientation and acoustic characteristics - the idea of speakers as fixed objects no longer applies in the virtual acoustic space. Instead, sound emitters grow wings and become complex musical elements to be organised and composed in time and space, contributing even more to the cultural experience of music.
+
 ### Upmixing and Downmixing
 
 One workflow that is often required, is that of re-mixing a pre-rendered channel based mix of a particular format, to get that mix expressed into a different channel based format. For example, the need to down mix a 5.1 surround into stereo is quite common, but also the other way - perhaps a 5.1 surround mix needs to be up-mixed to a 7.1.   One way to do this, is to use an Ambisonic Virtual Room as a way to simulate the source configuration as if it were being diffused in a space, in its correct speaker format and with simulated, full sphere acoustics and then transcode the output to the desired format.  
@@ -159,6 +160,7 @@ Each source's direct sound plus the reverberation it creates are modelled and sy
 > For the best Binaural Monitoring try setting up two rooms, one all Channel Based going to speakers and one Binaural for your 3D headphone mix.
 
 ![](include/SpatRevolution_UserGuide_-052.jpg)
+
 ## High Order Ambisonic Room
 
 One of the most straightforward methods to start working with HOA spatialisation in a signal flow is to connect input sources directly into an HOA Room. To convert a Room to be HOA, you select High Order Ambisonic as the _Output Configuration Stream Type_.
