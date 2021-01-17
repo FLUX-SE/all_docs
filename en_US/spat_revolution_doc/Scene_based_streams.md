@@ -8,7 +8,17 @@ Ambisonics is also both a recording and a spatial synthesis technique, where one
 
 ![](include/SpatRevolution_UserGuide_-045.jpg)
 
-In the simplest form of Ambisonics - the 1st order, also called **B-format** - only 4 channels are needed to represent a full 3D sound. The 4 channels or spherical components W, X, Y and Z resemble the pressure patterns found in an omni microphone (W) and three figure-of-8 microphones for left/right (Y), front/back (X) and up/down (Z) as depicted in above figure.
+In the simplest form of Ambisonics - the 1st order, also called **B-format** - only 4 channels are needed to represent a full 3D sound. The 4 channels or spherical components W, X, Y and Z resemble the pressure patterns found in an omni microphone (W) and three figure-of-8 microphones for left/right (Y), front/back (X) and up/down (Z) as depicted in above figure. 
+
+The components' count increases with the order: WXYZUVSTRPQNOLMK... These different components are organised according to different standards, known as sorting. The three most used are available in Spat Revolution: 
+- ACN: Ambisonic Channel Number, WYZXVTRSUQOMKLNP... This is the sorting used in AmbiX.
+- SID: Single Index Designation, WXYZUVSTRPQNOLMK... 
+- FMH: Furse-Malham Harmonics, WXYZRSTUVKLMNOPQ... This is used in B-Format.
+
+Different normalizations exist also with ambisonics. This normalization defines the relative level of the omni component compared to the other channels. It differs according to the dimension of the ambisonics:
+- SN2D/SN3D: Schmidt-Seminormalized, used in AmbiX.
+- N2D/N3D: Fully-Normalized.
+- FuMa: Furse-Malham normalization, used in B-Format.     
 
 Ambisonics as opposed to other surround and spatial techniques and methods does not carry a speaker signal. It is an **encoded** audio signal that has to be **decoded** to the speaker signals. This encoding / decoding scheme has the advantage of being very portable and flexible since one is not bound to a specific speaker setup. i.e you can have your ambisonic mix played on a number of speaker setups, for instance Quad, headphones (binaural), 5.1, 6, 8, 7 speakers etc. based on the chosen decoder.
 
@@ -22,7 +32,9 @@ Ambisonics was originally developed by the late British mathematician and sound 
 
 If you want to learn more about Ambisonics and its mathematical foundation here are some good starting points:
 
-[https://www.researchgate.net/publication/280010078_Introduction_to_Ambisonics](https://www.researchgate.net/publication/280010078_Introduction_to_Ambisonics)
+- [https://www.researchgate.net/publication/280010078_Introduction_to_Ambisonics](https://www.researchgate.net/publication/280010078_Introduction_to_Ambisonics)
+- [Wikipedia article about normalization and sorting](https://en.wikipedia.org/wiki/Ambisonic_data_exchange_formats)
+- [Frank Zotter' book about Ambisonics](https://link.springer.com/book/10.1007/978-3-030-17207-7)
 
 <!--[http://flo.mur.at/writings/HOA-intro.pdf](http://flo.mur.at/writings/HOA-intro.pdf)
 -->
