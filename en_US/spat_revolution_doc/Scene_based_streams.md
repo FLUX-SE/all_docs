@@ -60,7 +60,7 @@ These different components are organised according to different standards, known
 - SID: Single Index Designation, WXYZUVSTRPQNOLMK... 
 - FMH: Furse-Malham Harmonics, WXYZRSTUVKLMNOPQ...
 
-Different normalizations exist also with ambisonics. This normalization defines the relative level of the omni component compared to the other channels. It differs according to the dimension of the ambisonics:
+Different normalizations exist also with ambisonics. This normalization defines the relative level of the omni component compared to the other channels. It differs according to the dimension of the Ambisonics:
 - SN2D/SN3D: Schmidt-Seminormalized.
 - N2D/N3D: Fully-Normalized.
 - FuMa: Furse-Malham normalization.
