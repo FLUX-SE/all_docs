@@ -81,9 +81,9 @@ The third button group contains four actions. The first one automatically group 
 
 On the left side of the arrangement view, above the track panel control (TCP), there are two buttons. The red "M" one is a master mute, the other one is a master solo. If at any point one of the track is muted or soloed, the respective toggle will display on. By setting it off, it clears, respectively, all the mute or all the solo.
 
-> To display the mixer, use <code>CTRL/CMD + =</code>
+> To display the mixer, use '''CTRL/CMD + ='''
 > 
-> To display the midi editor, use <code>CTRL/CMD + M</code>
+> To display the midi editor, use '''CTRL/CMD + M'''
 
 ### Spat Revolution library
 
@@ -116,7 +116,7 @@ This one is a little bonus. It actually was the first one done to satisfy some f
 
 Each new created track comes with a JSFX Audio Stream plug-in inserted. It does not process audio : it is a simple pass thru. If we open it, we will find no parameters to set and only GUI that display a number of channels/order and a color code that represent the stream type. This GUI is by default shown in the Reaper mixer (also called MCP).
 
-> To create a new track, you can either double-click in an empty part of the MCP, or of the TCP. You can also hit <code>CTRL/CMD + N</code> or <code>CTRL/CMD + Shift + N</code> to insert multiple tracks.
+> To create a new track, you can either double-click in an empty part of the MCP, or of the TCP. You can also hit '''CTRL/CMD + N''' or '''CTRL/CMD + Shift + N''' to insert multiple tracks.
 
 All this new tracks are by default *mono* tracks. We can insert track to a precise format by right-clicking in an empty area of the MCP or TCP and by searching the **"Audio stream::insert track"** menu. Inside you'll find all audio format supported by the Audio Stream library.
 
@@ -141,17 +141,17 @@ To send tracks to another one, we have three shortcuts : one for post-fader, one
 A new auxiliary track gets his audio stream info from its source track. In other words, if you create an auxiliary track for a A-Format track, the destination track will also be A-Format.
 
 *Shortcuts:*
-> <code>ALT + S</code> → Create auxiliary track (post-fader)
+> '''ALT + S''' → Create auxiliary track (post-fader)
 > 
-> <code>ALT + Shift + S</code> → Create auxiliary track (pre-fader)
+> '''ALT + Shift + S''' → Create auxiliary track (pre-fader)
 > 
-> <code>ALT + Shift + CTRL/CMD + S</code> → Create auxiliary track (pre-FX)
+> '''ALT + Shift + CTRL/CMD + S''' → Create auxiliary track (pre-FX)
 
 **Creating busses**
 
 In Reaper, the concept of busses is merged with the concept of folders. A folder track has children tracks which are, by default, routed to their parent.
 
-> To create a bus, select the desire tracks to group and hit the command <code>CTRL/CMD + G</code>
+> To create a bus, select the desire tracks to group and hit the command '''CTRL/CMD + G'''
 
 A bus created with this command checks the audio stream of each track and adjusts its number of channels to fit them all. It also looks at the parent channel of each track. For example, if you have one mono track going to 3-4 channels and another one going to 5-6 channels, it will create a bus routed to 3-4 and reroute the child track to 1-2 and to 3-4.
 
@@ -169,7 +169,7 @@ Now the trick is to use multichannel compatible plug-ins such as the Flux:: Imme
 
 This way we can have "bus-like" processing without losing the possibility of spatializing each element.
 
-> To create a multi-bus, select the desire tracks to group and hit the command <code>CTRL/CMD + ALT + G</code>
+> To create a multi-bus, select the desire tracks to group and hit the command '''CTRL/CMD + ALT + G'''
 
 ### Sending tracks to Spat Revolution
 
@@ -251,7 +251,7 @@ ReaVolution has some quick way to move items to the play cursor:
 > 
 > **<** : move snap offset of the selected items to the cursor position
 
-You can set the snap offset of an item by using the mouse modifier <code>SHIFT+CTRL</code> and by clicking on the top half of the item.
+You can set the snap offset of an item by using the mouse modifier '''SHIFT+CTRL''' and by clicking on the top half of the item.
 
 ![moveItem.gif](include/moveItem.gif)
 
@@ -261,13 +261,13 @@ Ripple edit is a very powerful feature to quickly edit and move lots of items. T
 
 ReaVolution comes with a set of shortcuts and mouse modifiers that take advantage of ripple editing without having to engage or disengage it.
 
-> <code>SHIFT + Left click</code> : move item with ripple edit on all activated tracks
+> '''SHIFT + Left click''' : move item with ripple edit on all activated tracks
 > 
-> <code>SHIFT + CTRL/CMD + Left click</code> : move item with ripple edit on selected tracks
+> '''SHIFT + CTRL/CMD + Left click''' : move item with ripple edit on selected tracks
 > 
-> <code>CTRL/CMD + Backspace</code> : delete content of time selection
+> '''CTRL/CMD + Backspace''' : delete content of time selection
 > 
-> <code>CTRL/CMD + SHIFT + Backspace</code> : delete content of time selection on selected tracks
+> '''CTRL/CMD + SHIFT + Backspace''' : delete content of time selection on selected tracks
 
 ![rippleEdit.gif](include/rippleEdit.gif)
 
@@ -281,39 +281,39 @@ To keep things logical, there is two sets of shortcuts provided by ReaVolution :
 
 > Mouse editing :
 > 
-> <code>B</code> : split item
+> '''B''' : split item
 > 
-> <code>N</code> : insert stretch marker
+> '''N''' : insert stretch marker
 > 
-> <code>H</code> : Heal split in item
+> '''H''' : Heal split in item
 > 
-> <code>G</code> : group/ungroup items
+> '''G''' : group/ungroup items
 > 
-> <code>D</code> : set item fade in
+> '''D''' : set item fade in
 > 
-> <code>F</code> : set item fade out
+> '''F''' : set item fade out
 > 
-> <code>A</code> or <code>Q</code> : trim item start
+> '''A''' or '''Q''' : trim item start
 > 
-> <code>S</code> : trim item end
+> '''S''' : trim item end
 > 
-> <code>Z</code> or <code>W</code> : set time selection start
+> '''Z''' or '''W''' : set time selection start
 > 
-> <code>X</code> : set time selection end
+> '''X''' : set time selection end
 > 
-> <code>C</code> : "special copy"
+> '''C''' : "special copy"
 > 
-> <code>V</code> : "special paste"
+> '''V''' : "special paste"
 
 With all of this, you should already have most of your editing workflow. There is a few ones more that depend on the cursor or time selection :
 
-> <code>CTRL/CMD + B</code> : split all items that cross edit cursor or time selection
+> '''CTRL/CMD + B''' : split all items that cross edit cursor or time selection
 >
-> <code>ALT + B</code> : trim selected item(s) to time selection
+> '''ALT + B''' : trim selected item(s) to time selection
 >
-> <code>CTRL + D</code> : duplicate items (follow time selection)
+> '''CTRL + D''' : duplicate items (follow time selection)
 >
-> <code>BackSpace</code> or <codeDelete</code> : Remove items (follow time selection)
+> '''BackSpace''' or <codeDelete''' : Remove items (follow time selection)
 
 ### Three and four points editing
 
@@ -321,46 +321,46 @@ When we need to edit big chunck of audio, across multiple takes, it's hard to be
 
 ReaVolution supports a similar way of editing with the shortcut **C**, **V** and **ALT+V**.
 
-> <code>C</code> : copy source items
+> '''C''' : copy source items
 >
-> <code>V</code> : paste source items at cursor position (move later items)
+> '''V''' : paste source items at cursor position (move later items)
 >
-> <code>ALT + V</code> : paste source items inside the time selection
+> '''ALT + V''' : paste source items inside the time selection
 
 **Zoom and movement shortcuts**
 
-> <code>R</code> : Zoom out arrange view
+> '''R''' : Zoom out arrange view
 > 
-> <code>T</code> : Zoom in arrange view
+> '''T''' : Zoom in arrange view
 > 
-> <code>Mousewheel</code> : Scroll thru tracks
+> '''Mousewheel''' : Scroll thru tracks
 > 
-> <code>SHIFT + mousewheel</code> : Scroll in the timeline
+> '''SHIFT + mousewheel''' : Scroll in the timeline
 > 
-> <code>CTRL/CMD + mousewheel</code> : Zoom in/out arrange view
+> '''CTRL/CMD + mousewheel''' : Zoom in/out arrange view
 > 
-> <code>ALT + Z</code> : Go back to the last view/zoom position
+> '''ALT + Z''' : Go back to the last view/zoom position
 
 **Some various useful shortcuts**
 
 These last shortcuts are not directly related to audio editing, but it can help with this task anyway.
 
-> <code>CTRL + ALT + Mousewheel</code> : Waveform Zoom In/Out
+> '''CTRL + ALT + Mousewheel''' : Waveform Zoom In/Out
 >
-> <code>Shift + S</code> : Toggle solo for selected tracks
+> '''Shift + S''' : Toggle solo for selected tracks
 > 
-> <code>Shift + M</code> : Toggle mute for selected tracks or selected items
+> '''Shift + M''' : Toggle mute for selected tracks or selected items
 > 
-> <code>Shift + R</code> : Arm/disarm selected tracks for recording
+> '''Shift + R''' : Arm/disarm selected tracks for recording
 >
-> <code>CTRL/CMD + A</code> : Select all items/all tracks
+> '''CTRL/CMD + A''' : Select all items/all tracks
 > 
-> <code>CTRL/CMD + SHIFT + A</code> : Select all items in time selection
+> '''CTRL/CMD + SHIFT + A''' : Select all items in time selection
 >
-> <code>CTRL/CMD + R</code> : Create a new region based on time selection
+> '''CTRL/CMD + R''' : Create a new region based on time selection
 > 
-> <code>M</code> or <code>Enter (num.)</code> : Insert a marker at current position
+> '''M''' or '''Enter (num.)''' : Insert a marker at current position
 > 
-> <code>0</code> : Toggle mute for selected items
+> '''0''' : Toggle mute for selected items
 > 
-> <code>Alt + R</code> or <code>3</code> : Record
+> '''Alt + R''' or '''3''' : Record

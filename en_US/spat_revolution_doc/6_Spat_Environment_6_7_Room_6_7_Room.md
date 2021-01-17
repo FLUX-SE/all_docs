@@ -25,7 +25,7 @@ Along with the audio modelling engine, one of Spat's key features is its ability
 
 ## Room 3D View
 
-The camera angle of the 3D scene can be moved continuously using a **controldrag** mouse or trackpad gesture applied directly onto the Room view. This will reposition the camera. A _forwards and backwards scroll_ on the mouse or trackpad will zoom the camera in and out of the scene. We can also move the 3D view with <code>Shift</code> and a **controldrag** mouse. Furthermore, a change (or resetting) of view orientation can be selected from the _View_ pull down menu, to show 'Top/Down' view of the scene. 
+The camera angle of the 3D scene can be moved continuously using a **controldrag** mouse or trackpad gesture applied directly onto the Room view. This will reposition the camera. A _forwards and backwards scroll_ on the mouse or trackpad will zoom the camera in and out of the scene. We can also move the 3D view with '''Shift''' and a **controldrag** mouse. Furthermore, a change (or resetting) of view orientation can be selected from the _View_ pull down menu, to show 'Top/Down' view of the scene. 
 
 ![](include/SpatRevolution_UserGuide_-098.jpg)
 

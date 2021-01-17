@@ -44,25 +44,25 @@ In our effort to make Spat Revolution easier to use, we created a small utility 
 
 To open it, you can either :
 
-- Click on the <code>Setup Wizard</code> button in the top menu of the Setup page
+- Click on the '''Setup Wizard''' button in the top menu of the Setup page
 - Go to the main menu, into Setup, then "Setup Wizard"
-- Or, use <code>ALT + W</code> (The shortcut may not work in Windows)
+- Or, use '''ALT + W''' (The shortcut may not work in Windows)
 
 ![openWizard](include/openWizard.gif)
 
 The top part of the Setup Wizard, allows to create a new room (with associated options) or to select an existing room to patch new sources into. If a new room is created, we can choose its stream type and many options linked to it. We can also choose to associate a binaural monitoring block to it.  (virtualizing the room output) Lastly, for each new room created, a master block and an output block is also created.
 
-The main part of the Wizard allows creating up to 8 different types of sources. It works like a table where each line can be used for a specific input stream type. To add or remove a line, simply click on the <code>+</code> or <code>-</code> sign on the left side of a line. You can also use the shortcut <code>Ctrl + Go Down</code> or <code>Ctrl + Go Up</code>.
+The main part of the Wizard allows creating up to 8 different types of sources. It works like a table where each line can be used for a specific input stream type. To add or remove a line, simply click on the '''+''' or '''-''' sign on the left side of a line. You can also use the shortcut '''Ctrl + Go Down''' or '''Ctrl + Go Up'''.
 
 ![setupWizard](include/setupWizard.gif)
 
 Other shortcuts have been implemented in this wizard:
-- <code>Go up</code> and <code>Go down</code> to increase / decrease the number of source
-- <code>Go Left</code> or <code>Go Right</code> to change the Stream Type.
-- <code>Ctrl/Cmd + Go Left</code> or <code>Ctrl/Cmd + Go Right</code> to change the format (if Channel Based), or the Dimension (if HOA).
-- <code>Ctrl/Cmd + Shift + Go Left</code> or <code>Ctrl/Cmd + Shift + Go Right</code> to change the Order (if HOA).
+- '''Go up''' and '''Go down''' to increase / decrease the number of source
+- '''Go Left''' or '''Go Right''' to change the Stream Type.
+- '''Ctrl/Cmd + Go Left''' or '''Ctrl/Cmd + Go Right''' to change the format (if Channel Based), or the Dimension (if HOA).
+- '''Ctrl/Cmd + Shift + Go Left''' or '''Ctrl/Cmd + Shift + Go Right''' to change the Order (if HOA).
 
-When we have done creating out different sources, we have to way to validate the operation. We can  either click on <code>Ok</code>, all the sources, rooms and outputs will be created, with a straight routing, or, we can choose to click on <code>Ok +  matrix</code>. This last option will open the input and output matrix of our whole Spat Revolution session to allow us to quickly customize or validate our patch. Also, if you need to easily create a line in Spat matrix, simply hold <code>CMD</code> or <code>Ctrl</code> and click on the starting point of your line. 
+When we have done creating out different sources, we have to way to validate the operation. We can  either click on '''Ok''', all the sources, rooms and outputs will be created, with a straight routing, or, we can choose to click on '''Ok +  matrix'''. This last option will open the input and output matrix of our whole Spat Revolution session to allow us to quickly customize or validate our patch. Also, if you need to easily create a line in Spat matrix, simply hold '''CMD''' or '''Ctrl''' and click on the starting point of your line. 
 
 ![setupWizard2](include/setupWizard2.gif)
 
@@ -82,4 +82,4 @@ The routing matrix is available on hardware input and output for routing  as wel
 
 The speaker configuration editor, a clear channel labelling and the built-in routing matrix system all help to make the process of signal routing, checking and debugging more straight-forward on location, in the virtual mix and in the studio.
 
-> The shortcut <code>Ctrl + click</code> will route one per one all the following channels.
+> The shortcut '''Ctrl + click''' will route one per one all the following channels.

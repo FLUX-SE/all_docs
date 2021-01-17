@@ -119,14 +119,14 @@ Consider as well to kill as many processes not required as possible (Wi-Fi/inter
 
 ## Display Performance (CPU) measurements
 
-Included in release version 20.12 is the ability to display performance (CPU) measurements. This can be done in the **Help** menu **Display Performance** option. This can be accesses as well with shortcut <code>Shift + Option + Command + P</code>.
+Included in release version 20.12 is the ability to display performance (CPU) measurements. This can be done in the **Help** menu **Display Performance** option. This can be accesses as well with shortcut '''Shift + Option + Command + P'''.
 
 ![Display Performance](include/display_performance.png)
 
 
 ## Engine Parallel Processing profile
 
-Spat Revolution v20.12 introduced a new Multi-Core Parallel Computation Algorithm that is key to optimizing your hardware. This is for both the automation and the audio processing. The **Display Performance** option stated above will be our best ally to monitor the results. This can be accessed with shortcut <code>Shift + Option + Command + P.</code>
+Spat Revolution v20.12 introduced a new Multi-Core Parallel Computation Algorithm that is key to optimizing your hardware. This is for both the automation and the audio processing. The **Display Performance** option stated above will be our best ally to monitor the results. This can be accessed with shortcut '''Shift + Option + Command + P.'''
 
 The Engine Preference section includes 3 Profiles for parallel processing 
 ![New updated Engine Preference Section](include/engine_profile_1.png)

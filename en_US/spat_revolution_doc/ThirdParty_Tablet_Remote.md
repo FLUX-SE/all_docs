@@ -35,13 +35,13 @@ The simple step to use it with Spat Revolution is to configure (one time) your O
 
 ![image(2)](include/tabletRemote_image(2).png)
 
-In OSC Targets, you can see the IP Address of your actual remote device. (Lemur IP: **x.x.x.x**). The port is locked by default at <code>8000</code>. 
+In OSC Targets, you can see the IP Address of your actual remote device. (Lemur IP: **x.x.x.x**). The port is locked by default at '''8000'''. 
 
 OSC 0 - OSC 7 are actual targets. You can add up to 8 OSC targets. An example of this could be to target 2 Spat Revolution for main and back up hardware.
 
-As of Spat Revolution 20.12, input | Lemur and output | Lemur presets are available in the OSC Connection section. Port are by default <code>8000</code> for input and output.
+As of Spat Revolution 20.12, input | Lemur and output | Lemur presets are available in the OSC Connection section. Port are by default '''8000''' for input and output.
 
-From the above example, the Lemur IP is <code>192.168.2.5</code> Port <code>8000</code>. And we have set the OSC target OSC 0 to the Spat computer IP Adress <code>192.168.43.10</code> with port number <code>53700</code>. 
+From the above example, the Lemur IP is '''192.168.2.5''' Port '''8000'''. And we have set the OSC target OSC 0 to the Spat computer IP Adress '''192.168.43.10''' with port number '''53700'''. 
 
 
 ## Setting OSC connections in Spat
@@ -53,9 +53,9 @@ The port and host should match that of the Lemur app.
 
 ![image(3)](include/tabletRemote_image(3).png)
 
-- Input from your IP <code>192.168.43.10</code> (or whatever you Spat computer IP is) with port # <code>53700</code>.
+- Input from your IP '''192.168.43.10''' (or whatever you Spat computer IP is) with port # '''53700'''.
 
-- Output to <code>192.168.2.5</code> (The Lemur iPad IP) with port # <code>8000</code>. Default and needed checkbox setup are: 
+- Output to '''192.168.2.5''' (The Lemur iPad IP) with port # '''8000'''. Default and needed checkbox setup are: 
 
     - **AED Packing:** Will only send AED packages. No worry the Lemur patch converts to XYZ.
     - **Auto-Bundle:** Will send OSC bundles when required.

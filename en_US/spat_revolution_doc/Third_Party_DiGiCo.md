@@ -30,7 +30,7 @@ You will want to make sure **Enable External Control** is set to **YES** and the
 ![Network](include/Digico_5.png) 
 
 
-* Press **add device**, give your device a name: for example, Spat Revolution. Enter the IP address of your Spat Revolution computer: In this example, **192.168.0.200.** For port #, these are already configured in Spat Revolution in the DiGiCo preset. On your External Device port on the DiGiCo set the **Send** port to <code>9200</code>, **Rcv** Receive port is <code>9201</code>. Make sure that you enable the OSC device with the green check!
+* Press **add device**, give your device a name: for example, Spat Revolution. Enter the IP address of your Spat Revolution computer: In this example, **192.168.0.200.** For port #, these are already configured in Spat Revolution in the DiGiCo preset. On your External Device port on the DiGiCo set the **Send** port to '''9200''', **Rcv** Receive port is '''9201'''. Make sure that you enable the OSC device with the green check!
 
 > Settings have to be done individually because they are not part of a session file. These are global settings of the desk - they stay even when you’re loading a new session file.
 
