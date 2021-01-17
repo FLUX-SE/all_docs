@@ -22,7 +22,7 @@ The _Environment Setup_ editor is a relatively simple modular environment. The s
 
 Connect or disconnect modules by using '''command/control + click''' to select some followed by any of the Actions available in the options panel on the right of the window. Various keyboard shortcuts are also available for each Action. As you connect modules and build up a signal graph, you will see some 'wires' appear which connect modules together. In Spat Revolution these 'wires' represent connections in the signal graph diagram, you do not directly interact with them. It is not a 'patching' type of interface.
 
-> Select multiple modules using drag/lasso selection before an Action.
+> Select multiple modules using drag/lasso selection or '''Ctrl/Cmd + Click''' before an Action.
 
 There is no UNDO/REDO paradigm in the signal graph editor at this point. Instead of it is advisable to use '''Connect/Disconnect Selected''' actions to re-structure the signal graph. Try to avoid deleting modules until you are certain that is the correct action.
 
