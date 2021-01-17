@@ -64,7 +64,7 @@ We can also reorganize  sources inside Rooms. Again, a simple drag and drop allo
 
 In our effort to make Spat Revolution easier to use, we created a small utility to help you set up new Spat sessions. This is used mainly when dealing with hardware I/O.
 
-To open it, you can either :
+To open it, you can either:
 
 - Click on the '''Setup Wizard''' button in the top menu of the Setup page
 - Go to the main menu, into Setup, then "Setup Wizard"
