@@ -19,11 +19,43 @@ When Ambisonics is played back on speakers all the speakers contribute to the di
 > Overview of a 5th order HOA 3D Ambisonic File created by Tine Surell Lange.
 
 
-## Order, normalization, sorting and presets
+## Order
 
-In the simplest form of Ambisonics - the 1st order, also called **B-format** - only 4 channels are needed to represent a full 3D sound. The 4 channels or spherical components W, X, Y and Z resemble the pressure patterns found in an omni microphone (W) and three figure-of-8 microphones for left/right (Y), front/back (X) and up/down (Z) as depicted in above figure. 
+Ambisonics is a technology that encodes sound sources along with full sphere positional information, as complex interleaved audio files that need decoding before they can be listened to on speakers. The lowest order and the simplest form of 3D Ambisonics requires 4 channels, conventionally named as:
 
-The components' count increases with the order: WXYZUVSTRPQNOLMK... These different components are organised according to different standards, known as sorting. The three most used are available in Spat Revolution: 
+- **W** (mono sum)
+- **X** (X axis information)
+- **Y** (Y axis information)
+- **Z** (Elevation information)
+
+The 4 channels or spherical components W, X, Y and Z can also be described as the pressure patterns found in an omni microphone (W) and three figure-of-8 microphones for left/right (Y), front/back (X) and up/down (Z) as depicted in above figure.
+
+High Order Ambisonics (HOA) needs more channels to contain the complex interleaved Ambisonics domain information. The components' count increases with the order: WXYZUVSTRPQNOLMK... High Orders encode and decode into sharper and more accurate spatial information as the Order gets higher - but the number of channels needed to hold all the 'spherical harmonics' along with the serious computation involved increases quickly.
+
+3D full sphere HOA channel counts are defined by the function (n+1)^2 (where n is the Ambisonic Order).
+
+- 1st Order 3D -> 4 Channels
+- 2nd Order 3D -> 9 Channels
+- 3rd Order 3D -> 16 Channels
+- 4th Order 3D -> 25 Channels
+- 5th Order 3D -> 36 Channels
+- 6th Order 3D -> 49 Channels
+- 7th Order 3D -> 64 Channels
+
+_Ambisonics_ can also be encoded without elevation - this is called 2D horizontal and is quite suitable for decoding to configurations that do not have speakers on elevated planes. The 2 dimensional Ambisonic data is encoded in multichannel files with a channel count defined by the function 2n+1 (where n still is the Ambisonic order.
+
+- 1st Order 2D -> 4 Channels
+- 2nd Order 2D -> 5 Channels
+- 3rd Order 2D -> 7 Channels
+- 4th Order 2D -> 9 Channels
+- 5th Order 2D -> 11 Channels
+- 6th Order 2D -> 13 Channels
+- 7th Order 2D -> 15 Channels
+
+
+## Normalization, sorting and presets
+
+These different components are organised according to different standards, known as sorting. The three most used are available in Spat Revolution: 
 - ACN: Ambisonic Channel Number, WYZXVTRSUQOMKLNP...
 - SID: Single Index Designation, WXYZUVSTRPQNOLMK... 
 - FMH: Furse-Malham Harmonics, WXYZRSTUVKLMNOPQ...
