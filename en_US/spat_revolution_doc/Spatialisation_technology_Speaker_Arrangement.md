@@ -1,4 +1,4 @@
-# Speaker Arrangements and Calibration
+# Speaker Arrangement Editor
 
 ## Rendering To Speakers
 
@@ -15,7 +15,7 @@ To this end, you will find a large library of standard and specialized speaker a
 
 Speaker arrangements can be used to fit the format of a virtual room to match the actual speaker system being used to diffuse the mix in a real room. Channel-based speaker configurations are used to define a multi-channel source arrangement, a room speaker source arrangement, and can also be used in the transcoding phase of soundfields.
 
-The golden rule when working with multichannel based audio is to ensure to have the appropriate format, speaker arrangement, and channel routing throughout, otherwise the virtual space will not map correctly into a physical space.
+The golden rule when working with multichannels based audio is to ensure to have the appropriate format, speaker arrangement, and channel routing throughout, otherwise the virtual space will not map correctly into a physical space.
 
 ## Speaker Configuration
 
