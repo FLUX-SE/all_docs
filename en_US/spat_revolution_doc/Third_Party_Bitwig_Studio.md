@@ -35,7 +35,7 @@ Like in all Local Path Audio workflows, you should see Spat SEND inputs appearin
 
 Now the fun starts - on the Bitwig Send tracks, which host the Spat SEND plugins, you will see all the parameters of Spat sources available as dials. 
 
-Use the Bitwig '''+''' to open the Device Parameter Modulators and assign the many and varied modulation sources to control Azimuth, Distance or other Source Parameters.
+Use the Bitwig <code>+</code> to open the Device Parameter Modulators and assign the many and varied modulation sources to control Azimuth, Distance or other Source Parameters.
 
 ![](include/SpatRevolution_UserGuide_-274.jpg)
 

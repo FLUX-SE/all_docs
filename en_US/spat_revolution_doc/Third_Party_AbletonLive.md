@@ -54,7 +54,7 @@ To install our Max4Live device, simply go to your Ableton Live's user library. I
 
 Then, from the User Library, go to this location:
 
-'''User Library\Presets\Audio Effects\Max Audio Effect'''
+<code>User Library\Presets\Audio Effects\Max Audio Effect</code>
 
 Now, simply drop the *SyncBox.amxd* device in this folder. It can be downloaded here.
  

@@ -20,7 +20,7 @@ When you have correctly setup the BlackTrax protocol (see [BlackTrax Integration
 
 As with the custom speaker arrangement editor, we can apply some transformations to one or multiple sources. This feature is especially handy if you wish to quickly set sources on a circle, or to put a selection of sources at the distance for examples.
 
-To open the transform menu, right click on a source in the source panel and choose "Transform". You can also use the shortcut '''CMD/CTRL + SHIFT + T'''.
+To open the transform menu, right click on a source in the source panel and choose "Transform". You can also use the shortcut <code>CMD/CTRL + SHIFT + T</code>.
 
 Please check the section about [Speaker Arrangement](Spatialisation_technology_Speaker_Arrangement.md) if you want more details about the different transforms.
 Sources transformations also include an integration time which allow to create smooth transition between the current and the new sources position.

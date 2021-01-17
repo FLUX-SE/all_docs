@@ -7,19 +7,19 @@ If you are developing your own control systems to integrate with Spat, you might
 You will find that option in the Spat preferences.
 You will also find a complete [OSC table](Appendix_C_OSC_Table.md) in appendix.
 
-> Enable commands log will display the received and emitted OSC messages in the log windows to confirm you are receiving data. '''Shift + F7 ''' will open the log window.
+> Enable commands log will display the received and emitted OSC messages in the log windows to confirm you are receiving data. <code>Shift + F7 </code> will open the log window.
 
 In general, Spat OSC patterns have the form of
 
-'''/source/[index]/x'''
+<code>/source/[index]/x</code>
 
 where [index] represents the Index of the Virtual Source or Room you wish to control with the message.
 
 The three positional formats can be packed into one message if that option is set in the OSC Connections Matrix;
 
-'''/source/[index]/xyz''' _Cartesian co-ordinates in meters_
+<code>/source/[index]/xyz</code> _Cartesian co-ordinates in meters_
 
-'''/source/[index]/aed''' _Polar co-ordinates (azimuth, distance and elevation)_
+<code>/source/[index]/aed</code> _Polar co-ordinates (azimuth, distance and elevation)_
 
 !> Take care to automate EITHER Cartesian OR Polar, not both.
 
@@ -27,9 +27,9 @@ Sometimes, it is more convenient to have the [index] parameter as an argument of
 This option is available in the OSC Connections Matrix, namely Index as Arg. 
 If this option is switched in, then the messages will be of the pattern
 
-'''/source/xyz ifff'''
+<code>/source/xyz ifff</code>
 
-where '''i''' is an integer denoting the index of the target, and '''f''' according to convention is a float denoting the values of the message.
+where <code>i</code> is an integer denoting the index of the target, and <code>f</code> according to convention is a float denoting the values of the message.
 
 For more details about the Spat OSC dictionary and its usage syntax please refer to [Appendix C](Appendix_C_OSC_Table.md).
 
@@ -72,5 +72,5 @@ Transform presets are accessible for each OSC connection and allow some quick re
 
 ![](include/SpatRevolution_OSC_Input_Transform.png)
 
-If the included transform preset does not fit our needs, we can click on the '''+''' button to open the custom OSC transform menu.
+If the included transform preset does not fit our needs, we can click on the <code>+</code> button to open the custom OSC transform menu.
 In this menu, we can choose how to scale our input our output values. We can also choose to exclude specific OSC command from the scaling rules.
