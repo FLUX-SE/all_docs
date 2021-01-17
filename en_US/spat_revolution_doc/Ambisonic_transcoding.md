@@ -3,6 +3,8 @@
 ## Default transcoding
 When patching an HOA or B-Format input to a source, or a HOA room to a channel-based output, a transcoder will be automatically inserted. This transcoder will, by default, be set to the Ring or Sloane speaker arrangement corresponding to the HOA order, and, will select an energy-preserving decoder.
 
+> Ring and Sloane are uniform setups which are recommended for optimized transcoding. I will guarantee a precise localization, in particular when transcoding an ambisonic input in order to use it in a room.
+
 ## Transcoding presets
 ### Dealing with A-format
 
