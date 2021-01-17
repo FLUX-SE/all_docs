@@ -17,7 +17,7 @@ Typically, the SAD should only be used for 2D loudspeaker layouts, i.e. arranged
 
 *What is a t-design layout?*
 
-To keep it really simple, t-design is a mathematical way of constructing sphere perimeters or circle surface with an array of point that is homogenous. In 2D the point simply put on a circle and are evenly spaced. In 3D, things get much more complicated many t-design point layout exist.
+To keep it really simple, t-design is a mathematical way of constructing sphere perimeters or circle surfaces with an array of point that is homogenous. In 2D the point simply put on a circle and are evenly spaced. In 3D, things get much more complicated many t-design point layout exist.
 In Spat Revolution, we chose to use the method used by the mathematician Sloane for our speaker layouts.
 
 ### Regularized pseudo-inverse
