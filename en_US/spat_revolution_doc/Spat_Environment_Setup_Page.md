@@ -36,6 +36,8 @@ It is possible to connect some modules, such as Input or Source, to multiple des
 
 The drag and drop feature allows an easy and ergonomic way to connect and reorganize blocks in the setup page.
 
+### Connect modules
+
 ![drag&drop1](include/drag&drop1.gif)
 
 To create a connection  between two blocks, simply drag one on the other. Spat will  automatically connect the two blocks. If it is necessary, Spat will also create supplementary blocks if needed. For example, if we drag and drop an input on a room, Spat will automatically create a "source" block  between them.
@@ -45,6 +47,8 @@ To create a connection  between two blocks, simply drag one on the other. Spat w
 This feature also works on a selection of multiple blocks of the same type. For example, if we wished to connect 5 inputs to 1 output, we can select our inputs a drag them  on the output. All the inputs blocks will be patch to a room block thru sources, and the room is patch to the output thru a master block. (With the default stereo room that can be changed later)
 
 ![drag&drop3](include/drag&drop3.gif)
+
+### Reorganise modules
 
 The drag and drop feature also allows reorganizing the blocks of the same type. This means that you can now change the order of already created blocks. This gives to the setup page a more ergonomic and flexible feel. 
 
