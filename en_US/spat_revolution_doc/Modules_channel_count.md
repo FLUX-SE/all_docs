@@ -52,5 +52,3 @@ surround back Left | | surround back Right
 
 
 > * Some common Speaker Channel naming abbreviations.
-
-Please refer to Appendix C for special information about handling LFE and Mono Sub Woofer routing in Channel Based applications.
