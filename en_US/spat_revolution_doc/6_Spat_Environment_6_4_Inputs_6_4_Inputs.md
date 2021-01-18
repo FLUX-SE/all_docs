@@ -4,7 +4,7 @@ It might be self-evident, but it's worth pointing out that Spat Revolution itsel
 
 ![](include/SpatRevolution_UserGuide_-080.jpg)
 
-The top row of the signal graph represents the input sources that will provide the source content for the current project. You add an input module using the '+' icon, and you can remove ones you don't need with the 'Remove Selected' action. The input streams can be of many formats, the choice of assignable formats will depend on the number of channels each input module represents.
+The top row of the signal graph represents the input sources that will provide the source content for the current project. You add an input module using the <code>+</code> icon, and you can remove ones you don't need with the 'Remove Selected' action. The input streams can be of many formats, the choice of assignable formats will depend on the number of channels each input module represents.
 
 > One Input module can represent any number of audio channels.
 
