@@ -141,7 +141,7 @@ These are legacy 2D pan pot laws from the original IRCAM Spat library. They only
 
 Angular and PanR are pairwise amplitude panning essentially the same as VBAP 2D described on the next page. There is a subtle difference however, in the way the panning law changes when moving the source from one speaker to another.
 
-## XY AB
+## XY and AB
 
 These two Panning Types will only become available when a _Virtual Room_ is set to be virtualising a stereo speaker arrangement (see section 6.52) - they are pan laws that are derived from widely used dual microphone techniques for rendering stereo imaging from an omnidirectional scene.
 
@@ -153,4 +153,12 @@ These two Panning Types will only become available when a _Virtual Room_ is set 
 > tracking techniques. Try them on close miked sources or any mono
 > source, to get a realistic stereo image.
 
-![](../include/SpatRevolution_UserGuide_-066.jpg)
+![](include/SpatRevolution_UserGuide_-066.jpg)
+
+## Continuous Surround Panning (CSP)
+
+This Panning Type is available in _Virtual Room_ with 5.0 speakers arrangements. It optimizes the render into this arrangement, using circular harmonics. This leads to a continuous law, independently of the angle. 
+
+You can found more explanation about it in the [relative paper](http://www.music.mcgill.ca/marlonschumacher/wp-content/uploads/IMWI/literature/Spat1/Craven-Continuous_surround_panning_for_5-speaker_reproduction.pdf).
+
+
