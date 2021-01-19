@@ -71,11 +71,11 @@ Additionally, the powerful _Nebula Spatial Spectrogram_ is highly dependent on t
 
 ## Nebula Spatial Spectrogram
 
-_Nebula_ is a technology adapted from our flagship **FLUX:: Analyzer System** a suite of highly regarded professional mastering and mixing visualisation tools.
+_Nebula_ is a technology adapted from our flagship **FLUX:: Analyzer System**, a suite of highly regarded professional mastering and mixing visualisation tools.
 
 ![](include/SpatRevolution_UserGuide_-100.jpg)
 
-> Screenshot from a Flux Pure Analyzer session
+> Screenshot from a Flux Pure Analyzer session.
 
 **Nebula** in Spat Revolution provides a unique representation of the sound field in terms of spectral content and localisation rendered directly inside the 3D speaker simulation and virtual room display. It combines the functionality of a spectrum analyser and a vector scope in a novel real-time display. It is a useful tool to get a realtime overview of your spatial mix in terms of spectral-spatial diffusion, and can give quite accurate representations of 'where' and 'how' sound will manifest over a real world sound system. A lot of work has gone into optimising the real-time rendering of the display, not solely for aesthetic reasons, but because we wanted the display to react instantly to all the details in the incoming multichannel audio. The idea is literally for you to be able to see what the listener will hear and feel.
 
