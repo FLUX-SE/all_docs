@@ -2,13 +2,19 @@
 
 ### Spat Revolution 20.12
 
+#### Build 49943
+
+* Add IO overload Detection + auto mute + reset button
+* Spat Send (software) input sync error detection optimization
+* Audio processing optimizations
+
 #### Build 49890
 
 ## Major Additions
 
 
 
-* New MultiCore parallel processing algorithm. 
+* New MultiCore parallel processing algorithm.
 	* A new preference option to select various engine processing profile.
 * Stability improvements (hardening)  with all latest operating systems (OS).
 * Spat Plug-ins (Local Audio LAP - AudioPipe) hardening and  improvement against host applications and OS.
@@ -21,30 +27,30 @@
 	* Drag any modules to move before or after any module of same type.
 	* Drag a drop module into module to connect output to input.
 * Support for the IRCAM ADMix/SPAT and Meyer SpaceMap Go OSC Grammar on input.
-	* You can now play ADM Master  (Audio definition model) files containing audio and object metadata  with the[ ADMix player]((https://forum.ircam.fr/projects/detail/admix/)) playback and receive metadata as OSC data in Spat 
-* New Apple and Windows menu and shortcuts 
-	* Spat Revolution now includes the standard Apple and Windows menu bar for new and added software action. 
+	* You can now play ADM Master  (Audio definition model) files containing audio and object metadata  with the[ ADMix player]((https://forum.ircam.fr/projects/detail/admix/)) playback and receive metadata as OSC data in Spat
+* New Apple and Windows menu and shortcuts
+	* Spat Revolution now includes the standard Apple and Windows menu bar for new and added software action.
 	*  New shortcut options
-* New input naming pages for bulk renaming 
+* New input naming pages for bulk renaming
 * Multi-Selecting input blocks and pressing Alt + N
 * Setup wizards;
 	* Available by pressing Alt + N or in the Setup menu.
 * New Import and Export Spat preferences.
 	* System to System, to back up your preferences.
 * Basic snapshot system implementation;
-	* snapshots can now be generated, recalled (with interpolation - crossfade option) , deleted or renamed. 
+	* snapshots can now be generated, recalled (with interpolation - crossfade option) , deleted or renamed.
 	* Gives the ability to create static images instead of using full automation.
 	* Basic menu is provided to manage snapshots and available to OSC messages (Lemur and Qlab template available).
 * Import speaker arrangements;
 	* Import speaker arrangements from simulation software of Adamson, CODA Audio, Nexo, d&b audiotechnik, Ease or simply Excel.
 * Speaker arrangement panning tips and validation guidelines.
 * New Panning type (LBAP, DualBandVBP)
-* New Binaural Options - Nearfield, Spherical Head, Snowman Model 
+* New Binaural Options - Nearfield, Spherical Head, Snowman Model
 * New A-Format transcoding (Sennheiser Ambeo, Oktava MK4012, Rode Nt SF1)
 * New HOA transcoding method (Regularized Pseudo-Inverse, Improved AllRAD, CSAD)
 
 
-**OSC - Many OSC optimizations in the core** 
+**OSC - Many OSC optimizations in the core**
 
 * The OSC Matrix (OSC Slots) has been updated and contains various changes.
 * Now supporting third party OSC devices without Auto-bundle feature (Digico Consoles now can have bidirectional control)
@@ -61,7 +67,7 @@
 * ADM-OSC Format support.
 * Retina display enhanced support
 * New HOA Decoding Methods
-* New Binaural Options - Nearfield, Spherical Head, Snowman Model - (Not using HRTF for some???) 
+* New Binaural Options - Nearfield, Spherical Head, Snowman Model - (Not using HRTF for some???)
 * Per speaker channel mute option in room
 * Shift drag to move 3D scene
 * Install templates with PI format for Spat.
@@ -90,13 +96,6 @@
 * Pl: update page table
 * Rebuild GUI without reloading session
 
-#### Build 49943
-
-* Add IO overload Detection + auto mute + reset button
-* Spat Send (software) input sync error detection optimization
-* Audio processing optimizations
-
-
 
 
 ## Bug fixes
@@ -115,7 +114,7 @@
 * Recurring crash in setup while doing connections with drag and drop
 * Strange issues with input OSC transforms
 * Transcoders - Wrong Normalization for AmbiX.
-* Yaw/Pitch/Roll - Number of digits in sliders 
+* Yaw/Pitch/Roll - Number of digits in sliders
 * Crash on connecting HOA order 7 input to source multiple time.
 
 
@@ -162,8 +161,8 @@ Core:
 * Fix input transcoding A-Format to CB gain normalization issues
 * Fix speaker arrangements duplication issues when importing from session
 * Fix source reset all doesn't reset rotation XYZ
-* Fix OSC stability and performances 
-* Fix synchronisation error detection 
+* Fix OSC stability and performances
+* Fix synchronisation error detection
 
 UI:
 
@@ -182,7 +181,7 @@ UI:
 * Fix selection on deleting a speaker on the speaker arrangement editor
 * Fix UI issues with OpenGL mac mini.
 
-Various: 
+Various:
 
 * Fix dialog do not always close or validate with Escape and Return keys
 * Fix presets import
@@ -191,7 +190,8 @@ Various:
 * Fix opening session with non-ASCII characters
 
 
---
+---
+
 ### Spat Plug-ins fixes
 #### Build 49880
 
@@ -199,7 +199,7 @@ Various:
 
 * Fix stability issue with LAP
 * Room PI - Fix automation in VST
-* Room PI - Fix No automation parameter available in room PI AAX 
+* Room PI - Fix No automation parameter available in room PI AAX
 * Room PI - Fix the non-linear behaviour of the listener Yaw Automation
 * Send PI - Improve stability on Avid S6L
 * Automation - Fix : reset values doesn't send automation point to LAP PI
@@ -212,6 +212,7 @@ Various:
 
 
 ## Known Issues
+### Build 49943
 
 * LAP with AAX 96K synchronization issue.
 * OSC -1 index doesn't work with Polar /aed.
