@@ -222,3 +222,9 @@ Various:
 * No direct sound with Spherical Head binaural and Snowman binaural
 * Crash on transcoding B-Format 2D to HOA3D
 * Closing Nuendo and Ableton Live session with Spat PI crashed application. (VST Plug-ins)
+* VST under Merging Technologies Ovation / Pyramix with loading issues
+* 3D View - Output meters can display only 50 channels
+* OSC - OSC message "/master/[index]/dump" do not work
+* OSC - No OSC control for reverb modal density
+* [PI] SPAT Send Solo parameter is broken in LAP or OSC
+* [PI] Enable Reverb Automation not working
