@@ -214,17 +214,17 @@ Various:
 ## Known Issues
 ### Build 49943
 
-* LAP with AAX 96K synchronization issue.
-* OSC -1 index doesn't work with Polar /aed.
 * Record OSC message and snapshot interpolation via Local Audio Path automation is not working.
 * Shortcuts with Alt doesn't work on Windows 10.
 * Only the first LFE receives LFE send.
 * No direct sound with Spherical Head binaural and Snowman binaural
-* Crash on transcoding B-Format 2D to HOA3D
-* Closing Nuendo and Ableton Live session with Spat PI crashed application. (VST Plug-ins)
-* VST under Merging Technologies Ovation / Pyramix with loading issues
 * 3D View - Output meters can display only 50 channels
-* OSC - OSC message "/master/[index]/dump" do not work
-* OSC - No OSC control for reverb modal density
+* [HOA] Crash on transcoding B-Format 2D to HOA3D
+* [OSC] OSC message "/master/[index]/dump" do not work
+* [OSC] No OSC control for reverb modal density
+* [OSC] -1 index doesn't work with Polar /aed.
+* [PI] LAP with AAX 96K can face synchronization issue.
 * [PI] SPAT Send Solo parameter is broken in LAP or OSC
 * [PI] Enable Reverb Automation not working
+* [PI-VST]Closing Nuendo and Ableton Live session with SPAT PI can crash application.
+* [PI-VST] Merging Technologies Ovation / Pyramix with loading issues
