@@ -214,7 +214,7 @@ Various:
 ## Known Issues
 ### Build 49943
 
-* Record OSC message and snapshot interpolation via Local Audio Path automation is not working.
+* Writing automation on DAW via SPAT Send PI doesn't work for AED coming from external OSC or  snapshot recall  (interpolation)
 * Shortcuts with Alt doesn't work on Windows 10.
 * Only the first LFE receives LFE send.
 * No direct sound with Spherical Head binaural and Snowman binaural
