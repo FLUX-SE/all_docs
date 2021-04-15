@@ -2,7 +2,7 @@
 
 # Credits & acknowledgements
 
-ReaVolution was developped by Jean-Loup Pecquais, between Orléans and Paris, from 2019 to 2020.
+ReaVolution was developed by Jean-Loup Pecquais, between Orléans and Paris, from 2019 to 2020.
 
 The author would like to acknowledge a few peoples:
 
@@ -12,7 +12,7 @@ The author would like to acknowledge a few peoples:
 - Sylvain Lambinet, which has followed this idea from the very start and always inputted some great feedback
 - Justin Frankel and the whole Cockos team to have put on the market such an incredible tool.
 
-ReaVolution is built upon the following Reaper extensions :
+ReaVolution is built upon the following Reaper extensions:
 
 - SWS extension : [https://www.sws-extension.org/](https://www.sws-extension.org/)
 - JS API extension : [https://forum.cockos.com/showthread.php?t=212174](https://forum.cockos.com/showthread.php?t=212174)
@@ -25,13 +25,17 @@ ReaVolution theme uses graphical elements provided to the Reaper community by th
 
 ReaVolution is an attempt to provide a customization to Reaper standard configuration in order to simplify its integration to Spat Revolution and provide a complete simple immersive audio creation package.
 
-At the base of ReaVolution is Reaper, a DAW developed by Cockos. It is a very stable and fully-featured DAW with lots of customization possibilities. With its high track channel count capacities on support for any speaker arrangements, it is one the most complete flexible DAW regarding immersive sound production.
+At the base of ReaVolution is Reaper, a DAW developed by Cockos. 
+It is a very stable and fully-featured DAW with lots of customization possibilities. 
+With its high track channel count capacities on support for any speaker arrangements, it is one of the most complete flexible DAW regarding immersive sound production.
 
 As the default configuration of Reaper is somehow of a blank slate to create your immersive sound workflow, ReaVolution provides a start point and customization that makes any first approach to Reaper and Spat work like a charm… 
 
 ReaVolution's goal is to solve these common problems and smooth out the transition gap for users that comes from other DAWs.
 
-This package includes macros (scripts), customized toolbars, system behaviour preference enhancements. The ambition of ReaVolution is to give a more pleasant starting point for users that are coming from other DAW while giving a new set function dedicated to immersive audio production.
+This package includes macros (scripts), customized toolbars, system behaviour preference enhancements. 
+The ambition of ReaVolution is to give a more pleasant starting point for users that are coming from other DAW while giving a new set function dedicated to immersive audio production.
+
 ## Table of content
 
 1. **Installation**
@@ -40,9 +44,11 @@ This package includes macros (scripts), customized toolbars, system behaviour pr
 
 ## Installation
 
-If you already are a Reaper user, don't worry, ReaVolution will install itself next to your existing Reaper install. You will not loose your current customization and user data. If you wish to take some features from ReaVolution to your current Reaper install, simply use the user configuration import/export feature of Reaper.
+If you already are a Reaper user, don't worry, ReaVolution will install itself next to your existing Reaper install. 
+You will not loose your current customization and user data. 
+If you wish to take some features from ReaVolution to your current Reaper install, simply use the user configuration import/export feature of Reaper.
 
-To install ReaVolution, you need to follow this steps :
+To install ReaVolution, you need to follow this steps:
 
 - Download the latest version of Reaper on [reaper.fm](http://reaper.fm) (currently v6.15)
 - Download the latest version of ReaVolution on the Flux center
@@ -52,7 +58,7 @@ To install ReaVolution, you need to follow this steps :
     - On Win10, launch the install executable, choose "install as portable installation" and choose the ReaVolution folder as the install folder.
     - If you already have a Reaper (> v6.xx) install, you can also copy paste the existing binary inside the ReaVolution folder.
 
-And that's all !
+And that's all!
 
 ## Presentation
 ### Windows arrangement and menus
@@ -61,11 +67,13 @@ The basic layout of ReaVolution is a bit different from the default Reaper setti
 
 ![reavolution.jpg](include/reavolution.jpg)
 
-The transport bar is now at the top of the user interface. Just bellow there is the main toolbar. Here you will find all the main state you need to keep an eye on.
+The transport bar is now at the top of the user interface. Just bellow there is the main toolbar. 
+Here you will find all the main state you need to keep an eye on.
 
 ![maintoolbar.jpg](include/maintoolbar.jpg)
 
-First is the play mode. When off, the play cursor comes back to its initial state when the playback is stopped. When on, the play cursor stays at its position when the playback is stopped.
+First is the play mode. 
+When off, the play cursor comes back to its initial state when the playback is stopped. When on, the play cursor stays at its position when the playback is stopped.
 
 Next, there is a command to show/hide all the automation lane.
 
@@ -85,17 +93,17 @@ On the left side of the arrangement view, above the track panel control (TCP), t
 > 
 > To display the midi editor, use <code>CTRL/CMD + M</code>
 
-### Spat Revolution library
+### SPAT Revolution library
 
-ReaVolution is designed to work seamlessly with the software Spat Revolution developed by Flux:: Immersive. Spat Revolution is a stand-alone application to create immersive sound content and support almost any surround sound technologies. Flux:: has also developed audio pipe technologies which allow sending audio from a DAW to Spat Revolution using a VST/AAX/AU plug-ins. This is a very powerful tool, but it can be quite time-consuming to setup.
+ReaVolution is designed to work seamlessly with the software SPAT Revolution developed by Flux:: Immersive. SPAT Revolution is a stand-alone application to create immersive sound content and support almost any surround sound technologies. Flux:: has also developed audio pipe technologies which allow sending audio from a DAW to SPAT Revolution using a VST/AAX/AU plug-ins. This is a very powerful tool, but it can be quite time-consuming to setup.
 
-ReaVolution comes with a set of action that automates all the things that needs to be done prior to sending audio from Reaper to Spat Revolution and work in pairs with the **Audio Stream library** to support any channel configuration.
+ReaVolution comes with a set of action that automates all the things that needs to be done prior to sending audio from Reaper to SPAT Revolution and work in pairs with the **Audio Stream library** to support any channel configuration.
 
 ### Audio Stream library
 
 This library is the core of ReaVolution. Its goal is to provide a way to overcome the limitation that Reaper imposes on track format. By default, tracks and channels can only be even numbers. But in the real world, numerous audio streams come in odd channel numbers, mono being the really obvious one.
 
-How does it work? the library uses the combination of a JSFX called "Audio Stream" and some scripts. This JSFX is present on every track and is used to store and display the stream type to the user. It supports the same streams as Spat Revolution: channels based, HOA, Ambisonics, binaural and transaural.
+How does it work? the library uses the combination of a JSFX called "Audio Stream" and some scripts. This JSFX is present on every track and is used to store and display the stream type to the user. It supports the same streams as SPAT Revolution: channels based, HOA, Ambisonics, binaural and transaural.
 
 ### Various library
 
@@ -122,7 +130,7 @@ All this new tracks are by default *mono* tracks. We can insert track to a preci
 
 In the same vein, we can set the audio stream of an already created track by right-click on it and going to the menu **"Audio stream::set to"**. This can also be done for a selection of tracks.
 
-If you are working on a session that has not been created with ReaVolution, you still can use the **"Audio stream::set to"** menu. It will insert an Audio stream plugin on each selected tracks.
+If you are working on a session that has not been created with ReaVolution, you still can use the **"Audio stream::set to"** menu. It will insert an Audio stream plug-in on each selected tracks.
 
 !> Inserting an Audio Stream plug-in will not be sufficient to display the stream type in the MCP. You have to right click on the instance and select "Show embedded UI".
 
@@ -161,7 +169,7 @@ A bus created with this command checks the audio stream of each track and adjust
 
 This is a new concept brought by ReaVolution.
 
-When working with software like Spat Revolution, we often encounter one problem. Let say we have a drum kit recorded with four microphones: kick, snare & stereo overheads. A common mixing workflow is to create a summing bus and do some processing on it (compression and/or EQing). But then, we can only fed a summed stream to Spat Revolution and we cannot spatialized each element independently.
+When working with software like SPAT Revolution, we often encounter one problem. Let say we have a drum kit recorded with four microphones: kick, snare & stereo overheads. A common mixing workflow is to create a summing bus and do some processing on it (compression and/or EQing). But then, we can only fed a summed stream to SPAT Revolution and we cannot spatialized each element independently.
 
 Here comes the multi-busses. It is a simple trick actually. If we create a multi-bus from our drum kit, it will create a folder track where the kick is routed to channel 1, the snare is routed to channel 2 and the overhead are routed to channel 3-4. So each element has its channel so nothing is summed here.
 
@@ -171,35 +179,35 @@ This way we can have "bus-like" processing without losing the possibility of spa
 
 > To create a multi-bus, select the desire tracks to group and hit the command <code>CTRL/CMD + ALT + G</code>
 
-### Sending tracks to Spat Revolution
+### Sending tracks to SPAT Revolution
 
-As discussed bellow, it is possible to send and receive audio to and from Spat Revolution with the help of Spat Revolution plug-ins suite. The "Send" plug-in allows to send audio from the DAW to Spat and the Return plug-in receives audio from Spat to the DAW.
+As discussed bellow, it is possible to send and receive audio to and from SPAT Revolution with the help of SPAT Revolution plug-ins suite. The "Send" plug-in allows to send audio from the DAW to SPAT and the Return plug-in receives audio from SPAT to the DAW.
 
 Without ReaVolution, there is a certain number of things to do prior to correctly use this plug-ins. First, each track hosting a Send plug-in has to be routed to each track hosting a Return. This has to be done to be sure that the DAW does not process a "return track" before a "send track".
 
-Then, each track hosting a Spat plug-in has to be set to "prevent anticipative fx processing".
+Then, each track hosting a SPAT plug-in has to be set to "prevent anticipative fx processing".
 
-When all this set-up is done, we can guarantee a good sync between Reaper and Spat Revolution. But it can be quite tedious to do manually.
+When all this set-up is done, we can guarantee a good sync between Reaper and SPAT Revolution. But it can be quite tedious to do manually.
 
 ReaVolution comes with an action that do all of this automatically. With the help of the Audio Stream libraries, it does all the routing automatically. It can even handle multi-bus and access to child tracks' information.
 
-This action is found by right clicking on a track, inside the menu **"Spat Revolution"**. It is called **"Route selected tracks to Spat Revolution"**. This action will create a new auxiliary for each selected track, with the right routing, the right configuration and a Spat Revolution Send Plug-in inserted.
+This action is found by right clicking on a track, inside the menu **"SPAT Revolution"**. It is called **"Route selected tracks to SPAT Revolution"**. This action will create a new auxiliary for each selected track, with the right routing, the right configuration and a SPAT Revolution Send Plug-in inserted.
 
 ![sendToSpat.gif](include/sendToSpat.gif)
 
 After running this action, you should be done at least at 95% of your configuration.
 
-### Receiving audio from Spat Revolution
+### Receiving audio from SPAT Revolution
 
-To receive audio from Spat Revolution, simply create a track at the wanted format using **"Audio stream::insert track"**. Then, go back to the **"Spat Revolution"** menu by right-clicking on the track we just created and choose **"Receive audio from Spat Revolution on selected track"**.
+To receive audio from SPAT Revolution, simply create a track at the wanted format using **"Audio stream::insert track"**. Then, go back to the **"SPAT Revolution"** menu by right-clicking on the track we just created and choose **"Receive audio from SPAT Revolution on selected track"**.
 
 ![receiveFromSpat.gif](includes/receiveFromSpat.gif)
 
-You will find an option related to Spat routing in the top bar menu, under **Extension>ReaVolution>When tracks are routed to Spat**. 
+You will find an option related to SPAT routing in the top bar menu, under **Extension>ReaVolution>When tracks are routed to SPAT**. 
 
 ![reavolutionNewExtensionMenu.png](include/reavolutionNewExtensionMenu.png)
 
-This option allows to configure the default behavior of sending audio to and receiving audio from Spat Revolution. By default, the local audio path, which allows sending audio from Reaper to Spat using virtual audio pipe, is on, the same as the thru option of Spat send plugin and the override option of Spat Return plug-in.
+This option allows to configure the default behavior of sending audio to and receiving audio from SPAT Revolution. By default, the local audio path, which allows sending audio from Reaper to SPAT using virtual audio pipe, is on, the same as the thru option of SPAT send plug-in and the override option of SPAT Return plug-in.
 
 ### Editing audio
 

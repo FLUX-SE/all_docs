@@ -1,4 +1,4 @@
-# 5.6.9 Dual Band Vector Based Panning (DualBandVBP)
+# 5.6.9 Dual Band Vector Based Panning (VBP Dual-Band)
 
 
 Both Intensity and Amplitude Vector Based panning has a frequency range 

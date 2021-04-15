@@ -3,7 +3,7 @@
 There has been a lot of scientific and artistic work to discover new methods for the electronic reproduction of audio signals to achieve the sensory impression that sounds are positioned in the space between speakers, rather than only coming from a single speaker. One of the underlying mechanisms that makes it possible to position sounds or make it seem like sounds are moving around the listener, is conventionally referred to as _panning_.
 
 Broadly speaking, panning is the result of an algorithm - sometimes called 'the panning law' - that is used to calculate the amplitudes of signals sent to two or more identical loudspeakers (or virtual sources) arranged in a particular spatial configuration. In stereo - which we could say is the lowest resolution of speaker array - a simple panning algorithm can make the sound of a voice, for example, seem to be placed in the air between two speakers - as if there were an invisible speaker there. This illusion works up to a point, and breaks down if the speakers are too far apart. With only two speakers in the system, the panning law is a simple graph which has become quite standardised over the years. Things get more complicated when panning over 2D or 3D speaker setups and methods for spatialising on multichannel systems are not really standardised yet. Many algorithms and standards have been advanced by the audio engineering industry, composers and
-academics. 
+academics.
 
 Essentially, when we start working with multiple speakers in different configurations, things get more complex for the panning algorithms - goals have also expanded over time, with spatial sound design able to reach beyond simple point source panning into fully immersive audio experiences that can be hyper-realistic or totally synthesised. Many practitioners will have their preferred methods, but really it is up to the spatial sound designer to choose methods that seems to give the best experience for the listener on any given type of setup. There's never been just one way to spatialise sound. And with a powerful system like Spat Revolution, panning methods can even be combined in novel ways to achieve high quality immersive audio experiences.
 
@@ -21,6 +21,8 @@ algorithms for sound material that has different sonic qualities.
 
 ## Vector Base Amplitude panning (VBAP)
 
+_!> VBAP is only avaible in the Ultimate version of _SPAT Revolution_.
+
 Vector Base Amplitude Panning has become one of the more standardised methods for multichannel spatialisation. It can reproduce on a 2D or 3D configuration. Its sound is characterised by clearly localisable virtual sound sources. Multiple moving or stationary sounds can be positioned in any direction over the speaker array using this method. In theory, VBAP can be used on an unlimited number of loudspeakers and can even be reliable on relatively asymmetric setups.
 
 **How does it work?**
@@ -31,7 +33,7 @@ Traditional VBAP works by manipulating the gain of the signals being routed to t
 > ★ Widen a VBAP point source by increasing the Spread source parameter.
 
 Three important dependencies to consider when using VBAP:
- 
+
  1. Speakers must be placed _around_ the listening position.
  2. Speakers ideally should be equidistant from the listening position*.
  3. 2D Speakers should be on the same horizontal plane as the ears.
@@ -42,6 +44,8 @@ speakers are equidistant even when they are not.
 
 ## Vector Base Intensity (VBIP)
 
+_!> VBIP is only avaible in the Ultimate version of _SPAT Revolution_.
+
 Vector Base Intensity Panning is a similar variation to the VBAP technique. It can also reproduce a 2D or 3D immersive sound field with sharply localised virtual sound sources.
 
 **How does it work?**
@@ -50,7 +54,7 @@ VBIP was designed to improve on VBAP when calculating the high-frequency (above 
 
 The same 4 dependencies mentioned for VBAP, also apply to VBIP. You will need to listen for quite a nuanced difference between these two panning algorithms. Try to compare how each panning type handles the higher frequency content of your material.
 
-## Dual Band Vector Based Panning (DualBandVBP)
+## Dual Band Vector Based Panning (VBP Dual-Band)
 
 Both Intensity and Amplitude Vector Based panning has an ideal frequency range of action:
 
@@ -91,11 +95,11 @@ DBAP localises sounds towards arbitrarily positioned speakers in a space using a
 
 ## K Nearest Neighbour (KNN)
 
-KNN is another panning type that does not depend on a sweet spot to be perceived correctly. It is a version of a 'Nearest-neighbour' interpolation algorithm. This family of algorithms are also used in the fields of complex systems, 3D graphics and network science to name a few. In Spat Revolution you can sonically explore a network of loudspeakers using this panning type and some virtual sound sources.
+KNN is another panning type that does not depend on a sweet spot to be perceived correctly. It is a version of a 'Nearest-neighbour' interpolation algorithm. This family of algorithms are also used in the fields of complex systems, 3D graphics and network science to name a few. In SPAT Revolution you can sonically explore a network of loudspeakers using this panning type and some virtual sound sources.
 
 **How does it work?**
 
-An interesting parameter of KNN is that the user gets manual control over one of the main coefficients in the underlying algorithm. The parameter is called _Nearest Neighbour Spreading_. It sets a maximum limit to the number of speakers that the algorithm can use as neighbours - the parameter becomes available as a continuously variable percentage _for each virtual source_ in a Spat room.
+An interesting parameter of KNN is that the user gets manual control over one of the main coefficients in the underlying algorithm. The parameter is called _Nearest Neighbour Spreading_. It sets a maximum limit to the number of speakers that the algorithm can use as neighbours - the parameter becomes available as a continuously variable percentage _for each virtual source_ in a SPAT room.
 
 ![](../include/SpatRevolution_UserGuide_-064.jpg)
 
@@ -105,6 +109,8 @@ What makes this particularly interesting is that different sources can activate 
 another source property of the same sound source such as room presence.
 
 ## Speaker-Placement Correction Amplitude (SPCAP)
+
+_!> SPCAP is only avaible in the Ultimate version of _SPAT Revolution_.
 
 SPCAP is a 3D panning algorithm which takes its inspiration from VBAP. SPCAP selects not just 2 or 3, but any number of speakers to render a virtual source and weights signal gains according to how much each selected speaker is actually contributing to the overall power output of the speaker configuration. Using this method SPCAP guarantees conservation of loudspeaker power output across any speaker arrangement. Its strengths lie in the down-mixing and up-mixing of virtual scenes from very different channel-based speaker arrangements, and of being able to render wider sound sources by using more speakers in a smart way.
 
@@ -120,6 +126,8 @@ mixes from one speaker configuration to another.
 
 ## Ambisonic Equivalent Panning (AEP)
 
+_!> AEP is only avaible in the Ultimate version of _SPAT Revolution_.
+
 In common with the channel based panning types we have covered so far, Ambisonics is a technology that also distributes virtual sound sources in space. Yet it achieves this in a fundamentally different way. Ambisonics relies on a two-steps process.
 
 1. **Encoding**
@@ -134,6 +142,8 @@ Keeping these two steps separate has a number of advantages. Primarily, that of 
 AEP has certain computational and ambisonic mixing advantages and exhibits very different behavior from the VBAP/VBIP pairwise approaches. It is up to you to decide whether to work with purely Ambisonic rooms (more about that in the later section) or to use AEP as a channel based panning law. Both approaches are valid and could be useful. As we have mentioned a few times already, the choice of panning type depends on what sounds best in the context of your material, your compositional goals and the acoustics of the system you are working with.
 
 ## Angular and PanR
+
+_!> PanR is only available in the Ultimate version of _SPAT Revolution_.
 
 These are legacy 2D pan pot laws from the original IRCAM Spat library. They only become available when using 2D channel based streams and are primarily included for backwards compatibility.
 
@@ -157,8 +167,8 @@ These two Panning Types will only become available when a _Virtual Room_ is set 
 
 ## Continuous Surround Panning (CSP)
 
-This Panning Type is available in _Virtual Room_ with 5.0 speakers arrangements. It optimizes the render into this arrangement, using circular harmonics. This leads to a continuous law, independently of the angle. 
+_!> CSP is only avaible in the Ultimate version of _SPAT Revolution_.
+
+This Panning Type is available in _Virtual Room_ with 5.0 speakers arrangements. It optimizes the render into this arrangement, using circular harmonics. This leads to a continuous law, independently of the angle.
 
 You can found more explanation about it in the [relative paper](http://www.music.mcgill.ca/marlonschumacher/wp-content/uploads/IMWI/literature/Spat1/Craven-Continuous_surround_panning_for_5-speaker_reproduction.pdf).
-
-

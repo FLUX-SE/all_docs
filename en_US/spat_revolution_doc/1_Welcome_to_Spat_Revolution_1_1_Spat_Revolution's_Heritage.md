@@ -1,4 +1,4 @@
-# Spat Revolution's Heritage
+# SPAT Revolution's Heritage
 
 > **Spat Revolution is underpinned by 30 years of**
 >

@@ -1,8 +1,8 @@
 # Source
 
-The next row transforms the inputs into virtual objects according to their configuration. This is what needs to happen so that a virtual Source appears in a virtual room. If you try to connect an input directly into a Room, Spat will always put a Source module in-between.
+The next row transforms the inputs into virtual objects according to their configuration. This is what needs to happen so that a virtual Source appears in a virtual room. If you try to connect an input directly into a Room, SPAT will always put a Source module in-between.
 
-The Source modules are where you set a descriptive Name of each virtual object. It's a good idea to do that, as things can get busy inside the Rooms. You can also adjust the overall gain of a Source here no matter how many channels it might have. The Source modules are also important for parameter automation using the _Spat Send_ plug-in, and also in the case of external OSC control.
+The Source modules are where you set a descriptive Name of each virtual object. It's a good idea to do that, as things can get busy inside the Rooms. You can also adjust the overall gain of a Source here no matter how many channels it might have. The Source modules are also important for parameter automation using the _SPAT Send_ plug-in, and also in the case of external OSC control.
 
 ![](include/SpatRevolution_UserGuide_-090.jpg)
 
@@ -12,7 +12,9 @@ External software needs to know how to identify virtual objects, and that will d
 
 ## Tracking
 
-Spat Revolution is able to receive data from RTTrPM open protocol tracking systems. Currently, BlackTrax™ is supported natively. BlackTrax™ is a vision-based system that connects to different third party applications, such as robotic lights, media servers and Spat Revolution.
+SPAT Revolution is able to receive data from RTTrPM open protocol tracking systems. This protocol is supported by BlackTrax™. BlackTrax™ is a vision-based system that connects to different third party applications, such as robotic lights, media servers and SPAT Revolution. OSC is the other very good method to use for tracking and various tracking system supports it natively.
+
+_!> RTTrPM protocol is only available with the Ultimate license of SPAT Revolution_.
 
 When you have correctly setup the BlackTrax protocol (see [BlackTrax Integration section](ThirdParty_BlackTrax.md)) then you can directly assign Tracking Index to virtual sources, and also to listener position (see [Listener position section](5_Spatialisation_Technology_5_4_Listener_Position.md)) for advanced virtual reality interactive audio projects.
 
@@ -37,7 +39,7 @@ Additionally, a _right click_ on a Source Index number will bring up some furthe
 
 ### Defaults
 
-A double-click on any Source Parameter dial will reset it to a Spat default setting. The default setting of a parameter is indicated around a dial as a larger tick than the other tick marks. Additionally, a range is graphically indicated between the default setting and the current setting of a variable parameter.
+A double-click on any Source Parameter dial will reset it to a SPAT default setting. The default setting of a parameter is indicated around a dial as a larger tick than the other tick marks. Additionally, a range is graphically indicated between the default setting and the current setting of a variable parameter.
 
 ![](include/SpatRevolution_UserGuide_-162.jpg)
 
@@ -61,7 +63,7 @@ When you have selected an ad-hoc group using the shift-click technique, you can 
 
 ![](include/SpatRevolution_UserGuide_-166.jpg)
 
-Any Source Parameter variables you adjust manually will assign that same setting on all selected sources in the group. A barycentric will then become practical to work from a center of mass perspective. For example, transformations like scaling, distance, rotation and directivity of the group is managed by Spat controlling each member of the group a barycentric relationship. Consider referring to section [Barycentric groups](6_Spat_Environment_6_8_Barycentric_Groups_in_Rooms.md) about groups in Rooms to read more about how they are represented.
+Any Source Parameter variables you adjust manually will assign that same setting on all selected sources in the group. A barycentric will then become practical to work from a center of mass perspective. For example, transformations like scaling, distance, rotation and directivity of the group is managed by SPAT controlling each member of the group a barycentric relationship. Consider referring to section [Barycentric groups](6_Spat_Environment_6_8_Barycentric_Groups_in_Rooms.md) about groups in Rooms to read more about how they are represented.
 
 ### Smart Property Filter
 
@@ -100,7 +102,7 @@ Prominence of the reverberation with respect to the source, or in other words, h
 
 **Running Reverberance**
 
-This parameter controls the amount of perceived reverb when feeding a continuous music message, where the overall sound is a tight blend of the dry and wet signals and the reverb part cannot be mentally separated. It is linked to the early reflections decay time of the Spat Revolution Reverb engine. Note: this setting is not the same as the ‘reverberance’ in the _Reverb Properties_.
+This parameter controls the amount of perceived reverb when feeding a continuous music message, where the overall sound is a tight blend of the dry and wet signals and the reverb part cannot be mentally separated. It is linked to the early reflections decay time of the SPAT Revolution Reverb engine. Note: this setting is not the same as the ‘reverberance’ in the _Reverb Properties_.
 
 **Envelopment**
 
@@ -221,7 +223,7 @@ Finally, there are some options available for each source.
 
 **Doppler**
 
-The Doppler effect is a well-known wave propagation phenomenon where the height of a sound perceived from a listener standpoint rises when the source is accelerating, and falls when decelerating. This is the fire siren pitch going up then down when passing you. It will only be heard if you rapidly move the sources locations quite fast, but thanks to the virtual nature of the Spat, you can bypass Physics’ laws and manually inhibit it using this switch, should it be unsuitable for the particular application you are dealing with.
+The Doppler effect is a well-known wave propagation phenomenon where the height of a sound perceived from a listener standpoint rises when the source is accelerating, and falls when decelerating. This is the fire siren pitch going up then down when passing you. It will only be heard if you rapidly move the sources locations quite fast, but thanks to the virtual nature of the SPAT, you can bypass Physics’ laws and manually inhibit it using this switch, should it be unsuitable for the particular application you are dealing with.
 
 **Air Absorption**
 

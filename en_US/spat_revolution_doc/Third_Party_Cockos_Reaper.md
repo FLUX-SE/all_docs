@@ -3,20 +3,20 @@
 Reaper, a DAW developed by Cockos, is a reliable, fully-featured  and highly customisable digital audio workstation. 
 It is available to evaluate freely from https://www.reaper.fm/. 
 Many composers and designers working in spatial audio use Reaper because it is very good at handling multichannel interleaved audio (up to 64 channel WAV) and has a straightforward approach to routing. 
-It also features a great automation system which is important for precise composition in Spat, has native OSC support for navigation, transport and more. 
-It is one the most complete flexible DAW regarding immersive sound production.
+It also features a great automation system which is important for precise composition in SPAT, has native OSC support for navigation, transport and more. 
+It is one of the most complete flexible DAW regarding immersive sound production.
 
 
-Reaper seems to integrate well with the Spat Plug-ins and the Local Audio Path workflow described in section **[Spat PI : Local audio path](7_SPAT_Plugins_7_3_DAW_Automation_-_Local_Audio_Path.md)**.
+Reaper seems to integrate well with the SPAT plug-ins and the Local Audio Path workflow described in section **[SPAT PI : Local audio path](7_SPAT_Plugins_7_3_DAW_Automation_-_Local_Audio_Path.md)**.
 
 If you are using the Local Audio Path, it is also recommended reviewing the **[Appendix B - Troubleshooting](Appendix_B.md)** of this guide.
 
 ## Templates 
 
 New recent templates are available for use with Reaper. 
-They are start sessions and can be used as examples to see how to integrate Spat Revolution using the Spat plugin suite SEND, RETURN and ROOM.
+They are start sessions and can be used as examples to see how to integrate SPAT Revolution using the SPAT plugin suite SEND, RETURN and ROOM.
 
-A tutorial on **[How to set up Spat Revolution with Reaper](https://youtu.be/XRhO-FJm2KU)** is available here for a quick dive into this integration.
+A tutorial on **[How to set up SPAT Revolution with Reaper](https://youtu.be/XRhO-FJm2KU)** is available here for a quick dive into this integration.
 
 You can download the following session templates:
 
@@ -36,17 +36,17 @@ Following are information on ReaVolution customization package, the details for 
 ## ReaVolution
 
 Release in 20.12 is ReaVolution. 
-ReaVolution is an attempt to provide a customization to Reaper standard configuration in order to simplify its integration to Spat Revolution and provide a complete simple immersive audio creation package.
+ReaVolution is an attempt to provide a customization to Reaper standard configuration in order to simplify its integration to SPAT Revolution and provide a complete simple immersive audio creation package.
 
-The ReaVolution package includes macros (scripts), customized toolbars,  system behaviour preference enhancements and makes the integration of Spat Revolution to Reaper a charm.
+The ReaVolution package includes macros (scripts), customized toolbars, system behaviour preference enhancements and makes the integration of SPAT Revolution to Reaper a charm.
 
 Please follow this link for more information on [ReaVolution](Third_Party_ReaVolution.md).
 
 
 ## Setting Up Sync
 
-As described in section **[Spat PI : Local audio path](7_SPAT_Plugins_7_3_DAW_Automation_-_Local_Audio_Path.md)**, when you are using the Local Audio path, the buffer size and sample rate must be matched in both Spat Revolution and Reaper. 
-In Spat, you set this in the preferences and in Reaper in the Audio Device preferences.
+As described in section **[SPAT PI : Local audio path](7_SPAT_Plugins_7_3_DAW_Automation_-_Local_Audio_Path.md)**, when you are using the Local Audio path, the buffer size and sample rate must be matched in both SPAT Revolution and Reaper. 
+In SPAT, you set this in the preferences and in Reaper in the Audio Device preferences.
 
 ![](include/SpatRevolution_UserGuide_-233.jpg)
 
@@ -56,44 +56,47 @@ It is a good idea to work with Track Folder structure for your organisation.
 
 ![](include/SpatRevolution_UserGuide_-235.jpg)
 
-In the above screenshot, the B-Format Master has been set to be a Folder Parent with 4-Track Channel. Reaper channel routing is set on a track by track basis, using the _TrackIO Route_ button of each Track. All the Child tracks that route to the Parent can be assigned to one of the four receiving channels on the Parent track. In this example, the W is assigned to Track 1 by setting the track Pan to the left and routing to Parent Channels 1-2. Similarly, the X to Track 2 ( setting the track Pan to the right ). The Y Track is assigned to Parent Channels 3-4 and hard panned left and so on.
+In the above screenshot, the B-Format Master has been set to be a Folder Parent with 4-Track Channel. 
+Reaper channel routing is set on a track by track basis, using the _TrackIO Route_ button of each Track. 
+All the Child tracks that route to the parent can be assigned to one of the four receiving channels on the Parent track. 
+In this example, the W is assigned to Track 1 by setting the track Pan to the left and routing to parent Channels 1-2. Similarly, the X to Track 2 ( setting the track Pan to the right ). 
+The Y Track is assigned to Parent Channels 3-4 and hard panned left and so on.
 
 Alternatively, an interleaved 4-channel audio file (B-Format audio in this example) can be placed on one Child Track, which has been specified to have 4 channels.
 
 
 ![](include/SpatRevolution_UserGuide_-237.jpg)
 
-Now different interleaved files in the same format can overlap and be composed
-on the same Track, and they will be summed to the Folder track, and therefore to same virtual source/object in Spat. 
+Now different interleaved files in the same format can overlap and be composed on the same Track, and they will be summed to the Folder track, and therefore to the same virtual source/object in SPAT. 
 All automation for that source should happen in the Envelope Lanes of the Parent Folder track.
 
 
-## Setting up Spat SEND
+## Setting up SPAT SEND
 
 ![](include/SpatRevolution_UserGuide_-239.jpg)
 
-Simply insert the Spat SEND plug-in on a Parent Track. 
-This means that as the composition grows, you may have multiple Child tracks sending different audio material to the same virtual source/object in Spat, through one SEND plug-in on the Parent Folder Track.
+Simply insert the SPAT SEND plug-in on a Parent Track. 
+This means that as the composition grows, you may have multiple Child tracks sending different audio material to the same virtual source/object in SPAT, through one SEND plug-in on the Parent Folder Track.
 
 This is the least complicated way to build up a large project because the automation for the spatialization is managed in one place even though source material may be different at different stages of the composition. 
-It is maybe not always necessary to have a different Spat SEND source/objects for every single audio file. 
-The source automation can change in the envelope lanes of the Parent Folder, making it so that one Spat SEND is shared by child tracks with the same format. 
+It is maybe not always necessary to have a different SPAT SEND source/objects for every single audio file. 
+The source automation can change in the envelope lanes of the Parent Folder, making it so that one SPAT SEND is shared by child tracks with the same format. 
 This will make more sense in practice.
 
-Check the number of channels streamed between plug-in and Spat. 
+Check the number of channels streamed between plug-in and SPAT. 
 Press on the little COG wheel icon at the top corner of the SEND plug-in to open the plug-in preference menu. 
-The Spat _IO Config_ should have inherited the Channel count of the Track, which you have specified in the _TrackIO_ of the Reaper Track.
+The SPAT _IO Config_ should have inherited the Channel count of the Track, which you have specified in the _TrackIO_ of the Reaper Track.
 
 In the main page, enable **Local Audio Path**. 
-If all is well, you will see the SEND appear as an input at the top of the setup environment in your Spat Revolution application. 
-If you do not see it, you can try clicking on _Get send/return_ on the top actions or in *Setup/Pipes/Get send return* to force Spat to look for virtual IO.
+If all is well, you will see the SEND appear as an input at the top of the setup environment in your SPAT Revolution application. 
+If you do not see it, you can try clicking on _Get send/return_ on the top actions or in *Setup/Pipes/Get send return* to force SPAT to look for virtual IO.
 
 
 ![](include/SpatRevolution_UserGuide_-241.jpg)
 
-In the above screenshot, the Orange ' _BFormat_ ' Send input is the one being routed
-by the SEND plug on the Parent Track on the previous example. 
-At first, it will appear in Spat as a Channel Based input by default - in this case it appeared as a 4.0 QUAD. If dealing with ambisonic 1st order such as AmbiX or B-Format, The input stream type in Spat needs tobe assigned manually.
+In the above screenshot, the Orange ' _BFormat_ ' Send input is the one being routed by the SEND plug on the Parent Track on the previous example. 
+At first, it will appear in SPAT as a Channel Based input by default - in this case it appeared as a 4.0 QUAD. 
+If dealing with ambisonic 1st order such as AmbiX or B-Format, the input stream type in SPAT needs tobe assigned manually.
 
 ## Optimization 
 
@@ -118,7 +121,7 @@ Here the B-Format source is being introduced from a distance automating _Apertur
 
 ![](include/SpatRevolution_UserGuide_-249.jpg)
 
-In the Spat HOA Room, we see the B-Format source (transcoded into an _Auro3D virtual speaker configuration_ in this example) fly gradually into the scene with the whole sound field transforming slowly as it comes over.
+In the SPAT HOA Room, we see the B-Format source (transcoded into an _Auro3D virtual speaker configuration_ in this example) fly gradually into the scene with the whole sound field transforming slowly as it comes over.
 
 ## Setting up controllers and LFO
 
@@ -127,15 +130,13 @@ This is a great way to control source properties like _Azimuth_ or _Yaw_ using e
 
 ![](include/SpatRevolution_UserGuide_-251.jpg)
 
-In the Automation parameter list for Spat SEND just click on the LEARN... button to
-manually assign an external controller that you have set up in the Reaper Controller
-preferences.
+In the Automation parameter list for SPAT SEND just click on the <code>LEARN...</code> button to manually assign an external controller that you have set up in the Reaper Controller preferences.
 
 From this page by clicking on the MOD... button of an automatable parameter, it is also possible to animate sources with independent LFOs that run all the time in the background, quick and dirty way to spatialise live inputs sources with autopan type effects for example.
 
 ![](include/SpatRevolution_UserGuide_-253.jpg)
 
-## Setting up Spat RETURN.
+## Setting up SPAT RETURN.
 
 Now, to render the scene from the multi-channel room output to disk as an interleaved 3rd Order HOA, for example, we need to add a RETURN plug-in. 
 We can calculate that 3HOA3D needs 16 channels.
@@ -144,13 +145,13 @@ We can calculate that 3HOA3D needs 16 channels.
 
 First of all set up a Track in Reaper that can handle 16 channels at once. 
 Then add a
-Spat RETURN plug-in on this track. 
-It should automatically inherit the channel count, if not do it manually using the IO config of the plug-in, available from the little cog wheel in the top corner of Spat RETURN.
+SPAT RETURN plug-in on this track. 
+It should automatically inherit the channel count, if not do it manually using the IO config of the plug-in, available from the little cog wheel in the top corner of SPAT RETURN.
 
 ![](include/SpatRevolution_UserGuide_-257.jpg)
 
-Enable the Local Audio Path: you should see a Return output module appear in
-the Spat Setup Environment. Connecting it to the 3HOA3D stream output from the Room (or Rooms in a mixer/transcoder) and it should inherit the format.
+Enable the Local Audio Path: you should see a Return output module appear in the SPAT Setup Environment.
+Connecting it to the 3HOA3D stream output from the Room (or Rooms in a mixer/transcoder) and it should inherit the format.
 
 ![](include/SpatRevolution_UserGuide_-259.jpg)
 
@@ -158,18 +159,15 @@ the Spat Setup Environment. Connecting it to the 3HOA3D stream output from the R
 
 To do this, it is necessary to make Reaper record the software OUTPUT of the audio track:
 
-- the audio coming into the Track is a virtual audio path through the Spat RETURN
-plug-in, so it will _not_ appear at the _Inputs_ list of the Track. 
+- the audio coming into the Track is a virtual audio path through the SPAT RETURN plug-in, so it will _not_ appear at the _Inputs_ list of the Track. 
 Right click on the record arm button on the track, and the Track record contextual menu will appear.
 
 ![](include/SpatRevolution_UserGuide_-261.jpg)
 
-Arm the track to record, press play and render the scene to a 3HOA3D interleaved
-16-channel WAV file (avoid using FLAC for higher than 8 channels). 
+Arm the track to record, press play and render the scene to a 3HOA3D interleaved 16-channel WAV file (avoid using FLAC for higher than 8 channels). 
 This is done in realtime.
 
 ![](include/SpatRevolution_UserGuide_-263.png)
 
-The same process can be followed to render any Channel Based or other stream
-type from Spat Revolution to disk for further composition, mastering or final delivery.
+The same process can be followed to render any Channel Based or other stream type from SPAT Revolution to disk for further composition, mastering or final delivery.
 

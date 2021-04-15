@@ -1,10 +1,12 @@
 # Room
 
-In Spat Revolution, spatialisation of virtual sources takes places inside _Virtual Rooms_. To enter a Room and open its graphic editor environment, double-click on a Virtual Room module in the Setup graph, or select a room tab from the Navigation bar.
+In SPAT Revolution, spatialisation of virtual sources takes places inside _Virtual Rooms_. To enter a Room and open its graphic editor environment, double-click on a Virtual Room module in the Setup graph, or select a room tab from the Navigation bar.
 
 ![](include/SpatRevolution_UserGuide_-092.jpg)
 
-The first thing to notice is that we can add any number of Rooms. In the screenshot above, two HOA 3D rooms are being used, each with differently designed acoustics. There is plenty of flexibility built into Spat Revolution, in order to encompass different workflow ideas or experimental approaches. For example, the same virtual sources may be assigned into multiple rooms, with multiple end destinations. Or as in the screenshot above, virtual sources might exist in different spaces, that get summed together.
+The first thing to notice is that we can add any number of Rooms. In the screenshot above, two HOA 3D rooms are being used, each with differently designed acoustics. There is plenty of flexibility built into SPAT Revolution, in order to encompass different workflow ideas or experimental approaches. For example, the same virtual sources may be assigned into multiple rooms, with multiple end destinations. Or as in the screenshot above, virtual sources might exist in different spaces, that get summed together.
+
+_!> Multiple room is only available with the Ultimate license of SPAT Revolution_.
 
 When we enter a Virtual Room, we will see the 3D positionable editor. All connected virtual sources will appear on the 3D scene render. On the left side panel of the room editor, you get a list representation of each source with its Index identification number. We can click on the Index number of each source, and the _[source parameters](6_Spat_Environment_6_6_Source_6_6_Source?id=source-parameters.md)_ editor for that virtual source will appear.
 
@@ -19,13 +21,13 @@ Mutes and Solos are manageable for all sources and for the entire room output fr
 
 ## Room Graphic Engine
 
-Along with the audio modelling engine, one of Spat's key features is its ability to model a high definition graphical representation of the virtual space inside each Room. We can intuitively interact and move sources and 'camera view' directly with our mouse. Move a source by grabbing its 'emitter' object or in the case of a grouped source grab any one of the emitters that belong to the group. Alternatively, sources can be positioned by manipulating their coordinate related source parameter controls (see [ Radiation section](6_Spat_Environment_6_6_Source_6_6_Source?id=radiation)).
+Along with the audio modelling engine, one of SPAT's key features is its ability to model a high definition graphical representation of the virtual space inside each Room. We can intuitively interact and move sources and 'camera view' directly with our mouse. Move a source by grabbing its 'emitter' object or in the case of a grouped source grab any one of the emitters that belong to the group. Alternatively, sources can be positioned by manipulating their coordinate related source parameter controls (see [ Radiation section](6_Spat_Environment_6_6_Source_6_6_Source?id=radiation)).
 
 ![](include/SpatRevolution_UserGuide_-096.jpg)
 
 ## Room 3D View
 
-The camera angle of the 3D scene can be moved continuously using a **controldrag** mouse or trackpad gesture applied directly onto the Room view. This will reposition the camera. A _forwards and backwards scroll_ on the mouse or trackpad will zoom the camera in and out of the scene. We can also move the 3D view with <code>Shift</code> and a **controldrag** mouse. Furthermore, a change (or resetting) of view orientation can be selected from the _View_ pull down menu, to show 'Top/Down' view of the scene. 
+The camera angle of the 3D scene can be moved continuously using a **controldrag** mouse or trackpad gesture applied directly onto the Room view. This will reposition the camera. A _forwards and backwards scroll_ on the mouse or trackpad will zoom the camera in and out of the scene. We can also move the 3D view with <code>Shift</code> and a **controldrag** mouse. Furthermore, a change (or resetting) of view orientation can be selected from the _View_ pull down menu, to show 'Top/Down' view of the scene.
 
 ![](include/SpatRevolution_UserGuide_-098.jpg)
 
@@ -73,11 +75,14 @@ Additionally, the powerful _Nebula Spatial Spectrogram_ is highly dependent on t
 
 _Nebula_ is a technology adapted from our flagship **FLUX:: Analyzer System**, a suite of highly regarded professional mastering and mixing visualisation tools.
 
+_!> Nebula Technology is only available with the Ultimate license of SPAT Revolution_.
+
+
 ![](include/SpatRevolution_UserGuide_-100.jpg)
 
 > Screenshot from a Flux Pure Analyzer session.
 
-**Nebula** in Spat Revolution provides a unique representation of the sound field in terms of spectral content and localisation rendered directly inside the 3D speaker simulation and virtual room display. It combines the functionality of a spectrum analyser and a vector scope in a novel real-time display. It is a useful tool to get a realtime overview of your spatial mix in terms of spectral-spatial diffusion, and can give quite accurate representations of 'where' and 'how' sound will manifest over a real world sound system. A lot of work has gone into optimising the real-time rendering of the display, not solely for aesthetic reasons, but because we wanted the display to react instantly to all the details in the incoming multichannel audio. The idea is literally for you to be able to see what the listener will hear and feel.
+**Nebula** in Spat Revolution provides a unique representation of the sound field in terms of spectral content and localisation rendered directly inside the 3D speaker simulation and virtual room display. It combines the functionality of a spectrum analyser and a vector scope in a novel real-time display. It is a useful tool to get a realtime overview of your SPATial mix in terms of spectral-spatial diffusion, and can give quite accurate representations of 'where' and 'how' sound will manifest over a real world sound system. A lot of work has gone into optimising the real-time rendering of the display, not solely for aesthetic reasons, but because we wanted the display to react instantly to all the details in the incoming multichannel audio. The idea is literally for you to be able to see what the listener will hear and feel.
 
 **How does it work?**
 
@@ -145,7 +150,7 @@ When a Virtual Room is set to be Channel Based / Stereo, it will model a stereo 
 
 ![](include/SpatRevolution_UserGuide_-114.jpg)
 
-You will notice how the Spat Reverberation handles the stereo image naturally, because it is modelling the entire mix scene in the acoustic context of a Virtual Room, rather than the conventional 'voltage controlled' left-right pan pot that all audio mixers offer for stereo mixing.
+You will notice how the SPAT Reverberation handles the stereo image naturally, because it is modelling the entire mix scene in the acoustic context of a Virtual Room, rather than the conventional 'voltage controlled' left-right pan pot that all audio mixers offer for stereo mixing.
 
 This method of working in a stereo Room invites a different approach to stereo panorama source mixing in the studio or on twin stack PA systems. It can also be a way to down mix from a surround format to stereo by simulating the speaker configuration and 'recording' it in stereo.
 
@@ -153,7 +158,7 @@ One final thing to note when working in an Ambisonic room, rather than a channel
 
 ## Binaural Room
 
-The Binaural Monitoring module is great for easy channel based system monitoring. But it is not the best binaural experience we can provide with Spat Revolution. The best way to work with binaural encoding in Spat Revolution is to use a _Virtual Room_ which is binaurally encoding each virtual source at its exact position in a virtual space, with _Artificial Reverberation_ but without modelling any virtual speakers. In fact, in a Binaural Room the only diffusion factor in the modelling is the _[HRTF](5_Spatialisation_Technology_5_1_Binaural_5_1_Binaural?id=hrtf.md)_.
+The Binaural Monitoring module is great for easy channel based system monitoring. But it is not the best binaural experience we can provide with SPAT Revolution. The best way to work with binaural encoding in SPAT Revolution is to use a _Virtual Room_ which is binaurally encoding each virtual source at its exact position in a virtual space, with _Artificial Reverberation_ but without modelling any virtual speakers. In fact, in a Binaural Room the only diffusion factor in the modelling is the _[HRTF](5_Spatialisation_Technology_5_1_Binaural_5_1_Binaural?id=hrtf.md)_.
 
 Each source's direct sound plus the reverberation it creates are modelled and synthesised binaurally for _each individual source_. This advanced processing can result in an excellent binaural experience; more precise and natural sounding than using the Binaural Monitoring module to listen to a virtualised Channel Based rendering. It is the preferred method to use when rendering Binaural content. <!-- to disk. To do that, you simply need to connect the binaural stream from the room directly to a (stereo) SPAT Return path back to your DAW. You could record and listen to a Binaural Room by using two output modules, one to the recording route, and one to a headphone output. -->
 
@@ -165,7 +170,9 @@ Each source's direct sound plus the reverberation it creates are modelled and sy
 
 One of the most straightforward methods to start working with HOA spatialisation in a signal flow is to connect input sources directly into an HOA Room. To convert a Room to be HOA, select High Order Ambisonics as the _Output Configuration Stream Type_.
 
-All inputs to a Room must be in some kind of Channel Based format, even when it is an Ambisonic or Binaural Room. <!--That is the workflow at the time of writing (Spat Revolution v1.1).--> This makes most intuitive sense, when using Ambisonic format inputs as pre-encoded "3D sound field" type inputs into a room. You cannot just add them into an HOA room, even though they may be HOA format. Why is that?
+_!> HOA advanced features are only available with the Ultimate license of SPAT Revolution_.
+
+All inputs to a Room must be in some kind of Channel Based format, even when it is an Ambisonic or Binaural Room. <!--That is the workflow at the time of writing (SPAT Revolution v1.1).--> This makes most intuitive sense, when using Ambisonic format inputs as pre-encoded "3D sound field" type inputs into a room. You cannot just add them into an HOA room, even though they may be HOA format. Why is that?
 
 This is because Ambisonic audio always needs to be _decoded_ into a channel based format to hear the spatialised audio on speakers (as we have mentioned a few times already). And so in a virtual room, an Ambisonic source needs to be decoded to a _virtual_ speaker configuration. The choice of what virtual speaker configuration you decode the Ambisonic audio to will influence the way the source's direct signals will sound and its sound will be altered by the way it interacts with the Virtual Room Acoustics. If it is a 1st or 2nd Order B-Format source, then a Cube configuration for 3D or an Octaphonic for 2D is usually a good choice. The important thing to keep in mind, is that a higher order of Ambisonic encoding, will sound more accurate on a higher density channel-based configuration - and if the source Ambisonic encoding is 3D, then you really should choose a 3D type of channel configuration.
 
@@ -198,5 +205,7 @@ This is a First Order Ambisonic (FOA) room which is correctly suited for mixing 
 
 
 ## Mid-Side Room
+
+_!> Mid-Side option is only available with the Ultimate license of SPAT Revolution_.
 
 Similarly, if you are working with two-channel signals already encoded as MS format stereo, you can mix in an MS room. The outputs of MS rooms need to be decoded or transcoded into a suitable stereo format for reproduction on a stereo system.

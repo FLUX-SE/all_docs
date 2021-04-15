@@ -1,4 +1,4 @@
-# Spat Revolution - Credits
+# SPAT Revolution - Credits
 
 ## Version 20.12.0
 
@@ -113,9 +113,9 @@ Gaël Martinet
 ### Published by FLUX:: SE
 ```
 FLUX SOFTWARE ENGINEERING
-Orléans, France, 
+Orléans, France,
 http://www.flux.audio
-Copyright 2020 FLUX SOFTWARE ENGINEERING, 
+Copyright 2020 FLUX SOFTWARE ENGINEERING,
 All Rights Reserved.
 ```
 `

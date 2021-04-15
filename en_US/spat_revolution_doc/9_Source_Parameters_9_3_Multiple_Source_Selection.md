@@ -1,10 +1,8 @@
 # 9.3 Multiple Source Selection
 
-You can shift-click on the Index number of separate Sources to create an ad-hoc
-edit group. When you have group Sources in this way, you can perform a number
-of group edit actions.
-When you Right Click on an ad-hoc group selection a menu will pop up where
-you can:
+You can shift-click on the Index number of separate Sources to create an ad-hoc edit group. 
+When you have group Sources in this way, you can perform a number of group edit actions.
+When you Right Click on an ad-hoc group selection a menu will pop up where you can:
 
 - distribute the sources in the group evenly in a circle spread
 - generate different colours for the sources

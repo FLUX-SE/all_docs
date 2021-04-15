@@ -1,6 +1,6 @@
 # Input Transcoder
 
-Spat Revolution can handle many different formats of multichannel audio throughout the signal flow, as we have been pointing out. As we approach the actual virtualisation of inputs into object based audio sources in the Spat _Virtual Rooms_ it may be necessary to change from the original input format to another. You use the Input Transcoder module and its parameters to do this.
+SPAT Revolution can handle many different formats of multichannel audio throughout the signal flow, as we have been pointing out. As we approach the actual virtualisation of inputs into object based audio sources in the SPAT _Virtual Rooms_ it may be necessary to change from the original input format to another. You use the Input Transcoder module and its parameters to do this.
 
 ![](include/SpatRevolution_UserGuide_-084.jpg)
 
@@ -15,7 +15,7 @@ In the case where an incoming Channel Based stream needs transcoding into an out
 
 ## When to Transcode Inputs?
 
-The main reason you will need to transcode inputs is when you are mixing and spatialising inputs in a Spat _Virtual Room_. This is because the _Virtual Room_ module requires incoming sources to be in a Channel Based format. Internally, the Room may well be panning in Channel based, Ambisonics or binaural format, but it always needs Channel Based streams as inputs. More about this in the _Virtual Room_ section. Format transcoding may not always need re-spatialising in a Room. There are some contexts where you will not use a Virtual Room in the signal flow,
+The main reason you will need to transcode inputs is when you are mixing and spatialising inputs in a SPAT _Virtual Room_. This is because the _Virtual Room_ module requires incoming sources to be in a Channel Based format. Internally, the Room may well be panning in Channel based, Ambisonics or binaural format, but it always needs Channel Based streams as inputs. More about this in the _Virtual Room_ section. Format transcoding may not always need re-spatialising in a Room. There are some contexts where you will not use a Virtual Room in the signal flow,
 
 ![](include/SpatRevolution_UserGuide_-088.jpg)
 

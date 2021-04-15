@@ -1,41 +1,48 @@
 # Release Notes
+## SPAT Revolution Application
 
-### Spat Revolution 20.12
+### Build 21.4.0.xxxx
 
-#### Build 49943
+**Features**
+**Optimization**
+**Bug Fixes**
 
+
+
+### Build 20.12.0.49943
+
+**Optimization**
 * Add IO overload Detection + auto mute + reset button
-* Spat Send (software) input sync error detection optimization
+* SPAT Send (software) input sync error detection optimization
 * Audio processing optimizations
 
-#### Build 49890
 
-## Major Additions
+##3 Build 20.12.0.49890
 
-
+**Major Additions**
 
 * New MultiCore parallel processing algorithm.
 	* A new preference option to select various engine processing profile.
 * Stability improvements (hardening)  with all latest operating systems (OS).
-* Spat Plug-ins (Local Audio LAP - AudioPipe) hardening and  improvement against host applications and OS.
+* SPAT Plug-ins (Local Audio LAP - AudioPipe) hardening and  improvement against host applications and OS.
 * Catalina, Big Sur and Apple notarization official support.
-* New built in error reporting tools for Spat Revolution.
-	* In Spat preferences, you can enable or disable sending anonymously of software data error to FLUX::. This  application monitoring tools helps track developer errors for better  diagnostic, fixes and performance optimization.
+* New built in error reporting tools for SPAT Revolution.
+	* In SPAT preferences, you can enable or disable sending anonymously of software data error to FLUX::. This  application monitoring tools helps track developer errors for better  diagnostic, fixes and performance optimization.
 * New V20.12 release (new versioning system), now including 1 year of support and upgrade with perpetual license purchase.
-* Added 23 reverb presets imported from IRCAM Verb and the Spat v3 plugin.
+* Added 23 reverb presets imported from IRCAM Verb and the SPAT v3 plugin.
 * New Drag and Move + Drag and Connect module feature.
 	* Drag any modules to move before or after any module of same type.
 	* Drag a drop module into module to connect output to input.
 * Support for the IRCAM ADMix/SPAT and Meyer SpaceMap Go OSC Grammar on input.
-	* You can now play ADM Master  (Audio definition model) files containing audio and object metadata  with the[ ADMix player]((https://forum.ircam.fr/projects/detail/admix/)) playback and receive metadata as OSC data in Spat
+	* You can now play ADM Master  (Audio definition model) files containing audio and object metadata  with the[ ADMix player]((https://forum.ircam.fr/projects/detail/admix/)) playback and receive metadata as OSC data in SPAT
 * New Apple and Windows menu and shortcuts
-	* Spat Revolution now includes the standard Apple and Windows menu bar for new and added software action.
+	* SPAT Revolution now includes the standard Apple and Windows menu bar for new and added software action.
 	*  New shortcut options
 * New input naming pages for bulk renaming
 * Multi-Selecting input blocks and pressing Alt + N
 * Setup wizards;
 	* Available by pressing Alt + N or in the Setup menu.
-* New Import and Export Spat preferences.
+* New Import and Export SPAT preferences.
 	* System to System, to back up your preferences.
 * Basic snapshot system implementation;
 	* snapshots can now be generated, recalled (with interpolation - crossfade option) , deleted or renamed.
@@ -59,10 +66,10 @@
 * ADMPlayer compatibility (currently no scale)
 * Meyer Sound - Spacemap Go - OSC Grammar support (input only)
 
-## Major optimizations
+**Major optimizations**
 
 * Open GL fix for Mac Mini (Anti-Alias)
-* Spat Plug-ins (LAP - AudioPipe) hardening and improvement against host App.
+* SPAT Plug-ins (LAP - AudioPipe) hardening and improvement against host App.
 * Now supporting third party OSC devices without Auto-bundle feature
 * ADM-OSC Format support.
 * Retina display enhanced support
@@ -70,9 +77,9 @@
 * New Binaural Options - Nearfield, Spherical Head, Snowman Model - (Not using HRTF for some???)
 * Per speaker channel mute option in room
 * Shift drag to move 3D scene
-* Install templates with PI format for Spat.
+* Install templates with PI format for SPAT.
 
-## Other Improvements
+**Other Improvements**
 
 * BackGround - Set Background Offset Step to centimetres  
 * Display Performances (CPU) measurements help option
@@ -97,15 +104,7 @@
 * Rebuild GUI without reloading session
 
 
-
-## Bug fixes
-
-### Spat Revolution Fixes 20.12
-
-
-#### Build 49943
-
-**Fixes;**
+**Bug Fixes:**
 
 * Creating Snapshot freeze on Mac OS X.
 * Rename snapshot dialog not correctly initialized ; especially on retina display
@@ -118,9 +117,9 @@
 * Crash on connecting HOA order 7 input to source multiple time.
 
 
-#### Build 49930
+### Build 20.12.0.49930
 
-**Fixes;**
+**Bug Fixes:**
 
 * Solved freezing issue on Windows computers.
 * Drop-down menu stuck
@@ -130,18 +129,18 @@
 
 
 
-#### Build 49890
+### Build 20.12.0.49890
 
-**Fixes;**
+**Bug Fixes:**
 
 
 * Crash when "Max Number of cores" is 1
 * Crash when build setup without any sources and with Audio Device enabled
 
 
-#### Build 49880
+### Build 20.12.0.49880
 
-**Fixes;**
+**Bug Fixes:**
 
 Core:
 
@@ -190,12 +189,13 @@ Various:
 * Fix opening session with non-ASCII characters
 
 
----
+--
 
-### Spat Plug-ins fixes
-#### Build 49880
+## SPAT Plug-in suite
 
-**Fixes;**
+### Build 20.12.0.49880
+
+**Bug Fixes:**
 
 * Fix stability issue with LAP
 * Room PI - Fix automation in VST
@@ -206,25 +206,18 @@ Various:
 * VST - Fix latency compensation issue
 * AU - Fix automation
 * Ableton Live - Fix automation parameter not listed
-* Logic Pro X - Fix automation issues from Spat
+* Logic Pro X - Fix automation issues from SPAT
 * Fix DXD Block-size mismatch
 * AAX DSP Version no longer supported
 
 
 ## Known Issues
-### Build 49943
 
-* Writing automation on DAW via SPAT Send PI doesn't work for AED coming from external OSC or  snapshot recall  (interpolation)
+* LAP with AAX 96K synchronization issue.
+* OSC -1 index doesn't work with Polar /aed.
+* Record OSC message and snapshot interpolation via Local Audio Path automation is not working.
 * Shortcuts with Alt doesn't work on Windows 10.
 * Only the first LFE receives LFE send.
 * No direct sound with Spherical Head binaural and Snowman binaural
-* 3D View - Output meters can display only 50 channels
-* [HOA] Crash on transcoding B-Format 2D to HOA3D
-* [OSC] OSC message "/master/[index]/dump" do not work
-* [OSC] No OSC control for reverb modal density
-* [OSC] -1 index doesn't work with Polar /aed.
-* [PI] LAP with AAX 96K can face synchronization issue.
-* [PI] SPAT Send Solo parameter is broken in LAP or OSC
-* [PI] Enable Reverb Automation not working
-* [PI-VST]Closing Nuendo and Ableton Live session with SPAT PI can crash application.
-* [PI-VST] Merging Technologies Ovation / Pyramix with loading issues
+* Crash on transcoding B-Format 2D to HOA3D
+* Closing Nuendo and Ableton Live session with SPAT PI crashed application. (VST Plug-ins)
