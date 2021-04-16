@@ -1,11 +1,65 @@
 # Release Notes
 ## SPAT Revolution Application
 
-### Build 21.4.0.xxxx
+### Build 21.4.0.50020
 
 **Features**
-**Optimization**
+- New software licenses support for SPAT Revolution Essential (1 activation) and SPAT Revolution Ultimate Bundle (2 activations)
+- Ability now to disable the behaviour of source/object moving over listener head when entering the spherical protection (radius) zone instead
+- New per room spherical protection zone (width parameter),
+- Spherical protection zone following the listener position
+- New distance scaling per room parameter for source-object  automation, OSC and snapshots
+- Session compatibility  dialogue (partial session read)  for SPAT Essential and SPAT Ultimate compatibility
+- Home Page with session history and resources shortcuts
+- Read/write Audio Pipe (LAP) Automation using scaling
+- Read/write OSC position messages using scaling
+- Store/recall snapshot using scaling
+- New stereo panning law options (7)
+	* Perceptually motivated amplitude panning (PMAP) for Accurate Phantom Image Localization (constant-power amplitude-panning).
+	* Constant Power and Constant Amplitude
+	* Square root or Sine/Cosine
+
+
+**Improvements**
+
+*User Interface*
+- Addition of  Real source-objet position infos option on 3D View
+- Addition of Presence Infos option on 3D View
+- 3D View - Source-object  is projected on speaker plane for 2D channel- based speaker arrangements
+- Sources, Room and Reverb parameters - Hide/show for panels
+- Updated Reverb panel unifying related parameters
+- Snapshot Rename Popup - Select automatically the edit on window popup
+
+
+*Core behaviours*
+- Radius protection zone is now automatically set with the channel-based arrangement based on speaker distance average.
+- Dialogue box when changing speaker arrangement to offer auto scaling room parameter  for source-object
+- New update Setup Wizard with mode for Essential license based sessions
+- Radius per source is now a trim factor expressed in meters for session compatibility  and to integrate with new protection zone
+
+
 **Bug Fixes**
+
+- OSC -1 index doesn't work with Polar /AED.
+- Record AED OSC messages and snapshot interpolation via Local Audio Path automation is not working.
+- Aggregate input on process block do not work + add aggregate input on source
+- Listener head pivot point should be at the Center
+- RTTrPM - Tracking scaling doesn’t work
+- Source presence factor + Listener 6DOF not work on all room and sources for sources connected to multiple room.
+- UI - HRTF display on setup block only on first selection
+- Ultimate - Setup Wizard - New sources are created before all sources
+- Ultimate - Setup Wizard - Selected room is not preselected
+- OSC automation of Azimuth has an offset of -90
+- Fix source pitch not updated when listener position change
+- Listener Yaw not correctly working if listener is not at the centre (origin)
+- Multi-sources should keep alignment when elevation is done in polar
+- Refresh issue on Windows
+- Reset to default on source parameter may not propagate the setting correctly to the sub source in case of multi-channel source
+- Setup Wizard - Crash on deleting a line then press Tab
+- Sometimes sources sound not at the right place after reloading a session
+- Spat Revolution do not exit correctly
+- Various crash on exit
+- [FrameRate] GUI problem with low frame rate
 
 
 
@@ -193,6 +247,14 @@ Various:
 
 ## SPAT Plug-in suite
 
+### Build 21.4.0.50020
+
+**Feature**
+- Position Mode  parameter: Polar, Cartesian or None automation recording and reading mode.
+
+**Bug Fixes:**
+* Record AED OSC messages and snapshot interpolation via Local Audio Path automation is not working.
+
 ### Build 20.12.0.49880
 
 **Bug Fixes:**
@@ -213,11 +275,16 @@ Various:
 
 ## Known Issues
 
-* LAP with AAX 96K synchronization issue.
-* OSC -1 index doesn't work with Polar /aed.
-* Record OSC message and snapshot interpolation via Local Audio Path automation is not working.
+
+* KU100 HRTF not included in the default HRTF list for Essential
+* 3D View - Output meters can display only 50 channels
 * Shortcuts with Alt doesn't work on Windows 10.
 * Only the first LFE receives LFE send.
-* No direct sound with Spherical Head binaural and Snowman binaural
-* Crash on transcoding B-Format 2D to HOA3D
-* Closing Nuendo and Ableton Live session with SPAT PI crashed application. (VST Plug-ins)
+* [HOA] Crash on transcoding B-Format 2D to HOA3D
+* [OSC] OSC message "/master/[index]/dump" do not work
+* [OSC] No OSC control for reverb modal density
+* [PI] LAP with AAX 96K can face synchronization issue.
+* [PI] SPAT Send Solo parameter is not working in LAP or OSC
+* [PI] Enable Reverb Automation not working
+* [PI-VST]Closing Nuendo and Ableton Live session with SPAT PI can crash application.
+* [PI-VST] Merging Technologies Ovation / Pyramix with loading issues
