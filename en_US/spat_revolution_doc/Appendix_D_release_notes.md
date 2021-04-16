@@ -40,25 +40,27 @@
 
 **Bug Fixes**
 
-- OSC -1 index doesn't work with Polar /AED.
-- Record AED OSC messages and snapshot interpolation via Local Audio Path automation is not working.
-- Aggregate input on process block do not work + add aggregate input on source
-- Listener head pivot point should be at the Center
-- RTTrPM - Tracking scaling doesn’t work
-- Source presence factor + Listener 6DOF not work on all room and sources for sources connected to multiple room.
-- UI - HRTF display on setup block only on first selection
-- Ultimate - Setup Wizard - New sources are created before all sources
-- Ultimate - Setup Wizard - Selected room is not preselected
-- OSC automation of Azimuth has an offset of -90
-- Fix source pitch not updated when listener position change
-- Listener Yaw not correctly working if listener is not at the centre (origin)
+- OSC -1 index doesn't work with Polar /AED. (Requires additional validation)
+- Record AED OSC messages and snapshot interpolation via Local Audio Path automation is not working
+- Aggregate input on process block does not work + add aggregate input on source
+- Listener head pivot  (roll) point should be at the Center
+- Fix source pitch not updated when a listener position change
+- Listener Yaw not correctly working if the listener is not at the centre (origin)
 - Multi-sources should keep alignment when elevation is done in polar
+- RTTrPM - Tracking scaling not work
+- Source presence factor + Listener 6DOF not work on all rooms and sources for sources connected to multiple rooms.
+- [UI] - HRTF display on the setup block only on the first selection
+- OSC automation of Azimuth has an offset of -90
 - Refresh issue on Windows
 - Reset to default on source parameter may not propagate the setting correctly to the sub source in case of multi-channel source
+- Stra- nge “distance” behaviour with multichannel sources
 - Setup Wizard - Crash on deleting a line then press Tab
-- Sometimes sources sound not at the right place after reloading a session
-- Spat Revolution do not exit correctly
-- Various crash on exit
+- Setup Wizard - Deleting source enter in an infinite loop
+- Create an HOA room with order above 1st with the setup wizard made SPAT Revolution crash
+Sometimes sources sound not at the right place after reloading a session
+- SPAT Revolution does not exit correctly in some cases
+- Possible crash on exit
+- If a session is closed while the user is in a room, SPAT Revolution main window can turn black
 - [FrameRate] GUI problem with low frame rate
 
 
