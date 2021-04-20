@@ -26,14 +26,14 @@ The included HRTF profiles in SPAT Revolution are taken from a number of large s
 
 ## Binaural algorithms
 
-### Normal binaural mode
+### Standard binaural mode
 
 This mode uses the selected HRTF in order to recreate the sound field. This is the only pan law available in the Essential version of _SPAT Revolution_.
 
 
 ### Advanced algorithms
 
-!> _These advanced binaural "modes" are only available with the Ultimate license of _SPAT Revolution_.
+!> These advanced binaural "modes" are only available with the Ultimate license of _SPAT Revolution_.
 
 #### Near-field binaural
 

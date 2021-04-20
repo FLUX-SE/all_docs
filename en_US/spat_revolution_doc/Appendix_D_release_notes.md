@@ -6,10 +6,10 @@
 **Features**
 - New software licenses support for SPAT Revolution Essential (1 activation) and SPAT Revolution Ultimate Bundle (2 activations)
 - Ability now to disable the behaviour of source/object moving over listener head when entering the spherical protection (radius) zone instead
-- New per room spherical protection zone (width parameter),
+- New per room spherical protection zone (width parameter)
 - Spherical protection zone following the listener position
 - New distance scaling per room parameter for source-object  automation, OSC and snapshots
-- Session compatibility  dialogue (partial session read)  for SPAT Essential and SPAT Ultimate compatibility
+- Session compatibility  dialog (partial session read) for SPAT Essential and SPAT Ultimate compatibility
 - Home Page with session history and resources shortcuts
 - Read/write Audio Pipe (LAP) Automation using scaling
 - Read/write OSC position messages using scaling
@@ -17,7 +17,7 @@
 - New stereo panning law options (7)
 	* Perceptually motivated amplitude panning (PMAP) for Accurate Phantom Image Localization (constant-power amplitude-panning).
 	* Constant Power and Constant Amplitude
-	* Square root or Sine/Cosine
+	* Square root or Sinus/Cosinus
 
 
 **Improvements**
@@ -25,7 +25,7 @@
 *User Interface*
 - Addition of  Real source-objet position infos option on 3D View
 - Addition of Presence Infos option on 3D View
-- 3D View - Source-object  is projected on speaker plane for 2D channel- based speaker arrangements
+- 3D View - Source-object  is projected on speaker plane for 2D channel-based speaker arrangements
 - Sources, Room and Reverb parameters - Hide/show for panels
 - Updated Reverb panel unifying related parameters
 - Snapshot Rename Popup - Select automatically the edit on window popup
@@ -33,14 +33,14 @@
 
 *Core behaviours*
 - Radius protection zone is now automatically set with the channel-based arrangement based on speaker distance average.
-- Dialogue box when changing speaker arrangement to offer auto scaling room parameter  for source-object
+- Dialog box when changing speaker arrangement to offer auto scaling room parameter  for source-object
 - New update Setup Wizard with mode for Essential license based sessions
 - Radius per source is now a trim factor expressed in meters for session compatibility  and to integrate with new protection zone
 
 
 **Bug Fixes**
 
-- OSC -1 index doesn't work with Polar /AED. (Requires additional validation)
+- OSC -1 index doesn't work with Polar / AED. (Requires additional validation)
 - Record AED OSC messages and snapshot interpolation via Local Audio Path automation is not working
 - Aggregate input on process block does not work + add aggregate input on source
 - Listener head pivot  (roll) point should be at the Center
@@ -48,16 +48,14 @@
 - Listener Yaw not correctly working if the listener is not at the centre (origin)
 - Multi-sources should keep alignment when elevation is done in polar
 - RTTrPM - Tracking scaling not work
-- Source presence factor + Listener 6DOF not work on all rooms and sources for sources connected to multiple rooms.
-- [UI] - HRTF display on the setup block only on the first selection
+- Source presence factor + Listener 6DOF don't work on all rooms and sources for sources connected to multiple rooms.
+- [UI] - HRTF name displayed on the setup block only on the first selection
 - OSC automation of Azimuth has an offset of -90
 - Refresh issue on Windows
 - Reset to default on source parameter may not propagate the setting correctly to the sub source in case of multi-channel source
-- Stra- nge “distance” behaviour with multichannel sources
+- Strange “distance” behaviour with multichannel sources
 - Setup Wizard - Crash on deleting a line then press Tab
-- Setup Wizard - Deleting source enter in an infinite loop
-- Create an HOA room with order above 1st with the setup wizard made SPAT Revolution crash
-Sometimes sources sound not at the right place after reloading a session
+- Sometimes sources sound not at the right place after reloading a session
 - SPAT Revolution does not exit correctly in some cases
 - Possible crash on exit
 - If a session is closed while the user is in a room, SPAT Revolution main window can turn black
