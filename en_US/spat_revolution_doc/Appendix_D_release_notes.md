@@ -305,5 +305,5 @@ Various:
 * [PI] LAP with AAX 96K can face synchronization issue.
 * [PI] SPAT Send Solo parameter is not working in LAP or OSC
 * [PI] Enable Reverb Automation not working
-* [PI-VST]Closing Nuendo and Ableton Live session with SPAT PI can crash application.
-* [PI-VST] Merging Technologies Ovation / Pyramix with loading issues
+* [PI-VST] Closing Nuendo and Ableton Live session with SPAT PI can crash application.
+* [PI-VST] Loading a project or rebuild the mixer with SPAT Sends/Return can crash Merging Technologies Ovation / Pyramix
