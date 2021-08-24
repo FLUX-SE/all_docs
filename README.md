@@ -2,7 +2,7 @@
 
 ## Immersive
 
- - [Spat Revolution](en_US/spat_revolution_doc/0_A_User_Guide.md)
+ - [Spat Revolution](en_US/spat_revolution_doc/A_User_Guide.md)
  - [Ircam HEar](en_US/ircam_hear_doc/0_Ircam_Hear.md)
 
 ## Analysis
