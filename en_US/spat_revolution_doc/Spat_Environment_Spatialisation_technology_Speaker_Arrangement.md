@@ -59,6 +59,10 @@ SPAT Revolution can accept real world absolute measurements which you have enter
 
 > A detailed tutorial on advanced scripting of Custom Speaker Configurations using the Python language is available as in some cases, creating speaker setups in an editor is not the most efficient way, primarily when such information is available as a list and was exported by an acoustic and design simulation software like those used with loudspeaker companies. This can be quite practical for some larger more complex setups. Please contact us for more information.
 
+## Automatic Scaling
+
+If you change the speaker arrangement of a room where you already routed some sources, the global sound scene will be scaled to the new speaker arrangement. This will preserve the presence of all the sources in your sound scene.
+
 ## Speaker transformation
 
 To modify a speaker arrangement with a predefined action, you can use the "transform" menu. To access it, click on the "Transform" button. A pop-up window will appear.

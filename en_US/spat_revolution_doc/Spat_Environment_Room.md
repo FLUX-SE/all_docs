@@ -209,3 +209,31 @@ This is a First Order Ambisonic (FOA) room which is correctly suited for mixing 
 _!> Mid-Side option is only available with the Ultimate license of SPAT Revolution_.
 
 Similarly, if you are working with two-channel signals already encoded as MS format stereo, you can mix in an MS room. The outputs of MS rooms need to be decoded or transcoded into a suitable stereo format for reproduction on a stereo system.
+
+## Room output parameters
+
+### Output list
+This panel list all the speaker used in the room (when set to channel based). It allows a quick access to the speaker arrangement editor and to the compute function.
+Each output has a "test" button that send the signal from the signal generator directly the routed speaker. The signal generator type and level are set in the _Preferences_ page.
+
+!> Be careful, the generator is post mute and post gain
+### Listener
+This panel give access to the listening point. We can change its position, using the _X_, _Y_, _Z_ parameters, and its rotations using _Yaw_, _Pitch_, _Roll_.
+### Protection Zone
+
+This panel control the behavior and size of the protection zone. By default it is set to a diameter of 4 meter. Please check out the section named "Understanding the 3D view" if you want more information about the protection zone.
+Note that the protection zone is attached to the listener position.
+
+### Scaling
+
+#### Distance
+
+This parameter scale all the distance automation (OSC, plugins data and snapshots) by a manual factor. 
+
+#### Tracking
+
+This parameter change the scale of RTTrPM protocol data.
+
+### Background Image
+
+This panel allows you to import a background image in SPAT Revolution and to position it in the 3D view.
