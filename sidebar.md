@@ -18,7 +18,7 @@
 * [Pure Expander](en_US/pure-expander_doc/0_Pure_Expander.md)
 * [Pure Limiter](en_US/pure-limiter_doc/0_Pure_Limiter.md)
 * [Solera](en_US/solera_doc/0_Solera.md)
-* [Spat Revolution](en_US/spat_revolution_doc/0_A_User_Guide.md)
+* [Spat Revolution](en_US/spat_revolution_doc/A_User_Guide.md)
 * [Stereotool](en_US/stereotool_doc/0_StereoTool.md)
 * [Studio Session Analyzer](en_US/studio_session_analyser/0_StudioSessionAnalyser.md)
 * [Studio Session Plugins](en_US/studio_session_plugins/0_StudioSessionPlugins.md)
