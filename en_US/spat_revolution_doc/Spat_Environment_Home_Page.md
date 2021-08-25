@@ -16,15 +16,15 @@ Create an empty session, without calling the wizard.
 
 ### Open a session
 
-Let you open a session from disk.
+Let you open a session from a disk.
 
 ## Recent Sessions
 
-This box list the latest opened session in SPAT Revolution. You can open one by double-clicking on it.
+This box list the latest open session in SPAT Revolution. You can open one by double-clicking on it.
 
 ## Resources
 
-This box gives you direct access to many resources related to SPAT Revolution :
+This box gives you direct access to many resources related to SPAT Revolution:
 - This documentation
 - DAW templates for using LAP
 - OSC templates, which include a lemur template and a QLab example session
