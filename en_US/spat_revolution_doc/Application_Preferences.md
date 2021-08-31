@@ -133,7 +133,7 @@ Define OSC output rates in milliseconds.
 
 This button exports the OSC parameters to a text file.
 
-## OSC Connexions
+## OSC Connections
 
 This panel allows creating OSC connection between SPAT Revolution and other devices, like tablets, phones, computers and many others. More information is available in the third party section.
 

@@ -15,7 +15,7 @@ In the case where an incoming Channel Based stream needs transcoding into an out
 
 ## When to Transcode Inputs?
 
-The main reason you will need to transcode inputs is when you are mixing and spatialising inputs in a SPAT _Virtual Room_. This is because the _Virtual Room_ module requires incoming sources to be in a Channel Based format. Internally, the Room may well be panning in Channel based, Ambisonics or binaural format, but it always needs Channel Based streams as inputs. More about this in the _Virtual Room_ section. Format transcoding may not always need re-spatialising in a room. There are some contexts where you will not use a Virtual Room in the signal flow,
+The main reason you will need to transcode inputs is when you are mixing and spatializing inputs in a SPAT _Virtual Room_. This is because the _Virtual Room_ module requires incoming sources to be in a Channel Based format. Internally, the Room may well be panning in Channel based, Ambisonics or binaural format, but it always needs Channel Based streams as inputs. More about this in the _Virtual Room_ section. Format transcoding may not always need re-spatializing in a room. There are some contexts where you will not use a Virtual Room in the signal flow,
 
 ![](include/SpatRevolution_UserGuide_-088.jpg)
 

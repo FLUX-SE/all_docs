@@ -3,7 +3,7 @@
 Each _Virtual Room_ in SPAT can have its own artificial reverberation. 
 Reverberation is a very important element in the psycho-acoustic perception of localised sources and immersive sound fields.
 The reverb processor in SPAT is a multi-channel algorithmic 3D reverb based on feedback delay networks.
-The SPAT reverberation engine is designed to synthesize the experience of the virtual sources, and the listener all being placed within the same virtual acoustic space.
+The SPAT reverberation engine is designed to synthesise the experience of the virtual sources, and the listener all being placed within the same virtual acoustic space.
 Virtual spaces can be tuned, scaled and stored.
 Open the _Artificial Reverberation_ graphical editor by clicking on the ( **R** ) index at the bottom of the list of sources on the left side panel of the Room, or entering a room directly from a tab in the top _global bar_.
 
@@ -34,7 +34,7 @@ Remember it works in 3D and interacts deeply with the parametric design of all v
 
 ### **This is no ordinary reverb.**
 
-The SPAT Reverb is a true acoustic modeling multi-channel reverb, not just a so-called true stereo reverb.
+The SPAT Reverb is a true acoustic modelling multi-channel reverb, not just a so-called true stereo reverb.
 Despite its internal complexity, the user is invited to morph and modulate the characteristics of the virtual acoustics.
 To make this process fluid and natural, the parameter controls have been carefully designed so that they do not glitches.
 This invites continuous parametric modulation ideas, for designing out of this world reverberant spaces, in realtime.

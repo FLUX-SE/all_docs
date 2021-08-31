@@ -1,7 +1,7 @@
 # Barycentric Groups in Rooms
 
 When a Virtual Source in a Room has more than one channel in its format, it will be represented as a single source with ONE unique index.
-It will be visualised as a group in its assigned channel based speaker arrangement.
+It will be visualized as a group in its assigned channel based speaker arrangement.
 
 ![](include/SpatRevolution_UserGuide_-122.jpg)
 

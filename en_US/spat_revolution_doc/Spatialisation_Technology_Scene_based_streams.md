@@ -4,31 +4,31 @@
 
 Simply put: Ambisonics is a specific method for creating, capturing and playing back spatial audio. It is radically different from other surround techniques as the technology is capable of reproducing a spherical representation of sound where the directional information of a source is located in a 3D soundfield.
 
-Ambisonics is also both a recording and a spatial synthesis technique, where one can capture the full environment in 3D sound through the use of so called A-Format microphones such as the: Soundfield SPS200, Røde NT-SF1, Sennheiser Ambeo, Coresound TetraMic and more. Alternatively, a sound field can be synthesised from any mono, stereo and multichannel sources to Ambisonics, constructing a virtual 3D sound environment by placing the sources at locations in a virtual 3 dimensional field.
+Ambisonic is also both a recording and a spatial synthesis technique, where one can capture the full environment in 3D sound through the use of so called A-Format microphones such as the: Soundfield SPS200, Røde NT-SF1, Sennheiser Ambeo, Coresound TetraMic and more. Alternatively, a sound field can be synthesized from any mono, stereo and multichannel sources to Ambisonics, constructing a virtual 3D sound environment by placing the sources at locations in a virtual 3 dimensional field.
 
 ![](include/SpatRevolution_UserGuide_-045.jpg)
 
 ## Encoded audio
 
-Ambisonics as opposed to other surround and spatial techniques and methods does not carry a speaker signal. It is an **encoded** audio signal that has to be **decoded** to the speaker signals. This encoding / decoding scheme has the advantage of being very portable and flexible since one is not bound to a specific speaker setup. i.e you can have your ambisonic mix played on a number of speaker setups, for instance Quad, headphones (binaural), 5.1, 6, 8, 7 speakers etc. based on the chosen decoder.
+Ambisonic as opposed to other surround and spatial techniques and methods does not carry a speaker signal. It is an **encoded** audio signal that has to be **decoded** to the speaker signals. This encoding / decoding scheme has the advantage of being very portable and flexible since one is not bound to a specific speaker setup. i.e., you can have your ambisonic mix played on a number of speaker setups, for instance quad, headphones (binaural), 5.1, 6, 8, 7 speakers, etc. based on the chosen decoder.
 
-When Ambisonics is played back on speakers all the speakers contribute to the directional content, what one is hearing is not the sound coming from a specific speaker but from a specific direction.
+When Ambisonics is played back on speakers, all the speakers contribute to the directional content, what one is hearing is not the sound coming from a specific speaker but from a specific direction.
 
 ![](include/SpatRevolution_UserGuide_-047.jpg)
 
-> Overview of a 5th order HOA 3D Ambisonic File created by Tine Surell Lange.
+> Overview of a fifth-order HOA 3D Ambisonic File created by Tine Surell Lange.
 
 
 ## Order
 
-Ambisonics is a technology that encodes sound sources along with full sphere positional information, as complex interleaved audio files that need decoding before they can be listened to on speakers. The lowest order and the simplest form of 3D Ambisonics requires 4 channels, conventionally named as:
+Ambisonics is a technology that encodes sound sources along with full-sphere positional information, as complex interleaved audio files that need decoding before they can be listened to on speakers. The lowest order and the simplest form of 3D Ambisonics require 4 channels, conventionally named as:
 
 - **W** (mono sum)
 - **X** (X axis information)
 - **Y** (Y axis information)
-- **Z** (Elevation information)
+- **Z** (elevation information)
 
-The 4 channels or spherical components W, X, Y and Z can also be described as the pressure patterns found in an omni microphone (W) and three figure-of-8 microphones for left/right (Y), front/back (X) and up/down (Z) as depicted in above figure.
+The 4 channels or spherical components W, X, Y and Z can also be described as the pressure patterns found in an omni-microphone (W) and three figure-of-8 microphones for left/right (Y), front/back (X) and up/down (Z) as depicted in the above figure.
 
 High Order Ambisonics (HOA) needs more channels to contain the complex interleaved Ambisonics domain information. The components' count increases with the order: WXYZUVSTRPQNOLMK... High Orders encode and decode into sharper and more accurate spatial information as the Order gets higher - but the number of channels needed to hold all the 'spherical harmonics' along with the serious computation involved increases quickly.
 
