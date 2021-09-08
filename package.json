@@ -18,10 +18,10 @@
   },
   "devDependencies": {
     "docsify-pdf-converter": "^2.0.7",
-    "grunt": "^1.3.0",
-    "grunt-contrib-connect": "~2.1.0",
-    "grunt-contrib-watch": "~1.1.0",
-    "grunt-shell": "~3.0.1"
+    "grunt": "^1.4.0",
+    "grunt-contrib-connect": "^3.0.0",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-shell": "^3.0.1"
   },
   "docsifytopdf": {
     "mainMdFilename": "README.md",
