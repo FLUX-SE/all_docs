@@ -1,6 +1,7 @@
 # Release Notes
 
-## FLUX:: Processing - Plugins (including IRCAM Tools) -  03.09.2021
+## FLUX:: Processing - Plugins (including IRCAM Tools)  03.09.2021
+This release includes updates for all FLUX::Immersive Processing - Plugins products with the exception of EVO Channel, Epure, IRCAM Trax, Studio Session.
 
 **Major optimizations**
 
@@ -10,7 +11,7 @@
 (Ircam Hear, Verb and more)
 * Automatic detection of track format / channel order for DAWs when possible.
 
-### Build 21.9.0.50083 (All but EVO Channel, Epure, IRCAM Trax, Studio Session
+### Build 21.9.0.50083
 
 **Bug fixes**
 
