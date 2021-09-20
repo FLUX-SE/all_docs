@@ -39,7 +39,7 @@ This release includes updates for all FLUX::Immersive plugin processing products
 * Potential plugins crash when opening UI
 
 
-## FLUX:: Processing 20.12
+## FLUX:: Immersive - Plugins (including IRCAM Tools)  20.12
 
 This major release includes updates for all **FLUX::Immersive** products with the exception of IRCAM Spat V3 legacy product. Please refer to Spat V3 - Spat Revolution crossgrade options.  
 
