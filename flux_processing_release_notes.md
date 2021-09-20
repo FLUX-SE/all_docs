@@ -1,7 +1,7 @@
 # Release Notes
 
-## FLUX:: Processing - Plugins (including IRCAM Tools)  03.09.2021
-This release includes updates for all FLUX::Immersive Processing - Plugins products with the exception of EVO Channel, Epure, IRCAM Trax, Studio Session.
+## FLUX:: Immersive - Plugins (including IRCAM Tools)  21.09
+This release includes updates for all FLUX::Immersive plugin processing products with the exception of EVO Channel, Epure, IRCAM Trax, Studio Session.
 
 **Major optimizations**
 
@@ -39,7 +39,7 @@ This release includes updates for all FLUX::Immersive Processing - Plugins produ
 * Potential plugins crash when opening UI
 
 
-## FLUX:: Processing 20.12.2020
+## FLUX:: Processing 20.12
 
 This major release includes updates for all **FLUX::Immersive** products with the exception of IRCAM Spat V3 legacy product. Please refer to Spat V3 - Spat Revolution crossgrade options.  
 
@@ -55,7 +55,7 @@ This major release includes updates for all **FLUX::Immersive** products with th
 * 16 channel support for **Bittersweet Pro, Evo In and Evo Channel**
 
 
-### Build 49880
+### Build 20.12.0.49880
 
 **Bug fixes**
 
