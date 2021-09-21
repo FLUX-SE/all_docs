@@ -82,4 +82,4 @@ UI:
 * Wavelab "Sample rate not supported" when a plugin is inserted on a clip, track or output section.
 * TRAX Tr  - Learn frequencies display wrong values (AAX only).
 * Hear - Internal config labels change when modify LFE input config from routing matrix.
-* OSC not working in Pro Tools. 
+* When using OSC on a plugin in Pro Tools, a chrash will occur if you change/move FX insert slots
