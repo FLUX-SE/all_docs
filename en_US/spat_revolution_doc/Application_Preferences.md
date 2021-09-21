@@ -14,9 +14,9 @@ Allow sending error data to FLUX:: support. All the data are sent anonymously.
 
 _Off by default_
 
-### Re-open last session on startup
+### Reopen last session on startup
 
-The last opened session will be automatically reopen at the launching of SPAT Revolution.
+The last opened session will be automatically reopened at the start of SPAT Revolution.
 
 _On by default_
 
@@ -30,30 +30,30 @@ _On by default_
 
 Change the temperature used in the delay line calculation.
 
-_Default is 20 °C_
+_Default is 20 °C_
 
 
 ### Edit Frame Rate
 
 Define how many times per second the UI is refreshed.
 
-_Default is 30 Hz_
+_Default is 30 Hz_
 
 ### Engine Frame Rate
 
 Define how many times per second the engine is refreshed.
 
-_Default is 60 Hz_
+_Default is 60 Hz_
 
 ### Meter Default Refresh Rate
 
 Define how many times per second the meters are refreshed
 
-_Default is 30 Hz_
+_Default is 30 Hz_
 
 ### Language
 
-Allow to change the language of SPAT Revolution. English, German, Japanese, French, Spanish are available. If you wish to help us to translate SPAT in another language, don't hesitate to contact us.
+Allow to change the language of SPAT Revolution. English, German, Japanese, French, Spanish are available. If you wish to help us to translate SPAT in another language, don’t hesitate to contact us.
 
 _Default is English_
 
@@ -61,18 +61,18 @@ _Default is English_
 
 Reset back all the global parameters to default.
 
-### Import / Export Preferences
+### Import/Export Preferences
 
 Allow exporting or import preferences.
 
 ## Hardware IO
 
-The hardware IO panel allows to choose the audio interface that can be accessed by SPAT Revolution.
+The hardware IO panel allows choosing the audio interface that can be accessed by SPAT Revolution.
 
 ### Devices
 
-This menu allows to select the audio interface. SPAT Revolution audio engine support all devices compatible with ASIO (Windows) or CoreAudio (macOS).
-Note that you should select "none" when using the Local Audio Path connections.
+This menu allows selecting the audio interface. SPAT Revolution audio engine supports all devices compatible with ASIO (Windows) or CoreAudio (macOS).
+Note that you should select “none” when using the Local Audio Path connections.
 
 ### Sampling Rate
 
@@ -80,7 +80,7 @@ Select the sampling rate used by the audio engine. The _external_ button force t
 
 ### Block Size
 
-The block size define the global latency added by SPAT Revolution. The lower it is set, the lower the latency is, but the greater the CPU consumption is.
+The block size defines the global latency added by SPAT Revolution. The lower it is set, the lower the latency is, but the greater the CPU consumption is.
 
 ### Show settings
 
@@ -88,18 +88,18 @@ This button open the driver audio panel of the selected interface, if it exists.
 
 ## User Interface
 
-This panel contain some general user preferences.
+This panel contains some general user preferences.
 
 ### Anti-Alias
 
 When enabled, this option smooth out lines in the graphic engine.
-If you are using Intel based computer without dedicated GPU, we highly recommend you to deactivate this option to improve performances. 
+If you are using an Intel-based computer without a dedicated GPU, we highly recommend deactivating this option to improve performances. 
 
 _On by default_
 
 ### Setup Wire
 
-When on, the wire between blocks in the setup page are splined. When off, they are straight.
+When on, the wires between blocks in the setup page are splined. When off, they are straight.
 
 _On by default_
 
@@ -107,7 +107,7 @@ _On by default_
 
 Allows switching between the dark theme and the light theme of SPAT Revolution.
 
-_Set on "dark" by default_
+_Set on “dark” by default_
 
 ### Shortcuts window
 
@@ -115,7 +115,7 @@ Display the list of all the shortcut of SPAT Revolution.
 
 ## OSC Main
 
-This panel contain basic OSC options.
+This panel contains basic OSC options.
 
 ### OSC Enable
 
@@ -123,33 +123,33 @@ Enable or disable the OSC communication between SPAT Revolution and other device
 
 ### Enable commands log
 
-Allows to display the OSC messages in the application's console.
+Allows displaying the OSC messages in the application’s console.
 
 ### Output rate
 
-Define OSC output rate in milliseconds.
+Define OSC output rates in milliseconds.
 
 ### Export Parameters
 
-This button exports the OSC parameters to a text files.
+This button exports the OSC parameters to a text file.
 
 ## OSC Connections
 
-This panel allows creating OSC connection between SPAT Revolution and other devices, like tablet, phones, computer and many others. More information are available in the third party section.
+This panel allows creating OSC connection between SPAT Revolution and other devices, like tablets, phones, computers and many others. More information is available in the third party section.
 
 ## HRTF
 
-The HRTF panel allow setting up some generic options for HRTF handling.
+The HRTF panel allows setting up some generic options for HRTF handling.
 
 ### Default HRTF
 
 Choose the default HRTF used in binaural room or binaural monitoring blocks
 ### Manage HRTFs
 
-The button open a window that allows to download or removed HRTF. You can also import your own HRTF from this menu.
+The button open a window that allows downloading or removed HRTF. You can also import your own HRTF from this menu.
 ## Room
 
-This panel allows to change some room properties. This is where you find most of the room options in the Essential version.
+This panel allows changing some room properties. This is where you find most of the room options in the Essential version.
 
 ### Room gain
 

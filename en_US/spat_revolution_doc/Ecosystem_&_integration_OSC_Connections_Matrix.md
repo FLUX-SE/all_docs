@@ -5,7 +5,7 @@
 
 If you are developing your own control systems to integrate with SPAT, you might find it useful to know that it is possible to export a detailed description of all OSC patterns, syntax and usage to a text file for reference.
 You will find that option in the SPAT preferences.
-You will also find a complete [OSC table](Appendix_C_OSC_Table.md) in appendix.
+You will also find a complete [OSC table](Appendix_C_OSC_Table.md) in the appendix.
 
 > Enable commands log will display the received and emitted OSC messages in the log windows to confirm you are receiving data. <code>Shift + F7 </code> will open the log window.
 
@@ -34,7 +34,7 @@ where <code>i</code> is an integer denoting the index of the target, and <code>f
 For more details about the SPAT OSC dictionary and its usage syntax please refer to [Appendix C](Appendix_C_OSC_Table.md).
 
 The output rate allows changing how fast the engine react to OSC messages.
-The lower the value is, the more reactive Spat will be, but it will also increase the stress on the CPU.
+The lower the value is, the more reactive Spat Revolution will be, but it will also increase the stress on the CPU.
 If you experienced some CPU overload when moving sources through OSC command, you can try to increase the value (Ultimate only).
 By default, it is set to 5.0 ms.
 
@@ -44,7 +44,7 @@ There is a lot of flexibility in the OSC connection menu. You find it in the SPA
 
 ![](include/SpatRevolution_UserGuide_-195.png)
 
-Eight different connections can be setup, either as input or output connection. It is displayed as a table where each connection is a line. The first parameter is the connection type, which offer many presets for both input and output. These presets come with dedicated network ports.
+Eight different connections can be set up, either as input or output connection. It is displayed as a table where each connection is a line. The first parameter is the connection type, which offer many presets for both input and output. These presets come with dedicated network ports.
 
 OSC preset are:
 - SPAT plugins
@@ -65,15 +65,15 @@ If a "custom" preset is loaded, we most likely need to edit this parameter to es
 ### OSC Transform
 
 Interfacing different devices and software in OSC can be problematic as each piece of equipment can have its own scale of value.
-To overcome these difficulties, some OSC transform presets and a custom OSC transform menu have been implemented.
+To overcome these difficulties, some OSC transform presets and a custom OSC transform menus have been implemented.
 
 ![](include/SpatRevolution_OSC_Input_Transform2.png)
 
-Transform presets are accessible for each OSC connection and allow some quick re-scalling of the values.
+Transform presets are accessible for each OSC connection and allow some quick re-scaling of the values.
 
 > ![](include/SpatRevolution_OSC_Input_Transform.png)
 
 If the included transform preset does not fit our needs, we can click on the <code>+</code> button to open the custom OSC transform menu.
 In this menu, we can choose how to scale our input our output values. We can also choose to exclude specific OSC command from the scaling rules.
 
-_!> Custom transformation are only available with Ultimate license of SPAT Revolution_.
+_!> Custom transformations are only available with Ultimate license of SPAT Revolution_.

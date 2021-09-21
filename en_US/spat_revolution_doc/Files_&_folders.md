@@ -16,7 +16,7 @@ User created custom speaker arrangement(s) can be exported or imported as *.ioco
 
 Reverb preset can be stored and exported as *.reverbPresets.* They can later be imported back into a session.
 
-## Preferences and Ressource files
+## Preferences and ressources files
 
 <code>Users/.../Document/FLUX SE</code>
 
@@ -40,7 +40,7 @@ A subfolder named *Preferences* containing:
 
 A subfolder named *Shell* containing:
 
-*  history.txt an history of the terminal commands
+*  history.txt - a history of the terminal commands
 
 The FLUX SE - IRCAM Folder contains preferences and presets of the three SPAT Revolution plug-ins.
 
