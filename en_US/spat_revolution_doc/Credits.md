@@ -35,7 +35,7 @@ Thibaut Carpentier and Remy Muller
 Nicolas Philippot
 
 ### FLUX:: Framework development:
-Gaël Martinet, Florie-Anne Lafaye, Alexis Gentil, Bastien Prevosto, Siegfried Hand  and Antoine Lorence
+Gaël Martinet, Florie-Anne Lafaye, Alexis Gentil, Bastien Prevosto, Siegfried Hand and Antoine Lorence
 
 **Additional contributions:**
 Hugo Larin, Vincent Carlier, Jean-Loup Pecquais, Nicolas Erard, Jean Cruypenynck, Pablo Arias, Samuel Tracol, HAL

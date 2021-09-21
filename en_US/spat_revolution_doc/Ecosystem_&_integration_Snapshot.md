@@ -2,7 +2,7 @@
 
 Snapshots are an important part of a live show.
 It can be used to capture an audio scene into SPAT Revolution.
-Sources, rooms and masters properties will be stored in a snapshot.
+Sources, rooms and master properties will be stored in a snapshot.
 It allows a complete transformation of the soundscape, with interpolation.
 
 !> To use snapshots, timecode needs to run in SPAT Revolution.
@@ -16,7 +16,7 @@ If timecode isn't running, the recall will fail.
 
 ![Timecode running](include/Sync.png)
 
-Snapshots could be controlled of the dedicated menu, and with OSC messages.
+Snapshots could be controlled by the dedicated menu, and with OSC messages.
 
 ![SPAT Revolution_snapshot_recall](include/SpatRevolution_snapshot_recall.gif)
 
@@ -29,11 +29,11 @@ The shortcut <code>Alt + Space</code> could also be used to capture a snapshot.
 
 - by using the "Insert Before" action.
 This option is available only if another snapshot exists.
-The snapshot will be insert before the selected snapshot, and all the snapshots will be re-number.
+The snapshot will be inserted before the selected snapshot, and all the snapshots will be renumbered.
 
 - by using the "Insert After" action.
 This option is available only if another snapshot exists.
-The snapshot will be insert after the selected snapshot, and all the snapshots will be re-number.
+The snapshot will be inserted after the selected snapshot, and all the snapshots will be renumbered.
 
 
 ## Recall a snapshot
@@ -43,15 +43,15 @@ Different options could alter the snapshot running:
 
 - Recall time
 
-This option is available in the menu "Snapshots/Options recall".
-The values are range between 0 and 3600 seconds.
+This option is available in the menu "Snapshots/Options recall."
+The values are ranged between 0 and 3600 seconds.
 
 - Recall Sources / Room / Master
 
-As all the properties are stored into snapshots, this options give us the possibility to enable or disable the recall of some properties.
+As all the properties are stored into snapshots, this option gives us the possibility to enable or disable the recall of some properties.
 The recall of each section could be separately activated.
 
-!> Be careful with the Room properties recall: changing some properties like Reverberation Density or Size causes reverb reconstruction (and audio drops).
+!> Be careful with the Room properties recall, changing some properties like _Reverberation Density_ or Size causes reverb reconstruction (and audio drops).
 
 ## Snapshots handling
 
@@ -67,7 +67,7 @@ The recall of each section could be separately activated.
 
 # Handle snapshots with OSC
 
-Different actions are available for handling snapshot with OSC messages:
+Different actions are available for handling snapshots with OSC messages:
 
 - Create a snapshot: <code>/snapshot/create</code>
 
@@ -107,7 +107,7 @@ _Name_: the new name of the snapshot.
 _Index_: the snapshot index to remove.
 It can be replaced by the snapshot name.
 
-!> Be careful using it: there isn't any confirmation.
+!> Be careful: there isn't any confirmation.
 
 - Change the recall options: <code>/snapshot/options/recall/sources [State]</code>, <code>/snapshot/options/recall/rooms [State]</code>, <code>/snapshot/options/recall/masters [State]</code>.
 

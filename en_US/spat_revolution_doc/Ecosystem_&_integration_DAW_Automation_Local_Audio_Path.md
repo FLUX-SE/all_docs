@@ -12,19 +12,24 @@ The SPAT plug-ins offer a straightforward way to integrate the SPAT Revolution s
 **SPAT Send**
 
 - Send multichannel audio from a DAW track to a SPAT Send input modules
+
 - Enable DAW automation of all Source-related parameters
+
 - Index selects which Virtual Source to Automate
 
 **SPAT Return**
 
 - Return multichannel audio from a SPAT Return output module to a DAW track
+
 - Enable DAW automation for Return parameters
+
 - Index selects which Master to automate
 
 
 **SPAT Room**
 
 - Enable DAW automation of all Room-related parameters
+
 - Index selects which Virtual Room to Automate
 
 ## Setting up a local audio path connection

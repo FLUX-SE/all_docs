@@ -1,28 +1,63 @@
 # Release Notes
 
-## FLUX:: Processing (including IRCAM Tools) 20.12
+## FLUX:: Immersive - Plugins (including IRCAM Tools)  21.09
+This release includes updates for all FLUX::Immersive plugin processing products with the exception of EVO Channel, Epure, IRCAM Trax, Studio Session.
+
+**Major optimizations**
+
+* Apple computers Big Sur (new M1 chips) AU validation  
+* Important updates to the Ircam Verb + Session
+* Overall better handling of multichannel track setups such for Atmos.
+(Ircam Hear, Verb and more)
+* Automatic detection of track format / channel order for DAWs when possible.
+
+### Build 21.9.0.50083
+
+**Bug fixes**
+
+* Apple computers Big Sur (new M1 chips) AU validation failing
+* Empty GUI when close/reopen plugin - Windows 10 - UHD630 graphics
+* AudioUnit in Reaper - do not process audio when offline bounce
+* Default preset not loaded correctly on instantiation of Verb + Verb Session
+* Evo.Channel on Retina - Input and Output Sliders badly scaled
+* Incompatible AudioUnit issue in Apple Final Cut Pro
+* Plugins: Recall Preset Flags (e.g. “All but setup”) recall always everything
+* Preset Manager - UI issue with small plugins when a preset has been created
+* Session reload in VST with audio interruption
+* Trax ‘error’ parameter not working
+* VST Plugins Session not correctly reloaded if it integrate an IO configuration change
+* Verb session - Dry/wet not applied in offline render
+* Verb v3 Atmos crash on AAX
+* Verb: AU validation failed on Apple M1
+* Verb: LFE not disabled by default on ProTools
+* Verb: Recall Preset may be not correct with double click inside the preset manager
+* Verb: disabled channel is not re-injected according to dry/wet parameter (100 % wet means muted)
+* Verb: init issue with Nuendo
+* AAX - Some plugins - Crash on Mac / No GUI on Windows
+* Overall reliability / stability fixes.
+* Plugin size not correct
+* Potential plugins crash when opening UI
+
+
+## FLUX:: Immersive - Plugins (including IRCAM Tools)  20.12
 
 This major release includes updates for all **FLUX::Immersive** products with the exception of IRCAM Spat V3 legacy product. Please refer to Spat V3 - Spat Revolution crossgrade options.  
 
-## Major optimizations
+**Major optimizations**
 
 * HiDPI / Retina support + display enhancements and fixes
 * Page Table unification for **Avid Control**, S1, S3, S4, S6 and S6L.
 * OSC Control for plugins.
-* **IRCAM Verb** support for Dolby Atmos, Multichannel support up to 16 channels 
+* **IRCAM Verb** support for Dolby Atmos, Multichannel support up to 16 channels
 * **IRCAM Hear** - Multichannel stability improvement, Now up to 10 channels. (Dolby Atmos 7.1.2)
-* **IRCAM Tools** - Audio I/O Matrix and Multichannel enhancement 
+* **IRCAM Tools** - Audio I/O Matrix and Multichannel enhancement
 * Most plugins support of 8 channel.
 * 16 channel support for **Bittersweet Pro, Evo In and Evo Channel**
 
 
-## Bug fixes
+### Build 20.12.0.49880
 
-### FLUX:: Processing 20.12 
-
-#### Build 49880
-
-**Fixes;**
+**Bug fixes**
 
 Core:
 
@@ -39,20 +74,12 @@ Core:
 * Evo channel - Wrong values when reloading touch section.
 
 
-
 UI:
 
 * Current preset name disappear on re-opening GUI or session
-
-
-
 
 ## Known Issues
 
 * Wavelab "Sample rate not supported" when a plugin is inserted on a clip, track or output section.
 * TRAX Tr  - Learn frequencies display wrong values (AAX only).
 * Hear - Internal config labels change when modify LFE input config from routing matrix.
-
-
-
-
