@@ -23,8 +23,7 @@ This release includes updates for all FLUX::Immersive plugin processing products
 * Incompatible AudioUnit issue in Apple Final Cut Pro
 * Plugins: Recall Preset Flags (e.g. “All but setup”) recall always everything
 * Preset Manager - UI issue with small plugins when a preset has been created
-* Session reload in VST with audio interruption
-* Trax ‘error’ parameter not working
+* Ircam Verb Session reload in VST with audio interruption
 * VST Plugins Session not correctly reloaded if it integrate an IO configuration change
 * Verb session - Dry/wet not applied in offline render
 * Verb v3 Atmos crash on AAX
@@ -83,3 +82,4 @@ UI:
 * Wavelab "Sample rate not supported" when a plugin is inserted on a clip, track or output section.
 * TRAX Tr  - Learn frequencies display wrong values (AAX only).
 * Hear - Internal config labels change when modify LFE input config from routing matrix.
+* OSC not working in Pro Tools. 
