@@ -1,5 +1,8 @@
 # Understanding the 3D View
 
+![](include/3DView.png)
+
+
 The whole mixing experience of Spat Revolution takes place in the 3D view. It is really simple to create a mix this way: simply grab a source and move where you want to. But there are a few subtleties that are important to get right.
 
 ## The presence of a source
@@ -20,6 +23,8 @@ The overall presence of a source is displayed by a green vector, drawn between t
 
 ## The protection zone
 
+![](include/3DView_ProtectionZone.png)
+
 When a source is placed inside the protection zone, its distance will no more induce a drop of presence, meaning that the distance does not have any effect in this zone. By default the protection zone is set to be flush to the speaker array of the room.
 
 It is important to understand that we should not put a source inside this zone, as most of the pan law or spatialization strategy are incapable of creating the illusion that a sound source comes from in front of the speaker.
@@ -29,6 +34,8 @@ As its name implies, the protection zone exists to prevent weird behavior when s
 Two behaviors can happen when a source is inside the protection zone. It can either be replaced at the top of the sphere or being looked at a constant azimuth. This behavior is set by the “source over listener head” parameters, which is on by default.
 
 ## Understanding when a speaker arrangement, or a sound scene, is 2D or 3D
+
+![](include/3DView_TopChannels.png)
 
 We have seen that we can create custom arrangement. So we can quickly be tempted to create very precise speaker array, including height information where it may not be necessary.
 
