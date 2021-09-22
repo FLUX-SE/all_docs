@@ -3,6 +3,8 @@
 ## FLUX:: Immersive - Plugins (including IRCAM Tools)  21.09
 This release includes updates for all FLUX::Immersive plugin processing products with the exception of EVO Channel, Epure, IRCAM Trax, Studio Session.
 
+NOTE: **CURRENTLY NOT COMPLIANT WITH ABLETON LIVE MACOS**
+
 **Major optimizations**
 
 * Apple computers Big Sur (new M1 chips) AU validation  
