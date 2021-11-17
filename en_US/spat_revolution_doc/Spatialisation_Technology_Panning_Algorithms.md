@@ -19,6 +19,27 @@ Although there are technical aspects to be interested in and aware of, you are s
 > ★ Try using more than one Spat Room to use different panning
 algorithms for sound material that has different sonic qualities.
 
+## Stereo-exclusive Panning Laws
+
+### Stereopan Law
+
+This mode reproduces the basic experience of a pan pot. It comes with some options:
++ The pan law can follow a sin/cos approach or a square root. This produces a subtle difference in how the sound travel between the left and right speaker.
++ It is possible to change the center attenuation. By default, a sound placing at the center of the two speakers is played back with an attenuation of 3dB (considering acoustic summing). Other possible attenuation is : -4.5dB, -6dB.
++ The PMAP, Perceptually Motivated Amplitude Panning, aimed at improving sound localization on stereo systems and on any pair speaker system with an arbitrary base angle.
+
+### XY and AB
+
+These two Panning Types will only become available when a _Virtual Room_ is set to be virtualizing a stereo speaker arrangement (see section 6.52) - they are pan laws that are derived from widely used dual microphone techniques for rendering stereo imaging from an omnidirectional scene.
+
+**AB Panning** simulates the recording of the sound scene by a pair of spaced cardioid microphones, pointing laterally at azimuths +/- 55 deg. (elevation 0), with a distance of 17 cm between the two capsules. Also known as **ORTF**.
+
+**XY Panning** simulates the recording of the sound scene by a pair of microphones in a XY coincident configuration.
+
+> ★ The aim is to get the same stereo flavor as these dual microphone
+> Tracking techniques. Try them on close miked sources or any mono.
+> Source, to get a realistic stereo image.
+
 ## Vector Base Amplitude panning (VBAP)
 
 _!> VBAP is only avaible in the Ultimate version of _SPAT Revolution_.
@@ -150,18 +171,6 @@ These are legacy 2D pan pot laws from the original IRCAM Spat library. They only
 **How Does It Work?**
 
 Angular and PanR are pairwise amplitude panning essentially the same as VBAP 2D described on the next page. There is a subtle difference, however, in the way the panning law changes when moving the source from one speaker to another.
-
-## XY and AB
-
-These two Panning Types will only become available when a _Virtual Room_ is set to be virtualizing a stereo speaker arrangement (see section 6.52) - they are pan laws that are derived from widely used dual microphone techniques for rendering stereo imaging from an omnidirectional scene.
-
-**AB Panning** simulates the recording of the sound scene by a pair of spaced cardioid microphones, pointing laterally at azimuths +/- 55 deg. (elevation 0), with a distance of 17 cm between the two capsules. Also known as **ORTF**.
-
-**XY Panning** simulates the recording of the sound scene by a pair of microphones in a XY coincident configuration.
-
-> ★ The aim is to get the same stereo flavor as these dual microphone
-> Tracking techniques. Try them on close miked sources or any mono.
-> Source, to get a realistic stereo image.
 
 ![](include/SpatRevolution_UserGuide_-066.jpg)
 

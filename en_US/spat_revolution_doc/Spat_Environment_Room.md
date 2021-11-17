@@ -89,6 +89,13 @@ _!> Nebula Technology is only available with the Ultimate license of SPAT Revolu
 The overall principles behind _Nebula_ are quite straightforward. At any given time, and for every frequency, the engine computes the position of a frequency in space (2D in stereo and 3D for multi-channel surround). This position is taken as the center of gravity of the various channels, weighted by the relative amplitude of the signal in their corresponding channel. A color-intensity mapped projection is computed for the multi-speaker plane, giving a spectrum-space frame constrained to the surround sound field radius or sphere. Past analysis frames are progressively “forgotten”, using blur and dimming, in order to make place for new information, which gives the graphic display increased legibility and its characteristic 'nebulous' quality.
 
 ![](include/SpatRevolution_UserGuide_-102.jpg)
+
+## Display output drop-down
+
+Located on top of the 3D view, the “display output” drop-down allows choosing which point of the signal path to display.
+
+For example, working in an HOA room create 3D view that does not show any speaker. This is because of the very nature of how ambisonic work. But it also means that you cannot use Nebula in that kind of room. This is where this “display output” feature becomes handy. Instead of showing the actual HOA scene, it is possible to choose to look at the sound scene at the transcoding stage to see what happens with Nebula on the speaker array.
+
 ## Virtual Room Concepts
 
 ![](include/SpatRevolution_UserGuide_-104.jpg)
@@ -195,13 +202,13 @@ One thing we can already guide you in is how each order affects spatial precisio
 
 Some types of source material such as ambiance or field recordings can benefit from the more immersive feeling of lower Orders, but point sources may need encoding in higher Order to get a more localizable result.
 
-## B-Format Room
+<!-- ## B-Format Room
 
 This is a First Order Ambisonic (FOA) room which is correctly suited for mixing B-Format Ambisonic signals. B-Format is 4-channels interleaved Ambisonic format, which is already widely used as a 3D audio format in the audio industry, as it can be decoded quickly and efficiently in real time. If you are producing content that is intended for real time decoding in B-Format, you can work in a B-Format Room.
 
 <!-- The output configuration is preset for B-Format Room, although it is possible to change to 2D or 3D. -->
 
-![](include/SpatRevolution_UserGuide_-120.jpg)
+<!--![](include/SpatRevolution_UserGuide_-120.jpg) -->
 
 
 ## Mid-Side Room
