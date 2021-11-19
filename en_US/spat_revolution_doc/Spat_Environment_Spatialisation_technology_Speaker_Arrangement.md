@@ -59,6 +59,12 @@ SPAT Revolution can accept real world absolute measurements which you have enter
 
 > A detailed tutorial on advanced scripting of Custom Speaker Configurations using the Python language is available as in some cases, creating speaker setups in an editor is not the most efficient way, primarily when such information is available as a list and was exported by an acoustic and design simulation software like those used with loudspeaker companies. This can be quite practical for some larger more complex setups. Please contact us for more information.
 
+## Understanding when a speaker arrangement, or a sound scene, is 2D or 3D
+
+We can quickly be tempted to create very precise speaker array, including height information where it may not be necessary.
+
+The rule of thumb is to think in plan and not in absolute height. If the speakers are meant to reproduce the same sound plan, they should have the same height. Also, the main sound plan has to be set at a height of zero meter.
+
 ## Automatic Scaling
 
 If you change the speaker arrangement of a room where you already routed some sources, the global sound scene will be scaled to the new speaker arrangement. This will preserve the presence of all the sources in your sound scene.

@@ -231,6 +231,15 @@ This panel gives access to the listening point. We can change its position, usin
 This panel control the behavior and size of the protection zone. By default it is set to a diameter of four meters. Please check out the section named "Understanding the 3D view" if you want more information about the protection zone.
 Note that the protection zone is attached to the listener position.
 
+### Efficiency Zone
+
+This panel contains options related to the efficiency zone.
+
++ Campling behavior option (consult the "Understanding the 3D view section for more information)
++ Width - change the depth of the efficiency zone
+
+![](include/efficiencyZoneOptions.png)
+
 ### Scaling
 
 #### Distance
