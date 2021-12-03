@@ -6,7 +6,15 @@ Instead, the controls provided typically affect more than one parameter in the u
 
 ![](include/Elixir_01.png)
 
-## Input / Output Section
+## Commun parameters
+
+### Theshold dBTP (9)
+Control the threshold (or ceiling) used for limiting.
+
+Unit: Decibel (dB)
+Range: -12.000 to 0.
+Min. Steps: 0.
+Default Value: 0.
 
 ### Input Gain (1)
 Control the gain applied to the limiter input.
@@ -41,6 +49,10 @@ Default Value: Off
 Bypasses the plug-in processing by routing the input direct to the output. 
 The actual processing is still performed in the background allowing for a true and smooth transition between the processed and the actual incoming signal.
 
+### ITU 1770 bs3 mode
+
+TODO: Document that
+
 ## Processing Section
 
 ### Ch. Link (6)
@@ -55,13 +67,13 @@ Default Value: 0
 
 ### Ch. Link Dynamic (6b)
 Make the channels' linkage dynamic according to the signal.
-It means: when On, the Channel Link will automatically move from 0 when High Dynamic (High transient) are detected and the desired value when no dynamic (low transient) are detected.
+It means: when activated, the Channel Link will automatically move from 0 when High Dynamic (High transient) are detected and the desired value when no dynamic (low transient) are detected.
 
 Unit: On/Off
 Default Value: Off
 
 ### Stages (7)
-Number of stages (passes or steps) used by the algorithm. Because the algorithm adapt itself to the audio material, doing multi stages allow for the processing to be even more precise and provide an even more natural sounding result.
+Number of stages (passes or steps) used by the algorithm. Because the algorithm adapt itself to the audio material, doing multi stages allows for the processing to be even more precise and provides an even more natural sounding result.
 For e.g. if the threshold is set to -3 dB and Stages set to 3: First stage will limit at -1dB, Second stage will limit at -2dB and third will limit at -3dB with analyzing done for each stage!
 
 Range: 1 to 12
@@ -71,20 +83,13 @@ Default Value: 1
 ### Speed (8)
 Allow to change how the algorithm will react regarding the audio material. 
 This will change how the gain envelop will be generated with more or less look-ahead, release and curve smoothing.
-Leave it at 50% by default which will be optimal for most case. prefer increasing stages before trying to reduce it and remember that from 50% to 100 % it can generate more and more distortion...
+Leave it at 50% by default which will be optimal for most case. 
+Prefer increasing stages before trying to reduce it and remember that from 50% to 100 % it can generate more and more distortion...
 
 Unit: Percent (%)  
 Range: 0.0 to 100.
 Min. Steps: 0.
 Default Value: 50.
-
-### Theshold dBTP (9)
-Control the threshold (or ceiling) used for limiting.
-
-Unit: Decibel (dB)
-Range: -12.000 to 0.
-Min. Steps: 0.
-Default Value: 0.
 
 ## Metering Section
 
@@ -96,7 +101,7 @@ Default Value: 0.
 All information is displayed at a refresh rate of 60 fps (if possible) and displaying the maximum action during the processing period.
 
 ##  Preset management
-Elixir , as well as all other Flux:: plug-ins, provides two preset slots referred to as slot A and slot B, which means that you can have direct access to two sets of parameter settings simultaneously.
+Elixir, as well as all other FLUX:: plug-ins, provides two preset slots referred to as slot A and slot B, which means that you can have direct access to two sets of parameter settings simultaneously.
 In addition to just recall (33) the settings for each of the slots individually and alternate between their settings, a morphing slider (35) is provided offering the possibility to morph between the slots and their corresponding settings.
 When clicking on one of the preset slots (38), the built-in preset manager appears.
 

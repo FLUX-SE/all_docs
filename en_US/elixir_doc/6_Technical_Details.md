@@ -1,5 +1,5 @@
 # Technical Details
-Elixir can manage up to 2 or 16 channels according to the license, and works with 64 bits floating point and a maximum sample rate of 384kHz, depending on the configurations. Please see below.
+Elixir can manage up to 2 or 16 channels according to the license, and works with 64 bits floating-point and a maximum sample rate of 384kHz, depending on the configurations. Please see below.
 
 # Plug-in formats and platforms supported
 
