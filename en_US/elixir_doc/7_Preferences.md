@@ -1,14 +1,17 @@
 # Main Setup
 
-These parameters are global for all the Elixir plugins. There are saved on the preferences document folder, and are commun for all the DAW. 
+These parameters are global for all Elixir plugins. 
+They are saved on the preferences document folder, and are commun for all the DAW. 
 
 ## Display Quality
 
 Set the display refresh of the UI.
+Default: 30 fps.
 
 ## Config
 
-Depending on the DAW, allow to choose the input/output config of the plugin.
+Allow to choose the input/output config of the plugin.
+The field is editable or not, according to the DAW.
 
 ## UI size
 
@@ -16,15 +19,17 @@ Set the plugin size.
 
 ## Report latency
 
-Allow to report latency on the DAW or not.
+Allow to report the latency to the DAW or not.
+Default: On
 
 ## Process in multithread
 
-Parameter set by default according to the DAW, defining if the automation is processed on the main thread or not.
-Please tweak this parameter only if the FLUX support told you so.  
+Parameter set by default according to the DAW, defining if the automation is processed on the main thread or on another thread.
+Please tweak this parameter only on FLUX:: support request.  
 
 ## OSC
 
+All plugins are controllable by OSC.
 
 ### Enable
 Enable OSC control, IN and OUT.
@@ -33,6 +38,6 @@ Enable OSC control, IN and OUT.
 
 Set it according to the destination port and IP number, and the network wanted.
 
-### Use Inst. in command
+<!-- ### Use Inst. in command
 
-??????
+??????  -->
