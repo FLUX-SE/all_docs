@@ -14,7 +14,7 @@ Stages present the option to set the algorithm to perform the limiting processin
 # Elixir Session, Elixir Essential
 
 Elixir comes with two different licensing options:
-- Elixir *Session* limits audio up to 2-channels
+- Elixir *Session* limits audio up to 2-channels and up to 96kHz sample rate.
 - Elixir *Essential* limits audio up to 16-channels
 
 The build is the same for both Session and Essential version, a licensing system is used to allow the 16 channels.
