@@ -1,6 +1,6 @@
 # Main Setup
 
-These parameters are global for all Elixir plugins. 
+These parameters are global for all Elixir instances.
 They are saved on the preferences document folder, and are commun for all the DAW. 
 
 ## Display Quality
@@ -16,6 +16,7 @@ The field is editable or not, according to the DAW.
 ## UI size
 
 Set the plugin size.
+> If you choose a too big size and cannot change it anymore, please close the UI of all Elixir instances, and delete "Preferences" on "/Documents/FLUX SE/Elixir". 
 
 ## Report latency
 

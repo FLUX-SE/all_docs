@@ -4,11 +4,11 @@ As you may notice, the controls are not the usual suspects found on a dynamics p
 
 Instead, the controls provided typically affect more than one parameter in the underlying algorithms, with everything carefully tweaked allowing for creative processing still ensuring the finest sound achievable.
 
-![](include/Elixir_01.png)
+![](include/Elixir-Essential_16ch_Annotated.png)
 
 ## Commun parameters
 
-### Theshold dBTP (9)
+### Threshold dBTP (9)
 Control the threshold (or ceiling) used for limiting.
 
 Unit: Decibel (dB)
@@ -16,7 +16,7 @@ Range: -12.000 to 0.
 Min. Steps: 0.
 Default Value: 0.
 
-### Input Gain (1)
+### Input Gain (3)
 Control the gain applied to the limiter input.
 
 Unit: Decibel (dB)
@@ -24,7 +24,7 @@ Range: -12.000 to +12.
 Min. Steps: 0.
 Default Value: 0.
 
-### Output Gain (4)
+### Output Gain (2)
 Control the gain at the output stage of the limiter.
 
 Unit: Decibel (dB)
@@ -33,30 +33,31 @@ Min. Steps: 0.
 Default Value: 0.  
 
 
-###  Diff. (2)
+###  Diff. (8)
 Allow to hear the difference only. 
 Used to better understand the action and allow to easily tweak the parameters.
 
 On/Off
 Default Value: Off
 
-### Make Up (3)
+### Make Up (9)
 Apply Gain compensation. Add the invert of the threshold gain to the output gain.
 
 On/Off  
 Default Value: Off
 
-### Bypass (5)
+### Bypass (10)
 Bypass the plug-in processing by routing the input direct to the output. 
 The actual processing is still performed in the background allowing for a true and smooth transition between the processed and the actual incoming signal.
 
-### ITU 1770 bs3 mode
+<!-- ### ITU 1770 bs3 mode
 
-Allow the limitation according to the ITU BS.1770-3 recommandation, i.e. use the ITU recommended algorithm to measure the true-peak level. 
+Allow the limitation according to the ITU BS.1770-3 recommandation, i.e. use the ITU recommended algorithm to measure the true-peak level.
+-->
 
 ## Processing Section
 
-### Ch. Link (6)
+### Ch. Link (4)
 
 % of channels linkage
 
@@ -66,23 +67,23 @@ Min. Steps: 1
 
 Default Value: 0
 
-### Ch. Link Dynamic (6b)
+### Ch. Link Dynamic (7)
 Make the channels' linkage dynamic according to the signal.
 It means: when activated, the Channel Link will automatically move from 0 when high dynamic (i.e. high transients) are detected and the desired value when no dynamic (i.e. low transients) are detected.
 
 Unit: On/Off
 Default Value: Off
 
-### Stages (7)
+### Stages (5)
 Number of stages (passes or steps) used by the algorithm. 
 Because the algorithm adapts itself to the audio material, doing multi stages allows for the processing to be even more precise and provides an even more natural sounding result.
 For e.g. if the threshold is set to -3 dB and Stages set to 3: first stage will limit at -1dB, second stage will limit at -2dB and third will limit at -3dB with analyzing done for each stage!
 
-Range: 1 to 12
+Range: 1 to 4
 Min. Steps: 1
 Default Value: 1
 
-### Speed (8)
+### Speed (6)
 Allow to change how the algorithm will react regarding the audio material. 
 This will change how the gain envelop will be generated with more or less look-ahead, release and curve smoothing.
 Leave it at 50% by default which will be optimal for most case.
@@ -95,11 +96,11 @@ Default Value: 50.
 
 ## Metering Section
 
-### Signal Input dBTP True Peak Meter (10)
+### Signal Input dBTP True Peak Meter (11)
 
-### Signal Output dBFS True Peak Meter (11)
+### Signal Output dBFS True Peak Meter (12)
 
-### Comp. dBFS Meter (12)
+### Comp. dBFS Meter (13)
 All information is displayed at a refresh rate of 60 fps (if possible) and displaying the maximum action during the processing period.
 
 ##  Preset management
