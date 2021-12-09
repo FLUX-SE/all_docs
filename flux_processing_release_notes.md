@@ -1,5 +1,18 @@
 # Release Notes
 
+
+## Build 21.11.0.50107 (HEar, IRCAM Verb)
+
+**Improvement**
+
+* HEar - 5.1.4 & 5.0.4 now available
+
+**Bug fixes**
+
+* HEar - Fix meters refresh issue
+* HEar - No verb on some presets
+* HEar - Protools crashes when doing offline bounce on macOS
+
 ## FLUX:: Immersive - Plugins (including IRCAM Tools)  21.09
 This release includes updates for all FLUX::Immersive plugin processing products with the exception of EVO Channel, Epure, IRCAM Trax, Studio Session.
 
