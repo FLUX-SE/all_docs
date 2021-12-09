@@ -8,7 +8,7 @@ Instead, the controls provided typically affect more than one parameter in the u
 
 ## Commun parameters
 
-### Threshold dBTP (9)
+### Threshold dBTP (3)
 Control the threshold (or ceiling) used for limiting.
 
 Unit: Decibel (dB)
@@ -16,7 +16,7 @@ Range: -12.000 to 0.
 Min. Steps: 0.
 Default Value: 0.
 
-### Input Gain (3)
+### Input Gain (1)
 Control the gain applied to the limiter input.
 
 Unit: Decibel (dB)
