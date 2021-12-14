@@ -3,6 +3,8 @@
 
 ## Build 21.11.0.50107 (HEar, IRCAM Verb)
 
+NOTE: **CURRENTLY NOT COMPLIANT WITH ABLETON LIVE MACOS**
+
 **Improvement**
 
 * HEar - 5.1.4 & 5.0.4 now available
