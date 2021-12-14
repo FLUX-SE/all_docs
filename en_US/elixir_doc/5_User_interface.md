@@ -50,10 +50,10 @@ Default Value: Off
 Bypass the plug-in processing by routing the input direct to the output. 
 The actual processing is still performed in the background allowing for a true and smooth transition between the processed and the actual incoming signal.
 
-<!-- ### ITU 1770 bs3 mode
+### ITU 1770 bs3 mode
 
-Allow the limitation according to the ITU BS.1770-3 recommandation, i.e. use the ITU recommended algorithm to measure the true-peak level.
--->
+Allow the limitation according to the ITU BS.1770-3 recommandation, i.e. use the ITU algorithm presented on the recommandation to measure the true-peak level.
+
 
 ## Processing Section
 
@@ -79,7 +79,7 @@ Number of stages (passes or steps) used by the algorithm.
 Because the algorithm adapts itself to the audio material, doing multi stages allows for the processing to be even more precise and provides an even more natural sounding result.
 For e.g. if the threshold is set to -3 dB and Stages set to 3: first stage will limit at -1dB, second stage will limit at -2dB and third will limit at -3dB with analyzing done for each stage!
 
-Range: 1 to 4
+Range: 1 to 12
 Min. Steps: 1
 Default Value: 1
 
