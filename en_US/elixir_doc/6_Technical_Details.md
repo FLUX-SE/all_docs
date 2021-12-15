@@ -7,7 +7,7 @@ Windows 7, Windows 8, Windows 10 : 64 bit
 - AAX : 64 bit (ProTools 10 or later required)
 - VST : 64 bit
 
-macOS 10.11 (El capitan), macOS 10.12 (Sierra), macOS 10.13 (High Sierra), macOS 10.14 (Mojave), macOS 10.15 (Catalina), macOS 11 (Big Sur), macOS 12 (Monterey):
+macOS 10.12 (Sierra), macOS 10.13 (High Sierra), macOS 10.14 (Mojave), macOS 10.15 (Catalina), macOS 11 (Big Sur), macOS 12 (Monterey):
 - AAX : 64 bit (ProTools 10 or later required)
 - VST : 64 bit
 - AU : 64 bit
