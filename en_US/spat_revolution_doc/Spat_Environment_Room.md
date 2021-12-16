@@ -237,6 +237,7 @@ This panel contains options related to the efficiency zone.
 
 + Campling behavior option (consult the "Understanding the 3D view section for more information)
 + Width - change the depth of the efficiency zone
+* Trunc (available only for non-surrounding 2D speakers setup) - change the starting distance of the efficiency zone
 
 ![](include/efficiencyZoneOptions.png)
 
