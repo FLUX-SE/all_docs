@@ -1,6 +1,15 @@
 # Release Notes
 
 
+## Build 21.12.0.50114 - All plugins on macOS
+
+**Bug fixes**
+
+* Fix crashes with Ableton live macOS and VST plugins
+* HEar AudioUnit - Ableton crashes when inserting a second instance
+* HEar - Bypass is working in AAX
+
+
 ## Build 21.11.0.50107 (HEar, IRCAM Verb)
 
 NOTE: **CURRENTLY NOT COMPLIANT WITH ABLETON LIVE MACOS**
