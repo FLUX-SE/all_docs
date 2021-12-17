@@ -1,5 +1,11 @@
 # Release Notes
 
+## Build 21.12.0.5012X - Elixir
+
+* Elixir - Several fixes on the UI
+* Elixir - Automation is not read for toggle parameters.
+* Elixir - Windows AAX - Refresh with two instances in ProTools
+
 
 ## Build 21.12.0.50114 - All plugins on macOS
 
@@ -8,6 +14,7 @@
 * Fix crashes with Ableton live macOS and VST plugins
 * HEar AudioUnit - Ableton crashes when inserting a second instance
 * HEar - Bypass is working in AAX
+* Elixir - Crash when clicking on the settings button on Session version
 
 
 ## Build 21.11.0.50107 (HEar, IRCAM Verb)
