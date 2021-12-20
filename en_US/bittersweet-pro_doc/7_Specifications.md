@@ -10,51 +10,45 @@
 ## Processing Specifications - BitterSweet Pro v3 Studio Session
 
 *   Mono/Stereo Input/Output.
-*   64-bits internal floating point processing.
+*   64-bits internal floating-point processing.
 *   Sampling rate up to 96 kHz.
 
 ## Compatibility
 
 **BitterSweet Pro v3**
 
-*   **Windows - 7 SP1, 8, 8,1 and 10 all in both 32 and 64 bits.**
-    *   VST (2.4) in 32/64 bit
-    *   AAX Native/DSP\* in 32/64 bit
-    *   AAX AudioSuite\* in 32/64 bit
-    *   Waves WPAPI Native/Soundgrid in 32/64 bit
-    *   VS3\*\* Pyramix 9 in 32 bit and Ovation 5
-    *   VS3\*\* Pyramix 9 in 64 bit
-    *   VS3\*\* Pyramix 10 in 64 bit and Ovation 6
+*   **Windows - 10 64 bits.**
+    *   VST (2.4) in 64 bit
+    *   AAX Native/DSP\* in 64 bit
+    *   AAX AudioSuite\* in 64 bit
+    *   Waves WPAPI Native/Soundgrid in 64 bit
+    *   VS3\*\* Pyramix 10 and more in 64 bit and Ovation 6 and more
     *   Avid Venue Systems
 
-*   **Mac OS X (Intel) - 10.7.5, 10.8.5, 10.9.5, 10.10.5 and 10.11.5.**
-    *   VST (2.4) in 32/64 bit
-    *   AU in 32/64 bit
-    *   AAX Native/DSP\* in 32/64 bit
-    *   AAX AudioSuite\* in 32/64 bit
-    *   Waves WPAPI Native/Soundgrid in 32/64 bit
+*   **macOS (Intel and ARM) - 10.12 and more, 11 and 12.**
+    *   VST (2.4) in 64 bit
+    *   AU in 64 bit
+    *   AAX Native/DSP\* in 64 bit
+    *   AAX AudioSuite\* in 64 bit
+    *   Waves WPAPI Native/Soundgrid in 64 bit
     *   Avid Venue Systems
 
 **BitterSweet Pro v3 Studio Session**
 
-*   **Windows - 7 SP1, 8, 8,1 and 10 all in both 32 and 64 bits.**
-    *   VST (2.4) in 32/64 bit
-    *   AAX Native/AudioSuite\* in 32/64 bit
+*   **Windows - 10 64 bits.**
+    *   VST (2.4) in 64 bit
+    *   AAX Native/AudioSuite\* in 64 bit
 
-*   **Mac OS X (Intel) - 10.7.5, 10.8.5, 10.9.5, 10.10.5 and 10.11.5.**
-    *   VST (2.4) in 32/64 bit
-    *   AU in 32/64 bit
-    *   AAX Native/AudioSuite\* in 32/64 bit
-
-\* AAX supports 32 bit in Pro Tools 10.3.5 and 64 bit in Pro Tools 11 and later.  
+*   **macOS (Intel and ARM) - 10.12 and more, 11 and 12.**
+    *   VST (2.4) in 64 bit
+    *   AU in 64 bit
+    *   AAX Native/AudioSuite\* in 64 bit
+    
 \*\* VS3 for Pyramix & Ovation Native/MassCore sold only through Merging Technologies and authorized dealers.
 
 ## Licence Requirements
 
-In order to use BitterSweet Pro or BitterSweet Pro Studio Session one of the following alternatives is required:
-
-*   An iLok.com user account (the iLok USB Smart Key is not required).
-*   A Flux:: USB Dongle (Available in our online store).
+In order to use BitterSweet Pro or BitterSweet Pro Studio Session, an iLok.com user account is required (the iLok USB Smart Key is not required).
 
 ## AAX DSP Specifications
 
