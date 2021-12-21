@@ -1,10 +1,10 @@
 # Release Notes
 
-## Build 21.12.0.5012X - Elixir
+## Build 21.12.0.50123 - Elixir
 
 * Elixir - Several fixes on the UI
 * Elixir - Automation is not read for toggle parameters.
-* Elixir - Windows AAX - Refresh with two instances in ProTools
+* Elixir - Windows AAX - Refresh issue with two instances in ProTools
 
 
 ## Build 21.12.0.50114 - All plugins on macOS
