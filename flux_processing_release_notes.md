@@ -9,10 +9,12 @@
 * All plugins VST - Crash in Adobe Audition on macOS
 * All plugins VST macOS - Fix crashes with Ableton live
 
+
 * Elixir - Automation is not read for toggle parameters.
 * Elixir - Crash when clicking on the settings button on Session version
 * Elixir - Several fixes on the UI
 * Elixir - Windows AAX - Refresh issue with two instances in ProTools
+
   
 * HEar - Bypass is working in AAX
 * HEar AAX - Crash when doing offline bounce on macOS
