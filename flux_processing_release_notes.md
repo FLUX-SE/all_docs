@@ -1,17 +1,23 @@
 # Release Notes
 
-## Build 21.12.0.50123 - Elixir
+## Build 21.12.0.50123 - All plugins except TRAX and StudioSession
 
 * Elixir - Several fixes on the UI
 * Elixir - Automation is not read for toggle parameters.
-* Elixir - Windows AAX - Refresh issue with two instances in ProTools
+* Elixir - Windows AAX - Refresh issue with two instances in ProTools 
+* HEar AAX - Crash when doing offline bounce on macOS
+* HEar AAX - Crash when editing the matrix on macOS
+* HEar AAX - Stereo - Change on Matrix are not applied until we change the preset
+* All plugins VST - Plugin scan freeze in Wavelab 11 on Mac M1 machines
+* All plugins VST - Crash in Adobe Audition on macOS
+* All plugins AudioUnit - GUI issue on certain retina or hdpi displays
 
 
 ## Build 21.12.0.50114 - All plugins on macOS
 
 **Bug fixes**
 
-* Fix crashes with Ableton live macOS and VST plugins
+* All plugin VST macOS - Fix crashes with Ableton live
 * HEar AudioUnit - Ableton crashes when inserting a second instance
 * HEar - Bypass is working in AAX
 * Elixir - Crash when clicking on the settings button on Session version
