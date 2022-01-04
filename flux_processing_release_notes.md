@@ -2,6 +2,8 @@
 
 ## Build 21.12.0.50123 - All plugins except TRAX and StudioSession
 
+**Bug fixes**
+
 * Elixir - Several fixes on the UI
 * Elixir - Automation is not read for toggle parameters.
 * Elixir - Windows AAX - Refresh issue with two instances in ProTools 
@@ -10,7 +12,7 @@
 * HEar AAX - Stereo - Change on Matrix are not applied until we change the preset
 * All plugins VST - Plugin scan freeze in Wavelab 11 on Mac M1 machines
 * All plugins VST - Crash in Adobe Audition on macOS
-* All plugins AudioUnit - GUI issue on certain retina or hdpi displays
+* All plugins AudioUnit - GUI issue with Hdpi displays on macOS Monterey
 
 
 ## Build 21.12.0.50114 - All plugins on macOS
