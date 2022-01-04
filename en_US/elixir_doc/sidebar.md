@@ -5,5 +5,6 @@
 * [Authorization](4_Authorization.md)
 * [User interface](5_User_interface.md)
 * [Technical details](6_Technical_Details.md)
+* [Preferences](7_Preferences.md)
 * Appendix 
 	* [Release Notes](../../flux_processing_release_notes.md)

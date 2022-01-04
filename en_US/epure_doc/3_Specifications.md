@@ -12,6 +12,4 @@
 - Sampling rate up to 96 kHz.
 
 ## Licence Requirements
-In order to use Epure v3 or Epure v3 Studio Session, one of the following alternatives is required:  
-- An iLok.com user account (the iLok USB Smart Key is not required). 
-- A Flux:: USB Dongle (Available in our online store).
+In order to use Epure v3 or Epure v3 Studio Session, an iLok.com user account is required (the iLok USB Smart Key is not required)

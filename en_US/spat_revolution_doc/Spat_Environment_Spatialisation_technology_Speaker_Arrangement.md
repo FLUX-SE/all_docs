@@ -1,11 +1,11 @@
 # Speaker Arrangement Editor
 
-## Rendering To Speakers
+## Rendering to Speakers
 
 * Virtual scene is transposed to a speaker system.
 * Speaker arrangements to model the diffusion system.
 * Panning or Synthesis method.
-* Arrangements used for source, room and transcode.
+* Arrangements used for the source, room and transcode.
 
 > *Pay attention to arrangements and channel routing, they are the key !.*
 
@@ -15,13 +15,13 @@ To this end, you will find a large library of standard and specialized speaker a
 
 Speaker arrangements can be used to fit the format of a virtual room to match the actual speaker system being used to diffuse the mix in a real room. Channel-based speaker configurations are used to define a multi-channel source arrangement, a room speaker source arrangement, and can also be used in the transcoding phase of soundfields.
 
-The golden rule when working with multichannels based audio is to ensure to have the appropriate format, speaker arrangement, and channel routing throughout, otherwise the virtual space will not map correctly into a physical space.
+The golden rule when working with multi-channel based audio is to ensure to have the appropriate format, speaker arrangement, and channel routing throughout, otherwise the virtual space will not map correctly into a physical space.
 
 ## Speaker Configuration
 
 ![width=700, atl=Spat Revolution Speaker Config](include/SpatRevolution_SpeakerConfig_1.png)
 
-> *★The speaker configuration window showing a pre-defined 13.1 Auro 3D speaker arrangement.*
+> *★The speaker configuration window showing a predefined 13.1 Auro 3D speaker arrangement.*
 
 The **Speaker Config** editor offers the ability to prepare the model of the sound diffusion system you are actually using.
 
@@ -41,9 +41,9 @@ Open the **Speaker Configuration** editor by clicking on the <code>Edit</code> b
 
 > *Computing and using the Normalize function.*
 
-_!> Arrangements of more than twelve speakers cannot be applied to module with the SPAT Revolution Essential license._
+_!> With a Spat Revolution Essential license, blocks cannot use an arrangement containing more than twelve speakers. 
 
-Note: Managing the **Speaker Configuration** includes the ability to <code>Delete</code>, <code>rename</code>,  <code>import</code> configuration(s) from a file, or <code>export</code> configuration(s) to a file. Note that SPAT Revolution’s pre-defined speaker arrangements can’t be deleted or renamed, but duplicating them (making a copy) will allow you to edit the arrangement thus starting from an existing configuration.
+Note: Managing the **Speaker Configuration** includes the ability to <code>Delete</code>, <code>rename</code>,  <code>import</code> configuration(s) from a file, or <code>export</code> configuration(s) to a file. Note that SPAT Revolution’s predefined speaker arrangements can’t be deleted or renamed, but duplicating them (making a copy) will allow you to edit the arrangement thus starting from an existing configuration.
 
 Once editing a speaker configuration, you can either <code>+ Add</code>, <code>- Del</code>, <code>Move Up</code> or <code>Move Down</code> speakers in the list. Note that the total number of channels in your arrangement is denoted above the list. Your speaker system contains a Low Frequency LFE channel where you want the ability to send audio to it like on an aux system? Simply adding a channel (or channels), called LFE, will do the magic for you here directly. This particular channel won’t be fed from the virtual room panning, but by the LFE Send on each of the sources that will be available on rooms containing an LFE.
 
@@ -53,9 +53,9 @@ Once editing a speaker configuration, you can either <code>+ Add</code>, <code>-
 
 > *Positioning Speakers with XYZ or AES coordinates.*
 
-Position information of the loudspeaker can be entered as X, Y, Z in meters or with Azimuth degrees, Elevation degrees, and Distance in meters. These position have an origin of (0,0,0), the Listener Positions, the center of reference. Delay and Gain can be used to manually align the speaker location to a virtual "aligned" speaker, essentially creating a virtual speaker.
+Position information of the loudspeaker can be entered as X, Y, Z in meters or with azimuth degrees, elevation degrees, and Distance in meters. These positions have an origin of (0,0,0), the Listener Positions, the center of reference. Delay and Gain can be used to manually align the speaker location to a virtual "aligned" speaker, essentially creating a virtual speaker.
 
-SPAT Revolution can accept real world absolute measurements which you have entered manually, and this speaker arrangement can be used in all Channel Based contexts, such as an input array of microphones, simulating the exact physical speakers in a virtual room, virtualising the speaker sources in binaural or transcoding into channel-based system from an Ambisonic stream.
+SPAT Revolution can accept real world absolute measurements which you have entered manually, and this speaker arrangement can be used in all Channel Based contexts, such as an input array of microphones, simulating the exact physical speakers in a virtual room, virtualizing the speaker sources in binaural or transcoding into channel-based system from an Ambisonic stream.
 
 > A detailed tutorial on advanced scripting of Custom Speaker Configurations using the Python language is available as in some cases, creating speaker setups in an editor is not the most efficient way, primarily when such information is available as a list and was exported by an acoustic and design simulation software like those used with loudspeaker companies. This can be quite practical for some larger more complex setups. Please contact us for more information.
 
