@@ -37,4 +37,5 @@
  
 ## Legacy
 
- - [Ircam Spat (Plugin)](en_US/ircam_spat_doc/0_Ircam_Spat.md)
+- [Elixir v3](en_US/elixir_v3_doc/0_Elixir.md)
+- [Ircam Spat (Plugin)](en_US/ircam_spat_doc/0_Ircam_Spat.md)

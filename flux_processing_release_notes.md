@@ -1,5 +1,42 @@
 # Release Notes
 
+## Build 21.12.0.50123 - All plugins except TRAX and StudioSession
+
+**Bug fixes**
+
+* All plugins AudioUnit - GUI issue with Hdpi displays on macOS Monterey
+* All plugins VST - Plugin scan freeze in Wavelab 11 on Mac M1 machines
+* All plugins VST - Crash in Adobe Audition on macOS
+* All plugins VST macOS - Fix crashes with Ableton live
+
+
+* Elixir - Automation is not read for toggle parameters.
+* Elixir - Crash when clicking on the settings button on Session version
+* Elixir - Several fixes on the UI
+* Elixir - Windows AAX - Refresh issue with two instances in ProTools
+
+  
+* HEar - Bypass is working in AAX
+* HEar AAX - Crash when doing offline bounce on macOS
+* HEar AAX - Crash when editing the matrix on macOS
+* HEar AAX - Stereo - Change on Matrix are not applied until we change the preset
+* HEar AudioUnit - Ableton crashes when inserting a second instance
+
+
+## Build 21.11.0.50107 (HEar, IRCAM Verb)
+
+NOTE: **CURRENTLY NOT COMPLIANT WITH ABLETON LIVE MACOS**
+
+**Improvement**
+
+* HEar - 5.1.4 & 5.0.4 now available
+
+**Bug fixes**
+
+* HEar - Fix meters refresh issue
+* HEar - No verb on some presets
+* HEar - Protools crashes when doing offline bounce on macOS
+
 ## FLUX:: Immersive - Plugins (including IRCAM Tools)  21.09
 This release includes updates for all FLUX::Immersive plugin processing products with the exception of EVO Channel, Epure, IRCAM Trax, Studio Session.
 

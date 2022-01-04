@@ -35,14 +35,14 @@ In order to use the software an iLok.com user account is required (the iLok USB 
 
 All major native formats are supported
 
-### Windows – 7 SP1, 8.1 and 10, all in 64 bits only.
+### Windows – 10, in 64 bits only.
 - VST (2.4)
 - AAX Native*
 - AAX AudioSuite*
 - Waves WPAPI
 
-### Mac OS X (Intel) 
-All versions from Yosemite 10.10.5 to latest. (Compatible with previous versions but not supported)
+### Mac OS X (Intel and ARM) 
+All versions from Sierra (10.12) to latest. (Compatible with previous versions but not supported)
 
 - VST (2.4)
 - AU

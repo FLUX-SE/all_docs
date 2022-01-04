@@ -7,7 +7,6 @@
 * [Evo Channel](en_US/evo-channel_doc/0_Evo-Channel.md)
 * [Evo In](en_US/evo-in_doc/0_Evo_In.md)
 * [Ircam HEar](en_US/ircam_hear_doc/0_Ircam_Hear.md)
-* [Ircam Spat](en_US/ircam_spat_doc/0_Ircam_Spat.md)
 * [Ircam Trax](en_US/ircam_trax_doc/0_Ircam_Trax.md)
 * [Ircam Verb](en_US/ircam_verb_doc/0_Ircam_Verb.md)
 * [Ircam Verb Session](en_US/ircam_verb-session_doc/0_Ircam_Verb_Session.md)
@@ -23,3 +22,6 @@
 * [Studio Session Analyzer](en_US/studio_session_analyser/0_StudioSessionAnalyser.md)
 * [Studio Session Plugins](en_US/studio_session_plugins/0_StudioSessionPlugins.md)
 * [Syrah](en_US/syrah_doc/0_Syrah.md)
+* [Legacy]
+    * [Elixir v3](en_US/elixir_v3_doc/0_Elixir.md)
+    * [Ircam Spat](en_US/ircam_spat_doc/0_Ircam_Spat.md)
