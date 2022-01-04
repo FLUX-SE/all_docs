@@ -4,25 +4,21 @@
 
 **Bug fixes**
 
-* Elixir - Several fixes on the UI
+* All plugins AudioUnit - GUI issue with Hdpi displays on macOS Monterey
+* All plugins VST - Plugin scan freeze in Wavelab 11 on Mac M1 machines
+* All plugins VST - Crash in Adobe Audition on macOS
+* All plugins VST macOS - Fix crashes with Ableton live
+
 * Elixir - Automation is not read for toggle parameters.
-* Elixir - Windows AAX - Refresh issue with two instances in ProTools 
+* Elixir - Crash when clicking on the settings button on Session version
+* Elixir - Several fixes on the UI
+* Elixir - Windows AAX - Refresh issue with two instances in ProTools
+  
+* HEar - Bypass is working in AAX
 * HEar AAX - Crash when doing offline bounce on macOS
 * HEar AAX - Crash when editing the matrix on macOS
 * HEar AAX - Stereo - Change on Matrix are not applied until we change the preset
-* All plugins VST - Plugin scan freeze in Wavelab 11 on Mac M1 machines
-* All plugins VST - Crash in Adobe Audition on macOS
-* All plugins AudioUnit - GUI issue with Hdpi displays on macOS Monterey
-
-
-## Build 21.12.0.50114 - All plugins on macOS
-
-**Bug fixes**
-
-* All plugin VST macOS - Fix crashes with Ableton live
 * HEar AudioUnit - Ableton crashes when inserting a second instance
-* HEar - Bypass is working in AAX
-* Elixir - Crash when clicking on the settings button on Session version
 
 
 ## Build 21.11.0.50107 (HEar, IRCAM Verb)
