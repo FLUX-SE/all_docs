@@ -33,7 +33,7 @@ This mode uses the selected HRTF in order to recreate the sound field. This is t
 
 ### Advanced algorithms
 
-!> _These advanced binaural “modes” are only available with the Ultimate license of _SPAT Revolution_.
+!> These advanced binaural “modes” are only available with the Ultimate license of _SPAT Revolution_.
 
 #### Near-field binaural
 
@@ -58,7 +58,9 @@ Hence its name, “snowman model.”
 #### Head scale
 
 The parameter “head scale,” available for the four binaural algorithms, allows adapting the head size to the listener.
-This will adjust the interaural time and level differences.
+This will adjust the interaural time and level differences. 
+It is available on the room parameter on the setup page, but also on the output panel of the room.
+<!-- TODO:add photo for that --> 
 
 
 ## Binaural Monitoring Module

@@ -7,7 +7,7 @@
 * Panning or Synthesis method.
 * Arrangements used for the source, room and transcode.
 
-> *Pay attention to arrangements and channel routing, they are the key !.*
+> *Pay attention to arrangements and channel routing, they are the key!*
 
 In order for the virtual scene (our room) to translate correctly as an immersive sound experience on a speaker system, SPAT Revolution needs to have a model of a multi-channel speaker arrangement which will be used to apply the panning or synthesis method to map the information to the destination speakers and render the sound field correctly.
 
@@ -41,7 +41,7 @@ Open the **Speaker Configuration** editor by clicking on the <code>Edit</code> b
 
 > *Computing and using the Normalize function.*
 
-_!> With a Spat Revolution Essential license, blocks cannot use an arrangement containing more than twelve speakers. 
+!> With a Spat Revolution Essential license, blocks cannot use an arrangement containing more than sixteen speakers. 
 
 Note: Managing the **Speaker Configuration** includes the ability to <code>Delete</code>, <code>rename</code>,  <code>import</code> configuration(s) from a file, or <code>export</code> configuration(s) to a file. Note that SPAT Revolution’s predefined speaker arrangements can’t be deleted or renamed, but duplicating them (making a copy) will allow you to edit the arrangement thus starting from an existing configuration.
 
@@ -67,7 +67,10 @@ The rule of thumb is to think in plan and not in absolute height. If the speaker
 
 ## Automatic Scaling
 
-If you change the speaker arrangement of a room where you already routed some sources, the global sound scene will be scaled to the new speaker arrangement. This will preserve the presence of all the sources in your sound scene.
+If you change the speaker arrangement of a room where you already routed some sources, the global sound scene could be scaled to the new speaker arrangement. 
+An window will ask for it. 
+This will preserve the presence of all the sources in your sound scene.
+<!-- TODO: add the image -->
 
 ## Speaker transformation
 
@@ -111,15 +114,18 @@ To modify a speaker arrangement with a predefined action, you can use the "trans
 
 The measurements you have entered into the speaker arrangement are also useful to compute (aka. calculate and apply) the optimum delays and gains for equidistance of all speakers to the center of reference listener. This is an advanced speaker management technique made easily accessible by a single press of the **Compute** button.
 
-It is a speaker alignment method on a speaker's physical configuration that may not have speakers located in ideal locations. Basically SPAT revolution will create virtual speakers after calculating and applying the alignment so all speakers become equidistant to the center of reference. This is a technique preconized when using panning methods that are sweet spot centric such as VBAP and VBIP. The methods will provide very smooth panning on arrangements that have all speakers equidistant to the optimum listening position.
+It is a speaker alignment method on a speaker's physical configuration that may not have speakers located in ideal locations. Basically SPAT revolution will create virtual speakers after calculating and applying the alignment so all speakers become equidistant to the center of reference. This is a technique preconized when using panning methods that are sweet spot centric such as DualBand VBP, VBAP or VBIP. The methods will provide very smooth panning on arrangements that have all speakers equidistant to the optimum listening position.
 
 > It is preferable to do this alignment in SPAT Revolution instead of external processing as SPAT will use the computed speaker locations (the virtual speakers) for actually spatializing afterward.
+ 
+An option "Compute LFE" is available on the room panel of the preferences page in order to include or exclude the LFE of this compute.
 
 ## Panning tips
 
-In the Speaker Config window, we can found information about which pan law to use in regard of our speaker array. As there is many options available in SPAT, this simplifies the choice to make.
+In the Speaker Config window, we can find information about which pan law to use in regard of our speaker array. As there is many options available in SPAT, this simplifies the choice to make.
 
 ![](include/Panning_Tips.png)
+<!-- TODO: update the image with the latest panType-->
 
 There are five colors associated with the possible panning types:
 - Green : this panning type is valid and functional with the selected speaker array
@@ -129,7 +135,7 @@ There are five colors associated with the possible panning types:
 
 ![](include/Panning_Tips_Error.png)
 
-> Error display with HOA panning type.
+> Error displayed with HOA panning type.
 
 For more information about each pan law, check out the section [Panning algorithms](5_Spatialisation_Technology_5_5_Panning_Algorithms.md).
 

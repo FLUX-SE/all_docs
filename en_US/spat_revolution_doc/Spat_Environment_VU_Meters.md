@@ -8,3 +8,4 @@ Also, notice how the “wire” that graphically connects modules in the setup s
 
 ![](include/SpatRevolution_UserGuide_-078.jpg)
 
+<!-- TODO: update the image -->

@@ -8,4 +8,6 @@ The status and help bars appear at the bottom of all views. It gives information
 
 ![](include/SpatRevolution_UserGuide_-072.jpg)
 
+<!-- TODO: update the image -->
+
 > With Send/Return plug-ins, if sampling rate and block size between DAW and Spat Revolution are different, the status bar will be red. Double-click on this bar to automatically change them into Spat Revolution.

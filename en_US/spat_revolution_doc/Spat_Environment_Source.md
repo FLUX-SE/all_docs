@@ -14,7 +14,7 @@ External software needs to know how to identify virtual objects, and that will b
 
 SPAT Revolution is able to receive data from RTTrPM open protocol tracking systems. This protocol is supported by BlackTrax™. BlackTrax™ is a vision-based system that connects to different third-party applications, such as robotic lights, media servers and SPAT Revolution. OSC is the other very good method to use for tracking, and various tracking systems support it natively.
 
-_!> RTTrPM protocol is only available with the Ultimate license of SPAT Revolution_.
+!> _RTTrPM protocol is only available with the Ultimate license of SPAT Revolution_.
 
 When you have correctly set up the BlackTrax protocol (see [BlackTrax Integration section](ThirdParty_BlackTrax.md)) then you can directly assign Tracking Index to virtual sources, and also to listener position (see [Listener position section](5_Spatialisation_Technology_5_4_Listener_Position.md)) for advanced virtual reality interactive audio projects.
 
@@ -44,6 +44,7 @@ Additionally, a _right click_ on a Source Index number will bring up some furthe
 A double-click on any Source Parameter dial will reset it to a SPAT default setting. The default setting of a parameter is indicated around a dial as a larger tick than the other tick marks. Additionally, a range is graphically indicated between the default setting and the current setting of a variable parameter.
 
 ![](include/SpatRevolution_UserGuide_-162.jpg)
+<!-- TODO: update the image -->
 
 > ★ _Use the defaults as points of reference in your spatial sound design._
 
@@ -52,6 +53,7 @@ A double-click on any Source Parameter dial will reset it to a SPAT default sett
 Each parameter has the possibility to store useful preset settings of your own choosing. Right click on a parameter dial, and a contextual menu will pop up. From there you can store the current setting to a Memory Slot, or Recall a setting from a previously saved memory slot.
 
 ![](include/SpatRevolution_UserGuide_-148.jpg)
+<!-- TODO: update the image -->
 
 ### Multiple Source Selection
 
@@ -64,6 +66,7 @@ You can shift click on the Index number of separate sources to create an ad hoc 
 When you have selected an ad hoc group using the shift click technique, you can then open the _Source Parameter_ panel by clicking on the property panel header 'fold arrow' as  shown in the screenshot below.
 
 ![](include/SpatRevolution_UserGuide_-166.jpg)
+<!-- TODO: update the image -->
 
 Any source parameter variables you adjust manually will assign that same setting on all selected sources in the group. A barycenter will then become practical to work from a center of mass perspective. For example, transformations like scaling, distance, rotation and directivity of the group is managed by SPAT controlling each member of the group a barycentric relationship. Consider referring to section [Barycentric groups](6_Spat_Environment_6_8_Barycentric_Groups_in_Rooms.md) about groups in rooms to read more about how they are represented.
 
@@ -113,6 +116,7 @@ Envelopment corresponds to the perceived notion of how much the listener feels t
 ### Reverb Options
 
 ![](include/SpatRevolution_UserGuide_-172.jpg)
+<!-- TODO: update the image -->
 
 **Reverb Enabled**
 
@@ -127,6 +131,15 @@ _Early_ refers to _Early Reflections_ stage of the Room response which is one of
 _Cluster_ refers to a secondary iteration of room response reflections and is quite significant in the cognition of room acoustics.
 
 _Tail_ refers to the diffuse reverberations that eventually decay in a direct relationship with the size and reflectivity of an acoustic space. The tail section of a reverb dœs not contribute much to the localisability of a sound source in a space, but instead gives a sense of depth and ambiance.
+
+
+**PanRev**
+
+By default, only early reflections are panned, and the cluster reflections, which form the diffuse part of the early reverberation, are panned dead center. _PanRev_ allows you to modify cluster panning, thus imparting some directionality or perceived direction to the diffuse part of the sound.
+
+**Early Width**
+
+Controls the width of the sound projection lobe of the early reflections from a source in the virtual acoustic space, in degrees. The minimum setting, 1°, gives a very directional source, whereas 180° makes it omnidirectional.
 
 ### Axis / Omni Filters
 
@@ -179,15 +192,15 @@ Angle of the source direct orientation relative to the listener-source axis, in 
 
 Source direct orientation pitch angle, in degrees. Think of _pitch_ in the nautical sense of the word, how a boat _pitches_ up and down in stormy seas.
 
-> **Pitch and Yaw can be used to make a source more diffuse
-by turning its direct sound away from the listener**
+> Pitch and Yaw can be used to make a source more diffuse
+by turning its direct sound away from the listener.
 
 **Aperture**
 
 The aperture parameter relates to the “sound cone” projected by the virtual source in the acoustic space, and is measured in degrees. It determines whether the source will be very directive (small aperture), or omnidirectional (large aperture) inside the reverberant environment.
 
-> **Aperture can make a source 'activate' more of the acoustic
-space**
+> Aperture can make a source 'activate' more of the acoustic.
+space
 
 ### Send LFE
 
@@ -197,7 +210,7 @@ This variable parameter will only be available when the room is a Channel Based 
 
 It will send an amount of the source into the dedicated LFE speaker channel of the output channel based configuration.
 
-> **Automate the LFE send for dynamic low frequency effects**
+> Automate the LFE send for dynamic low frequency effects.
 
 ### Barycentric
 
@@ -220,25 +233,26 @@ The barycentric transformations will continue to orient their on-axis energy tow
 ### Options
 
 ![](include/SpatRevolution_UserGuide_-183.jpg)
+<!-- TODO: update the image -->
 
-Finally, there are some options available for each source.
+Finally, there are some options available for each source. Some are available by sources only on Ultimate version. It is possible to edit a global parameter on the room panel on the preferences page. 
 
 **Doppler**
 
 The Doppler effect is a well-known wave propagation phenomenon where the height of a sound perceived from a listener standpoint rises when the source is accelerating, and falls when decelerating. This is the fire siren pitch going up then down when passing you. It will only be heard if you rapidly move the source locations quite fast, but thanks to the virtual nature of the SPAT, you can bypass Physics’ laws and manually inhibit it using this switch, should it be unsuitable for the particular application you are dealing with.
 
-**Air Absorption**
+**Air Absorption - Ultimate version only**
 
 Simulates the frequency-dependent absorption of air, where high frequencies roll off quicker than low-frequencies with respect to distance. You have most probably noticed this phenomenon when you are far away from a concert venue and only able to hear the bass, and gradually start to hear the whole mix as you get closer.
 
 
-**Drop Factor and Drop Log**
+**Drop Factor and Drop Log - Ultimate version only**
 
 Owing to a fundamental law of acoustics and geometry - namely energy conservation - sound pressure drops in level as one moves away from the source. Enable _Drop Log_ for an acoustically accurate setting, which corresponds to a drop value attenuation every time the distance from the source is doubled (logarithmic behavior). The default _Drop Factor_ of 6 dB is also the acoustically accurate setting.
 
-**Radius**
+**Radius - Ultimate version only**
 
-Specifies the radius of a sphere or disc in meters, centered around the listener position, where the drop attenuation is not taken into account, and the sound level is kept constant with regards to distance. This is not only useful to prevent any dramatic sound level peak when placing a source too close to the listener, it also reflects real-world behavior quite accurately, where sources do have a certain physical size, unlike point sources that are commonly used to model far-field acoustics. This “no-drop” zone is displayed as a transparent sphere of matching radius in the Room graphics.
+Specifies the radius of a sphere or disc in meters, centered around the listener position, where the drop attenuation is not taken into account, and the sound level is kept constant in regard to distance. This is not only useful to prevent any dramatic sound level peak when placing a source too close to the listener, it also reflects real-world behavior quite accurately, where sources do have a certain physical size, unlike point sources that are commonly used to model far-field acoustics. This “no-drop” zone is displayed as a transparent sphere of matching radius in the Room graphics.
 
 **PanRev**
 

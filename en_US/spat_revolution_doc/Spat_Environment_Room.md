@@ -6,7 +6,7 @@ In SPAT Revolution, spatialization of virtual sources takes places inside _Virtu
 
 The first thing to notice is that we can add any number of rooms. In the screenshot above, two HOA 3D rooms are being used, each with differently designed acoustics. There is plenty of flexibility built into SPAT Revolution, in order to encompass different workflow ideas or experimental approaches. For example, the same virtual sources may be assigned into multiple rooms, with multiple end destinations. Or as in the screenshot above, virtual sources might exist in different spaces that get summed together.
 
-_!> Multiple room is only available with the Ultimate license of SPAT Revolution_.
+!> _Multiple room is only available with the Ultimate license of SPAT Revolution_.
 
 When we enter a Virtual Room, we will see the 3D positionable editor. All connected virtual sources will appear on the 3D scene render. On the left side panel of the room editor, you get a list representation of each source with its index identification number. We can click on the Index number of each source, and the _[source parameters](6_Spat_Environment_6_6_Source_6_6_Source?id=source-parameters.md)_ editor for that virtual source will appear.
 
@@ -75,7 +75,7 @@ Additionally, the powerful _Nebula Spatial Spectrogram_ is highly dependent on t
 
 _Nebula_ is a technology adapted from our flagship **FLUX:: Analyzer System**, a suite of highly regarded professional mastering and mixing visualization tools.
 
-_!> Nebula Technology is only available with the Ultimate license of SPAT Revolution_.
+!> _Nebula Technology is only available with the Ultimate license of SPAT Revolution_.
 
 
 ![](include/SpatRevolution_UserGuide_-100.jpg)
@@ -144,10 +144,12 @@ One workflow that is often required is that of remixing a pre-rendered channel b
 Here is an example of that in the Room view. Notice how it is possible to rebalance and remix the original using the perceptual factors or positional parameters. A room simulation reverb is also playing a significant role in the cross-format mixing process, as the reverb simulation adds new spatial information to the mix, which might help get a more immersive result in the output format.
 
 ![](include/SpatRevolution_UserGuide_-110.jpg)
+<!-- TODO: update the image -->
 
 This is an example of a multiple format changing signal graph, which changes format in two ways, to provide an alternative result. Firstly, by transcoding the output of an HOA Room into various other Channel Based formats, but also a room that simulates how the target speaker configuration might render the source speaker configuration. Both methods will give different results and the choice is up to the designer.
 
 ![](include/SpatRevolution_UserGuide_-112.jpg)
+<!-- TODO: update the image -->
 
 Options are available when _transcoding_ (aka _decoding_ ) from a High Order Ambisonic room into a Channel Based stream. These decoding options will affect the sound in quite different ways - luckily it is possible to listen to the results of different Ambisonic decoding options in real time. More about this in the section about [Ambisonic transcoding](Ambisonic_transcoding.md).
 
@@ -172,12 +174,13 @@ Each source's direct sound plus the reverberation it creates is modeled and synt
 > For the best Binaural Monitoring try setting up two rooms, one all Channel Based going to speakers and one Binaural for your 3D headphone mix.
 
 ![](include/SpatRevolution_UserGuide_-052.jpg)
+<!-- TODO: update the image -->
 
 ## High Order Ambisonic Room
 
 One of the most straightforward methods to start working with HOA spatialization in a signal flow is to connect input sources directly into an HOA Room. To convert a Room to be HOA, select High Order Ambisonics as the _Output Configuration Stream Type_.
 
-_!> HOA advanced features are only available with the Ultimate license of SPAT Revolution_.
+!> _HOA advanced features are only available with the Ultimate license of SPAT Revolution._
 
 All inputs to a room must be in some kind of Channel Based format, even when it is an Ambisonic or Binaural Room. <!--That is the workflow at the time of writing (SPAT Revolution v1.1).--> This makes most intuitive sense, when using Ambisonic format inputs as pre-encoded "3D sound field" type inputs into a room. You cannot just add them into an HOA room, even though they may be HOA format. Why is that?
 
@@ -193,6 +196,7 @@ many ways.
 The output from an Ambisonic room must always be _decoded_ into a channel based stream in order to hear the resulting spatial image. But even though it is not speaker compatible, it is still an audio data stream - so therefore it is quite possible to record a HOA stream to disk without decoding. This is a powerful way to work, as the HOA format encodes full sphere spatial information which can then be decoded/transcoded at a later stage.
 
 ![](include/SpatRevolution_UserGuide_-118.jpg)
+<!-- TODO: update the image, and update in order to give the indication of ACN and N3D for SPAT Room.-->
 
 In an HOA Room, the Order can be changed at the output configuration of the room very easily, by selecting a different value pull down menu. When you have correctly set up a speaker compatible decoding method for the HOA stream coming out of a Virtual Room, you should clearly hear the difference in focus and the way that the Artificial Reverberation behaves as the Order goes up. <!-- Do not be complacent about the simplicity of the HOA interface. There is plenty going on under the hood but Spat makes it feel simple to explore how different Ambisonic Orders sound. Similarly, other encoding options are available to apply and listen to directly. -->
 
@@ -213,44 +217,58 @@ This is a First Order Ambisonic (FOA) room which is correctly suited for mixing 
 
 ## Mid-Side Room
 
-_!> Mid-Side option is only available with the Ultimate license of SPAT Revolution_.
+!> _Mid-Side option is only available with the Ultimate license of SPAT Revolution_.
 
 Similarly, if you are working with two-channel signals already encoded as MS format stereo, you can mix in an MS room. The outputs of MS rooms need to be decoded or transcoded into a suitable stereo format for reproduction on a stereo system.
 
 ## Room output parameters
 
 ### Output list
-This panel list all the speakers used in the room (when set to channel based). It allows a quick access to the speaker arrangement editor and to the compute function.
+
+<!-- TODO: add the image -->
+
+This panel list all the speakers used in the room (when set to channel based). It allows quick access to the speaker arrangement editor and to the compute function.
 Each output has a "test" button that sends the signal from the signal generator directly the routed speaker. The signal generator type and level are set in the _Preferences_ page.
 
 !> Be careful, the generator is post mute and post gain
+
 ### Listener
+
 This panel gives access to the listening point. We can change its position, using the _X_, _Y_, _Z_ parameters, and its rotations using _Yaw_, _Pitch_, _Roll_.
+
 ### Protection Zone
 
-This panel control the behavior and size of the protection zone. By default it is set to a diameter of four meters. Please check out the section named "Understanding the 3D view" if you want more information about the protection zone.
+<!-- TODO: add the image -->
+
+This panel controls the behavior and size of the protection zone. By default, it is set to a diameter of four meters. Please check out the section named "Understanding the 3D view" if you want more information about the protection zone.
 Note that the protection zone is attached to the listener position.
 
 ### Efficiency Zone
 
+<!-- TODO: add the image -->
+
 This panel contains options related to the efficiency zone.
 
-+ Campling behavior option (consult the "Understanding the 3D view section for more information)
++ Clamping behavior option (consult the "Understanding the 3D view" section for more information)
 + Width - change the depth of the efficiency zone
-* Trunc (available only for non-surrounding 2D speakers setup) - change the starting distance of the efficiency zone
+* Trunc (available only for non-surrounding 2D speakers' setup) - change the starting distance of the efficiency zone
 
 ![](include/efficiencyZoneOptions.png)
 
 ### Scaling
 
+<!-- TODO: add the image -->
+
 #### Distance
 
-This parameter scale all the distance automation (OSC, plugins data and snapshots) by a manual factor. 
+This parameter scale all the distance automation (OSC, plugins data and snapshots) by a manual factor. This factor is adapted automatically when editing the arrangement of the room.
 
 #### Tracking
 
 This parameter changes the scale of RTTrPM protocol data.
 
 ### Background Image
+
+<!-- TODO: add the image -->
 
 This panel allows you to import a background image in SPAT Revolution and to position it in the 3D view.

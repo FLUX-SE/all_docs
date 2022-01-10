@@ -2,7 +2,7 @@
 
 This is where you will generally start a project by designing the signal-flow graph that you will be working with. _Setup_ is also where you manage the loading and saving of projects to disk.
 
-_!> Using the SPAT Revolution Essential license version all the setup modules are configured for you using the Setup Wizard. Adding, reorganizing, duplicating is now permitted. The only required part is to connect and disconnect Input or Output modules being software or hardware I/O_
+!> Using the SPAT Revolution Essential license version all the setup modules are configured for you using the Setup Wizard. Adding, reorganizing, duplicating is not allowed. The only required and permitted part is to connect and disconnect Input or Output modules, being software or hardware I/O_
 
 ## Setup Modules
 
@@ -42,13 +42,19 @@ The drag and drop feature allows an easy and ergonomic way to connect and reorga
 
 ![drag&drop1](include/drag&drop1.gif)
 
+<!-- TODO: update the image -->
+
 To create a connection  between two blocks, simply drag one on the other. SPAT will  automatically connect the two blocks. If it is necessary, SPAT will also create supplementary blocks if needed. For example, if we drag and drop an input on a room, SPAT will automatically create a "source" block  between them.
 
 ![drag&drop2](include/drag&drop2.gif)
 
+<!-- TODO: update the image -->
+
 This feature also works on a selection of multiple blocks of the same type. For example, if we wished to connect 5 inputs to 1 output, we can select our inputs a drag them  on the output. All the input blocks will be patched to a room block through sources, and the room is a patch to the output through a master block. (With the default stereo room that can be changed later.)
 
 ![drag&drop3](include/drag&drop3.gif)
+
+<!-- TODO: update the image -->
 
 ### Reorganize modules
 
@@ -57,10 +63,12 @@ The drag and drop feature also allows reorganizing the blocks of the same type. 
 !> Important to note that this will be changing the index number of the source. So be careful with automation already created. This is specific to OSC like using the plugins with OSC where the index is important. Not the case with software sources/inputs which use a different ID system.
 
 ![drag&drop5](include/drag&drop5.gif)
+<!-- TODO: update the image -->
 
 We can also reorganize  sources inside rooms. Again, a simple drag and drop allows this smooth  reorganization. This modification is mirrored on the Setup page.
 
 ![drag&drop4](include/drag&drop4.gif)
+<!-- TODO: update the image -->
 
 ## The setup wizard
 
@@ -76,7 +84,7 @@ To open it, you can either:
 
 The top part of the setup wizard allows to create a new room (with associated options) or to select an existing room to patch new sources into. If a new room is created, we can choose its stream type and many options linked to it. We can also choose to associate a binaural monitoring block to it (virtualizing the room output). Lastly, for each new room created, a master block and an output block is also created.
 
-The main part of the wizard allows creating up to 8 different types of sources. It works like a table where each line can be used for a specific input stream type. To add or remove a line, simply click on the <code>+</code> or <code>-</code> sign on the left side of a line. You can also use the shortcut <code>Ctrl + Go Down</code> or <code>Ctrl + Go Up</code>.
+The main part of the wizard allows creating up to 8 different types of sources. It works like a table where each line can be used for a specific input stream type. To add or remove a line, simply click on the <code>+</code> or <code>-</code> sign on the left side of a line. You can also use the shortcut <code>Ctrl/Cmd + Go Down</code> or <code>Ctrl/Cmd + Go Up</code>.
 
 ![setupWizard](include/setupWizard.gif)
 
@@ -86,7 +94,7 @@ Other shortcuts have been implemented in this wizard:
 - <code>Ctrl/Cmd + Go Left</code> or <code>Ctrl/Cmd + Go Right</code> to change the format (if Channel Based), or the Dimension (if HOA).
 - <code>Ctrl/Cmd + Shift + Go Left</code> or <code>Ctrl/Cmd + Shift + Go Right</code> to change the Order (if HOA).
 
-When we are done creating out different sources, we have two ways to validate the operation. We can either click on <code>Ok</code>, all the sources, rooms and outputs will be created, with a straight routing, or, we can choose to click on <code>Ok +  matrix</code>. This last option will open the input and output matrix of our whole SPAT Revolution session to allow us to quickly customize or validate our patch. Also, if you need to easily create a line in SPAT matrix, simply hold <code>CMD</code> or <code>Ctrl</code> and click on the starting point of your line.
+When we are done creating out different sources, we have two ways to validate the operation. We can either click on <code>Ok</code>, all the sources, rooms and outputs will be created, with a straight routing, or, we can choose to click on <code>Ok +  matrix</code>. This last option will open the input and output matrix of our whole SPAT Revolution session to allow us to quickly customize or validate our patch. Also, if you need to easily create a line in SPAT matrix, simply hold <code>Ctrl</code> and click on the starting point of your line.
 
 ![setupWizard2](include/setupWizard2.gif)
 
@@ -121,3 +129,5 @@ The speaker configuration editor, a clear channel labeling and the built-in rout
  * Choose if the outputs of the original rooms are duplicated, mirrored or nothing is done to the duplicated room.
 
  ![](include/SpatRevolution_duplicateRoom.gif)
+
+<!-- TODO: update the image -->

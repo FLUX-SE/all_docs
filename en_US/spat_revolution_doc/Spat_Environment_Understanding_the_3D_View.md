@@ -9,11 +9,12 @@ The whole mixing experience of Spat Revolution takes place in the 3D view. It is
 The efficiency zone is defined by the speaker arrangement used in a room. A simple way to understand it is to consider it has the zone where sources should be placed.
 When using speaker setup that surrounds the listeners, this zone is quite transparent in usage, but become very useful when working with frontal systems, or system that does not fully surround the listeners, such as stereo or speaker lines.
 These systems have a limited range where spatialization makes sense. For instance, placing a source behind the listener head in stereo will never produce the effect of a source coming from behind.
-In these specific cases, the efficiency zone is ideal to make better decision for source positioning.
+In these specific cases, the efficiency zone is ideal to make better decision for a source's positioning.
 
 The efficiency zone is drawn as a grayed out area in the 3D view. Its coverage is defined by the angle formed by the foremost left and foremost right speakers.
 
 ![](include/efficiencyZone.png)
+
 ## The protection zone
 
 ![](include/3DView_ProtectionZone.png)
@@ -24,7 +25,7 @@ When a source is placed inside the protection zone, its distance will no more in
 
 As its name implies, the protection zone exists to prevent weird behavior when sources are placed inside itself. Thus, in this case, you will notice that the presence vector turn red. This should warn you that what you see may not be related to what you hear.
 
-Two behaviors can happen when a source is inside the protection zone. It can either be replaced at the top of the sphere or being looked at a constant azimuth. This behavior is set by the “source over listener head” parameters, which is on by default.
+Two behaviors can happen when a source is inside the protection zone. It can either be replaced at the top of the sphere or being looked at a constant azimuth. This behavior is set by the “**source over listener head**” parameters, which is on by default.
 
 ## The presence of a source
 
@@ -40,15 +41,15 @@ The presence parameter directly affects the presence factor of the source.
 
 The drop factor defines the relation between the distance of the source and the listening point and the loss of presence. It is set by default to follow the acoustic law of our world, where we lose 6 dB of presence each we double the distance.
 
-The overall presence of a source is displayed by a green vector, drawn between the source and the protection zone. The intensity of the green color is proportional to the presence factor. 
+When "Presence infos" on the top bar of the 3D view is enabled, the overall presence of a source is displayed by a green vector, drawn between the source and the protection zone. The intensity of the green color is proportional to the presence factor. 
 
 ## Clamping
 
-In order to avoid strange localization behavior, SPAT Revolution includes a whole clamping strategy to reduce mistake and aberrant behavior.
+In order to avoid strange localization behavior, SPAT Revolution includes a whole clamping strategy to reduce mistakes and aberrant behaviors.
 
 ### Clamping behavior
 
-When a source is out of the efficiency zone, SPAT Revolution offer three behaviors:
+When a source is out of the efficiency zone, SPAT Revolution offers three behaviors:
 + Clamping the source to the border of the efficiency zone
 + Mute the source
 + Do nothing
@@ -79,11 +80,13 @@ If a source is placed in front of the speakers, the source will be clamped to th
 
 ### Height clamping
 
-+ **2D Speaker Arrays**
+The height clamping is managed by the *Source fit speakers elevation* parameter. The behavior of enable it will not be the same between 2D or 3D speakers arrays:
+
++ **2D Speakers Arrays**
 
 When dealing with a 2D speaker array, there is no point at placing a source above or below the horizontal plan. If you choose to do so, or use a 2D room to translate a 3D mix, you will see phantom sources that are the projection of each source on the horizontal plan. The position of the phantom source is the data used by the DSP to place the actual source in the virtual space. But it will preserve the presence of the main source.
 
-+ **3D Speaker Arrays**
++ **3D Speakers Arrays**
 
 A 3D speaker array will have a top speaker plan and a bottom speaker plan. If a source is placed above the top plan, or below the bottom one, the source will be clamped to the closest plan. The clamping behavior, like with 2D speaker array, is shown with phantom sources that indicate the position used inside the DSP stage of Spat Revolution.
 

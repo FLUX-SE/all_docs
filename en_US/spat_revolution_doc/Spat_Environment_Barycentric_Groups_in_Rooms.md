@@ -13,4 +13,4 @@ The dot at the center of each cluster, where each virtual “channel emitter” 
 These complex spatial positioning algorithms are computed and controlled in real time using SPAT Revolution’s advanced _Barycentric_ and relative direction source parameters.
 A group that may contain many elements can be transformed, scaled,
 moved and manipulated in complex ways, through only one set of controls.
-See dedicated section for a breakdown of the [**Source Parameters**] (SPAT_Environment_Source? Id=source-parameters.md).
+See dedicated section for a breakdown of the [**Source Parameters**](SPAT_Environment_Source? Id=source-parameters.md).
