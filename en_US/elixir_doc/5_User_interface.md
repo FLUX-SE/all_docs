@@ -50,10 +50,9 @@ Default Value: Off
 Bypass the plug-in processing by routing the input direct to the output. 
 The actual processing is still performed in the background allowing for a true and smooth transition between the processed and the actual incoming signal.
 
-### ITU 1770 bs3 mode (20)
+### ITU BS.1770-3 (20)
 
-Allow the limitation according to the ITU BS.1770-3 recommandation, i.e. use the ITU algorithm presented on the recommandation to measure the true-peak level.
-
+When activated, the algorithm used to limit the input signal follow the ITU BS.1770-3 recommandation.
 
 ## Processing Section
 
