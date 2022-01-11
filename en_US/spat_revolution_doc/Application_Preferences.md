@@ -107,7 +107,7 @@ _On by default_
 
 ### Tooltips
 
-When on, the tooltips, an help with complementary information is displayed the mouse is over a parameter or a control.
+Tooltips contain help and complementary informations. When on, they are displayed when the mouse is over a parameter or a control.
 
 ### Theme
 
@@ -133,7 +133,7 @@ Allows displaying the OSC messages in the application’s console.
 
 ### Dump on socket change
 
-Allow to dump all properties when a socket change, i.e. when the IP address or the port number has been edited. This ensures a synchronisation between the remote and SPAT.
+Allow to dump all properties when a socket change, i.e. when the IP address or the port number has been edited. This ensures a constant synchronisation between any remote control and SPAT Revolution.
 
 ### Output rate - Ultimate only
 

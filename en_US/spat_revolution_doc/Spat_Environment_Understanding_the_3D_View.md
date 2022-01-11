@@ -2,22 +2,19 @@
 
 ![](include/3DView.png)
 
-The whole mixing experience of Spat Revolution takes place in the 3D view. It is really simple to create a mix this way: simply grab a source and move where you want to. But there are a few subtleties that are important to get right.
+The whole mixing experience of Spat Revolution takes place in the 3D view. It is really simple to create a mix this way: simply grab a source and move it where you want it to be. But there are a few subtleties that are important to get right.
 
-## The efficiency zone
+The first important thing to understand is that there is two main zone in the SPAT Revolution 3D view :
++ One inside you should put sound sources in (the efficiency zone).
++ One inside you shouldn't (the protection zone).
 
-The efficiency zone is defined by the speaker arrangement used in a room. A simple way to understand it is to consider it has the zone where sources should be placed.
-When using speaker setup that surrounds the listeners, this zone is quite transparent in usage, but become very useful when working with frontal systems, or system that does not fully surround the listeners, such as stereo or speaker lines.
-These systems have a limited range where spatialization makes sense. For instance, placing a source behind the listener head in stereo will never produce the effect of a source coming from behind.
-In these specific cases, the efficiency zone is ideal to make better decision for a source's positioning.
-
-The efficiency zone is drawn as a grayed out area in the 3D view. Its coverage is defined by the angle formed by the foremost left and foremost right speakers.
-
-![](include/efficiencyZone.png)
+Depending on if you are working with a room using channel-based or not, these zones will have different shapes and usages that we will discuss below.
 
 ## The protection zone
 
 ![](include/3DView_ProtectionZone.png)
+
+The protection zone is an area of the 3D space represented as a sphere around the listener head. On channel based room it is setup by default to fit the radius of the speaker arrangement. On non-channel based room (binaural or HOA), it is by default set to 2 meters.
 
 It is important to understand that we should not put a source inside this zone, as most of the pan law or spatialization strategy are incapable of creating the illusion that a sound source comes from in front of the speaker.
 
@@ -35,7 +32,7 @@ A sound source in SPAT Revolution has a presence factor. It defines its overall 
 - The presence parameter
 - The drop factor
 
-Putting a source closer or farther away from the protection zone will have the consequences of modifying the presence. The closer the source is, the more presence it has. The farther it gets, the less presence has a source.
+Putting a source closer or further away from the protection zone will have the consequences of modifying the presence. The closer the source is, the more presence it has. The farther it gets, the less presence has a source.
 
 The presence parameter directly affects the presence factor of the source.
 
@@ -43,9 +40,19 @@ The drop factor defines the relation between the distance of the source and the 
 
 When "Presence infos" on the top bar of the 3D view is enabled, the overall presence of a source is displayed by a green vector, drawn between the source and the protection zone. The intensity of the green color is proportional to the presence factor. 
 
-## Clamping
+## The efficiency zone
 
-In order to avoid strange localization behavior, SPAT Revolution includes a whole clamping strategy to reduce mistakes and aberrant behaviors.
+<!--TO BE COMPLETED-->
+By definition, the efficiency zone is where the virtual sound sources should be localized.
+
+Inside a channel-based room, the efficiency zone is defined by the speaker arrangement used in a room:
++ When using speaker setup that surrounds the listeners, the efficiency zone is a sphere (or circle in 2D), which span from the border of the protection zone to the farest distance you can put a source (100m). A speaker array is considered as surround if the angle between the foremost left and right speakers is over 180°. For readility reasons, the efficiency zone is not drawn in this case.
+
++ When using a non-surrounding system (stereo, frontal line, etc.), the efficiency zone become a "piece of pie" and is displayed in the 3D view. Its width is defined by the angle between the foremost left and the foremost right speaker. The visualization of the efficiency zone should help to understand the limitation of these systems in term of spatialization options. For instance, placing a source behind the listener head in stereo will never produce the effect of a source coming from behind.
+
+The range of the efficiency zone is set by the depth and trunc parameter. The first one set the maximum and the second one the minimum of its span.
+
+Inside a non-channel-based room, the efficiency zone is arbitrary defined, because there is no speaker to constrain the diffusion area. Still, it can be edited with the same "depth" and "trunc" parameters for multi-room and creative applications.
 
 ### Clamping behavior
 
@@ -58,17 +65,16 @@ This option can be set in the room's output section. Check the "Room" section fo
 
 > By default, the source is clamped to the border of the efficiency.
 
-### Azimutal clamping
+![](include/efficiencyZone.png)
 
-As explain in the "Efficiency Zone" section above, some speakers arrays do not fully surround the listener. In these cases, SPAT Revolution draws an efficiency zone to show where it makes sense to place sources.
 
-If a source is out of azimuthal limits of the efficiency zone, it will, by default, be clamped to the efficiency zone limits.
+## Clamping
 
+In order to avoid strange localization behavior, SPAT Revolution includes a whole clamping strategy to reduce mistakes and aberrant behaviors.
 
 ![](include/azimClamping.png)
 
-
-When a source is on the opposite side of the non-surround system, the virtual source will mirror the behavior, reproducing the perfect movement from one side to another
+When a source is on the opposite side of a non-surround system, the projection of the virtual source will mirror the behavior the actual source, thus, removing any jump or abrut change in position of the source.
 
 ![](include/mirrorClamping.png)
 
@@ -80,7 +86,7 @@ If a source is placed in front of the speakers, the source will be clamped to th
 
 ### Height clamping
 
-The height clamping is managed by the *Source fit speakers elevation* parameter. The behavior of enable it will not be the same between 2D or 3D speakers arrays:
+The height clamping can be activated by the *Source fit speakers elevation* parameter, in the room options. Height clamping works in a different way depending on if you are working with a 2D or 3D speaker array.
 
 + **2D Speakers Arrays**
 
