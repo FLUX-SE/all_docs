@@ -52,7 +52,7 @@ SPAT Essential comes with a set of limitations:
 
  - The audio engine is limited to a sample rate of 96 kHz.
  - Total source channel inputs is limited to 32.
- - The number of rooms output is limited to either 12 speakers or HOA 3rd order.
+ - The number of rooms output is limited to either 16 speakers or HOA 3rd order.
  - Only one room can be used at a time: no simultaneous rendering.
  - Session configuration is simplified, using only the Setup Wizard.
  - Ambisonic decoding is done using AllRAD method

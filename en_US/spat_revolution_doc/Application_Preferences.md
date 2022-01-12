@@ -72,7 +72,10 @@ The hardware IO panel allows choosing the audio interface that can be accessed b
 ### Input/Output Devices
 
 This menu allows selecting the audio interface. SPAT Revolution audio engine supports all devices compatible with ASIO (Windows) or CoreAudio (macOS).
-Note that you should select “none” when using the Local Audio Path connections.
+
+>! **Note that you should select “none” when using the Local Audio Path connections.**
+
+SPAT Revolution audio engine also supports different input and output interfaces, on both macOS and Windows, for maximum flexibility.
 
 >! In case of different input and output devices, the sample rate and the block size need to be the same.
 
@@ -166,6 +169,10 @@ This panel allows changing some room properties. This is where you find most of 
 ### Room gain
 
 Change the gain of all the rooms of SPAT Revolution.
+
+### Compute LFE
+
+Off by default, this option allows including the LFE position in the compute of the speaker alignment process.
 
 ## Air absorption - Essential only
 

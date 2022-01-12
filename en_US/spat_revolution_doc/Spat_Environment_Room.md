@@ -1,6 +1,8 @@
+<!--MANY BS HERE, TO BE CLEANED UP!!!-->
+
 # Room
 
-In SPAT Revolution, spatialization of virtual sources takes places inside _Virtual Rooms_. To enter a room and open its graphic editor environment, double-click on a Virtual Room module in the Setup graph, or select a room tab from the Navigation bar.
+In SPAT Revolution, spatialization of virtual sources takes places inside _Rooms_. To enter a room and open its graphic editor environment, double-click on a room module in the Setup graph, or select a room tab from the Navigation bar.
 
 ![](include/SpatRevolution_UserGuide_-092.jpg)
 
@@ -8,36 +10,49 @@ The first thing to notice is that we can add any number of rooms. In the screens
 
 !> _Multiple room is only available with the Ultimate license of SPAT Revolution_.
 
-When we enter a Virtual Room, we will see the 3D positionable editor. All connected virtual sources will appear on the 3D scene render. On the left side panel of the room editor, you get a list representation of each source with its index identification number. We can click on the Index number of each source, and the _[source parameters](6_Spat_Environment_6_6_Source_6_6_Source?id=source-parameters.md)_ editor for that virtual source will appear.
+When we enter a Virtual Room, we will see the 3D view and all the connected sources. On the left side panel of the room editor, you get a list representation of each source with its index identification number. We can click on the Index number of each source, and the _[source parameters](6_Spat_Environment_6_6_Source_6_6_Source?id=source-parameters.md)_ editor for that virtual source will appear.
 
 
 ![](include/SpatRevolution_UserGuide_-094.jpg)
 
-> If a source consists of a configuration of linked emitters, there will be only one index and one set of parameters for the whole cluster.
+> If a source is a multi-channel one, there will be only one index and one set of parameters for the whole cluster.
 
 Two special index items labeled as **(R) REVERB** and **(M) OUTPUT** appear fixed at the bottom of the left panel. By clicking on these, we then enter into two more parameter editors: one relating to the _[Artificial reverberation](8_Artificial_Reverberation_8_Artificial_Reverberation.md)_ and one relating to the room output configuration and [Listener Position](5_Spatialisation_Technology_5_4_Listener_Position.md) editor.
 
-Mutes and solos are manageable for all sources and for the entire room output from this index list. When you have more than one Virtual Room in your project, then the SOURCES switch at the top left of a Room editor can be handy, as it will show all sources from all Virtual Rooms in the same editor - allowing edition, mix, solo and mute management all sources from one Room view.
+Mutes and solos are manageable for all sources and for the entire room output from this index list.
 
-## Room Graphic Engine
+When you have more than one Room in your project, then the SOURCES switch at the top left of a Room editor can be handy, as it will show all sources from all Rooms in the same editor - allowing edition, mix, solo and mute management of all sources from one Room view.
 
-Along with the audio modeling engine, one of SPAT's key features is its ability to model a high definition graphical representation of the virtual space inside each room. We can intuitively interact and move sources and 'camera view' directly with our mouse. Move a source by grabbing its 'emitter' object or in the case of a grouped source grab any one of the emitters that belong to the group. Alternatively, sources can be positioned by manipulating their coordinate-related source parameter controls (see [ Radiation section](6_Spat_Environment_6_6_Source_6_6_Source?id=radiation)).
+<!--## Room Graphic Engine
+
+Along with the audio modeling engine, one of SPAT's key features is its ability to model a high definition graphical representation of the virtual space inside each room. We can intuitively interact and move sources and 'camera view' directly with our mouse. Move a source by grabbing its 'emitter' object or in the case of a grouped source grab any one of the emitters that belong to the group. Alternatively, sources can be positioned by manipulating their coordinate-related source parameter controls (see [ Radiation section](6_Spat_Environment_6_6_Source_6_6_Source?id=radiation)).-->
 
 ![](include/SpatRevolution_UserGuide_-096.jpg)
 
 ## Room 3D View
 
-The camera angle of the 3D scene can be moved continuously using a **control drag** mouse or track pad gesture applied directly onto the Room view. This will reposition the camera. A _forwards and backwards scroll_ on the mouse or track pad will zoom the camera in and out of the scene. We can also move the 3D view with <code>Shift</code> and a **control drag** mouse. Furthermore, a change (or resetting) of view orientation can be selected from the _View_ pull down menu, to show 'Top/Down' view of the scene.
+The 3D view purpose is to let you interact with the sound sources in the simplest way possible:
++ one click to select.
++ drag to move them.
+
+Also, the camera angle can be manipulated:
++ The mousewheel control the zoom factor.
++ *cmd/ctrl+drag* will rotate the scene.
++ *shift+drag* will move the scene.
 
 ![](include/SpatRevolution_UserGuide_-098.jpg)
 
-> A split screen Top-Front view is also available.
+> A split screen Top-Front view is also available in the top bar menu. See the corresponding section below.
 
 Selecting a source also displays its name over its 3D representation. At the top of the room, there is an option to display the name of all the sources or of all the speakers.
 
-## Room Output Configuration
+## Room top menu
 
-The _Virtual Room_ module requires all sources to be in some type of Channel Based format at its inputs. Internally, however, the Room may calculate spatial positioning and panning using different methods according to the setting of the _Output Configuration_ pull down menu.
+<!--TO BE COMPLETED-->
+
+## Room's stream type
+
+The _Room_ module requires all sources to be in some type of channel-based format at its inputs. Internally, however, the Room may calculate spatial positioning and panning using different methods according to the setting of the _Output Configuration_ pull down menu.
 
 A room will compute internal virtual panning, reverberation and output in five possible formats:
 
@@ -182,23 +197,23 @@ One of the most straightforward methods to start working with HOA spatialization
 
 !> _HOA advanced features are only available with the Ultimate license of SPAT Revolution._
 
-All inputs to a room must be in some kind of Channel Based format, even when it is an Ambisonic or Binaural Room. <!--That is the workflow at the time of writing (SPAT Revolution v1.1).--> This makes most intuitive sense, when using Ambisonic format inputs as pre-encoded "3D sound field" type inputs into a room. You cannot just add them into an HOA room, even though they may be HOA format. Why is that?
+All inputs to a room must be in channel-based format, even when it is an Ambisonic or Binaural Room. <!--That is the workflow at the time of writing (SPAT Revolution v1.1).--> This makes most intuitive sense, when using Ambisonic format inputs as pre-encoded "3D sound field" type inputs into a room. You cannot just add them into an HOA room, even though they may be HOA format. Why is that?
 
-This is because Ambisonic audio always needs to be _decoded_ into a channel based format to hear the specialized audio on speakers (as we have mentioned a few times already). And so in a virtual room, an Ambisonic source needs to be decoded to a _virtual_ speaker configuration. The choice of what virtual speaker configuration you decode the Ambisonic audio to will influence the way the source's direct signals will sound and its sound will be altered by the way it interacts with the Virtual Room Acoustics. If it is a 1st or 2nd Order B-Format source, then a Cube configuration for 3D or an Octaphonic for 2D is usually a good choice. The important thing to keep in mind is that a higher order of Ambisonic encoding will sound more accurate on a higher density channel-based configuration - and if the source Ambisonic encoding is 3D, then you really should choose a 3D type of channel configuration.
+This is because Ambisonic audio always needs to be _decoded_ into a channel based format to hear the spatialized audio on speakers (as we have mentioned a few times already). And so in a virtual room, an Ambisonic source needs to be decoded to a _virtual_ speaker configuration. The choice of what virtual speaker configuration you decode the Ambisonic audio to will influence the way the source's direct signals will sound and its sound will be altered by the way it interacts with the Virtual Room Acoustics. If it is a 1st or 2nd Order B-Format source, then a Cube configuration for 3D or an Octaphonic for 2D is usually a good choice. The important thing to keep in mind is that a higher order of Ambisonic encoding will sound more accurate on a higher density channel-based configuration - and if the source Ambisonic encoding is 3D, then you really should choose a 3D type of channel configuration.
 
 !> _Ambisonic encoded audio is not intended to be listened to without decoding_
 
-The other important thing to keep in mind is that decoding Ambisonics to a virtual Channel Based configuration allows for some very special transformations and redesigning possibilities of the original Ambisonic source. When a B-Format source becomes an arbitrary configuration of virtual emitters in the virtual room, the ambisonic sound field becomes a group that you can manipulate and transform using all the source parameters - especially, the [barycentric source parameters](6_Spat_Environment_6_6_Source_6_6_Source?id=barycentric.md) which are really useful for rotating and transforming the original sound field in
+The other important thing to keep in mind is that decoding Ambisonics to a virtual channel-based configuration allows for some very special transformations and redesigning possibilities of the original Ambisonic source. When a B-Format source becomes an arbitrary configuration of virtual emitters in the virtual room, the ambisonic sound field becomes a group that you can manipulate and transform using all the source parameters - especially, the [barycentric source parameters](6_Spat_Environment_6_6_Source_6_6_Source?id=barycentric.md) which are really useful for rotating and transforming the original sound field in
 many ways.
 
 > Ambisonic encoding is a convenient way to share and archive spatial sound mixes
 
-The output from an Ambisonic room must always be _decoded_ into a channel based stream in order to hear the resulting spatial image. But even though it is not speaker compatible, it is still an audio data stream - so therefore it is quite possible to record a HOA stream to disk without decoding. This is a powerful way to work, as the HOA format encodes full sphere spatial information which can then be decoded/transcoded at a later stage.
+The output from an Ambisonic room must always be _decoded_ into a channel-based stream in order to hear the resulting spatial image. But even though it is not speaker compatible, it is still an audio data stream - so therefore it is quite possible to record a HOA stream to disk without decoding. This is a powerful way to work, as the HOA format encodes full sphere spatial information which can then be decoded/transcoded at a later stage.
 
 ![](include/SpatRevolution_UserGuide_-118.jpg)
 <!-- TODO: update the image, and update in order to give the indication of ACN and N3D for SPAT Room.-->
 
-In an HOA Room, the Order can be changed at the output configuration of the room very easily, by selecting a different value pull down menu. When you have correctly set up a speaker compatible decoding method for the HOA stream coming out of a Virtual Room, you should clearly hear the difference in focus and the way that the Artificial Reverberation behaves as the Order goes up. <!-- Do not be complacent about the simplicity of the HOA interface. There is plenty going on under the hood but Spat makes it feel simple to explore how different Ambisonic Orders sound. Similarly, other encoding options are available to apply and listen to directly. -->
+In an HOA Room, the order can be changed at the output configuration of the room very easily, by selecting a different value pull down menu. When you have correctly set up a speaker compatible decoding method for the HOA stream coming out of a Virtual Room, you should clearly hear the difference in focus and the way that the Artificial Reverberation behaves as the Order goes up. <!-- Do not be complacent about the simplicity of the HOA interface. There is plenty going on under the hood but Spat makes it feel simple to explore how different Ambisonic Orders sound. Similarly, other encoding options are available to apply and listen to directly. -->
 
 <!-- An HOA Room simulates many different Ambisonic decoding options in real time. --> When you decode (or Transcode) an HOA Room output into a Channel Based, you will be able to hear how different Ambisonic encoding and decoding options (such as Method and Type) will sound. The topic of Ambisonic decoding options such as Type and Method is a particularly large one but in the end, it comes down to how the sound field will come across and this involves listening. Similar to how sommeliers get to know the nuances of wine by opening lots of bottles, the best way to get to know Ambisonic options and understand for yourself how they affect the sound is by decoding and listening on different setups. And perhaps also digging into some of the literature you will find online.
 

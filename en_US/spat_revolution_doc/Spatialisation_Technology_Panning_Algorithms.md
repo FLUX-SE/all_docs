@@ -91,10 +91,7 @@ The dependencies mentioned in the VBAP section also apply to Dual Band Vector Ba
 
 ## Layer based amplitude panning (LBAP)
 
-Layer based amplitude panning could be thought as multiple 2D VBAP layers.
-The speaker setup is split into several layers, depending on the speaker elevation.
-The panning used between speakers on the same layer is the VBAP 2D.
-Between these layers, a crossfade is applied between the two nearest layers.
+Layer based amplitude panning can be explain as multiple 2D VBAP layers: The speaker setup is split into several layers, depending on the speaker elevation. The panning used between speakers on the same layer is the VBAP 2D. Between these layers, a crossfade is applied between the two nearest layers.
 
 The difference between VBAP 3D and LBAP is the number of speakers which will be actived between the layers: three in VBAP versus four in LBAP.
 
@@ -126,8 +123,7 @@ An interesting parameter of KNN is that the user gets manual control over one of
 
 What makes this particularly interesting is that different sources can activate less or more of the sound system dynamically and in a very smooth way. For example, one virtual sound source might seem to pop in and out of individual speakers because its _Nearest Neighbors Spread_ parameter is set a low percentage. For example, on a 10-speaker arrangement :1-10% will use 1 speaker, 11% to 20% 2 and so on. Another sound source could seem diffuse over the entire sound system, because its spread variable is set to 100%.
 
-> ★ Try automating the Nearest Neighbors Spread in a relationship with
-another source property of the same sound sources such as room presence.
+> ★ Try automating the Nearest Neighbors Spread in a relationship with another source property of the same sound sources such as room presence.
 
 ## Speaker-Placement Correction Amplitude (SPCAP)
 

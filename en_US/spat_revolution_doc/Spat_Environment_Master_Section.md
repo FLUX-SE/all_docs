@@ -14,6 +14,8 @@ Summing a 5.1 and 7.1 rooms together will output a 7.1 where their common L, C, 
 The **Master Transcoder** row of modules offers an opportunity to consolidate the various formats you might have been mixing into one (or more) formats for final output routing by the **Output** modules.
 The same options and routing are available as in the _Input Transcoder_ modules.
 
+The **Master** bloc give you a last gain stagging control, as well as down mixing capabilities. When opening its matrix, it is possible to patch several input to one output, or, on input to several output.
+
 Finally, the two bottom rows in the _Environment Setup_ graph are the output modules for the entire project.
 The [**Binaural Monitoring**](5_Spatialisation_Technology_5_1_Binaural_5_1_Binaural?id=binaural-monitoring-module.md) row provides a way to decode
 the whole scene to headphones only in binaural 3D.

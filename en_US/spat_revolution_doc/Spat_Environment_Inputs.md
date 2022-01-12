@@ -9,6 +9,8 @@ The top row of the signal graph represents the input sources that will provide t
 > One Input module can represent any number of audio channels.
 
 The second important distinction between inputs is whether it is a **hardware** input receiving an audio stream from a hardware device or a virtual **send** receiving its audio stream from another program currently running on the same machine as SPAT. The latter is done via a SPAT Revolution _SEND_ plug-in—but before we go into SPAT’s powerful software signal routing integration, let’s focus on the different input formats as these will remain consistent whether the input stream is coming from hardware or from a _SEND_ plug-in.
+
+!> Software inputs are created by the instantiation of a SPAT Return plug-in in a compatible DAW, when its local audio path is set to "on".
 ## Input type
 
 The menu allows to toggle between the actual input of the block and the signal generator. The signal generator type and level are set in the _Preferences_ page.

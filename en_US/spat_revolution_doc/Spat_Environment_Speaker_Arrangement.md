@@ -61,9 +61,9 @@ SPAT Revolution can accept real world absolute measurements which you have enter
 
 ## Understanding when a speaker arrangement, or a sound scene, is 2D or 3D
 
-We can quickly be tempted to create very precise speaker array, including height information where it may not be necessary.
+We can quickly be tempted to create very precise speaker array, including height information where it may not be necessary and can do more harm than good.
 
-The rule of thumb is to think in plan and not in absolute height. If the speakers are meant to reproduce the same sound plan, they should have the same height. Also, the main sound plan has to be set at a height of zero meter.
+The rule of thumb is to think in plan and not in absolute height. If speakers are meant to reproduce the same sound plan, they should have the same height. Also, the main sound plan has to be set at a height of zero meter. If you try to validate a speaker arrangement that only has one plan and is not set to a height of 0, it will correct it automatically. It also applies for older sessions that were created before SPAT Revolution had this feature.
 
 ## Automatic Scaling
 
@@ -117,8 +117,8 @@ The measurements you have entered into the speaker arrangement are also useful t
 It is a speaker alignment method on a speaker's physical configuration that may not have speakers located in ideal locations. Basically SPAT revolution will create virtual speakers after calculating and applying the alignment so all speakers become equidistant to the center of reference. This is a technique preconized when using panning methods that are sweet spot centric such as DualBand VBP, VBAP or VBIP. The methods will provide very smooth panning on arrangements that have all speakers equidistant to the optimum listening position.
 
 > It is preferable to do this alignment in SPAT Revolution instead of external processing as SPAT will use the computed speaker locations (the virtual speakers) for actually spatializing afterward.
- 
-An option "Compute LFE" is available on the room panel of the preferences page in order to include or exclude the LFE of this compute.
+
+Regarding the LFE, by default it is not included in the compute process. If you wish to change this, you will find a "compute LFE" option in the room panel of the preferences page.
 
 ## Panning tips
 

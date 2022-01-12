@@ -19,7 +19,7 @@
    3. [VU meters](Spat_Environment_VU_Meters.md)
    4. [Setup Page](Spat_Environment_Setup_Page.md)
    5. [Modules channel count](Spat_Environment_Modules_channel_count.md)
-   6. [Speaker arrangement editor](Spat_Environment_Spatialisation_technology_Speaker_Arrangement.md)
+   6. [Speaker arrangement editor](Spat_Environment_Speaker_Arrangement.md)
    7. [Inputs](Spat_Environment_Inputs.md)
    8. [Input transcoder](Spat_Environment_Input_Transcoder.md)
    9. [Source](Spat_Environment_Source.md)
