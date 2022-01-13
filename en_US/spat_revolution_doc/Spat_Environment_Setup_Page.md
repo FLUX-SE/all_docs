@@ -6,17 +6,53 @@ This is where you will generally start a project by designing the signal-flow gr
 
 ## Setup Modules
 
-The _Environment Setup_ editor is a relatively simple modular environment. The signal flow starts from the inputs at the top of the graph and concludes with the outputs at the bottom. You add modules to rows using the small <code>+</code> icon to the left of the window. Modules are:
+The _Environment Setup_ editor is a modular environment. The signal flow starts from the inputs at the top of the graph and concludes with the outputs at the bottom. You add modules to rows using the small <code>+</code> icon to the left of the window. Modules are:
 
-* [Inputs](6_Spat_Environment_6_4_Inputs_6_4_Inputs.md)
-* [Input Transcoders](6_Spat_Environment_6_5_Input_Transcoder_6_5_Input_Transcoder.md)
-* [Sources](6_Spat_Environment_6_6_Source_6_6_Source.md)
-* [Rooms](6_Spat_Environment_6_7_Room_6_7_Room.md)
-* [Sums]((6_Spat_Environment_6_9_Master_Section.md))
-* [Master Transcoders]((6_Spat_Environment_6_9_Master_Section.md))
-* [Masters](6_Spat_Environment_6_9_Master_Section.md)
-* [Binaural Monitors](6_Spat_Environment_6_9_Master_Section.md?)
-* [Outputs](6_Spat_Environment_6_10_Output.md)
+* [Inputs](Spat_Environment_Input_Modules.md)
+* [Input Transcoders](Spat_Environment_Input_Transcoder_Modules.md)
+* [Sources](Spat_Environment_Source_Room_Modules.md)
+* [Rooms](Spat_Environment_Source_Room_Modules.md)
+* [Sums]((Spat_Environment_Master_Section_Modules.md))
+* [Master Transcoders](Spat_Environment_Master_Section_Modules.md)
+* [Masters](Spat_Environment_Master_Section_Modules.md)
+* [Binaural Monitors](Spat_Environment_Master_Sectio_Modules.md)
+* [Outputs](Spat_Environment_Output_Modules.md)
+
+## Stream types and associated options
+
+Modules blocs are caracterized by their stream type. In spatial audio, audio streams can be of different natures, as seen in the [Spatialisation Technology]() section.
+
+> Blocs are limited to 64 channels I/O
+
+Stream types and their options are :
++ **Channel-based** : most common used bloc where one channel correspond to one speaker or one microphone.
+  + Speaker arrangment : allow to select the channel configuration of the bloc.
++ **HOA** : generic ambisonic bloc.
+  + **Order** : select the ambisonic order from 1 to 7.
+  + **Dimension** : select between a 2D or 3D sound scene.
++ **A-Format** : pre-encoding ambisonic stream (raw ambisonic microphone output).
++ **B-Format** : **deprecated, prefer a 3D HOA first order bloc.**.
++ **UHJ** : special 3D first order ambisonic stream meant for archiving and stereo compatibility.
++ **MS** : Mid-side.
++ **Binaural** : headphone oriented render using HRTF.
++ **Transaural** : binaural decoding on speaker.
+
+## Action menu
+
+### Remove selected
+
+### Duplicated selected
+
+### Connect selected
+
+### Disconnect selected
+
+### Disconnect selected inputs
+
+### Disconnect selected Output
+
+### Disconnect between selected 
+<!-- TODO : Completed -->
 
 ## Connect/disconnect Modules
 
@@ -62,12 +98,12 @@ The drag and drop feature also allows reorganizing the blocks of the same type. 
 
 !> Important to note that this will be changing the index number of the source. So be careful with automation already created. This is specific to OSC like using the plugins with OSC where the index is important. Not the case with software sources/inputs which use a different ID system.
 
-![drag&drop5](include/drag&drop5.gif)
+<!-- ![drag&drop5](include/drag&drop5.gif)-->
 <!-- TODO: update the image -->
 
-We can also reorganize  sources inside rooms. Again, a simple drag and drop allows this smooth  reorganization. This modification is mirrored on the Setup page.
+<!--We can also reorganize  sources inside rooms. Again, a simple drag and drop allows this smooth  reorganization. This modification is mirrored on the Setup page.-->
 
-![drag&drop4](include/drag&drop4.gif)
+<!-- ![drag&drop4](include/drag&drop4.gif)-->
 <!-- TODO: update the image -->
 
 ## The setup wizard
@@ -118,16 +154,16 @@ The speaker configuration editor, a clear channel labeling and the built-in rout
 
 ## Room duplication
 
- ![](include/SpatRevolution_duplicate_selected_room.png)
+![](include/SpatRevolution_duplicate_selected_room.png)
 
- SPAT allows to quickly duplicate a room with a few options to help the user
-  to optimize the routing process. To access this menu, simply click on the <code>Duplicate Selected</code> button, when only a room selected.
+SPAT allows to quickly duplicate a room with a few options to help the user
+to optimize the routing process. To access this menu, simply click on the <code>Duplicate Selected</code> button, when only a room selected.
 
- The new pop-up windows allow to:
- * Rename the duplicated room
- * Choose if the sources routed to the original room are routed the new one, or duplicated, or nothing is patched.
- * Choose if the outputs of the original rooms are duplicated, mirrored or nothing is done to the duplicated room.
+The new pop-up windows allow to:
+* Rename the duplicated room
+* Choose if the sources routed to the original room are routed the new one, or duplicated, or nothing is patched.
+* Choose if the outputs of the original rooms are duplicated, mirrored or nothing is done to the duplicated room.
 
- ![](include/SpatRevolution_duplicateRoom.gif)
+![](include/SpatRevolution_duplicateRoom.gif)
 
 <!-- TODO: update the image -->
