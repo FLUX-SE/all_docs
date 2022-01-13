@@ -95,6 +95,8 @@ Let’s now setup your preferences in SPAT Revolution preferences page:
 
 ![SPAT OSC Main preferences](include/S6L_OSC_Main.png) 
 
+<!-- TODO: update the image -->
+
 
 - In the OSC Connections section, you will see 8 OSC connections slots. Set one connection to Input Avid S6L and one to Output Avid S6L. We will use 2 slots for this. Output will be to go to S6L SPAT Send Plug-in, In will be to listen to S6L in SPAT Revolution.
 		
@@ -102,9 +104,15 @@ Let’s now setup your preferences in SPAT Revolution preferences page:
 
 ![SPAT OSC Connections Matrix](include/S6L_image(1).png) 
 
-![SPAT OSC Connections Matrix](include/S6L_image(2).png) 
+<!-- TODO: update the image -->
+
+![SPAT OSC Connections Matrix](include/S6L_image(2).png)
+
+<!-- TODO: update the image -->
 
 ![SPAT OSC Connections Matrix](include/S6L_image(3).png) 
+
+<!-- TODO: update the image -->
 
 ### SPAT OSC Connections preferences
 
@@ -123,6 +131,8 @@ Let’s now look for the  Hardware I/O connection. This is where you will config
 
 **SPAT Hardware IO (Audio) preferences – AVB example**
 ![SPAT Hardware IO (Audio) preferences – AVB example](include/SpatRevolution_UserGuide_S6L_Spat_HardwareIO_AVB.png)	
+
+<!-- TODO: update the image -->
 
 - In Devices, please select your Core or ASIO audio device. In this example, we are using the AVB Core Audio E6 Engine, but this could be as well your MADI interface of choice such as an RME MADIface, MADIface XT, Soundgrid MADI device or any preferred interface. Not that the choice of interface will have an impact on your overall  possible system latency combined with the computer hardware.
  
@@ -149,7 +159,7 @@ The S6L file contains 3 snapshots:
 - **Circle and Horizontal Line**. plug-ins are set with a 2 seconds interpolation time showing how time value is used to smooth out transitions. The accompanying SPAT session file contains the 64 sources/objects connected to a Binaural Room as a start point.
 
 
-[SPAT_S6L_V7_32MONO_16ST GROUPS_20_12*](https://public.3.basecamp.com/p/UQU8nhgHxy3FUjVgPndb8baK)
+[SPAT_S6L_V7_32MONO_16ST GROUPS_20_12](https://public.3.basecamp.com/p/UQU8nhgHxy3FUjVgPndb8baK)
 
 **SPAT_S6L_V7_32MONO_16ST GROUPS_20_12** contains an S6L file with 32 Mono SPAT send sources/objects ready to be inserted on the channels you are using as direct out to SPAT Revolution. 
 These are name source/object 1-32. 

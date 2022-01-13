@@ -7,7 +7,7 @@ It also features a great automation system which is important for precise compos
 It is one of the most complete flexible DAW regarding immersive sound production.
 
 
-Reaper seems to integrate well with the SPAT plug-ins and the Local Audio Path workflow described in section **[SPAT PI : Local audio path](7_SPAT_Plugins_7_3_DAW_Automation_-_Local_Audio_Path.md)**.
+Reaper integrates well with the SPAT plug-ins and the Local Audio Path workflow described in section **[SPAT PI : Local audio path](Ecosystem_&_integration_DAW_Automation_Local_Audio_Path.md)**.
 
 If you are using the Local Audio Path, it is also recommended reviewing the **[Appendix B - Troubleshooting](Appendix_B.md)** of this guide.
 
@@ -24,13 +24,11 @@ You can download the following session templates:
 
 * **[Reaper Tutorial Template](https://public.3.basecamp.com/p/gWoxvBdp33k1fb7xsoh6UAPC)** is the template used in the above video tutorial and includes send and return setup for rendering Binaural, 5.1 and NHK 22.2 output formats.
 
-* **[Basic music REA](https://public.3.basecamp.com/p/gWoxvBdp33k1fb7xsoh6UAPC)** is a basic template using send and return to render Stereo, 5.1, Atmos 5.1.4  output formats with Binaural monitoring.
+* **[Basic music REAPER](https://public.3.basecamp.com/p/gWoxvBdp33k1fb7xsoh6UAPC)** is a basic template using send and return to render Stereo, 5.1, Atmos 5.1.4  output formats with Binaural monitoring.
 
-* **[Advanced multi-format REA](https://public.3.basecamp.com/p/Lnmvz9x7FhpfciDaP5mSdpVM)**  is an advance template using send and return to render Atmos 7.1.2, NHK 22.2 and multiple binaural output.
+* **[Advanced multi-format REAPER](https://public.3.basecamp.com/p/Lnmvz9x7FhpfciDaP5mSdpVM)**  is an advance template using send and return to render Atmos 7.1.2, NHK 22.2 and multiple binaural output.
 
-* **[Ambisonic HOA mixing REA](https://public.3.basecamp.com/p/CRr6noBmpk7ms3hCarGxPMT3)** is a template for using 3rd order HOA and  binaural monitoring output formats.
-
-Following are information on ReaVolution customization package, the details for manual configuration and to understand better Reaper integration.
+* **[Ambisonic HOA mixing REAPER](https://public.3.basecamp.com/p/CRr6noBmpk7ms3hCarGxPMT3)** is a template for using 3rd order HOA and  binaural monitoring output formats.
 
 
 ## ReaVolution
@@ -45,7 +43,7 @@ Please follow this link for more information on [ReaVolution](Third_Party_ReaVol
 
 ## Setting Up Sync
 
-As described in section **[SPAT PI : Local audio path](7_SPAT_Plugins_7_3_DAW_Automation_-_Local_Audio_Path.md)**, when you are using the Local Audio path, the buffer size and sample rate must be matched in both SPAT Revolution and Reaper. 
+As described in section **[SPAT PI : Local audio path](Ecosystem_&_integration_DAW_Automation_Local_Audio_Path.md)**, when you are using the Local Audio path, the buffer size and sample rate must be matched in both SPAT Revolution and Reaper. 
 In SPAT, you set this in the preferences and in Reaper in the Audio Device preferences.
 
 ![](include/SpatRevolution_UserGuide_-233.jpg)
@@ -58,8 +56,8 @@ It is a good idea to work with Track Folder structure for your organisation.
 
 In the above screenshot, the B-Format Master has been set to be a Folder Parent with 4-Track Channel. 
 Reaper channel routing is set on a track by track basis, using the _TrackIO Route_ button of each Track. 
-All the Child tracks that route to the parent can be assigned to one of the four receiving channels on the Parent track. 
-In this example, the W is assigned to Track 1 by setting the track Pan to the left and routing to parent Channels 1-2. Similarly, the X to Track 2 ( setting the track Pan to the right ). 
+All the Child tracks routed to the parent can be assigned to one of the four receiving channels on the Parent track. 
+In this example, the W is assigned to Track 1 by setting the track Pan to the left and routing to parent Channels 1-2. Similarly, the X to Track 2 (setting the track Pan to the right).
 The Y Track is assigned to Parent Channels 3-4 and hard panned left and so on.
 
 Alternatively, an interleaved 4-channel audio file (B-Format audio in this example) can be placed on one Child Track, which has been specified to have 4 channels.
@@ -74,6 +72,8 @@ All automation for that source should happen in the Envelope Lanes of the Parent
 ## Setting up SPAT SEND
 
 ![](include/SpatRevolution_UserGuide_-239.jpg)
+
+<!-- TODO: update the image -->
 
 Simply insert the SPAT SEND plug-in on a Parent Track. 
 This means that as the composition grows, you may have multiple Child tracks sending different audio material to the same virtual source/object in SPAT, through one SEND plug-in on the Parent Folder Track.
@@ -154,6 +154,8 @@ Enable the Local Audio Path: you should see a Return output module appear in the
 Connecting it to the 3HOA3D stream output from the Room (or Rooms in a mixer/transcoder) and it should inherit the format.
 
 ![](include/SpatRevolution_UserGuide_-259.jpg)
+
+<!-- TODO: update the image -->
 
 ## Recording Immersive creation.
 
