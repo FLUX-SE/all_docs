@@ -67,7 +67,7 @@ It is available on the room parameter on the setup page, but also on the output 
 
 ![](include/SpatRevolution_UserGuide_-050.jpg)
 
-_!> Routing example available with Ultimate license._
+!> _Routing example available with Ultimate license._
 
 In the _Environment Setup_ of SPAT Revolution, you will find a module dedicated to Binaural Monitoring. Its purpose is to monitor any kind of speaker setup using headphones and binaural encoding. This can give you an impression of how your spatialization might sound on a particular channel based system when you are off location.
 

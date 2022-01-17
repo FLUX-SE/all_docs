@@ -18,6 +18,8 @@ If they don't match at first, you _may_ need to restart  both applications to ge
 
 ![](include/SpatRevolution_UserGuide_-268.png)
 
+<!-- TODO: update the image -->
+
 **Setting Up Tracks in BitWig**
 
 One good way to work with Bitwig and SPAT together is to set Bitwig tracks to output their audio to _Effect Track_ types - they are like Aux busses in other software you do that routing from an audio track output assignment settings.
@@ -26,7 +28,7 @@ One good way to work with Bitwig and SPAT together is to set Bitwig tracks to ou
 
 **Setting Up SPAT SEND in BitWig**
 
-Put the SPAT SEND plug-ins on individual _Effect Tracks_, enable the local audio path with **THRU** set to off, so all audio streams are rendered to output in SPAT.
+Put the SPAT SEND plug-ins on individual _Effect Tracks_, enable the local audio path with **THRU** set to off, so all audio streams are rendered to output in SPAT Revolution.
 
 ![](include/SpatRevolution_UserGuide_-272.jpg)
 

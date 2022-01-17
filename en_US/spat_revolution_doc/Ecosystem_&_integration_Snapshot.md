@@ -16,16 +16,20 @@ If timecode isn't running, the recall will fail.
 
 ![Timecode running](include/Sync.png)
 
+<!-- TODO: update the image -->
+
 Snapshots could be controlled by the dedicated menu, and with OSC messages.
 
 ![SPAT Revolution_snapshot_recall](include/SpatRevolution_snapshot_recall.gif)
+
+<!-- TODO: update the image -->
 
 ## Create a snapshot
 
 We can create a snapshot:
 - by using the "Create" action into the "Snapshots" menu.
 In this case, the snapshot will be added at the end of the list.
-The shortcut <code>Alt + Space</code> could also be used to capture a snapshot.
+The shortcut <code>Alt + Space</code> could also be used to capture a snapshot (currently note working on Windows).
 
 - by using the "Insert Before" action.
 This option is available only if another snapshot exists.
@@ -73,7 +77,7 @@ Different actions are available for handling snapshots with OSC messages:
 
 The snapshot name could be added in argument.
 
-- Recall a snapshot: <code>/snapshot/recall [index, *time, *Recall Effective Selection, *Recall Actual Selection] </code>
+- Recall a snapshot: <code>/snapshot/recall [index, *time, *Recall Effective Selection, *Recall Actual Selection, *Enable sources recall, *Enable rooms recall, *Enable masters recall] </code>
 
  _Index_: the snapshot index to recall. It can be replaced by the snapshot name.
 
@@ -82,6 +86,8 @@ The snapshot name could be added in argument.
  _Recall Effective Selection_: optional, if the value is <code>True</code>, the sources' selection on the snapshot creation will be recalled. It's the default value. If <code>False</code>, selection will not be recalled.
 
  _Recall Actual Selection_: optional, if the value is <code>True</code>, only the parameters of selected sources' will be recalled. Else, all the sources will recalled (default behavior).
+
+_Enable sources recall, Enable rooms recall, Enable masters recal_: optional, enable to define if sources, rooms and masters parameters will be recalled. If not given, the default set value will be used. 
 
 
 - Update a snapshot: <code>/snapshot/update [index]</code>

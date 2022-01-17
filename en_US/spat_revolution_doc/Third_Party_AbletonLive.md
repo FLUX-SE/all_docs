@@ -145,7 +145,7 @@ To overcome this limitation, we have to use several return plug-ins to get our s
 In this template, we show how to return the audio from a 7.1.4 Dolby Atmos room. 
 As we need 12 channels, 6 different SPAT stereo RETURN plug-ins are used.
 
-![liveTemplate1_SpatSession](-include/SpatRevolution_UserGuide_liveTemplate1_SpatSession.png)
+![liveTemplate1_SpatSession](include/SpatRevolution_UserGuide_liveTemplate1_SpatSession.png)
 
 The internal routing in Ableton Live remains the same as in the earlier stereo & binaural template above.
 

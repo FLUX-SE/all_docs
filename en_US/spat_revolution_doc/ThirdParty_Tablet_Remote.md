@@ -16,9 +16,9 @@ You will need LEMUR iOS or Android software to be able to use these templates.
 Templates are providing for standard iPad and an iPad Pro version. 
 Other resolutions will need customization using the Lemur editor. For more information on Lemur editor, please read the [Lemur User Guide](https://liine.net/assets/files/lemur/Lemur-User-Guide.pdf).
  
-[**Download Lemur for iOS:**](https://apps.apple.com/us/app/lemur/id481290621?ls=1)
+[**Download Lemur for iOS**](https://apps.apple.com/us/app/lemur/id481290621?ls=1)
 
-[**Download Lemur for Android:**](https://play.google.com/store/apps/details?id=net.liine.lemurapp) 
+[**Download Lemur for Android**](https://play.google.com/store/apps/details?id=net.liine.lemurapp) 
 
 > **Advice:** For most reliable remote control from tablet devices, it is recommended to hardwire your table device to your system. Some adapters offer ethernet connectivity and in some cases, power as well. This way your device can remain 100% charged all the time and will have a solid ethernet connection to make sure you can rely on this remote for the critical times (But yes it does work more than fine in Wi-Fi too!). Multiple tablet devices can mean building yourself a control station!
 
@@ -64,6 +64,8 @@ The port and host should match that of the Lemur app.
 
 
 ![image(3)](include/tabletRemote_image(3).png)
+
+<!-- TODO: update the image -->
 
 - Input from your IP <code>192.168.43.10</code> (or whatever you SPAT computer IP is) with port # <code>53700</code>.
 

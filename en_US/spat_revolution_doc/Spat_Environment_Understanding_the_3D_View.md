@@ -22,7 +22,7 @@ When a source is placed inside the protection zone, its distance will no more in
 
 As its name implies, the protection zone exists to prevent weird behavior when sources are placed inside itself. Thus, in this case, you will notice that the presence vector turn red. This should warn you that what you see may not be related to what you hear.
 
-Two behaviors can happen when a source is inside the protection zone. It can either be replaced at the top of the sphere or being looked at a constant azimuth. This behavior is set by the “**source over listener head**” parameters, which is on by default.
+Two behaviors can happen when a source is inside the protection zone. It can either be replaced at the top of the sphere or being looked at a constant azimuth. This behavior is set by the “**source over listener head**” parameter, which is on by default.
 
 ## The presence of a source
 
@@ -36,7 +36,7 @@ Putting a source closer or further away from the protection zone will have the c
 
 The presence parameter directly affects the presence factor of the source.
 
-The drop factor defines the relation between the distance of the source and the listening point and the loss of presence. It is set by default to follow the acoustic law of our world, where we lose 6 dB of presence each time we double the distance.
+The drop factor defines the relation between the distance of the source and the protection zone and the loss of presence. It is set by default to follow the acoustic law of our world, where we lose 6 dB of presence each time we double the distance.
 
 When “Presence infos” on the top bar of the 3D view is enabled, the overall presence of a source is displayed by a green vector, drawn between the source and the protection zone. The intensity of the green color is proportional to the presence factor. If the source is inside the protection zone, the vector will turn red and a small sphere of the same color will be drawn on the surface of the protection zone.
 
@@ -50,13 +50,13 @@ While a source is in the protection zone, there is no variation in presence.
 By definition, the efficiency zone is where the virtual sound sources should be localized.
 
 Inside a channel-based room, the efficiency zone is defined by the speaker arrangement used in a room:
-+ When using speaker setup that surrounds the listeners, the efficiency zone is a sphere (or circle in 2D), which span from the border of the protection zone to the farthest distance you can put a source (100 m). A speaker array is considered as surround if the angle between the foremost left and right speakers is over 180°. For readability reasons, the efficiency zone is not drawn in this case. Only if its depth is set inferior to its maximum value (100 meters), the efficiency zone is drawn.
++ When using speaker setup that surrounds the listeners, the efficiency zone is a sphere (or circle in 2D), which spans from the border of the protection zone to the farthest distance you can put a source (100 m). A speaker array is considered as surround if the angle between the foremost left and right speakers is over 180°. For readability reasons, the efficiency zone is not drawn in this case. Only if its depth is set inferior to its maximum value (100 meters), the efficiency zone is drawn.
 
 + When using a non-surrounding system (stereo, frontal line, etc.), the efficiency zone become a “piece of pie” and is displayed in the 3D view. Its width is defined by the angle between the foremost left and the foremost right speaker. The visualization of the efficiency zone should help to understand the limitation of these systems in terms of spatialization options. For instance, placing a source behind the listener head in stereo will never produce the effect of a source coming from behind.
 
 The range of the efficiency zone is set by the “depth” and “trunc” parameter. The first one sets the maximum and the second one the minimum of its span.
 
-Inside a non-channel-based room, the efficiency zone is a sphere, because there is no speaker to constrain the diffusion area. Still, it can be edited with the same “depth” and “trunc” parameters for multi-room and creative applications. More informations below.
+Inside a non-channel-based room, the efficiency zone is a sphere, because there is no speaker to constrain the diffusion area. Still, it can be edited with the same “depth” and “trunc” parameters for multi-room and creative applications. More information below.
 
 ### Behavior of sources outside the efficiency zone
 
@@ -73,7 +73,7 @@ Clamping the source to the efficiency zone help to keep coherent sound scene, wh
 
 > When in mute mode, a slight fade out is applied to avoid clicks. The length of the fade can be adjusting by making the source go faster or slower.
 
-Note that the prefered behavior are clamping or muting. **Clamping or muting will prevent abberant render in sound and localization.**
+Note that the preferred behavior are clamping or muting. **Clamping or muting will prevent an aberrant render in sound and localization.**
 
 The pictures below shown some key cases of clamping: 
 
@@ -93,20 +93,20 @@ When a source is on the opposite side of a non-surround system, the projection o
 
 The height clamping helps to keep sources inside coherent space in regard of the speaker placement inside the room. It only happens with channel-based configurations.
 
-It can be activated by the *Source fit speakers elevation* parameter, in the room options. Height clamping works in a different way depending on if you are working with a 2D or 3D speaker array.
+It can be activated by the *Source fit speakers elevation* parameter, in the room options. Height clamping works differently depending on if you are working with a 2D or 3D speaker array.
 
 + **2D Speakers Array**
 
-When dealing with a 2D speaker array, there is no point at placing a source above or below the horizontal plan. If you choose to do so, or use a 2D room to translate a 3D mix, you will see phantom sources that are the projection of each source on the horizontal plan. The position of the phantom source is used by the DSP to render the actual source position in the virtual space, but, it will preserve its presence factor.
+When dealing with a 2D speaker array, there is no point at placing a source above or below the horizontal plan. If you choose to do so, or use a 2D room to translate a 3D mix, you will see phantom sources that are the projection of each source on the horizontal plan. The position of the phantom source is used by the DSP to render the actual source position in the virtual space, but, it will preserve its actual presence factor.
 
 + **3D Speakers Array**
 
-A 3D speaker array has at least two plans of speakers. Such plans are defined by three non-align speakers sharing the same height (z). If a source is placed above the top plan, or below the bottom one, the source will be clamped to the closest plan. The clamping behavior, like with 2D speaker array, is shown with phantom sources that indicate the position used inside the DSP stage of Spat Revolution.
+Most of 3D speaker arrays has at least two plans of speakers. Such plans are defined by three non-align speakers sharing the same height (z). If a source is placed above the top plan, or below the bottom one, the source will be clamped to the closest plan. The clamping behavior, like with 2D speaker array, is shown with phantom sources that indicate the position used inside the DSP stage of Spat Revolution.
 
 ![](include/3DView_TopChannels.png)
 
 ## Limit cases
 
-+ Height clamping does not occur with DBAP-based pan law when using 3D speaker array. This prevents some jump and aberration in sound.
++ Height clamping does not occur with distance-based pan law when using 3D speaker array. This prevents some jumps and aberrations in sound.
 + When using 2D non-surrounding speaker array, efficiency and height clamping are tied together. If efficiency clamping is activated, SPAT Revolution automatically switches one the height clamping. On the contrary, if height clamping is turned off, then, so is the efficiency clamping.
-+ WFS is the only case where it can make sense to put virtual sources in front of the speakers, to take advantages of the focus zone. This zone and the behavior associated is detailed in the WFS section of this user guide.
++ WFS is the only case where it can make sense to put virtual sources in front of the speakers, to take advantages of the focus zone. This zone and the associated behavior is detailed in the WFS section of this user guide.

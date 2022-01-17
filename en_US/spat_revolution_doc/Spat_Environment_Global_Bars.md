@@ -12,6 +12,8 @@ The status and help bars appear at the bottom of all views. It gives information
 
 ![](include/SpatRevolution_UserGuide_-072.jpg)
 
+<!-- TODO: update the image -->
+
 The status bar help you easily monitor many critical informations about your hardware and your incoming or outcoming audio stream.
 
 ### Input stream
