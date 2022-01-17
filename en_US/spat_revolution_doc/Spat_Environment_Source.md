@@ -1,6 +1,6 @@
 # Source
 
-The next row transforms the inputs into virtual objects according to their configuration. This is what needs to happen so that a virtual source appears in a virtual room. If you try to connect an input directly into a room, SPAT will always put a source module in between.
+<!-- The next row transforms the inputs into virtual objects according to their configuration. This is what needs to happen so that a virtual source appears in a virtual room. If you try to connect an input directly into a room, SPAT will always put a source module in between.
 
 The Source modules are where you set a descriptive name of each virtual object. It's a good idea to do that, as things can get busy inside the rooms. You can also adjust the overall gain of a Source here no matter how many channels it might have. The Source modules are also important for parameter automation using the _SPAT Send_ plug-in, and also in the case of external OSC control.
 
@@ -10,28 +10,12 @@ External software needs to know how to identify virtual objects, and that will b
 
 > When using a BlackTrax positional tracking system a Tracking index can be assigned to a virtual source directly from the Source module.
 
-## Tracking
-
-SPAT Revolution is able to receive data from RTTrPM open protocol tracking systems. This protocol is supported by BlackTrax™. BlackTrax™ is a vision-based system that connects to different third-party applications, such as robotic lights, media servers and SPAT Revolution. OSC is the other very good method to use for tracking, and various tracking systems support it natively.
-
-!> _RTTrPM protocol is only available with the Ultimate license of SPAT Revolution_.
-
-When you have correctly set up the BlackTrax protocol (see [BlackTrax Integration section](ThirdParty_BlackTrax.md)) then you can directly assign Tracking Index to virtual sources, and also to listener position (see [Listener position section](5_Spatialisation_Technology_5_4_Listener_Position.md)) for advanced virtual reality interactive audio projects.
-
-## Sources Transformations
-
-As with the custom speaker arrangement editor, we can apply some transformations to one or multiple sources. This feature is especially handy if you wish to quickly set sources on a circle, or to put a selection of sources at the distance for examples.
-
-To open the transform menu, right click on a source in the source panel and choose "Transform." You can also use the shortcut <code>CMD/CTRL + SHIFT + T</code>.
-
-Please check the section about [Speaker Arrangement](Spatialisation_technology_Speaker_Arrangement.md) if you want more details about the different transform.
-Sources’ transformations also include an integration time which allows to create smooth transition between the current and the new source position.
-
-![](include/SpatRevolution_SourceTransform.png)
 
 ## Source Parameters
+ -->
 
-Every virtual source in a room has its own set of variable parameters which define its simulated positional information, psycho acoustic properties, virtual acoustic properties and other options.
+
+Every source in a room has its own set of variable parameters which define its simulated positional information, psycho acoustic properties, virtual acoustic properties and other options.
 
 To edit the variables of a source in the _Source Parameter_ editor, you must first be inside a room. Select the source you want to edit from the list on the left side panel of the Room editor by left-clicking on its index number. Alternatively, grab its 'emitter' object in the 3D room visualization (or just one of them, if the source is a multichannel group). When you select a source, the _Source Parameter_ editor will pop up as a set of categorized groups with which you can alter the properties of the Virtual Source in the Room.
 
@@ -39,44 +23,7 @@ The source parameters are ordered inside panels. Each panel can be minimized or 
 
 Additionally, a _right click_ on a Source Index number will bring up some further options, especially useful is the **Color** option, which allows you to set an identification color to a Source or Group.
 
-### Defaults
-
-A double-click on any Source Parameter dial will reset it to a SPAT default setting. The default setting of a parameter is indicated around a dial as a larger tick than the other tick marks. Additionally, a range is graphically indicated between the default setting and the current setting of a variable parameter.
-
-![](include/SpatRevolution_UserGuide_-162.jpg)
-<!-- TODO: update the image -->
-
-> ★ _Use the defaults as points of reference in your spatial sound design._
-
-### Preset Memories
-
-Each parameter has the possibility to store useful preset settings of your own choosing. Right click on a parameter dial, and a contextual menu will pop up. From there you can store the current setting to a Memory Slot, or Recall a setting from a previously saved memory slot.
-
-![](include/SpatRevolution_UserGuide_-148.jpg)
-<!-- TODO: update the image -->
-
-### Multiple Source Selection
-
-You can shift click on the Index number of separate sources to create an ad hoc edit group. When you have group Sources in this way, you can perform a number of group edit actions. When you Right Click on an ad hoc group selection, a menu will pop up where you can:
-
-- distribute the sources in the group with the [Transform panel](6_Spat_Environment_6_6_Source_6_6_Source.md?id=sources-transformations)
-- generate different colors for the sources
-- reset the positions of the group
-
-When you have selected an ad hoc group using the shift click technique, you can then open the _Source Parameter_ panel by clicking on the property panel header 'fold arrow' as  shown in the screenshot below.
-
-![](include/SpatRevolution_UserGuide_-166.jpg)
-<!-- TODO: update the image -->
-
-Any source parameter variables you adjust manually will assign that same setting on all selected sources in the group. A barycenter will then become practical to work from a center of mass perspective. For example, transformations like scaling, distance, rotation and directivity of the group is managed by SPAT controlling each member of the group a barycentric relationship. Consider referring to section [Barycentric groups](6_Spat_Environment_6_8_Barycentric_Groups_in_Rooms.md) about groups in rooms to read more about how they are represented.
-
-### Smart Property Filter
-
-This feature allows you to display one or several parameters for all the sources that are in the same room. It is a useful feature for fast editing. Type "azimuth elevation distance" in the filter box for example, and you will see faders appear for only these properties, grouped for each of the sources as demonstrated in the following screenshot.
-
-![](include/SpatRevolution_UserGuide_-168.jpg)
-
-### Perceptual Factors
+## Perceptual Factors
 
 ![](include/SpatRevolution_UserGuide_-170.jpg)
 
@@ -273,3 +220,41 @@ Spreading is a percentage factor that defines how a sound source will appear to 
 **Nearest Neighbors**
 
 This parameter is only available to a source, if the room it is simulated in has been specified to be using the [_K Nearest Neighbor_ panning type](5_Spatialisation_Technology_5_5_Panning_Algorithms?id=k-nearest-neighbor-knn). It sets a maximum limit to the number of speakers that the algorithm can use as neighbors in its search for speakers to activate in relation to a virtual source. On a 10-speaker setup, 1-10 % will be the closest speaker to source. 11%-20% will be 2, and so forth.
+
+## Basic interactions
+### Reset to defaults
+
+A double-click on any Source Parameter dial will reset it to a SPAT default setting. The default setting of a parameter is indicated around a dial as a larger tick than the other tick marks. Additionally, a range is graphically indicated between the default setting and the current setting of a variable parameter.
+
+![](include/SpatRevolution_UserGuide_-162.jpg)
+<!-- TODO: update the image -->
+
+> ★ _Use the defaults as points of reference in your spatial sound design._
+
+### Preset Memories
+
+Each parameter has the possibility to store useful preset settings of your own choosing. Right click on a parameter dial, and a contextual menu will pop up. From there you can store the current setting to a Memory Slot, or Recall a setting from a previously saved memory slot.
+
+![](include/SpatRevolution_UserGuide_-148.jpg)
+<!-- TODO: update the image -->
+
+### Multiple Source Selection
+
+You can shift click on the Index number of separate sources to create an ad hoc edit group. When you have group Sources in this way, you can perform a number of group edit actions. When you Right Click on an ad hoc group selection, a menu will pop up where you can:
+
+- distribute the sources in the group with the [Transform panel](6_Spat_Environment_6_6_Source_6_6_Source.md?id=sources-transformations)
+- generate different colors for the sources
+- reset the positions of the group
+
+When you have selected an ad hoc group using the shift click technique, you can then open the _Source Parameter_ panel by clicking on the property panel header 'fold arrow' as  shown in the screenshot below.
+
+![](include/SpatRevolution_UserGuide_-166.jpg)
+<!-- TODO: update the image -->
+
+Any source parameter variables you adjust manually will assign that same setting on all selected sources in the group. A barycenter will then become practical to work from a center of mass perspective. For example, transformations like scaling, distance, rotation and directivity of the group is managed by SPAT controlling each member of the group a barycentric relationship. Consider referring to section [Barycentric groups](6_Spat_Environment_6_8_Barycentric_Groups_in_Rooms.md) about groups in rooms to read more about how they are represented.
+
+### Smart Property Filter
+
+This feature allows you to display one or several parameters for all the sources that are in the same room. It is a useful feature for fast editing. Type "azimuth elevation distance" in the filter box for example, and you will see faders appear for only these properties, grouped for each of the sources as demonstrated in the following screenshot.
+
+![](include/SpatRevolution_UserGuide_-168.jpg)
