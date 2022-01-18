@@ -1,6 +1,6 @@
 # Getting started
 
-In the following section, we will discuss how to install SPAT Revolution, using the FLUX:: Center, and how to redeem and activate your licences.
+In the following section, we will discuss how to install SPAT Revolution, using the FLUX:: Center, and how to redeem and activate your licenses.
 
 We will also explain all the differences between the Ultimate and Essential versions.
 

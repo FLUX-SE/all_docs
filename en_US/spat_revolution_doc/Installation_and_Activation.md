@@ -49,7 +49,7 @@ Pressing on the sign in button will allow you to connect to your account. After 
 
 **Simply drag your license to your Local Computer or on an iLok USB key. You are now set!**
 
-> If you require further information about iLok and managing licenses please refer to iLok.com website
+> If you require further information about iLok and managing licenses please refer to iLok.com website.
 
 ## FLUX:: Center
 ![](include/SpatRevolution_FluxCenter_-017.png ':class=img-title')

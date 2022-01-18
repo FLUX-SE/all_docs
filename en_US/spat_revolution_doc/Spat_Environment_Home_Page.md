@@ -12,7 +12,6 @@ This simple box let you access to basic action of session management.
 
 ### Create Session
 
-
 Create a session with a wizard to set up the routing.
 
 ### New session from empty

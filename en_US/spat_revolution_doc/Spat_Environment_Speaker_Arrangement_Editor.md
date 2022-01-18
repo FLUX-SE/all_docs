@@ -16,11 +16,11 @@ Open the **speaker arrangement editor** by clicking on the *Edit* button of a Ch
 
 ### Speaker Arrangement section
 
-**Arrangement dropdown menu :** this menu allow to access to a list of all your existing speaker arrangement.
+**Arrangement drop-down menu :** this menu allows access to a list of all your existing speaker arrangement.
 
 **Duplicate :** create a copy of the current speaker arrangement.
 
-!> You cannot overright a factory arrangement. Duplicate it before trying to edit it.
+!> You cannot overwrite a factory arrangement. Duplicate it before trying to edit it.
 
 **New :** create a new empty speaker arrangement.
 
@@ -28,7 +28,7 @@ Open the **speaker arrangement editor** by clicking on the *Edit* button of a Ch
 
 **Rename :** rename the current speaker arrangement.
 
-**Import from :** allow to import a speaker configuration from a third-party software. See the next section for more detail.
+**Import from :** allow importing a speaker configuration from a third-party software. See the next section for more detail.
 
 **Export :** open a window to export a selection of speaker arrangement.
 
@@ -47,7 +47,7 @@ Regarding the LFE, by default it is not included in the compute process. If you 
 
 ### Speakers section
 
-It is possible to create many speakers or to edit them all at once using geometric transformation. In SPAT Revolution, this transformations are mathematical law used to distribut points (in our case, speakers) in the space. In other word, it can help to create circle, sphere or lines of speakers in second instead of minutes.
+It is possible to create many speakers or to edit them all at once using geometric transformation. In SPAT Revolution, these transformations are mathematical law used to distribute points (in our case, speakers) in the space. In other words, it can help to create circles, spheres or lines of speakers in second instead of minutes.
 
 **Add :** add new speakers according to a specified transformation.
 
@@ -58,7 +58,7 @@ It is possible to create many speakers or to edit them all at once using geometr
 TO DO: add transformation speaker picture
 
 **Transformation :** define which distribution law to use.
- + Linear uniform distribution along the selected axis, to create line parallel to a certain axis (X,Y or Z)
+ + Linear uniform distribution along the selected axis, to create a line parallel to a certain axis (X,Y or Z)
  + Circle, to create a circle around the listener head
  + Sinus,
 
@@ -86,30 +86,30 @@ TO DO: add transformation speaker picture
 
 !> SPAT Revolution use speaker naming to sum speaker arrangement.
 
-**X (m) :** define the position of the speaker on the X axis, in meter.
+**X (m) :** define the position of the speaker on the X-axis, in meter.
 
-**Y (m) :** define the position of the speaker on the Y axis, in meter.
+**Y (m) :** define the position of the speaker on the Y-axis, in meter.
 
-**Z (m) :** define the position of the speaker on the Z axis, in meter.
+**Z (m) :** define the position of the speaker on the Z-axis, in meter.
 
 **Azimuth (°) :** define the angle of incidence of the source to the center of the 3D space, in the horizontal plan.
 
 **Elevation (°) :** define the angle between the source, the center of the 3D space and horizontal plan.
 
-**Distance (m) :** define the the distance between the source and the center of the 3D space, in meter.
+**Distance (m) :** define the distance between the source and the center of the 3D space, in meter.
 
 **Orientation :** automatically define the yaw and the pitch of the speaker regarding of certain cases.
 
-  + Listener : the speaker point to the listener head
-  + Front : the speaker point to the bottom of the 3D view
-  + Back : the speaker point to the top of the 3D view
-  + Side Left : the speaker point the the left side of the 3D view
-  + Side Right : the speaker point to the right side of the 3D view
+  + Listener : the speaker points to the listener head
+  + Front : the speaker points to the bottom of the 3D view
+  + Back : the speaker points to the top of the 3D view
+  + Side Left : the speaker points to the left side of the 3D view
+  + Side Right : the speaker points to the right side of the 3D view
   + Custom : the user can define the orientation with the *yaw* and *pitch* parameters.
 
-**Yaw :**
+**Yaw :** rotate the speaker around the Z-axis.
 
-**Pitch (°) :**
+**Pitch (°) :** rotate the speaker in elevation.
 
 !> **Orientation**, **yaw** and **pitch** are only useful in WFS use case.
 
@@ -117,7 +117,7 @@ TO DO: add transformation speaker picture
 
 **Gain (dB) :** change the sound level of the speaker.
 
-!> In many case, it is wiser to let the **delay** and **gain** parameters untouched, and let the "compute" function do the job.
+!> In many cases, it is wiser to let the **delay** and **gain** parameters untouched, and let the "compute" function do the job.
 
 ### Panning Type Tips section
 

@@ -23,3 +23,14 @@ Allows to edit the name of an input. Its is possible to edit several name at onc
 
 > Input stream type are : channel-based, HOA, A-Format, B-Format, UHJ, MS, Binaural and Transaural.
 
+For more options related to stream type, check the [Setup Page](Spat_Environment_Setup_Page.md) section.
+
+## Routing
+
+Give access to the routing matrix
+
+!> This option is only available on hardware input.
+
+### Levels
+
+Basic true peak metering for each block's channels.

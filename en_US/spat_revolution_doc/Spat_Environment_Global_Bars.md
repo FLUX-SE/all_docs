@@ -45,6 +45,10 @@ Here, you can choose which timecode SPAT Revolution should look at.
 Let you monitor the timecode seen by SPAT Revolution. For proper operation of snapshots and automations, it should be always running.
 ### Clock source
 
+Choose what clock SPAT should follow.
++ Internal.
++ Hardware.
++ Auto : use hardware if one is connected.
 <!--NEED INFO-->
 
 ### Support

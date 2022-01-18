@@ -25,9 +25,9 @@
       6. [Modules channel count](Spat_Environment_Modules_channel_count.md)
    4. [Rooms Pages](Spat_Environment_Room.md)
       1. [Sources properties & manipulation](Spat_Environment_Source.md)
-      <!--2. [Barycentric groups](Spat_Environment_Barycentric_Groups_in_Rooms.md)-->
-      1. [Room properties & reverberation](Spat_Environment_Artificial_Reverberation.md)
-      2. [Understanding the mixing zones](Spat_Environment_Understanding_the_3D_View.md)
+      2. [Source perceptual parameters](Spat_Environment_Source_Parameters.md)
+      3. [Reverberation engine](Spat_Environment_Artificial_Reverberation.md)
+      4. [Understanding the mixing zones](Spat_Environment_Understanding_the_3D_View.md)
    5. [Speaker arrangement](Spat_Environment_Speaker_Arrangement.md)
       1. [Speaker arrangement Editor](Spat_Environment_Speaker_Arrangement_Editor.md)
       2. [Import Speaker Arrangement](Spat_Environment_Import_Speaker_Config.md)

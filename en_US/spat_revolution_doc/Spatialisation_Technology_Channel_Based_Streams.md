@@ -1,8 +1,8 @@
 # Channel Based Streams
 
-SPAT Revolution is set up to work with a number of different Input and Output formats. The different IO configurations are represented throughout the _Environment Setup_ as _Stream Types_.
+<!-- SPAT Revolution is set up to work with a number of different Input and Output formats. The different IO configurations are represented throughout the _Environment Setup_ as _Stream Types_.
 
-![](include/SpatRevolution_UserGuide_-054.jpg)
+![](include/SpatRevolution_UserGuide_-054.jpg) -->
 
 We have already covered the two-channels binaural stream type for monitoring and final encoding into binaural format. One of the other important Stream Types is referred to as _Channel Based_. This stream can range from a single-channel mono to a multichannel audio stream of up to 16 channels with the Essential license and 128 signals with ultimate license. These streams will flow as a perfectly synchronized group through the signal graph defined in the _Environment Setup_. The channel count of the stream is set by the choice in the _Speaker Arrangement_ pull down menu of a module. A change to the speaker configuration here alters the channel count in and out of a module, depending on its context in the signal graph. When you connect Channel Based modules together in SPAT, they automatically inherit the Speaker Arrangement and Channel Count from the stream type at their connected input.
 

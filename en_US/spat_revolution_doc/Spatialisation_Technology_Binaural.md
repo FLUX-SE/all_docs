@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The expression “binaural technology” covers various methods of sound recordings, synthesis and reproduction which can render 3D spatial audio content over headphones. For instance, binaural field recordings can be made by placing miniature microphones in the ear canals of a listener or of a dummy head (like ’ **Kemar** ’ or ’ **KU100** ’) and when played back over headphones such recordings can produce an authentic immersive auditory experience with enhanced spatial aspects. Recent advances in signal processing technology have made it possible to synthesize binaural signals without the need of microphones.
+The word “binaural” covers various methods of sound recordings, synthesis and reproduction which can render 3D spatial audio content over headphones. For instance, binaural field recordings can be made by placing miniature microphones in the ear canals of a listener or of a dummy head (like ’ **Kemar** ’ or ’ **KU100** ’) and when played back over headphones such recordings can produce an authentic immersive auditory experience with enhanced spatial aspects. Relatively recent progress in signal processing technology has made it possible to synthesize binaural signals without the need of microphones.
 
 Using binaural synthesis, a sound can be arbitrarily positioned around a listener synthesizing the sensory experience of extended spatializations. Like some other two-channel formats such as Mid-Side Stereo, binaurally encoded audio recordings are not compatible with stereo speakers. If a binaural encoded audio file is played on a normal stereo setup, audio will be heard, but it won’t sound good.
 
@@ -67,7 +67,7 @@ It is available on the room parameter on the setup page, but also on the output 
 
 ![](include/SpatRevolution_UserGuide_-050.jpg)
 
-!> _Routing example available with Ultimate license._
+!> _Routing examples available with Ultimate license._
 
 In the _Environment Setup_ of SPAT Revolution, you will find a module dedicated to Binaural Monitoring. Its purpose is to monitor any kind of speaker setup using headphones and binaural encoding. This can give you an impression of how your spatialization might sound on a particular channel based system when you are off location.
 

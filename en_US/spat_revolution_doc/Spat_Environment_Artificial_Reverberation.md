@@ -39,12 +39,12 @@ Despite its internal complexity, the user is invited to morph and modulate the c
 To make this process fluid and natural, the parameter controls have been carefully designed so that they do not glitches.
 This invites continuous parametric modulation ideas, for designing out of this world reverberant spaces, in realtime.
 
-> _Every variable of each Virtual Room reverberation engine can be smoothly and continuously controlled via DAW automation and OSC._
+<!-- > _Every variable of each Virtual Room reverberation engine can be smoothly and continuously controlled via DAW automation and OSC._
 
 ![](include/SpatRevolution_UserGuide_-144.jpg)
 
 In order to automate settings from a DAW, you need to instantiate a _SPAT Room_
-plug-in which will open access to all the parameter controls (see [automation](10_Automation_10_2_DAW_Automation_-_Manual_setup.md) section).
+plug-in which will open access to all the parameter controls (see [automation](10_Automation_10_2_DAW_Automation_-_Manual_setup.md) section). -->
 
 ## Defaults
 

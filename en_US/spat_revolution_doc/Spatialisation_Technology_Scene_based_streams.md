@@ -10,7 +10,7 @@ Ambisonic is also both a recording and a spatial synthesis technique, where one 
 
 ## Encoded audio
 
-Ambisonic as opposed to other surround and spatial techniques and methods does not carry a speaker signal. It is an **encoded** audio signal that has to be **decoded** to the speaker signals. This encoding / decoding scheme has the advantage of being very portable and flexible since one is not bound to a specific speaker setup. i.e., you can have your ambisonic mix played on a number of speaker setups, for instance quad, headphones (binaural), 5.1, 6, 8, 7 speakers, etc. based on the chosen decoder.
+Ambisonic, as opposed to other surround and spatial techniques and methods does not carry a speaker signal. It is an **encoded** audio signal that has to be **decoded** to listen on speakers. This encoding / decoding scheme has the advantage of being very portable and flexible since one is not tied to a specific speaker setup. i.e., you can have your ambisonic mix played on a number of speaker setups, for instance quad, headphones (binaural), 5.1, 6, 8, 7 speakers, etc. based on the chosen decoder.
 
 When Ambisonics is played back on speakers, all the speakers contribute to the directional content, what one is hearing is not the sound coming from a specific speaker but from a specific direction.
 
@@ -24,8 +24,8 @@ When Ambisonics is played back on speakers, all the speakers contribute to the d
 Ambisonics is a technology that encodes sound sources along with full-sphere positional information, as complex interleaved audio files that need decoding before they can be listened to on speakers. The lowest order and the simplest form of 3D Ambisonics require 4 channels, conventionally named as:
 
 - **W** (mono sum)
-- **X** (X axis information)
-- **Y** (Y axis information)
+- **X** (X-axis information)
+- **Y** (Y-axis information)
 - **Z** (elevation information)
 
 The 4 channels or spherical components W, X, Y and Z can also be described as the pressure patterns found in an omni-microphone (W) and three figure-of-8 microphones for left/right (Y), front/back (X) and up/down (Z) as depicted in the above figure.

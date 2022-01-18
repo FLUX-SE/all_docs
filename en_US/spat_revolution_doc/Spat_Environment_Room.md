@@ -4,18 +4,9 @@
 
 In SPAT Revolution, spatialization of virtual sources takes places inside _Rooms_. To enter a room and open its graphic editor environment, double-click on a room module in the Setup graph, or select a room tab from the Navigation bar.
 
-![](include/SpatRevolution_UserGuide_-092.jpg)
-
-The first thing to notice is that we can add any number of rooms. In the screenshot above, two HOA 3D rooms are being used, each with differently designed acoustics. There is plenty of flexibility built into SPAT Revolution, in order to encompass different workflow ideas or experimental approaches. For example, the same virtual sources may be assigned into multiple rooms, with multiple end destinations. Or as in the screenshot above, virtual sources might exist in different spaces that get summed together.
-
-!> _Multiple room is only available with the Ultimate license of SPAT Revolution_.
-
-When we enter a Room, we will see the 3D view and all the connected sources. On the left side panel of the room editor, you get a list representation of each source with its index identification number. We can click on the Index number of each source, and the _[source parameters](6_Spat_Environment_6_6_Source_6_6_Source?id=source-parameters.md)_ editor for that virtual source will appear.
-
+When we enter a Room, we will see the 3D view and all the connected sources. Option related to the 3D view display are localted in top menu. On the left side panel of the room editor, you get a list representation of each source with its index identification number. We can click on the Index number of each source, and the _[source parameters](6_Spat_Environment_6_6_Source_6_6_Source?id=source-parameters.md)_ editor for that virtual source will appear.
 
 ![](include/SpatRevolution_UserGuide_-094.jpg)
-
-> If a source is a multi-channel one, there will be only one index and one set of parameters for the whole cluster.
 
 Two special index items labeled as **(R) REVERB** and **(M) OUTPUT** appear fixed at the bottom of the left panel. By clicking on these, we then enter into two more parameter editors: one relating to the _[Artificial reverberation](8_Artificial_Reverberation_8_Artificial_Reverberation.md)_ and one relating to the room output configuration and [Listener Position](5_Spatialisation_Technology_5_4_Listener_Position.md) editor.
 
@@ -27,33 +18,76 @@ When you have more than one Room in your project, then the SOURCES switch at the
 
 Along with the audio modeling engine, one of SPAT's key features is its ability to model a high definition graphical representation of the virtual space inside each room. We can intuitively interact and move sources and 'camera view' directly with our mouse. Move a source by grabbing its 'emitter' object or in the case of a grouped source grab any one of the emitters that belong to the group. Alternatively, sources can be positioned by manipulating their coordinate-related source parameter controls (see [ Radiation section](6_Spat_Environment_6_6_Source_6_6_Source?id=radiation)).-->
 
-![](include/SpatRevolution_UserGuide_-096.jpg)
+<!-- ![](include/SpatRevolution_UserGuide_-096.jpg) -->
 
-## Room's stream type
+## Top bar menu
 
-The _Room_ module requires all sources to be in some type of channel-based format at its inputs. Internally, however, the Room may calculate spatial positioning and panning using different methods according to the setting of the _Output Configuration_ pull down menu.
+This menu allows to change what elements and how they are displayed in the 3D view.
 
-A room will compute internal virtual panning, reverberation and output in five possible formats:
+**Presence Infos :**
 
-- [**Channel Based**](#Channel-Based-Setup-Examples)
-    - Virtualized Sources
-    - Virtualized Speakers
-    - Virtualized Panning Behavior
-- [**Binaural**](#Binaural-Room)
-    - Virtualized Sources
-    - Virtualized HRTF
-- [**High Order Ambisonic**](#High-Order-Ambisonic-Room)
-    - Virtualized Sources
-    - Virtualized Ambisonic Encoding
-- [**B-Format**](#B-Format-Room)
-    - Virtualized Sources
-    - Virtualized Ambisonic Encoding
-- [**Mid Side**](#Mid-Side-Room)
-    - Virtualized MS microphone arrangement
+Display the presence factor as a green vector. The brighter it is, the more present the source is. When off, green vector is no more drawn.
 
-> Different Virtual Room types can be used in parallel.
+**Real Pos. Infos :**
 
-In the output section, we can also mute specific speakers. This can be really helpful for checking routing or for diagnostic its system.
+In some very specific cases, the position of source in the DSP may be different that the one you setted up. When on, the DSP position is also displayed.
+
+> To understand better what these two first options do, consult the "[Understanding the mixing zones](Spat_Environment_Understanding_the_3D_View.md)" section.
+
+**Source Infos :**
+
+Display the name of source even if it is not selected.
+
+**Speaker Infos :**
+
+Display the name of the speakers.
+
+**Scale :**
+
+Make the elements bigger of smaller for adjust ease of sight.
+
+**Shinniness :**
+
+Change the shinniness aspect of the graphical elements.
+
+**Lightness :**
+
+Change the brightness of the graphical elements.
+
+**Nebula Alpha :**
+
+Change the transparancy of the Nebula spectral analyzer.
+
+> When set to 0%, Nebula does not take any ressources at all.
+
+Consult the "[Nebula Spatial Spectrogram](Spat_Environment_Nebula.md)" section for more information.
+
+**Speaker Alpha :**
+
+Change the transparancy of the speakers.
+
+**Listener Alpha :**
+
+Change the transparancy of the listener head.
+
+**Grid type :**
+
+Toggle between polar or cartesian grids.
+
+**Display Output :**
+
+Allows to display another room or setup modules. This is usefull if you want to see the decoding of an ambisonic stream inside an ambisonic room for example.
+
+**Background color :**
+
+Change the background color.
+
+**View :**
+
+Choose if the 3D view is seen from:
++ The top
++ The front
++ Or a split view : top and front
 
 ## Display output drop-down
 
@@ -117,3 +151,5 @@ This parameter changes the scale of RTTrPM protocol data.
 <!-- TODO: add the image -->
 
 This panel allows you to import a background image in SPAT Revolution and to position it in the 3D view.
+
+!> Make sure to have no special character in the path or file name.
