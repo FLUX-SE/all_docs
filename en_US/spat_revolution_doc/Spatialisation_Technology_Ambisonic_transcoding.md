@@ -14,7 +14,7 @@ When patching an HOA or B-Format input to a source, or a HOA room to a channel-b
 Projection decoding is also sometimes called “sampling ambisonic decoding” (SAD).
 It is the simplest form of ambisonic decoding.
 It samples the virtual panning function at the loudspeaker directions.
-SAD is optimal for loudspeakers arranged as t-design layouts, with $t \geqslant (2N+1)$ ($N$ being the Ambisonics order).
+SAD is optimal for loudspeakers arranged as t-design layouts, with t ≥ (2N+1) ( N being the Ambisonics order).
 Typically, the SAD should only be used for 2D loudspeaker layouts, i.e., regularly arranged in a circle. Avoids this decoder for 3D setups.
 
 *What Is a T-Design Layout?*
@@ -28,7 +28,7 @@ In SPAT Revolution, we chose to use the method used by the mathematician Sloane 
 
 The pseudo-inverse decoder, or “mode-matching decoder” (MMAD), is suitable for both 2D and 3D.
 It is based on a pseudo-inverse of the re-encoding matrix.
-MMAD is well behaved for regular loudspeaker arrangements.
+MMAD is well-behaved for regular loudspeaker arrangements.
 It can also give good results with slightly irregular setups.
 However, it can become unstable with strongly irregular setups, i.e.,
 it can completely blow up the speaker feeds.
@@ -40,7 +40,7 @@ A conditioning number close to 0 dB is excellent.
 Values less than 10 dB are usually quite acceptable.
 With values higher than 20 dB, the decoding can become problematic (or dangerous).-->
 
-The regularized pseudo-inverse decoder or “regularized-mode-matching decoder” (RMMAD) is somehow similar to MMAD. However it uses a regularization factor for stabilization of the pseudo-inverse.
+The regularized pseudo-inverse decoder or “regularized-mode-matching decoder” (RMMAD) is somehow similar to MMAD. However, it uses a regularization factor for stabilization of the pseudo-inverse.
 This regularization factor (alpha) varies from 0% to 100%.
 A value of 0% provides results similar to MMAD.
 A value of 100% generates even energy distribution, i.e., results similar to EPAD.
@@ -71,23 +71,30 @@ Conversely, SAD might lose all energy where the loudspeaker spacing is large and
 AllRAD+ tries to solve this issue by combining (i.e., mixing) SAD and AllRAD.
 The loudness variation of AllRAD+ is competitive with EPAD and its angular mapping resembles AllRAD.
 
-<!--
 ## Transcoding types
 
-To improve the ambisonic render, there is some strategy that can be applied at the decoding stage. The idea is to optimize the phase or the energy to improve the sound localization.
+To improve the ambisonic render, there are some strategies that can be applied at the decoding stage. The idea is to optimize the phase or the energy to improve the sound localization.
+
 ### Basic
 
 This is the standard way to decode ambisonic, and no optimization is applied.
+
 ### InPhase
+
+The audio content will be optimized in phase for the all spectrum.
 
 ### MaxRe
 
-to be completed
+The energy of the audio content will be optimized, for the all spectrum. 
+
 ### BasicMaxRe
 
-The low end of the audio content is not optimized, but a MaxRe method is applied to the high end. The crossover frequency is by default set to 700 Hz and can be adjusted.
+The low end of the audio content is not optimized, but a MaxRe method is applied to the high end. The crossover frequency is by default set to 700 Hz.
+
+### MaxReInPhase
+
+The low end of the audio content is optimized in energy (MaxRe), but a in phase method is applied to the high end. The crossover frequency is by default set to 700 Hz.
 
 ### InPhaseMaxRe
 
 As phase optimization is more efficient in the low frequencies, and energy optimization is prominent in the high frequencies, this method takes this phenomenon to its advantage by splitting the signal in two frequency bands. The crossover frequency is by default set to 700 Hz and can be adjusted.
--->

@@ -4,11 +4,11 @@
 
 Sources’ modules are very important and quite unique ones. This is where the object-oriented mixing of SPAT Revolution takes in.
 
-Sources’ modules associated metadata to incoming audio stream. Because of their object-oriented nature, **they can only input and output channel-based stream**. In practice, this means you cannot patch, for example, an ambisonic stream to a room, even is the room in question is ambisonic itself. It first needs to be transcoded by using and input transcoder.
+Sources’ modules associated metadata to incoming audio streams. Because of their object-oriented nature, **they can only input and output channel-based streams**. In practice, this means you cannot patch, for example, an ambisonic stream to a room, even if the room in question is ambisonic itself. It first needs to be transcoded by using and input transcoder.
 
 The so-called metadata is the source parameters, such as position and reverberation information. All these parameters are explained in the section [Source properties](Spat_Environment_Source.md).
 
-One source can be connected to several rooms. This is one of the advantages of the object-based mixing, it allows to create different mixes in different format with the same exact information.
+One source can be connected to several rooms. This is one of the advantages of the object-based mixing: it allows to create different mixes in different formats with the same exact information.
 
 ### Name
 
@@ -20,9 +20,9 @@ Allows selecting the speaker arrangement used by the source. It can be selected 
 
 Multi-channel sources is one of the unique SPAT Revolution features.
 
-> If you struggle to understand why we talk about speakers at this stage, simply consider them as "virtual" speaker that will be emiting in a "virtual" room.
+> If you struggle to understand why we talk about speakers at this stage, simply consider them as "virtual" speaker that will be emitting in a "virtual" room.
 
-!> A source can and should only be channel based !
+!> A source can and should only be channel-based!
 
 ### Tracking
 
@@ -39,9 +39,10 @@ Change the input gain of the source.
 ### Levels
 
 Basic true peak metering for each block's channels.
+
 ## Room module
 
-If sources are where localization information is stored, rooms are where the "interpreting" happens. A room is defined by two main criteria : its output stream type and its reverberation. Simply, a room module look at all the information stored in sources and then act as a renderer for a given format.
+If sources are where localization information is stored, rooms are where the "interpreting" happens. A room is defined by two main criteria: its output stream type and its reverberation. Simply, a room module look at all the information stored in sources and then act as a renderer for a given format.
 
 It is a classic case of object-based mixing, where source modules associate metadata to channels, and room modules interpret them.
 
@@ -49,9 +50,11 @@ It is a classic case of object-based mixing, where source modules associate meta
 
 ![](include/SpatRevolution_UserGuide_-092.jpg)
 
-The first thing to notice is that we can add any number of rooms. In the screenshot above, two HOA 3D rooms are being used, each with differently designed acoustics. There is plenty of flexibility built into SPAT Revolution, in order to encompass different workflow ideas or experimental approaches. For example, the same virtual sources may be assigned into multiple rooms, with multiple end destinations. Or as in the screenshot above, virtual sources might exist in different spaces that get summed together.
+<!-- TODO: update the image -->
 
-!> _Multiple room is only available with the Ultimate license of SPAT Revolution_.
+The first thing to notice is that we can add any number of rooms (in Ultimate version only). In the screenshot above, two HOA 3D rooms are being used, each with differently designed acoustics. SPAT revolution offers flexibility, in order to encompass different workflow ideas or experimental approaches. For example, the same virtual sources may be assigned into multiple rooms, with multiple end destinations. Or as in the screenshot above, virtual sources might exist in different spaces that get summed together.
+
+!> _Multiple rooms are only available with the Ultimate license of SPAT Revolution_.
 
 ### Name
 
@@ -69,7 +72,7 @@ Allow selecting the rendering type and the associated options.
 + HOA
 + Binaural
 + MS
-+ B-Format 
++ B-Format (depreciated, please use HOA 1st order room connected to a master transcoder to transform it on B-Format standard)
 
 ### Tracking
 

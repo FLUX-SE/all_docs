@@ -4,7 +4,7 @@
 
 The whole mixing experience of Spat Revolution takes place in the 3D view. It is really simple to create a mix this way: simply grab a source and move it where you want it to be. But there are a few subtleties that are important to get right.
 
-The first important things to understand are that there are two main zones in the SPAT Revolution 3D view:
+The first important thing to understand is that there are two main zones in the SPAT Revolution 3D view:
 + One inside which you should put sound sources in (the efficiency zone).
 + One inside which you shouldn’t (the protection zone).
 
@@ -16,13 +16,17 @@ Depending on if you are working with a room using channel-based or not, or depen
 
 The protection zone is an area of the 3D space represented as a sphere around the listener head. On channel-based room, it is set up by default to fit the radius of the speaker arrangement. On non-channel based room (binaural or HOA), it is by default set to two meters.
 
-It is important to understand that we should not put a source inside this zone, as most of the pan law or spatialization strategy are incapable of creating the illusion that a sound source comes from in front of the speakers.
+It is important to understand that we should not put a source inside this zone, as most of the pan law or spatialization strategies are incapable of creating the illusion that a sound source comes from in front of the speakers.
 
 When a source is placed inside the protection zone, its distance will no more induce a drop of presence, meaning that the distance does not have any effect in this zone.
 
 As its name implies, the protection zone exists to prevent weird behavior when sources are placed inside itself. Thus, in this case, you will notice that the presence vector turn red. This should warn you that what you see may not be related to what you hear.
 
-Two behaviors can happen when a source is inside the protection zone. It can either be replaced at the top of the sphere or being looked at a constant azimuth. This behavior is set by the “**source over listener head**” parameter, which is on by default.
+Two behaviors can happen when a source is inside the protection zone: 
+- it can be replaced at the top of the sphere
+- it can be replaced being looked at a constant azimuth. 
+  
+This behavior is set by the “**source over listener head**” parameter, which is on by default.
 
 ## The presence of a source
 
@@ -52,7 +56,7 @@ By definition, the efficiency zone is where the virtual sound sources should be 
 Inside a channel-based room, the efficiency zone is defined by the speaker arrangement used in a room:
 + When using speaker setup that surrounds the listeners, the efficiency zone is a sphere (or circle in 2D), which spans from the border of the protection zone to the farthest distance you can put a source (100 m). A speaker array is considered as surround if the angle between the foremost left and right speakers is over 180°. For readability reasons, the efficiency zone is not drawn in this case. Only if its depth is set inferior to its maximum value (100 meters), the efficiency zone is drawn.
 
-+ When using a non-surrounding system (stereo, frontal line, etc.), the efficiency zone become a “piece of pie” and is displayed in the 3D view. Its width is defined by the angle between the foremost left and the foremost right speaker. The visualization of the efficiency zone should help to understand the limitation of these systems in terms of spatialization options. For instance, placing a source behind the listener head in stereo will never produce the effect of a source coming from behind.
++ When using a non-surrounding system (stereo, frontal line, etc.), the efficiency zone becomes a “piece of pie” and is displayed in the 3D view. Its width is defined by the angle between the foremost left and the foremost right speaker. The visualization of the efficiency zone should help to understand the limitation of these systems in terms of spatialization options. For instance, placing a source behind the listener head in stereo will never produce the effect of a source coming from behind.
 
 The range of the efficiency zone is set by the “depth” and “trunc” parameter. The first one sets the maximum and the second one the minimum of its span.
 
@@ -65,29 +69,29 @@ When a source is out of the efficiency zone, SPAT Revolution offers three behavi
 2. The source is muted
 3. It does nothing
 
-This option can be set in the room’s output section. Check out the “Room” section for more information on this matter.
+This option can be set in the room’s output section. Check out the [Room section](Spat_Environment_Room.md) for more information on this matter.
 
 > By default, the source is clamped to the border of the efficiency zone.
 
-Clamping the source to the efficiency zone help to keep coherent sound scene, while the "mute" mode help to create ins and outs effect. The mute only occurs in the actual room.
+Clamping the source to the efficiency zone helps to keep coherent sound scene, while the "mute" mode helps to create ins and outs effect. The mute only occurs in the actual room.
 
 > When in mute mode, a slight fade out is applied to avoid clicks. The length of the fade can be adjusting by making the source go faster or slower.
 
 Note that the preferred behavior are clamping or muting. **Clamping or muting will prevent an aberrant render in sound and localization.**
 
-The pictures below shown some key cases of clamping: 
+The pictures below shown some key cases of clamping, on non-surround systems: 
 
 ![](include/azimClamping.png)
 
-On non-surrounding systems, trying to escape the efficiency zone will result in the source being clamped to its foremost left or right.
+> On non-surrounding systems, trying to escape the efficiency zone will result in the source being clamped to its foremost left or right.
 
 ![](include/frontClamping.png)
 
-If a source is placed in front of the speakers, the source will be clamped to the front line they formed while preserving the azimuth angle.
+> If a source is placed in front of the speakers, the source will be clamped to the front line they formed while preserving the azimuth angle.
 
 ![](include/mirrorClamping.png)
 
-When a source is on the opposite side of a non-surround system, the projection of the virtual source will mirror the behavior of the actual source, thus, removing any jump or abrupt change in position of the source.
+> When a source is on the opposite side of a non-surround system, the projection of the virtual source will mirror the behavior of the actual source, thus, removing any jump or abrupt change in position of the source.
 
 ### Height clamping
 
@@ -101,12 +105,12 @@ When dealing with a 2D speaker array, there is no point at placing a source abov
 
 + **3D Speakers Array**
 
-Most of 3D speaker arrays has at least two plans of speakers. Such plans are defined by three non-align speakers sharing the same height (z). If a source is placed above the top plan, or below the bottom one, the source will be clamped to the closest plan. The clamping behavior, like with 2D speaker array, is shown with phantom sources that indicate the position used inside the DSP stage of Spat Revolution.
+Most 3D speaker arrays has at least two plans of speakers. Such plans are defined by three non-align speakers sharing the same height (z). If a source is placed above the top plan, or below the bottom one, the source will be clamped to the closest plan. The clamping behavior, like with 2D speaker array, is shown with phantom sources that indicate the position used inside the DSP stage of Spat Revolution.
 
 ![](include/3DView_TopChannels.png)
 
 ## Limit cases
 
 + Height clamping does not occur with distance-based pan law when using 3D speaker array. This prevents some jumps and aberrations in sound.
-+ When using 2D non-surrounding speaker array, efficiency and height clamping are tied together. If efficiency clamping is activated, SPAT Revolution automatically switches one the height clamping. On the contrary, if height clamping is turned off, then, so is the efficiency clamping.
++ When using a 2D non-surrounding speaker array, efficiency and height clamping are tied together. If efficiency clamping is activated, SPAT Revolution automatically switches one the height clamping. On the contrary, if height clamping is turned off, then, so is the efficiency clamping.
 + WFS is the only case where it can make sense to put virtual sources in front of the speakers, to take advantages of the focus zone. This zone and the associated behavior is detailed in the WFS section of this user guide.

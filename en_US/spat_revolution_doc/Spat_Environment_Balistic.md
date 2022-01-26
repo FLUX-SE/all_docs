@@ -7,6 +7,6 @@ Even if ears are the most valuable tool of a sound engineer, having a good and r
 In SPAT Revolution, we have three main features regarding this subject:
 + Vu-meters for each setup blocs.
 + Nebula for spatial audio visual feedback.
-+ Option to send audio to the FLUX:: Analyzer at many points of the signal path.
++ Option to send audio to the **FLUX:: Analyzer** at many points of the signal path.
 
 We will detail each one of them in the next section.

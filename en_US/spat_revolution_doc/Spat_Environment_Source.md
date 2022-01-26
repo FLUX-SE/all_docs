@@ -19,7 +19,7 @@ Every source in a room has its own set of variable parameters which define its s
 
 To edit the variables of a source in the _Source Parameter_ editor, you must first be inside a room. Select the source you want to edit from the list on the left side panel of the Room editor by left-clicking on its index number. Alternatively, grab its 'emitter' object in the 3D room visualization (or just one of them, if the source is a multichannel group). When you select a source, the _Source Parameter_ editor will pop up as a set of categorized groups with which you can alter the properties of the Virtual Source in the Room.
 
-The source parameters are ordered inside panels. Each panel can be minimized or expanded.
+The source's parameters are ordered inside panels. Each panel can be minimized or expanded.
 
 Additionally, a _right click_ on a Source Index number will bring up some further options, especially useful is the **Color** option, which allows you to set an identification color to a Source or Group.
 
@@ -27,7 +27,11 @@ Additionally, a _right click_ on a Source Index number will bring up some furthe
 
 !> Note that the source index is also used for OSC automation!
 
+The source's parameters are detailed on the next section, [Source Parameters](Spat_Environment_Source_Parameters.md).
+
+
 ## Basic interactions
+
 ### Reset to defaults
 
 A double-click on any Source Parameter dial will reset it to a SPAT default setting. The default setting of a parameter is indicated around a dial as a larger tick than the other tick marks. Additionally, a range is graphically indicated between the default setting and the current setting of a variable parameter.
@@ -53,28 +57,27 @@ It will be visualized as a group in its assigned channel based speaker arrangeme
 
 In the above screenshot, the red source consists of 5 channels arranged as a DTU 5.0 surround sound configuration.
 A multichannel cluster can be conveniently positioned and manipulated _as a single group_ which maintains its correct internal spatial positioning relationships but moves in relation to the absolute listener position in the Room (the Dummy Head).
-The dot at the center of each cluster, where each virtual “channel emitter” is attached is called the “BaryCentric” focus— In other words, a _relative_ listener position that the virtual source configuration remains focused on.
+The dot at the center of each cluster, where each virtual “channel emitter” is attached, is called the “BaryCentric” focus — In other words, a _relative_ listener position that the virtual source configuration remains focused on.
 
 
 These complex spatial positioning algorithms are computed and controlled in real time using SPAT Revolution’s advanced _Barycentric_ and relative direction source parameters.
-A group that may contain many elements can be transformed, scaled,
-moved and manipulated in complex ways, through only one set of controls.
+A group that may contain many elements can be transformed, scaled, moved and manipulated in complex ways, through only one set of controls.
 See dedicated section for a breakdown of the [**Source Parameters**](Spat_Environment_Source_Parameters.md).
 
 ### Multiple Source Selection
 
 You can shift click on the Index number of separate sources to create an ad hoc edit group. When you have group Sources in this way, you can perform a number of group edit actions. When you Right Click on an ad hoc group selection, a menu will pop up where you can:
 
-- distribute the sources in the group with the [Transform panel](6_Spat_Environment_6_6_Source_6_6_Source.md?id=sources-transformations)
+- distribute the sources in the group with the [Transform panel](Spat_Environment_Transformation.md)
 - generate different colors for the sources
 - reset the positions of the group
 
-When you have selected an ad hoc group using the shift click technique, you can then open the _Source Parameter_ panel by clicking on the property panel header 'fold arrow' as  shown in the screenshot below.
+When you have selected an ad hoc group using the shift click technique, you can then open the _[Source Parameter](Spat_Environment_Source_Parameters.md)_ panel by clicking on the property panel header 'fold arrow' as  shown in the screenshot below.
 
 ![](include/SpatRevolution_UserGuide_-166.jpg)
 <!-- TODO: update the image -->
 
-Any source parameter variables you adjust manually will assign that same setting on all selected sources in the group. A barycenter will then become practical to work from a center of mass perspective. For example, transformations like scaling, distance, rotation and directivity of the group is managed by SPAT controlling each member of the group a barycentric relationship. Consider referring to section [Barycentric groups](6_Spat_Environment_6_8_Barycentric_Groups_in_Rooms.md) about groups in rooms to read more about how they are represented.
+Any source parameter variable you adjust manually will assign that same setting on all selected sources in the group. A barycenter will then become practical to work from a center of mass perspective. For example, transformations like scaling, distance, rotation and directivity of the group is managed by SPAT controlling each member of the group a barycentric relationship.
 
 ### Smart Property Filter
 

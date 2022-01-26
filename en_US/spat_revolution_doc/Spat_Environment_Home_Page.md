@@ -8,7 +8,7 @@ This page is the welcome page of SPAT Revolution. Here you can create sessions, 
 
 ![](include/HomePage_Welcome.png)
 
-This simple box let you access to basic action of session management.
+This simple box lets you access to basic action of session management.
 
 ### Create Session
 
@@ -26,7 +26,7 @@ Let you open a session from a disk.
 
 ![](include/HomePage_Recent.png)
 
-This box list the latest open session in SPAT Revolution. You can open one by double-clicking on it.
+This box lists the latest open session in SPAT Revolution. You can open one by double-clicking on it.
 
 ## Resources
 
@@ -34,7 +34,7 @@ This box list the latest open session in SPAT Revolution. You can open one by do
 
 This box gives you direct access to many resources related to SPAT Revolution:
 - This documentation
-- DAW templates for using LAP
+- DAW templates for using LAP: Ableton Live, Apple Logic Pro X, Avid ProTools, Steinberg Nuendo, Merging Technologies Pyramix 
 - OSC templates, which include a lemur template and a QLab example session
-- Live console templates
-- Examples of various scripts 
+- Live console templates: S6L, Digico and SSL
+- Examples of various scripts

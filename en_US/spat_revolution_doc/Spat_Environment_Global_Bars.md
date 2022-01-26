@@ -4,6 +4,8 @@
 
 ![](include/SpatRevolution_UserGuide_-070.jpg)
 
+<!-- TODO: update the image -->
+
 The Navigation bar appears at the top of all views. As well as links to different editor views and to the preference, it also offers you the possibility to mute and unmute rooms.
 
 The status and help bars appear at the bottom of all views. It gives information about the status of audio connections, sample rate, block size and through latency. Some inline help also appears here when the mouse moves over elements of the SPAT graphical user interface. The _Provide feedback_ button sends a message directly to FLUX:: Immersive support which automatically includes your system information for our support team.
@@ -14,7 +16,7 @@ The status and help bars appear at the bottom of all views. It gives information
 
 <!-- TODO: update the image -->
 
-The status bar help you easily monitor many critical informations about your hardware and your incoming or outcoming audio stream.
+The status bar help you easily monitor many critical information about your hardware and your incoming or outgoing audio stream.
 
 ### Input stream
 
@@ -43,6 +45,7 @@ Here, you can choose which timecode SPAT Revolution should look at.
 ### Timecode
 
 Let you monitor the timecode seen by SPAT Revolution. For proper operation of snapshots and automations, it should be always running.
+
 ### Clock source
 
 Choose what clock SPAT should follow.

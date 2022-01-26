@@ -1,6 +1,6 @@
 # Setup Page
 
-This is where you will generally start a project by designing the signal-flow graph that you will be working with. _Setup_ is also where you manage the loading and saving of projects to disk.
+This is where you will generally start a project by designing the signal-flow graph that you will be working with. The _Setup page_ is also where you manage the loading and saving of projects to disk.
 
 !> Using the SPAT Revolution Essential license version all the setup modules are configured for you using the Setup Wizard. Adding, reorganizing, duplicating is not allowed. The only required and permitted part is to connect and disconnect Input or Output modules, being software or hardware I/O_
 
@@ -22,8 +22,6 @@ The _Environment Setup_ editor is a modular environment. The signal flow starts 
 
 Modules blocs are caracterized by their stream type. In spatial audio, audio streams can be of different natures, as seen in the [Spatialisation Technology]() section.
 
-> Blocs are limited to 64 channels I/O
-
 Stream types and their options are :
 + **Channel-based** : most common used bloc where one channel correspond to one speaker or one microphone.
   + Speaker arrangment : allow to select the channel configuration of the bloc.
@@ -31,7 +29,7 @@ Stream types and their options are :
   + **Order** : select the ambisonic order from 1 to 7.
   + **Dimension** : select between a 2D or 3D sound scene.
 + **A-Format** : pre-encoding ambisonic stream (raw ambisonic microphone output).
-+ **B-Format** : **deprecated, prefer a 3D HOA first order bloc.**.
++ **B-Format** : **deprecated, prefer a 3D HOA first order bloc.**
 + **UHJ** : special 3D first order ambisonic stream meant for archiving and stereo compatibility.
 + **MS** : Mid-side.
 + **Binaural** : headphone oriented render using HRTF.
@@ -39,11 +37,12 @@ Stream types and their options are :
 
 ## The graph editor
 
-The modular graph editor handle basic mouse editing.
+The modular graph editor handles basic mouse editing.
 
 ### Module selection
 
-Modules can be select by clicking on them. To select several ones, hold <code>Ctrl/Cmd</code> while clicking on additional modules. It is also possible to use a marquee selection by left clicking, holding the button, and draging the mouse over the modules you want to select.
+Modules can be select by clicking on them. To select several ones, hold <code>Ctrl/Cmd</code> while clicking on additional modules. It is also possible to use a marquee selection by left clicking, holding the button, and dragging the mouse over the modules you want to select.
+
 ### Drag & Drop
 
 The drag and drop feature allows an easy and ergonomic way to connect and reorganize modules in the setup page.
@@ -54,13 +53,13 @@ The drag and drop feature allows an easy and ergonomic way to connect and reorga
 
 <!-- TODO: update the image -->
 
-To create a connection  between two modules, simply drag one on the other. SPAT will  automatically connect the two modules. If it is necessary, SPAT will also create supplementary modules if needed. For example, if we drag and drop an input on a room, SPAT will automatically create a "source" block  between them.
+To create a connection between two modules, simply drag one on the other. SPAT will  automatically connect the two modules. If it is necessary, SPAT will also create supplementary modules if needed. For example, if we drag and drop an input on a room, SPAT will automatically create a "source" block  between them.
 
 ![drag&drop2](include/drag&drop2.gif)
 
 <!-- TODO: update the image -->
 
-This feature also works on a selection of multiple modules of the same type. For example, if we wished to connect 5 inputs to 1 output, we can select our inputs a drag them  on the output. All the input modules will be patched to a room block through sources, and the room is a patch to the output through a master block. (With the default stereo room that can be changed later.)
+This feature also works on a selection of multiple modules of the same type. For example, if we wished to connect 5 inputs to 1 output, we can select our inputs a drag them  on the output. All the input modules will be patched to a room block through sources, and the room is a patch to the output through a master block, with the default stereo room that can be changed later.
 
 ![drag&drop3](include/drag&drop3.gif)
 
@@ -79,9 +78,9 @@ In our effort to make SPAT Revolution easier to use, we created a small utility 
 
 To open it, you can either:
 
-- Click on the <code>Setup Wizard</code> button in the top menu of the Setup page
-- Go to the main menu, into setup, then "Setup Wizard"
-- Or, use <code>ALT + W</code> (The shortcut may not work in Windows)
+- Click on the <code>Setup Wizard</code> button in the top menu of the Setup page;
+- Go to the main menu, into setup, then "Setup Wizard";
+- Or, use <code>ALT + W</code> (the shortcut is not working in Windows).
 
 ![openWizard](include/openWizard.gif)
 
@@ -103,9 +102,9 @@ When we are done creating out different sources, we have two ways to validate th
 
 ## Action menu
 
-This menu handle basic operation of modules, like connecting, disconnecting and renamming. Some of these actions are contextual, and depend on the block, or the number of modules selected.
+This menu handles basic operation of modules, like connecting, disconnecting and renaming. Some of these actions are contextual, and depend on the block, or the number of modules selected.
 
-!> Note that there is no undo in SPAT Revolution. Think twice before operating and save regurlary.
+!> Note that there is no undo in SPAT Revolution. Think twice before operating and save regularly.
 
 ### Remove selected
 
@@ -122,7 +121,7 @@ Duplicate the selected modules.
 SPAT Revolution allows to quickly duplicate a room with a few options to help the user
 to optimize the routing process. To access this menu, simply click on the <code>Duplicate Selected</code> button, when only a room selected.
 
-The new pop-up windows allow to:
+The new pop-up windows allows to:
 * Rename the duplicated room
 * Choose if the sources routed to the original room are routed the new one, or duplicated, or nothing is patched.
 * Choose if the outputs of the original rooms are duplicated, mirrored or nothing is done to the duplicated room.
@@ -138,18 +137,18 @@ Connect selected modules. Modules can be connected to multiple destinations.
 
 ### Disconnect selected
 
-Disconnect **both** input and output of the selected modules.
+Disconnect **both** inputs and outputs of the selected modules.
 
 ### Disconnect selected inputs
 
-Disconnect input of selected modules.
+Disconnect connected inputs of selected modules.
 
 ### Disconnect selected Output
 
-Disconnect output of selected modules.
+Disconnect connected outputs of selected modules.
 ### Disconnect between selected 
 
-Disconnect the connection between selected modules.
+Disconnect the connections between selected modules.
 
 ## Routing Matrix
 
@@ -161,22 +160,13 @@ You will find it at many points throughout the **Environment Setup** graph.
 
 > *Avoid cable swapping on the loudspeaker setup, use software routing instead.*
 
-The routing matrix is available on hardware input and output for routing  as well as for remapping within some modules input and output.
-(Input transcoder, Master, and Master transcoder)
+The routing matrix is available on hardware input and output for routing as well as for remapping within some modules input and output: Input transcoder, Master, and Master transcoder.
 
 The speaker configuration editor, a clear channel labeling and the built-in routing matrix system all help to make the process of signal routing, checking and debugging more straightforward on location, in the virtual mix and in the studio.
 
 > The shortcut <code>Ctrl + click</code> will route one per one all the following channels.
 
-<!-- TODO: update the image -->
-
-Master transcoder and master matrix support summing, thus, one input can be connect to several output, or the opposite.
-
-
-
-
-
-
+Master transcoder and master matrix support summing, thus, one input can be connect to several outputs, or the opposite.
 
 
 
@@ -202,6 +192,3 @@ It is possible to connect some modules, such as input or source, to multiple des
 
 <!-- ![drag&drop4](include/drag&drop4.gif)-->
 <!-- TODO: update the image -->
-
-
-

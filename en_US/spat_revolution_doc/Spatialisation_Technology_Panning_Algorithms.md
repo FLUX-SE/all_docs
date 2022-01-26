@@ -1,23 +1,23 @@
 # Panning Algorithms
 
-There has been a lot of scientific and artistic work to discover new methods for the electronic reproduction of audio signals to achieve the sensory impression that sounds are positioned in the space between speakers, rather than only coming from a single speaker. One of the underlying mechanisms that makes it possible to position sounds or make it seem like sounds are moving around the listener, is conventionally referred to as _panning_.
+There has been a lot of scientific and artistic works to discover new methods for the electronic reproduction of audio signals to achieve the sensory impression that sounds are positioned in the space between speakers, rather than only coming from a single speaker. One of the underlying mechanisms that makes it possible to position sounds or make it seem like sounds are moving around the listener, is conventionally referred to as _panning_.
 
-Broadly speaking, panning is the result of an algorithm - sometimes called 'the panning law' - that is used to calculate the amplitudes of signals sent to two or more identical loudspeakers (or virtual sources) arranged in a particular spatial configuration. In stereo - which we could say is the lowest resolution of speaker array - a simple panning algorithm can make the sound of a voice, for example, seem to be placed in the air between two speakers - as if there were an invisible speaker there. This illusion works up to a point, and breaks down if the speakers are too far apart. With only two speakers in the system, the panning law is a simple graph which has become quite standardised over the years. Things get more complicated when panning over 2D or 3D speaker setups and methods for spatialising on multichannel systems are not really standardised yet. Many algorithms and standards have been advanced by the audio engineering industry, composers and
+Broadly speaking, panning is the result of an algorithm - sometimes called 'the panning law' - that is used to calculate the amplitudes of signals sent to two or more identical loudspeakers (or virtual sources) arranged in a particular spatial configuration. In stereo - which we could say is the lowest resolution of speaker array - a simple panning algorithm can make the sound of a voice, for example, seem to be placed in the air between two speakers - as if there were an invisible speaker there. This illusion works up to a point, and breaks down if the speakers are too far apart. With only two speakers in the system, the panning law is a simple graph which has become quite standardised over the years. Things get more complicated when panning over 2D or 3D speaker setups and methods for spatializing on multichannel systems are not really standardised yet. Many algorithms and standards have been advanced by the audio engineering industry, composers and
 academics.
 
 Essentially, when we start working with multiple speakers in different configurations, things get more complex for the panning algorithms - goals have also expanded over time, with spatial sound design able to reach beyond simple point source panning into fully immersive audio experiences that can be hyper-realistic or totally synthesised. Many practitioners will have their preferred methods, but really it is up to the spatial sound designer to choose methods that seems to give the best experience for the listener on any given type of setup. There's never been just one way to spatialise sound. And with a powerful system like Spat Revolution, panning methods can even be combined in novel ways to achieve high quality immersive audio experiences.
 
 
-**Spat Revolution lets you explore some of the most advanced
-panning algorithms for surround, immersive 3D or ad-hoc
-sound systems.**
+**SPAT Revolution lets you explore some of the most advanced panning algorithms for surround, immersive 3D or ad-hoc sound systems.**
 
-In SPAT, you will be able to explore some of the best panning algorithms for multispeaker setups. You can apply them in realtime and identify their characteristic differences by ear. Trying them out in realtime on a setup will help you select the panning algorithm that is best suited for your particular project and material.
+In SPAT Revolution, you will be able to explore some of the best panning algorithms for multispeakers setups. You can apply them in realtime and identify their characteristic differences by ear. Trying them out in realtime on a setup will help you select the panning algorithm that is best suited for your particular project and material.
 
 Although there are technical aspects to be interested in and aware of, you are still invited to be creative and use your ears when deciding which are the right panning types for your project and intended audience.
 
-> ★ Try using more than one Spat Room to use different panning
-algorithms for sound material that has different sonic qualities.
+> ★ Try using more than one Spat Room to use different panning algorithms for sound material that has different sonic qualities (Ultimated only).
+
+
+> Some academic papers about some following panning laws could be found here [on the online SPAT Revolution knowledge base](https://www.flux.audio/knowledge-base/panning-types/).
 
 ## Stereo-exclusive Panning Laws
 
@@ -36,9 +36,7 @@ These two Panning Types will only become available when a _Virtual Room_ is set 
 
 **XY Panning** simulates the recording of the sound scene by a pair of microphones in a XY coincident configuration.
 
-> ★ The aim is to get the same stereo flavor as these dual microphone
-> Tracking techniques. Try them on close miked sources or any mono.
-> Source, to get a realistic stereo image.
+> ★ The aim is to get the same stereo flavor as these dual microphone tracking techniques. Try them on close miked sources or any mono. Source, to get a realistic stereo image.
 
 ## Vector Base Amplitude panning (VBAP)
 
@@ -91,9 +89,9 @@ The dependencies mentioned in the VBAP section also apply to Dual Band Vector Ba
 
 ## Layer based amplitude panning (LBAP)
 
-Layer based amplitude panning can be explain as multiple 2D VBAP layers: The speaker setup is split into several layers, depending on the speaker elevation. The panning used between speakers on the same layer is the VBAP 2D. Between these layers, a crossfade is applied between the two nearest layers.
+Layer based amplitude panning can be explained as multiple 2D VBAP layers: The speaker setup is split into several layers, depending on the speaker elevation. The panning used between speakers on the same layer is the VBAP 2D. Between these layers, a crossfade is applied between the two nearest layers.
 
-The difference between VBAP 3D and LBAP is the number of speakers which will be actived between the layers: three in VBAP versus four in LBAP.
+The difference between VBAP 3D and LBAP is the number of speakers which will be active between the layers: three in VBAP versus four in LBAP.
 
 ## Distance Base Angular panning (DBAP)
 
@@ -113,13 +111,13 @@ DBAP localizes sounds towards arbitrarily positioned speakers in a space using a
 
 ## K Nearest Neighbor (KNN)
 
-KNN is another panning type that does not depend on a sweet spot to be perceived correctly. It is a version of a 'Nearest-neighbor' interpolation algorithm. This family of algorithms are also used in the fields of complex systems, 3D graphics and network science to name a few. In SPAT Revolution you can sonically explore a network of loudspeakers using this panning type and some virtual sound sources.
+KNN is another panning type that does not depend on a sweet spot to be perceived correctly. It is a version of a 'Nearest-neighbor' interpolation algorithm. This family of algorithms are also used in the fields of complex systems, 3D graphics and network science to name a few. In SPAT Revolution, you can sonically explore a network of loudspeakers using this panning type and some virtual sound sources.
 
 **How Does It Work?**
 
 An interesting parameter of KNN is that the user gets manual control over one of the main coefficients in the underlying algorithm. The parameter is called _Nearest Neighbor Spreading_. It sets a maximum limit to the number of speakers that the algorithm can use as neighbors - the parameter becomes available as a continuously variable percentage _for each virtual source_ in a SPAT room.
 
-![](../include/SpatRevolution_UserGuide_-064.jpg)
+![](include/SpatRevolution_UserGuide_-064.jpg)
 
 What makes this particularly interesting is that different sources can activate less or more of the sound system dynamically and in a very smooth way. For example, one virtual sound source might seem to pop in and out of individual speakers because its _Nearest Neighbors Spread_ parameter is set a low percentage. For example, on a 10-speaker arrangement :1-10% will use 1 speaker, 11% to 20% 2 and so on. Another sound source could seem diffuse over the entire sound system, because its spread variable is set to 100%.
 
@@ -129,17 +127,16 @@ What makes this particularly interesting is that different sources can activate 
 
 !> SPCAP is only available in the Ultimate version of _SPAT Revolution_.
 
-SPCAP is a 3D panning algorithm which takes its inspiration from VBAP. SPCAP selects not just 2 or 3, but any number of speakers to render a virtual source and weights signal gains according to how much each selected speaker is actually contributing to the overall power output of the speaker configuration. Using this method SPCAP guarantees conservation of loudspeakers power output across any speaker arrangement. Its strengths lie in the down-mixing and up-mixing of virtual scenes from very different channel-based speaker arrangements, and of being able to render wider sound sources by using more speakers in a smart way.
+SPCAP is a 3D panning algorithm which takes its inspiration from VBAP. SPCAP selects not just 2 or 3, but any number of speakers to render a virtual source and weights signal gains according to how much each selected speaker is actually contributing to the overall power output of the speaker configuration. Using this method SPCAP guarantees conservation of loudspeakers power output across any speaker arrangement. Its strengths lie in the down-mixing and up-mixing of virtual scenes from very different channel-based speaker arrangements, and in being able to render wider sound sources by using more speakers in a smart way.
 
 **How Does It Work?**
 
 The result will still be sweet-spot dependent although it will be a wider listening area. SPCAP inherits some of the dependencies of VBAP to get successful spatial imaging.
 
 1. Speakers must be placed _around_ the listening position.
-2. 2D speakers should be on the same horizontal plane as the ears
+2. 2D speakers should be on the same horizontal plane as the ears.
 
-> ★ SPCAP panning can do a good job of translating surround audio
-mixes from one speaker configuration to another.
+> ★ SPCAP panning can do a good job of translating surround audio mixes from one speaker configuration to another.
 
 ## Ambisonic Equivalent Panning (AEP)
 
@@ -167,8 +164,6 @@ These are legacy 2D pan pot laws from the original IRCAM Spat library. They only
 **How Does It Work?**
 
 Angular and PanR are pairwise amplitude panning essentially the same as VBAP 2D described on the next page. There is a subtle difference, however, in the way the panning law changes when moving the source from one speaker to another.
-
-![](include/SpatRevolution_UserGuide_-066.jpg)
 
 ## Continuous Surround Panning (CSP)
 

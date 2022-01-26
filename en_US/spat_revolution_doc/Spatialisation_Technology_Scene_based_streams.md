@@ -21,7 +21,7 @@ When Ambisonics is played back on speakers, all the speakers contribute to the d
 
 ## Order
 
-Ambisonics is a technology that encodes sound sources along with full-sphere positional information, as complex interleaved audio files that need decoding before they can be listened to on speakers. The lowest order and the simplest form of 3D Ambisonics require 4 channels, conventionally named as:
+Ambisonics is a technology that encodes sound sources along with full-sphere positional information, as complex interleaved audio files that need decoding before they can be listened to on speakers. The lowest order, order 1, and the simplest form of 3D Ambisonics require 4 channels, conventionally named as:
 
 - **W** (mono sum)
 - **X** (X-axis information)
@@ -67,11 +67,11 @@ Different normalizations exist also with ambisonics. This normalization defines 
 - FuMa: Furse-Malham normalization.
 
 To help with these different standards, we have created Ambisonics presets to simplify the use of it. These setups the normalization and sorting with common standards:
-- AmbiX: used for example by Youtube and Facebook 360. The normalization is SN2D  /SN3D and the sorting ACN.
+- AmbiX: used for example by Youtube and Facebook 360. The normalization is SN2D / SN3D and the sorting ACN.
 - B-Format: the normalization is Fuma, and the sorting FMH.
 - SPAT Room: the normalization is N2D / N3D and the sorting ACN.
 
-!> Do not forget to transcode the ambisonic input if the format is different than N2D/N3D and ACN.
+!> Do not forget to transcode the ambisonic input if the format is different from N2D/N3D and ACN.
 
 ## A-Format
 

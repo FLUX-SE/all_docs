@@ -10,7 +10,7 @@ To this end, you will find a large library of standard and specialized speaker a
 
 Speaker arrangements can be used to fit the format of a virtual room to match the actual speaker system being used to diffuse the mix in a real room. Channel-based speaker configurations are used to define a multi-channel source arrangement, a room speaker source arrangement, and can also be used in the transcoding phase of sound fields.
 
-The golden rule when working with multi-channel based audio is to ensure to have the appropriate format, speaker arrangement, and channel routing throughout, otherwise the virtual space will not map correctly into a physical space.
+The golden rule when working with multi-channels based audio is to ensure to have the appropriate format, speaker arrangement, and channel routing throughout, otherwise the virtual space will not map correctly into a physical space.
 
 !> *Pay attention to arrangements and channel routing, they are the key!*
 
@@ -18,13 +18,13 @@ The golden rule when working with multi-channel based audio is to ensure to have
 
 ![width=700, atl=Spat Revolution Speaker Position](include/SpatRevolution_UserGuide_-039.jpg)
 
-While there are many standardized speaker array, such as Dolby Surround, Atmos, Auro 3D, DTS, Quad or even stereo, in many cases we are confronted to very specific speaker positioning.
+While there are many standardized speaker array, such as Dolby Surround, Atmos, Auro 3D, DTS, Quad or even stereo, we are in many cases confronted to a very specific speaker positioning.
 
 For such use case, it is possible to create custom speaker arrangements. Using a well-defined custom speaker arrangement will improve the sound stage and the overall impression of immersion of the audience. We always highly recommend taking the time to measure the position of the speakers of your system and to input them in SPAT Revolution.
 
 We also create a powerful automatic speaker alignment tool that aligns, in time and in level, all the speakers of the arrangement on the furthest away one. These "virtual" positions are used by SPAT Revolution to process the sound stage through pan law. Please, check the [Speaker Arrangement Editor](Spat_Environment_Speaker_Arrangement_Editor.md) section for more information. 
 
-To make this task as easy as possible, SPAT Revolution support both Cartesian and spherical coordinate system and can also import speaker configurations from third-party software, such as NS-1, Blueprint or ArrayCal. Please, check the [Import Speaker Array](Spat_Environment_Speaker_Arrangement_Editor.md) section for more information.
+To make this task as easy as possible, SPAT Revolution supports both Cartesian and spherical coordinate system and can also import speaker configurations from third-party software, such as NS-1, Blueprint or ArrayCal.
 
 ## Understanding when a speaker arrangement, or a sound scene, is 2D or 3D
 
@@ -36,7 +36,7 @@ The rule of thumb is to think in plan and not in absolute height. If speakers ar
 
 When going on the road with a show, the idea of SPAT Revolution is to always keep the same session, which stores our input routing, our mixing metadata and all of our snapshots. But in such use case, each time the venue changes, the speaker arrangement changes too and its size (or diameter) will much likely be different each time.
 
-Because we use absolute instead of relative positions, we solve this common use case by using an automatic scaling process. 
+As we use absolute, we solve this common use case by using an automatic scaling process. 
 
 If you change the speaker arrangement of a room where you already routed some sources, the global sound scene could be scaled to the new speaker arrangement.
 
@@ -46,9 +46,10 @@ For example, if you first created your session with a speaker arrangement with a
 
 ## Speaker arrangements examples
 
-Here is some example of speaker configuration you can find in some venue, like RadioFrance Studio 115, Montreal Satosphere, or Berlin Planetarium. To discover it into SPAT Revolution, copy the python file on your desktop: **[Speaker arrangements for various domes and planetariums](https://public.3.basecamp.com/p/pPtg3qFrUsxyPPmQ3b3JLPqW)**.
+Here are some examples of speaker configurations you can find in some venue, like RadioFrance Studio 115, Montreal Satosphere, or Berlin Planetarium. To discover it into SPAT Revolution, copy the python file on your desktop: **[Speaker arrangements for various domes and planetariums](https://public.3.basecamp.com/p/pPtg3qFrUsxyPPmQ3b3JLPqW)**.
 
 ## Speaker Arrangement Python File
 
+Write the speaker arrangement on a python file provides the erasing of the data. It is recommended to do so on fixed installation, or if you really don't want to lose the speaker arrangement data. 
 If you want to build your own custom speaker arrangement script, explanations are provided into the following python file:
 **[Custom Speaker Arrangement Script](https://public.3.basecamp.com/p/rQStK3igPkaXisYS4Gs5sJ2g)**.

@@ -33,10 +33,10 @@ If this option is switched in, then the messages will be of the pattern
 
 where <code>i</code> is an integer denoting the index of the target, and <code>f</code> according to convention is a float denoting the values of the message.
 
-For more details about the SPAT OSC dictionary and its usage syntax please refer to [Appendix C](Appendix_C_OSC_Table.md).
+For more details about the SPAT Revolution OSC dictionary and its usage syntax please refer to [Appendix C](Appendix_C_OSC_Table.md).
 
-The **output rate** allows changing how fast the engine react to OSC messages.
-The lower the value is, the more reactive Spat Revolution will be, but it will also increase the stress on the CPU.
+The **output rate** allows changing how fast the engine will send OSC messages.
+The lower the value is, the more SPAT Revolution will send OSC message and the remote will display the changes, but it will also increase the stress on the CPU.
 If you experienced some CPU overload when moving sources through OSC command, you can try to increase the value (Ultimate only).
 By default, it is set to 5.0 ms.
 

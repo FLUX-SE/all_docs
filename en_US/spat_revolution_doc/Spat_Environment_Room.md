@@ -4,7 +4,7 @@
 
 In SPAT Revolution, spatialization of virtual sources takes places inside _Rooms_. To enter a room and open its graphic editor environment, double-click on a room module in the Setup graph, or select a room tab from the Navigation bar.
 
-When we enter a Room, we will see the 3D view and all the connected sources. Option related to the 3D view display are localted in top menu. On the left side panel of the room editor, you get a list representation of each source with its index identification number. We can click on the Index number of each source, and the _[source parameters](6_Spat_Environment_6_6_Source_6_6_Source?id=source-parameters.md)_ editor for that virtual source will appear.
+When we enter a Room, we will see the 3D view and all the connected sources. Option related to the 3D view display are located in top menu. On the left side panel of the room editor, you get a list representation of each source with its index identification number. We can click on the Index number of each source, and the _[source parameters](6_Spat_Environment_6_6_Source_6_6_Source?id=source-parameters.md)_ editor for that virtual source will appear.
 
 ![](include/SpatRevolution_UserGuide_-094.jpg)
 
@@ -22,67 +22,67 @@ Along with the audio modeling engine, one of SPAT's key features is its ability 
 
 ## Top bar menu
 
-This menu allows to change what elements and how they are displayed in the 3D view.
+This menu allows changing what elements and how they are displayed in the 3D view.
 
-**Presence Infos :**
+**Presence Infos:**
 
 Display the presence factor as a green vector. The brighter it is, the more present the source is. When off, green vector is no more drawn.
 
-**Real Pos. Infos :**
+**Real Pos. Infos:**
 
-In some very specific cases, the position of source in the DSP may be different that the one you setted up. When on, the DSP position is also displayed.
+In some very specific cases, the position of source in the DSP may be different that the one you set up. When on, the DSP position is also displayed.
 
 > To understand better what these two first options do, consult the "[Understanding the mixing zones](Spat_Environment_Understanding_the_3D_View.md)" section.
 
-**Source Infos :**
+**Source Infos:**
 
 Display the name of source even if it is not selected.
 
-**Speaker Infos :**
+**Speaker Infos:**
 
 Display the name of the speakers.
 
-**Scale :**
+**Scale:**
 
 Make the elements bigger of smaller for adjust ease of sight.
 
-**Shinniness :**
+**Shinniness:**
 
-Change the shinniness aspect of the graphical elements.
+Change the shininess aspect of the graphical elements.
 
-**Lightness :**
+**Lightness:**
 
 Change the brightness of the graphical elements.
 
-**Nebula Alpha :**
+**Nebula Alpha:**
 
-Change the transparancy of the Nebula spectral analyzer.
+Change the transparency of the Nebula spectral analyzer.
 
 > When set to 0%, Nebula does not take any ressources at all.
 
 Consult the "[Nebula Spatial Spectrogram](Spat_Environment_Nebula.md)" section for more information.
 
-**Speaker Alpha :**
+**Speaker Alpha:**
 
-Change the transparancy of the speakers.
+Change the transparency of the speakers.
 
-**Listener Alpha :**
+**Listener Alpha:**
 
-Change the transparancy of the listener head.
+Change the transparency of the listener head.
 
-**Grid type :**
+**Grid type:**
 
 Toggle between polar or cartesian grids.
 
-**Display Output :**
+**Display Output:**
 
-Allows to display another room or setup modules. This is usefull if you want to see the decoding of an ambisonic stream inside an ambisonic room for example.
+Allows to display another room or setup modules. This is useful if you want to see the decoding of an ambisonic stream inside an ambisonic room for example.
 
-**Background color :**
+**Background color:**
 
 Change the background color.
 
-**View :**
+**View:**
 
 Choose if the 3D view is seen from:
 + The top
@@ -101,10 +101,10 @@ For example, working in an HOA room create 3D view that does not show any speake
 
 <!-- TODO: add the image -->
 
-This panel list all the speakers used in the room (when set to channel based). It allows quick access to the speaker arrangement editor and to the compute function.
-Each output has a "test" button that sends the signal from the signal generator directly the routed speaker. The signal generator type and level are set in the _Preferences_ page.
+This panel lists all the speakers used in the room (when set to channel based). It allows quick access to the speaker arrangement editor and to the compute function.
+Each output has a "test" button that sends the signal from the signal generator directly the routed speaker. The signal generator type and level are set in the _[Preferences page](Application_Preferences.md)_.
 
-!> Be careful, the generator is post mute and post gain
+!> Be careful, the generator is post mute and post gain.
 
 ### Listener
 
@@ -128,7 +128,7 @@ Note that the protection zone is attached to the listener position.
 
 This panel contains options related to the efficiency zone.
 
-+ Clamping behavior option (consult the "Understanding the 3D view" section for more information)
++ Clamping behavior option (consult the [Understanding the 3D view](Spat_Environment_Understanding_the_3D_View.md) section for more information)
 + Depth - change the depth of the efficiency zone
 + Trunc (available only for non-surrounding 2D speakers' setup) - change the starting distance of the efficiency zone
 
@@ -140,7 +140,7 @@ This panel contains options related to the efficiency zone.
 
 #### Distance
 
-This parameter scale all the distance automation (OSC, plugins data and snapshots) by a manual factor. This factor is adapted automatically when editing the arrangement of the room.
+This parameter scales all the distance automation (OSC, plugins data and snapshots) by a manual factor. This factor is adapted automatically when editing the arrangement of the room.
 
 #### Tracking
 

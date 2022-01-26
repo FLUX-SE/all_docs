@@ -1,5 +1,4 @@
-<!-- 
-TODO : ESSENTIAL preferences
+<!--
 TODO : Add photos
 -->
 # Application preference
@@ -192,7 +191,7 @@ Define the coordinate mode of drop factor for all the sources. See the source pa
 
 ## Compute LFE
 
-When on, computing will affect LFEs as a standart speaker, affecting the delay and gain of it.
+When on, computing will affect LFEs as a standard speaker, affecting the delay and gain of it.
 
 ## Signal Generator
 
@@ -226,6 +225,6 @@ Define the number of CPU cores used by the engine.
 Define how the CPU resources are spread among the cores available. In _Max Distribution_ mode, the CPU resources are evenly spread among the available cores.
 In _Favor First Core_, the engine will fill the CPU cores one by one. The _Balanced Distribution_ mode is a compromise between both.
 
-### Blacktrax RTTrPM - Ultimate only
+### BlackTrax RTTrPM - Ultimate only
 
 See the integration chapter about BlackTrax.
