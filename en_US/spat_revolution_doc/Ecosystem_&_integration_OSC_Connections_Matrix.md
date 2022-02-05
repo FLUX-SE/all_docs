@@ -66,7 +66,11 @@ For other configurations, we need to inform the IP of the targeted device.
 Lastly, the port number can be adjusted to a free one.
 If a "custom" preset is loaded, we most likely need to edit this parameter to establish a network connection.
 
-### OSC Transform
+If we want to deactivate an OSC socket without losing the parameters, it is possible to deactivate an OSC socket. To do this, click right on the OSC socket number and click on <code>Activate/Deactivate</code>, or shift-click on the OSC socket number. As it, the input or output will be deactivated.
+
+If we loose the sync between the remote and SPAT, it is also possible to dump all the project property on a particular socket. To do so, click right on the OSC socket number and click on <code>Dump project</code>.
+
+## OSC Transform
 
 Interfacing different devices and software in OSC can be problematic as each piece of equipment can have its own scale of value.
 To overcome these difficulties, some OSC transform presets have been implemented.
