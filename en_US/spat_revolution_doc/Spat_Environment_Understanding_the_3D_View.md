@@ -2,11 +2,11 @@
 
 ![](include/3DView.png)
 
-The whole mixing experience of Spat Revolution takes place in the 3D view. It is really simple to create a mix this way: simply grab a source and move it where you want it to be. But there are a few subtleties that are important to get right.
+The whole mixing experience of SPAT Revolution takes place in the 3D view. It is really simple to create a mix this way: simply grab a source and move it where you want it to be. But there are a few subtleties that are important to get right.
 
 The first important thing to understand is that there are two main zones in the SPAT Revolution 3D view:
-+ One inside which you should put sound sources in (the efficiency zone).
-+ One inside which you shouldn’t (the protection zone).
++ One inside which you should put sound sources in: the efficiency zone.
++ One inside which you shouldn’t: the protection zone.
 
 Depending on if you are working with a room using channel-based or not, or depending on the speaker arrangement used, these zones will have different shapes and usages that we will discuss below.
 
@@ -14,19 +14,20 @@ Depending on if you are working with a room using channel-based or not, or depen
 
 ![](include/3DView_ProtectionZone.png)
 
-The protection zone is an area of the 3D space represented as a sphere around the listener head. On channel-based room, it is set up by default to fit the radius of the speaker arrangement. On non-channel based room (binaural or HOA), it is by default set to two meters.
+The protection zone is an area of the 3D space represented as a sphere around the listener head. 
+It is important to understand that **we should not put a source inside this zone**, as most of the pan law or spatialization strategies are incapable of creating the illusion that a sound source comes from in front of the speakers.
 
-It is important to understand that we should not put a source inside this zone, as most of the pan law or spatialization strategies are incapable of creating the illusion that a sound source comes from in front of the speakers.
-
-When a source is placed inside the protection zone, its distance will no more induce a drop of presence, meaning that the distance does not have any effect in this zone.
+When a source is placed inside the protection zone, **its distance will no more induce a drop of presence**, meaning that the distance does not have any effect in this zone.
 
 As its name implies, the protection zone exists to prevent weird behavior when sources are placed inside itself. Thus, in this case, you will notice that the presence vector turn red. This should warn you that what you see may not be related to what you hear.
 
-Two behaviors can happen when a source is inside the protection zone: 
+This protection zone is automatically set to a 4 meters width for binaural, HOA or for the channel-based pre-configured and normalized arrangements. 4 meters matches the previous zone source radius of 2 meters and as well the default source distance of 2 meters. For custom speaker arrangements, **the protection zone is automatically defined to the furthest away speakers** and will be automatically adapted when selecting the new speaker arrangement.
+
+Two behaviors can happen when a source is inside the protection zone and when the room is configured for a 3D capable stream type/speaker arrangement:
 - it can be replaced at the top of the sphere
-- it can be replaced being looked at a constant azimuth. 
-  
-This behavior is set by the “**source over listener head**” parameter, which is on by default.
+- it can be replaced being looked at a constant azimuth.
+
+This behavior is set by the **Source over listener head** parameter, which is on by default. It is the legacy function where any source entering the zone follows the sphere of protection in elevation as it tries to enter. Thus, the source is processed at its elevated position. If disabled, the source will simply keep its elevation. In both cases, reaching the protection zone means the attenuation model based on the distance reaches its threshold.
 
 ## The presence of a source
 
@@ -40,9 +41,9 @@ Putting a source closer or further away from the protection zone will have the c
 
 The presence parameter directly affects the presence factor of the source.
 
-The drop factor defines the relation between the distance of the source and the protection zone and the loss of presence. It is set by default to follow the acoustic law of our world, where we lose 6 dB of presence each time we double the distance.
+The drop factor defines the relation between the loss of presence and the distance between the source and the protection zone. It is set by default to follow the acoustic law of our world, where we lose 6 dB of presence each time we double the distance.
 
-When “Presence infos” on the top bar of the 3D view is enabled, the overall presence of a source is displayed by a green vector, drawn between the source and the protection zone. The intensity of the green color is proportional to the presence factor. If the source is inside the protection zone, the vector will turn red and a small sphere of the same color will be drawn on the surface of the protection zone.
+When **Presence infos** on the top bar of the 3D view is enabled, the overall presence of a source is displayed by a green vector, drawn between the source and the protection zone. The intensity of the green color is proportional to the presence factor. If the source is inside the protection zone, the vector will turn red and a small sphere of the same color will be drawn on the surface of the protection zone.
 
 While a source is in the protection zone, there is no variation in presence.
 
@@ -52,15 +53,18 @@ While a source is in the protection zone, there is no variation in presence.
 
 <!--TO BE COMPLETED-->
 By definition, the efficiency zone is where the virtual sound sources should be localized.
+According to the speaker arrangement and coverage capacity, an efficiency zone is calculated for all channel-based panning types. It gets displayed on the 3D view as a grey shadow, and can be considered as a sage source position zone.
+
+One of the advantages of this mechanism is that it allows to change a speaker arrangements while providing a tool to manage the sources already positioned in the soundscape but that may be outside the zone.
 
 Inside a channel-based room, the efficiency zone is defined by the speaker arrangement used in a room:
-+ When using speaker setup that surrounds the listeners, the efficiency zone is a sphere (or circle in 2D), which spans from the border of the protection zone to the farthest distance you can put a source (100 m). A speaker array is considered as surround if the angle between the foremost left and right speakers is over 180°. For readability reasons, the efficiency zone is not drawn in this case. Only if its depth is set inferior to its maximum value (100 meters), the efficiency zone is drawn.
++ When using speaker setup that surrounds the listeners, the efficiency zone is a sphere (or circle in 2D), which spans from the border of the protection zone to the farthest distance you can put a source (100 m). A speaker array is considered as surround if the angle between the foremost left and right speakers is over 180°. For readability reasons, the efficiency zone is not drawn in this case, but will be if its depth is set inferior to its maximum value (100 meters).
 
 + When using a non-surrounding system (stereo, frontal line, etc.), the efficiency zone becomes a “piece of pie” and is displayed in the 3D view. Its width is defined by the angle between the foremost left and the foremost right speaker. The visualization of the efficiency zone should help to understand the limitation of these systems in terms of spatialization options. For instance, placing a source behind the listener head in stereo will never produce the effect of a source coming from behind.
 
-The range of the efficiency zone is set by the “depth” and “trunc” parameter. The first one sets the maximum and the second one the minimum of its span.
+The range of the efficiency zone is set by the “depth” parameter. It sets the maximum of its span. A use case for defining a maximum efficiency zone Depth in CLAMP mode is to limit the attenuation to the arc part of the zone.
 
-Inside a non-channel-based room, the efficiency zone is a sphere, because there is no speaker to constrain the diffusion area. Still, it can be edited with the same “depth” and “trunc” parameters for multi-room and creative applications. More information below.
+Inside a non-channel-based room, the efficiency zone is a sphere, because there is no speaker to constrain the diffusion area. Still, it can be edited with the same “depth” parameters for multi-room and creative applications. More information below.
 
 ### Behavior of sources outside the efficiency zone
 
@@ -69,7 +73,7 @@ When a source is out of the efficiency zone, SPAT Revolution offers three behavi
 2. The source is muted
 3. It does nothing
 
-This option can be set in the room’s output section. Check out the [Room section](Spat_Environment_Room.md) for more information on this matter.
+This option can be set in the room’s output section. Check out the [Room section](Spat_Environment_Room.md) for more information.
 
 > By default, the source is clamped to the border of the efficiency zone.
 
@@ -93,11 +97,15 @@ The pictures below shown some key cases of clamping, on non-surround systems:
 
 > When a source is on the opposite side of a non-surround system, the projection of the virtual source will mirror the behavior of the actual source, thus, removing any jump or abrupt change in position of the source.
 
+![](include/muteBehavior.png)
+
+> When a source is outside the efficiency zone and mute behavior is selected, the source is represented differently.
+
 ### Height clamping
 
 The height clamping helps to keep sources inside coherent space in regard of the speaker placement inside the room. It only happens with channel-based configurations.
 
-It can be activated by the *Source fit speakers elevation* parameter, in the room options. Height clamping works differently depending on if you are working with a 2D or 3D speaker array.
+It can be activated by the **Source fit speakers elevation** parameter, in the room options. Height clamping works differently depending on if you are working with a 2D or 3D speaker array.
 
 + **2D Speakers Array**
 
