@@ -28,8 +28,8 @@ All trademarks and the logos are copyright protected.
 ```
 FLUX:: SPAT Revolution is published by
 FLUX SOFTWARE ENGINEERING
-2, Rue de la Chasse
-45000 ORLEANS
+31, rue des Marais
+45130 Meung-sur-Loire
 R.C.S 431 616 770 ORLEANS
 ```
 
