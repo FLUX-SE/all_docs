@@ -114,7 +114,7 @@ This panel gives access to the listening point. We can change its position, usin
 
 <!-- TODO: add the image -->
 
-This panel controls the behavior and size of the protection zone. By default, it is set to a diameter of four meters. Please check out the section named "Understanding the 3D view" if you want more information about the protection zone.
+This panel controls the behavior and size of the protection zone. By default, it is set to a diameter of four meters. Please check out the section named [Understanding the mixing zone](Spat_Environment_Understanding_the_3D_View.md) if you want more information about the protection zone.
 Note that the protection zone is attached to the listener position.
 
 + Source fit speakers elevation
@@ -128,7 +128,7 @@ Note that the protection zone is attached to the listener position.
 
 This panel contains options related to the efficiency zone.
 
-+ Clamping behavior option (consult the [Understanding the 3D view](Spat_Environment_Understanding_the_3D_View.md) section for more information)
++ Clamping behavior option (consult the [Understanding the mixing zone](Spat_Environment_Understanding_the_3D_View.md) section for more information)
 + Depth - change the depth of the efficiency zone
 + Trunc (available only for non-surrounding 2D speakers' setup) - change the starting distance of the efficiency zone
 

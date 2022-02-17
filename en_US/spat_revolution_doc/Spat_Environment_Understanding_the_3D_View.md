@@ -1,4 +1,4 @@
-# Understanding the 3D View
+# Understanding the mixing zones
 
 ![](include/3DView.png)
 
@@ -101,24 +101,24 @@ The pictures below shown some key cases of clamping, on non-surround systems:
 
 > When a source is outside the efficiency zone and mute behavior is selected, the source is represented differently.
 
-### Height clamping
+### Elevation clamping
 
-The height clamping helps to keep sources inside coherent space in regard of the speaker placement inside the room. It only happens with channel-based configurations.
+The elevation clamping helps to keep sources inside coherent space in regard of the speaker placement inside the room. It only happens with channel-based configurations.
 
-It can be activated by the **Source fit speakers elevation** parameter, in the room options. Height clamping works differently depending on if you are working with a 2D or 3D speaker array.
+It can be activated by the **Source fit speakers elevation** parameter, in the room options. Elevation clamping works differently depending on if you are working with a 2D or 3D speaker array.
 
-+ **2D Speakers Array**
++ **2D Speaker Array**
 
 When dealing with a 2D speaker array, there is no point at placing a source above or below the horizontal plan. If you choose to do so, or use a 2D room to translate a 3D mix, you will see phantom sources that are the projection of each source on the horizontal plan. The position of the phantom source is used by the DSP to render the actual source position in the virtual space, but, it will preserve its actual presence factor.
 
-+ **3D Speakers Array**
++ **3D Speaker Array**
 
-Most 3D speaker arrays has at least two plans of speakers. Such plans are defined by three non-align speakers sharing the same height (z). If a source is placed above the top plan, or below the bottom one, the source will be clamped to the closest plan. The clamping behavior, like with 2D speaker array, is shown with phantom sources that indicate the position used inside the DSP stage of Spat Revolution.
+Most 3D speaker arrays has at least two plans of speakers. Such plans are defined by three non-align speakers sharing the same height (z). If a source elevation is above the speakers top one, or below the bottom one, the source will be clamped to the closest plan. The clamping behavior, like with 2D speaker array, is shown with phantom sources that indicate the position used inside the DSP stage of SPAT Revolution.
 
 ![](include/3DView_TopChannels.png)
 
 ## Limit cases
 
-+ Height clamping does not occur with distance-based pan law when using 3D speaker array. This prevents some jumps and aberrations in sound.
-+ When using a 2D non-surrounding speaker array, efficiency and height clamping are tied together. If efficiency clamping is activated, SPAT Revolution automatically switches one the height clamping. On the contrary, if height clamping is turned off, then, so is the efficiency clamping.
++ Elevation clamping does not occur with distance-based pan law when using 3D speaker array, except for the Z=0 plan. This prevents some jumps and aberrations in sound.
++ When using a 2D non-surrounding speaker array, efficiency and elevation clamping are tied together. If efficiency clamping is activated, SPAT Revolution automatically switches on the elevation clamping. On the contrary, if elevation clamping is turned off, then, so is the efficiency clamping.
 + WFS is the only case where it can make sense to put virtual sources in front of the speakers, to take advantages of the focus zone. This zone and the associated behavior is detailed in the WFS section of this user guide.

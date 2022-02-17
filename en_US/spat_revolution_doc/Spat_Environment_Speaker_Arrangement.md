@@ -48,7 +48,7 @@ For example, if you first created your session with a speaker arrangement with a
 
 Here are some examples of speaker configurations you can find in some venue, like RadioFrance Studio 115, Montreal Satosphere, or Berlin Planetarium. To discover it into SPAT Revolution, copy the python file on your desktop: **[Speaker arrangements for various domes and planetariums](https://public.3.basecamp.com/p/pPtg3qFrUsxyPPmQ3b3JLPqW)**.
 
-## Speaker Arrangement Python File
+## Speaker arrangement Python file
 
 Write the speaker arrangement on a python file provides the erasing of the data. It is recommended to do so on fixed installation, or if you really don't want to lose the speaker arrangement data. 
 If you want to build your own custom speaker arrangement script, explanations are provided into the following python file:

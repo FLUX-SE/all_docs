@@ -172,3 +172,29 @@ Angular and PanR are pairwise amplitude panning essentially the same as VBAP 2D 
 This Panning Type is available in _Virtual Room_ with 5.0 speakers arrangements. It optimizes the render into this arrangement, using circular harmonics. This leads to a continuous law, independently of the angle.
 
 You can find more explanation about it in the [relative paper](http://www.music.mcgill.ca/marlonschumacher/wp-content/uploads/IMWI/literature/Spat1/Craven-Continuous_surround_panning_for_5-speaker_reproduction.pdf).
+
+---
+
+## Related papers
+
+### VBAP 2D/3D (Vector Base Amplitude Panning)
+http://lib.tkk.fi/Diss/2001/isbn9512255324/article1.pdf
+
+“[…] Using the method, vector base amplitude panning (VBAP), it is possible to create two- or three-dimensional sound fields where any number of loudspeakers can be placed arbitrarily. The method produces virtual sound sources that are as sharp as is possible with current loudspeaker configuration and amplitude panning methods.”
+
+“[…] the approach enables the use of an unlimited number of loudspeakers in an arbitrary two- or three-dimensional placement around the listener. The loudspeakers are required to be nearly equidistant from the listener, and the listening room is assumed to be not very reverberant. Multiple moving or stationary sounds can be positioned in any direction in the sound field spanned by the loudspeaker.”
+
+### DBAP
+
+
+https://pdfs.semanticscholar.org/8fed/f0c12b58d4af2a94af6a817021ee812bf6a8.pdf
+
+“[…] Most common techniques for spatialization require the lis-tener to be positioned at a “sweet spot” surrounded by loud-speakers. For practical concert, stage, and installation appli-cations such layouts may not be desirable.  Distance-basedamplitude  panning  (DBAP)  offers  an  alternative  panning-based spatialization method where no assumptions are madeconcerning the layout of the speaker array nor the positionof the listener.”
+
+“[…] Distance-based amplitude panning (DBAP) is a matrix-based spatialization technique that takes the actual positions of the speakers in space as the point of departure while making no assumptions as to where the listeners are situated.   This  makes  DBAP  useful  for  a  number  of real-world  situations  such  as  concerts,  stage  productions, installations,  and  museum  sound  design  where  predefined geometric speaker layouts may not apply”
+
+### AEP 
+
+http://decoy.iki.fi/dsound/ambisonic/motherlode/source/ICMC08_AEP_paper.pdf
+
+“[…] A  further advantage of AEP is the possibility to use an arbitrary order of directivity for each individual sound source. It becomes possible to mix pre-recorded low order ambisonic B-format, medium order ambient sounds, high order precise localizable sound and sounds with changing localizability. How the individual sounds are perceived if different orders are used at the same time is an open question that  can be answered only by experience.”
