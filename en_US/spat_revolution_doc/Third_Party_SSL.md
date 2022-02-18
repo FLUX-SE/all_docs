@@ -55,6 +55,8 @@ The provided template has all these configurations done for you but you can deci
 
 ![Enable OSC](include/Digico_2.png) 
 
+<!-- TODO: update the image -->
+
 
 * In the OSC Connections section, use the pre-configured SSL Live OSC presets. 
   In the pull down menu, choose **input |SSL Live** and select the local IP address you are using to communicate with the desk. 
@@ -63,6 +65,8 @@ The provided template has all these configurations done for you but you can deci
   You will enter the desk IP address as found in the OSC settings. Ports # <code>9300</code> (Input) and <code>9301</code> (Output) are pre-configured.
 
 ![OSC Connections DiGiCo Presets](include/ssl_osc_communication.png)
+
+<!-- TODO: update the image -->
  
 
 ----

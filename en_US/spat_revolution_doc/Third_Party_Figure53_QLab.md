@@ -37,10 +37,14 @@ _In the Spat Revolution preferences make sure the OSC Enable is engaged._ (1)
 
 ![Setting the OSC Connection](include/SpatRevolution_UserGuide_-302.png ':size=600')
 
+<!-- TODO: update the image -->
+
 > ★(2) Enable commands log to view the commands and confirm you are receiving data (Shift + F7 will open the log window). It is not recommended leaving it active all the time as it takes some system resources. 
 
 **Setting the OSC Connection**
 ![Setting the OSC Connection](include/qlab_spat_osc_connections.png)
+
+<!-- TODO: update the image -->
 
 Go to the OSC connection section of Spat Revolution and:
 
@@ -58,7 +62,7 @@ Go to the OSC connection section of Spat Revolution and:
 On the QLab side, use the Network Patch settings to configure OSC destinations. 
 One of them can be SPAT.
 
-You can now send OSC network cues from QLab to Spat, and control **most if not all parameters** of this virtual environment using [Appendix C - OSC and ADM-OSC Table](Appendix_E_OSC_Table.md). 
+You can now send OSC network cues from QLab to Spat, and control **most if not all parameters** of this virtual environment using [Appendix C - OSC and ADM-OSC Table](Appendix_C_OSC_Table.md). 
 Once you get the hang of it, this is really very straightforward. 
 
 ![](include/qlab_spat_template.png)

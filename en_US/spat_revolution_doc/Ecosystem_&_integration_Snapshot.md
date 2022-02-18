@@ -7,7 +7,7 @@ It allows a complete transformation of the soundscape, with interpolation.
 
 !> To use snapshots, timecode needs to run in SPAT Revolution.
 
-Two ways to run the Timecode:
+Two ways to run the timecode:
 - if working with Hardware IO, an audio device must be selected into SPAT preferences.
 - if working with Local Audio Path, the DAW needs to play back and the SPAT session needs at least one send and one return connected together.
 
@@ -16,16 +16,20 @@ If timecode isn't running, the recall will fail.
 
 ![Timecode running](include/Sync.png)
 
+<!-- TODO: update the image -->
+
 Snapshots could be controlled by the dedicated menu, and with OSC messages.
 
 ![SPAT Revolution_snapshot_recall](include/SpatRevolution_snapshot_recall.gif)
+
+<!-- TODO: update the image -->
 
 ## Create a snapshot
 
 We can create a snapshot:
 - by using the "Create" action into the "Snapshots" menu.
 In this case, the snapshot will be added at the end of the list.
-The shortcut <code>Alt + Space</code> could also be used to capture a snapshot.
+The shortcut <code>Alt + Space</code> could also be used to capture a snapshot (currently note working on Windows).
 
 - by using the "Insert Before" action.
 This option is available only if another snapshot exists.
@@ -39,7 +43,7 @@ The snapshot will be inserted after the selected snapshot, and all the snapshots
 ## Recall a snapshot
 
 Recalling a snapshot will interpolate all the current properties with the stored values of the snapshot.
-Different options could alter the snapshot running:
+Different options located on the "Snapshots/option recall" menu could alter the snapshot running:
 
 - Recall time
 
@@ -67,15 +71,19 @@ The recall of each section could be separately activated.
 
 # Handle snapshots with OSC
 
-Different actions are available for handling snapshots with OSC messages:
+Different snapshots actions could be launched by OSC messages.
 
-- Create a snapshot: <code>/snapshot/create</code>
+> Like sources and rooms, the index could be part of the message (<code>/snapshot/3/update</code>), or send as an argument (<code>/snapshot/update, 3</code>). All the example below will use it as part of the message.
+
+> If the index is part of the message, it can be replaced by "next", "current" or "previous": <code>/snapshot/next/recall</code> will then recall the next snapshot on the list using the default options set it.
+
+- Create a snapshot: <code>/snapshot/create [*snapshot Name]</code>
 
 The snapshot name could be added in argument.
 
-- Recall a snapshot: <code>/snapshot/recall [index, *time, *Recall Effective Selection, *Recall Actual Selection] </code>
+- Recall a snapshot: <code>/snapshot/[index]/recall [*time, *Recall Effective Selection, *Recall Actual Selection, *Enable sources recall, *Enable rooms recall, *Enable masters recall] </code>
 
- _Index_: the snapshot index to recall. It can be replaced by the snapshot name.
+ _index_: the snapshot index to recall. Used as an argument, it can be replaced by the snapshot name.
 
  _Time_: optional, it will define the recall time. If not given, the default value is 0s.
 
@@ -83,10 +91,12 @@ The snapshot name could be added in argument.
 
  _Recall Actual Selection_: optional, if the value is <code>True</code>, only the parameters of selected sources' will be recalled. Else, all the sources will recalled (default behavior).
 
+_Enable sources recall, Enable rooms recall, Enable masters recal_: optional, enable to define if sources, rooms and masters parameters will be recalled. If not given, the default set value will be used. 
 
-- Update a snapshot: <code>/snapshot/update [index]</code>
 
-_Index_: the snapshot index to update.
+- Update a snapshot: <code>/snapshot/[index]/update </code>
+
+_index_: the snapshot index to update.
 It can be replaced by the snapshot name.
 
 - List all the snapshots: <code>/snapshot/list</code>
@@ -97,14 +107,14 @@ This will return the list of the snapshot, index and name.
 
 This will return the total number of snapshots.
 
-- Rename the snapshot: <code>/snapshot/rename [index, name]</code>
+- Rename the snapshot: <code>/snapshot/[index]/rename [name]</code>
 
-_Index_: the snapshot index to rename.
+_index_: the snapshot index to rename.
 _Name_: the new name of the snapshot.
 
-- Remove a snapshot: <code>/snapshot/remove [index]</code>
+- Remove a snapshot: <code>/snapshot/[index]/remove</code>
 
-_Index_: the snapshot index to remove.
+_index_: the snapshot index to remove.
 It can be replaced by the snapshot name.
 
 !> Be careful: there isn't any confirmation.
@@ -113,4 +123,12 @@ It can be replaced by the snapshot name.
 
 _State_: 0 will disable the recall of related objects, 1 will enable it.
 
+- Change the timing recall option:  <code>/snapshot/options/recall/timing [Timing]</code>
+
+_Timing_: Timing in seconds.
+
 <code>/snapshot/options/recall [State] [State] [State]</code> takes the three options (sources, rooms and masters)
+
+- Remove all the snapshots: <code>/snapshot/removeall</code>
+
+!> Be careful: there isn't any confirmation.

@@ -13,13 +13,17 @@ Templates can be found here
 
 ![Enable OSC](include/Digico_2.png) 
 
+<!-- TODO: update the image -->
+
 * In the OSC Connections section, use the pre-configured DiGiCo OSC presets. 
   In the pull down menu, choose **input | DiGiCo** and select the local IP address you are using to communicate with the desk. 
   Then, set a second OSC Connection for the output from SPAT Revolution to the desk. 
   In the pull down menu, choose **output | DiGiCo.** 
   You will then enter the desk IP address that we will see in the next steps. 
 
-![OSC Connections DiGiCo Presets](include/Digico_3.png) 
+![OSC Connections DiGiCo Presets](include/Digico_3.png)
+
+<!-- TODO: update the image -->
 
 ## Configuration and Templates
 

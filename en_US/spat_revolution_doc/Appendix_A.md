@@ -12,18 +12,19 @@ Plugins Compatibility.
 ## Processing
 
 SPAT Revolution—stand-alone software:
-unlimited number of Input and Output (hardware and audio interface dependent).
-32/64-bits internal floating-point processing.
-Sampling rates up to 384 kHz, buffer starting at 16 samples.
+- unlimited number of Input and Output (hardware and audio interface dependent).
+- 32/64-bits internal floating-point processing.
+- Sampling rates up to 384 kHz, buffer starting at 16 samples.
 
 ## OS Compatibility
 
 Windows 10, all in 64 bits only.
+
 macOS x (Intel)—All versions from 10.12 including macOS Big Sur compliance.
 
 ## Software Licence Requirements
 
-In order to use the software, an iLok.com user account is required. The iLok USB Smart Key is not required, authorisation can be made to hardware machines. Cloud session currently not supported.
+In order to use the software, an iLok.com user account is required. The iLok USB Smart Key is not required, authorisation can be made to hardware machines. Cloud session is not supported.
 
 ## Hardware Recommendations and requirements 
  
@@ -31,7 +32,7 @@ In order to use the software, an iLok.com user account is required. The iLok USB
 
 Single computer systems can provide a great option for portability but come with the importance of having a performing computer. As SPAT Revolution comes with a 3D graphic engine where audio objects are manipulated, GPU resources are required. 
 
-**Base system/Portable; **
+__Base system/Portable:__
 
 * Processing: Intel Core i9-9900K, i7-9700K or equivalent. Intel 8th generation or greater processor. (Minimum 6 cores - 8 preferred), 8 MB Cache.
 * System Memory: 16 minimum GB DDR4 (32 preferred when integrating with DAW and SPAT Revolution on the same machine with local audio path—LAP) 
@@ -44,7 +45,7 @@ Single computer systems can provide a great option for portability but come with
 > 
 >  Windows: If your computer has an ATi or Nvidia graphics card, please assure the latest graphic drivers from the ATi or Nvidia website are installed.
 
-#### Hardware for live productions (Dedicated SPAT Revolution Computer)**
+#### Hardware for live productions (Dedicated SPAT Revolution Computer)
  
 **Recommended audio interfaces:**
 

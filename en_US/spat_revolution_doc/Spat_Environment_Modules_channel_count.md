@@ -1,6 +1,6 @@
 # Modules Channel Count
 
-Into SPAT Revolution, modules are treated exactly the same whether there are mono or multi-channel; ambisonics, binaural or channel-based.
+Into SPAT Revolution, modules are treated exactly the same whether there are mono or multi-channel, ambisonics, binaural or channel-based.
 
 ## Mono Input
 
@@ -19,7 +19,7 @@ A two-channel audio stream will appear in the _Virtual Room_ as two mono sources
 - **Binaural / Transaural**
     Treated as encoded 3D stereo
 
-_!> Mid-Side (MS) and transaural are available only in the Ultimate license _SPAT Revolution_.
+!> Mid-Side (MS) and transaural are available only in the Ultimate license _SPAT Revolution_.
 
 ## Four Channel Input
 
@@ -35,13 +35,11 @@ something 'wide sounding.'
 
 ## Multi-Channel Based Input
 
-Any input module configured to represent a stream of multi-channel audio can be configured as a Speaker Arrangement format which would require that number of channels, as a minimum. For example, _DTU 7.1_ needs 8 channels, and _DTU 5.1_ needs 6. _Auro3D 13.1_ needs 14 channels. Unfortunately, things can get complicated in practice, as there are a few variations of standardised speaker layouts which have the same number of channels and seem very similar - but need disambiguation. This is important to get right, and will depend a lot on the context of your
-project and on changing standards in the audio industry. For example, at least four different 7.1 routing standards are to be found 'in the wild' and it’s important to know which one you are actually dealing with. Often, for example, the so-called low-frequency effects channel in cinema surround formats, is not always on the same channel.
+Any input module configured to represent a stream of multi-channel audio can be configured as a Speaker Arrangement format which would require that number of channels, as a minimum. For example, _DTU 7.1_ needs 8 channels, and _DTU 5.1_ needs 6. _Auro3D 13.1_ needs 14 channels. Unfortunately, things can get complicated in practice, as there are a few variations of standardised speaker layouts which have the same number of channels and seem very similar - but need disambiguation. This is important to get right, and will depend a lot on the context of your project and on changing standards in the audio industry. For example, at least four different 7.1 routing standards are to be found 'in the wild' and it’s important to know which one you are actually dealing with. Often, for example, the so-called low-frequency effects channel in cinema surround formats, is not always on the same channel.
 
-_!> Essential license of SPAT Revolution is limited to 12 channels.
+!> Essential license of SPAT Revolution is limited to 16 channels.
 
-> Try to stick to industry standard channel naming conventions
-throughout a cinematic surround sound project.
+> Try to stick to industry standard channel naming conventions throughout a cinematic surround sound project.
 
 
 

@@ -201,7 +201,7 @@ After running this action, you should be done at least at 95% of your configurat
 
 To receive audio from SPAT Revolution, simply create a track at the wanted format using **"Audio stream::insert track"**. Then, go back to the **"SPAT Revolution"** menu by right-clicking on the track we just created and choose **"Receive audio from SPAT Revolution on selected track"**.
 
-![receiveFromSpat.gif](includes/receiveFromSpat.gif)
+![receiveFromSpat.gif](include/receiveFromSpat.gif)
 
 You will find an option related to SPAT routing in the top bar menu, under **Extension>ReaVolution>When tracks are routed to SPAT**. 
 

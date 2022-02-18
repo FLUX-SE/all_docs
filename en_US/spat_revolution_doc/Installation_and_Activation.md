@@ -32,7 +32,7 @@ To activate licenses:
 
 FLUX:: uses the iLok license management system to deliver software licenses to users. If you don’t have an iLok account yet, please create a free iLok account at http://www.ilok.com and download the iLok license manager. SPAT Revolution Essential license comes with one (1) activation where the SPAT Revolution Ultimate Bundle includes two (2) activation linked to your user account. Having two activations gives you the possibility of a fixed license on one particular machine and a portable license on an iLok USB key if you own one. Other examples are for main and backup SPAT Engine running on a live production or In-studio and on-the-road scenarios.
 
-> Cloud license currently not supported
+> Cloud license is currently not supported.
 
 ## iLok License Manager
 *If you have redeemed your software license or completed your purchase process, your license will automatically be delivered into your iLok account*
@@ -49,10 +49,12 @@ Pressing on the sign in button will allow you to connect to your account. After 
 
 **Simply drag your license to your Local Computer or on an iLok USB key. You are now set!**
 
-> If you require further information about iLok and managing licenses please refer to iLok.com website
+> If you require further information about iLok and managing licenses please refer to iLok.com website.
 
 ## FLUX:: Center
 ![](include/SpatRevolution_FluxCenter_-017.png ':class=img-title')
+
+<!-- TODO: update the image -->
 
 Next step is to get the installers for the FLUX:: products you are licensed for. All the software and plugins from FLUX:: are available via our FLUX:: Center software. This is a Mac or Windows application we have created to help keep your FLUX:: products up to date and to give you a clear overview of what you have installed. Firstly, please visit the download section of the FLUX:: Website to get the installer for the [FLUX:: Center application.
 ](https://flux.audio/download/)
@@ -73,4 +75,4 @@ When you open FLUX:: Center you will see a page that lists all FLUX:: products a
 
 This preference page will allow you to choose various installation options such as preferred plug-in formats for your system. Choosing your format and returning to the main page by pressing the OK button will show all your install options for software and plugins based on the desired formats chosen.
 
-If you would like to be closer to the most current development cycles of the software, you can enable the Beta Versions option. This will give you access to a special set of software installers from the pull down menus on the main FLUX:: Center page. Beta versions are the new builds that are still under development but may contain useful bug fixes and new features. If you find that a beta version is not stable enough for you, then you can always roll back to a stable release version at any time through the FLUX:: Center installers. Note that these versions starts with a "B" where official releases start with a "V"
+If you would like to be closer to the most current development cycles of the software, you can enable the Beta Versions option. This will give you access to a special set of software installers from the pull down menus on the main FLUX:: Center page. Beta versions are the new builds that are still under development but may contain useful bug fixes and new features. If you find that a beta version is not stable enough for you, then you can always roll back to a stable release version at any time through the FLUX:: Center installers. Note that these versions starts with a "B" where official releases start with a "V".

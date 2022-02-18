@@ -10,7 +10,7 @@ Ambisonic is also both a recording and a spatial synthesis technique, where one 
 
 ## Encoded audio
 
-Ambisonic as opposed to other surround and spatial techniques and methods does not carry a speaker signal. It is an **encoded** audio signal that has to be **decoded** to the speaker signals. This encoding / decoding scheme has the advantage of being very portable and flexible since one is not bound to a specific speaker setup. i.e., you can have your ambisonic mix played on a number of speaker setups, for instance quad, headphones (binaural), 5.1, 6, 8, 7 speakers, etc. based on the chosen decoder.
+Ambisonic, as opposed to other surround and spatial techniques and methods does not carry a speaker signal. It is an **encoded** audio signal that has to be **decoded** to listen on speakers. This encoding / decoding scheme has the advantage of being very portable and flexible since one is not tied to a specific speaker setup. i.e., you can have your ambisonic mix played on a number of speaker setups, for instance quad, headphones (binaural), 5.1, 6, 8, 7 speakers, etc. based on the chosen decoder.
 
 When Ambisonics is played back on speakers, all the speakers contribute to the directional content, what one is hearing is not the sound coming from a specific speaker but from a specific direction.
 
@@ -21,11 +21,11 @@ When Ambisonics is played back on speakers, all the speakers contribute to the d
 
 ## Order
 
-Ambisonics is a technology that encodes sound sources along with full-sphere positional information, as complex interleaved audio files that need decoding before they can be listened to on speakers. The lowest order and the simplest form of 3D Ambisonics require 4 channels, conventionally named as:
+Ambisonics is a technology that encodes sound sources along with full-sphere positional information, as complex interleaved audio files that need decoding before they can be listened to on speakers. The lowest order, order 1, and the simplest form of 3D Ambisonics require 4 channels, conventionally named as:
 
 - **W** (mono sum)
-- **X** (X axis information)
-- **Y** (Y axis information)
+- **X** (X-axis information)
+- **Y** (Y-axis information)
 - **Z** (elevation information)
 
 The 4 channels or spherical components W, X, Y and Z can also be described as the pressure patterns found in an omni-microphone (W) and three figure-of-8 microphones for left/right (Y), front/back (X) and up/down (Z) as depicted in the above figure.
@@ -52,7 +52,7 @@ _Ambisonics_ can also be encoded without elevation - this is called 2D horizonta
 - 6th Order 2D -> 13 Channels
 - 7th Order 2D -> 15 Channels
 
-_!> Orders above the 3rd are only available with the Ultimate license of _SPAT Revolution_.
+!> Orders below the 1st and 3rd are only available for respectively sources and rooms with the Essential license of _SPAT Revolution_.
 
 ## Normalization, sorting and presets
 
@@ -67,11 +67,11 @@ Different normalizations exist also with ambisonics. This normalization defines 
 - FuMa: Furse-Malham normalization.
 
 To help with these different standards, we have created Ambisonics presets to simplify the use of it. These setups the normalization and sorting with common standards:
-- AmbiX: used for example by Youtube and Facebook 360. The normalization is SN2D  /SN3D and the sorting ACN.
+- AmbiX: used for example by Youtube and Facebook 360. The normalization is SN2D / SN3D and the sorting ACN.
 - B-Format: the normalization is Fuma, and the sorting FMH.
 - SPAT Room: the normalization is N2D / N3D and the sorting ACN.
 
-!> Do not forget to transcode the ambisonic input if the format is different than N2D/N3D and ACN.
+!> Do not forget to transcode the ambisonic input if the format is different from N2D/N3D and ACN.
 
 ## A-Format
 
