@@ -1,5 +1,14 @@
 # Source Parameters
 
+
+## Room specific gain
+
+<!-- TODO: add the image -->
+
+New on the 22.02 build, this parameter allows to trim the source gain on each room. A source can so have a different level for each room, which can be useful for monitor, musician headphone monitor, N-1, ...
+
+Only the parameter dedicated to the current room will be displayed, but it's possible to display all the specific gains using the filter and selecting "Room gain". 
+
 ## Perceptual Factors
 
 ![](include/SpatRevolution_UserGuide_-170.jpg)
@@ -123,11 +132,11 @@ The aperture parameter relates to the “sound cone” projected by the virtual 
 
 ![](../include/SpatRevolution_UserGuide_-180.jpg)
 
-This variable parameter will only be available when the room is a Channel Based Format which features an LFE speaker in its configuration, such as DTU7.1 / 5.1 / AURO and ATMOS for example.
+This panel will only be available when the room is a Channel-Based Format which features one or several LFE speakers in its configuration, such as DTU7.1 / 5.1 / 22.2, AURO and ATMOS for example.
 
-It will send an amount of the source into the dedicated LFE speaker channel of the output channel based configuration.
+It will send an amount of the source into the dedicated LFE speaker channels of the output channel based configuration.
 
-> Automate the LFE send for dynamic low frequency effects.
+> Automate the LFE sends for dynamic low frequency effects.
 
 ## Barycentric
 
@@ -181,6 +190,8 @@ Specifies the radius of a sphere or disc in meters, centered around the listener
 ### Spread Factor
 
 Spreading is a percentage factor that defines how a sound source will appear to spread out across speakers or virtual speakers. It is similar to _Aperture_ in its focusing effect but will translate differently across certain channel-based speaker arrangements according to how many speakers are involved.
+
+>! The spread factor is not available on binaural and WFS.
 
 ### Nearest Neighbors
 

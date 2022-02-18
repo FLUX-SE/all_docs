@@ -68,7 +68,7 @@ If a "custom" preset is loaded, we most likely need to edit this parameter to es
 
 If we want to deactivate an OSC socket without losing the parameters, it is possible to deactivate an OSC socket. To do this, click right on the OSC socket number and click on <code>Activate/Deactivate</code>, or shift-click on the OSC socket number. As it, the input or output will be deactivated.
 
-If we loose the sync between the remote and SPAT, it is also possible to dump all the project property on a particular socket. To do so, click right on the OSC socket number and click on <code>Dump project</code>.
+If we loose the sync between the remote and SPAT, it is also possible to dump all the project property on a particular socket. To do so, click right on the OSC socket number and click on <code>Dump project</code>. To note that the project is always dumped when the OSC socket is activated, and when the OSC IP address or port are changed. 
 
 ## OSC Transform
 

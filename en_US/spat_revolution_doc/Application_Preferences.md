@@ -72,7 +72,7 @@ The hardware IO panel allows choosing the audio interface that can be accessed b
 
 This menu allows selecting the audio interface. SPAT Revolution audio engine supports all devices compatible with ASIO (Windows) or CoreAudio (macOS).
 
->! **Note that you should select “none” when using the Local Audio Path connections.**
+>! **Note that you should select “None” when using the Local Audio Path connections.**
 
 SPAT Revolution audio engine also supports different input and output interfaces, on both macOS and Windows, for maximum flexibility.
 
@@ -135,7 +135,7 @@ Allows displaying the OSC messages in the application’s console.
 
 ### Dump on socket change
 
-Allow to dump all properties when a socket change, i.e. when the IP address or the port number has been edited. This ensures a constant synchronisation between any remote control and SPAT Revolution.
+Allow to dump all properties when a socket change, i.e. when the IP address or the port number has been edited, or the socket is enabled. This ensures a constant synchronisation between any remote control and SPAT Revolution.
 
 ### Output rate - Ultimate only
 
@@ -147,7 +147,7 @@ This button exports the OSC parameters to a text file.
 
 ## OSC Connections
 
-This panel allows creating OSC connection between SPAT Revolution and other devices, like tablets, phones, computers and many others. More information is available in the third party section.
+This panel allows creating OSC connection between SPAT Revolution and other devices, like tablets, phones, computers and many others. More information is available on the OSC section.
 
 ## HRTF
 

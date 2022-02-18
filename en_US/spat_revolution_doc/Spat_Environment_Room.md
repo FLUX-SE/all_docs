@@ -10,7 +10,7 @@ When we enter a Room, we will see the 3D view and all the connected sources. Opt
 
 Two special index items labeled as **(R) REVERB** and **(M) OUTPUT** appear fixed at the bottom of the left panel. By clicking on these, we then enter into two more parameter editors: one relating to the _[Artificial reverberation](8_Artificial_Reverberation_8_Artificial_Reverberation.md)_ and one relating to the room output configuration and [Listener Position](5_Spatialisation_Technology_5_4_Listener_Position.md) editor.
 
-Mutes and solos are manageable for all sources and for the entire room output from this index list.
+Mutes and solos are manageable for all sources and for the entire room output from this index list. A solo clear button is  available on the top of the source list. Clicking on it will reset all the solo of all rooms.
 
 When you have more than one Room in your project, then the SOURCES switch at the top left of a Room editor can be handy, as it will show all sources from all Rooms in the same editor - allowing edition, mix, solo and mute management of all sources from one Room view.
 

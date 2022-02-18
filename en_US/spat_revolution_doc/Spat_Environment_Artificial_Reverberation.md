@@ -80,7 +80,11 @@ Right click on a parameter dial, and a contextual menu will pop up. From there y
 
 ### Reverb Enabled
 
-Toggle the entire reverberation engine for the room.
+Enable/disable the entire reverberation engine for the room. All the components (early, cluster and tail) of all sources will be affected.
+
+### Tail
+
+Enable/disable the tail of the reverberation engine for the room.
 
 ### Reverb Density
 

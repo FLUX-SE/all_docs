@@ -15,6 +15,8 @@ The same options and routing are available as in the _[Input Transcoder modules]
 
 The **Master** bloc gives you a last gain staging control, as well as down mixing capabilities. When opening its matrix, it is possible to patch several inputs to one output, or, one input to several outputs.
 
+<!-- TODO: add the image -->
+
 Finally, the [**Binaural Monitoring**](5_Spatialisation_Technology_5_1_Binaural_5_1_Binaural?id=binaural-monitoring-module.md) row provides a way to decode the whole scene to headphones only in binaural 3D.
 
 !> _Master section is automatically configured by the setup wizard with the Essential license of SPAT Revolution._

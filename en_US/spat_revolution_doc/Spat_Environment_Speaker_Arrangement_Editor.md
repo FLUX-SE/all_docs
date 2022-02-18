@@ -82,7 +82,7 @@ TODO: add transformation speaker picture
 
 **Name:** identify the name of the speaker.
 
-> To create an LFE channel, simply name one speaker of the arrangement "LFE".
+> To create an LFE channel, simply name one speaker of the arrangement "LFE". It is possible to create until 4 LFE, naming them "LFE 1", "LFE 2", "LFE 3" and "LFE 4". The corresponding sends button will appear on the source parameters panel.  
 
 !> SPAT Revolution uses speaker naming to sum speaker arrangement.
 
@@ -98,8 +98,9 @@ TODO: add transformation speaker picture
 
 **Distance (m):** define the distance between the source and the center of the 3D space, in meters.
 
-**Orientation:** automatically define the yaw and the pitch of the speaker regarding of certain cases.
+**Orientation:** define the orientation of the speaker. Default settings is "Automatic"
 
+  + Automatic: default behavior, the yaw and the pitch angles are determined by the shape of the speaker arrangement. It should be the standard orientation of most cases, but can be inefficient on certain specific designs.
   + Listener: the speaker points to the listener head
   + Front: the speaker points to the bottom of the 3D view
   + Back: the speaker points to the top of the 3D view
@@ -107,7 +108,7 @@ TODO: add transformation speaker picture
   + Side Right: the speaker points to the right side of the 3D view
   + Custom: the user can define the orientation with the *yaw* and *pitch* parameters.
 
-**Yaw:** rotate the speaker around the Z-axis.
+**Yaw:** rotate the speaker around the Z-axis. 0° degree is pointing the listener.
 
 **Pitch (°):** rotate the speaker in elevation.
 

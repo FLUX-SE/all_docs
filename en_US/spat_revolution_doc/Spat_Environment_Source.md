@@ -84,4 +84,8 @@ Any source parameter variable you adjust manually will assign that same setting 
 This feature allows you to display one or several parameters for all the sources that are in the same room. It is a useful feature for fast editing. Type "azimuth elevation distance" in the filter box for example, and you will see faders appear for only these properties, grouped for each of the sources as demonstrated in the following screenshot.
 
 ![](include/SpatRevolution_UserGuide_-168.jpg)
+<!-- TODO: update the image -->
 
+The key word <code>strict:</code> allows to search strictly one or several parameter. For example, </code>strict: gain presence</code> will display only the sources gain and presence, will <code>gain presence</code> will display the gain, the room specific gain, the presence, the room presence, and all gains of the axis and omni filters.
+
+Some pre-determined presets are available on a menu accessible on the left of this edit to give you some ideas.
