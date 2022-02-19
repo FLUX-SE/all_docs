@@ -19,19 +19,19 @@ Uses a fixed range as specified by the above settings.
 
 ![](include/Spectrum_Manual.png)
 
-## Auto
+### Auto
 
 When engaged, auto-range continuously adjusts the display to the current range of the data.
 
 > A slight envelope is applied to the auto-range values in order to improve legibility, avoiding the display to follow every minor change. Peaks are always registered however, as these provide valuable information that should not be missed.
 
-## Compressed
+### Compressed
 
 The range is defined by dB Min/Max values, and the Y-axis is also compressed in the lower range.
 This can bring out peaks and valleys in the spectrum to better visualize resonant frequencies and such.
 
 ![](include/Spectrum_Compressed.png)
 
-## Compressed &vert; Auto
+### Compressed &vert; Auto
 
 Combines _Compressed_ and _Auto_ modes.
