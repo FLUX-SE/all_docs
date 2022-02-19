@@ -1,6 +1,6 @@
 # SPAT Revolution - Credits
 
-## Version 22.01.0
+## Version 22.02
 
 ## User Guide and Documentation
 
