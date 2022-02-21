@@ -1,6 +1,6 @@
 # Understanding the mixing zones
 
-![](include/3DView.png)
+![](include/SpatR/Room/3DView.png)
 
 The whole mixing experience of SPAT Revolution takes place in the 3D view. It is really simple to create a mix this way: simply grab a source and move it where you want it to be. But there are a few subtleties that are important to get right.
 
@@ -12,22 +12,35 @@ Depending on if you are working with a room using channel-based or not, or depen
 
 ## The protection zone
 
-![](include/3DView_ProtectionZone.png)
+![](include/SpatR/Room/ProtectionZone.png)
 
-The protection zone is an area of the 3D space represented as a sphere around the listener head. 
-It is important to understand that **we should not put a source inside this zone**, as most of the pan law or spatialization strategies are incapable of creating the illusion that a sound source comes from in front of the speakers.
+The protection zone is an area of the 3D space represented as a sphere around the listener head.
+It is important to understand that as most of the pan law or spatialization techniques are incapable of creating the illusion that a sound source comes from in front of the speakers (some exceptions like WFS) **we should try to avoid putting source inside this zone**
 
-When a source is placed inside the protection zone, **its distance will no more induce a drop of presence**, meaning that the distance does not have any effect in this zone.
+When a source is placed inside the protection zone, **its distance will no more induce a presence factor change**, meaning that the distance won't have any effect in this zone.
+
+<!-- TODO: Review some of the language here -->
 
 As its name implies, the protection zone exists to prevent weird behavior when sources are placed inside itself. Thus, in this case, you will notice that the presence vector turn red. This should warn you that what you see may not be related to what you hear.
 
-This protection zone is automatically set to a 4 meters width for binaural, HOA or for the channel-based pre-configured and normalized arrangements. 4 meters matches the previous zone source radius of 2 meters and as well the default source distance of 2 meters. For custom speaker arrangements, **the protection zone is automatically defined to the furthest away speakers** and will be automatically adapted when selecting the new speaker arrangement.
+This protection zone is automatically set to a 4 meters width for binaural, HOA or for channel-based normalized arrangements. 4 meters is a diameter measurement and matches the previous zone source radius of 2 meters and as well the default source distance of 2 meters. For custom speaker arrangements, **the protection zone is automatically defined to the furthest away speakers** and will be automatically adapted when selecting the new speaker arrangement.
+
+<!-- TODO: Pitch the idea of protection zone maps the default distance / reset of sources -->
+
+<!-- TODO: Clarify this paragraph
 
 Two behaviors can happen when a source is inside the protection zone and when the room is configured for a 3D capable stream type/speaker arrangement:
 - it can be replaced at the top of the sphere
 - it can be replaced being looked at a constant azimuth.
+-->
 
-This behavior is set by the **Source over listener head** parameter, which is on by default. It is the legacy function where any source entering the zone follows the sphere of protection in elevation as it tries to enter. Thus, the source is processed at its elevated position. If disabled, the source will simply keep its elevation. In both cases, reaching the protection zone means the attenuation model based on the distance reaches its threshold.
+
+When a source is inside the protection zone on a 3D capable stream type/speaker arrangement. the behaviour is set by the **Source over listener head** parameter, which is on by default. It is the legacy function where any source entering the zone follows the sphere of protection in elevation as it tries to enter. Thus, the source is processed at its elevated position. If disabled, the source will simply keep its elevation. In both cases, reaching the protection zone means the attenuation model based on the distance reaches its threshold. (same as for the Air absorption calculation)
+
+![ProtectionZonePanel](include/SpatR/Room/OutputProtectionZonePanel.png)
+
+<!-- TODO: Image of Source over head in the 3D view -->
+
 
 ## The presence of a source
 
@@ -49,7 +62,7 @@ While a source is in the protection zone, there is no variation in presence.
 
 ## The efficiency zone
 
-![](include/efficiencyZone.png)
+![](include/SpatR/Room/3DViewEfficiencyZone.png)
 
 <!--TO BE COMPLETED-->
 By definition, the efficiency zone is where the virtual sound sources should be localized.
@@ -83,21 +96,21 @@ Clamping the source to the efficiency zone helps to keep coherent sound scene, w
 
 Note that the preferred behavior are clamping or muting. **Clamping or muting will prevent an aberrant render in sound and localization.**
 
-The pictures below shown some key cases of clamping, on non-surround systems: 
+The pictures below shown some key cases of clamping, on non-surround systems:
 
-![](include/azimClamping.png)
+![](include/SpatR/Room/3DViewAzimClamping.png)
 
 > On non-surrounding systems, trying to escape the efficiency zone will result in the source being clamped to its foremost left or right.
 
-![](include/frontClamping.png)
+![](include/SpatR/Room/3DViewFrontClamping.png)
 
 > If a source is placed in front of the speakers, the source will be clamped to the front line they formed while preserving the azimuth angle.
 
-![](include/mirrorClamping.png)
+![](include/SpatR/Room/3DViewMirrorClamping.png)
 
 > When a source is on the opposite side of a non-surround system, the projection of the virtual source will mirror the behavior of the actual source, thus, removing any jump or abrupt change in position of the source.
 
-![](include/muteBehavior.png)
+![](include/SpatR/Room/3DViewMuteSource.png)
 
 > When a source is outside the efficiency zone and mute behavior is selected, the source is represented differently.
 
@@ -115,7 +128,7 @@ When dealing with a 2D speaker array, there is no point at placing a source abov
 
 Most 3D speaker arrays has at least two plans of speakers. Such plans are defined by three non-align speakers sharing the same height (z). If a source elevation is above the speakers top one, or below the bottom one, the source will be clamped to the closest plan. The clamping behavior, like with 2D speaker array, is shown with phantom sources that indicate the position used inside the DSP stage of SPAT Revolution.
 
-![](include/3DView_TopChannels.png)
+![](include/SpatR/Room/3DViewHeightClamping.png)
 
 ## Limit cases
 
