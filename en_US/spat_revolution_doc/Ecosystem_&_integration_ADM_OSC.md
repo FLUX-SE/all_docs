@@ -55,8 +55,8 @@ All output options are already set with the preset.
 
 Recently, L-Acoustics released their new L-ISA controller that can now output ADM-OSC as an alternate method (hardware required) and is functional to be received by SPAT Revolution, for example. OSC messages can be sent using the ADM-OSC format and be interpreted identically by any ADM-OSC compatible device.
 
-![L-ISA](include/adm_osc_1.png )
+![L-ISA](include/SpatR/ThirdParty/LisaOSCConfiguration.png )
 
 Furthermore, Nuendo V11 adds the support of external OSC renderers, by mapping bidirectionally the multi-panner
 
-![Nuendo](include/nuendo_adm_2.png)
+![Nuendo](include/SpatR/ThirdParty/NuendoPanner.png)
