@@ -1,6 +1,6 @@
 # Understanding the mixing zones
 
-![](include/SpatR/Room/3DView.png)
+![](/../../../doc_images/blob/main/SpatR/Room/3DView.png)
 
 The whole mixing experience of SPAT Revolution takes place in the 3D view. It is really simple to create a mix this way: simply grab a source and move it where you want it to be. But there are a few subtleties that are important to get right.
 
@@ -12,7 +12,7 @@ Depending on if you are working with a room using channel-based or not, or depen
 
 ## The protection zone
 
-![](doc_images/SpatR/Room/ProtectionZone.png)
+![](/../../../doc_images/blob/main/SpatR/Room/ProtectionZone.png)
 
 The protection zone is an area of the 3D space represented as a sphere around the listener head.
 It is important to understand that as most of the pan law or spatialization techniques are incapable of creating the illusion that a sound source comes from in front of the speakers (some exceptions like WFS) **we should try to avoid putting source inside this zone**
