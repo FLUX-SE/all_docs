@@ -1,26 +1,26 @@
 # ADM-OSC
 
 
-ADM-OSC is an industry initiative developed by **FLUX:: Immersive**, L-Acoustics and Radio France (the later leading the case study and specific application) to facilitate the sharing of audio objects metadata between a live ecosystem and a broadcast or studio ecosystem. 
-If tries to define a basic layer of interoperability between object editors and object renderers in a live production workflow. 
-It does so with [OSC](http://opensoundcontrol.org/introduction-osc) a communication protocol widely used in the live industry.
- At the base the ADM-OSC is a specific grammar and definition. 
+ADM-OSC is an industry initiative developed by **FLUX:: Immersive**, L-Acoustics and Radio France (the later leading the case study and specific application) to facilitate the sharing of audio objects metadata between a live ecosystem and a broadcast or studio ecosystem.
+If tries to define a basic layer of interoperability between object editors and object renderers in a live production workflow.
+It does so with [OSC](https://opensoundcontrol.stanford.edu/index.html) a communication protocol widely used in the live industry.
+ At the base the ADM-OSC is a specific grammar and definition.
 
 
-Immersive audio is gaining ground in different industries, from music streaming to gaming, from live sound to broadcast. 
+Immersive audio is gaining ground in different industries, from music streaming to gaming, from live sound to broadcast.
 [ADM](https://adm.ebu.io/) or _Audio Definition Model_, is becoming a popular standard metadata model in some of these industries, with serial ADM used in broadcast or ADM xml files used in the studio.
 
-A first implementation of ADM-OSC is now included with the latest release of SPAT Revolution. 
-Other industry peers have implemented early versions of ADM-OSC such as L-Acoustics (L-ISA), Merging Technologies (Ovation, Pyramix) and Yamaha Steinberg Media (Nuendo). It is supported by default on OSC input and as an option on OSC output.
+A first implementation of ADM-OSC is now included with the latest release of SPAT Revolution.
+Other industry peers have implemented early versions of ADM-OSC such as L-Acoustics (L-ISA), Merging Technologies (Ovation) and Yamaha Steinberg Media (Nuendo). It is supported by default on OSC input and as an option on OSC output.
 
 
 ## ADM-OSC in SPAT Revolution
 
-![SPAT Revolution ADM OSC](include/adm_osc_2.png )
+![SPAT Revolution ADM OSC](include/SpatR/Education/ADMOSC.png )
 
-SPAT Revolution supports **ADM-OSC** in input as an alternate grammar, and on output as an option. The specification calls for normalized (linear) data value to provide interoperability and tend to align with the ADM protocol. Typically, object-based mixing renderers will handle the scaling based on the system configuration. 
+SPAT Revolution supports **ADM-OSC** in input as an alternate grammar, and on output as an option. The specification calls for normalized (linear) data value to provide interoperability and tend to align with the ADM protocol. Typically, object-based mixing renderers will handle the scaling based on the system configuration.
 
-Specifications calls for: 
+Specifications calls for:
 
 * Linear 0.00,1.00 for Gain and LFE (aux send) messages
 * Invert Azimuth to clockwise
@@ -31,33 +31,32 @@ To configure ADM-OSC, make sure OSC is enabled and go to the OSC Connection sect
 
 * Choose an **input | ADM** preset to receive ADM-OSC data and select the receiving network interface.
 
-* Choose an **output | ADM XYZ (or AED)** preset to send ADM-OSC data. 
+* Choose an **output | ADM XYZ (or AED)** preset to send ADM-OSC data.
 
-* Enter the IP address of the destination. 
- 
-![OSC I/O presets](include/adm_osc_3.png)
+* Enter the IP address of the destination.
 
-On the OSC input connection, you can see that Port #9000 is our default incoming port and that and ADM Transformation preset is applied to match the specification. 
+![OSC I/O presets](include/SpatR/Preference/OSCConnectionsADM.png )
+
+On the OSC input connection, you can see that Port #9000 is our default incoming port and that and ADM Transformation preset is applied to match the specification.
 To modify the incoming range (the automation zone), simply enter your desired value. In this example, we are scaling to -3.00, 3.00.
 
-![OSC I/O presets](include/adm_osc_4.png)
+![OSC I/O presets](include/SpatR/Preference/OSCTransformPresetsADM.png)
 
-On the OSC output connection, you can see that port #9001 is our default sending port and that an ADM Transformation preset is applied to match the specification. 
-To modify the incoming range (the automation zone), simply enter your desired value. 
-In this example, we are sending data from the -3.00, 3.00 zone. 
+On the OSC output connection, you can see that port #9001 is our default sending port and that an ADM Transformation preset is applied to match the specification.
+To modify the incoming range (the automation zone), simply enter your desired value.
+In this example, we are sending data from the -3.00, 3.00 zone.
 All output options are already set with the preset.
 
-![OSC I/O presets](include/adm_osc_5.png)
+![OSC I/O presets](include/SpatR/Preference/OSCTransformPresetADMOutput.png)
+
 
 
 ## Third party example
 
 Recently, L-Acoustics released their new L-ISA controller that can now output ADM-OSC as an alternate method (hardware required) and is functional to be received by SPAT Revolution, for example. OSC messages can be sent using the ADM-OSC format and be interpreted identically by any ADM-OSC compatible device.
 
-![L-ISA](include/adm_osc_1.png )
+![L-ISA](include/SpatR/ThirdParty/LisaOSCConfiguration.png )
 
 Furthermore, Nuendo V11 adds the support of external OSC renderers, by mapping bidirectionally the multi-panner
- 
-![Nuendo](include/nuendo_adm_2.png)
 
-
+![Nuendo](include/SpatR/ThirdParty/NuendoPanner.png)

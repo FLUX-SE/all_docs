@@ -12,7 +12,7 @@ You can download the following session templates:
 
 **Project Sessions and Templates downloads.**
 
-* **[Steinberg Nuendo Tutorial Template*](https://public.3.basecamp.com/p/CsyXhCZjbdBXj8rrrDRSAV5w)* is the template used in the above video tutorial and includes sends and returns setup for rendering Binaural, Atmos 5.1.4, NHK 22.2 with binaural monitoring.
+* **[Steinberg Nuendo Tutorial Template*](https://public.3.basecamp.com/p/CsyXhCZjbdBXj8rrrDRSAV5w)** is the template used in the above video tutorial and includes sends and returns setup for rendering Binaural, Atmos 5.1.4, NHK 22.2 with binaural monitoring.
 
 
 * **[Basic music NPR](https://public.3.basecamp.com/p/yRVeYRi4Co8mRm3FFU4Zhjt6)**  is a basic template using sends and returns to render Stereo, 5.1 and Atmos 5.1.4 output formats with binaural monitoring.
@@ -34,15 +34,15 @@ You can simply use tracks as you use audio objects, likewise to many object-base
 This way, you can leave the session audio tracks and their channel insertion as they are, and simply send your audio tracks to the SPAT Revolution object tracks. 
 This allows you to send a single audio track or multiple ones (stem) to the SPAT Revolution object track.
 
+<!--
 Routing audio 
 
 ---
-
 To be completed.
 
 Our tutorial shows SPAT on audio tracks not with objects
-
 ---
+-->
 
 
 
@@ -117,6 +117,8 @@ In the OSC preferences:
 
 ![SPAT OSC settings for Nuendo ADM-OSC](include/nuendo_adm_7.png ':size=600')
 
+<!-- TODO: update the image -->
+
 * One Input ADM preset where you select you network interface.
 * You see above the default setup for ADM-OSC. For the moment (until Nuendo fixes to default ADM-OSC), you will Edit the transform from linear to support the fact that they spit out 0,1 normalized. This is where you will as well define the SPAT Revolution automation zone range (scaling to). For example, here I am using -3, 3.
 
@@ -129,6 +131,8 @@ To setup the ADM XYZ Output:
 
 ![ADM XYZ Output](include/nuendo_adm_9.png ':size=600')
 
+<!-- TODO: update the image -->
+
 * Choose the Output ADM-XYZ preset and set the IP address of the Nuendo computer.
 * The transformation preset is ok by default. (as long as your OSC Object Position Tracking setup in Nuendo as stage dimensions -1.0, 1.0. 
 * You will enter your automation zone (range) that you are sending to Nuendo. This is the same as used for input range. For example -3, 3.
@@ -136,5 +140,3 @@ To setup the ADM XYZ Output:
 
 Et voila! You are set. 
 Ready to move sources/objects in SPAT Revolution or in the Nuendo panner with bidirectional integration.
-
----

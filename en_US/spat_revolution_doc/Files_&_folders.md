@@ -32,7 +32,7 @@ The FLUX SE Folder contains a subfolder named *Config*  which has 3 files:
 
 A subfolder named *Preferences* containing:
 
-*  hrtf.json file which includes your HRTF files location
+*  hrtf.json file which includes your HRTFs files location
 *  users.json contains your saved software preferences
 *  Preferences.xml saves some paths
 *  UI.xml saves your user interface preferences
@@ -46,7 +46,7 @@ The FLUX SE - IRCAM Folder contains preferences and presets of the three SPAT Re
 
 The Ircam Folder contains a subfolder called *sofa* which contains the sofa.catalog.xml file. The HRTF catalog.
 
-> *When backing up a system, make sure to copy all these folders to secure the  complete software configuration.*
+> *When backing up a system, make sure to copy all these folders to secure the complete software configuration.*
 
 ## Paths for python script
 

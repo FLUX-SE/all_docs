@@ -76,6 +76,8 @@ In SPAT, go to *Preferences/Hardware IO* , then set:
 
 ![SPAT Revolution Preferences](include/SpatRevolution_UserGuide_-282.jpg)
 
+<!-- TODO: update the image -->
+
 
 ### Setting Up Object Tracks
 
@@ -89,10 +91,14 @@ Once you engage the *Enable* switch, SEND software inputs should show up at the 
 
 ![img](include/SpatRevolution_UserGuide_-286.jpg)
 
+<!-- TODO: update the image -->
+
 Select all the objects in the 'empty' signal graph using a drag select or Command click selection, then choose the 'connect selected' action. 
 A default module routing will be completed automatically with a default stereo virtual room.
 
 ![img](include/SpatRevolution_UserGuide_-288.jpg)
+
+<!-- TODO: update the image -->
 
 Now you should be able to send and receive audio streams from/to Pro Tools and spatialize your objects.
 

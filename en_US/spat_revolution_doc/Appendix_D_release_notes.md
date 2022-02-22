@@ -1,6 +1,161 @@
 # Release notes
 ## SPAT Revolution Application
 
+## Build 22.02.0.5147
+
+### New features 22.02.0.50147
+
+#### New Features RC2_22.02.0.50139
+
+- Sources - Add one gain per room - Parameter name: Room specific gain
+- New parameter Room Reverb "Enable" to enable or disable all reverb components for all connected sources in the room
+
+#### New Features before RC2
+- New HybridVBAP - A new panning technique for 3D arrangements that mixes 2D ad 3D VBAP depending on the elevation of the source
+- AU plugin integration for Apple Logic Pro up to 10.7 and Figure 53 QLab
+- Support of separated hardware input and output devices
+- Wave Field Synthesis spatial reproduction technique algorithm available as new panning type - supporting collinear system as well as potentially any 2D/3D arrangements. (WFS add-on license required, Ultimate only)
+- New Output Matrix: Allows on Master and Master Transcoder modules several connections per output on channel-based stream type
+- New efficiency zone: where it makes sense to position the sources. Two behaviors for sources: clamp on the zone or mute outside
+- Speaker orientation on speaker editor, automatically set according to the arrangement shape. This orientation is only taken into account on WFS panning type.
+- New sources solo clear button
+- New elevation clamping - Source-object is projected on speaker extremum planes for 3D channel-based speaker arrangements
+- New option "Source fit speaker elevation" in the protection section of Room output panel: render a 3D creation on 2D setups will be more coherent
+- Official support for software input (Local Audio Path via plugin) and hardware output in the same session.
+- SPAT Revolution Essential - Now supports up to 16 channel arrangements
+
+### Improvements 22.02.0.50147
+
+#### Improvements RC2_22.02.0.50139
+- Support of 4 independent LFE with its own send
+- Add "strict" keyword in source parameter filter to strictly define which parameter to display. e.g. "strict: gain distance"
+- Reverb parameter - Rename "Reverb Enabled" by "Reverb Tail"
+- Add source parameter filter presets on source parameter panel
+- Add Main Menu access from the Main UI Header. Therefore, we can access main menu even in full screen
+
+#### Improvements RC1_22.02.0.50137
+- Preferences page - Add option to enable/disable the compute action on LFE in Speaker arrangement editor/Room output list
+- Hide system menu in fullscreen
+- Save on the project the "Input Type" field of input blocks
+- Hide "Source over Listener" on 2D arrangements
+- Send OSC message when renaming a source and a room
+
+#### Improvements before RC1
+- Overall AU PI integration robustness
+- Huge jitter reduction, especially with small buffer values (e.g. 256 amp @ 96 kHz)
+- Up to 20% improvements on single or multi-core configuration
+- SPAT Revolution reopens on Home page at startup if no session is automatically recalled
+- Room Reverb Preset - prevent from overriding a factory preset
+- Essential - Setup Wizard - Improve outputs behavior when changing the stream type
+- SPAT Essential - Improving handling of panning type on Session compatibility dialog
+- SPAT Revolution Essential - Automatically add binaural monitoring when opening sessions made with Spat Revolution Ultimate
+- Allow multiple input connections to Input transcoders and sources to permit aggregation from multiple input
+- New timecode options sources choice - Absolute as default
+- Add missing /room/1/xy message
+- Improve OSC robustness - bad messages preventing and filtering
+- Add special case for azimuth which should interpolate to nearest angle instead of linear range [-180, 180]
+- Improved clamping on 2D and 3D speaker arrangements
+- Support of ADM-OSC query command (/get, /?)
+- Maximum speaker distance is now the default width protection zone
+- Room reverb graphic display - XY scales improved
+- Add option to dump properties on OSC socket changes (port, IP and enable)
+- Show network port name in tooltips
+- Reviewed snapshots workflow and add OSC messages for recall Sources/Rooms/Masters options (/snapshot/options/recall/source, /snapshot/options/recall/room, /snapshot/options/recall/master, /snapshot/options/recall)
+- Add enable/disable and command log per socket
+- Hide Spread factor for WFS and binaural
+- GUI - Align binaural monitoring block with master block on the setup page
+- Setup Wizard - Patch input on unused hardware input
+- Elevation is now reset to zero when the setup is detected as 2D
+- Speakers and Nebula follow listener position and orientation
+- Improve loading time when starting SPAT revolution when there is no internet connection
+
+### Bugs 22.02.0.50147
+
+- Speaker Transform - Coordinates don't always refresh after transformation
+
+#### Bugs RC5_22.02.0.50142
+- Reorder of Rooms doesn't update the Room order in the top bar
+- Deleting a room may corrupt different sources parameters
+
+#### Bugs RC3_22.02.0.50140
+- Setup config lists differ on the speaker editor when opening it through the setup page or the room output panel
+
+#### Bugs RC1_22.02.0.50137
+- Snapshot may not reload all properties depending on the language
+- Binaural monitor block connected on the same master block than an output block controls the master block gain
+
+#### Bugs Before RC1
+- Ableton Live - Automation is broken
+- Non-interpolable values like "Position mode" can't be automated in Audio Unit
+- AU parameter automation curve display is not correct
+- Long room name doesn't display, refresh and resize properly on top bar
+- Changing language sets all rooms background to black
+- Setup page - Fix alignment issue when changing the Preferences/Global language
+- Fix import legacy preferences
+- Crash on Windows with ASIO driver when switching of driver
+- Better handling of automation and multiple inputs connected to one source
+- HOA Transcoder - Fix issues with some configurations
+- HOA Transcoder - Transcoder do not correctly connect to input channels
+- Setup Wizard - Ultimate - Binaural Monitoring not created
+- HOA Transcoder - Bad initialization of Yaw and Normalization
+- Add Warning on session opening with an HRTF not available in the computer
+- Binaural - No direct sound with SphericalHeadModel and SnowManModel
+- Speaker Alpha setting is now applied to all rooms
+- Preferences/OSC connections - Fix refresh issue on OSC sockets when IP and port already used
+- OSC - Fix possible issue with /global OSC command
+- Doppler effect is not working anymore
+- Reverb density is not recalled by snapshots
+- Create or edit an arrangement through the setup wizard now change the width of the protection zone and the distance scaling
+- Fix OSC messages consistency in regard to packed or unpacked queries
+- SPAT Revolution Essential - Opening speaker editor through output panel does not show the channels limitation
+- Preferences/OSC connections - Add missing distance transformation for ADM-OSC presets
+- Home page - Last saved session is not displayed
+- Refresh issues on input wizard, transform panel, on setup page and source list when a scroll bar is present
+- Crash with Nuendo and SPAT plugins on macOS
+- Source's pitch displayed could be wrong
+- Fix some crashes on exit on macOS
+- Multichannel sources rotate the source of 90Â° when distance set to 0
+- Hide "head scale" for non-binaural panning types
+- Fix custom speaker config duplication when importing from a session
+- Removed warning: "Current preset has been modified" when loading a preset
+- Spat freezes when trying to save a file that is not accessible
+- "Check essential compatibility" menu action is not working
+- Source properties panel - Filter frequencies display issue & improved gain text
+- When back to the room, the source parameter panel still shows up while no source selected
+- Navigation keys add some unwanted chars on speaker names
+- UI Issue with retractable panels
+- "/source/[index]/name/get", "/room/[index]/name/get" and "/master/[index]/name/get" don't work anymore
+- Selecting or editing an arrangement through the speaker editor output panel does not propagate configuration to connected blocks
+- Fix presence vector not drawn over the listener head in certain cases
+- Fix some drawing issues on clamping, presence factor and radius
+- Fix potential crashes with binaural rooms
+- Preferences/OSC connections - Fix possible error on OSC Transform windows
+- Add distance scaling support for source "Scale" and "Radius" (if different from default)
+
+#### Known Issues
+
+##### Show Stopper
+- ALT modifier doesn't work on Windows
+##### Most important
+- WARNING: Generator on room output channel is after gain and mute. Use with precaution, change the level in the generator section of the preference page or on the MASTER module.
+- Position are not sent when dumping all properties through OSC on opening a session
+- macOS - Reported latency is not accurate when Device In/Out is the same
+- Issue with source slider which doesn't work all time
+- Core Audio headphones and loudspeakers cannot be used without an aggregate
+- when multiple sources are selected moving some "filtered" parameter like distance in the property panel may generate bad position values
+- S6L integration, SPAT Send track name is not retained properly and sent every time the UI opens (erasing your SPAT Source name).
+- REAPER/WIN10 - VST - Automation reset source position
+- REAPER/WIN10 - VST - ReaVolution script can't create mono send
+- PI - AAX - Renaming a send track in ProTools changes the corresponding source verb enable, early, cluster and tail
+- Double-clicking on "Input stream" on the status bar resets to default the hardware buffer and sampling rate if no Send/Return
+- Connect a Send input to a source reset all parameters
+##### Important
+- Win10 - dump, get and ? messages don't work
+- OSC - Rotation X,Y and Z button aren't refreshed on automation and OSC message reception
+- The second OSC output status is not retained in AAX / AAX VENUE. Make sure you enable it after a reboot or an AAX host rack reset.
+- Broadcast OSC messages are not received on macOS. Workaround: use unicast
+
+
 ### Build 21.4.0.50030
 
 **Improvements**
