@@ -1,4 +1,4 @@
-![](include/SpatR/Education/SPATionautsImage.png)
+![](include/SpatR/Generic/SPATionautsImage.png)
 
 # FLUX:: Immersive SPAT Revolution
 
