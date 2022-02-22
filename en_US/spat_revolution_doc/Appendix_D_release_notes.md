@@ -1,9 +1,9 @@
 # Release notes
 ## SPAT Revolution Application
 
-## Build 22.02.0.5147
+## Build 22.02.0.50148
 
-### New features 22.02.0.50147
+### New features 22.02.0.50148
 
 #### New Features RC2_22.02.0.50139
 
@@ -24,7 +24,7 @@
 - Official support for software input (Local Audio Path via plugin) and hardware output in the same session.
 - SPAT Revolution Essential - Now supports up to 16 channel arrangements
 
-### Improvements 22.02.0.50147
+### Improvements 22.02.0.50148
 
 #### Improvements RC2_22.02.0.50139
 - Support of 4 independent LFE with its own send
@@ -69,7 +69,7 @@
 - Speakers and Nebula follow listener position and orientation
 - Improve loading time when starting SPAT revolution when there is no internet connection
 
-### Bugs 22.02.0.50147
+### Bugs 22.02.0.50148
 
 - Speaker Transform - Coordinates don't always refresh after transformation
 
