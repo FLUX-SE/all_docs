@@ -60,7 +60,7 @@ Hence its name, “snowman model.”
 The parameter “head scale”, available for the four binaural algorithms, allows adapting the head size to the listener.
 This will adjust the interaural time and level differences. 
 It is available on the room parameter on the setup page, but also on the output panel of the room.
-<!-- TODO:add photo for that --> 
+![Headscale parameter](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/ChannelBasedSession.png)
 
 
 ## Binaural Monitoring Module

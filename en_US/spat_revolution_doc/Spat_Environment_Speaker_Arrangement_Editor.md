@@ -124,8 +124,7 @@ TODO: add transformation speaker picture
 
 Here, we can find information about which pan law is available in regard of our speaker array. Some explanations are displayed to help understand why some pan laws aren't available.
 
-![](include/Panning_Tips.png)
-<!-- TODO: update the image with the latest panType-->
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/SpeakerEditorPanningTips.png)
 
 There are five colors associated with the possible panning types:
 + **Green**: this panning type is valid and functional with the selected speaker array.
@@ -133,7 +132,7 @@ There are five colors associated with the possible panning types:
 + **Red**: this panning type is not functional with the selected speaker array. Hovering the panning type with the mouse will display a message to explain why it does not work.
 + **Grey**: Two speakers are located at the same spot (i.e. the speakers are coincident). The speaker arrangement is incorrect.
 
-![](include/Panning_Tips_Error.png)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/SpeakerEditorInvalid.png)
 
 > Error displayed with HOA panning type.
 

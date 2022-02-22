@@ -48,7 +48,7 @@ It is a classic case of object-based mixing, where source modules associate meta
 
 !> Only source modules can be connected to room modules.
 
-![](include/SpatRevolution_UserGuide_-092.jpg)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/SessionWithRoomSelected.png)
 
 <!-- TODO: update the image -->
 

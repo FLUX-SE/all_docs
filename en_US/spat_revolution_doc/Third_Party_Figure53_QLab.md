@@ -33,18 +33,14 @@ With the latest release of Spat Revolution, the ability to send messages to the 
 
 In a realtime situation, where performers or sounds are being spatialized live by Spat Revolution, and cues need to be sent in the right running order with the rest of the show, Network OSC type cues can be sent from QLab to Spat Revolution to control all aspects of the Spat rendering software. 
 To do this interaction, it is necessary to setup the OSC communication. It is relatively straightforward. 
-_In the Spat Revolution preferences make sure the OSC Enable is engaged._ (1)
+_In the Spat Revolution preferences make sure the OSC Enable is engaged._
 
-![Setting the OSC Connection](include/SpatRevolution_UserGuide_-302.png ':size=600')
-
-<!-- TODO: update the image -->
+![Setting the OSC Connection](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Preference/OSCMain.png)
 
 > ★(2) Enable commands log to view the commands and confirm you are receiving data (Shift + F7 will open the log window). It is not recommended leaving it active all the time as it takes some system resources. 
 
 **Setting the OSC Connection**
-![Setting the OSC Connection](include/qlab_spat_osc_connections.png)
-
-<!-- TODO: update the image -->
+![Setting the OSC Connection](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Preference/OSCConnectionCustomLocalHost.png)
 
 Go to the OSC connection section of Spat Revolution and:
 

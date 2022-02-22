@@ -52,9 +52,7 @@ Pressing on the sign in button will allow you to connect to your account. After 
 > If you require further information about iLok and managing licenses please refer to iLok.com website.
 
 ## FLUX:: Center
-![](include/SpatRevolution_FluxCenter_-017.png ':class=img-title')
-
-<!-- TODO: update the image -->
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Center/Generic/Page.png ':class=img-title')
 
 Next step is to get the installers for the FLUX:: products you are licensed for. All the software and plugins from FLUX:: are available via our FLUX:: Center software. This is a Mac or Windows application we have created to help keep your FLUX:: products up to date and to give you a clear overview of what you have installed. Firstly, please visit the download section of the FLUX:: Website to get the installer for the [FLUX:: Center application.
 ](https://flux.audio/download/)

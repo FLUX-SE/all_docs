@@ -2,11 +2,11 @@
 
 This section will go through the SPAT Revolution software environment in more detail. We will step through each of the main Graphic Editor views.
 
-![](include/SpatRevolution_UserGuide_-025.jpg)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Education/Environment.png)
 
 **Rendering to Speakers**
 
-In order for the virtual scene to translate correctly as an immersive sound experience in a speaker format, SPAT needs to have an accurate model of a _multi-channel speaker arrangement_ which will be used to map the multi-channel information to the destination speakers and render the sound field correctly in a real space.
+In order for the virtual scene to translate correctly as an immersive sound experience in a speaker format, SPAT needs to have an accurate model of a _multichannel speaker arrangement_ which will be used to map the multichannel information to the destination speakers and render the sound field correctly in a real space.
 To this end, you will find a large library of standard and specialized speaker arrangements already built into SPAT which can be used in various places throughout the **Environment Setup**.
 
 Speaker configurations can be used to fit the format of a virtual room to match the actual speaker system being used to diffuse the mix in a real room.

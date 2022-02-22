@@ -18,8 +18,6 @@ It is worth noting that there are some panning algorithms in SPAT Revolution tha
 
 > The Listener Position can be moved in a SPAT Revolution room.
 
-![](include/SpatRevolution_UserGuide_-060.jpg)
-
-<!-- TODO: update the image -->
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Room/OutputChannelBased.png)
 
 In certain advanced situations which might combine position tracking systems with real time binaural audio, it is even possible to transform the _Listener Position_ in SPAT Revolution. One application of this might be to give the sensation of getting closer to a sound emitter inside a virtual scene for a headset wearing participant at an interactive VR installation. Given the camera position perspective to the listener is as well possible by mapping camera position to listener position of SPAT.

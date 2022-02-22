@@ -1,9 +1,7 @@
 # Open Sound Control
 ## Introduction to Generic OSC
 
-![](include/SpatRevolution_UserGuide_-197.png)
-
-<!-- TODO: update the image -->
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Preference/OSCMain.png)
 
 If you are developing your own control systems to integrate with SPAT, you might find it useful to know that it is possible to export a detailed description of all OSC patterns, syntax and usage to a text file for reference.
 You will find that option in the SPAT preferences.
@@ -44,9 +42,7 @@ By default, it is set to 5.0 ms.
 
 There is a lot of flexibility in the OSC connection menu. We find it in the SPAT Preferences page.
 
-![](include/SpatRevolution_UserGuide_-195.png)
-
-<!-- TODO: update the image -->
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Preference/OSCConnections.png)
 
 Eight different connections can be set up, either as input or output connection. It is displayed as a table where each connection is a line. The first parameter is the connection type, which offer many presets for both input and output. These presets come with dedicated network ports, dedicated option and dedicated transform if needed.
 
@@ -75,9 +71,7 @@ If we loose the sync between the remote and SPAT, it is also possible to dump al
 Interfacing different devices and software in OSC can be problematic as each piece of equipment can have its own scale of value.
 To overcome these difficulties, some OSC transform presets have been implemented.
 
-![](include/SpatRevolution_OSC_Input_Transform2.png)
-
-<!-- TODO: update the image -->
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Preference/OSCTransformList.png)
 
 Transform presets are accessible for each OSC connection and allow some quick re-scaling of the values.
 

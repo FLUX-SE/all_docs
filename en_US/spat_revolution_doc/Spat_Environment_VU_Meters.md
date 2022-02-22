@@ -6,6 +6,6 @@ They are very useful to see when clipping might be occurring in any of the chann
 Also, notice how the “wire” that graphically connects modules in the setup signal graph does not visually change even though it is handling a load of channels.
 
 
-![](include/SpatRevolution_UserGuide_-078.jpg)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/InspectorVU.png)
 
 <!-- TODO: update the image -->

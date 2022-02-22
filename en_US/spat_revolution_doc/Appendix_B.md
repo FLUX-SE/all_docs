@@ -5,15 +5,11 @@
 When using Local Audio Path (LAP), synchronisation issues can be identified when the synchronisation indicator in SPAT Revolution (bottom left corner) turns to red. 
 This can in some cases result in clicks, noises, and or loss of sound.
 
-![Sync Error](include/Sync_Error_1.png)
-
-<!-- TODO: update the image -->
+![Sync Error](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Generic/Sync_Error.png)
 
 ***All 'green' indicators mean the sync is correct.***
 
-![Sync OK](include/Sync.png)
-
-<!-- TODO: update the image -->
+![Sync](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Generic/Sync.png)
 
 Thanks to the DAW templates provided, this should not happen unless the required routing is not in place (session modified, routing unpatched). To work properly, the SPAT Send plug-ins instances must be processed by the DAW before the SPAT return plug-in instances.
 
@@ -50,9 +46,7 @@ To work properly, the SEND plug-ins instances must be processed by the DAW **bef
 
 Following are four examples of recommended practice with DAW routing, which should cover the main use cases. If your problems persist even after implementing these suggestions, don't hesitate to drop us a line at FLUX:: support.
 
-> **PLEASE NOTE:** _In the current version 21.04, the mixing of HARDWARE inputs and LOCAL AUDIO PATH may report a sync loss, as SPAT Revolution cannot guarantee correct sync in this scenario. Proceed with caution if this is unavoidable. This is not officially supported._
-
-<!-- TODO: update the version number -->
+> **PLEASE NOTE:** The mixing of HARDWARE inputs and LOCAL AUDIO PATH may report a sync loss, as SPAT Revolution cannot guarantee correct sync in this scenario. Proceed with caution if this is unavoidable. This is not officially supported._
 
 **SPAT RETURN plug-in on master track**
 

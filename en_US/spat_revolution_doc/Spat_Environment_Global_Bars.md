@@ -2,9 +2,7 @@
 
 ## Navigation bar
 
-![](include/SpatRevolution_UserGuide_-070.jpg)
-
-<!-- TODO: update the image -->
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Generic/TopBar.png)
 
 The Navigation bar appears at the top of all views. As well as links to different editor views and to the preference, it also offers you the possibility to mute and unmute rooms.
 
@@ -12,9 +10,7 @@ The status and help bars appear at the bottom of all views. It gives information
 
 ## Status bar
 
-![](include/SpatRevolution_UserGuide_-072.jpg)
-
-<!-- TODO: update the image -->
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Generic/StatusBar.png)
 
 The status bar help you easily monitor many critical information about your hardware and your incoming or outgoing audio stream.
 
@@ -57,7 +53,5 @@ Choose what clock SPAT should follow.
 ### Support
 
 Allows to send feedback to the FLUX:: Immersive support team.
-
-<!-- TODO: update the image -->
 
 > With Send/Return plug-ins, if sampling rate and block size between DAW and Spat Revolution are different, the status bar will be red. Double-click on this bar to automatically change them into Spat Revolution.

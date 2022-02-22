@@ -7,8 +7,7 @@ The SPAT reverberation engine is designed to synthesise the experience of the vi
 Virtual spaces can be tuned, scaled and stored.
 Open the _Artificial Reverberation_ graphical editor by clicking on the (<code>**R**</code>) index at the bottom of the list of sources on the left side panel of the Room.
 
-![](include/SpatRevolution_UserGuide_-142.jpg)
-<!-- TODO: update the image -->
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Room/ReverbPanel.png)
 
 Internally, the SPAT Revolution reverb engine models many technical acoustic parameters, but the user interface has been simplified a great deal, to make artificial reverb design more straightforward and functional.
 
@@ -72,7 +71,7 @@ you already know.
 Each parameter has the possibility to store useful preset settings of your own choosing.
 Right click on a parameter dial, and a contextual menu will pop up. From there you can store the current setting to a Memory Slot, or Recall a setting from a previously saved memory slot.
 
-![](include/SpatRevolution_UserGuide_-148.jpg)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Generic/ParameterPreset.png)
 
 ## Reverb General
 

@@ -13,28 +13,12 @@ Depending on if you are working with a room using channel-based or not, or depen
 
 ## The protection zone
 
-![](https://github.com/FLUX-SE/doc_images/blob/main/SpatR/Room/ProtectionZone.png)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Room/ProtectionZone.png)
 
 The protection zone is an area of the 3D space represented as a sphere around the listener head.
 It is important to understand that as most of the pan law or spatialization techniques are incapable of creating the illusion that a sound source comes from in front of the speakers (some exceptions like WFS) **we should try to avoid putting source inside this zone**
 
 When a source is placed inside the protection zone, **its distance will no more induce a presence factor change**, meaning that the distance won't have any effect in this zone.
-
-<!-- TODO: Review some of the language here -->
-
-As its name implies, the protection zone exists to prevent weird behavior when sources are placed inside itself. Thus, in this case, you will notice that the presence vector turn red. This should warn you that what you see may not be related to what you hear.
-
-This protection zone is automatically set to a 4 meters width for binaural, HOA or for channel-based normalized arrangements. 4 meters is a diameter measurement and matches the previous zone source radius of 2 meters and as well the default source distance of 2 meters. For custom speaker arrangements, **the protection zone is automatically defined to the furthest away speakers** and will be automatically adapted when selecting the new speaker arrangement.
-
-<!-- TODO: Pitch the idea of protection zone maps the default distance / reset of sources -->
-
-<!-- TODO: Clarify this paragraph
-
-Two behaviors can happen when a source is inside the protection zone and when the room is configured for a 3D capable stream type/speaker arrangement:
-- it can be replaced at the top of the sphere
-- it can be replaced being looked at a constant azimuth.
--->
-
 
 When a source is inside the protection zone on a 3D capable stream type/speaker arrangement. the behaviour is set by the **Source over listener head** parameter, which is on by default. It is the legacy function where any source entering the zone follows the sphere of protection in elevation as it tries to enter. Thus, the source is processed at its elevated position. If disabled, the source will simply keep its elevation. In both cases, reaching the protection zone means the attenuation model based on the distance reaches its threshold. (same as for the Air absorption calculation)
 

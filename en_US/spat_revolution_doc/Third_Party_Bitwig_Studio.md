@@ -16,9 +16,7 @@ If they don't match at first, you _may_ need to restart  both applications to ge
 
 ![](include/SpatRevolution_UserGuide_-266.jpg)
 
-![](include/SpatRevolution_UserGuide_-268.png)
-
-<!-- TODO: update the image -->
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Preference/HardwareIO.png)
 
 **Setting Up Tracks in BitWig**
 

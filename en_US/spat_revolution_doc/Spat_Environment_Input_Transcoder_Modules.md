@@ -2,9 +2,7 @@
 
 SPAT Revolution can handle many formats of multichannel audio throughout the signal flow, as we have been pointing out. As we approach the actual virtualisation of inputs into object-based audio sources in the SPAT _Virtual Rooms_ it may be necessary to change from the original input format to another. You use the Input Transcoder module and its parameters to do this.
 
-![](include/SpatRevolution_UserGuide_-084.jpg)
-
-<!-- TODO: update the image -->
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Education/InputTranscoding.png)
 
 
 The transcoder modules may modify the channel count of the stream passing through it, depending on the format transfer being requested. For example, transcoding from Ambisonic B-Format into a Channel Based 3D Cube involves a four-channel Ambisonics stream getting transcoded into an eight-channel stream grouped and treated as a specific speaker configuration.
@@ -19,9 +17,7 @@ In the case where an incoming Channel Based stream needs transcoding into an out
 
 The main reason you will need to transcode inputs is when you are mixing and spatializing inputs in a SPAT _Virtual Room_. This is because the _Virtual Room_ module requires incoming sources to be in a Channel Based format. Internally, the Room may well be panning in Channel based, Ambisonics or binaural format, but it always needs Channel Based streams as inputs. More about this in the _Virtual Room_ section. Format transcoding may not always need re-spatializing in a room. There are some contexts where you will not use a Virtual Room in the signal flow,
 
-![](include/SpatRevolution_UserGuide_-088.jpg)
-
-<!-- TODO: update the image -->
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Education/TranscodingExplained.png)
 
 Here is an example of decoding an ambisonic signal using an input transcoder module. This could also be done in the master transcoder section of the graph.
 
@@ -33,6 +29,7 @@ As mentioned in [Introduction to Ambisonics](Scene_based_streams.md?id=introduct
 As some DAW does not support multichannel tracks, SPAT provides on the input transcoder a way to aggregate stereo or mono input in order to make multichannel sources.
 
 To do it, connect several inputs on the same input transcoder or source and select on it the wanted format. When selecting it, a combobox "Aggregate Input" will appear, and will allow to aggregate all the inputs.
-<!-- TODO: add the image -->
+
+![Input aggregation](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/InputAggregation.png)
 
 >! The order of the channel is determined by the connection order to the input transcoder or source.

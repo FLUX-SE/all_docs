@@ -5,7 +5,7 @@ _Nebula_ is a technology adapted from our flagship **FLUX:: Analyzer System**, a
 !> _Nebula Technology is only available with the Ultimate license of SPAT Revolution_.
 
 
-![](include/SpatRevolution_UserGuide_-100.jpg)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Layout/FilmMixingC.png)
 
 > Screenshot from a Flux Pure Analyzer session.
 

@@ -7,9 +7,9 @@ In answer to this challenge, *FLUX:: immersive* has developed an audio pipe tech
 
 The SPAT plug-ins offer a straightforward way to integrate the SPAT Revolution spatialization environment with other digital audio workstation environments - _running on the same machine._
 
-![]( https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/ReaperPlugins.png)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/ReaperPlugins.png)
 
-<!-- TODO: update the image ???? -->
+<!-- TODO: update the image -->
 
 **SPAT Send**
 

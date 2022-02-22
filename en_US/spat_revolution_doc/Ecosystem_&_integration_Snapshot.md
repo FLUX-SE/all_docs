@@ -14,9 +14,7 @@ Two ways to run the timecode:
 The timecode activity is apparent in the bottom left of the screen.
 If timecode isn't running, the recall will fail.
 
-![Timecode running](include/Sync.png)
-
-<!-- TODO: update the image -->
+![Sync](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Generic/Sync.png)
 
 Snapshots could be controlled by the dedicated menu, and with OSC messages.
 

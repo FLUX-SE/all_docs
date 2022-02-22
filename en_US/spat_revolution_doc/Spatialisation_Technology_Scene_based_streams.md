@@ -6,7 +6,7 @@ Simply put: Ambisonics is a specific method for creating, capturing and playing 
 
 Ambisonic is also both a recording and a spatial synthesis technique, where one can capture the full environment in 3D sound through the use of so called A-Format microphones such as the: Soundfield SPS200, Røde NT-SF1, Sennheiser Ambeo, Coresound TetraMic and more. Alternatively, a sound field can be synthesized from any mono, stereo and multichannel sources to Ambisonics, constructing a virtual 3D sound environment by placing the sources at locations in a virtual 3 dimensional field.
 
-![](include/SpatRevolution_UserGuide_-045.jpg)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Education/Ambisonic.png)
 
 ## Encoded audio
 

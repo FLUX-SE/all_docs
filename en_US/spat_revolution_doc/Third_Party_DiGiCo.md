@@ -11,9 +11,7 @@ Templates can be found here
 * Start the SPAT Revolution software and open the preference page.
 * Enable OSC.
 
-![Enable OSC](include/Digico_2.png) 
-
-<!-- TODO: update the image -->
+![Enable OSC](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Preference/OSCMain.png)
 
 * In the OSC Connections section, use the pre-configured DiGiCo OSC presets. 
   In the pull down menu, choose **input | DiGiCo** and select the local IP address you are using to communicate with the desk. 
@@ -21,9 +19,7 @@ Templates can be found here
   In the pull down menu, choose **output | DiGiCo.** 
   You will then enter the desk IP address that we will see in the next steps. 
 
-![OSC Connections DiGiCo Presets](include/Digico_3.png)
-
-<!-- TODO: update the image -->
+![OSC Connections DiGiCo Presets](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/DigicoOSCConnections.png)
 
 ## Configuration and Templates
 
@@ -36,14 +32,12 @@ _This is a one-time setup for each specific consoles._
 
 ![Network](include/Digico_4.png) 
 
-
 You will want to make sure **Enable External Control** is set to **YES** and the **Suppress OSC retransmit** is **active**. 
 You will be using OSC generic for channel controllers. 
 You are now ready to **add device** to configure the OSC connection. 
 It is considered **other OSC** .
 
 ![Network](include/Digico_5.png) 
-
 
 * Press **add device**, give your device a name: for example, SPAT Revolution. 
   Enter the IP address of your SPAT Revolution computer: in this example, **192.168.0.200.** 
@@ -61,7 +55,6 @@ One for using SPAT control on all of the input channels, one using it on groups.
 After your file is loaded, you can see for example how to access these parameters on the desk.
 
 ![Network](include/Digico_6.png) 
-
 
 Select an Input channel and open the channel's output page. 
 Select **external control**. 
@@ -92,9 +85,9 @@ Configured in the templates are:
   - Reverb (To completely enable/disable the reverb for this source - default on)
 
 
-**​DiGiCo OSC Generic External Control - Rotaries**
+**DiGiCo OSC Generic External Control - Rotaries**
 
-![​      DiGiCo OSC Generic External Control - Rotaries
+![DiGiCo OSC Generic External Control - Rotaries
 ](include/Digico_8.png) 
 
 **DiGiCo OSC Generic External Control - Switch**

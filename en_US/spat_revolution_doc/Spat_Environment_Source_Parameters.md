@@ -47,7 +47,7 @@ Envelopment corresponds to the perceived notion of how much the listener feels t
 
 ## Reverb Options
 
-![](include/SpatRevolution_UserGuide_-172.jpg)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Room/SourceReverb.png)
 <!-- TODO: update the image -->
 
 ### Reverb Enabled
@@ -158,7 +158,7 @@ The barycentric transformations will continue to orient their on-axis energy tow
 
 ## Options
 
-![](include/SpatRevolution_UserGuide_-183.jpg)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Room/SourceOptions.png)
 <!-- TODO: update the image -->
 
 Finally, there are some options available for each source. Some are available by sources only on Ultimate version. It is possible to edit a global parameter on the room panel on the preferences page. 
