@@ -7,7 +7,7 @@ In answer to this challenge, *FLUX:: immersive* has developed an audio pipe tech
 
 The SPAT plug-ins offer a straightforward way to integrate the SPAT Revolution spatialization environment with other digital audio workstation environments - _running on the same machine._
 
-![](/../../../doc_images/blob/main/SpatRThirdParty/ReaperPlugins.png)
+![]( https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/ReaperPlugins.png)
 
 <!-- TODO: update the image ???? -->
 
@@ -45,7 +45,7 @@ You can configure these settings in the SPAT Revolution Preferences, and matchin
 
 > If the sample rate and the buffer size don't match in SPAT Revolution, double-clicking over the "Sync section" at left bottom will automatically adjust them.  
 
-![](/../../../doc_images/blob/main/SpatRThirdParty/ReaperPluginsAdvancedPanel.png)
+![]( https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/ReaperPluginsAdvancedPanel.png)
 
 <!-- TODO: update the image ????-->
 
@@ -54,7 +54,7 @@ Set the IO Channel Count for each of the plug-ins this way.
 Each plug-in instance can carry up to 64 channels to and from SPAT.
 Once you have selected the channel count, _Enable_ the software routing using the _Local audio path_ switch.
 
-![](/../../../doc_images/blob/main/SpatRSetup/InputModuleRow.png)
+![]( https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/InputModuleRow.png)
 
 If SPAT is running, then a Send or Return IO module will automatically appear in the _Environment Setup_ labeled with the _Track Name_ of the SPAT plug-in, and set to the channel count you have configured in the plug-in. If all is well configuration wise, and a successful local audio stream has been established, the Send and Return modules will have a small green indicator.
 

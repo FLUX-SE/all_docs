@@ -1,4 +1,4 @@
-![](/../../../doc_images/blob/main/SpatRGeneric/SPATionautsImage.png)
+![]( https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Generic/SPATionautsImage.png)
 
 # FLUX:: Immersive SPAT Revolution
 

@@ -17,18 +17,18 @@ Referred to as a panning type in SPAT Revolution, the WFS spatial audio reproduc
 
 ## SPAT Revolution implementation of WFS
 
-![WFS](/../../../doc_images/blob/main/SpatRRoom/WFSNiceOutput.png)
+![WFS]( https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Room/WFSNiceOutput.png)
 
 
 Where traditionally WFS is used on a colinear array of very tightly spaced loudspeakers, SPAT Revolution allows for the use of the spatial audio reproduction technique on systems with greater spacing, in smaller loudspeaker quantity and potentially handling any type of 2D or 3D speaker arrangements.
 
-![WFS](/../../../doc_images/blob/main/SpatRRoom/WFSNice4.png)
+![WFS]( https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Room/WFSNice4.png)
 
 The panning method will become available to the room inspector as soon as a minimum of 5 loudspeakers are available.
 
 !> Even if a large spacing between speakers is allowed, keep in mind that the greater the spacing you have, the less coherent the results will be.
 
-![WFS Panning type](/../../../doc_images/blob/main/SpatRSetup/WFSPanning.png)
+![WFS Panning type]( https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/WFSPanning.png)
 
 The chosen WFS implementation is a minimum latency approach. This simply means that the closest speaker to the source has no delay. In the focus zone, the same principle is used to keep the latency at its minimum.
 
@@ -39,13 +39,13 @@ When using the WFS panning technique on a collinear frontal line arrangement, th
 
 !>  Enabling this option may trigger an Efficiency zone warning if the system does not respect the 0.4 meter spacing between speaker source elements recommendation.
 
-![Focus zone Enable](/../../../doc_images/blob/main/SpatRRoom/FocusZoneEnable.png)
+![Focus zone Enable]( https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Room/FocusZoneEnable.png)
 
-![Focus zone warning](/../../../doc_images/blob/main/SpatRRoom//FocusZoneWarning.png)
+![Focus zone warning]( https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Room//FocusZoneWarning.png)
 
 After activating, it will extend the efficiency zone with a focus area starting at the listening reference thus allowing sources to freely move inside the listening area.
 
-![Focus zone](/../../../doc_images/blob/main/SpatRRoom/FocusZone.png)
+![Focus zone]( https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Room/FocusZone.png)
 
 ### Further readings
 
@@ -57,7 +57,7 @@ After activating, it will extend the efficiency zone with a focus area starting 
 
 ## WFS Settings
 
-![WFS Settings](/../../../doc_images/blob/main/SpatRSetup/WFSSettings.png)
+![WFS Settings]( https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/WFSSettings.png)
 
 FLUX:: WFS implementation uses an interpolation strategy using a very precise calculation mode for delays values. This is to allow for a smooth transition with source movement rather than delay steps (inherent from digital audio).
 **6 parameters** are available in the room inspector of the setup page, and can allow to fine-tune the WFS render
