@@ -37,7 +37,7 @@ Two behaviors can happen when a source is inside the protection zone and when th
 
 When a source is inside the protection zone on a 3D capable stream type/speaker arrangement. the behaviour is set by the **Source over listener head** parameter, which is on by default. It is the legacy function where any source entering the zone follows the sphere of protection in elevation as it tries to enter. Thus, the source is processed at its elevated position. If disabled, the source will simply keep its elevation. In both cases, reaching the protection zone means the attenuation model based on the distance reaches its threshold. (same as for the Air absorption calculation)
 
-![ProtectionZonePanel](include/SpatR/Room/OutputProtectionZonePanel.png)
+![ProtectionZonePanel](/../../../doc_images/blob/main/SpatR/Room/OutputProtectionZonePanel.png)
 
 <!-- TODO: Image of Source over head in the 3D view -->
 
@@ -65,7 +65,7 @@ When **Presence infos** on the top bar of the 3D view is enabled, the overall pr
 
 ## The efficiency zone
 
-![](include/SpatR/Room/3DViewEfficiencyZone.png)
+![](/../../../doc_images/blob/main/SpatR/Room/3DViewEfficiencyZone.png)
 
 <!--TO BE COMPLETED-->
 By definition, the efficiency zone is where the virtual sound sources should be localized.
@@ -101,19 +101,19 @@ Note that the preferred behaviours are clamping or muting. **Clamping will preve
 
 The pictures below shown some key cases of clamping, on non-surround systems:
 
-![](include/SpatR/Room/3DViewAzimClamping.png)
+![](/../../../doc_images/blob/main/SpatR/Room/3DViewAzimClamping.png)
 
 > On non-surrounding systems, trying to escape the efficiency zone will result in the source being clamped to its foremost left or right.
 
-![](include/SpatR/Room/3DViewFrontClamping.png)
+![](/../../../doc_images/blob/main/SpatR/Room/3DViewFrontClamping.png)
 
 > If a source is placed in front of the speakers, the source will be clamped to the front line they formed while preserving the azimuth angle.
 
-![](include/SpatR/Room/3DViewMirrorClamping.png)
+![](/../../../doc_images/blob/main/SpatR/Room/3DViewMirrorClamping.png)
 
 > When a source is on the opposite side of a non-surround system, the projection of the virtual source will mirror the behavior of the actual source, thus, removing any jump or abrupt change in position of the source.
 
-![](include/SpatR/Room/3DViewMuteSource.png)
+![](/../../../doc_images/blob/main/SpatR/Room/3DViewMuteSource.png)
 
 > When a source is outside the efficiency zone and mute behaviour is selected, the source is represented differently.
 
@@ -131,7 +131,7 @@ When dealing with a 2D speaker array, there is no point at placing a source abov
 
 Most 3D speaker arrays have at least two speaker layers. Such layers are defined by three non-align speakers sharing the same height (z). Elevation clamping will handle sources as they exceed the extreme layers. This clamping behaviour, like with 2D speaker array, is shown with phantom sources that indicate the position used inside the DSP stage of SPAT Revolution.
 
-![](include/SpatR/Room/3DViewHeightClamping.png)
+![](/../../../doc_images/blob/main/SpatR/Room/3DViewHeightClamping.png)
 
 ## Limit cases
 
