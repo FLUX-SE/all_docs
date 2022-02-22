@@ -1,6 +1,4 @@
-![](include/LOGO_SPAT-White.png)
-
-![](include/SpatRevolution_UserGuide_-002.jpg)
+![](include/SpatR/Education/SPATionautsImage.png)
 
 # FLUX:: Immersive SPAT Revolution
 
