@@ -13,6 +13,7 @@ Depending on if you are working with a room using channel-based or not, or depen
 ## The protection zone
 
 ![](../../../doc_images/SpatR/Room/ProtectionZone.png)
+> Protection zone
 
 The protection zone is an area of the 3D space represented as a sphere around the listener head.
 It is important to understand that as most of the pan law or spatialization techniques are incapable of creating the illusion that a sound source comes from in front of the speakers (some exceptions like WFS) **we should try to avoid putting source inside this zone**
