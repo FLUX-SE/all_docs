@@ -132,11 +132,11 @@
 - Preferences/OSC connections - Fix possible error on OSC Transform windows
 - Add distance scaling support for source "Scale" and "Radius" (if different from default)
 
-#### Known Issues
+### Known Issues
 
-##### Show Stopper
+#### Show Stopper
 - ALT modifier doesn't work on Windows
-##### Most important
+#### Most important
 - WARNING: Generator on room output channel is after gain and mute. Use with precaution, change the level in the generator section of the preference page or on the MASTER module.
 - Position are not sent when dumping all properties through OSC on opening a session
 - macOS - Reported latency is not accurate when Device In/Out is the same
@@ -149,14 +149,15 @@
 - PI - AAX - Renaming a send track in ProTools changes the corresponding source verb enable, early, cluster and tail
 - Double-clicking on "Input stream" on the status bar resets to default the hardware buffer and sampling rate if no Send/Return
 - Connect a Send input to a source reset all parameters
-##### Important
+
+#### Important
 - Win10 - dump, get and ? messages don't work
 - OSC - Rotation X,Y and Z button aren't refreshed on automation and OSC message reception
 - The second OSC output status is not retained in AAX / AAX VENUE. Make sure you enable it after a reboot or an AAX host rack reset.
 - Broadcast OSC messages are not received on macOS. Workaround: use unicast
 
 
-### Build 21.4.0.50030
+## Build 21.4.0.50030
 
 **Improvements**
 
@@ -245,7 +246,7 @@
 * Audio processing optimizations
 
 
-##3 Build 20.12.0.49890
+### Build 20.12.0.49890
 
 **Major Additions**
 
