@@ -1,9 +1,5 @@
 # Channel Based Streams
 
-<!-- SPAT Revolution is set up to work with a number of different Input and Output formats. The different IO configurations are represented throughout the _Environment Setup_ as _Stream Types_.
-
-![](include/SpatRevolution_UserGuide_-054.jpg) -->
-
 We have already covered the two-channels binaural stream type for monitoring and final encoding into a binaural format. One of the other important Stream Types is referred to as __Channel Based__. This stream can range from a single-channel mono to a multichannel audio stream of up to 16 channels with the Essential license and 128 channels with ultimate license. These streams will flow as a perfectly synchronized group through the signal graph defined in the _Environment Setup_. The channel count of the stream is set by the choice in the __Speaker Arrangement__ pull down menu of a module. A change to the speaker configuration here alters the channel count in and out of a module, depending on its context in the signal graph. When you connect Channel Based modules together in SPAT, they automatically inherit the Speaker Arrangement and Channel Count from the stream type at their connected input.
 
 Channel based audio streams - when connected to a hardware output module - will render the spatial composition on speakers connected to the physical outputs of your audio hardware. SPAT is expecting the loudspeaker system specified in the Speaker Arrangement of the Output module. If the real loudspeaker arrangement does not correctly match the speaker arrangement model or there is a mistake in your routing somewhere, the spatial sound image will then be compromised.
@@ -26,6 +22,6 @@ Top Front Left | Back Center | Top Front Left
 > Some common Speaker Channel naming conventions.
 
 
-![](include/SpatRevolution_UserGuide_-056.jpg)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/SpeakerEditor2.png)
 
 The process of matching the correct channel to the correct speaker is absolutely vital to the successful rendering of the spatial composition from a SPAT _Virtual Room_ into a physical space. Further critical points to a successful project are the choice of panning type in a _Virtual Room_ and consideration of _the sweet spot_ for listener positioning. As it is such an important and often misunderstood idea, let’s take a look at that topic before going further.

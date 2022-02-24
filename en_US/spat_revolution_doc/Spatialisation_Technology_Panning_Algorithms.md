@@ -117,7 +117,7 @@ KNN is another panning type that does not depend on a sweet spot to be perceived
 
 An interesting parameter of KNN is that the user gets manual control over one of the main coefficients in the underlying algorithm. The parameter is called _Nearest Neighbor Spreading_. It sets a maximum limit to the number of speakers that the algorithm can use as neighbors - the parameter becomes available as a continuously variable percentage _for each virtual source_ in a SPAT room.
 
-![](include/SpatRevolution_UserGuide_-064.jpg)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Room/SourceSpreading.png)
 
 What makes this particularly interesting is that different sources can activate less or more of the sound system dynamically and in a very smooth way. For example, one virtual sound source might seem to pop in and out of individual speakers because its _Nearest Neighbors Spread_ parameter is set a low percentage. For example, on a 10-speaker arrangement :1-10% will use 1 speaker, 11% to 20% 2 and so on. Another sound source could seem diffuse over the entire sound system, because its spread variable is set to 100%.
 

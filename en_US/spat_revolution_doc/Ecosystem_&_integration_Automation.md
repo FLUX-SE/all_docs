@@ -2,7 +2,7 @@
 
 Almost all parameters of SPAT Revolution can be continuously controlled in real time using SPAT's high resolution _automated control_ features.
 
-![](include/SpatRevolution_UserGuide_-185.jpg)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/ReaperAutomation2.jpg)
 
 Control data can be sent via _Open Sound Control_ ( **OSC** ) or through multiple SPAT plug-ins in your **DAW**. 
 Parameter control can be played back from precomposed timelines, or performed, generated and captured in a variety of ways. 
@@ -16,7 +16,7 @@ If you are using _Figure53 Qlab_ for show control, spatial effects can be sent a
 
 If you are working with algorithmic gesture generators and modulators then your control signals can be easily sent into the SPAT Renderer via OSC to distribute and control spatial sound sources in real time using your own control programs.
 
-![](include/SpatRevolution_UserGuide_-187.jpg)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Generic/OSCIntegrationDiagram.jpg)
 
 > **Get creative with spatial sound design using OSC and Spat**
 

@@ -75,7 +75,7 @@ To overcome these difficulties, some OSC transform presets have been implemented
 
 Transform presets are accessible for each OSC connection and allow some quick re-scaling of the values.
 
-> ![](include/SpatRevolution_OSC_Input_Transform.png)
+> ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Preference/OSCTransformPresets.png)
 
 If the included transform preset does not fit yours needs, you can click on the <code>+</code> button to open the custom OSC transform menu.
 In this menu, you can choose how to scale our input our output values. You can also choose to exclude specific OSC command from the scaling rules.

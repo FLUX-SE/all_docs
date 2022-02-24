@@ -9,7 +9,7 @@ The transcoder modules may modify the channel count of the stream passing throug
 
 ## Transcoding Matrix
 
-![](include/SpatRevolution_UserGuide_-086.jpg)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/TranscoderMatrix.png)
 
 In the case where an incoming Channel Based stream needs transcoding into an outgoing Channel Based stream which has fewer channels, the IO Matrix is used to remap the output format by dropping some input channels. This is not strictly _Transcoding_ or _decoding_ but is a useful tool to have in a certain format changing scenarios. This matrix does not give the possibility to up-mix or down mix. To properly up mix or down mix, it is advisable to use a room to take the virtual source of one format, and output with the desired end format.
 

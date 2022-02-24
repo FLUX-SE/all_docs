@@ -9,7 +9,9 @@
 1. Download and installation
 
 ## Create and account
-![](include/SpatRevolution_StoreLogin.png ':class=img-title')
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/FLUX/Account/Create.png ':class=img-title')
+
+
 [Create an account](https://shop.flux.audio/en_US/login "")
 
 
@@ -17,7 +19,7 @@
 FLUX:: uses the iLok license management system to deliver software licenses to users. If you have received an activation code (such as from a dealer purchase),you can use the Redeem License Code window to activate your license.
 
 
-![](include/SpatRevolution_Redeem.png ':class=img-title')
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/FLUX/Account/RedeemLicense.png ':class=img-title')
 
 Visit our [License Code Activation page](https://shop.flux.audio/en_US/account/licence_code_redeem "").
 
@@ -25,7 +27,7 @@ Visit our [License Code Activation page](https://shop.flux.audio/en_US/account/l
 
 To activate licenses:
 
-![](include/ilok_m_logo.png ':class=img-title')
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/FLUX/Generic/IlokLogo.png ':class=img-title')
 
 - An iLok user account is required.
 - An iLok USB key is optional.
@@ -37,13 +39,13 @@ FLUX:: uses the iLok license management system to deliver software licenses to u
 ## iLok License Manager
 *If you have redeemed your software license or completed your purchase process, your license will automatically be delivered into your iLok account*
 
-![](include/SpatRevolution_Ilokpage.jpg ':class=img-title')
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/FLUX/Generic/IlokManager.jpg ':class=img-title')
 
 For new iLok users, the first step is to download and install the iLok license manager available on the home page of the iLok website. When your user account is successfully activated and the iLok license manager is correctly installed, you can start the license manager software and log in to your iLok user account.
 
 ## Transferring license
 
-![](include/SpatRevolution_IlokLicense.jpg ':class=img-title')
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/FLUX/Generic/iLokManagerTransfer.jpg ':class=img-title')
 
 Pressing on the sign in button will allow you to connect to your account. After Logging in, you are now ready to transfer any licenses to a computer or to any iLok USB key if you happen to have one. The process of transferring a license is as simple as dragging the license from the Available tab to your Local Computer *(or iLok key)* on the left side. SPAT Revolution Essential license is a single license where SPAT Revolution Ultimate is a bundle containing three (3) licenses, Essential, Ultimate and Legacy.
 
@@ -63,12 +65,12 @@ On this page you will find a Mac OS X, a Windows 64 bits. As well are provided l
 
 ## Center Preferences
 
-![](include/SpatRevolution_FluxCenter_-021.jpg ':class=img-title')
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Center/Generic/TopBar.jpg ':class=img-title')
 
 When you open FLUX:: Center you will see a page that lists all FLUX:: products available for you to install. You will also find information about which version you have currently installed on your system and which new versions might be available for you to update to. You can select versions to install - or uninstall if necessary - using the pull down menus. If you would like to access more installer options such as your preferred plug-in format, please click on the gear icon to the top right of the header area.
 
 ## Center Preferences and Options
-![](include/SpatRevolution_FluxCenter_-023.png ':class=img-title')
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Center/Generic/Preferences.jpg ':class=img-title')
 > *Spat Revolution Send/Room/Return plugins are available in VST-64bit, AU-64bit and AAX-64bit only.*
 
 This preference page will allow you to choose various installation options such as preferred plug-in formats for your system. Choosing your format and returning to the main page by pressing the OK button will show all your install options for software and plugins based on the desired formats chosen.

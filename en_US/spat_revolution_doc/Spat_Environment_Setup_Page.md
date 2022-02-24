@@ -116,7 +116,7 @@ Duplicate the selected modules.
 
 **Room duplication**
 
-![](include/SpatRevolution_duplicate_selected_room.png)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/RoomDuplicate.png)
 
 SPAT Revolution allows to quickly duplicate a room with a few options to help the user
 to optimize the routing process. To access this menu, simply click on the <code>Duplicate Selected</code> button, when only a room selected.
@@ -156,7 +156,7 @@ As you can imagine routing and patching high density channel counts can get comp
 When it comes to that, the SPAT routing matrix is there to help.
 You will find it at many points throughout the **Environment Setup** graph.
 
-![width=800, atl=Spat Revolution Matrix](include/SpatRevolution_UserGuide_-031.png)
+![width=800, atl=Spat Revolution Matrix](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/OutputMatrix.png)
 
 > *Avoid cable swapping on the loudspeaker setup, use software routing instead.*
 
@@ -167,28 +167,3 @@ The speaker configuration editor, a clear channel labeling and the built-in rout
 > The shortcut <code>Ctrl + click</code> will route one per one all the following channels.
 
 Master transcoder and master matrix support summing, thus, one input can be connect to several outputs, or the opposite.
-
-
-
-<!-- ## Connect/disconnect Modules
-
-![](include/SpatRevolution_UserGuide_-074.jpg)
-
-Connect or disconnect modules by using <code>command/control + click</code> to select some followed by any of the actions available in the options panel on the right of the window. Various keyboard shortcuts are also available for each action. As you connect modules and build up a signal graph, you will see some 'wires' appear which connect modules together. In SPAT Revolution these 'wires' represent connections in the signal graph diagram, you do not directly interact with them. It is not a 'patching' type of interface.
-
-
-There is no UNDO/REDO paradigm in the signal graph editor at this point. Instead of it is advisable to use <code>Connect/Disconnect Selected</code> actions to restructure the signal graph. Try to avoid deleting modules until you are certain that is the correct action.
-
-
-It is possible to connect some modules, such as input or source, to multiple destinations, as a way of making doubles in a single or doubling a single source into different virtual rooms.
-
-![](include/SpatRevolution_UserGuide_-076.jpg) -->
-
-
-<!-- ![drag&drop5](include/drag&drop5.gif)-->
-<!-- TODO: update the image -->
-
-<!--We can also reorganize  sources inside rooms. Again, a simple drag and drop allows this smooth  reorganization. This modification is mirrored on the Setup page.-->
-
-<!-- ![drag&drop4](include/drag&drop4.gif)-->
-<!-- TODO: update the image -->

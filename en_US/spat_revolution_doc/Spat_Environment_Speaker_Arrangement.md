@@ -1,6 +1,6 @@
 # Speaker Arrangement Editor
 
-![width=700, atl=Spat Revolution Speaker Config](include/SpatRevolution_SpeakerConfig_1.png)
+![width=700, atl=Spat Revolution Speaker Config](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/SpeakerEditor1.png)
 
 ## Rendering to Speakers
 
@@ -16,7 +16,7 @@ The golden rule when working with multi-channels based audio is to ensure to hav
 
 ## Custom speaker arrangement
 
-![width=700, atl=Spat Revolution Speaker Position](include/SpatRevolution_UserGuide_-039.jpg)
+![width=700, atl=Spat Revolution Speaker Position](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/SpeakerEditorCompute2.png)
 
 While there are many standardized speaker array, such as Dolby Surround, Atmos, Auro 3D, DTS, Quad or even stereo, we are in many cases confronted to a very specific speaker positioning.
 

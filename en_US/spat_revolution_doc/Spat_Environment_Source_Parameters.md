@@ -11,7 +11,7 @@ Only the parameter dedicated to the current room will be displayed, but it's pos
 
 ## Perceptual Factors
 
-![](include/SpatRevolution_UserGuide_-170.jpg)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Room/SourcePerceptualFactors.png)
 
 This parameter group holds settings affecting the way the sources direct and reverberated acoustic properties are perceived by the listener.
 
@@ -74,7 +74,7 @@ Controls the width of the sound projection lobe of the early reflections from a 
 
 ## Axis / Omni Filters
 
-![](include/SpatRevolution_UserGuide_-174.jpg)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Room/SourceSpectral.png)
 
 These two spectral processors can be considered as being equalizers that have been especially designed for virtual sound emitters simulated in virtual spaces.
 
@@ -92,7 +92,7 @@ Setting a rather flat on-axis equalizer curve, and maybe cutting the treble and 
 
 ## Radiation
 
-![](include/SpatRevolution_UserGuide_-176.jpg)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Room/SourceRadiation.png)
 
 This section controls the simulation of acoustic radiation in relation to the location and emitter orientation of the virtual source. Use these parameters to simulate how a source will interact inside the reverberant environment.
 
@@ -130,7 +130,7 @@ The aperture parameter relates to the “sound cone” projected by the virtual 
 
 ### Send LFE
 
-![](../include/SpatRevolution_UserGuide_-180.jpg)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Room/SourceSendLFE.png)
 
 This panel will only be available when the room is a Channel-Based Format which features one or several LFE speakers in its configuration, such as DTU7.1 / 5.1 / 22.2, AURO and ATMOS for example.
 
@@ -140,7 +140,7 @@ It will send an amount of the source into the dedicated LFE speaker channels of 
 
 ## Barycentric
 
-![](include/SpatRevolution_UserGuide_-181.jpg)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Room/SourceBarycentric.png)
 
 These rotational transformations will only work on a virtual source that consists of more than one emitter in a grouped channel based arrangement. They will also become active when you _shift-select_ mono sources together to form an ad hoc group or shift-select mono sources in combination with grouped channel-based sources. The 3 dimensional group rotations are calculated using a 'barycentric gravity' method to transform a network of sound sources constrained in a group relationship.
 
@@ -185,7 +185,7 @@ Specifies the radius of a sphere or disc in meters, centered around the listener
 
 ## Spreading
 
-![](include/SpatRevolution_UserGuide_-178.jpg)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Room/SourceSpreading.png)
 
 ### Spread Factor
 

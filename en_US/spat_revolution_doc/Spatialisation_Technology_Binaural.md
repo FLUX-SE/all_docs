@@ -65,7 +65,7 @@ It is available on the room parameter on the setup page, but also on the output 
 
 ## Binaural Monitoring Module
 
-![](include/SpatRevolution_UserGuide_-050.jpg)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/BinauralMonitor.png)
 
 !> _Routing examples available with Ultimate license._
 

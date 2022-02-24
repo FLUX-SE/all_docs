@@ -6,7 +6,7 @@ In SPAT Revolution, spatialization of virtual sources takes places inside _Rooms
 
 When we enter a Room, we will see the 3D view and all the connected sources. Option related to the 3D view display are located in top menu. On the left side panel of the room editor, you get a list representation of each source with its index identification number. We can click on the Index number of each source, and the _[source parameters](6_Spat_Environment_6_6_Source_6_6_Source?id=source-parameters.md)_ editor for that virtual source will appear.
 
-![](include/SpatRevolution_UserGuide_-094.jpg)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Room/3DView.png)
 
 Two special index items labeled as **(R) REVERB** and **(M) OUTPUT** appear fixed at the bottom of the left panel. By clicking on these, we then enter into two more parameter editors: one relating to the _[Artificial reverberation](8_Artificial_Reverberation_8_Artificial_Reverberation.md)_ and one relating to the room output configuration and [Listener Position](5_Spatialisation_Technology_5_4_Listener_Position.md) editor.
 
@@ -132,7 +132,7 @@ This panel contains options related to the efficiency zone.
 + Depth - change the depth of the efficiency zone
 + Trunc (available only for non-surrounding 2D speakers' setup) - change the starting distance of the efficiency zone
 
-![](include/efficiencyZoneOptions.png)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Room/OutputEfficiencyZonePanel.png)
 
 ### Scaling
 

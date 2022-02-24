@@ -121,7 +121,7 @@ Consider as well to kill as many processes not required as possible (Wi-Fi/inter
 
 Included in release version 20.12 is the ability to display performance (CPU) measurements. This can be done in the **Help** menu **Display Performance** option. This can be accesses as well with shortcuts <code>Shift + Option + Command + P</code>.
 
-![Display Performance](include/display_performance.png)
+![Display Performance](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Generic/DisplayPerformance.png)
 
 
 ## Engine Parallel Processing profile
@@ -131,15 +131,15 @@ _!> Engine profiles are only available with the Ultimate license of SPAT Revolut
 SPAT Revolution v20.12 introduced a new Multi-Core Parallel Computation Algorithm that is key to optimizing your hardware. This is for both the automation and the audio processing. The **Display Performance** option stated above will be our best ally to monitor the results. This can be accessed with shortcuts <code>Shift + Option + Command + P.</code>
 
 The Engine Preference section includes three Profiles for parallel processing
-![New updated Engine Preference Section](include/engine_profile_1.png)
+![New updated Engine Preference Section](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Preference/Engine.png)
 
 **Automation Rate** provides the ability to set the refresh rate (frequency) of the automation. By default, we use 10.0 ms (100.00 fps). This can be decreased to lower the frequency if you see that automation is becoming a burden for your system with such a fast refresh.
 
-![Automation Rate Optimization](include/engine_profile_4.png)
+![Automation Rate Optimization](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Preference/EngineAutomationRate.png)
 
 **Max Number of Core** is your ability to make more or fewer cores available to the SPAT Revolution algorithm. By default, it will be at your number of native core. Not hyper-threading. This can be increased or reduced. Watch not to take all cores for a multitasking computer.
 
-![Max Number Of Cores - Engine Preference](include/engine_profile_3.png)
+![Max Number Of Cores - Engine Preference](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Preference/EngineNumberOfCores.png)
 
 Lastly are the 3 presets for you to choose from.
 
@@ -151,6 +151,6 @@ Parallel Profile:
 
 * **Balanced Distribution** is a preset somehow in the middle. It intends to be a balance between both above options.
 
-![Parallel Processing Algo Profile](include/engine_profile_2.png)
+![Parallel Processing Algo Profile](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Preference/include/EngineProfiles.png)
 
 ---

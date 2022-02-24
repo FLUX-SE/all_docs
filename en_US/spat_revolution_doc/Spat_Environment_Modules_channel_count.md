@@ -25,7 +25,9 @@ A two-channel audio stream will appear in the _Virtual Room_ as two mono sources
 
 The next significant channel count that needs disambiguation from the user is a four-channel stream.
 
-![](include/SpatRevolution_UserGuide_-082.jpg)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/InputInspectorQuad.png)
+
+
 
 A four-channel stream could contain the format of a four-speaker Channel Based formats (QUAD, 4.0, LCRS) but could also contain different formats of interleaved four-channel Ambisonic audio (A-Format, B-Format). You can read more about A-Format and B-Format in the [Ambisonics](Scene_based_streams.md) section of this user guide. The important thing to remember here is that confusing Ambisonic audio and Channel Based audio is a significant mistake, even though you might hear
 something 'wide sounding.'

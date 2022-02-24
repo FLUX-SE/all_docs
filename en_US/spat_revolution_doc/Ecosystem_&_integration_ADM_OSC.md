@@ -16,7 +16,7 @@ Other industry peers have implemented early versions of ADM-OSC such as L-Acoust
 
 ## ADM-OSC in SPAT Revolution
 
-![SPAT Revolution ADM OSC]( https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Education/ADMOSC.png )
+![SPAT Revolution ADM OSC](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Education/ADMOSC.png )
 
 SPAT Revolution supports **ADM-OSC** in input as an alternate grammar, and on output as an option. The specification calls for normalized (linear) data value to provide interoperability and tend to align with the ADM protocol. Typically, object-based mixing renderers will handle the scaling based on the system configuration.
 
@@ -35,7 +35,7 @@ To configure ADM-OSC, make sure OSC is enabled and go to the OSC Connection sect
 
 * Enter the IP address of the destination.
 
-![OSC I/O presets]( https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Preference/OSCConnectionsADM.png )
+![OSC I/O presets](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Preference/OSCConnectionsADM.png )
 
 On the OSC input connection, you can see that Port #9000 is our default incoming port and that and ADM Transformation preset is applied to match the specification.
 To modify the incoming range (the automation zone), simply enter your desired value. In this example, we are scaling to -3.00, 3.00.
@@ -47,7 +47,7 @@ To modify the incoming range (the automation zone), simply enter your desired va
 In this example, we are sending data from the -3.00, 3.00 zone.
 All output options are already set with the preset.
 
-![OSC I/O presets]( https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Preference/OSCTransformPresetADMOutput.png)
+![OSC I/O presets](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Preference/OSCTransformPresetADMOutput.png)
 
 
 
@@ -55,8 +55,8 @@ All output options are already set with the preset.
 
 Recently, L-Acoustics released their new L-ISA controller that can now output ADM-OSC as an alternate method (hardware required) and is functional to be received by SPAT Revolution, for example. OSC messages can be sent using the ADM-OSC format and be interpreted identically by any ADM-OSC compatible device.
 
-![L-ISA]( https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/LisaOSCConfiguration.png )
+![L-ISA](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/LisaOSCConfiguration.png)
 
 Furthermore, Nuendo V11 adds the support of external OSC renderers, by mapping bidirectionally the multi-panner
 
-![Nuendo]( https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/NuendoPanner.png)
+![Nuendo](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/NuendoPanner.png)

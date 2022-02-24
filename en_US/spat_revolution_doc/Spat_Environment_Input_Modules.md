@@ -1,6 +1,6 @@
 ## Inputs Module
 
-![](include/SpatRevolution_UserGuide_-080.jpg)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/InputModuleRow.png)
 
 SPAT Revolution itself does not play audio files. The input blocs are here to access to audio streams and process them in the SPAT Revolution spatialization engine. Input blocs are represented at the top row of the signal graph.
 
@@ -14,7 +14,7 @@ To create a hardware blocs, click one of the *+* button at the left of the row. 
 
 Allows to edit the name of an input. It is possible to edit several names at once by selection several blocs and clicking on the "Input Name Wizard" button in the inspector.
 
-![](include/SpatRevolution_InputNames.png)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/InputNameWizard.png)
 
 ## Inputs configuration
 

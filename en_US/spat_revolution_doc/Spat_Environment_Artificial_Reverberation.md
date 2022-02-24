@@ -53,13 +53,15 @@ Additionally, a range is graphically indicated between the default setting and t
 
 ![](include/SpatRevolution_UserGuide_-146.jpg)
 
+<!-- TODO: Update this image -->
+
 > _Use the defaults as reference points in your spatial sound design._
 
 ## Reverb Design Presets
 
 The Artificial Reverberation editor has its own preset management system, where you can save pre-designed models into a user defined preset list or to disk.
 
-![](include/SpatRevolution_UserGuide_-160.jpg)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Room/ReverberationDrawing.png)
 
 This is useful for building up a collection of pre-designed reverberation spaces and for designing models that might closely match the measurements of actual spaces
 you already know.
@@ -75,7 +77,7 @@ Right click on a parameter dial, and a contextual menu will pop up. From there y
 
 ## Reverb General
 
-![](include/SpatRevolution_UserGuide_-150.jpg)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Room/ReverberationGeneral.png)
 
 ### Reverb Enabled
 
@@ -102,7 +104,7 @@ Reverb start sets the duration between the direct, dry source signal, and the fi
 
 ## Perceptual Factors
 
-![](include/SpatRevolution_UserGuide_-152.jpg)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Room/ReverberationPerceptualFactors.png)
 
 ### Reverberance
 
@@ -121,7 +123,7 @@ Describes the liveliness and movement associated with the reverb tail (late refl
 
 ## Room Response Parameters
 
-![](include/SpatRevolution_UserGuide_-154.jpg)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Room/ReverberationRoomResponse.png)
 
 _Early_ refers to the _Early Reflections_ stage of the Room response, which is one of the most significant stages involved in our rapid aural perception of spatial properties and sound source localisation.
 
@@ -166,7 +168,7 @@ See Early Distribution.
 
 ## Options
 
-![](include/SpatRevolution_UserGuide_-156.jpg)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Room/ReverberationOptions.png)
 
 ### Infinite
 
@@ -191,7 +193,7 @@ Roll-off frequency for the air absorption simulation. Signal content above this 
 
 ## Crossover
 
-![](include/SpatRevolution_UserGuide_-158.jpg)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Room/ReverberationCrossover.png)
 
 ### Crossover L
 

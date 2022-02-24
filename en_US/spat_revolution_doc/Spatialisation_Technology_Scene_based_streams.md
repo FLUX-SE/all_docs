@@ -14,7 +14,7 @@ Ambisonic, as opposed to other surround and spatial techniques and methods does 
 
 When Ambisonics is played back on speakers, all the speakers contribute to the directional content, what one is hearing is not the sound coming from a specific speaker but from a specific direction.
 
-![](include/SpatRevolution_UserGuide_-047.jpg)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/ReaperHOA3DTrack.png)
 
 > Overview of a fifth-order HOA 3D Ambisonic File created by Tine Surell Lange.
 
@@ -75,7 +75,7 @@ To help with these different standards, we have created Ambisonics presets to si
 
 ## A-Format
 
-![](include/SpatRevolution_AFormatPreset.png)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/InputInspectorAFormat.png)
 
 A-format is a 4-channel audio stream. It is the RAW output of a first-order ambisonic microphone, so it has not been encoded to ambisonic yet. So we need to transcode a A-Format input to an HOA or a channel-based stream. Because each manufacturer has their own strategy to create such microphone, we have almost as many transcoder as A-format microphone builder. SPAT Revolution comes with a comprehensive list of A-Format transcoder, including Sennheiser Ambeo, Soundfield, DPA, Oktava etc.
 

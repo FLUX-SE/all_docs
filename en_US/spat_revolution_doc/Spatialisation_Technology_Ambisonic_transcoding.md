@@ -17,7 +17,7 @@ It samples the virtual panning function at the loudspeaker directions.
 SAD is optimal for loudspeakers arranged as t-design layouts, with t ≥ (2N+1) ( N being the Ambisonics order).
 Typically, the SAD should only be used for 2D loudspeaker layouts, i.e., regularly arranged in a circle. Avoids this decoder for 3D setups.
 
-*What Is a T-Design Layout?*
+*What is a T-Design Layout?*
 
 To keep it really simple, t-design is a mathematical way of constructing sphere perimeters or circle surfaces with an array of point that is homogenous. In 2D the point simply put on a circle and are evenly spaced. In 3D, things get much more complicated many t-design point layouts exist.
 In SPAT Revolution, we chose to use the method used by the mathematician Sloane for our speaker layouts.

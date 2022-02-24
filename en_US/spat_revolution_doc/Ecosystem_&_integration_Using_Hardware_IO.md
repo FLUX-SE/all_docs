@@ -4,7 +4,7 @@
 
 When you have a high channel count hardware IO connected to your SPAT Revolution workstation, it is possible to receive signals from the hardware unit physical inputs into SPAT at the top of the setup environment and route to the units physical outputs at the bottom of the setup graph - these are labeled as 'Hardware' IO in SPAT.
 
-![](include/SpatRevolution_UserGuide_-128.jpg)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/InputBlockLine.jpg)
 
 Hardware input connections could include:
 
@@ -20,7 +20,7 @@ Hardware input connections could include:
 
 Hardware input formats could be mono, stereo or a format with any number of channels. Channels could be set up as single virtual sources, or as group multichannel sources using only one input/source module.
 
-![](include/SpatRevolution_UserGuide_-130.jpg)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/InputBlockFormat.jpg)
 
 ## Distributed Hardware Workflow
 

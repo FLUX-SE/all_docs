@@ -11,7 +11,7 @@ Also, the camera angle can be manipulated:
 + *cmd/ctrl+drag* will rotate the scene.
 + *shift+drag* will move the scene.
 
-![](include/SpatRevolution_UserGuide_-098.jpg)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Room/3DViewDualView.png)
 
 > A split screen Top-Front view is also available in the top bar menu. See the corresponding section below.
 
@@ -43,7 +43,7 @@ _Nebula_ is a technology adapted from our flagship **FLUX:: Analyzer System**, a
 
 The overall principles behind _Nebula_ are quite straightforward. At any given time, and for every frequency, the engine computes the position of a frequency in space (2D in stereo and 3D for multi-channel surround). This position is taken as the center of gravity of the various channels, weighted by the relative amplitude of the signal in their corresponding channel. A color-intensity mapped projection is computed for the multi-speaker plane, giving a spectrum-space frame constrained to the surround sound field radius or sphere. Past analysis frames are progressively “forgotten”, using blur and dimming, in order to make place for new information, which gives the graphic display increased legibility and its characteristic 'nebulous' quality.
 
-![](include/SpatRevolution_UserGuide_-102.jpg)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Room/3DViewNebula.png)
 
 ## Room output parameters
 
@@ -82,7 +82,7 @@ This panel contains options related to the efficiency zone.
 + Depth - change the depth of the efficiency zone
 + Trunc (available only for non-surrounding 2D speakers' setup) - change the starting distance of the efficiency zone
 
-![](include/efficiencyZoneOptions.png)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Room/OutputEfficiencyZonePanel.png)
 
 ### Scaling
 
