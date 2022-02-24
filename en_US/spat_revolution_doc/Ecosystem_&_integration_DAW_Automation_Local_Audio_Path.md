@@ -62,7 +62,7 @@ If SPAT is running, then a Send or Return IO module will automatically appear in
 
 ## Plug-ins parameters
 
-**Index** - Relates the Plug-in automation to a [Virtual Source](6_Spat_Environment_6_4_Inputs_6_4_Inputs)
+**Index** - Relates the Plug-in automation to a virtual source.
 - INDEX is assigned automatically and can only be changed manually to an index number that is not yet in use by another SPAT Plug-in.
 
 **Position mode** - In Send only, choose the recorded and read coordinate mode.  

@@ -6,7 +6,7 @@ As with the custom speaker arrangement editor, we can apply some transformations
 
 To open the transform menu, right click on a source in the source panel and choose "Transform." You can also use the shortcut <code>CMD/CTRL + SHIFT + T</code>.
 
-Please check the section about [Speaker Arrangement](Spatialisation_technology_Speaker_Arrangement.md) if you want more details about the different transform.
+Please check the section about [Speaker Arrangement](Spatialisation_Technology_Speaker_Arrangement.md) if you want more details about the different transform.
 Sources’ transformations also include an integration time which allows to create smooth transition between the current and the new source position.
 
 ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Room/SourceTransform.png)

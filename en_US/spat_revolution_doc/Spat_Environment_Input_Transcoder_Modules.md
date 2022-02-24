@@ -21,7 +21,7 @@ The main reason you will need to transcode inputs is when you are mixing and spa
 
 Here is an example of decoding an ambisonic signal using an input transcoder module. This could also be done in the master transcoder section of the graph.
 
-As mentioned in [Introduction to Ambisonics](Scene_based_streams.md?id=introduction-to-ambisonics), a decoding stage is absolutely necessary to render Ambisonics encoded audio to speakers. It can be done like this without the need of a room.
+As mentioned in [Introduction to Ambisonics](Spatialisation_Technology_Scene_based_streams.md?id=introduction-to-ambisonics), a decoding stage is absolutely necessary to render Ambisonics encoded audio to speakers. It can be done like this without the need of a room.
 
 
 ## Aggregation of input
@@ -30,6 +30,6 @@ As some DAW does not support multichannel tracks, SPAT provides on the input tra
 
 To do it, connect several inputs on the same input transcoder or source and select on it the wanted format. When selecting it, a combobox "Aggregate Input" will appear, and will allow to aggregate all the inputs.
 
-![Input aggregation](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/InputAggregation.png)
+![Input aggregation](https://raw.githubusercontent.com/FLUX-SE/doc_images/main/SpatR/Setup/InputAggregation.png)
 
 >! The order of the channel is determined by the connection order to the input transcoder or source.

@@ -136,7 +136,7 @@ There are five colors associated with the possible panning types:
 
 > Error displayed with HOA panning type.
 
-For more information about each pan law, check out the section [Panning algorithms](5_Spatialisation_Technology_5_5_Panning_Algorithms.md).
+For more information about each pan law, check out the section [Panning algorithms](Spatialisation_Technology_Panning_Algorithms.md).
 
 
 <!-- > *Editing a speaker arrangement showing a copy of a 13.1 Auro 3D speaker arrangement.* -->

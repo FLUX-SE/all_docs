@@ -242,6 +242,6 @@ In _Favor First Core_, the engine will fill the CPU cores one by one. The _Balan
 
 ### BlackTrax RTTrPM - Ultimate only
 
-![BlackTrax Section]( https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Preference/BlackTrax.png)
+![BlackTrax Section]( https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Preference/Blacktrax.png)
 
 See the integration chapter about [BlackTrax](ThirdParty_BlackTrax.md)

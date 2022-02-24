@@ -122,4 +122,4 @@ Most 3D speaker arrays have at least two speaker layers. Such layers are defined
 
 + Elevation clamping does not occur with distance-based pan law when using 3D speaker array, except for the Z=0 plan. This prevents some jumps and aberrations in sound. <!-- TODO: Clarify, DBAP can't be 3D, you mean for KNN an WFS? -->
 + When using a 2D non-surrounding speaker array, efficiency and elevation clamping are tied together. If efficiency clamping is activated, SPAT Revolution automatically switches on the elevation clamping. On the contrary, if elevation clamping is turned off, then, so is the efficiency clamping.
-+ WFS is the only case where it can make sense to put virtual sources in front of the speakers, to take advantages of the focus zone. This zone and the associated behaviour is detailed in the  [WFS Section](Spatialisation_Technologies_WFS.md) of this user guide.
++ WFS is the only case where it can make sense to put virtual sources in front of the speakers, to take advantages of the focus zone. This zone and the associated behaviour is detailed in the  [WFS Section](Spatialisation_Technology_WFS.md) of this user guide.

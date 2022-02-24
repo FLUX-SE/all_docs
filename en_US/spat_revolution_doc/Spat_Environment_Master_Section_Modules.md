@@ -2,7 +2,7 @@
 
 The **Sum** row of modules is used to mix the output of two or more rooms of the same output configuration and in some contexts, to sum inputs directly without the use of room.
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/ChannelBasedSession.jpg)
+![](https://raw.githubusercontent.com/FLUX-SE/doc_images/main/SpatR/Setup/ChannelBasedSession.jpg)
 
 The **Sum** module can handle different input configurations.
 It will Sum channels based on their channel names, so a correct naming convention is important.
@@ -15,7 +15,7 @@ The same options and routing are available as in the _[Input Transcoder modules]
 
 The **Master** bloc gives you a last gain staging control, as well as down mixing capabilities. When opening its matrix, it is possible to patch several inputs to one output, or, one input to several outputs.
 
-![Master matrix](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/MasterMatrix.png)
+![Master matrix](https://raw.githubusercontent.com/FLUX-SE/doc_images/main/SpatR/Setup/MasterMatrix.png)
 
 Finally, the [**Binaural Monitoring**](5_Spatialisation_Technology_5_1_Binaural_5_1_Binaural?id=binaural-monitoring-module.md) row provides a way to decode the whole scene to headphones only in binaural 3D.
 

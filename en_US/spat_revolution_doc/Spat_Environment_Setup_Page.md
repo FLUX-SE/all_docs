@@ -12,10 +12,10 @@ The _Environment Setup_ editor is a modular environment. The signal flow starts 
 * [Input Transcoders](Spat_Environment_Input_Transcoder_Modules.md)
 * [Sources](Spat_Environment_Source_Room_Modules.md)
 * [Rooms](Spat_Environment_Source_Room_Modules.md)
-* [Sums]((Spat_Environment_Master_Section_Modules.md))
+* [Sums](Spat_Environment_Master_Section_Modules.md)
 * [Master Transcoders](Spat_Environment_Master_Section_Modules.md)
 * [Masters](Spat_Environment_Master_Section_Modules.md)
-* [Binaural Monitors](Spat_Environment_Master_Sectio_Modules.md)
+* [Binaural Monitors](Spat_Environment_Master_Section_Modules.md)
 * [Outputs](Spat_Environment_Output_Modules.md)
 
 ## Stream types and associated options
