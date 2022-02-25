@@ -28,9 +28,8 @@ Furthermore, the pushed data can be captured in a console snapshot.
 Automation prepared in pre-production (third party like DAW or controllers) can be captured by the console PI snapshots.
  
 
-![SPAT plug-in on S6L CKM module – Page 1 of 3](include/S6L_image_encoder.png) 
+![SPAT plug-in on S6L CKM module – Page 1 of 3](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/S6LEncoders.png) 
 **SPAT plug-in on S6L CKM module – Page 1 of 3**
-
 
 The integration will include ultimately 2 parts: the control portion, and the audio portion. 
 Our control will always be using OSC and will be communicating via either the ECx port of the console, or via the AVB network interface (port C/D). 
@@ -45,11 +44,11 @@ This makes it as well a cross platform solution Windows or Mac.
 
 
 
-![Dual SPAT Revolution integration to S6L via MADI](include/SpatRevolution_UserGuide_S6L_Dual_SpatRevolution_integration_S6L_MADI.png) 
+![Dual SPAT Revolution integration to S6L via MADI](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/S6LDualSpatRevolutionIntegrationS6LMadi.png) 
 **Dual SPAT Revolution integration to S6L via MADI**
 
 
-![SPAT Revolution integration to S6L via the AVB port for audio and control](include/SpatRevolution_UserGuide_S6L_SpatRevolution_integration_AVB.png) 
+![SPAT Revolution integration to S6L via the AVB port for audio and control](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/S6LIntegrationAVB.png) 
 **SPAT Revolution integration to S6L via the AVB port for audio and control**
 
 
@@ -58,11 +57,11 @@ This makes it as well a cross platform solution Windows or Mac.
 Now let’s look at configuring the control (OSC) part of this integration. 
 The OSC settings (SPAT send plug-in and SPAT Revolution) are specific to your console IP address and to the SPAT Revolution preferences.
 
-![SPAT Send plug-in in the Plug-Ins rack of VENUE](include/S6L_PI_Rack.png)  
+![SPAT Send plug-in in the Plug-Ins rack of VENUE](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/S6LPluginRack.png)  
 **SPAT Send plug-in in the Plug-Ins rack of VENUE**
 
  
-![SPAT Send plug-in setup](include/S6L_image.png) 
+![SPAT Send plug-in setup](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/S6LSend.png) 
 **SPAT Send plug-in setup**
 
 
@@ -93,24 +92,18 @@ Let’s now setup your preferences in SPAT Revolution preferences page:
 
 **SPAT OSC Main Preferences**
 
-![SPAT OSC Main preferences](include/S6L_OSC_Main.png) 
-
-<!-- TODO: update the image -->
+![SPAT OSC Main preferences](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Preference/OSCMain.png)
 
 
 - In the OSC Connections section, you will see 8 OSC connections slots. Set one connection to Input Avid S6L and one to Output Avid S6L. We will use 2 slots for this. Output will be to go to S6L SPAT Send Plug-in, In will be to listen to S6L in SPAT Revolution.
 		
 **SPAT OSC Connections Matrix**
 
-![SPAT OSC Connections Matrix](include/S6L_image(1).png) 
+![SPAT OSC Connections Matrix](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/S6LOSCConnectionMatrixInput.png) 
 
 <!-- TODO: update the image -->
 
-![SPAT OSC Connections Matrix](include/S6L_image(2).png)
-
-<!-- TODO: update the image -->
-
-![SPAT OSC Connections Matrix](include/S6L_image(3).png) 
+![SPAT OSC Connections Matrix](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/S6LOSCConnectionMatrixOutput.png)
 
 <!-- TODO: update the image -->
 
@@ -130,7 +123,7 @@ Let’s now setup your preferences in SPAT Revolution preferences page:
 Let’s now look for the  Hardware I/O connection. This is where you will configure the hardware input and output (audio interface) for SPAT Revolution. 
 
 **SPAT Hardware IO (Audio) preferences – AVB example**
-![SPAT Hardware IO (Audio) preferences – AVB example](include/SpatRevolution_UserGuide_S6L_Spat_HardwareIO_AVB.png)	
+![SPAT Hardware IO (Audio) preferences – AVB example](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/S6LHardwareIOAVB.png)	
 
 <!-- TODO: update the image -->
 

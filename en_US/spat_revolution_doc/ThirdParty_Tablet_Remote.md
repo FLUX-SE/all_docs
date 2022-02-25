@@ -29,9 +29,9 @@ As an example, in iOS, once you are trying to open the file (from the above down
 Reach the **copy to Lemur**. 
 _You do have to have Lemur installed first._
 
-![image(0)](include/tabletRemote_image(0).png)
+![image(0)](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/LemurImportPatch.png)
 
-![image(1)](include/tabletRemote_image(1).png)
+![image(1)](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/LemurImportPatchMenu.png)
 
 The patch will now open in Lemur software. 
 You can save it in your device, clicking on the wheel on the top right.
@@ -41,7 +41,7 @@ You can save it in your device, clicking on the wheel on the top right.
 The simple step to use it with SPAT Revolution is to configure (one time) your OSC Targets, in this case, SPAT Revolution. 
 To configure the OSC address and port in Lemur, click on the wheel on the right top, then on “More Settings”.
 
-![image(2)](include/tabletRemote_image(2).png)
+![image(2)](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/LemurOSCSettings.png)
 
 In OSC Targets, you can see the IP Address of your actual remote device. (Lemur IP: **x.x.x.x**). 
 The port is locked by default at <code>8000</code>. 
@@ -63,7 +63,7 @@ You then need to set up an OSC port and host route, in order to connect with SPA
 The port and host should match that of the Lemur app.
 
 
-![image(3)](include/tabletRemote_image(3).png)
+![image(3)](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/LemurOSCConnectionsMatrix.png)
 
 <!-- TODO: update the image -->
 
@@ -79,7 +79,7 @@ The port and host should match that of the Lemur app.
 
 ## SPAT Snapshot
 
-![image(4)](include/tabletRemote_image(4).png)
+![image(4)](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/LemurSnapshots.png)
 
 1. Create: Click to create a new snapshot. It will be placed at the end of the snapshot list.
 
@@ -99,7 +99,7 @@ The port and host should match that of the Lemur app.
 
 ## SPAT Remote
 
-![image(5)](include/tabletRemote_image(5).png)
+![image(5)](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/LemurRemote.png)
 
 This patch allows 8 different Remotes to control SPAT Revolution’s sources. 
 You have access to the principal parameters, for each source. 
@@ -107,7 +107,7 @@ To choose the source you want to control, touch on the button next to ‘Sources
 A panel will appear with a certain number of sources and a -1 button. 
 This last  control (-1) is the actual selection (or multi-selection) on SPAT Revolution.
 
-![image(6)](include/tabletRemote_image(6).png)
+![image(6)](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/LemurRemoteExplanation.png)
 
 
 1. Source selection and Snapshot Pad: click on the pad to open the corresponding window.
@@ -125,12 +125,12 @@ This last  control (-1) is the actual selection (or multi-selection) on SPAT Rev
 
 7. XY-Pad Mode: there are 4 different modes, detailed below.
 
-![image(7)](include/tabletRemote_image(7).png)
+![image(7)](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/LemurXYPadModes.png)
   
 
 ## SPAT Multitouch
 
-![image(9)](include/tabletRemote_image(9).png)
+![image(9)](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/LemurMultitouch.png)
 
 This patch allows you to control the position of 8 sources at the same time, with different fingers.
 

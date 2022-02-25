@@ -54,7 +54,7 @@ This allows the support of SPAT Revolution as an external rendering engine using
 This means that you can playback and record object-based audio and metadata for live production and immersive creations while using the SPAT Revolution ADM-OSC environment. 
 As Nuendo imports and exports ADM, this allows for an ADM master, exported from another environment, to be imported into a Nuendo session and the mapping to external renderer can offer new spatialization options and techniques. 
 
-![Object-based in Nuendo V11](include/nuendo_adm_1.png ':size=800')
+![Object-based in Nuendo V11](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/NuendoADM.png ':size=800')
 
 
 Let's now explore the Nuendo bidirectional object panner mapping (integration) and the steps involved.
@@ -65,7 +65,7 @@ Here, we are interested in the object mode that will give us the position bidire
 Complete information on dealing with objects in Nuendo available in their documentation. [steinberg.help - Nuendo 11](https://www.steinberg.help/nuendo-manuals/nuendo/nuendo-11/
 )
 
-![Nuendo Surround Panner in Object Mode](include/nuendo_adm_2.png ':size=500')
+![Nuendo Surround Panner in Object Mode](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/NuendoPanner.png ':size=500')
 
 
 After the following setup details, whatever sources/objects position data you have in your Nuendo session will go to SPAT for an external rendering. 
@@ -77,7 +77,7 @@ Nuendo can as well receive normalized position data from SPAT Revolution ADM-OSC
 The first steps consist of configuring the External Renderer. 
 You can access it by choosing External Renderer setup in the **Studio Menu**.
 
-![Nuendo Surround Panner in Object Mode](include/nuendo_adm_3.png ':size=400')
+![Nuendo Surround Panner in Object Mode](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/NuendoExternalOSCRendererSetup.png ':size=400')
 
 Steps:
 
@@ -89,7 +89,7 @@ Steps:
 
 The second step, in the **Project menu**, you can open the ADM Authoring for Dolby Atmos. This is the main windows ofr any Object configuration whatever the renderer. 
 
-![Setup up objects in the ADM Authoring for Dolby Atmos](include/nuendo_adm_4.png ':size=800')
+![Setup up objects in the ADM Authoring for Dolby Atmos](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/NuendoADMAuthoringEmpty.png ':size=800')
 
 * Choose External OSC Renderer.
 * Make sure Auto-Connect Object Busses is selected.
@@ -97,14 +97,14 @@ The second step, in the **Project menu**, you can open the ADM Authoring for Dol
 * You can go back to External OSC renderer setup from here if need be by pressing the gear icon.
 * You are done!
 
-![Setup up objects in the ADM Authoring for Dolby Atmos](include/nuendo_adm_5.png ':size=800')
+![Setup up objects in the ADM Authoring for Dolby Atmos](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/NuendoADMAuthoringObjects.png ':size=800')
 
 Setting up **OSC Object Position Tracking** (From SPAT to mapping to the Object panner)
 
 The next part is for the Nuendo incoming data. 
 Go to the **Studio Menu** and choose OSC Object Position Tracking.
 
-![Setup up objects in the ADM Authoring for Dolby Atmos](include/nuendo_adm_6.png ':size=400')
+![Setup up objects in the ADM Authoring for Dolby Atmos](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/NuendoOSCObjectPositionTracking.png ':size=400')
 
 * Make sure Object Position Tracking is activated.
 * Make sure port # is set to 9001. This is the default ADM-OSC output port for SPAT Revolution preset.
@@ -115,23 +115,21 @@ Go to the **Studio Menu** and choose OSC Object Position Tracking.
 
 In the OSC preferences:
 
-![SPAT OSC settings for Nuendo ADM-OSC](include/nuendo_adm_7.png ':size=600')
+![SPAT OSC settings for Nuendo ADM-OSC](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Preference/OSCConnectionsADM.png ':size=600')
 
 <!-- TODO: update the image -->
 
 * One Input ADM preset where you select you network interface.
 * You see above the default setup for ADM-OSC. For the moment (until Nuendo fixes to default ADM-OSC), you will Edit the transform from linear to support the fact that they spit out 0,1 normalized. This is where you will as well define the SPAT Revolution automation zone range (scaling to). For example, here I am using -3, 3.
 
-![Modifying (edit) the transform of scaling](include/nuendo_adm_8.png ':size=300')
+![Modifying (edit) the transform of scaling](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Preference/OSCTransformPresetsADM.png ':size=300')
 
 **You are done for the input!**
 
 
 To setup the ADM XYZ Output:
 
-![ADM XYZ Output](include/nuendo_adm_9.png ':size=600')
-
-<!-- TODO: update the image -->
+![ADM XYZ Output](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Preference/OSCConnectionsADMOutputXYZ.png ':size=600')
 
 * Choose the Output ADM-XYZ preset and set the IP address of the Nuendo computer.
 * The transformation preset is ok by default. (as long as your OSC Object Position Tracking setup in Nuendo as stage dimensions -1.0, 1.0. 

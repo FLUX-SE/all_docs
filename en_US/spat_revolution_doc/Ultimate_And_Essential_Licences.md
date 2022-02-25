@@ -38,7 +38,6 @@ SPAT Essential comes with a set of limitations:
 
 Both Essential and Ultimate are based on the same session. In order to allow for sessions created with Ultimate license to be compatible (or simply opened) with Essential, a simple compatibility dialog tool welcomes you at session opening, offering for a partial read based on the limitations set by the Essential license. Speaker arrangements of any size can still be managed (created, imported, exported) but only valid ones for Essential can be applied to the session.
 
-<!-- TODO: add images of the wizard --> 
-
+<!-- TODO: add images of the wizard -->
 
 An Utimate version features, located on the File menu, allows to check if the session is compatible with Essential version. 

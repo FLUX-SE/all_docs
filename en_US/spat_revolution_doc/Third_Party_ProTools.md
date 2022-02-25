@@ -25,7 +25,7 @@ They are .ptxt session template files and can be copied to your **Pro Tools Sess
 A SPAT Revolution .JSON file is as well provided. 
 They can be used with the Local Audio Path option of simply connecting the Aux track SPAT Send objects to alternate audio routing methods in single or dual computer setups.
 
-![Create a new session](include/pro_tools_templates.png) 
+![Create a new session](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/ProToolsTemplates.png)
 
 A tutorial on **[How to set up SPAT Revolution with Pro Tools](https://www.youtube.com/watch?v=QLCCQWyiBV8&t=1s)** is available here for a quick dive into this integration. 
 
@@ -65,7 +65,7 @@ In ProTools, go to *Setup/Playback Engine* then set H/W Buffer Size to 1024 samp
 
 > We highly recommend de-activating dynamic Plug-in processing.
 
-![image](include/pro_tools_1.png)
+![image](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/ProToolsEnginePlaybackMenu.png)
 
 In SPAT, go to *Preferences/Hardware IO* , then set:
 
@@ -74,7 +74,7 @@ In SPAT, go to *Preferences/Hardware IO* , then set:
 * External Sampling Rate: Enabled
 * Block Size: 1024
 
-![SPAT Revolution Preferences](include/SpatRevolution_UserGuide_-282.jpg)
+![SPAT Revolution Preferences](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/ProToolsSpatPreferences.jpg)
 
 <!-- TODO: update the image -->
 
@@ -87,22 +87,22 @@ When using FLUX Pro Tools templates or presets, although SPAT plug-ins are insta
 
 Once you engage the *Enable* switch, SEND software inputs should show up at the top of the SPAT Revolution setup environment page, and Return outputs at the bottom.
 
-![img](include/SpatRevolution_UserGuide_-284.jpg)
+![img](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Plugin/SendLAP.jpg)
 
-![img](include/SpatRevolution_UserGuide_-286.jpg)
+![img](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/BlankLAP.jpg)
 
 <!-- TODO: update the image -->
 
 Select all the objects in the 'empty' signal graph using a drag select or Command click selection, then choose the 'connect selected' action. 
 A default module routing will be completed automatically with a default stereo virtual room.
 
-![img](include/SpatRevolution_UserGuide_-288.jpg)
+![img](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/ConnectSelected.jpg)
 
 <!-- TODO: update the image -->
 
 Now you should be able to send and receive audio streams from/to Pro Tools and spatialize your objects.
 
-![img](include/SpatRevolution_UserGuide_-290.png)
+![img](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/ProToolsMixer.png)
 
 
 ### The dummy bus and why
@@ -133,15 +133,15 @@ Pro Tools Advance Multi-format template for SPAT Revolution reflects this.
 To automate variable parameters in the SPAT rendering engine from Pro Tools automation lanes, it is necessary to activate the parameters for each plug-in instance first. 
 This is already done in the above templates and track presets.
 
-![automation_spatPl](include/SpatRevolution_UserGuide_protools_automation_spatPl.png)
+![automation_spatPl](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/ProToolsEmptyAutomationEnable.png)
 
-![automation_spatPl](include/pro_tools_12.png)
+![automation_spatPl](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/ProToolsAutomationEnable.png)
 
 To do this one by one can be a laborious task. 
 Save time by editing the Pro Tools preference for automation and enabling the '*Plug-in Controls Default to Auto-Enabled* ' option. 
 When inserting a plug-in, all its parameters will then be available for automation automatically.
 
-![automation_option](include/SpatRevolution_UserGuide_protools_automation_option.png)
+![automation_option](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/ProToolsPreferencesAutomation.png)
 
 ## Track presets
 
@@ -180,13 +180,13 @@ Select the one that matches your initial track format or your desired object for
 This newly created object can be used by other audio tracks too. (Using it a stem object)
 
 
-![track Presets](include/pro_tools_13.png)
+![track Presets](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/ProToolsTrackPreset.png)
 
 If you also want to send multiple tracks to a single SEND object to SPAT, you can do it easily. 
 Select all tracks, old the option key and change the output of a track to New Track. 
 Click in type, choose "Track Presets/Flux" and then choose the format of the send object that you want.
 
-![trackPreset1](include/pro_tools_14.png)
+![trackPreset1](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/ProtoolsSendNewTrack.png)
 
 That’s it. All your selected tracks will be assigned to this newly created bus called SPAT Send, your SPAT source/object. 
 It’s an aux track containing your SPAT SEND plug-in instance ready to enable Local Audio Path or to route to external audio option (virtual audio bridge, network I/O). It’s your object track. 
@@ -199,7 +199,7 @@ Why creating an aux SPAT send object and not instantiating the plug-in directly 
 Although this is possible as well (and you have to make sure your audio tracks have the proper routing), this simply allows to have a post-fader send to SPAT Revolution, as plug-in insert in Pro Tools are always pre-fader. 
 Using the aux track model is simple, clean and allows for creating Send stems.
 
-![trackPreset1](include/pro_tools_15.png)
+![trackPreset1](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/ProToolsDummyBus.png)
 
 Last step, the RETURN plug-in. Create a new track. 
 Choose track presets, choose FLUX:: and then choose the required format. 

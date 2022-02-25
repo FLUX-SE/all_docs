@@ -65,12 +65,12 @@ And that's all!
 
 The basic layout of ReaVolution is a bit different from the default Reaper settings.
 
-![reavolution.jpg](include/reavolution.jpg)
+![reavolution.jpg](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/ReavolutionEmptyProject.jpg)
 
 The transport bar is now at the top of the user interface. Just bellow there is the main toolbar. 
 Here you will find all the main state you need to keep an eye on.
 
-![maintoolbar.jpg](include/maintoolbar.jpg)
+![maintoolbar.jpg](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/ReavolutionMainToolbar.jpg)
 
 First is the play mode. 
 When off, the play cursor comes back to its initial state when the playback is stopped. When on, the play cursor stays at its position when the playback is stopped.
@@ -85,7 +85,7 @@ In the middle group of icons, we'll first a toggle to activate the metronome. A 
 
 The third button group contains four actions. The first one automatically group newly recorded items when on. The second one links the automation point to the item position. This means that if the item is moved, the automation point will move with it. Then there is the master group toggle. When on the item's groups are effective. When off, all item's groups are set to off. Lastly, the foremost right icon activates the auto-crossfade option.
 
-![toolbar2.jpg](include/toolbar2.jpg)
+![toolbar2.jpg](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/ReavolutionToolbar.jpg)
 
 On the left side of the arrangement view, above the track panel control (TCP), there are two buttons. The red "M" one is a master mute, the other one is a master solo. If at any point one of the track is muted or soloed, the respective toggle will display on. By setting it off, it clears, respectively, all the mute or all the solo.
 
@@ -205,7 +205,7 @@ To receive audio from SPAT Revolution, simply create a track at the wanted forma
 
 You will find an option related to SPAT routing in the top bar menu, under **Extension>ReaVolution>When tracks are routed to SPAT**. 
 
-![reavolutionNewExtensionMenu.png](include/reavolutionNewExtensionMenu.png)
+![reavolutionNewExtensionMenu.png](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/ReavolutionNewExtensionMenu.png)
 
 This option allows to configure the default behavior of sending audio to and receiving audio from SPAT Revolution. By default, the local audio path, which allows sending audio from Reaper to SPAT using virtual audio pipe, is on, the same as the thru option of SPAT send plug-in and the override option of SPAT Return plug-in.
 
@@ -283,7 +283,7 @@ ReaVolution comes with a set of shortcuts and mouse modifiers that take advantag
 
 ReaVolution comes with a complete set of shortcuts to easily edit audio items. To make it really simple, a zone of the keyboard is dedicated to editing.
 
-![keyboard.jpg](include/keyboard.jpg)
+![keyboard.jpg](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/ReavolutionKeyboardPicture.jpg)
 
 To keep things logical, there is two sets of shortcuts provided by ReaVolution : an AZERTY one and a QWERTY one. By default ReaVolution is set in AZERTY. To change this layout, go to the action list (shift+?), click on "Key Map" and choose "Import shortcut key map". In the newly opened explorer/finder window, choose the desire ReaVolution key map file. **This key maps only affect the shortcut shown in this section.**
 

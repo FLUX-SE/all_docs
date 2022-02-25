@@ -6,7 +6,7 @@ Templates can be found here
 * Before starting the SPAT Revolution software, make sure you have connected your Ethernet cable between the mixing desk and the computer running SPAT. 
   Make sure you have set the right IP settings for your local network card. In our example, we are using 192.168.0.200.
 
-![Network](include/Digico_1.png) 
+![Network](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/DigicoNetwork.png) 
 
 * Start the SPAT Revolution software and open the preference page.
 * Enable OSC.
@@ -30,14 +30,14 @@ _This is a one-time setup for each specific consoles._
  
 * Go to the **Setup / External Control** section of the desk.
 
-![Network](include/Digico_4.png) 
+![Network](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/DigicoMainMenu.png) 
 
 You will want to make sure **Enable External Control** is set to **YES** and the **Suppress OSC retransmit** is **active**. 
 You will be using OSC generic for channel controllers. 
 You are now ready to **add device** to configure the OSC connection. 
 It is considered **other OSC** .
 
-![Network](include/Digico_5.png) 
+![Network](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/DigicoExternalControlMenu.png) 
 
 * Press **add device**, give your device a name: for example, SPAT Revolution. 
   Enter the IP address of your SPAT Revolution computer: in this example, **192.168.0.200.** 
@@ -54,14 +54,14 @@ One for using SPAT control on all of the input channels, one using it on groups.
 
 After your file is loaded, you can see for example how to access these parameters on the desk.
 
-![Network](include/Digico_6.png) 
+![Network](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/DigicoEnableTrackExternalControl.png) 
 
 Select an Input channel and open the channel's output page. 
 Select **external control**. 
 It will then open the external control tab. 
 Here, you will find the predetermined most common parameters for the SPAT Revolution. A user could decide to change these if needed (for example if rather wanting to use XYZ commands).
 
-![Network](include/Digico_7.png) 
+![Network](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/DigicoTrackExternalControl.png) 
 
 Configured in the templates are:
 
@@ -88,11 +88,11 @@ Configured in the templates are:
 **DiGiCo OSC Generic External Control - Rotaries**
 
 ![DiGiCo OSC Generic External Control - Rotaries
-](include/Digico_8.png) 
+](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/DigicoExternalControlRotaries.png) 
 
 **DiGiCo OSC Generic External Control - Switch**
 
-![ DiGiCo OSC Generic External Control - Switch](include/Digico_9.png) 
+![ DiGiCo OSC Generic External Control - Switch](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/DigicoExternalControlSwitches.png) 
 
 ## Audio routing
 

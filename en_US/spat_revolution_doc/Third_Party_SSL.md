@@ -25,7 +25,7 @@ A simple template is available for downloading and provides a start point to con
 
 **SSL OSC Settings**
 
-![SSL Live SPAT OSC Swiches](include/ssl_live_4.png)
+![SSL Live SPAT OSC Swiches](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/SSLOSCSettings.png)
 
 
 
@@ -34,28 +34,26 @@ A simple template is available for downloading and provides a start point to con
 
 **SSL Generic OSC - External Control**
 
-![SSL Live SPAT OSC Swiches](include/ssl_live_3.png)
+![SSL Live SPAT OSC Swiches](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/SSLGenericOSC.png)
 
 With Solid State Logic live consoles, up to eight *Fader* (i.e. continuously variable) and eight *Switch* parameters per third-party device channel may be defined for control by the console. 
 These control parameters (OSC messages) going out to SPAT Revolution source/objects are accessible from each console audio path as well as dedicated OSC paths with no console audio processing associated with them. 
 The provided template has all these configurations done for you but you can decide to customize with different or less parameters.
 
 **SSL OSC Device Configuration and Address for Switch**
-![SSL Live SPAT OSC Swiches](include/ssl_live_1.png)
+![SSL Live SPAT OSC Swiches](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/SSLOSCDeviceConfigurationSwitches.png)
 
  
 **SSL OSC Device Configuration and Address for Fader**
 
-![SSL Live SPAT OSC Faders](include/ssl_live_2.png) 
+![SSL Live SPAT OSC Faders](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/SSLOSCDeviceConfigurationFaders.png) 
 
 ## Setting up SPAT Revolution
 
 * Start the SPAT Revolution software and open the preference page.
 * Enable OSC.
 
-![Enable OSC](include/Digico_2.png) 
-
-<!-- TODO: update the image -->
+![Enable OSC](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Preference/OSCMain.png)
 
 
 * In the OSC Connections section, use the pre-configured SSL Live OSC presets. 

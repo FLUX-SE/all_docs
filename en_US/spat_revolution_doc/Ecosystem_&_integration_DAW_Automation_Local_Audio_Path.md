@@ -54,7 +54,7 @@ Set the IO Channel Count for each of the plug-ins this way.
 Each plug-in instance can carry up to 64 channels to and from SPAT.
 Once you have selected the channel count, _Enable_ the software routing using the _Local audio path_ switch.
 
-![]( https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/InputModuleRow.png)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/InputModuleRow.png)
 
 If SPAT is running, then a Send or Return IO module will automatically appear in the _Environment Setup_ labeled with the _Track Name_ of the SPAT plug-in, and set to the channel count you have configured in the plug-in. If all is well configuration wise, and a successful local audio stream has been established, the Send and Return modules will have a small green indicator.
 

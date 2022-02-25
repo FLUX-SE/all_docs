@@ -5,7 +5,7 @@ Along with its highly animated and intuitive graphic interface, it offers well-d
 The Bitwig designers have included a complete suite of powerful and great sounding native effects and digital instruments, with many performance and modulation features for any type of users. 
 Its parameter modulators and their well-designed routing system make it compelling to create music and sound design in BitWig.
 
-![](include/SpatRevolution_UserGuide_-265.png)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/BitwigMainWindows.png)
 
 
 **Setting Up Sync in BitWig**
@@ -14,7 +14,7 @@ When using the Local Audio path (LAP), the buffer size and sample rate must be m
 In SPAT, you do this in the preferences, and in Bitwig, you do in the audio engine settings. 
 If they don't match at first, you _may_ need to restart  both applications to get the correct green sync status between the apps.
 
-![](include/SpatRevolution_UserGuide_-266.jpg)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/BitwigPreferences.jpg)
 
 ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Preference/HardwareIO.png)
 
@@ -22,13 +22,13 @@ If they don't match at first, you _may_ need to restart  both applications to ge
 
 One good way to work with Bitwig and SPAT together is to set Bitwig tracks to output their audio to _Effect Track_ types - they are like Aux busses in other software you do that routing from an audio track output assignment settings.
 
-![](include/SpatRevolution_UserGuide_-270.jpg)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/BitwigSend.jpg)
 
 **Setting Up SPAT SEND in BitWig**
 
 Put the SPAT SEND plug-ins on individual _Effect Tracks_, enable the local audio path with **THRU** set to off, so all audio streams are rendered to output in SPAT Revolution.
 
-![](include/SpatRevolution_UserGuide_-272.jpg)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/BitwigSendMainSetup.jpg)
 
 Like in all Local Path Audio workflows, you should see SPAT SEND inputs appearing in the SPAT Environment Setup, which relate directly to the plug-ins hosted in the other software environment, reflecting their TrackName and channel count.
 
@@ -39,7 +39,7 @@ Now the fun starts - on the Bitwig Send tracks, which host the SPAT SEND plug-in
 
 Use the Bitwig <code>+</code> to open the Device Parameter Modulators and assign the many and varied modulation sources to control Azimuth, Distance or other Source Parameters.
 
-![](include/SpatRevolution_UserGuide_-274.jpg)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/BitwigModulators.jpg)
 
 **Setting Up Controllers in BitWig**
 

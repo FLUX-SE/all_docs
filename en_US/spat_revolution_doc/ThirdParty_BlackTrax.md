@@ -5,15 +5,15 @@ This provides a way to map BlackTrax tracking beacons with SPAT source objects a
 In order to do this, you will need to configure the output configuration of a BlackTrax system and have your SPAT (or multiple SPAT) computers networked on the same third party network interface (NIC) of the BlackTrax server hardware. 
 In the BlackTrax software, press on the output configuration button or access output configuration via the menu bar in the Settings section (shortcut <code>Ctrl + T</code>).
 
-![](include/SpatRevolution_UserGuide_-324.jpg)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/BlackTraxOutputConfigurationButton.jpg)
 
-![](include/SpatRevolution_UserGuide_-326.jpg)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/BlackTraxSettingsMenu.jpg)
 
 In the Output Configuration window, you will need to create with the <code>+</code> sign 1 (or multiple if running a main and a back up SPAT computer engine) output that will be sending tracking RTTrPM data to SPAT. 
 Clicking the <code>+</code> sign will give you an edit window.
 
 
-![](include/SpatRevolution_UserGuide_-328.jpg)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/BlackTraxOutputConfiguration.jpg)
 
 In the edit window, you will first label you Output to the desired name (Ex: SPAT Main). 
 Type of output will be RTTrPM, the third party motion protocol of BlackTrax. 
@@ -30,7 +30,7 @@ Port number should be left to the default port # <code>24002</code> as it is the
 Press <code>Apply</code> and you are set with this step.
 
 
-![](include/SpatRevolution_UserGuide_-330.jpg)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/BlackTraxEditWindows.jpg)
 
 Pressing the Advanced button will give you some advanced option. 
 Your default Coordinate System should be <code>Stage</code>. 
@@ -41,24 +41,24 @@ In the Active Output window, select you SPAT Main output.
 On the bottom right, select the Beacon you would like to have data sending and press Enable Selected. 
 You can multi-select when pressing the <code>CTRL</code> key or select all with <code>CTRL + A</code>.
 
-![](include/SpatRevolution_UserGuide_-332.jpg)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/BlackTraxEditWidonwsAdvancedSettings.jpg)
 
 When done with all operations with BlackTrax, you want to <code>Apply</code> the changes to the system. 
 You can at this point close the Output Configuration window and go back to the main BlackTrax page. 
 You will want to apply the changes to the system.
 
-![](include/SpatRevolution_UserGuide_-334.jpg)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/BlackTraxEditWidonwsAdvancedSettingsApply)
 
 You can confirm that you are actually sending data by going back to the Output Configuration page. 
 The status will give you this information.
 
-![](include/SpatRevolution_UserGuide_-336.jpg)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/BlackTraxOutputConfigurationPage.jpg)
 
 Now let’s go and configure the SPAT software. 
 In the preference page accessible by clicking on the top right button, you can scroll down to the BlackTrax preference
 section.
 
-![](include/SpatRevolution_UserGuide_-338.jpg)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Preference/Blacktrax.png)
 
 You can from there, Enable BlackTrax RTTrPM tracking, select the amount of Max Beacon you system may need (1, 2, 4, 8, 16, 24, 32 or more). 
 Select the network interface you are using on your computer for the BlackTrax integration (Or leave to Automatic) and then the port # which is already set at the default port # used by BlackTrax RTTrPM output. 

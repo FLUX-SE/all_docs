@@ -20,7 +20,7 @@ You can download the following session templates:
 
 * [Simple Stereo Binaural Project Template](https://public.3.basecamp.com/p/EidSWQKQTQTqGTsKYrxuPjoW)
 
-![LIVE_TMPLT__simpleStrBin](include/SpatRevolution_UserGuide_LIVE_TMPLT__simpleStrBin.png)
+![LIVE_TMPLT__simpleStrBin](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/AbletonLiveMixer.png)
 
 The console is organized in this way:
 
@@ -63,7 +63,7 @@ To install our Max4Live device, simply go to your Ableton Live's user library.
 If you don't know where it is located, go to your preferences, under the tab "Library". 
 You will find the information like in the screenshot bellow.
 
-![LIVE_TMPLT__simpleStrBin_userLib](include/SpatRevolution_UserGuide_LIVE_TMPLT__simpleStrBin_userLib.png)
+![LIVE_TMPLT__simpleStrBin_userLib](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/AbletonLiveMax4LiveUserLib.png)
 
 Then, from the User Library, go to this location:
 
@@ -93,11 +93,11 @@ This way, they do not send any audio to the master track.
 Source audio are being play/read on these tracks. 
 If you are wondering where their signal is going, just continue reading, it will become clear below.
 
-![LIVE_TMPLT__simpleStrBin_inputIO](include/SpatRevolution_UserGuide_LIVE_TMPLT__simpleStrBin_inputIO.png)
+![LIVE_TMPLT__simpleStrBin_inputIO](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/AbletonLiveInputIO.png)
 
 ### Object tracks "Send to SPAT"
 
-![LIVE_TMPLT__simpleStrBin_sendIO](include/SpatRevolution_UserGuide_LIVE_TMPLT__simpleStrBin_sendIO.png)
+![LIVE_TMPLT__simpleStrBin_sendIO](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/AbletonLiveSendIO.png)
 
 In the "Audio From" section, you will notice that you are receiving audio from your source tracks. 
 Again, these tracks are not routed to the master.
@@ -107,13 +107,13 @@ We do not need to send audio to validate the routing priority.
 
 If you select one of this track, you will reveal a SPAT send plug-in and our SyncBox workaround.
 
-![LIVE_TMPLT__simpleStrBin_chProcess](include/SpatRevolution_UserGuide_LIVE_TMPLT__simpleStrBin_chProcess.png)
+![LIVE_TMPLT__simpleStrBin_chProcess](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/AbletonLiveChannelProcess.png)
 
 ### Return tracks
 
 Our return tracks in Ableton Live host our SPAT Return plug-in and are unrouted from the master.
 
-![liveTemplate1_returnIO](include/SpatRevolution_UserGuide_liveTemplate1_returnIO.png)
+![liveTemplate1_returnIO](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/AbletonLiveReturnIO.png)
 
 ## Recording the immersive creation
 
@@ -134,7 +134,7 @@ Also, their output is routed directly to the audio interfaces.
 
 > **You will need to manually adjust this routing for your needs.**
 
-![liveTemplate1_recIO](include/SpatRevolution_UserGuide_liveTemplate1_recIO.png)
+![liveTemplate1_recIO](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/AbletonLiveRecIO.png)
 
 ## Higher number of channels
 
@@ -145,7 +145,7 @@ To overcome this limitation, we have to use several return plug-ins to get our s
 In this template, we show how to return the audio from a 7.1.4 Dolby Atmos room. 
 As we need 12 channels, 6 different SPAT stereo RETURN plug-ins are used.
 
-![liveTemplate1_SpatSession](include/SpatRevolution_UserGuide_liveTemplate1_SpatSession.png)
+![liveTemplate1_SpatSession](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/AbletonLiveTemplateSpat.png)
 
 The internal routing in Ableton Live remains the same as in the earlier stereo & binaural template above.
 

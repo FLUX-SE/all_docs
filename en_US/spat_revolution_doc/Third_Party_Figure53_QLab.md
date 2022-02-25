@@ -12,7 +12,7 @@ New updated templates for QLab are available and provide cue examples that can b
 With the release of the snapshot feature, this template shows how you can manage Spat Revolution snapshots within QLab and have some carts for quick actions. 
 It demonstrates how interpolation time value can be used in the snapshot recall messages (last float, ex: 2.5).
 
-![Spat Snapshot message with interpolletation time](include/qlab_spat_snapshot_interpollation.png)
+![Spat Snapshot message with interpolletation time](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/QLabSnapshotsInterpollation.png)
 
 ---
 
@@ -24,9 +24,9 @@ As of QLab4 there is a time interpolated 2D fade system for creating spatial XY 
 X/Interpolation time value can always be used directly in your messages as well as shown in some template examples. 
 With the latest release of Spat Revolution, the ability to send messages to the currently selected source (s) with index -1 is shown in this template as well.
 
-![Spat Message with interpolletation time](include/qlab_spat_message_xtime.png)
+![Spat Message with interpolletation time](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/QLabMessageXTime.png)
 
-![2D trajectory messages](include/qlab_spat_2dcue_selectedsource.png)
+![2D trajectory messages](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/QLab2DCueSelectedSource.png)
 
 
 ## QLab messages via network cues
@@ -40,7 +40,7 @@ _In the Spat Revolution preferences make sure the OSC Enable is engaged._
 > ★(2) Enable commands log to view the commands and confirm you are receiving data (Shift + F7 will open the log window). It is not recommended leaving it active all the time as it takes some system resources. 
 
 **Setting the OSC Connection**
-![Setting the OSC Connection](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Preference/OSCConnectionCustomLocalHost.png)
+![Setting the OSC Connection](https://raw.githubusercontent.com/FLUX-SE/doc_images/main/SpatR/Preference/OSCConnectionCustomLocalHost.png)
 
 Go to the OSC connection section of Spat Revolution and:
 
@@ -53,7 +53,7 @@ Go to the OSC connection section of Spat Revolution and:
 
 **QLab Workspace Settings / Network**
 
-![](include/qlab_spat_networkoutput.png)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/QLabNetworkSettings.png)
 
 On the QLab side, use the Network Patch settings to configure OSC destinations. 
 One of them can be SPAT.
@@ -61,6 +61,6 @@ One of them can be SPAT.
 You can now send OSC network cues from QLab to Spat, and control **most if not all parameters** of this virtual environment using [Appendix C - OSC and ADM-OSC Table](Appendix_C_OSC_Table.md). 
 Once you get the hang of it, this is really very straightforward. 
 
-![](include/qlab_spat_template.png)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/QLabTemplate.png)
 
 ...
