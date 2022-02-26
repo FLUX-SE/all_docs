@@ -73,7 +73,7 @@ On this page you will find a Mac OS X, a Windows 64 bits, as well as legacy vers
 When you open FLUX:: Center you will see a page that lists all FLUX:: products available for you to install. You will also find information about which version you have currently installed on your system and which new versions might be available for you to update to. You can select versions to install - or uninstall if necessary - using the pull down menus. If you would like to access more installer options such as your preferred plug-in format, please click on the gear icon to the top right of the header area.
 
 ## Center Preferences and Options
-![](include/FluxCenter_-023.png ':class=img-title')
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Center/Generic/Preferences.png ':class=img-title')
 <!-->> *Spat Revolution Send/Room/Return plugins are available in VST-64bit, AU-64bit and AAX-64bit only.*
 -->
 This preference page will allow you to choose various installation options such as preferred plug-in formats for your system. Choosing your format and returning to the main page by pressing the OK button will show all your install options for software and plugins based on the desired formats chosen.

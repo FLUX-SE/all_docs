@@ -18,8 +18,6 @@ When you have more than one Room in your project, then the SOURCES switch at the
 
 Along with the audio modeling engine, one of SPAT's key features is its ability to model a high definition graphical representation of the virtual space inside each room. We can intuitively interact and move sources and 'camera view' directly with our mouse. Move a source by grabbing its 'emitter' object or in the case of a grouped source grab any one of the emitters that belong to the group. Alternatively, sources can be positioned by manipulating their coordinate-related source parameter controls (see [ Radiation section](6_Spat_Environment_6_6_Source_6_6_Source?id=radiation)).-->
 
-<!-- ![](include/SpatRevolution_UserGuide_-096.jpg) -->
-
 ## Top bar menu
 
 This menu allows changing what elements and how they are displayed in the 3D view.

@@ -15,7 +15,3 @@ Here are some straight to the point key points:
 Let's start with an important notion of spatial audio: the listener position.
 
 <!-- TODO : NEED PICTURE HERE -->
-
-<!-- In SPAT Revolution multiple 3D-spatialization technologies can be combined and mixed in different formats and rendered simultaneously. (Ultimate only). Let's start with an important notion of spatial audio: the listener position. -->
-
-<!-- ![](include/SpatRevolution_UserGuide_-049.jpg) -->
