@@ -1,6 +1,7 @@
-![Preference Page]( https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Preference/PageUltimate.png)
 
 # Application preference
+
+![Preference Page]( https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Preference/PageUltimate.png)
 
 This page allows you to change global preferences of the application. Some panels could differ between the Essential and the Ultimate version, a note on the section title indicates it.
 
@@ -242,6 +243,6 @@ In _Favor First Core_, the engine will fill the CPU cores one by one. The _Balan
 
 ### BlackTrax RTTrPM - Ultimate only
 
-![BlackTrax Section]( https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Preference/Blacktrax.png)
+![BlackTrax Section](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Preference/Blacktrax.png)
 
 See the integration chapter about [BlackTrax](ThirdParty_BlackTrax.md)

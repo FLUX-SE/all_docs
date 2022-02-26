@@ -71,15 +71,15 @@ In the option are now Tracking options and a pull down menu to choose the Tracki
 The list will be based on your Max Beacon preference. 
 It is possible to have the same Index for multiple sources providing the ability to have multiple sources track a single beacon.
 
-![](include/SpatRevolution_UserGuide_-340.jpg)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/SourceInspector.jpg)
 
 Your second option is to assign a Beacon ID to an actual room in order to have the listener position tracked. Selecting a room will give you the room menu options. 
 In the option are now Tracking options with a pull down menu to choose the Tracking Index (the beacon ID number you want for this room listener). 
 The list will be based on your Max Beacon preference. 
 A Tracking Scale setting is as well provide which would allow to scale the incoming data to adjust to your speaker output setup size if needed.
 
-![](include/SpatRevolution_UserGuide_-342.jpg)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/RoomInspector.jpg)
 
 In the actual room output parameters in the room view, you will also see a tracking option become available.
 
-![](include/SpatRevolution_UserGuide_-344.jpg)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Room/OutputTracking.jpg)

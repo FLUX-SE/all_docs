@@ -5,11 +5,11 @@
 When using Local Audio Path (LAP), synchronisation issues can be identified when the synchronisation indicator in SPAT Revolution (bottom left corner) turns to red. 
 This can in some cases result in clicks, noises, and or loss of sound.
 
-![Sync Error](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Generic/Sync_Error.png)
+![Sync Error](https://raw.githubusercontent.com/FLUX-SE/doc_images/main/SpatR/Generic/Sync_Error.png)
 
 ***All 'green' indicators mean the sync is correct.***
 
-![Sync](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Generic/Sync.png)
+![Sync](https://raw.githubusercontent.com/FLUX-SE/doc_images/main/SpatR/Generic/Sync.png)
 
 Thanks to the DAW templates provided, this should not happen unless the required routing is not in place (session modified, routing unpatched). To work properly, the SPAT Send plug-ins instances must be processed by the DAW before the SPAT return plug-in instances.
 
@@ -52,14 +52,14 @@ Following are four examples of recommended practice with DAW routing, which shou
 
 In simple projects, when having a single return plug-in on a master track, you should not encounter any sync issue as long as each SEND track is routed to the master.
 
-![](include/SpatRevolution_UserGuide_-346.png)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Generic/PluginsSchemaSimple.png)
 
 
 **Single RETURN on an AUX track**
 
 Issues may happen when return is inserted on an AUX track. Make sure that each SEND track is routed to the AUX track (RETURN track). Here is an example using AUX send (see examples below).
 
-![](include/SpatRevolution_UserGuide_-347.png)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Generic/PluginsSchemaAux.png)
 
 > ★ You might achieve the same by routing the track outputs to the bus.
 
@@ -72,7 +72,7 @@ As it can quickly become complicated as the project grows, in the following exam
 
 Then, simply route all your SEND tracks to this 'dummy' track by simply patching its output to the multichannel/multi-format 'dummy' bus or via the use of aux send.
 
-![](include/SpatRevolution_UserGuide_-349.png)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Generic/PluginsSchemaDummyBus.png)
 
 
 **Using specific tracks as your SPAT source/object**
@@ -81,7 +81,7 @@ One of the good practices to deal with the source/object you are sending for ext
 
 Doing this can segment your external rendering routing and is highly recommended to prevent audio track delay compensation systems in DAW to come and jeopardize the audio synchronization between the DAW and SPAT. This as well ensures that your audio track automation on levels for example is respected as some DAWs don't have post-fader insertion (a pre-fader insert with SPAT SEND PI will send audio to SPAT Revolution prior to your fader automation).
 
-![](include/SpatRevolution_UserGuide_-351.png)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Generic/PluginsSchemaObjectsDummyBus.png)
 
 The above best practice ensures as well that you keep both the dry signal and the SPAT RETURN signals independent (when the mix requires to switch easily from one to the other), add one object AUX track per audio track to be sent to SPAT, and insert the SEND plug-in on these object AUX tracks.
 
@@ -151,6 +151,6 @@ Parallel Profile:
 
 * **Balanced Distribution** is a preset somehow in the middle. It intends to be a balance between both above options.
 
-![Parallel Processing Algo Profile](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Preference/include/EngineProfiles.png)
+![Parallel Processing Algo Profile](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Preference/EngineProfiles.png)
 
 ---

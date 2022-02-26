@@ -40,4 +40,5 @@ Both Essential and Ultimate are based on the same session. In order to allow for
 
 <!-- TODO: add images of the wizard -->
 
+
 An Utimate version features, located on the File menu, allows to check if the session is compatible with Essential version. 
