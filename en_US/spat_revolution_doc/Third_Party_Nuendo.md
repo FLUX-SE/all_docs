@@ -29,11 +29,16 @@ For troubleshooting, please review the **[Appendix B - Troubleshooting](Appendix
 
 ## Nuendo and External OSC rendering
 
-Starting with Nuendo V11, it is now possible to deploy object-oriented sessions using open sound control (OSC). This brings the possibility to send/receive metadata from/to the Nuendo object panner. This functionality allows the support of SPAT Revolution as an external rendering engine using OSC and the [ADM-OSC](Ecosystem_&_integration_ADM_OSC.md) initiative. More information can as well be found on the GitHub repository with specifications and a testing tool can be found at: [immersive-audio-live/ADM-OSC](https://github.com/immersive-audio-live/ADM-OSC)
- 
-With this in place, you can playback and record object-based audio and metadata live production and immersive creations while using SPAT Revolution mixing and rendering capabilities.
+Starting with Nuendo V11, it is now possible to deploy object-oriented sessions using open sound control (OSC). This brings the possibility to send/receive metadata from/to the Nuendo object panner. This functionality allows the support of SPAT Revolution as an external rendering engine using OSC thanks to the[ADM-OSC](Ecosystem_&_integration_ADM_OSC.md) initiative. More information abd specifications on the **ADM-OSC** initiative can be found on the GitHub repository [immersive-audio-live/ADM-OSC](https://github.com/immersive-audio-live/ADM-OSC)
 
-As Nuendo can imports and exports ADM files, this allows for an ADM master, exported from another environment, to be imported into a Nuendo session and mapped to SPAT Revolution. This integration brings the ability to render for various stream types (Ambisonic, Binaural, Channel-based), from standard to custom speaker arrangements and using multiple spatialization options and techniques.
+Once configured, you can playback or record object-oriented sessions (audio and metadata) for live production and immersive creations workflows while using SPAT Revolution mixing and rendering capabilities.
+
+As Nuendo can import and export ADM files, this allows for an ADM master, exported from another environment, to be imported into a Nuendo session and mapped to SPAT Revolution. This integration brings the ability to render the object-based mix for various stream types (Ambisonic, Binaural, Channel-based), from standard to custom speaker arrangements and using multiple spatialization options and techniques.
+
+The functioning is based around the declared ADM object approach in Nuendo. At the base, as soon as a track is being assigned to a multichannel output bus,  the surround panner becomes available and can work in bed or object mode. Here, we are interested in the object mode that will give us the possibility to stream or listen to the object positon.
+
+Complete information on dealing with objects in Nuendo available in their documentation. [steinberg.help - Nuendo 11](https://www.steinberg.help/nuendo-manuals/nuendo/nuendo-11/)
+
 
 ![Object-based in Nuendo V11](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/NuendoADM.png ':size=800')
 
@@ -42,15 +47,18 @@ As Nuendo can imports and exports ADM files, this allows for an ADM master, expo
 * Single computer
 * Dual computer (recommended)
 
-### Creating a up to 64 objects Nuendo session
+### Creating an up to 64 objects session in Nuendo
 
-* First create and empty Nuendo project
+* First create an empty Nuendo project
 * In studio menu/ audio connection:
   * Delete any outputs not required in the audio connection/studio menu
   * Add Bus: 1 x 7.1.4  Atmos Master and 1x 7.1.2 Bed
   (in some cases you won’t need the 7.1.2 as it would get created by the ADM import process if all goes well)
   * Make sure output 1 to 64 remains unpatched (leaving this part of the patch to objects)
   * Patch 7.1.2 bus to 65 to 74 and 75 to 84 for the Atmos master bus
+
+> **Even if you aren't going to be using the Dolby capabilities of Nuendo and are planning only to render with SPAT Revolution, You need the 7.1.4  Atmos Master bus as this is being used to declared tracks as objects and assign objects IDs **
+
 
 ![Audio Connection in Nuendo V11](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/NuendoADMAudioConnections1.png)
 
@@ -69,7 +77,7 @@ This allows you to send a single audio track or multiple ones (stem) to the SPAT
 
 ## Nuendo v11 - Setting SPAT Revolution as external renderer
 
-The first steps consist of configuring SPAT Revolution as the External Renderer. You can access the setup window by choosing External Renderer setup in the **Studio Menu**.
+The first steps consist of configuring SPAT Revolution as the External Renderer. You can access the setup window by choosing External OSC Renderer setup in the **Studio Menu**.
 
 In the Studio menu, External OSC Render setup:
 
@@ -77,7 +85,7 @@ Steps:
 
 * Make sure OSC Data Transmission is activated
 * Make sure the port number is set to 9000. (default SPAT Revolution ADM OSC preset input port)
-* Set IP address to 127.0.0.1 (localhost) for single computer setup OR set the IP address of the second computer hosting SPAT Revolution
+* Set IP address to 127.0.0.1 (localhost) for single computer setup OR set the IP address of the second computer hosting SPAT Revolution (the rendering computer)
 * Header: Insert the ADM-OSC header message, **/adm/obj/[index]/xyz**
 * **Device Port Mapping: Map All - 1 to 1
 
@@ -87,7 +95,7 @@ Steps:
 
 ## Importing ADM File
 
-In order to start you project from an exported file of another environment, Go to the file menu and choose **Import ADM**
+In order to start you project from an existing ADM master file of another environment, Go to the file menu and choose **Import ADM**
 
 * Select all tracks in the ADM import menu
 
@@ -95,47 +103,91 @@ In order to start you project from an exported file of another environment, Go t
 
 * When the import is done, make sure the Atmos_bed track is assigned to 7.1.2 output bus
 * Select all Atmos_Obj and assign them to the 7.1.4 Atmos master bus created (Shift + Control + choose the 7.1.4 bus assignment to do them as a batch)
-* Keeping all Atmos_Obj selected (only, not the bed), go to: Project menu / ADM Authoring for Dolby Atmos.  If objects already exist, delete them.
+* Keeping all Atmos_Obj tracks selected (only, not the bed), go to: Project menu / ADM Authoring for Dolby Atmos.  If objects already exist, start by deleting them.
 
 ![Nuendo ADM Authoring for Dolby Atmos 1](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/NuendoADMAuthoringEmpty.png)
 
 * Choose External OSC renderer on the Renderer pulldown
 * Make sure "Auto-Connect Objects buses" is marked.
 * Click the Functions arrow pulldown and choose "create objects from the selected tracks".
-* It should create all you need. All objects mapped to index 1 to .... new output buses created to match objects 1 to ....
+* It should create all what you need. All objects mapped to index 1 to ....
+* New output buses are getting created to match objects 1 to ....
 
 ![Nuendo ADM Authoring for Dolby Atmos 2](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/NuendoADMAuthoringObjects.png)
 
 ## Nuendo Audio Connections configured for object
 
-
 ![Audio Connection in Nuendo V11 with Bus and Object outputs](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/NuendoADMAudioConnections2.png)
 
 ---
 
+![Nuendo Surround Panner in Object Mode](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/NuendoPanner.png ':size=500')
+
+## Nuendo object position to SPAT Revolution source objects.
+
+After the following setup details, object position data you have in your Nuendo session will be streaming to SPAT Revolution for an external rendering.
+
+As this metadata is sent with normalized value according to the ADM-OSC specification, SPAT Revolution ADM-OSC input preset and transformation will allow scaling to the desired automation zone range.
+
+Nuendo can as well receive normalized position data from SPAT Revolution ADM-OSC XYZ output (preset), mapping to the panner (position tracking) and write automation data with the corresponding audio object if desired.
+
+## Setting up Nuendo OSC Object Position Tracking
+(SPAT Revolution steaming to map to the object panner)
+
+This next part covers incoming data to Nuendo. This would be to actually record the object information (from a live performance for example) to the Nuendo panner so ultimately to the automation.
+
+> **At the time of writting it is not recommend to configure the objects bi-directionally as some worklow challenges exist with object index ID when dealing with a mix of mono, stereo or multichannel objects**
+
+
+Go to the **Studio Menu** and choose OSC Object Position Tracking.
+
+![Nuendo OSC Object Position Tracking](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/NuendoOSCObjectPositionTracking.png ':size=400')
+
+* Make sure Object Position Tracking is activated.
+* Make sure port # is set to 9001. This is the default ADM-OSC output port for SPAT Revolution preset.
+* Stage Dimensions: This is the ability to scale incoming OSC into Nuendo. By default, it is currently at 0,1. This is not the default ADM-OSC specifcation. You can simply change this by entering -1.0 m as a Min and 1.0 m as a Max.
+* Track Mapping allows you to map the incoming Index from SPAT Revolution to the actual Nuendo object.
+
+
+## SPAT Revolution ADM-OSC settings for Nuendo
+
+### ADM-OSC Input setup
+
+In the SPAT Revolution OSC Connection preferences:
+
+![SPAT OSC settings for Nuendo ADM-OSC](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Preference/OSCConnectionsADM.png ':size=600')
+
+<!-- TODO: update the image -->
+
+* Choose Input ADM-OSC preset and select you network interface. If Nuendo and SPAT Revolution are on the same computer, choose Localhost 127.0.0.1, otherwise choose the network inteface where OSC messages are incoming.
+
+* You can edit the transform. This is where you will define the SPAT Revolution automation zone range (scaling to). For example, here we are using -3, 3.
+
+> **The "scaling to" is you defining what will be the maximum position value when the Nuendo panner is in it's extreme corners**
+
+![Modifying (edit) the transform of scaling](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Preference/OSCTransformPresetsADM.png ':size=300')
+
+**You are done for the input!**
+
+### ADM-OSC XYZ Output to Nuendo
+
+This configuration is for sending SPAT source objects data to Nuendo
+
+![ADM XYZ Output](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Preference/OSCConnectionsADMOutputXYZ.png ':size=600')
+
+* Choose the Output ADM-XYZ preset and set the IP address of the Nuendo computer.(if local, use locahost 127.0.0.1)
+* The transformation preset is configured by default. (as long as your OSC Object Position Tracking setup in Nuendo as stage dimensions -1.0, 1.0.)
+* You can edit your automation zone (range) that you are sending to Nuendo. This is the same as used for input range. For example -3, 3.
+
+> **The "scaling from" is you defining the SPAT Revolution positon  stage zone where object are sending to Nuendo in a normalized manner **
+
+Et voila! You are set.
+
+Ready to move info in object-oriented worklow!
 
 <!--
 
-Let's now explore the Nuendo bidirectional object panner mapping (integration) and the steps involved.
-
-The functioning is based around the declared object approach in Nuendo and the track surround panner that gets integrated.
-Object tracks are receiving inputs from the object output buses and as soon as this object track is patched to a multichannel output (2D or 3D speaker arrangements), the surround panner becomes available and can work in bed or object mode.
-Here, we are interested in the object mode that will give us the position bidirectional integration.
-Complete information on dealing with objects in Nuendo available in their documentation. [steinberg.help - Nuendo 11](https://www.steinberg.help/nuendo-manuals/nuendo/nuendo-11/
-)
-
--->
-
-![Nuendo Surround Panner in Object Mode](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/NuendoPanner.png ':size=500')
-
-
-After the following setup details, whatever sources/objects position data you have in your Nuendo session will go to SPAT for an external rendering.
-As this information is sent with normalized value, our new ADM presets and transformation option will allow scaling to the desired automation zone range.
-Note that currently, although the preliminary spec of ADM-OSC calls for -1,1 normalized data, Nuendo does 0,1 which will be corrected in the next release planned in January. Thanks to our transform flexibility, this can be fixed rapidly.
-
-Nuendo can as well receive normalized position data from SPAT Revolution ADM-OSC XYZ output (preset), mapping to the panner (position tracking) and write automation data with the corresponding object audio if desired.
-
-
+---
 
 The second step, in the **Project menu**, you can open the ADM Authoring for Dolby Atmos. This is the main windows ofr any Object configuration whatever the renderer.
 
@@ -149,42 +201,4 @@ The second step, in the **Project menu**, you can open the ADM Authoring for Dol
 
 ![Setup up objects in the ADM Authoring for Dolby Atmos](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/NuendoADMAuthoringObjects.png ':size=800')
 
-Setting up **OSC Object Position Tracking** (From SPAT to mapping to the Object panner)
-
-The next part is for the Nuendo incoming data.
-Go to the **Studio Menu** and choose OSC Object Position Tracking.
-
-![Setup up objects in the ADM Authoring for Dolby Atmos](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/NuendoOSCObjectPositionTracking.png ':size=400')
-
-* Make sure Object Position Tracking is activated.
-* Make sure port # is set to 9001. This is the default ADM-OSC output port for SPAT Revolution preset.
-* Stage Dimensions: This is the ability to scale incoming OSC into Nuendo. By default, it is currently at 0,1 (again like mentioned above this is not the default ADM-OSC and will be fixed in a future Nuendo release). You can simply change this by entering -1.0 M as a Min and 1.0 as a Max.
-* Track Mapping allows you to map the incoming Index from SPAT to the actual object.
-
-## SPAT OSC settings for Nuendo ADM
-
-In the OSC preferences:
-
-![SPAT OSC settings for Nuendo ADM-OSC](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Preference/OSCConnectionsADM.png ':size=600')
-
-<!-- TODO: update the image -->
-
-* One Input ADM preset where you select you network interface.
-* You see above the default setup for ADM-OSC. For the moment (until Nuendo fixes to default ADM-OSC), you will Edit the transform from linear to support the fact that they spit out 0,1 normalized. This is where you will as well define the SPAT Revolution automation zone range (scaling to). For example, here I am using -3, 3.
-
-![Modifying (edit) the transform of scaling](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Preference/OSCTransformPresetsADM.png ':size=300')
-
-**You are done for the input!**
-
-
-To setup the ADM XYZ Output:
-
-![ADM XYZ Output](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Preference/OSCConnectionsADMOutputXYZ.png ':size=600')
-
-* Choose the Output ADM-XYZ preset and set the IP address of the Nuendo computer.
-* The transformation preset is ok by default. (as long as your OSC Object Position Tracking setup in Nuendo as stage dimensions -1.0, 1.0.
-* You will enter your automation zone (range) that you are sending to Nuendo. This is the same as used for input range. For example -3, 3.
-
-
-Et voila! You are set.
-Ready to move sources/objects in SPAT Revolution or in the Nuendo panner with bidirectional integration.
+-->
