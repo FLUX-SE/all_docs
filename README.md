@@ -7,7 +7,7 @@
 
 ## Analysis
 
- - [Pure Analyzer](en_US/analyser_doc/00_Pure_Analyzer_00_Pure_Analyzer.md)
+ - [FLUX:: Analyzer](en_US/analyser_doc/00_Pure_Analyzer_00_Pure_Analyzer.md)
  - [Studio Session Analyzer](en_US/studio_session_analyser/0_StudioSessionAnalyser.md)
 
 

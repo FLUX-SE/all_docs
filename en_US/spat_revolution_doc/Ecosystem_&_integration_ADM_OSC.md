@@ -13,6 +13,8 @@ Immersive audio is gaining ground in different industries, from music streaming 
 A first implementation of ADM-OSC is now included with the latest release of SPAT Revolution.
 Other industry peers have implemented early versions of ADM-OSC such as L-Acoustics (L-ISA), Merging Technologies (Ovation) and Yamaha Steinberg Media (Nuendo). It is supported by default on OSC input and as an option on OSC output.
 
+More information on this initiative can be found on the GitHub repository with specifications[immersive-audio-live/ADM-OSC](https://github.com/immersive-audio-live/ADM-OSC)
+
 
 ## ADM-OSC in SPAT Revolution
 
