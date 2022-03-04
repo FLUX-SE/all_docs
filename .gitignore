@@ -4,3 +4,4 @@ _site/
 .jekyll-cache/
 static/
 .DS_Store
+.idea

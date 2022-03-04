@@ -34,7 +34,7 @@ The chosen WFS implementation is a minimum latency approach. This simply means t
 
 ### Focus Zone
 
-When using the WFS panning technique on a collinear frontal line arrangement, the Efficient zone section in the room output section provides an option to activate the focus zone, i.e. the zone in front of a line of speakers. It is deactivated by default as it is recommended that a certain density and spacing exist for the speaker arrangement.
+When using the WFS panning technique on a collinear frontal line arrangement, the Efficiency zone section in the room output section provides an option to activate the focus zone, i.e. the zone in front of a line of speakers. It is deactivated by default as it is recommended that a certain density and spacing exist for the speaker arrangement.
 
 
 !>  Enabling this option may trigger an Efficiency zone warning if the system does not respect the 0.4 meter spacing between speaker source elements recommendation.
