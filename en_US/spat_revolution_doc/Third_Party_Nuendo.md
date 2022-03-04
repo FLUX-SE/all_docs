@@ -183,7 +183,7 @@ This configuration is for sending SPAT source objects data to Nuendo
 
 Et voila! You are set.
 
-Ready to move info in object-oriented worklow!
+Ready to move info an object-oriented worklow!
 
 <!--
 
