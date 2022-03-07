@@ -53,11 +53,11 @@ Although controlling SPAT Revolution source objects from Nuendo audio tracks is 
 
 ### System schematics - Nuendo and SPAT Revolution
 
-![System schematics - Nuendo and SPAT Revolution - Software In / Hardware Out](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/NuendoADMOSCDualComputers.png)
+![System schematics - Nuendo and SPAT Revolution - Software In / Hardware Out](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/NuendoADMSoftInHardOut.png)
 
-![System schematics - Nuendo and SPAT Revolution - Software I/O with SPAT Plugins](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/NuendoADMOSCDualComputers.png)
+![System schematics - Nuendo and SPAT Revolution - Software I/O with SPAT Plugins](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/NuendoADMSoftIO.png)
 
-![System schematics - Nuendo and SPAT Revolution - Core Audio / Audio Bridge](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/NuendoADMOSCDualComputers.png)
+![System schematics - Nuendo and SPAT Revolution - Core Audio / Audio Bridge](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/NuendoADMOSCAudioBridge.png)
 
 ![System schematics - Nuendo and SPAT Revolution - Dual Computers](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/NuendoADMOSCDualComputers.png)
 
