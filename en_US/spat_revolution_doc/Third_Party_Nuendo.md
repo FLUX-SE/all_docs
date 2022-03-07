@@ -42,10 +42,24 @@ Complete information on dealing with objects in Nuendo available in their docume
 
 ![Object-based in Nuendo V11](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/NuendoADM.png ':size=800')
 
-### System diagram - Nuendo and SPAT Revolution
+# Using ADM-OSC in Nuendo / Use cases.
 
-* Single computer
-* Dual computer (recommended)
+Although controlling SPAT Revolution source objects from Nuendo audio tracks is possible with the SPAT send plugin and the automation of it , the actual integration of the Nuendo Panner to SPAT Revolution brings the ability to remain in the mixer environment. With this, users can stay within the typical mixer panner automation and use the same common remote control tools. (Eucon, controller mapping, etc.). It can be used with current sessions by simply adding the connection to SPAT Revolution as an external rendering tool.  Beyond object-based mixing with SPAT Revolution is the perceptual factors of object and the acoustic simulation helping build soundscapes. Various use cases are possible;
+
+* Import a ADM file from another environment, render with SPAT Revolution in channel-based (various panning and speaker arrangement formats)  or scene-based  (binaural, ambisoninc up to 7th order)
+* Deliver alternate formats from the same session you've rendered your Dolby Atmos deliverables.
+* Re-render old sessions using the existing panner position but with SPAT Revolution as rendering engine
+* Record all SPAT Revolution object position metadata (from live or studio) to the Nuendo Panner (while still being able to use the SPAT Send for other parameters)
+
+### System schematics - Nuendo and SPAT Revolution
+
+![System schematics - Nuendo and SPAT Revolution - Software In / Hardware Out](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/NuendoADMOSCDualComputers.png)
+
+![System schematics - Nuendo and SPAT Revolution - Software I/O with SPAT Plugins](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/NuendoADMOSCDualComputers.png)
+
+![System schematics - Nuendo and SPAT Revolution - Core Audio / Audio Bridge](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/NuendoADMOSCDualComputers.png)
+
+![System schematics - Nuendo and SPAT Revolution - Dual Computers](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/NuendoADMOSCDualComputers.png)
 
 ### Creating an up to 64 objects session in Nuendo
 
