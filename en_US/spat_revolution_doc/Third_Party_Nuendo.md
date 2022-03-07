@@ -42,7 +42,7 @@ Complete information on dealing with objects in Nuendo available in their docume
 
 ![Object-based in Nuendo V11](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/NuendoADM.png ':size=800')
 
-# Using ADM-OSC in Nuendo / Use cases.
+## Using ADM-OSC in Nuendo / Use cases.
 
 Although controlling SPAT Revolution source objects from Nuendo audio tracks is possible with the SPAT send plugin and the automation of it , the actual integration of the Nuendo Panner to SPAT Revolution brings the ability to remain in the mixer environment. With this, users can stay within the typical mixer panner automation and use the same common remote control tools. (Eucon, controller mapping, etc.). It can be used with current sessions by simply adding the connection to SPAT Revolution as an external rendering tool.  Beyond object-based mixing with SPAT Revolution is the perceptual factors of object and the acoustic simulation helping build soundscapes. Various use cases are possible;
 
