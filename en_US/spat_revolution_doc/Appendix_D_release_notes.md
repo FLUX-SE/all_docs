@@ -177,14 +177,14 @@
 
 ## Build 21.4.0.50030
 
-**Improvements**
+### Improvements
 
 * Add special cases for azimuth which should interpolate to the nearest angle instead of linear range [-180, 180].
 * Add new Dolby speaker arrangements
 * Improve session compatibility
 * Update German and Spanish translations
 
-**Bug Fixes**
+### Bug Fixes
 
 * Crash possible when opening a session other than from the home page
 * Empty Session compatibility when opening a session with master/monitor/output with Sloane 15/27/43
@@ -193,10 +193,10 @@
 * Fix possible error with Setup wizard validation
 
 
-### Build 21.4.0.50020
+## Build 21.4.0.50020
 
 
-**Features**
+### Features
 - New software licenses support for SPAT Revolution Essential (1 activation) and SPAT Revolution Ultimate Bundle (2 activations)
 - Ability now to disable the behavior of source/object moving over listener head when entering the spherical protection (radius) zone instead
 - New per room spherical protection zone (width parameter)
@@ -213,9 +213,9 @@
 	* Square root or Sinus/Cosinus
 
 
-**Improvements**
+### Improvements
 
-*User Interface*
+#### User Interface
 - Addition of Real source-objet position infos option on 3D view
 - Addition of Presence Infos option on 3D View
 - 3D view - Source-object  is projected on speaker plane for 2D channel-based speaker arrangements
@@ -224,14 +224,14 @@
 - Snapshot Rename Popup - Select automatically the edit on window popup
 
 
-*Core behaviors*
+#### Core behaviors
 - Radius protection zone is now automatically set with the channel-based arrangement based on speaker distance average.
 - Dialog box when changing speaker arrangement to offer auto scaling room parameters  for source-object
 - New update Setup Wizard with mode for Essential license based sessions
 - Radius per source is now a trim factor expressed in meters for session compatibility  and to integrate with new protection zone
 
 
-**Bug Fixes**
+### Bug Fixes
 
 - OSC -1 index doesn't work with Polar / AED. (Requires additional validation)
 - Record AED OSC messages and snapshot interpolation via Local Audio Path automation is not working
@@ -256,7 +256,7 @@
 
 
 
-### Build 20.12.0.49943
+## Build 20.12.0.49943
 
 **Optimization**
 * Add IO overload Detection + auto mute + reset button
@@ -264,9 +264,9 @@
 * Audio processing optimizations
 
 
-### Build 20.12.0.49890
+## Build 20.12.0.49890
 
-**Major Additions**
+### Major Additions
 
 * New MultiCore parallel processing algorithm.
 	* A new preference option to select various engine processing profile.
@@ -304,7 +304,7 @@
 * New HOA transcoding method (Regularized Pseudo-Inverse, Improved AllRAD, CSAD)
 
 
-**OSC - Many OSC optimizations in the core**
+### OSC - Many OSC optimizations in the core
 
 * The OSC Matrix (OSC Slots) has been updated and contains various changes.
 * Now supporting third party OSC devices without Auto-bundle feature (Digico Consoles now can have bidirectional control)
@@ -313,7 +313,7 @@
 * ADMPlayer compatibility (currently no scale)
 * Meyer Sound - Spacemap Go - OSC Grammar support (input only)
 
-**Major optimizations**
+### Major optimizations
 
 * Open GL fix for Mac Mini (Anti-Alias)
 * SPAT Plug-ins (LAP - AudioPipe) hardening and improvement against host App.
@@ -326,7 +326,7 @@
 * Shift drag to move 3D scene
 * Install templates with PI format for SPAT.
 
-**Other Improvements**
+### Other Improvements
 
 * BackGround - Set Background Offset Step to centimeters  
 * Display Performances (CPU) measurements help option
@@ -351,7 +351,7 @@
 * Rebuild GUI without reloading session
 
 
-**Bug Fixes:**
+### Bug Fixes:
 
 * Creating Snapshot freezes on Mac OS X.
 * Rename snapshot dialog not correctly initialized ; especially on retina display
@@ -364,9 +364,9 @@
 * Crash on connecting HOA order 7 input to source multiple time.
 
 
-### Build 20.12.0.49930
+## Build 20.12.0.49930
 
-**Bug Fixes:**
+### Bug Fixes:
 
 * Solved freezing issues on Windows computers.
 * Drop-down menu stuck
@@ -376,9 +376,9 @@
 
 
 
-### Build 20.12.0.49890
+## Build 20.12.0.49890
 
-**Bug Fixes:**
+### Bug Fixes:
 
 
 * Crash when "Max Number of cores" is one
