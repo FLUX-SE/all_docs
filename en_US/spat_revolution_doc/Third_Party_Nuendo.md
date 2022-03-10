@@ -27,13 +27,13 @@ For troubleshooting, please review the **[Appendix B - Troubleshooting](Appendix
 
 ## Nuendo and External OSC rendering
 
-Starting with Nuendo V11, it is now possible to deploy object-oriented sessions using open sound control (OSC). This brings the possibility to send/receive metadata from/to the Nuendo object panner. This functionality allows the support of SPAT Revolution as an external rendering engine using OSC thanks to the [ADM-OSC](Ecosystem_&_integration_ADM_OSC.md) initiative. More information and specifications on the **ADM-OSC** initiative can be found on the dedicated GitHub repository, [immersive-audio-live/ADM-OSC](https://github.com/immersive-audio-live/ADM-OSC).
+Starting with Nuendo V11, it is now possible to deploy object-oriented sessions using open sound control (OSC). This brings the possibility to send/receive metadata from/to the Nuendo object VST MultiPanner. This functionality allows the support of SPAT Revolution as an external rendering engine using OSC thanks to the [ADM-OSC](Ecosystem_&_integration_ADM_OSC.md) initiative. More information and specifications on the **ADM-OSC** initiative can be found on the dedicated GitHub repository, [immersive-audio-live/ADM-OSC](https://github.com/immersive-audio-live/ADM-OSC).
 
 Once configured, you can playback or record object-oriented sessions (audio and metadata) for live production and immersive creations workflows while using SPAT Revolution mixing and rendering capabilities.
 
 As Nuendo can import and export ADM files, this allows for an ADM master, exported from another environment, to be imported into a Nuendo session and mapped to SPAT Revolution. This integration brings the ability to render the object-based mix for various stream types (Ambisonic, Binaural, Channel-based), from standard to custom speaker arrangements and using multiple spatialization options and techniques.
 
-The functioning is based around the declared ADM object approach in Nuendo. At the base, as soon as a track is being assigned to a multichannel output bus, the surround panner becomes available and can work in bed or object mode. Here, we are interested in the object mode that will give us the possibility to stream or listen to the object position.
+The functioning is based around the declared ADM object approach in Nuendo. At the base, as soon as a track is being assigned to a multichannel output bus, the VST MultiPanner becomes available and can work in bed or object mode. Here, we are interested in the object mode that will give us the possibility to stream or listen to the object position.
 
 Complete information on dealing with objects in Nuendo available in their documentation, [steinberg.help - Nuendo 11](https://www.steinberg.help/nuendo-manuals/nuendo/nuendo-11/).
 
@@ -42,22 +42,29 @@ Complete information on dealing with objects in Nuendo available in their docume
 
 ## Using ADM-OSC in Nuendo / Use cases
 
-Although controlling SPAT Revolution source objects from Nuendo audio tracks is possible with the SPAT send plugin and the automation of it, the actual integration of the Nuendo Panner with SPAT Revolution brings the ability to remain in the mixer environment. With this, users can stay within the typical mixer panner automation and use the same common remote control tools (Eucon, controller mapping, etc.). It can be used with current sessions by simply adding the connection to SPAT Revolution as an external rendering tool, leading to a perceptual factors of objects and an acoustic simulation helping build soundscapes. Various use cases are possible:
+
+
+
+Although controlling SPAT Revolution source objects from Nuendo audio tracks is possible with the SPAT send plugin and the automation of it, the actual integration of the Nuendo VST MultiPanner with SPAT Revolution brings the ability to remain in the mixer environment. With this, users can stay within the typical mixer panner automation and use the same common remote control tools (HUI, MCU, and EUCON compatible controllers can be used, bringing tactile functionality to SPAT Revolution). It can be used with current sessions by simply adding the connection to SPAT Revolution as an external rendering tool, leading to a perceptual factors of objects and an acoustic simulation helping build soundscapes. Various use cases are possible:
 
 * Import an ADM file from another environment, render with SPAT Revolution in channel-based (various panning and speaker arrangement formats) or scene-based (binaural, ambisonic up to 7th order).
 * Deliver alternate formats from the same session you've rendered your Dolby Atmos deliverables.
-* Re-render old sessions using the existing panner position but with SPAT Revolution as rendering engine.
-* Record all SPAT Revolution object position metadata (from live or studio) to the Nuendo Panner (while still being able to use the SPAT Send for other parameters).
+* Re-render old sessions using the existing VST MultiPanner position but with SPAT Revolution as rendering engine.
+* Record all SPAT Revolution object position metadata (from live or studio) to the Nuendo VST MultiPanner(while still being able to use the SPAT Send for other parameters).
 
 ### System schematics - Nuendo and SPAT Revolution
 
 ![System schematics - Nuendo and SPAT Revolution - Software In / Hardware Out](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/NuendoADMSoftInHardOut.png)
+> **Basic setup where Nuendo is playing back to SPAT Revolution via software input and the the system output / monitoring is going out directly to you audio hardware device.**
 
 ![System schematics - Nuendo and SPAT Revolution - Software I/O with SPAT Plugins](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/NuendoADMSoftIO.png)
+> **Setup where ou are using SPAT Send and Return Local Audio Path mode to route the signal to/from Nuendo and SPAT Revolution. the return aloows to bounce in Nuendo the rendering result and manage monitoring.**
 
 ![System schematics - Nuendo and SPAT Revolution - Core Audio / Audio Bridge](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/NuendoADMOSCAudioBridge.png)
+> **Setup where audio bridge devices are use to connect Nuendo to/from SPAT Revolution. Typical scenario involvec masOS system with the audio bridge device part of an aggregate device with your audio interface used for monitoring.
 
 ![System schematics - Nuendo and SPAT Revolution - Dual Computers](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/NuendoADMOSCDualComputers.png)
+> **Typical dual computer setup where AoIP AES67 (Ravenna), AVB, Dante or other multchannel audio interfaces such as MADI are used to send and receive signals between Nuendo and SPAT Revolution.**
 
 ### Creating an up to 64 objects session in Nuendo
 
@@ -128,7 +135,7 @@ In order to start you project from an existing ADM master file of another enviro
 
 ---
 
-![Nuendo Surround Panner in Object Mode](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/NuendoPanner.png ':size=500')
+![Nuendo Surround VST MultiPanner in Object Mode](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/NuendoPanner.png ':size=500')
 
 ## Nuendo object position to SPAT Revolution source objects.
 
@@ -136,11 +143,11 @@ After the following setup details, object position data you have in your Nuendo 
 
 As this metadata is sent with normalized value according to the ADM-OSC specification, SPAT Revolution ADM-OSC input preset and transformation will allow scaling to the desired automation zone range.
 
-Nuendo can as well receive normalized position data from SPAT Revolution ADM-OSC XYZ output (preset), map them to the panner (position tracking) and write automation data with the corresponding audio object if desired.
+Nuendo can as well receive normalized position data from SPAT Revolution ADM-OSC XYZ output (preset), map them to the VST MultiPanner (position tracking) and write automation data with the corresponding audio object if desired.
 
 ## Setting up Nuendo OSC Object Position Tracking
 
-This next part covers incoming data to Nuendo. This would be to actually record the object information (from a live performance for example) to the Nuendo panner so ultimately use it as automation.
+This next part covers incoming data to Nuendo. This would be to actually record the object information (from a live performance for example) to the Nuendo VST MultiPanner so ultimately use it as automation.
 
 > At the time of writing it is not recommend to configure the objects bi-directionally as some workflow challenges exist with object index ID when dealing with a mix of mono, stereo or multichannel objects.
 
