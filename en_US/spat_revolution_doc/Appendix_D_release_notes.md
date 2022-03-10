@@ -1,5 +1,19 @@
 # SPAT Revolution - Release notes
 
+## Build 22.02.0.50151
+
+### Improvements
+
+- Performance - Optimize presence and clamping computation and rendering
+
+### Bugs
+- Speaker editor - Import from EASE is broken
+- Setup page - The diagram scrollbar is not initialized when loading a session from the Home Page
+- Crash with multi-canal sources in multiple rooms when disconnecting inputs, causing crash on quitting SPAT or closing session
+- Room Gain and "Mute sources outside Efficiency Zone" do not affect LFEs
+
+---
+
 ## Build 22.02.0.50148
 
 ### New features
@@ -169,11 +183,12 @@
 - Connect a Send input to a source reset all parameters
 
 #### Important
-- Win10 - dump, get and ? messages don't work
-- OSC - Rotation X,Y and Z button aren't refreshed on automation and OSC message reception
+- Win10 - /source/1/dump messages doesn't work
+- OSC - Rotation X,Y and Z buttons aren't refreshed on automation and OSC message reception
 - The second OSC output status is not retained in AAX / AAX VENUE. Make sure you enable it after a reboot or an AAX host rack reset.
 - Broadcast OSC messages are not received on macOS. Workaround: use unicast
 
+---
 
 ## Build 21.4.0.50030
 
@@ -254,7 +269,7 @@
 - If a session is closed while the user is in a room, SPAT Revolution main window can turn black
 - [FrameRate] GUI problem with low frame rate
 
-
+---
 
 ## Build 20.12.0.49943
 
@@ -263,6 +278,7 @@
 * SPAT Send (software) input sync error detection optimization
 * Audio processing optimizations
 
+---
 
 ## Build 20.12.0.49890
 
@@ -363,6 +379,7 @@
 * Yaw/Pitch/Roll - Number of digits in sliders
 * Crash on connecting HOA order 7 input to source multiple time.
 
+---
 
 ## Build 20.12.0.49930
 
@@ -374,7 +391,7 @@
 * Change language sets all rooms background to black (if they were white before)
 * When a list is selected in a Dialog, typing escape closes the window instead of the list
 
-
+---
 
 ## Build 20.12.0.49890
 
@@ -384,6 +401,7 @@
 * Crash when "Max Number of cores" is one
 * Crash when build setup without any sources and with Audio Device enabled
 
+---
 
 ### Build 20.12.0.49880
 
