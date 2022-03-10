@@ -55,16 +55,16 @@ Although controlling SPAT Revolution source objects from Nuendo audio tracks is 
 ### System schematics - Nuendo and SPAT Revolution
 
 ![System schematics - Nuendo and SPAT Revolution - Software In / Hardware Out](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/NuendoADMSoftInHardOut.png)
-> **Basic setup where Nuendo is playing back to SPAT Revolution via software input and the the system output / monitoring is going out directly to you audio hardware device.**
+> **Basic setup where Nuendo is playing back to SPAT Revolution via software input and the system output / monitoring is going out directly to you audio hardware device in SPAT Revolution.**
 
 ![System schematics - Nuendo and SPAT Revolution - Software I/O with SPAT Plugins](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/NuendoADMSoftIO.png)
-> **Setup where ou are using SPAT Send and Return Local Audio Path mode to route the signal to/from Nuendo and SPAT Revolution. the return aloows to bounce in Nuendo the rendering result and manage monitoring.**
+> **Setup where you are using SPAT Send and Return Local Audio Path mode to route the signal to/from Nuendo and SPAT Revolution. The return(s) allows to bounce in Nuendo the rendering result and manage the monitoring bussing needs.**
 
 ![System schematics - Nuendo and SPAT Revolution - Core Audio / Audio Bridge](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/NuendoADMOSCAudioBridge.png)
-> **Setup where audio bridge devices are use to connect Nuendo to/from SPAT Revolution. Typical scenario involvec masOS system with the audio bridge device part of an aggregate device with your audio interface used for monitoring.
+> **Setup where audio bridge devices are use to connect Nuendo to/from SPAT Revolution. Typical scenario involves masOS system with the audio bridge  part of an aggregate device with your actual audio interface used for monitoring.
 
 ![System schematics - Nuendo and SPAT Revolution - Dual Computers](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/NuendoADMOSCDualComputers.png)
-> **Typical dual computer setup where AoIP AES67 (Ravenna), AVB, Dante or other multchannel audio interfaces such as MADI are used to send and receive signals between Nuendo and SPAT Revolution.**
+> **Typical dual computer setup where AoIP AES67 (Ravenna), AVB, Dante or other multchannel audio interfaces such as with MADI are used to send and receive signals between Nuendo and SPAT Revolution.**
 
 ### Creating an up to 64 objects session in Nuendo
 
