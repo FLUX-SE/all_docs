@@ -5,18 +5,33 @@ Some of the more advanced control features in QLab make the most of its native O
 
 ## QLab Templates
 
-New updated templates for QLab are available and provide cue examples that can be used with Spat Revolution. 
+New updated templates for QLab are available and provide cue examples that can be used with Spat Revolution.  All the templates are available in EURO and US Version, using comma or period for denoting the decimal.
 
-**[QLAB OSC SPAT SNAPSHOT CUE EXAMPLES.qlab4](https://public.3.basecamp.com/p/q8UEvjgJeRQmecxxf8GVeZ7B)**
+**Qlab SPAT Revolution integration.qlab4**
 
-With the release of the snapshot feature, this template shows how you can manage Spat Revolution snapshots within QLab and have some carts for quick actions. 
-It demonstrates how interpolation time value can be used in the snapshot recall messages (last float, ex: 2.5).
+With the release of the snapshot feature, this template shows how you can manage SPAT Revolution and QLab integration on the same machine, using SPAT Revolution Send plug-ins. Both QLab and SPAT Revolution session are included, with 16 Mono and 8 Stereo SPAT Send on cue outputs.
+This template iss SPAT Revolution Essential compliante, for binaural and Channel-based setups.
+
+**[Qlab SPAT Revolution integration EURO.qlab4](https://public.3.basecamp.com/p/vhf67dYdBTHhwbtVJV4y227i)**
+**[Qlab SPAT Revolution integration US.qlab4](https://public.3.basecamp.com/p/oi3GoHpToVmEqijVV7F4QhJq)**
+
+---
+
+**Qlab SPAT Revolution snapshot carts.qlab4**
+
+This template shows how you can manage Spat Revolution snapshots within QLab and have some carts for quick actions. It demonstrates how interpolation time value can be used in the snapshot recall messages (last float, ex: 2.5).
+
+**[Qlab SPAT Revolution snapshot carts EURO.qlab4](https://public.3.basecamp.com/p/gC6XhzQjmEqpgFDRx7AXjuDL)**
+**[Qlab SPAT Revolution snapshot carts US.qlab4](https://public.3.basecamp.com/p/F4qR1QAXYVY5iA2Jt67si5ow)**
+
 
 ![Spat Snapshot message with interpolletation time](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/QLabSnapshotsInterpollation.png)
 
 ---
 
-**[QLAB OSC SPAT CUE EXAMPLES.qlab4](https://public.3.basecamp.com/p/q8UEvjgJeRQmecxxf8GVeZ7B)**
+**Qlab SPAT Revolution Examples**
+
+
 
 This template is our updated template and includes many cue examples using various messages types in Spat. 
 Beyond direct cue send actions, it brings 1D and 2D fade (Parameter ramp, 2D trajectories and more). 
@@ -24,9 +39,15 @@ As of QLab4 there is a time interpolated 2D fade system for creating spatial XY 
 X/Interpolation time value can always be used directly in your messages as well as shown in some template examples. 
 With the latest release of Spat Revolution, the ability to send messages to the currently selected source (s) with index -1 is shown in this template as well.
 
+**[Qlab SPAT Revolution examples EURO.qlab4](https://public.3.basecamp.com/p/nB4YRiTASZ9DrT8nLH11XzqY)**
+**[Qlab SPAT Revolution examples US.qlab4](https://public.3.basecamp.com/p/N9foEbx4DhktH5K53yAhugdM)**
+
 ![Spat Message with interpolletation time](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/QLabMessageXTime.png)
 
 ![2D trajectory messages](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/QLab2DCueSelectedSource.png)
+
+---
+
 
 
 ## QLab messages via network cues
@@ -37,7 +58,7 @@ _In the Spat Revolution preferences make sure the OSC Enable is engaged._
 
 ![Setting the OSC Connection](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Preference/OSCMain.png)
 
-> ★(2) Enable commands log to view the commands and confirm you are receiving data (Shift + F7 will open the log window). It is not recommended leaving it active all the time as it takes some system resources. 
+> ★ Enable commands log to view the commands and confirm you are receiving data (Shift + F7 will open the log window). It is not recommended leaving it active all the time as it takes some system resources. 
 
 **Setting the OSC Connection**
 ![Setting the OSC Connection](https://raw.githubusercontent.com/FLUX-SE/doc_images/main/SpatR/Preference/OSCConnectionCustomLocalHost.png)
