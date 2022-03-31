@@ -10,7 +10,7 @@ This guide is also available as YouTube Videos: *playlist link*
 
 <p>&nbsp;</p>
 
-## Intro
+## **Intro**
 
 <p>&nbsp;</p>
 
@@ -20,7 +20,7 @@ We will focus on everything from downloading and installing the tools, setting t
 
 <p>&nbsp;</p>
 
-### **Why using Ableton Live with SPAT Revolution?**
+### Why using Ableton Live with SPAT Revolution?
 
 <p>&nbsp;</p>
 
@@ -28,7 +28,7 @@ Maybe Live is your main DAW and so the most obvious choice, this is the case for
 
 <p>&nbsp;</p>
 
-### **Why using SPAT Revolution at all?**
+### Why using SPAT Revolution at all?
 
 <p>&nbsp;</p>
 
@@ -48,7 +48,7 @@ This guide works as a base and not an “end all be all”, any ideas on how to 
 
 <p>&nbsp;</p>
 
-## Demo
+## **Demo**
 
 <p>&nbsp;</p>
 
@@ -58,7 +58,7 @@ This guide works as a base and not an “end all be all”, any ideas on how to 
 
 <p>&nbsp;</p>
 
-## Installation
+## **Installation**
 
 <p>&nbsp;</p>
 
@@ -133,7 +133,7 @@ Software such as **Loopback** from **Rogue Amoeba** can be very useful to route 
 
 <p>&nbsp;</p>
 
-## Optimization
+## **Optimization**
 
 <p>&nbsp;</p>
 
@@ -174,7 +174,7 @@ Of course you do not have to do this at all, everything else should work properl
 
 <p>&nbsp;</p>
 
-## Setup
+## **Setup**
 
 <p>&nbsp;</p>
 
@@ -230,7 +230,7 @@ You can do this part when you need more channels I just prefer to do it all from
 
 <p>&nbsp;</p>
 
-### **SPAT**
+### SPAT
 
 - Open SPAT Revolution and go to the Preference panel to set BlackHole as the input device and your preferred Output device: *(aka your physical output)*
 
@@ -244,7 +244,7 @@ You can do this part when you need more channels I just prefer to do it all from
 
 <p>&nbsp;</p>
 
-### **What is OSC?**
+### What is OSC?
 
 <p>&nbsp;</p>
 
@@ -256,7 +256,7 @@ Want to learn more about OSC? [wikipedia.org](https://en.wikipedia.org/wiki/Open
 
 <p>&nbsp;</p>
 
-## Devices Description
+## **Devices Description**
 
 <p>&nbsp;</p>
 
@@ -264,7 +264,7 @@ None of those devices add any latency nor modification to the audio being passth
 
 <p>&nbsp;</p>
 
-### **SEND**
+### SEND
 
 <p>&nbsp;</p>
 
@@ -324,7 +324,7 @@ A combo of the two versions described above, so Local Audio Path activated and m
 
 <p>&nbsp;</p>
 
-### **ROOM**
+### ROOM
 
 <p>&nbsp;</p>
 
@@ -376,7 +376,7 @@ A more advanced version of the original device, with simply most of the availabl
 
 <p>&nbsp;</p>
 
-### **RETURN**
+### RETURN
 
 <p>&nbsp;</p>
 
@@ -420,7 +420,7 @@ And again unlike the two previously mentioned devices with the return if you hav
 
 <p>&nbsp;</p>
 
-### **Automator**
+### Automator
 
 <p>&nbsp;</p>
 
@@ -459,7 +459,7 @@ Moving this device to another track instead of deleting and creating a new one w
 
 <p>&nbsp;</p>
 
-## Workflow
+## **Workflow**
 
 <p>&nbsp;</p>
 
@@ -529,7 +529,7 @@ Happy Immersive Creating!
 
 <p>&nbsp;</p>
 
-## Printing an Immersive Mix
+## **Printing an Immersive Mix**
 
 <p>&nbsp;</p>
 
@@ -577,7 +577,7 @@ Then the only thing left to do is to create the tracks in Live that will receive
 
 <p>&nbsp;</p>
 
-## Thanks!
+## **Thanks!**
 
 <p>&nbsp;</p>
 
@@ -593,7 +593,7 @@ You can contact me directly here:
 
 <p>&nbsp;</p>
 
-## Credit
+## **Credit**
 
 <p>&nbsp;</p>
 
@@ -621,7 +621,7 @@ And of course the all FLUX:: Immersive Team for making such an awesome Immersive
 
 <p>&nbsp;</p>
 
-## Troubleshooting / Q&A
+## **Troubleshooting / Q&A**
 
 <p>&nbsp;</p>
 
@@ -676,11 +676,11 @@ A: For now due to limitation of the Essential version this workflow isn't fully 
 
 <p>&nbsp;</p>
 
-## You want More?!
+## **You want More?!**
 
 <p>&nbsp;</p>
 
-I you got completly hooked to making Immersive Audio, while this guide will be updated we already have a lot more resources you can checkout right now!
+I see... you got completly hooked to making Immersive Audio, while this guide will be updated we already have a lot more resources you can checkout right away!
 
 <p>&nbsp;</p>
 
