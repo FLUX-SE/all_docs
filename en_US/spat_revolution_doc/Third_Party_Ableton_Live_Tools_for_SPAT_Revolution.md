@@ -1,6 +1,12 @@
-# **Ableton Live Tools for SPAT Revolution** *( by ARSENE )*
+# **Ableton Live Tools for SPAT Revolution**
 
-This guide is also available as videos on YouTube: LINK
+![Guide Cover](https://raw.githubusercontent.com/FLUX-SE/doc_images/main/SpatR/ThirdParty/Live_Tools/ableton_live_tools_picture_v1.png)
+
+*Writen by ARSENE*
+
+<p>&nbsp;</p>
+
+This guide is also available as YouTube Videos: *playlist link*
 
 <p>&nbsp;</p>
 
@@ -50,11 +56,17 @@ This guide works as a base and not an “end all be all”, any ideas on how to 
 
 <p>&nbsp;</p>
 
+<p>&nbsp;</p>
+
 ## Installation
 
 <p>&nbsp;</p>
 
+<p>&nbsp;</p>
+
 ### Tools
+
+<p>&nbsp;</p>
 
 If you have the 22.02.0.50xxx version of the SPAT Revolution ( or newer ) you already have the tools installed!
 
@@ -66,7 +78,7 @@ And copy-paste this address to get to the folder where the tools are: *( without
 
 *“/Library/Application Support/Flux/Ableton Live Devices/SPAT”*
 
-![Go to Folder](https://raw.githubusercontent.com/FLUX-SE/doc_images/main/SpatR/ThirdParty/Live_Tools/go_to_folder.gif)
+![Go to Folder](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/Live_Tools/go_to_folder.gif)
 
 <p>&nbsp;</p>
 
@@ -76,11 +88,13 @@ And copy-paste this address to get to the folder where the tools are: *( without
 
 To go faster later, you can add this folder to your Finder’s sidebar:
 
-![Sidebar Finder](https://raw.githubusercontent.com/FLUX-SE/doc_images/main/SpatR/ThirdParty/Live_Tools/sidebar_finder.gif)
+![Sidebar Finder](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/Live_Tools/sidebar_finder.gif)
 
 <p>&nbsp;</p>
 
 ### Virtual Audio Driver
+
+<p>&nbsp;</p>
 
 In order for this workflow to work, we will also need to get some Virtual Audio Drivers, to route audio from Live to SPAT Revolution.
 
@@ -99,9 +113,11 @@ We will see later in the guide that there are many ways this can be very helpful
 
 ### Useful addition:
 
+<p>&nbsp;</p>
+
 Software such as **Loopback** from **Rogue Amoeba** can be very useful to route audio between our multiple devices/apps but is absolutely not Essential to this workflow, as we can achieve the same result with Aggregate and Multi-Output devices that you can make yourself inside the **“AUDIO MIDI SETUP”** of macOS.
 
-![Loopback](https://raw.githubusercontent.com/FLUX-SE/doc_images/main/SpatR/ThirdParty/Live_Tools/loopback.png)
+![Loopback](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/Live_Tools/loopback.png)
 
 **Loopback:** [https://rogueamoeba.com/loopback](https://rogueamoeba.com/loopback)
 
@@ -112,6 +128,8 @@ Software such as **Loopback** from **Rogue Amoeba** can be very useful to route 
 <p>&nbsp;</p>
 
 ## Optimization
+
+<p>&nbsp;</p>
 
 Now that everything is installed let's optimize a few parameters in your mac before getting into the setup.
 
@@ -126,7 +144,7 @@ What are Shortcuts?
 Shortcuts is simply an app *(native in macOS)* that lets you combine multiple steps across multiple apps to create powerful task automations.
 To add the Shortcuts I made, simply double click each of them and select the "Add Shortcut" button.
 
-![Shortcut Button](https://raw.githubusercontent.com/FLUX-SE/doc_images/main/SpatR/ThirdParty/Live_Tools/shortcut_button.png)
+![Shortcut Button](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/Live_Tools/shortcut_button.png)
 
 You will have 3 shortcuts available:
 
@@ -138,51 +156,67 @@ You will have 3 shortcuts available:
 
 Those shortcuts are very simple to make using the Shortcuts app inside macOS if you want to modify them or make them yourself:
 
-![Shortcut Compo](https://raw.githubusercontent.com/FLUX-SE/doc_images/main/SpatR/ThirdParty/Live_Tools/shortcut_compo.png)
+![Shortcut Compo](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/Live_Tools/shortcut_compo.png)
 
-Of course you do not have to do this to make everything else work, this is simply to save you a bit of CPU.
+Once added they should appear in your top bar for easy access:
+
+![Top Bar Shortcut](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/Live_Tools/top_bar_shortcut.png)
+
+<p>&nbsp;</p>
+
+Of course you do not have to do this at all, everything else should work properly anyway, this is simply to save you a bit of CPU.
 
 <p>&nbsp;</p>
 
 ## Setup
 
+<p>&nbsp;</p>
+
 Before getting into the workflow we need to set up just a few things inside Live and SPAT Revolution.
 
 So open Ableton Live and configure the following:
 
-- Set BlackHole as your Output Device and enable all the channels of the driver *(you can do this part when you need more channels I just prefer to do it all from the get go so it is done forever)*
+- Set BlackHole as your Output Device and enable all the channels of the driver
 
-![Live Output Setup](https://github.com/FLUX-SE/doc_images/blob/main/SpatR/ThirdParty/Live_Tools/output_setup.gif?raw=true)
+![Live Output Setup](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/Live_Tools/output_setup.gif)
+
+You can do this part when you need more channels I just prefer to do it all from the get go so it is done forever.
 
 <p>&nbsp;</p>
 
 - Add the SPAT folder containing the Tools using the “add folder” in the sidebar of Live:
 
-![Add Folder in Live](https://raw.githubusercontent.com/FLUX-SE/doc_images/main/SpatR/ThirdParty/Live_Tools/add_folder_in_live.gif)
+![Add Folder in Live](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/Live_Tools/add_folder_in_live.gif)
 
 <p>&nbsp;</p>
 
 - Place on a track all the devices and verify that they are all set on the following:
 
-![OSC check](https://raw.githubusercontent.com/FLUX-SE/doc_images/main/SpatR/ThirdParty/Live_Tools/osc_check.gif)
+![OSC check](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/Live_Tools/osc_check.gif)
+
+<p>&nbsp;</p>
+
+❗️ If you work with MIDI controller, I also highly recommend that you go into the Live Preferences, into the MIDI tab and change the Takeover Mode to Value Scaling so that parameters you play with don't get too jumpy❗️
+
+![Value Scaling](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/Live_Tools/value_scaling.png)
 
 <p>&nbsp;</p>
 
 - **SEND:**
 
-![Send Check](https://raw.githubusercontent.com/FLUX-SE/doc_images/main/SpatR/ThirdParty/Live_Tools/send_check.png)
+![Send Check](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/Live_Tools/send_check.png)
 
 <p>&nbsp;</p>
 
 - **RETURN:**
 
-![Return Check](https://raw.githubusercontent.com/FLUX-SE/doc_images/main/SpatR/ThirdParty/Live_Tools/return_check.png)
+![Return Check](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/Live_Tools/return_check.png)
 
 <p>&nbsp;</p>
 
 - **ROOM:**
 
-![Room Check](https://raw.githubusercontent.com/FLUX-SE/doc_images/main/SpatR/ThirdParty/Live_Tools/room_check.png)
+![Room Check](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/Live_Tools/room_check.png)
 
 <p>&nbsp;</p>
 
@@ -190,17 +224,19 @@ So open Ableton Live and configure the following:
 
 - Open SPAT Revolution and go to the Preference panel to set BlackHole as the input device and your preferred Output device: *(aka your physical output)*
 
-![SPAT Input Output Setup](https://raw.githubusercontent.com/FLUX-SE/doc_images/main/SpatR/ThirdParty/Live_Tools/set_input_device.gif)
+![SPAT Input Output Setup](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/Live_Tools/set_input_device.gif)
 
 <p>&nbsp;</p>
 
 - Activate the OSC and set up the connection:
 
-![SPAT OSC Setup](https://raw.githubusercontent.com/FLUX-SE/doc_images/main/SpatR/ThirdParty/Live_Tools/enable_OSC.gif)
+![SPAT OSC Setup](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/Live_Tools/enable_OSC.gif)
 
 <p>&nbsp;</p>
 
 ### **What is OSC?**
+
+<p>&nbsp;</p>
 
 OSC or Open Sound Control is a network protocol that simply send text information to application that can receive and read them, we will be using them to send automation information from Live to SPAT Revolution using the SPAT plugins inside our devices. It has for great strenght to be incredibly fast!
 
@@ -212,7 +248,13 @@ None of those devices add any latency nor modification to the audio being passth
 
 <p>&nbsp;</p>
 
+## Devices
+
+<p>&nbsp;</p>
+
 ### **SEND**
+
+<p>&nbsp;</p>
 
 This device lets you control some of the most useful parameters inside SPAT for the currently selected source.
 
@@ -221,7 +263,7 @@ The default settings of the plugins should already be set to connect with the SP
 
 Please check the setup part of the guide to learn more about the OSC Connection.
 
-![Send Device](https://raw.githubusercontent.com/FLUX-SE/doc_images/main/SpatR/ThirdParty/Live_Tools/send_description.png)
+![Send Device](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/Live_Tools/send_description.png)
 
 1. **DEFAULT:** Reset the parameters of the source to the default settings.
 2. **Gain:** Configure the gain of the source.
@@ -241,6 +283,8 @@ Please check the setup part of the guide to learn more about the OSC Connection.
 16. **Macro Variation:** Click this button to hide the macro variations *(ref to n°1)*
 17. **Show/Hide Devices:** Click this button to hide everything after the encoder knobs. *(ref from n°10 to n°14)* 
 18. **Info View:** This open/close Live’s built-in text info box, every parameter in the device has text info so this box might be useful if you need to know which does what.
+
+<p>&nbsp;</p>
 
 Additional Information❗️
 
@@ -270,6 +314,8 @@ A combo of the two versions described above, so Local Audio Path activated and m
 
 ### **ROOM**
 
+<p>&nbsp;</p>
+
 This device allows you to quickly control the reverb, you will have a lot more parameters available if you go directly into the Reverb settings inside your Room.
 
 You will need to set up the OSC connection Live and SPAT Revolution.
@@ -277,7 +323,7 @@ The default settings of the plugins should already be set to connect with the SP
 
 Please check the setup part of the guide to learn more about the OSC Connection.
 
-![Room Device](https://raw.githubusercontent.com/FLUX-SE/doc_images/main/SpatR/ThirdParty/Live_Tools/room_description.png)
+![Room Device](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/Live_Tools/room_description.png)
 
 1. **DEFAULT:** Reset the parameters of the Room to the default settings.
 2. **Gain:** Configure the gain of the room.
@@ -297,6 +343,8 @@ Please check the setup part of the guide to learn more about the OSC Connection.
 16. **Macro Variation:** Click this button to hide the macro variations *(ref to n°1)*
 17. **Show/Hide Devices:** Click this button to hide everything after the encoder knobs. *(ref from n°10 to n°14)*
 18. **Info View:** This open/close Live’s built-in text info box, every parameter in the device has text info so this box might be useful if you need to know which does what.
+
+<p>&nbsp;</p>
 
 Additional Information❗️
 
@@ -318,6 +366,8 @@ A more advanced version of the original device, with simply most of the availabl
 
 ### **RETURN**
 
+<p>&nbsp;</p>
+
 This device allows you to control the gain of the selected Master. You can find this block between the Room and the final output.
 
 You will need to setup the OSC connection between Live and SPAT Revolution.
@@ -325,7 +375,7 @@ The default settings of the plugins should already be set to connect with the SP
 
 Please check the setup part of the guide to learn more about the OSC Connection.
 
-![Return Device](https://raw.githubusercontent.com/FLUX-SE/doc_images/main/SpatR/ThirdParty/Live_Tools/return_description.png)
+![Return Device](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/Live_Tools/return_description.png)
 
 1. **Macro Variations:** Quick shortcuts to jump to specific values instead of using the encoder knob.
 2. **Gain:** Set the gain of the currently selected Master.
@@ -335,6 +385,8 @@ Please check the setup part of the guide to learn more about the OSC Connection.
 6. **Macro Variation:** Click this button to hide the macro variations *(ref to n°1)*
 7. **Show/Hide Devices:** Click this button to hide everything after the encoder knobs. *(ref from n°3 and n°4)* 
 8. **Info View:** This open/close Live’s built-in text info box, every parameter in the device has text info so this box might be useful if you need to know which does what.
+
+<p>&nbsp;</p>
 
 Additional Information❗️
 
@@ -348,17 +400,23 @@ Unlike the Send and Room devices which have specific M4L devices that can’t be
 
 And again unlike the two previously mentioned devices with the return if you have more than one master in your SPAT Revolution session you can easily duplicate the track hosting the RETURN device and it will automatically set up everything correctly.
 
+<p>&nbsp;</p>
+
 Don’t forget to rename your tracks for an easier read of your session!
 
-![Room and Return Ordering](https://raw.githubusercontent.com/FLUX-SE/doc_images/main/SpatR/ThirdParty/Live_Tools/room_return_ordering.png)
+<p>&nbsp;</p>
+
+![Room and Return Ordering](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/Live_Tools/room_return_ordering.png)
 
 <p>&nbsp;</p>
 
 ### **Automator**
 
+<p>&nbsp;</p>
+
 The Automator device allows you to make the selected source move around in SPAT Revolution in a more organic and continuous way compared to traditional automation.
 
-![Automator Device](https://raw.githubusercontent.com/FLUX-SE/doc_images/main/SpatR/ThirdParty/Live_Tools/automartor_description.png)
+![Automator Device](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/Live_Tools/automartor_description.png)
 
 1. **Macro Variations:** Quick shortcuts to reset to the default parameters of the device, you can create new macros to quickly change the automation of a source.
 2. **Rate (Note):** The base rate of the automation (expressed in note values).
@@ -381,6 +439,8 @@ The Automator device allows you to make the selected source move around in SPAT 
 19. **Show/Hide Devices:** Click this button to hide everything after the encoder knobs. *(ref from n°10 to n°16)* 
 20. **Info View:** This open/close Live’s built-in text info box, every parameter in the device has text info so this box might be useful if you need to know which does what.
 
+<p>&nbsp;</p>
+
 Additional Information❗️
 
 - **Moving the device in Live:**
@@ -391,21 +451,32 @@ Moving this device to another track instead of deleting and creating a new one w
 
 ## Workflow
 
-Watching the Corresponding video is highly recommended for this part: *LINK*
+<p>&nbsp;</p>
+
+Watching the corresponding video is highly recommended for this part: *link*
+
+<p>&nbsp;</p>
 
 Now that we are completly setup, the fomula is very simple:
 
-- Use the "SPAT MODE ON" Shortcut to turn off your external connections
-- Open Live and SPAT Revolution
-- Select the "SPAT" folder in the Sidebar of Live
+- Optional Step: Use the "SPAT MODE ON" Shortcut to turn off your external connections
+- Open Live and select the "SPAT" folder in the Sidebar of Live
 - Open the "SPAT Default.als" Template
 - Open SPAT Revolution and load the Template "SPAT Default.json" from the same archive
 
-*here: "/Library/Application Support/Flux/Ableton Live Devices/SPAT/Templates"*
+*If you have lost the location of the archive its here: "/Library/Application Support/Flux/Ableton Live Devices/SPAT/Templates"*
+
+<p>&nbsp;</p>
 
 With both templates open, you will have a direct connection between Live's Output and your Physcial Output so that you can start making music without thinking about spatialization in the first place.
 
-*Just make sure your "Cue Out" and "Master Out" are both set to 1/2 and that your Output device in Live is "BlackHole 64ch" and that your Input device in SPAT Revolution is "BlackHole 64ch" as well.*
+<p>&nbsp;</p>
+
+![Basic Templates Setup](https://raw.githubusercontent.com/FLUX-SE/doc_images/main/SpatR/ThirdParty/Live_Tools/basic_templates_setup.png)
+
+<p>&nbsp;</p>
+
+*Just make sure your "Cue Out" and "Master Out" are both set to 1/2, that your Output device in Live is "BlackHole 64ch" and that your Input device in SPAT Revolution is "BlackHole 64ch" as well, the device controlling the output Level of Live directly is placed on the Master Track in Live*
 
 *You can also note that the Live Template will setup a small group call "SPAT CTRL" which already contains a ROOM device and and RETURN device, each on individual tracks for better visibility.*
 
@@ -431,6 +502,113 @@ With both templates open, you will have a direct connection between Live's Outpu
 *When adding a "SEND" device to your track UI of the original send plugin will open you can take the type to rename the track in the plugin before closing the GUI so that the name translate automatically into SPAT Revolution.*
 
 - You can also start automating it using traditional automation or the "Automator" device in the same folder as the other devices.
+
+<p>&nbsp;</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xarMJBSSwU0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+*direct link if not loading: https://youtu.be/xarMJBSSwU0*
+
+<p>&nbsp;</p>
+
+### Happy Immersive Creating!
+
+<p>&nbsp;</p>
+
+![spat screenshot](https://raw.githubusercontent.com/FLUX-SE/doc_images/main/SpatR/ThirdParty/Live_Tools/spat_screenshot_cover.png)
+
+<p>&nbsp;</p>
+
+## Printing an Immersive Mix
+
+<p>&nbsp;</p>
+
+This part is also available as a YouTube Video here: *link*
+
+<p>&nbsp;</p>
+
+Now comes the time to think about how to render what we made inside Live and SPAT Revolution.
+
+There's a few strategies about this, which have multiples solutions, and a few factors to consider like the number of Room, Return, Channels, etc...
+
+But the abosulte main thing we cannot avoid is that we need to render real-time everything we made.
+
+<p>&nbsp;</p>
+
+Let's have a use case to demonstrate how you can print our mix
+
+<p>&nbsp;</p>
+
+Here  I have a session which I m gonna render for the Binaural *(3d on headphones)* Version and at the same time generate a Bed for an ATMOS render later.
+
+![Ready to Print](https://raw.githubusercontent.com/FLUX-SE/doc_images/main/SpatR/ThirdParty/Live_Tools/ready_to_render.png)
+
+<p>&nbsp;</p>
+
+We'll start by creating an "Aggregate Device" in the "AUDIO MIDI SETUP" panel of macOS:
+
+![Aggregate](https://raw.githubusercontent.com/FLUX-SE/doc_images/main/SpatR/ThirdParty/Live_Tools/aggregate.gif)
+
+❗️ Your Ableton Live and SPAT Revolution both need to be relaunched to detect the newly created Aggregate❗️
+
+<p>&nbsp;</p>
+
+Then I will use this device as Output in SPAT Revolution and Input in Live, set the corresponding channels of my BlackHole 2ch to the binaural output and the rest to the atmos output.
+
+<p>&nbsp;</p>
+
+Then the only thing left to do is to create the tracks in Live that will receive the audio coming out of SPAT Revolution, routing them accordingly and press record and letting the thing play!
+
+<p>&nbsp;</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FBz65vx_xJM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+*direct link if not loading: https://youtu.be/FBz65vx_xJM*
+
+<p>&nbsp;</p>
+
+## Thanks!
+
+<p>&nbsp;</p>
+
+The Immersive Audio World is full of new possibilities and I hope that this guide has help you understand lot's of what spatial audio has to offer and how to utilize it with Live!
+
+Let me know if there's anything missing from this guide (and the devices provided), ideas on how to better it, or simply what are you thoughts!
+
+<p>&nbsp;</p>
+
+You can contact me directly here:
+- Instagram: https://instagram.com/arsene_music
+- email: arsene.music.pro@gmail.com
+- FLUX:: https://www.flux.audio/contacts/arsene
+
+<p>&nbsp;</p>
+
+## Credit
+
+<p>&nbsp;</p>
+
+Ryan Farber for his M4L device: *(Simple One-Button Macro 2.0)*
+- https://www.ryanfarber.com
+- https://www.maxforlive.com/library/device/5353/simple-one-button-macro
+
+<p>&nbsp;</p>
+
+ELPHNT for his M4L device: *(NTPD2 Lite)*
+- https://elphnt.io
+- https://maxforlive.com/library/device/4997/ntpd-lite
+
+<p>&nbsp;</p>
+
+Devin Roth for creating BlackHole:
+- https://existential.audio
+- https://www.devinrothmusic.com
+
+<p>&nbsp;</p>
+
+To the Ableton Team for making my favorite DAW ever!
+
+And of course the all FLUX:: Immersive Team for making such an awesome Immersive Audio Engine.
 
 <p>&nbsp;</p>
 
