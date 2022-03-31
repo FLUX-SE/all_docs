@@ -92,6 +92,12 @@ To go faster later, you can add this folder to your Finder’s sidebar:
 
 <p>&nbsp;</p>
 
+If you are on Windows and want to use the devices download the archive from this link: [*download*](https://public.3.basecamp.com/p/wFaCfQqbHBgzx2AYReXehVGd/upload/download/Ableton%20Live%20Tools%20for%20SPAT%20Revolution%20-%20Windows.zip?disposition=attachment)
+
+You can place it anywhere on your computer and then add the folder to your Ableton Live using the "add folder* in the sidebar of Live.
+
+<p>&nbsp;</p>
+
 ### Virtual Audio Driver
 
 <p>&nbsp;</p>
@@ -111,7 +117,7 @@ We will see later in the guide that there are many ways this can be very helpful
 
 <p>&nbsp;</p>
 
-### Useful addition:
+### Useful addition
 
 <p>&nbsp;</p>
 
@@ -172,6 +178,10 @@ Of course you do not have to do this at all, everything else should work properl
 
 <p>&nbsp;</p>
 
+### Live
+
+<p>&nbsp;</p>
+
 Before getting into the workflow we need to set up just a few things inside Live and SPAT Revolution.
 
 So open Ableton Live and configure the following:
@@ -220,7 +230,7 @@ You can do this part when you need more channels I just prefer to do it all from
 
 <p>&nbsp;</p>
 
-### **SPAT:**
+### **SPAT**
 
 - Open SPAT Revolution and go to the Preference panel to set BlackHole as the input device and your preferred Output device: *(aka your physical output)*
 
@@ -238,17 +248,19 @@ You can do this part when you need more channels I just prefer to do it all from
 
 <p>&nbsp;</p>
 
-OSC or Open Sound Control is a network protocol that simply send text information to application that can receive and read them, we will be using them to send automation information from Live to SPAT Revolution using the SPAT plugins inside our devices. It has for great strenght to be incredibly fast!
-
-Want to learn more about OSC? [wikipedia.org/wiki/Open_Sound_Control](wikipedia.org/wiki/Open_Sound_Control)
-
-##Devices Description
-
-None of those devices add any latency nor modification to the audio being passthrough them, so do not worry about adding them anywhere in your chain!
+Open Sound Control (OSC) is a protocol for networking sound synthesizers, computers, and other multimedia devices for purposes such as musical performance or show control. OSC's advantages include interoperability, accuracy, flexibility and enhanced organization and documentation. The first specification was released in March 2002.
 
 <p>&nbsp;</p>
 
-## Devices
+Want to learn more about OSC? [wikipedia.org](https://en.wikipedia.org/wiki/Open_Sound_Control)
+
+<p>&nbsp;</p>
+
+## Devices Description
+
+<p>&nbsp;</p>
+
+None of those devices add any latency nor modification to the audio being passthrough them, so do not worry about adding them anywhere in your chain!
 
 <p>&nbsp;</p>
 
@@ -402,9 +414,7 @@ And again unlike the two previously mentioned devices with the return if you hav
 
 <p>&nbsp;</p>
 
-Don’t forget to rename your tracks for an easier read of your session!
-
-<p>&nbsp;</p>
+*"Don’t forget to rename your tracks for an easier read of your session!"*
 
 ![Room and Return Ordering](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/Live_Tools/room_return_ordering.png)
 
@@ -511,7 +521,7 @@ With both templates open, you will have a direct connection between Live's Outpu
 
 <p>&nbsp;</p>
 
-### Happy Immersive Creating!
+Happy Immersive Creating!
 
 <p>&nbsp;</p>
 
@@ -579,7 +589,6 @@ Let me know if there's anything missing from this guide (and the devices provide
 
 You can contact me directly here:
 - Instagram: https://instagram.com/arsene_music
-- email: arsene.music.pro@gmail.com
 - FLUX:: https://www.flux.audio/contacts/arsene
 
 <p>&nbsp;</p>
@@ -614,3 +623,83 @@ And of course the all FLUX:: Immersive Team for making such an awesome Immersive
 
 ## Troubleshooting / Q&A
 
+<p>&nbsp;</p>
+
+### iLok Message
+
+<p>&nbsp;</p>
+
+If you ever get that message when starting SPAT Revolution, first if you have activated your license from the iLok License Manager app, this error can still happens.
+
+![iLok Message](https://raw.githubusercontent.com/FLUX-SE/doc_images/main/SpatR/ThirdParty/Live_Tools/Screenshot%202022-03-31%20at%2018.32.48.png)
+
+You can fix it by simply launching the SPAT Revolution again once or twice depending on your luck. This is an issue that still needs to be addressed by the FLUX:: Team.
+
+If however this wasn't the solution please check the following:
+- is your FLUX:: Center up to date? *(http://flux.audio/download)*
+- is your SPAT Revolution up to date? *(inside the FLUX:: Center)*
+- is your license correctly activated in your iLok License Manager app?
+- is your iLok License Manager up to date? *(https://ilok.com/)*
+
+If none of it solve the issue please contact the FLUX:: Tech Support here: support@flux.audio
+
+<p>&nbsp;</p>
+
+### Windows?
+
+<p>&nbsp;</p>
+
+Q: Do you plan on making a Windows specific guide?
+
+A: Maybe if I get lot's of request about it.
+
+<p>&nbsp;</p>
+
+### OSC issue
+
+<p>&nbsp;</p>
+
+If a source in SPAT doesn't seem to receive the Automation parameters please check the following:
+- is the OSC Output port and ip Output in the send plugin *(ref n°13 in the SEND description)* match the ip and port inside the OSC settings *(Preference panel in SPAT)*?
+- is OSC enable *(Preference panel in SPAT)*
+
+<p>&nbsp;</p>
+
+
+### SPAT Revolution Essential Version?
+
+<p>&nbsp;</p>
+
+Q: Is this workflow compatible with the Essential Version of SPAT Revolution?
+
+A: For now due to limitation of the Essential version this workflow isn't fully compatible, maybe later with some future update of Essential and some tweaking on my end.
+
+<p>&nbsp;</p>
+
+## You want More?!
+
+<p>&nbsp;</p>
+
+I you got completly hooked to making Immersive Audio, while this guide will be updated we already have a lot more resources you can checkout right now!
+
+<p>&nbsp;</p>
+
+The complete user guide of SPAT Revolution
+- https://doc.flux.audio/#/en_US/spat_revolution_doc/A_User_Guide
+
+<p>&nbsp;</p>
+
+Knowledge Base on http://flux.audio
+- https://www.flux.audio/knowledge-base/category/spat-revolution
+
+<p>&nbsp;</p>
+
+YouTube Playlists:
+- SPAT Revolution: https://youtube.com/playlist?list=PL_Dcg2GwhLHlwimLMVsBEAlNsLzEkxF4y
+- Set-up your DAW with SPAT Revolution: https://youtube.com/playlist?list=PL_Dcg2GwhLHkk4JUNIwGnHLFC5-XFlCHG
+- ReaVolution: https://youtube.com/playlist?list=PL_Dcg2GwhLHmdWDRuCyGZRLd5BA2UBvls
+- w/ Hervé Déjardin: https://youtube.com/playlist?list=PL_Dcg2GwhLHkWtIPwUUvK0NTCIm10eluW
+- Artist: https://youtube.com/playlist?list=PL_Dcg2GwhLHmF2fwn9GWJSur3U0xWqcJr
+- SPAT Revolution - AVID Venue I S6L: https://youtube.com/playlist?list=PL_Dcg2GwhLHkhrYJpAkP23bvR7wnhPrqy
+- LIVESTREAMS: https://youtube.com/playlist?list=PL_Dcg2GwhLHnHq87gdWjqeTw3KpEcwHPa
+- EVENTS: https://www.youtube.com/playlist?list=PL_Dcg2GwhLHlTS8KLSdk2yZqWgUUAwKxw
