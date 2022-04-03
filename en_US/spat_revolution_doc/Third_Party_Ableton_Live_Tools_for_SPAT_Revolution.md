@@ -2,7 +2,7 @@
 
 ![Guide Cover](https://raw.githubusercontent.com/FLUX-SE/doc_images/main/SpatR/ThirdParty/Live_Tools/ableton_live_tools_picture_v1.png)
 
-*Writen by ARSENE*
+*Writen by [ARSENE](https://www.flux.audio/contacts/arsene)*
 
 <p>&nbsp;</p>
 
@@ -24,7 +24,9 @@ We will focus on everything from downloading and installing the tools, setting t
 
 <p>&nbsp;</p>
 
-Maybe Live is your main DAW and so the most obvious choice, this is the case for me and is also why I created this workflow in the first place, but I would also like to add, that Live is a great choice for anyone getting into creating, sound designing, etc… in an Immersive Audio Context. The capabilities of Ableton Live in terms of Automations are monstrous and so make this DAW an incredible tool for making great Immersive Audio content that will include lots of spatial movements and effects.
+Maybe Live is your main DAW and so the most obvious choice, this is the case for me and is also why I created this workflow in the first place, but I would also like to add, that Live is a great choice for anyone getting into creating, sound designing, etc… in an Immersive Audio Context. 
+
+The capabilities of Ableton Live in terms of Automations are monstrous and so make this DAW an incredible tool for making great Immersive Audio content that will include lots of spatial movements and effects.
 
 <p>&nbsp;</p>
 
@@ -56,11 +58,59 @@ This guide works as a base and not an “end all be all”, any ideas on how to 
 
 <p>&nbsp;</p>
 
-<p>&nbsp;</p>
-
 ## **Installation**
 
 <p>&nbsp;</p>
+
+*If you already have a FLUX:: account as well as an iLok account and already have a SPAT Revolution License or Trial you can jump to the next section of the guide:* *[click here](https://doc.flux.audio/#/en_US/spat_revolution_doc/Third_Party_Ableton_Live_Tools_for_SPAT_Revolution?id=tools)*
+
+<p>&nbsp;</p>
+
+You can follow this part with the dedicated video as well: *link*
+
+<p>&nbsp;</p>
+
+- So we are going to first create our FLUX:: account [here](https://shop.flux.audio/en_US/register).
+
+*Don’t forget that you need to activate your account, an email will be sent to your email address.*
+
+*(if you don’t see it please check your spam inbox or search for the email directly using its name: "email address verification)*
+
+<p>&nbsp;</p>
+
+- Once your FLUX:: account has been created we are now going to create an iLok account [here](https://ilok.com/#!registration).
+
+*For those who don’t know, iLok is simple a license platform and will allow us to activate our SPAT Revolution license.*
+
+<p>&nbsp;</p>
+
+Same as for the FLUX:: account don’t forget to activate your account with the email sent to you.
+
+<p>&nbsp;</p>
+
+We are now going to download the FLUX:: Center and the iLok License Manager app.
+
+<p>&nbsp;</p>
+
+Download:
+- FLUX:: Center: https://www.flux.audio/download
+- iLok License Manager app: https://ilok.com
+
+<p>&nbsp;</p>
+
+Now that both accounts have been created and activated, and both the flux center and iLok license manager apps have been downloaded and installed, we can now link our ilok account to the FLUX:: account.
+
+<p>&nbsp;</p>
+
+To do so simply go into the [iLok Licenses](https://shop.flux.audio/en_US/account/trial/request) section of your FLUX:: account, and follow the procedure.
+
+Last step is to go into the trial section and request a trial for SPAT Revolution Ultimate. The license will be automatically placed on your iLok account.
+
+Now open the iLok License Manager app and activate your license by drag and dropping it to your computer. You can then close the iLok app and open the FLUX:: Center.
+
+<p>&nbsp;</p>
+
+Connect to your flux account and download the SPAT Revolution, when you download the SPAT Revolution the plugins and the Ableton Live Tools for SPAT Revolution will be automatically installed as well.
 
 <p>&nbsp;</p>
 
@@ -655,16 +705,38 @@ A: Maybe if I get lot's of request about it.
 
 <p>&nbsp;</p>
 
-### OSC issue
+### OSC issues? (Automation not going to SPAT)
 
 <p>&nbsp;</p>
 
 If a source in SPAT doesn't seem to receive the Automation parameters please check the following:
+
 - is the OSC Output port and ip Output in the send plugin *(ref n°13 in the SEND description)* match the ip and port inside the OSC settings *(Preference panel in SPAT)*?
-- is OSC enable *(Preference panel in SPAT)*
+
+![ip and port stuff](https://raw.githubusercontent.com/FLUX-SE/doc_images/main/SpatR/ThirdParty/Live_Tools/ip_and_port_stuff.png)
 
 <p>&nbsp;</p>
 
+- is OSC enabled *(Preference panel in SPAT)*
+
+![osc enabled](https://raw.githubusercontent.com/FLUX-SE/doc_images/main/SpatR/ThirdParty/Live_Tools/osc%20enabled.png)
+
+<p>&nbsp;</p>
+
+- also make sure the OSC Index number in the SPAT plugin *(inside the send device)* match the number of the track inside SPAT Revolution
+
+![osc index ref](https://raw.githubusercontent.com/FLUX-SE/doc_images/main/SpatR/ThirdParty/Live_Tools/osc_index_ref.png)
+
+<p>&nbsp;</p>
+
+You can apply the same treatment to the ROOM and RETURN has well if the automations on those aren't working too.
+
+So to sum up again:
+- IP in/out check in both the plugins and in the SPAT Pref
+- OSC Index check in both the plugin and the source number in SPAT
+- And of course, check if OSC is simply not activated
+
+<p>&nbsp;</p>
 
 ### SPAT Revolution Essential Version?
 
@@ -681,6 +753,16 @@ A: For now due to limitation of the Essential version this workflow isn't fully 
 <p>&nbsp;</p>
 
 I see... you got completly hooked to making Immersive Audio, while this guide will be updated we already have a lot more resources you can checkout right away!
+
+<p>&nbsp;</p>
+
+Main SPAT Revolutin Page
+- https://www.flux.audio/project/spat-revolution
+
+<p>&nbsp;</p>
+
+Latest Release
+- https://www.flux.audio/spat-revolution-22-02
 
 <p>&nbsp;</p>
 
@@ -705,3 +787,26 @@ YouTube Playlists:
 - EVENTS: https://www.youtube.com/playlist?list=PL_Dcg2GwhLHlTS8KLSdk2yZqWgUUAwKxw
 
 <p>&nbsp;</p>
+
+User Stories
+- https://www.flux.audio/category/user-stories
+
+<p>&nbsp;</p>
+
+Technical Articles
+- https://www.flux.audio/category/tech-articles
+
+<p>&nbsp;</p>
+
+New & Press
+- https://www.flux.audio/category/news/
+
+<p>&nbsp;</p>
+
+Training & Workshops
+- https://www.flux.audio/training-and-workshops
+
+<p>&nbsp;</p>
+
+Facebook User Group
+- https://www.facebook.com/groups/fluximmersive.usergroup
