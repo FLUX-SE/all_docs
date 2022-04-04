@@ -1,6 +1,6 @@
 # **Ableton Live Tools for SPAT Revolution**
 
-![Guide Cover](https://raw.githubusercontent.com/FLUX-SE/doc_images/main/SpatR/ThirdParty/Live_Tools/ableton_live_tools_picture_v1.png)
+![Guide Cover](https://media.githubusercontent.com/FLUX-SE/doc_images/main/SpatR/ThirdParty/Live_Tools/ableton_live_toolsv2.png)
 
 *Writen by [ARSENE](https://www.flux.audio/contacts/arsene)*
 
@@ -532,7 +532,7 @@ With both templates open, you will have a direct connection between Live's Outpu
 
 <p>&nbsp;</p>
 
-![Basic Templates Setup](https://raw.githubusercontent.com/FLUX-SE/doc_images/main/SpatR/ThirdParty/Live_Tools/basic_templates_setup.png)
+![Basic Templates Setup](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/Live_Tools/basic_templates_setup.png)
 
 <p>&nbsp;</p>
 
@@ -575,7 +575,7 @@ Happy Immersive Creating!
 
 <p>&nbsp;</p>
 
-![spat screenshot](https://raw.githubusercontent.com/FLUX-SE/doc_images/main/SpatR/ThirdParty/Live_Tools/spat_screenshot_cover.png)
+![spat screenshot](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/Live_Tools/spat_screenshot_cover.png)
 
 <p>&nbsp;</p>
 
@@ -601,13 +601,13 @@ Let's have a use case to demonstrate how you can print our mix
 
 Here  I have a session which I m gonna render for the Binaural *(3d on headphones)* Version and at the same time generate a Bed for an ATMOS render later.
 
-![Ready to Print](https://raw.githubusercontent.com/FLUX-SE/doc_images/main/SpatR/ThirdParty/Live_Tools/ready_to_render.png)
+![Ready to Print](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/Live_Tools/ready_to_render.png)
 
 <p>&nbsp;</p>
 
 We'll start by creating an "Aggregate Device" in the "AUDIO MIDI SETUP" panel of macOS:
 
-![Aggregate](https://raw.githubusercontent.com/FLUX-SE/doc_images/main/SpatR/ThirdParty/Live_Tools/aggregate.gif)
+![Aggregate](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/Live_Tools/aggregate.gif)
 
 ❗️ Your Ableton Live and SPAT Revolution both need to be relaunched to detect the newly created Aggregate❗️
 
@@ -681,7 +681,7 @@ And of course the all FLUX:: Immersive Team for making such an awesome Immersive
 
 If you ever get that message when starting SPAT Revolution, first if you have activated your license from the iLok License Manager app, this error can still happens.
 
-![iLok Message](https://raw.githubusercontent.com/FLUX-SE/doc_images/main/SpatR/ThirdParty/Live_Tools/Screenshot%202022-03-31%20at%2018.32.48.png)
+![iLok Message](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/Live_Tools/Screenshot%202022-03-31%20at%2018.32.48.png)
 
 You can fix it by simply launching the SPAT Revolution again once or twice depending on your luck. This is an issue that still needs to be addressed by the FLUX:: Team.
 
@@ -713,19 +713,19 @@ If a source in SPAT doesn't seem to receive the Automation parameters please che
 
 - is the OSC Output port and ip Output in the send plugin *(ref n°13 in the SEND description)* match the ip and port inside the OSC settings *(Preference panel in SPAT)*?
 
-![ip and port stuff](https://raw.githubusercontent.com/FLUX-SE/doc_images/main/SpatR/ThirdParty/Live_Tools/ip_and_port_stuff.png)
+![ip and port stuff](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/Live_Tools/ip_and_port_stuff.png)
 
 <p>&nbsp;</p>
 
 - is OSC enabled *(Preference panel in SPAT)*
 
-![osc enabled](https://raw.githubusercontent.com/FLUX-SE/doc_images/main/SpatR/ThirdParty/Live_Tools/osc%20enabled.png)
+![osc enabled](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/Live_Tools/osc%20enabled.png)
 
 <p>&nbsp;</p>
 
 - also make sure the OSC Index number in the SPAT plugin *(inside the send device)* match the number of the track inside SPAT Revolution
 
-![osc index ref](https://raw.githubusercontent.com/FLUX-SE/doc_images/main/SpatR/ThirdParty/Live_Tools/osc_index_ref.png)
+![osc index ref](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/Live_Tools/osc_index_ref.png)
 
 <p>&nbsp;</p>
 
