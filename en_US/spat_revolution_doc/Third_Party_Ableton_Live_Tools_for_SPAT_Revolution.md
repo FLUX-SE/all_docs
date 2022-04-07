@@ -1,6 +1,6 @@
 # **Ableton Live Tools for SPAT Revolution**
 
-![Guide Cover](https://media.githubusercontent.com/FLUX-SE/doc_images/main/SpatR/ThirdParty/Live_Tools/ableton_live_toolsv2.png)
+![Guide Cover](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/Live_Tools/ableton_live_toolsv2.png)
 
 *Writen by [ARSENE](https://www.flux.audio/contacts/arsene)*
 
@@ -54,7 +54,7 @@ This guide works as a base and not an “end all be all”, any ideas on how to 
 
 <p>&nbsp;</p>
 
-*video*
+*video not uploaded yet*
 
 <p>&nbsp;</p>
 
@@ -118,7 +118,7 @@ Connect to your flux account and download the SPAT Revolution, when you download
 
 <p>&nbsp;</p>
 
-If you have the 22.02.0.50xxx version of the SPAT Revolution ( or newer ) you already have the tools installed!
+If you have the 22.04.0.50152 version of the SPAT Revolution (or newer) you already have the tools installed!
 
 The Devices are installed here: *“/Library/Application Support/Flux/Ableton Live Devices/SPAT”*
 
@@ -613,7 +613,7 @@ We'll start by creating an "Aggregate Device" in the "AUDIO MIDI SETUP" panel of
 
 <p>&nbsp;</p>
 
-Then I will use this device as Output in SPAT Revolution and Input in Live, set the corresponding channels of my BlackHole 2ch to the binaural output and the rest to the atmos output.
+Then I will use this device as Output in SPAT Revolution and Input in Live, set the out channels of the binaural output block to the two corresponding channels of my 2ch device and the rest to the atmos output.
 
 <p>&nbsp;</p>
 
@@ -624,6 +624,85 @@ Then the only thing left to do is to create the tracks in Live that will receive
 <iframe width="560" height="315" src="https://www.youtube.com/embed/FBz65vx_xJM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 *direct link if not loading: https://youtu.be/FBz65vx_xJM*
+
+<p>&nbsp;</p>
+
+## **From Single Machine to Dual Computer Setup**
+
+<p>&nbsp;</p>
+
+This part is also available as a YouTube Video here: *link*
+
+<p>&nbsp;</p>
+
+The process of switch this all workflow from a single computer to a dual one is fairly simple.
+
+But why? If you have heavier Ableton Live Session and want to reduce the load on your computer is often the why here.
+
+<p>&nbsp;</p>
+
+We will need two things to make it possible, beside having two computers of couse.
+
+- a network audio solution such as MADI, DANTE, RAVENNA, etc...
+- and a network switch to create send the OSC automations from the computer hosting Live to the one with SPAT Revolution
+
+*We could do it via a wifi network, but this isn't the best in terms of speed and stability.*
+
+<p>&nbsp;</p>
+
+So now, let's change the Output device in Ableton for our network audio solution, do the same for the Input device in SPAT Revolution.
+
+*Check that all the channels are active in Live*
+
+Depending on which Network Audio Solution you use you might need to re-route some of your channels, as output one will not always mean it will go into input one.
+
+<p>&nbsp;</p>
+
+And now we need only to setup the new IPs as we are not sending the OSC automations localy.
+
+Simply go into the SPAT Preferences and change (in the OSC Connections part) the plugin Outputs to the IP address of the Live Computer.
+
+*Make sure you are using the IP of the correct network if you work with multiple ones.*
+
+Select the corresponding IP for the plugin Input.
+
+Now we need to do the same inside for the spat plugins inside Live. 
+
+Go back to Live open the plugin ROOM in your ROOM track, and put the IP address of the Computer hosting SPAT as the output and select the IP corresponding IP address as your input. Do the same for the RETURN, and the SEND.
+
+Of couse don’t forget to check if the OSC is enable in the preferences or SPAT will simply not receive anything.
+
+Once this is done, our automation should now be received in SPAT. 
+
+<p>&nbsp;</p>
+
+And that is it!
+
+<p>&nbsp;</p>
+
+## **Uninstall**
+
+<p>&nbsp;</p>
+
+To Uninstall the Ableton Live Tools for SPAT Revolution simply go to this location:
+
+<p>&nbsp;</p>
+
+ */Library/Application Support/Flux*
+
+<p>&nbsp;</p>
+
+And delete the Ableton Live Devices Folder.
+
+<p>&nbsp;</p>
+
+For more information about uninstalling SPAT Revolution please checkout the following article inside the FLUX:: Knowledge Base.
+
+How To uninstall software installed with FLUX:: Center:
+- https://www.flux.audio/knowledge-base/how-to-uninstall-software-installed-with-flux-center
+
+How to manually uninstall audio plugins:
+- https://www.flux.audio/knowledge-base/how-to-manually-uninstall-audio-plugins
 
 <p>&nbsp;</p>
 
@@ -665,7 +744,10 @@ Devin Roth for creating BlackHole:
 
 <p>&nbsp;</p>
 
-To the Ableton Team for making my favorite DAW ever!
+To the Ableton Team for making my favorite DAW.
+
+<p>&nbsp;</p>
+
 
 And of course the all FLUX:: Immersive Team for making such an awesome Immersive Audio Engine.
 
@@ -738,13 +820,21 @@ So to sum up again:
 
 <p>&nbsp;</p>
 
+If you work with moving setup you might sometimes get an error showing the OSC Port in red. To fix it simply change the IP address to another network then go back to the original one.
+
+If that doesn't do it you can also change the OSC Port to something else, and then set back the correct port number.
+
+![osc error](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/Live_Tools/osc_in_error.gif)
+
+<p>&nbsp;</p>
+
 ### SPAT Revolution Essential Version?
 
 <p>&nbsp;</p>
 
 Q: Is this workflow compatible with the Essential Version of SPAT Revolution?
 
-A: For now due to limitation of the Essential version this workflow isn't fully compatible, maybe later with some future update of Essential and some tweaking on my end.
+A: For now due to limitation of the Essential version this workflow isn't fully compatible, maybe later with some future update of Essential and some tweaking on my end. Making this workflow work for Essential would require to change it some much that you could not call this the same Workflow.
 
 <p>&nbsp;</p>
 
