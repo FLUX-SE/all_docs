@@ -51,7 +51,6 @@
    8. [ReaVolution](Third_Party_ReaVolution.md)
    9.  [Avid Pro Tools](Third_Party_ProTools.md)
    10. [Ableton Live](Third_Party_AbletonLive.md)
-   11. [Ableton Live Tools for SPAT](Third_Party_Ableton_Live_Tools_for_SPAT_Revolution.md)
    11. [Steinberg Nuendo](Third_Party_Nuendo.md)
    12. [Bitwig Studio](Third_Party_Bitwig_Studio.md)
    13. [Figure53 Qlab](Third_Party_Figure53_QLab.md)
