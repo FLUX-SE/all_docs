@@ -1,6 +1,6 @@
 # **Ableton Live Tools for SPAT Revolution**
 
-![Guide Cover](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/Live_Tools/ableton-live-tools-seul-2.png)
+![Guide Cover](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/Live_Tools/ableton-live-tools-seu.png)
 
 *Writen by [ARSENE](https://www.flux.audio/contacts/arsene)*
 
