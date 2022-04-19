@@ -1,6 +1,6 @@
 # **Ableton Live Tools for SPAT Revolution**
 
-![Guide Cover](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/Live_Tools/ableton-live-tools-seu.png)
+![Guide Cover](https://raw.githubusercontent.com/FLUX-SE/doc_images/main/SpatR/ThirdParty/Live_Tools/ableton-live-tools-seul-2.png)
 
 *Writen by [ARSENE](https://www.flux.audio/contacts/arsene)*
 
@@ -10,7 +10,7 @@ This guide is also available as YouTube Videos: *playlist link* ( not available 
 
 <p>&nbsp;</p>
 
-## **Intro**
+## **Introduction**
 
 <p>&nbsp;</p>
 
@@ -62,11 +62,11 @@ This guide works as a base and not an “end all be all”, any ideas on how to 
 
 <p>&nbsp;</p>
 
-*If you already have a FLUX:: account as well as an iLok account and already have a SPAT Revolution License or Trial you can jump to the next section of the guide:* *[click here](https://doc.flux.audio/#/en_US/spat_revolution_doc/Third_Party_Ableton_Live_Tools_for_SPAT_Revolution?id=tools)*
+You can follow this part with the dedicated video as well: *link* (not available yet)
 
 <p>&nbsp;</p>
 
-You can follow this part with the dedicated video as well: *link* (not available yet)
+*If you already have a FLUX:: account as well as an iLok account and already have a SPAT Revolution License or Trial you can jump to the next section of the guide:* *[click here](https://doc.flux.audio/#/en_US/spat_revolution_doc/Third_Party_Ableton_Live_Tools_for_SPAT_Revolution?id=tools)*
 
 <p>&nbsp;</p>
 
@@ -110,7 +110,7 @@ Now open the iLok License Manager app and activate your license by drag and drop
 
 <p>&nbsp;</p>
 
-Connect to your flux account and download the SPAT Revolution, when you download the SPAT Revolution the plugins for SPAT Revolution will be automatically installed as well.
+Connect to your flux account and download the SPAT Revolution, when you download the SPAT Revolution the plugins for SPAT Revolution will be automatically installed as well. Don't forget to also download the Tools!
 
 <p>&nbsp;</p>
 
@@ -120,8 +120,7 @@ Connect to your flux account and download the SPAT Revolution, when you download
 
 Once the SPAT Revolution and the Ableton Live Tools for SPAT Revolution have been installed from the FLUX:: Center you can go look for them in the following folder.
 
-
-    *“/Library/Application Support/Flux/Ableton Live Devices/SPAT”*
+    “/Library/Application Support/Flux/Ableton Live Devices/SPAT”
 
 <p>&nbsp;</p>
 
@@ -131,7 +130,7 @@ Go to the folder location by opening the finder and use the the shortcut: *cmd+s
 
 And copy-paste this address to get to the folder where the tools are: *( without the quotes )*
 
-    *“/Library/Application Support/Flux/Ableton Live Devices/SPAT”*
+    “/Library/Application Support/Flux/Ableton Live Devices/SPAT”
 
 <p>&nbsp;</p>
 
@@ -249,7 +248,7 @@ So open Ableton Live and configure the following:
 
 <p>&nbsp;</p>
 
-❗️ If you work with MIDI controller, we also highly recommend that you go into the Live Preferences, into the MIDI tab and change the Takeover Mode to Value Scaling so that parameters you play with don't get too jumpy❗️
+❗️ If you work with MIDI controllers, we also highly recommend that you go into the Live Preferences, into the MIDI tab and change the Takeover Mode to Value Scaling so that parameters you play with don't get too jumpy❗️
 
 ![Value Scaling](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/Live_Tools/value_scaling.png)
 
@@ -277,7 +276,11 @@ You can do this part when you need more channels, the only advantage of doing it
 
 In IP: 127.0.0.1 (for all)
 
-In Port: 8101 for the SEND, 8102 for the ROOM, 8103 for the RETURN
+In Port (SEND): 8101
+
+In Port (ROOM): 8102
+
+In Port (RETURN): 8103
 
 Out IP: 127.0.0.1 (for all)
 
@@ -325,6 +328,10 @@ Open Sound Control (OSC) is a protocol for networking sound synthesizers, comput
 
 <p>&nbsp;</p>
 
+Here we will use OSC to send our automations from Live to SPAT.
+
+<p>&nbsp;</p>
+
 Want to learn more about OSC? [wikipedia.org](https://en.wikipedia.org/wiki/Open_Sound_Control)
 
 <p>&nbsp;</p>
@@ -333,7 +340,7 @@ Want to learn more about OSC? [wikipedia.org](https://en.wikipedia.org/wiki/Open
 
 <p>&nbsp;</p>
 
-None of those devices add any latency nor modification to the audio being passthrough them, so do not worry about adding them anywhere in your chain!
+*Note: None of those devices add any latency nor modification to the audio being passthrough them, so do not worry about adding them anywhere in your chain!*
 
 <p>&nbsp;</p>
 
