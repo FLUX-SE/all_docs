@@ -72,7 +72,7 @@ Connect to your FLUX account and download the SPAT Revolution, when you download
 
 #### macOS
 
-Once the SPAT Revolution and the Ableton Live Tools for SPAT Revolution have been installed from the FLUX:: Center you can go look for them in the following folder <code>/Library/Application Support/Flux/Ableton Live Devices/SPAT”</code>
+Once the SPAT Revolution and the Ableton Live Tools for SPAT Revolution have been installed from the FLUX:: Center you can go look for them in the following folder <code>/Library/Application Support/Flux/Ableton Live Devices/SPAT</code>
 
 It is possible to go to the folder location by opening the **Finder** and use the shortcut: <code>CMD + Shift + G</code> and copy the previous address.
 
@@ -123,7 +123,7 @@ Now that everything is installed, let's optimize a few parameters in your macOS 
 
 When working with SPAT Revolution, and this can extend to any other audio work, you do not want any interference or background apps refreshing that would consume even the tiniest bit of CPU, so disabling Bluetooth, Wi-Fi as well as AirDrop is a great way to start and very simple to do.
 
-You can make it even more simply using the provided *Shortcuts package* we created to do just that. They are located in the same folder as the other device so: <code>/Library/Application Support/Flux/Ableton Live Devices/SPAT/macOS Shortcuts”</code>
+You can make it even more simply using the provided *Shortcuts package* we created to do just that. They are located in the same folder as the other device so: <code>/Library/Application Support/Flux/Ableton Live Devices/SPAT/macOS Shortcuts</code>
 
 What are Shortcuts?
 
