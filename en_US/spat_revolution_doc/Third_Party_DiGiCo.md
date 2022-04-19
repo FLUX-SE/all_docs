@@ -92,7 +92,7 @@ Configured in the templates are:
 
 **DiGiCo OSC Generic External Control - Switch**
 
-![ DiGiCo OSC Generic External Control - Switch](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/DigicoExternalControlSwitches.png) 
+![DiGiCo OSC Generic External Control - Switch](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/DigicoExternalControlSwitches.png) 
 
 ## Audio routing
 
