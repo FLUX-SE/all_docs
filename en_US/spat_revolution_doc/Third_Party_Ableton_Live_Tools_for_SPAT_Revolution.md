@@ -94,9 +94,6 @@ You can place it anywhere on your computer and then add the folder to your Ablet
 
 In order for this workflow to work, we will also need to get some Virtual Audio Drivers to route audio from Live to SPAT Revolution.
 
-If you are already familiar with SPAT Revolution, yes we are not going to use the traditional Local Audio Path option inside the SPAT plugins.
-<!--  COMMENT: please indicate why we are not using the LAP if you want to keep this sentence, otherwise it's not really interesting to keep it -->
-
 For our Virtual Audio Driver, **BlackHole** from **Existential audio** is my preferred choice as it is simple to install, has many options in terms of channel count, is free, and is open-source!
 
 You can also have all the different versions *(2ch/16ch/64ch)* installed at the same time and have a different use for them simultaneously.
@@ -108,8 +105,7 @@ We will see later in the guide that there are many ways this can be very helpful
 
 ### Useful addition
 
-Software such as **Loopback** from **Rogue Amoeba** can be very useful to route audio between multiple devices/apps but is absolutely not essential to this workflow, as we can achieve the same result with Aggregate and Multi-Output devices that you can make yourself inside the **Audio MIDI setup** of macOS.
-<!-- COMMENT: I don't really understand the purpose of this section -->
+Software such as **Loopback** from **Rogue Amoeba** can be very useful to route audio between multiple devices/apps and can be a very good alternative to Aggregate and Multi-Output devices that you can already make inside the **Audio MIDI setup** of macOS.
 
 ![Loopback](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/Live_Tools/loopback.png)
 
@@ -175,21 +171,25 @@ You can do this part when you need more channels, the only advantage of doing it
 
 ![Add Folder in Live](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/Live_Tools/add_folder_in_live.gif)
 
-- Place on a track the devices SEND, ROOM and RETURN located in the SPAT Folder and verify that they are all set on the following:
+- Place on a track the devices SEND, ROOM and RETURN located in the SPAT Folder:
+
+The small windows poping up are the actual spat revolution plugins, on which the devices are based on. They are here to host to parameters of the Sources (SEND), Room/Reverb (ROOM), Master Gain (RETURN) and send the automation data to SPAT Revolution using the OSC protocol.
 
 ![OSC check](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/Live_Tools/osc_check.gif)
 
-In IP: 127.0.0.1 (for all)
+ verify that they are all set on the following:
 
-In Port (SEND): 8101
+>In IP: 127.0.0.1 (for all)
 
-In Port (ROOM): 8102
+>In Port (SEND): 8101
 
-In Port (RETURN): 8103
+>In Port (ROOM): 8102
 
-Out IP: 127.0.0.1 (for all)
+>In Port (RETURN): 8103
 
-Out Port: 8100 (for all)
+>Out IP: 127.0.0.1 (for all)
+
+>Out Port: 8100 (for all)
 
 - **SEND:**
 
@@ -202,8 +202,6 @@ Out Port: 8100 (for all)
 - **RETURN:**
 
 ![Return Check](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/Live_Tools/return_check.png)
-
-<!-- COMMENT: Can you add a line to present the plug-in ? I don't really understand these images location -->
 
 ### SPAT Revolution
 
@@ -595,8 +593,6 @@ To the Ableton Team for making such an amazing DAW.
 
 ### iLok Message
 
-<!-- COMMENT: Not really related to this Ableton Tools, so not needed -->
-
 If you ever get that message when starting SPAT Revolution, first if you have activated your license from the iLok License Manager app, this error can still happens.
 
 ![iLok Message](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/Live_Tools/Screenshot%202022-03-31%20at%2018.32.48.png)
@@ -607,7 +603,7 @@ If however this wasn't the solution please check the following:
 - is your FLUX:: Center up to date? *(http://flux.audio/download)*
 - is your SPAT Revolution up to date? *(inside the FLUX:: Center)*
 - is your license correctly activated in your iLok License Manager app?
-- is your iLok License Manager up to date? *(https://ilok.com/)*
+- is your iLok License Manager up to date? *(https://ilok.com)*
 
 If none of it solve the issue please contact the FLUX:: Tech Support here: support@flux.audio
 
@@ -676,8 +672,6 @@ Latest Release
 
 The complete user guide of SPAT Revolution
 - https://doc.flux.audio/#/en_US/spat_revolution_doc/A_User_Guide
-
-<!-- COMMENT: Not needed, we are already on it -->
 
 Knowledge Base on http://flux.audio
 - https://www.flux.audio/knowledge-base/category/spat-revolution
