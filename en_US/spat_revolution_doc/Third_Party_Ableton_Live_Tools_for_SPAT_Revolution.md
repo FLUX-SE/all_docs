@@ -1,12 +1,12 @@
 # Ableton Live Tools for SPAT Revolution
 
-![Guide Cover](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/Live_Tools/ableton_live_toolsv2.png)
+![Guide Cover](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/Live_Tools/ableton-live-tools-seul-2.png)
 
 *Written by [Arsene](https://www.flux.audio/contacts/arsene)*
 
 > This guide is also available as YouTube Videos: *playlist link* (not available yet)
 
-## Intro
+## Introduction
 
 This is a complete guide of a workflow with a set of custom-built Ableton Live Devices, created to increase significantly the compatibility between the DAW and SPAT Revolution.
 
@@ -166,7 +166,7 @@ So open Ableton Live and configure the following:
 
 - Set BlackHole as your Output Device and enable all the channels of the driver:
 
-![Live Output Setup](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/Live_Tools/output_setup3.gif)
+![Live Output Setup](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/Live_Tools/ouput_setup3.gif)
 
 You can do this part when you need more channels, the only advantage of doing it now is that you don't have to do it later!
 
@@ -181,24 +181,27 @@ You can do this part when you need more channels, the only advantage of doing it
 
 In IP: 127.0.0.1 (for all)
 
-In Port: 8101 for the SEND, 8102 for the ROOM, 8103 for the RETURN
+In Port (SEND): 8101
+
+In Port (ROOM): 8102
+
+In Port (RETURN): 8103
 
 Out IP: 127.0.0.1 (for all)
 
 Out Port: 8100 (for all)
 
-
 - **SEND:**
 
 ![Send Check](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/Live_Tools/send_check.png)
 
-- **RETURN:**
-
-![Return Check](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/Live_Tools/return_check.png)
-
 - **ROOM:**
 
 ![Room Check](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/Live_Tools/room_check.png)
+
+- **RETURN:**
+
+![Return Check](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/Live_Tools/return_check.png)
 
 <!-- COMMENT: Can you add a line to present the plug-in ? I don't really understand these images location -->
 
@@ -215,6 +218,8 @@ Out Port: 8100 (for all)
 ### What is OSC?
 
 Open Sound Control (OSC) is a protocol for networking sound synthesizers, computers, and other multimedia devices for purposes such as musical performance or show control. OSC's advantages include interoperability, accuracy, flexibility and enhanced organization and documentation. The first specification was released in March 2002.
+
+Here, we will use the OSC to send the automation information made in Live to SPAT Revolution.
 
 Want to learn more about OSC? [wikipedia.org](https://en.wikipedia.org/wiki/Open_Sound_Control)
 
@@ -623,6 +628,18 @@ If a source in SPAT doesn't seem to receive the Automation parameters please che
 - is OSC enabled *(Preference panel in SPAT)*
 
 ![osc enabled](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/Live_Tools/osc%20enabled.png)
+
+If you want to see if SPAT is correclty receiving the OSC messages you can activate the "Enable commands log" option which will now display every message reveived by SPAT in the Terminal. 
+
+You can open the SPAT Terminal with the following shortcuts:
+
+>Show/Hide Terminal = *F7*
+
+>Show/Hide Terminal (mini) = *shift+F7*
+
+>Popup Terminal = *cmd+F7*
+
+![terminal](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/Live_Tools/terminal.gif)
 
 - also make sure the OSC Index number in the SPAT plugin *(inside the send device)* match the number of the track inside SPAT Revolution
 
