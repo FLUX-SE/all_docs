@@ -297,7 +297,7 @@
 	* Drag any modules to move before or after any module of same type.
 	* Drag a drop module into module to connect output to input.
 * Support for the IRCAM ADMix/SPAT and Meyer SpaceMap Go OSC Grammar on input.
-	* You can now play ADM Master  (Audio definition model) files containing audio and object metadata  with the[ ADMix player]((https://forum.ircam.fr/projects/detail/admix/)) playback and receive metadata as OSC data in SPAT
+	* You can now play ADM Master  (Audio definition model) files containing audio and object metadata  with the [ADMix player](https://forum.ircam.fr/projects/detail/admix) playback and receive metadata as OSC data in SPAT
 * New Apple and Windows menu and shortcuts
 	* SPAT Revolution now includes the standard Apple and Windows menu bar for new and added software action.
 	*  New shortcut options

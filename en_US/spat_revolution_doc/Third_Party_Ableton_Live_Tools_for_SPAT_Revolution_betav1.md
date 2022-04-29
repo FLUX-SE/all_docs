@@ -479,7 +479,7 @@ But the absolute main thing we cannot avoid is that we need to render real-time 
 
 Let's have a use case to demonstrate how you can print our mix.
 
-Here is a session which we are going to render for the Binaural *(3d on headphones)* Version and at the same time generate a Bed for an ATMOS render later.
+Here is a session which we are going to render for the Binaural *(3d on headphones)* Version and at the same time generate a Bed for an Atmos render later.
 
 ![Ready to Print](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/Live_Tools/ready_to_render.png)
 
@@ -625,7 +625,7 @@ If a source in SPAT doesn't seem to receive the Automation parameters please che
 
 ![osc enabled](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/Live_Tools/osc%20enabled.png)
 
-If you want to see if SPAT is correclty receiving the OSC messages you can activate the "Enable commands log" option which will now display every message reveived by SPAT in the Terminal. 
+If you want to see if SPAT is correctly receiving the OSC messages you can activate the "Enable commands log" option which will now display every message received by SPAT in the Terminal. 
 
 You can open the SPAT Terminal with the following shortcuts:
 
@@ -678,9 +678,9 @@ Knowledge Base on http://flux.audio
 
 YouTube Playlists:
 - SPAT Revolution: https://youtube.com/playlist?list=PL_Dcg2GwhLHlwimLMVsBEAlNsLzEkxF4y
-- Set-up your DAW with SPAT Revolution: https://youtube.com/playlist?list=PL_Dcg2GwhLHkk4JUNIwGnHLFC5-XFlCHG
+- Setup your DAW with SPAT Revolution: https://youtube.com/playlist?list=PL_Dcg2GwhLHkk4JUNIwGnHLFC5-XFlCHG
 - ReaVolution: https://youtube.com/playlist?list=PL_Dcg2GwhLHmdWDRuCyGZRLd5BA2UBvls
-- w/ Hervé Déjardin: https://youtube.com/playlist?list=PL_Dcg2GwhLHkWtIPwUUvK0NTCIm10eluW
+- Hervé Déjardin: https://youtube.com/playlist?list=PL_Dcg2GwhLHkWtIPwUUvK0NTCIm10eluW
 - Artist: https://youtube.com/playlist?list=PL_Dcg2GwhLHmF2fwn9GWJSur3U0xWqcJr
 - SPAT Revolution - AVID Venue S6L: https://youtube.com/playlist?list=PL_Dcg2GwhLHkhrYJpAkP23bvR7wnhPrqy
 - LIVESTREAMS: https://youtube.com/playlist?list=PL_Dcg2GwhLHnHq87gdWjqeTw3KpEcwHPa

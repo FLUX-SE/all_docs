@@ -32,7 +32,7 @@ SPAT Essential comes with a set of limitations:
  - Session configuration is simplified, using only the Setup Wizard.
  - Ambisonic decoding is done using AllRAD method
 
- **Complete specification is available [here](https://www.flux.audio/?page_id=17895#specifications).**
+ **Complete specification is available [here](https://www.flux.audio/project/spat-revolution/#specifications).**
 
 ## Ultimate vs Essential sessions
 

@@ -47,7 +47,7 @@
    5. [Snapshots](Ecosystem_&_integration_Snapshot.md)
    6. [ADM-OSC](Ecosystem_&_integration_ADM_OSC.md)
 9. [Third party integration](Third_Party_Integration.md)
-   1. [Cockos Reaper](Third_Party_Cockos_Reaper.md)1
+   1. [Cockos Reaper](Third_Party_Cockos_Reaper.md)
    2. [ReaVolution](Third_Party_ReaVolution.md)
    3. [Avid Pro Tools](Third_Party_ProTools.md)
    4. [Ableton Live](Third_Party_AbletonLive.md)
