@@ -28,7 +28,7 @@ In order to use the software, an iLok.com user account is required. The iLok USB
 
 ## Hardware Recommendations and requirements 
  
-#### Single Computer (Creative Station with DAW and SPAT Revolution) 
+### Single Computer (Creative Station with DAW and SPAT Revolution) 
 
 Single computer systems can provide a great option for portability but come with the importance of having a performing computer. As SPAT Revolution comes with a 3D graphic engine where audio objects are manipulated, GPU resources are required. 
 
@@ -45,7 +45,7 @@ __Base system/Portable:__
 > 
 >  Windows: If your computer has an ATi or Nvidia graphics card, please assure the latest graphic drivers from the ATi or Nvidia website are installed.
 
-#### Hardware for live productions (Dedicated SPAT Revolution Computer)
+### Hardware for live productions (Dedicated SPAT Revolution Computer)
  
 **Recommended audio interfaces:**
 
@@ -63,3 +63,48 @@ __Base system/Portable:__
 * OS drive (Operating System): NVMe Internal SSD
 * Audio Projects Hard Drive: No specifics. For redundant systems, only certified RAID systems should be used.
 * OS: macOS High Sierra, Mojave or Catalina. Windows Pro 10 64 bits. Real time optimized OS.
+
+
+## Certificated configurations (SPAT Revolution version 2022.02.50151)
+
+The configurations are tested on a computer dedicated to SPAT. All others applications have been closed, and all unwanted process like Wi-Fi avoided. The reverberation is set to high density channels for all rooms, all sources on the reverberation and automated by OSC.
+
+### 48000 kHz
+
+#### mac Mini M1 | Basic configuration
+
+Sources number | Number of speakers |    Pan Type    |              Sound card               | Buffer size / reported Latency
+ :---: |:------------------:|:--------------:|:-------------------------------------:| :---:
+64 |         32         |      WFS       |       RME Digiface Dante / AVB        | 256 (11.5ms)
+64 |         64         |      WFS       | RME Digiface Dante / AVB | 512 (22.16ms)
+64 |   16 + Binaural    | WFS + Binaural | RME Digiface Dante / AVB | 1024 (43.5ms)
+
+#### mac Studio | Basic configuration
+
+Sources number | Number of speakers |    Pan Type    |              Sound card               | Buffer size / reported Latency
+ :---: |:------------------:|:--------------:|:-------------------------------------:| :---:
+64 |         32         |      WFS       |       RME Digiface Dante / AVB        | 64 (3.5ms)
+64 |         64         |      WFS       | RME Digiface Dante / AVB | 128 (6.16ms)
+64 |   16 + Binaural    | WFS + Binaural | RME Digiface Dante / AVB | 128 (6.16ms)
+
+### 96000 kHz
+
+#### mac Mini M1 | Basic configuration
+
+Sources number | Number of speakers |    Pan Type    |              Sound card               | Buffer size / reported Latency
+ :---: |:------------------:|:--------------:|:-------------------------------------:| :---:
+32 |         16         |      WFS       |       RME Digiface Dante / AVB        | 256 (6.05ms)
+32 |         48         |      WFS       | RME Digiface Dante / AVB | 512 (11.44ms)
+32 |   32 + Binaural    | WFS + Binaural | RME Digiface Dante / AVB | 1024 (22.1ms)
+64 |         16         |      WFS       |       RME Digiface Dante / AVB        | 512 (11.44ms)
+64 |         24         |      WFS       | RME Digiface Dante / AVB | 1024 (22.1ms)
+
+#### mac Studio | Basic configuration
+
+Sources number | Number of speakers |    Pan Type    |              Sound card               | Buffer size / reported Latency
+ :---: |:------------------:|:--------------:|:-------------------------------------:| :---:
+32 |         16         |      WFS       |       RME Digiface Dante / AVB        | 64 (2.1ms)
+32 |         48         |      WFS       | RME Digiface Dante / AVB | 128 (3.42ms)
+32 |   32 + Binaural    | WFS + Binaural | RME Digiface Dante / AVB | 256 (6.05ms)
+64 |         16         |      WFS       |       RME Digiface Dante / AVB        | 128 (3.42ms)
+64 |         24         |      WFS       | RME Digiface Dante / AVB | 256 (6.05ms)
