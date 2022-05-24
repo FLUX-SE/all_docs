@@ -83,7 +83,7 @@ Single computer systems can provide an excellent option for portability but come
 
 To use the software, an iLok.com user account is required (the iLok USB Smart Key is not required, authorization can be made to hardware machines).
 
-## Validated configurations (SPAT Revolution v.22.02.50151)
+## Certified configurations (SPAT Revolution v.22.02.50151)
 
 The configurations are tested on a computer dedicated to SPAT. All others applications have been closed, and all unwanted process like Wi-Fi avoided. The reverberation is set to high density channels for all rooms, all sources on the reverberation and automated by OSC.
 
@@ -91,7 +91,7 @@ The configurations are tested on a computer dedicated to SPAT. All others applic
 
 #### mac Mini M1 | Basic configuration
 
-Sources number | Number of speakers |    Pan Type    |              Sound card               | Buffer size / reported Latency
+Number of sources | Number of speakers |    Pan Type    |              Sound card               | Buffer size / reported Latency
  :---: |:------------------:|:--------------:|:-------------------------------------:| :---:
 64 |         32         |      WFS       |       RME Digiface Dante / AVB        | 256 (11.5ms)
 64 |         64         |      WFS       | RME Digiface Dante / AVB | 512 (22.16ms)
@@ -99,7 +99,7 @@ Sources number | Number of speakers |    Pan Type    |              Sound card  
 
 #### mac Studio | Basic configuration
 
-Sources number | Number of speakers |    Pan Type    |              Sound card               | Buffer size / reported Latency
+Number of sources | Number of speakers |    Pan Type    |              Sound card               | Buffer size / reported Latency
  :---: |:------------------:|:--------------:|:-------------------------------------:| :---:
 64 |         32         |      WFS       |       RME Digiface Dante / AVB        | 64 (3.5ms)
 64 |         64         |      WFS       | RME Digiface Dante / AVB | 128 (6.16ms)
@@ -109,7 +109,7 @@ Sources number | Number of speakers |    Pan Type    |              Sound card  
 
 #### mac Mini M1 | Basic configuration
 
-Sources number | Number of speakers |    Pan Type    |              Sound card               | Buffer size / reported Latency
+Number of sources | Number of speakers |    Pan Type    |              Sound card               | Buffer size / reported Latency
  :---: |:------------------:|:--------------:|:-------------------------------------:| :---:
 32 |         16         |      WFS       |       RME Digiface Dante / AVB        | 256 (6.05ms)
 32 |         48         |      WFS       | RME Digiface Dante / AVB | 512 (11.44ms)
@@ -119,7 +119,7 @@ Sources number | Number of speakers |    Pan Type    |              Sound card  
 
 #### mac Studio | Basic configuration
 
-Sources number | Number of speakers |    Pan Type    |              Sound card               | Buffer size / reported Latency
+Number of sources | Number of speakers |    Pan Type    |              Sound card               | Buffer size / reported Latency
  :---: |:------------------:|:--------------:|:-------------------------------------:| :---:
 32 |         16         |      WFS       |       RME Digiface Dante / AVB        | 64 (2.1ms)
 32 |         48         |      WFS       | RME Digiface Dante / AVB | 128 (3.42ms)
