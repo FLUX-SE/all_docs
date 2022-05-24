@@ -73,16 +73,13 @@ Single computer systems can provide an excellent option for portability but come
 - Intel® Xeon® W family W-2200 or W-3200 Series CPU (preferred), E-22xx, or equivalent. Higher core speed. Minimum 8 Cores, 12 MB Cache
 - Chipset: Professional workstation chipset C422, C621, or equivalent.
 - System Memory: 32 – 64 GB. A system with ECC support is preferred.
-- Graphic: Professional NVIDIA Quadro P4000 or equivalent - 8GB GDDR5 Graphic Memory (Graphic card with full support for OpenGL 2.0)
+- Graphic: Professional NVIDIA Quadro P4000 or equivalent - 8GB GDDR5 Graphic Memory (Graphic card with full support for OpenGL 2.0), with latest graphic drivers.
 - Network: Dual network interface (NIC) - Intel I210-T1 or equivalent
 - OS drive (Operating System): NVMe Internal SSD
 - Audio Projects Hard Drive: no specifics. For redundant systems, only certified RAID systems should be used.
 - Real-Time optimized OS with minimum services.
 
-macOS X: Mac Pro 1.1 & Mac Pro 2.1 are not supported.
-Windows: If your computer has an ATi or NVidia graphics card, please assure the latest graphic drivers from the ATi or NVidia website are installed.
-
-**Software License Requirements**
+### Software License Requirements
 
 - To use the software, an iLok.com user account is required (the iLok USB Smart Key is not required, authorization can be made to hardware machines).
 
