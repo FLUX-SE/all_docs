@@ -50,7 +50,7 @@ Single computer systems can provide an excellent option for portability but come
 - Chipset: High-quality / Professional main-board
 - Graphic: GeForce GTX 1060 - 4GB GDDR5 Graphic Memory or greater. _Graphic card fully supporting OpenGL 2.0 is required. USB displays are not supported_.
 - Audio Interfaces:
-  - mac OS: Core Audio compatible interface or virtual sound card
+  - macOS: Core Audio compatible interface or virtual sound card
   - Windows: ASIO compatible interface or virtual sound card.
 
 ### Hardware for Live Productions (Dedicated SPAT Revolution Computer)
