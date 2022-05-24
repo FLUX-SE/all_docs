@@ -3,7 +3,7 @@
 ## Availability
 
 SPAT Revolution is a stand-alone application for macOS and Windows.
-SPAT Send/Return/Room plugins are available in AU/VST/AAX Native. 
+SPAT Send/Return/Room plugins are available in AU/VST/AAX Native.
 SPAT Send plugins is available in AAX VENUE.
 
 See [plugins specifications](https://www.flux.audio/plugin-specifications/) for more details .
@@ -23,9 +23,9 @@ SPAT Revolution—stand-alone software:
 
 > *See hardware details for more information on compatibility.
 
-## Hardware Recommendations and requirements 
- 
-### Single Computer (Creative Station with DAW and SPAT Revolution) 
+## Hardware Recommendations and requirements
+
+### Single Computer (Creative Station with DAW and SPAT Revolution)
 
 Single computer systems can provide an excellent option for portability but come with the importance of having a performing computer. As SPAT Revolution comes with a 3D graphic engine where audio objects are manipulated, GPU resources are required.
 
@@ -36,8 +36,8 @@ Single computer systems can provide an excellent option for portability but come
   - Mac Mini M1 Chip
   - MacBook Pro (13/14/16 inches) M1 Chip
 - Apple Intel
-  - MacPro
-  - iMac Pro
+  - MacPro, 3.5GHz 8‑core Intel Xeon W processor, Radeon Pro W5500X, 32GB RAM
+  - iMac Pro, 3.2GHz 8‑core Intel Xeon W Turbo Boost, Radeon Pro Vega 56 8 GB, 32GB RAM
   - MacBook Pro with dedicated GPU video graphic card
 
 > *SPAT Revolution is fully supported to Silicon / ARM Apple computers via the Rosetta binary translator.
@@ -45,7 +45,7 @@ Single computer systems can provide an excellent option for portability but come
 
 **Generic hardware specification:**
 
-- Processing: Intel Core i9-9900K, i7-9700K or equivalent. Intel 8th generation or greater processor. (Minimum 6 cores - 8 preferred), 8 MB Cache. 
+- Processing: Intel Core i9-9900K, i7-9700K or equivalent. Intel 8th generation or greater processor. (Minimum 6 cores - 8 preferred), 8 MB Cache.
 - System Memory: 16 minimum GB DDR4 (32 preferred when integrating with DAW and SPAT Revolution on the same machine with local audio path - LAP)
 - Chipset: High-quality / Professional main-board
 - Graphic: GeForce GTX 1060 - 4GB GDDR5 Graphic Memory or greater. _Graphic card fully supporting OpenGL 2.0 is required. USB displays are not supported_.
@@ -58,15 +58,18 @@ Single computer systems can provide an excellent option for portability but come
 **Recommended audio interfaces**
 
 - RME Digiface AVB or Dante, USB 3 Audio interface
-- RME Madi HDSPe, MADI FX or MADIface XT.
+- RME Madi HDSPe (PCIe), MADI FX or MADIface XT.
 
-**Recommended hardware:**
+**Apple based recommended hardware:**
 
 - Apple Silicon / ARM M1
   - Mac Studio M1 Max (10-Core CPU, 24-Core GPU, 32 GB RAM)
   - Mac Studio M1 Ultra (20-Core CPU, 48-Core GPU, 64 GB RAM)
 - Apple Intel
   - MacPro, 3.5GHz 8‑core Intel Xeon W processor, Radeon Pro W5500X, 32GB RAM
+
+  > Rackmounted Apple Mac Studio is possible using Sonnet’s xMac Studio or RackMac Studio 3U rackmount systems. xMac Studio can hold one Mac Studio and provide PCIe card expansion module while the RackMac Studio can hold 2 units such as in redundant configuration. MacPro can be installed in a Sonnet’s RackMac™
+
 
 **Generic recommended hardware specification:**
 
@@ -85,9 +88,7 @@ To use the software, an iLok.com user account is required (the iLok USB Smart Ke
 
 ## Certified configurations (SPAT Revolution v.22.02.50151)
 
-These configurations are tested and validated on a computer dedicated to SPAT Revolution. All other applications have been closed, and computer has been optimized as indicated below. 
-
-The below configurations have been tested at the worst scenario, with the reverberation is the highest density for all rooms, all sources active with reverberation and all sources in full movement using OSC input.
+These configurations are tested and validated on a computer dedicated to SPAT Revolution. All other applications have been closed, and computer has been optimized as indicated below.
 
 Computer optimization:
 - Disable Wi-Fi and Bluetooth if not absolutely required.
@@ -100,6 +101,9 @@ Computer optimization:
 - Disable dashboard (Catalina and prior)
 - Disable photos processing and Cloud services
 - Log out of iCloud
+
+The below configurations have been tested at the worst scenario, with the reverberation at the highest density for all rooms, all sources active with reverberation and all sources in full movement using OSC input.
+
 
 ### 48000 kHz
 
