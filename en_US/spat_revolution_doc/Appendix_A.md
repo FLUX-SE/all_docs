@@ -81,9 +81,9 @@ Single computer systems can provide an excellent option for portability but come
 
 ### Software License Requirements
 
-- To use the software, an iLok.com user account is required (the iLok USB Smart Key is not required, authorization can be made to hardware machines).
+To use the software, an iLok.com user account is required (the iLok USB Smart Key is not required, authorization can be made to hardware machines).
 
-## Validated configurations (SPAT Revolution version 2022.02.50151)
+## Validated configurations (SPAT Revolution v.22.02.50151)
 
 The configurations are tested on a computer dedicated to SPAT. All others applications have been closed, and all unwanted process like Wi-Fi avoided. The reverberation is set to high density channels for all rooms, all sources on the reverberation and automated by OSC.
 
