@@ -102,7 +102,7 @@ Computer optimization:
 - Disable photos processing and Cloud services
 - Log out of iCloud
 
-The below configurations have been tested at the worst scenario, with the reverberation at the highest density for all rooms, all sources active with reverberation and all sources in full movement using OSC input.
+The below configurations have been tested at the worst scenario, with the reverberation at the highest density for all rooms, all sources active with reverberation and all sources in full movement using OSC input. WFS and Binaural PanType are used as reference as they are the most processing heavy techniques.
 
 
 ### 48000 kHz
