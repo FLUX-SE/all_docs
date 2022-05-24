@@ -73,7 +73,7 @@ Single computer systems can provide an excellent option for portability but come
 - Intel® Xeon® W family W-2200 or W-3200 Series CPU (preferred), E-22xx, or equivalent. Higher core speed. Minimum 8 Cores, 12 MB Cache
 - Chipset: Professional workstation chipset C422, C621, or equivalent.
 - System Memory: 32 – 64 GB. A system with ECC support is preferred.
-- Graphic: Professional NVIDIA Quadro P4000 or equivalent - 8GB GDDR5 Graphic Memory (Graphic card with full support for OpenGL 2.0), with latest graphic drivers.
+- Graphic: Professional NVIDIA Quadro P4000 or equivalent - 8GB GDDR5 Graphic Memory (Graphic card with full support for OpenGL 2.0), with the latest graphic drivers.
 - Network: Dual network interface (NIC) - Intel I210-T1 or equivalent
 - OS drive (Operating System): NVMe Internal SSD
 - Audio Projects Hard Drive: no specifics. For redundant systems, only certified RAID systems should be used.
