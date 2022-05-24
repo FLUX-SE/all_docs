@@ -6,7 +6,7 @@ SPAT Revolution is a stand-alone application for macOS and Windows.
 SPAT Send/Return/Room plugins are available in AU/VST/AAX Native. 
 SPAT Send plugins is available in AAX VENUE.
 
-See [plugins specifications] for more details (https://www.flux.audio/plugin-specifications/).
+See [plugins specifications](https://www.flux.audio/plugin-specifications/) for more details .
 
 ## Processing
 
@@ -85,44 +85,58 @@ To use the software, an iLok.com user account is required (the iLok USB Smart Ke
 
 ## Certified configurations (SPAT Revolution v.22.02.50151)
 
-The configurations are tested on a computer dedicated to SPAT. All others applications have been closed, and all unwanted process like Wi-Fi avoided. The reverberation is set to high density channels for all rooms, all sources on the reverberation and automated by OSC.
+These configurations are tested and validated on a computer dedicated to SPAT Revolution. All other applications have been closed, and computer has been optimized as indicated below. 
+
+The below configurations have been tested at the worst scenario, with the reverberation is the highest density for all rooms, all sources active with reverberation and all sources in full movement using OSC input.
+
+Computer optimization:
+- Disable Wi-Fi and Bluetooth if not absolutely required.
+- Disable Airdrop
+- Disable Spotlight
+- Disable display sleep, disk spin-down, and system sleep
+- Disable screen saver
+- Disable Time Machine
+- Disable software update
+- Disable dashboard (Catalina and prior)
+- Disable photos processing and Cloud services
+- Log out of iCloud
 
 ### 48000 kHz
 
 #### mac Mini M1 | Basic configuration
 
-Number of sources | Number of speakers |    Pan Type    |              Sound card               | Buffer size / reported Latency
- :---: |:------------------:|:--------------:|:-------------------------------------:| :---:
-64 |         32         |      WFS       |       RME Digiface Dante / AVB        | 256 (11.5ms)
-64 |         64         |      WFS       | RME Digiface Dante / AVB | 512 (22.16ms)
-64 |   16 + Binaural    | WFS + Binaural | RME Digiface Dante / AVB | 1024 (43.5ms)
+Number of sources | Number of speakers |         Room and PanType          |              Sound card               | Buffer size / reported Latency
+ :---: |:------------------:|:---------------------------:|:-------------------------------------:| :---:
+64 |         32         |         1 WFS room          |       RME Digiface Dante / AVB        | 256 (11.5ms)
+64 |         64         |         1 WFS room          | RME Digiface Dante / AVB | 512 (22.16ms)
+64 |   16 + Binaural    | 2 rooms: 1 WFS + 1 Binaural | RME Digiface Dante / AVB | 1024 (43.5ms)
 
 #### mac Studio | Basic configuration
 
-Number of sources | Number of speakers |    Pan Type    |              Sound card               | Buffer size / reported Latency
- :---: |:------------------:|:--------------:|:-------------------------------------:| :---:
-64 |         32         |      WFS       |       RME Digiface Dante / AVB        | 64 (3.5ms)
-64 |         64         |      WFS       | RME Digiface Dante / AVB | 128 (6.16ms)
-64 |   16 + Binaural    | WFS + Binaural | RME Digiface Dante / AVB | 128 (6.16ms)
+Number of sources | Number of speakers |      Room and PanType       |              Sound card               | Buffer size / reported Latency
+ :---: |:------------------:|:---------------------------:|:-------------------------------------:| :---:
+64 |         32         |         1 WFS room          |       RME Digiface Dante / AVB        | 64 (3.5ms)
+64 |         64         |         1 WFS room          | RME Digiface Dante / AVB | 128 (6.16ms)
+64 |   16 + Binaural    | 2 rooms: 1 WFS + 1 Binaural | RME Digiface Dante / AVB | 128 (6.16ms)
 
 ### 96000 kHz
 
 #### mac Mini M1 | Basic configuration
 
-Number of sources | Number of speakers |    Pan Type    |              Sound card               | Buffer size / reported Latency
- :---: |:------------------:|:--------------:|:-------------------------------------:| :---:
-32 |         16         |      WFS       |       RME Digiface Dante / AVB        | 256 (6.05ms)
-32 |         48         |      WFS       | RME Digiface Dante / AVB | 512 (11.44ms)
-32 |   32 + Binaural    | WFS + Binaural | RME Digiface Dante / AVB | 1024 (22.1ms)
-64 |         16         |      WFS       |       RME Digiface Dante / AVB        | 512 (11.44ms)
-64 |         24         |      WFS       | RME Digiface Dante / AVB | 1024 (22.1ms)
+Number of sources | Number of speakers |      Room and PanType       |              Sound card               | Buffer size / reported Latency
+ :---: |:------------------:|:---------------------------:|:-------------------------------------:| :---:
+32 |         16         |         1 WFS room          |       RME Digiface Dante / AVB        | 256 (6.05ms)
+32 |         48         |         1 WFS room          | RME Digiface Dante / AVB | 512 (11.44ms)
+32 |   32 + Binaural    | 2 rooms: 1 WFS + 1 Binaural | RME Digiface Dante / AVB | 1024 (22.1ms)
+64 |         16         |         1 WFS room          |       RME Digiface Dante / AVB        | 512 (11.44ms)
+64 |         24         |         1 WFS room          | RME Digiface Dante / AVB | 1024 (22.1ms)
 
 #### mac Studio | Basic configuration
 
-Number of sources | Number of speakers |    Pan Type    |              Sound card               | Buffer size / reported Latency
- :---: |:------------------:|:--------------:|:-------------------------------------:| :---:
-32 |         16         |      WFS       |       RME Digiface Dante / AVB        | 64 (2.1ms)
-32 |         48         |      WFS       | RME Digiface Dante / AVB | 128 (3.42ms)
-32 |   32 + Binaural    | WFS + Binaural | RME Digiface Dante / AVB | 256 (6.05ms)
-64 |         16         |      WFS       |       RME Digiface Dante / AVB        | 128 (3.42ms)
-64 |         24         |      WFS       | RME Digiface Dante / AVB | 256 (6.05ms)
+Number of sources | Number of speakers |      Room and PanType       |              Sound card               | Buffer size / reported Latency
+ :---: |:------------------:|:---------------------------:|:-------------------------------------:| :---:
+32 |         16         |         1 WFS room          |       RME Digiface Dante / AVB        | 64 (2.1ms)
+32 |         48         |         1 WFS room          | RME Digiface Dante / AVB | 128 (3.42ms)
+32 |   32 + Binaural    | 2 rooms: 1 WFS + 1 Binaural | RME Digiface Dante / AVB | 256 (6.05ms)
+64 |         16         |         1 WFS room          |       RME Digiface Dante / AVB        | 128 (3.42ms)
+64 |         24         |         1 WFS room          | RME Digiface Dante / AVB | 256 (6.05ms)
