@@ -21,7 +21,7 @@ SPAT Revolution—stand-alone software:
 
 - macOS - All versions from 10.12 including macOS Big Sur and Monterey compliant. *
 
-> * See hardware details for more information on compatibility.
+> *See hardware details for more information on compatibility.
 
 ## Hardware Recommendations and requirements 
  
@@ -40,7 +40,7 @@ Single computer systems can provide an excellent option for portability but come
   - iMac Pro
   - MacBook Pro with dedicated GPU video graphic card
 
-> * SPAT Revolution is fully supported to Silicon / ARM Apple computers via the Rosetta binary translator.
+> *SPAT Revolution is fully supported to Silicon / ARM Apple computers via the Rosetta binary translator.
 
 
 **Generic hardware specification:**
