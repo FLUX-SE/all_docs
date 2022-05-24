@@ -29,7 +29,7 @@ SPAT Revolution—stand-alone software:
 
 Single computer systems can provide an excellent option for portability but come with the importance of having a performing computer. As SPAT Revolution comes with a 3D graphic engine where audio objects are manipulated, GPU resources are required.
 
-__Recommended hardware:__
+__Apple based recommended hardware:__
 
 - Apple Silicon / ARM M1 *
   - Mac Studio M1 Max / M1 Ultra off the shelf models
