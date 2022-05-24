@@ -2,70 +2,88 @@
 
 ## Availability
 
-SPAT Revolution is a stand-alone application for macOS and Windows
+SPAT Revolution is a stand-alone application for macOS and Windows.
 SPAT Send/Return/Room plugins are available in AU/VST/AAX Native. 
 SPAT Send plugins is available in AAX VENUE.
 
-Plugins Compatibility.
-[Access to all Plugins specifications](https://www.flux.audio/plugin-specifications/)
+Plugins Compatibility, [see plugin specifications](https://www.flux.audio/plugin-specifications/)
 
 ## Processing
 
 SPAT Revolution—stand-alone software:
 - unlimited number of Input and Output (hardware and audio interface dependent).
 - 32/64-bits internal floating-point processing.
-- Sampling rates up to 384 kHz, buffer starting at 16 samples.
+- Sampling rates up to 384kHz, block size starting at 16 samples.
 
 ## OS Compatibility
 
-Windows 10, all in 64 bits only.
+- Windows 10 - 64 bits.
 
-macOS x (Intel)—All versions from 10.12 including macOS Big Sur compliance.
+- macOS - All versions from 10.12 including macOS Big Sur and Monterey compliant. *
 
-## Software Licence Requirements
-
-In order to use the software, an iLok.com user account is required. The iLok USB Smart Key is not required, authorisation can be made to hardware machines. Cloud session is not supported.
+_* See hardware details for more information on compatibility_
 
 ## Hardware Recommendations and requirements 
  
 ### Single Computer (Creative Station with DAW and SPAT Revolution) 
 
-Single computer systems can provide a great option for portability but come with the importance of having a performing computer. As SPAT Revolution comes with a 3D graphic engine where audio objects are manipulated, GPU resources are required. 
+Single computer systems can provide an excellent option for portability but come with the importance of having a performing computer. As SPAT Revolution comes with a 3D graphic engine where audio objects are manipulated, GPU resources are required.
 
-__Base system/Portable:__
+__Recommended hardware:__
 
-* Processing: Intel Core i9-9900K, i7-9700K or equivalent. Intel 8th generation or greater processor. (Minimum 6 cores - 8 preferred), 8 MB Cache.
-* System Memory: 16 minimum GB DDR4 (32 preferred when integrating with DAW and SPAT Revolution on the same machine with local audio path—LAP) 
-* Chipset: High-quality/Professional mainboard such as Intel® Z370 Chipset
-* Graphic: GeForce GTX 1060 — 4 GB GDDR5 Graphic Memory or greater (Graphic card fully supporting OpenGL 2.0 is required. USB displays are not supported).
-* Audio Interfaces: Mac OS X: Core Audio compatible interface or virtual sound cards, Windows: ASIO compatible interface or virtual sound cards. Preferred interfaces: USB 3 Audio interface. 
-* OS: macOS High Sierra, Mojave or Catalina. Windows Pro 10 64 bits.
- 
->  Mac OS X: OpenGL 2.0 required 
-> 
->  Windows: If your computer has an ATi or Nvidia graphics card, please assure the latest graphic drivers from the ATi or Nvidia website are installed.
+- Apple Silicon / ARM M1 *
+  - Mac Studio M1 Max / M1 Ultra off the shelf models
+  - Mac Mini M1 Chip
+  - MacBook Pro (13/14/16) M1 Chip
+- Apple Intel
+  - MacPro
+  - iMac Pro
+  - MacBook Pro with PCIe bus graphic card
 
-### Hardware for live productions (Dedicated SPAT Revolution Computer)
- 
-**Recommended audio interfaces:**
-
-* Dante PCIe interfaces from Yamaha, Focusrite, or any Dante PCIe high-density card.
-* RME Digiface AVB, USB 3 audio interface
-* RME Madi HDSPe MADI FX or MADIface XT. 
-
-**Recommended SPAT workstation system:**
-
-* Intel® Xeon® W family W-2200 or W-3200 Series CPU (preferred), E-22xx, or equivalent. Higher core speed. Minimum 8 cores, 12 MB Cache
-* Chipset: Professional workstation chipset C422, C621, or equivalent. 
-* System Memory: 32–64 GB. A system with ECC support preferred.
-* Graphic: Professional NVIDIA Quadro P4000 or equivalent — 8 GB GDDR5 Graphic Memory (graphic card with full support for OpenGL 2.0) 
-* Network: Dual network interface (NIC)—Intel I210-T1 or equivalent 
-* OS drive (Operating System): NVMe Internal SSD
-* Audio Projects Hard Drive: No specifics. For redundant systems, only certified RAID systems should be used.
-* OS: macOS High Sierra, Mojave or Catalina. Windows Pro 10 64 bits. Real time optimized OS.
+_* SPAT Revolution is fully supported to Silicon / ARM Apple computers via the Rosetta binary translator_
 
 
-## Certificated configurations (SPAT Revolution version 2022.02.50151)
+**Generic hardware specification:**
+
+- Processing: Intel Core i9-9900K, i7-9700K or equivalent. Intel 8th generation or greater processor. (Minimum 6 cores - 8 preferred), 8 MB Cache. 
+- System Memory: 16 minimum GB DDR4 (32 preferred when integrating with DAW and SPAT Revolution on the same machine with local audio path - LAP)
+- Chipset: High-quality / Professional main-board such as Intel® Z370 Chipset
+- Graphic: GeForce GTX 1060 - 4GB GDDR5 Graphic Memory or greater (Graphic card fully supporting OpenGL 2.0 is required. USB displays are not supported)
+- Audio Interfaces:
+  - mac OS: Core Audio compatible interface or virtual sound card
+  - Windows: ASIO compatible interface or virtual sound card.
+
+**Hardware for Live Productions (Dedicated SPAT Revolution Computer)**
+
+- Recommended audio interfaces:
+  - RME Digiface AVB or Dante, USB 3 Audio interface
+  - RME Madi HDSPe, MADI FX or MADIface XT.
+
+- Recommended hardware:
+  - Apple Silicon / ARM M1
+    - Mac Studio M1 Max (10-Core CPU, 24-Core GPU, 32 GB RAM)
+    - Mac Studio M1 Ultra (20-Core CPU, 48-Core GPU, 64 GB RAM)
+  - Apple Intel
+    - MacPro, 3.5GHz 8‑core Intel Xeon W processor, Radeon Pro W5500X, 32GB RAM
+
+- Generic recommended hardware specification::
+  - Intel® Xeon® W family W-2200 or W-3200 Series CPU (preferred), E-22xx, or equivalent. Higher core speed. Minimum 8 Cores, 12 MB Cache
+  - Chipset: Professional workstation chipset C422, C621, or equivalent.
+  - System Memory: 32 – 64 GB. A system with ECC support is preferred.
+  - Graphic: Professional NVIDIA Quadro P4000 or equivalent - 8GB GDDR5 Graphic Memory (Graphic card with full support for OpenGL 2.0)
+  - Network: Dual network interface (NIC) - Intel I210-T1 or equivalent
+  - OS drive (Operating System): NVMe Internal SSD
+  - Audio Projects Hard Drive: no specifics. For redundant systems, only certified RAID systems should be used.
+  - OS: macOS High Sierra or upper, up to Monterey. Windows Pro 10 64-bit. Real-Time optimized OS with minimum services.
+
+Mac OS X: OpenGL 2.0 required – Mac Pro 1.1 & Mac Pro 2.1 are not supported.
+Windows: If your computer has an ATi or NVidia graphics card, please assure the latest graphic drivers from the ATi or NVidia website are installed.
+
+**Software License Requirements**
+
+- To use the software, an iLok.com user account is required (the iLok USB Smart Key is not required, authorization can be made to hardware machines).
+
+## Validated configurations (SPAT Revolution version 2022.02.50151)
 
 The configurations are tested on a computer dedicated to SPAT. All others applications have been closed, and all unwanted process like Wi-Fi avoided. The reverberation is set to high density channels for all rooms, all sources on the reverberation and automated by OSC.
 
