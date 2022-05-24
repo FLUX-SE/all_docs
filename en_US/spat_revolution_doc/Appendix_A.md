@@ -29,7 +29,7 @@ SPAT Revolution—stand-alone software:
 
 Single computer systems can provide an excellent option for portability but come with the importance of having a performing computer. As SPAT Revolution comes with a 3D graphic engine where audio objects are manipulated, GPU resources are required.
 
-__Apple based recommended hardware:__
+**Apple based recommended hardware:**
 
 - Apple Silicon / ARM M1 *
   - Mac Studio M1 Max / M1 Ultra off the shelf models
@@ -47,36 +47,39 @@ __Apple based recommended hardware:__
 
 - Processing: Intel Core i9-9900K, i7-9700K or equivalent. Intel 8th generation or greater processor. (Minimum 6 cores - 8 preferred), 8 MB Cache. 
 - System Memory: 16 minimum GB DDR4 (32 preferred when integrating with DAW and SPAT Revolution on the same machine with local audio path - LAP)
-- Chipset: High-quality / Professional main-board such as Intel® Z370 Chipset
-- Graphic: GeForce GTX 1060 - 4GB GDDR5 Graphic Memory or greater (Graphic card fully supporting OpenGL 2.0 is required. USB displays are not supported)
+- Chipset: High-quality / Professional main-board
+- Graphic: GeForce GTX 1060 - 4GB GDDR5 Graphic Memory or greater. _Graphic card fully supporting OpenGL 2.0 is required. USB displays are not supported_.
 - Audio Interfaces:
   - mac OS: Core Audio compatible interface or virtual sound card
   - Windows: ASIO compatible interface or virtual sound card.
 
-**Hardware for Live Productions (Dedicated SPAT Revolution Computer)**
+### Hardware for Live Productions (Dedicated SPAT Revolution Computer)
 
-- Recommended audio interfaces:
-  - RME Digiface AVB or Dante, USB 3 Audio interface
-  - RME Madi HDSPe, MADI FX or MADIface XT.
+**Recommended audio interfaces**
 
-- Recommended hardware:
-  - Apple Silicon / ARM M1
-    - Mac Studio M1 Max (10-Core CPU, 24-Core GPU, 32 GB RAM)
-    - Mac Studio M1 Ultra (20-Core CPU, 48-Core GPU, 64 GB RAM)
-  - Apple Intel
-    - MacPro, 3.5GHz 8‑core Intel Xeon W processor, Radeon Pro W5500X, 32GB RAM
+- RME Digiface AVB or Dante, USB 3 Audio interface
+- RME Madi HDSPe, MADI FX or MADIface XT.
 
-- Generic recommended hardware specification::
-  - Intel® Xeon® W family W-2200 or W-3200 Series CPU (preferred), E-22xx, or equivalent. Higher core speed. Minimum 8 Cores, 12 MB Cache
-  - Chipset: Professional workstation chipset C422, C621, or equivalent.
-  - System Memory: 32 – 64 GB. A system with ECC support is preferred.
-  - Graphic: Professional NVIDIA Quadro P4000 or equivalent - 8GB GDDR5 Graphic Memory (Graphic card with full support for OpenGL 2.0)
-  - Network: Dual network interface (NIC) - Intel I210-T1 or equivalent
-  - OS drive (Operating System): NVMe Internal SSD
-  - Audio Projects Hard Drive: no specifics. For redundant systems, only certified RAID systems should be used.
-  - OS: macOS High Sierra or upper, up to Monterey. Windows Pro 10 64-bit. Real-Time optimized OS with minimum services.
+**Recommended hardware:**
 
-Mac OS X: OpenGL 2.0 required – Mac Pro 1.1 & Mac Pro 2.1 are not supported.
+- Apple Silicon / ARM M1
+  - Mac Studio M1 Max (10-Core CPU, 24-Core GPU, 32 GB RAM)
+  - Mac Studio M1 Ultra (20-Core CPU, 48-Core GPU, 64 GB RAM)
+- Apple Intel
+  - MacPro, 3.5GHz 8‑core Intel Xeon W processor, Radeon Pro W5500X, 32GB RAM
+
+**Generic recommended hardware specification:**
+
+- Intel® Xeon® W family W-2200 or W-3200 Series CPU (preferred), E-22xx, or equivalent. Higher core speed. Minimum 8 Cores, 12 MB Cache
+- Chipset: Professional workstation chipset C422, C621, or equivalent.
+- System Memory: 32 – 64 GB. A system with ECC support is preferred.
+- Graphic: Professional NVIDIA Quadro P4000 or equivalent - 8GB GDDR5 Graphic Memory (Graphic card with full support for OpenGL 2.0)
+- Network: Dual network interface (NIC) - Intel I210-T1 or equivalent
+- OS drive (Operating System): NVMe Internal SSD
+- Audio Projects Hard Drive: no specifics. For redundant systems, only certified RAID systems should be used.
+- Real-Time optimized OS with minimum services.
+
+macOS X: Mac Pro 1.1 & Mac Pro 2.1 are not supported.
 Windows: If your computer has an ATi or NVidia graphics card, please assure the latest graphic drivers from the ATi or NVidia website are installed.
 
 **Software License Requirements**
