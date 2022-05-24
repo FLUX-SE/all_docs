@@ -6,7 +6,7 @@ SPAT Revolution is a stand-alone application for macOS and Windows.
 SPAT Send/Return/Room plugins are available in AU/VST/AAX Native. 
 SPAT Send plugins is available in AAX VENUE.
 
-Plugins Compatibility, [see plugin specifications](https://www.flux.audio/plugin-specifications/)
+See [plugins specifications] for more details (https://www.flux.audio/plugin-specifications/).
 
 ## Processing
 
@@ -21,7 +21,7 @@ SPAT Revolution—stand-alone software:
 
 - macOS - All versions from 10.12 including macOS Big Sur and Monterey compliant. *
 
-_* See hardware details for more information on compatibility_
+> * See hardware details for more information on compatibility.
 
 ## Hardware Recommendations and requirements 
  
@@ -34,13 +34,13 @@ __Recommended hardware:__
 - Apple Silicon / ARM M1 *
   - Mac Studio M1 Max / M1 Ultra off the shelf models
   - Mac Mini M1 Chip
-  - MacBook Pro (13/14/16) M1 Chip
+  - MacBook Pro (13/14/16 inches) M1 Chip
 - Apple Intel
   - MacPro
   - iMac Pro
-  - MacBook Pro with PCIe bus graphic card
+  - MacBook Pro with dedicated GPU video graphic card
 
-_* SPAT Revolution is fully supported to Silicon / ARM Apple computers via the Rosetta binary translator_
+> * SPAT Revolution is fully supported to Silicon / ARM Apple computers via the Rosetta binary translator.
 
 
 **Generic hardware specification:**
