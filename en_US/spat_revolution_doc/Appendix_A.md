@@ -4,14 +4,14 @@
 
 SPAT Revolution is a stand-alone application for macOS and Windows.
 SPAT Send/Return/Room plugins are available in AU/VST/AAX Native.
-SPAT Send plugins is available in AAX VENUE.
+SPAT Send plugin is available in AAX VENUE.
 
-See [plugins specifications](https://www.flux.audio/plugin-specifications/) for more details .
+See [plugins specifications](https://www.flux.audio/plugin-specifications/) for more details.
 
 ## Processing
 
-SPAT Revolution—stand-alone software:
-- unlimited number of Input and Output (hardware and audio interface dependent).
+SPAT Revolution stand-alone software:
+- unlimited number of Inputs and Outputs (Ultimate only, hardware and audio interface dependent).
 - 32/64-bits internal floating-point processing.
 - Sampling rates up to 384kHz, block size starting at 16 samples.
 
@@ -55,7 +55,7 @@ Single computer systems can provide an excellent option for portability but come
 
 ### Hardware for Live Productions (Dedicated SPAT Revolution Computer)
 
-**Recommended audio interfaces**
+**Recommended audio interfaces:**
 
 - RME Digiface AVB or Dante, USB 3 Audio interface
 - RME Madi HDSPe (PCIe), MADI FX or MADIface XT.
@@ -102,8 +102,11 @@ Computer optimization:
 - Disable photos processing and Cloud services
 - Log out of iCloud
 
-The below configurations have been tested at the worst scenario, with the reverberation at the highest density for all rooms, all sources active with reverberation and all sources in full movement using OSC input. WFS and Binaural PanType are used as reference as they are the most processing heavy techniques.
+The below configurations have been **tested at the worst scenario**, with the reverberation at the highest density for all rooms, all sources active with reverberation and all sources in full movement using OSC input. WFS and Binaural PanType are used as reference as they are the most processing heavy techniques.
 
+!> **Processing can be different according to the used HRTF**. Kemar HRTF were used for these tests.
+
+---
 
 ### 48000 kHz
 
@@ -115,13 +118,15 @@ Number of sources | Number of speakers |         Room and PanType          |    
 64 |         64         |         1 WFS room          | RME Digiface Dante / AVB | 512 (22.16ms)
 64 |   16 + Binaural    | 2 rooms: 1 WFS + 1 Binaural | RME Digiface Dante / AVB | 1024 (43.5ms)
 
-#### mac Studio | Basic configuration
+#### mac Studio M1 Max | Basic configuration
 
 Number of sources | Number of speakers |      Room and PanType       |              Sound card               | Buffer size / reported Latency
  :---: |:------------------:|:---------------------------:|:-------------------------------------:| :---:
 64 |         32         |         1 WFS room          |       RME Digiface Dante / AVB        | 64 (3.5ms)
 64 |         64         |         1 WFS room          | RME Digiface Dante / AVB | 128 (6.16ms)
 64 |   16 + Binaural    | 2 rooms: 1 WFS + 1 Binaural | RME Digiface Dante / AVB | 128 (6.16ms)
+
+---
 
 ### 96000 kHz
 
@@ -135,7 +140,7 @@ Number of sources | Number of speakers |      Room and PanType       |          
 64 |         16         |         1 WFS room          |       RME Digiface Dante / AVB        | 512 (11.44ms)
 64 |         24         |         1 WFS room          | RME Digiface Dante / AVB | 1024 (22.1ms)
 
-#### mac Studio | Basic configuration
+#### mac Studio M1 Max | Basic configuration
 
 Number of sources | Number of speakers |      Room and PanType       |              Sound card               | Buffer size / reported Latency
  :---: |:------------------:|:---------------------------:|:-------------------------------------:| :---:
