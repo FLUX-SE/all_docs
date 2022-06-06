@@ -111,7 +111,7 @@ You can filter the list by an object name and/or a property name. You can also c
 
 A new panel relative to the snapshot is available on the preferences page, allowing some options.
 
-![Snasphot preferences](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Preferences/Snapshot.png)
+![Snasphot preferences](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Preference/Snapshot.png)
 
 - **Show snapshot bar**: determines if the snapshot bar and the timecode is shown or hidden.
 - **Recall sources name**: determines if the source names is recalled with snasphots.
