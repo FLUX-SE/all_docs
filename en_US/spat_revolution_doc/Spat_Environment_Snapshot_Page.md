@@ -32,7 +32,7 @@ The snapshot list serves many purpose. First, it display the snapshot organizati
 
 A snapshot can have different states. First, it can be selected or unselected inside the list. The state of selection is graphical element that let the user know on which snapshot an action is performed.
 
-![Unselected snapshot]((ttps://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Snapshots/UnselectedSnapshot.png)
+![Unselected snapshot](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Snapshots/UnselectedSnapshot.png)
 > Unselected snapshot
 
 ![Selected snapshot](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Snapshots/SelectedSnapshot.png)
