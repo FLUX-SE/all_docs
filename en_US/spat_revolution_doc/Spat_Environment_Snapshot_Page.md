@@ -26,37 +26,33 @@ This action bar countain many buttons to manage snapshots
 
 ### Generality
 
-![Snapshot list]((https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Snapshots/SnapshotsList.png)
+![Snapshot list](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Snapshots/SnapshotsList.png)
 
 The snapshot list serves many purpose. First, it display the snapshot organization of your session. You can change the order of each snapshot **drag & dropping** them in the list. The snapshot name can also be edited by clicking on the text field. To recall a snapshot from the snapshot list, simply double-click on number of one of them.
 
 A snapshot can have different states. First, it can be selected or unselected inside the list. The state of selection is graphical element that let the user know on which snapshot an action is performed.
 
-![Unselected snapshot]((https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Snapshots/UnselectedSnapshot.png)
+![Unselected snapshot]((ttps://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Snapshots/UnselectedSnapshot.png)
+> Unselected snapshot
 
-Unselected snapshot
-
-![Selected snapshot]((https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Snapshots/SelectedSnapshot.png)
-
-Selected snapshot
+![Selected snapshot](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Snapshots/SelectedSnapshot.png)
+> Selected snapshot
 
 A snapshot can also be disabled. A disabled snapshot will be darken in the list. It cannot be recallen. The <code>next</code> and <code>previous</code> snapshot buttons will automatically skip a disabled snapshot. To activate or deactivate a snapshot, select the snapshot and click on the <code>Enable</code> button on the action bar, or right-click on a selected snapshot and click on the <code>Enable/disable</code> option.
 
-![Active / inactive]((https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Snapshots/SnapshotEnableDisable.png)
-
-Deactivated snapshot (1) VS activated snapshot (2)
+![Active / inactive](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Snapshots/SnapshotEnableDisable.png)
+> Deactivated snapshot (1) VS activated snapshot (2)
 
 Lastly, the last recallen snapshot is displayed with a white border around it. This allows the user to monitor where he is in his show.
 
-![In-play / not-in-play]((https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Snapshots/SnasphotRecalled.png)
-
-In-play snapshot (2) VS not-in-play snapshot (1)
+![In-play / not-in-play](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Snapshots/SnasphotRecalled.png)
+> In-play snapshot (2) VS not-in-play snapshot (1)
 
 ### Snapshot Index
 
 To recall through OSC a snapshot, the name or the index is required. As snapshot order can be moved with the list, the snapshot index does not depend on the place of the snapshot on the list. The snapshot index is indicated on each snapshot, left to the recall options.
 
-![Snapshot index]((https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Snapshots/SelectedSnapshot.png)
+![Snapshot index](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Snapshots/SelectedSnapshot.png)
 
 It is possible to reorder the all the snapshot index according to list order. To do so, click on the menu <code>Snasphot/Reindex all snapshots</code>.
 
@@ -75,13 +71,13 @@ Beside each snapshot, there is a tickbox, under a collumn named "**GLobal**". If
 
 ### Changing snapshots color
 
-![Coloring snapshot]((https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Snapshots/SnapshotColor.png)
+![Coloring snapshot](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Snapshots/SnapshotColor.png)
 
 To help to a better organisation of the session, snapshots can be recolored. To do so, right-click on the selected snapshot and choose <code>Set colors</code>. A palette, from which you can pick a color, will appear. 
 
 ## Version history
 
-![Snapshot version history]((https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Snapshots/VersionHistory.png)
+![Snapshot version history](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Snapshots/VersionHistory.png)
 
 In this panel takes place a very powerful feature. For each snapshot, SPAT Revolution automatically stores the last ten version. Of course, you can recall any of this ten previous state, remove one, make a previous one the current.
 
@@ -104,7 +100,7 @@ The inspector lets you visualize the difference between the current state of you
 
 It allows to easily monitor what was changed and how it was changed.
 
-![Inspector]((https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Snapshots/Inspector.png)
+![Inspector](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Snapshots/Inspector.png)
 
 Select the snapshot you want to compare, and click on the <code>Show differences</code>, or use the shorcut <code>Ctrl + D</code> on Windows, <code>Command + D</code> on macOS.
 
@@ -115,7 +111,7 @@ You can filter the list by an object name and/or a property name. You can also c
 
 A new panel relative to the snapshot is available on the preferences page, allowing some options.
 
-![Snasphot preferences]((https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Preferences/Snapshot.png)
+![Snasphot preferences](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Preferences/Snapshot.png)
 
 - **Show snapshot bar**: determines if the snapshot bar and the timecode is shown or hidden.
 - **Recall sources name**: determines if the source names is recalled with snasphots.
@@ -125,7 +121,7 @@ A new panel relative to the snapshot is available on the preferences page, allow
 
 ## Snapshot toolbar
 
-![Snasphot toolbar]((https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Generic/SnapshotToolbar.png)
+![Snasphot toolbar](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Generic/SnapshotToolbar.png)
 
 This toolbar has been designed to help playing with snapshots without navigating to the snapshots page. You will find some of the most important snapshot actions:
 - Recall the <code>Previous</code> snapshot.
