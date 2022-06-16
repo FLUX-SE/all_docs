@@ -1,26 +1,27 @@
-# Pure Analyzer Versions
+# FLUX:: Analyzer Versions
 
-The Pure Analyzer is available in two different versions, The Pure Analyzer Essential, and the Pure
-Analyzer Studio Session.
+The Analyzer is available in two different software versions, The Analyzer:: Essential, and the Analyzer:: Session.
 
 The main difference between the two are:
 
 <table>
 <tr>
 <td></td>
-<td><b>Pure Analyzer Studio Session</b></td>
-<td><b>Pure Analyzer Essential</b></td>
+<td><b>Analyzer:: Session</b></td>
+<td><b>Analyzer:: Essential</b></td>
 </tr>
 <tr>
 <td><b>Inputs/Outputs</b></td>
 <td>Mono / Stereo</td>
-<td>Mono / Stereo / MultiChannel* up to 16 ch.
+<td>Mono / Stereo / MultiChannel* up to 16.
 </td>
 </tr>
 <tr>
 <td><b>I/O Configuration</b></td>
 <td>
-SampleGrabber Plug-in (No Hardware I/O)
+SampleGrabber Plug-in
+<br>Hardware I/O:
+ASIO / Core Audio
 </td>
 <td>
 SampleGrabber Plug-in
@@ -36,7 +37,9 @@ ASIO / Core Audio
 </tr>
 <tr>
 <td><b>Supported Options</b></td>
-<td></td>
+<td>
+N/A
+</td>
 <td>Live / Metering / MultiChannel
 </td>
 </tr>
