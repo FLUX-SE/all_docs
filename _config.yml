@@ -1,5 +1,6 @@
 plugins:
   - jekyll-sitemap
+  - jekyll-seo-tag
 exclude:
   - Gruntfile.js
   - package.json
