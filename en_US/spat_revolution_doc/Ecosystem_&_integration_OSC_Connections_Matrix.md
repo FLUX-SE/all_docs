@@ -11,25 +11,25 @@ You will also find a complete [OSC table](Appendix_C_OSC_Table.md) in the append
 
 In general, SPAT OSC patterns have the form of:
 
-<code>/source/[index]/x</code>
+<code>/source/[remote number]/x</code>
 
-where [index] represents the Index of the Virtual Source or Room you wish to control with the message.
+where [remote number] represents the Remote number of the Virtual Source, or the index (i.e. the room number) of the Room you wish to control with the message.
 
 The three positional formats can be packed into one message if that option is set in the OSC Connections Matrix;
 
-<code>/source/[index]/xyz</code> _Cartesian co-ordinates in meters_
+<code>/source/[remote number]/xyz</code> _Cartesian co-ordinates in meters_
 
-<code>/source/[index]/aed</code> _Polar co-ordinates (azimuth, distance and elevation)_
+<code>/source/[remote number]/aed</code> _Polar co-ordinates (azimuth, distance and elevation)_
 
 !> Take care to automate EITHER Cartesian OR Polar, not both.
 
-Sometimes, it is more convenient to have the [index] parameter as an argument of the OSC message.
+Sometimes, it is more convenient to have the [remote number] parameter as an argument of the OSC message.
 This option is available in the OSC Connections Matrix, namely **Index as Arg**.
 If this option is switched in, then the messages will be of the pattern
 
 <code>/source/xyz ifff</code>
 
-where <code>i</code> is an integer denoting the index of the target, and <code>f</code> according to convention is a float denoting the values of the message.
+where <code>i</code> is an integer denoting the remote number of the target, and <code>f</code> according to convention is a float denoting the values of the message.
 
 For more details about the SPAT Revolution OSC dictionary and its usage syntax please refer to [Appendix C](Appendix_C_OSC_Table.md).
 

@@ -64,6 +64,7 @@ If SPAT is running, then a Send or Return IO module will automatically appear in
 
 **Index** - Relates the Plug-in automation to a virtual source.
 - INDEX is assigned automatically and can only be changed manually to an index number that is not yet in use by another SPAT Plug-in.
+- On SPAT Revolution, INDEX is designed as "Remote number". Itinially set to the object number, you can customize it by object.
 
 **Position mode** - In Send only, choose the recorded and read coordinate mode.  
 

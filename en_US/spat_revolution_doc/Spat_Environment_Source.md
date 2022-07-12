@@ -17,15 +17,15 @@ External software needs to know how to identify virtual objects, and that will b
 
 Every source in a room has its own set of variable parameters which define its simulated positional information, psycho acoustic properties, virtual acoustic properties and other options.
 
-To edit the variables of a source in the _Source Parameter_ editor, you must first be inside a room. Select the source you want to edit from the list on the left side panel of the Room editor by left-clicking on its index number. Alternatively, grab its 'emitter' object in the 3D room visualization (or just one of them, if the source is a multichannel group). When you select a source, the _Source Parameter_ editor will pop up as a set of categorized groups with which you can alter the properties of the Virtual Source in the Room.
+To edit the variables of a source in the _Source Parameter_ editor, you must first be inside a room. Select the source you want to edit from the list on the left side panel of the Room editor by left-clicking on its number. Alternatively, grab its 'emitter' object in the 3D room visualization (or just one of them, if the source is a multichannel group). When you select a source, the _Source Parameter_ editor will pop up as a set of categorized groups with which you can alter the properties of the Virtual Source in the Room.
 
 The source's parameters are ordered inside panels. Each panel can be minimized or expanded.
 
-Additionally, a _right click_ on a Source Index number will bring up some further options, especially useful is the **Color** option, which allows you to set an identification color to a Source or Group.
+Additionally, a _right click_ on a Source Number will bring up some further options, especially useful is the **Color** option, which allows you to set an identification color to a Source or Group.
 
-> If a source is a multi-channel one, there will be only one index and one set of parameters for the whole cluster.
+> If a source is a multichannel one, there will be only one number and one set of parameters for the whole cluster.
 
-!> Note that the source index is also used for OSC automation!
+!> Note that the source number can also be used for OSC automation is remote number is set to 0!
 
 The source's parameters are detailed on the next section, [Source Parameters](Spat_Environment_Source_Parameters.md).
 

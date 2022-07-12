@@ -5,22 +5,16 @@ It can be used to capture an audio scene into SPAT Revolution.
 Sources, rooms and master properties will be stored in a snapshot.
 It allows a complete transformation of the soundscape, with interpolation.
 
-!> To use snapshots, timecode needs to run in SPAT Revolution.
-
-Two ways to run the timecode:
-- if working with Hardware IO, an audio device must be selected into SPAT preferences.
-- if working with Local Audio Path, the DAW needs to play back and the SPAT session needs at least one send and one return connected together.
-
-The timecode activity is apparent in the bottom left of the screen.
-If timecode isn't running, the recall will fail.
-
-![Sync ](https://raw.githubusercontent.com/FLUX-SE/doc_images/main/SpatR/Generic/Sync.png)
-
 Snapshots could be controlled by the dedicated menu, and with OSC messages.
+
+Sources can be excluded of a snapshot recall:
+- on the "Source Page", disabling "Snapshot" on the wanted sources.
+- on a "Room Page", right-clicking on the wanted source and disabling the "Snapshot recall enable" option.
 
 ![SPAT Revolution_snapshot_recall](include/SpatRevolution_snapshot_recall.gif)
 
 <!-- TODO: update the image -->
+
 
 ## Create a snapshot
 

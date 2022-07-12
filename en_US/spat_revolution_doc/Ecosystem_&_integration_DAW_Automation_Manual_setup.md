@@ -25,7 +25,7 @@ The port and host should match that of the SPAT plug-ins. By default, the plug-i
 
 If you are running SPAT and the DAW software on the same machine, then the IP address is always the so-called _LocalHost_ (127.0.0.1).
 
-Remember that the index number of each SPAT plug-in links it to a virtual source with the same index - or in the case of a SPAT Room plug-in - it is used to identify which Room you wish to control.
+Remember that the index number of each SPAT plug-in links it to a virtual source with the same remote number - or in the case of a SPAT Room plug-in - it is used to identify which Room you wish to control.
 
 !> Some systems require you to press TAB key and not ENTER after editing a field in the Plug-in.
 

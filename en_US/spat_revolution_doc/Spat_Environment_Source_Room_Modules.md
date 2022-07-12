@@ -30,7 +30,7 @@ SPAT Revolution is able to receive data from RTTrPM open protocol tracking syste
 
 !> _RTTrPM protocol is only available with the Ultimate license of SPAT Revolution_.
 
-When you have correctly set up the BlackTrax protocol (see [BlackTrax Integration section](ThirdParty_BlackTrax.md)) then you can directly assign Tracking Index to virtual sources, and also to listener position (see [Listener position section](Spatialisation_Technology_Listener_Position.md)) for advanced virtual reality interactive audio projects.
+When you have correctly set up the BlackTrax protocol (see [BlackTrax Integration section](ThirdParty_BlackTrax.md)) then you can directly assign Tracking Number to virtual sources, and also to listener position (see [Listener position section](Spatialisation_Technology_Listener_Position.md)) for advanced virtual reality interactive audio projects.
 
 ### Gain
 
@@ -74,7 +74,7 @@ Allow selecting the rendering type and the associated options.
 
 ### Tracking
 
-See [Listener position section](Spatialisation_Technology_Listener_Position.md) section.
+See [Listener position section](Spatialisation_Technology_Listener_Position.md).
 
 ### Gain
 

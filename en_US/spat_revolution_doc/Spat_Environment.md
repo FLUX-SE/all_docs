@@ -13,7 +13,7 @@ Speaker configurations can be used to fit the format of a virtual room to match 
 Channel based speaker configurations can also be used to transcode the format of a virtual source into a virtual room.
 More about this later.
 
-The golden rule when working with multi-channel based audio is that you must be sure to choose _exactly_ the right formats, speaker arrangements and channel routing throughout; otherwise the virtual space will not map correctly into a physical space.
+The golden rule when working with multichannel based audio is that you must be sure to choose _exactly_ the right formats, speaker arrangements and channel routing throughout; otherwise the virtual space will not map correctly into a physical space.
 
 **Virtual and Real Diffusion**
 

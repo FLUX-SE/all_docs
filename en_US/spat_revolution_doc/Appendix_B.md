@@ -19,7 +19,7 @@ To force the DAW to process this way, each track with SEND plug-in inserted must
 
 > You can reset the sync error by double-clicking on the sync error counter.
 
-If you see red indicators on the bottom left corner section of SPAT, this could be related to having a mismatch in frame size  (buffer) or sample rate between the DAW and the SPAT Revolution.
+If you see red indicators in the bottom left corner section of SPAT, this could be related to having a mismatch in frame size  (buffer) or sample rate between the DAW and the SPAT Revolution.
 
 Frame size (sometimes called buffer size or block size) should be matched in the host DAW and SPAT Revolution. A red message would identify a different frame rate the host DAW. Simply double-clicking on **smp/f** message in error will automatically change you SPAT block size setup to match the incoming audio.
 
@@ -141,15 +141,13 @@ The Engine Preference section includes three Profiles for parallel processing
 
 ![Max Number Of Cores - Engine Preference](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Preference/EngineNumberOfCores.png)
 
-Lastly are the 3 presets for you to choose from.
+Lastly are the 3 presets for you to choose from, to adapt the **parallel profile** to your use:
 
-Parallel Profile:
+* **Max distribution** is a preset which helps to spread the load as much as possible to all cores. It is mainly recommended for Desktop systems and dedicated real-time SPAT computers.
 
-* **Max distribution** is for spreading the load as much as possible to all cores mainly with Desktop systems and dedicated real-time SPAT computers.
+* **Favor first core**  is a typical preset for laptop computers where we find that loading cores as much as possible, allowing us to get out of the way of some laptop optimization (power and cooling) that are playing with available processing speed.
 
-* **Favor First Core**  is a typical preset for laptop computers where we find that loading cores as much as possible allow us to get out of the way of some of the laptop optimization (power and cooling) that are playing with available processing speed.
-
-* **Balanced Distribution** is a preset somehow in the middle. It intends to be a balance between both above options.
+* **Balanced distribution** is a preset somehow in the middle. It intends to be a balance between both above options.
 
 ![Parallel Processing Algo Profile](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Preference/EngineProfiles.png)
 
