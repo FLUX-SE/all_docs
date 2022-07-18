@@ -3,10 +3,7 @@
 _SPAT Revolution_ comes in different flavors: an **Essential** and an **Ultimate** version.
 Both share the same audio engine and powerful 3D audio capabilities.
 
-The **Ultimate** license brings the complete set of tools needed for professional already working for immersive audio creation content. 
-It delivers the full flexibility, powerful routing and complex option sets of _SPAT Revolution_.
-
-The **Essential** license supports the more common workflow scenarios in a more accessible manner. While it has the same audio capabilities, the intent is for a simpler user experience, with fewer options and a more straight forward approach to immersive audio creation.
+The **Essential** license aims at being a limited version of **Ultimate**: same workflow but limited capacities at reduced price.
 
 ## Ultimate and Essential : what's common?
 
@@ -21,24 +18,42 @@ The _SPAT Revolution_ software supports with the same installer (binary) both li
  - An audio pipe technologies allowing receiving and sending audio from all the major DAW to and from _SPAT Revolution_.
  - An exhaustive list of OSC commands to allow a deep remote control of _SPAT Revolution_.
 
+<!-- TODO: update? -->
+
 ## Ultimate and Essential: Differences
 
-SPAT Essential comes with a set of limitations:
+The main limitations of the **Essential** license are listed below:
 
- - The audio engine is limited to a sample rate of 96 kHz.
  - Total source channel inputs is limited to 32.
  - The number of rooms output is limited to either 16 speakers or HOA 3rd order.
  - Only one room can be used at a time: no simultaneous rendering.
- - Session configuration is simplified, using only the Setup Wizard.
  - Ambisonic decoding is done using AllRAD method
 
+<!-- TODO: check if there is other main limitations we want to list here -->
+
  **Complete specification is available [here](https://www.flux.audio/project/spat-revolution/#specifications).**
+<!-- TODO: update the complete spec -->
 
-## Ultimate vs Essential sessions
+## Ultimate and Essential sessions compatibility
 
-Both Essential and Ultimate are based on the same session. In order to allow for sessions created with Ultimate license to be compatible (or simply opened) with Essential, a simple compatibility dialog tool welcomes you at session opening, offering for a partial read based on the limitations set by the Essential license. Speaker arrangements of any size can still be managed (created, imported, exported) but only valid ones for Essential can be applied to the session.
+When creating or opening a session that contains elements non-compatible with the **Essential** license, those elements are simply deactivated (not processed).
+Thus, an **Ultimate** session can be opened with an **Essential** license and vie-versa. See [Modules (de)activation](Spat_Environment_Modules_de_activation.md).
 
-<!-- TODO: add images of the wizard -->
+### Check Essential compatibility
 
+In the top bar menu, click on **File>Check Essential Compatibility** to check if the current session is compatible with the SPAT Essential restrictions.
 
-An Utimate version features, located on the File menu, allows to check if the session is compatible with Essential version. 
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Essential_Check_compatibility.png)
+
+If the session is not compatible, it can be opened with an **Essential** license, the restrictions due to license limitations will automatically deactivate the non-authorized objects. 
+
+> If a session contain elements non-compatible with an **Essential** license, they can be manually deactivated for the session to fit the **Essential** license restrictions. If all the non-authorized elements are inactive, the check for compatibility check then answers that the session is compatible with **Essential** license.
+
+See [Modules (de)activation](Spat_Environment_Modules_de_activation.md) for more information about automatic and manual (de)activation.
+
+### Essential compatibility mode in Ultimate
+
+The **Ultimate** license offers an _Essential Compatibility Mode_, for switching between **Essential** and **Ultimate** behaviors without any change in your license authorization.
+
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Essential_Compatibility_mode.png)
+
