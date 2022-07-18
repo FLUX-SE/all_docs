@@ -10,7 +10,7 @@ Its parameter modulators and their well-designed routing system make it compelli
 
 **Setting Up Sync in BitWig**
 
-When using the Local Audio path (LAP), the buffer size and sample rate must be matched in both SPAT Revolution and Bitwig Studio. 
+When using the Local Audio path (LAP), the buffer size and sample rate must be matched in both _SPAT Revolution_ and Bitwig Studio. 
 In SPAT, you do this in the preferences, and in Bitwig, you do in the audio engine settings. 
 If they don't match at first, you _may_ need to restart  both applications to get the correct green sync status between the apps.
 

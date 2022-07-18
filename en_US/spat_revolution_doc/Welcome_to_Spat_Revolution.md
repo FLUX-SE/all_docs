@@ -24,10 +24,10 @@ SPAT contains a powerful multichannel reverberation engine which can be applied 
 
 <!-- TODO: update the image -->
 
-> **SPAT Revolution maintains the highest audio quality throughout the entire signal flow**
+> **_SPAT Revolution_ maintains the highest audio quality throughout the entire signal flow**
 # SPAT Revolution's Heritage
 
-> **SPAT Revolution is underpinned by 30 years of technical research and development in acoustics and sound.**
+> **_SPAT Revolution_ is underpinned by 30 years of technical research and development in acoustics and sound.**
 
 Behind _SPAT Revolution_ is the partnership of FLUX:: SE and Ircam in Paris, France. 
 Founded in 1977, Ircam is one of the world’s leading public research institutes in the fields of musical expression, science of music, sound and acoustics. 
@@ -43,8 +43,8 @@ Although this user guide cannot cover every technical aspect of the algorithms a
 
 # About this Guide
 
-This guide has been written for practitioners already working in immersive sound production yet new to the SPAT Revolution software environment. 
-Is also intended to be read as a practical introduction to surround and immersive audio production for those who are new to the medium and coming to it through SPAT Revolution. 
+This guide has been written for practitioners already working in immersive sound production yet new to the _SPAT Revolution_ software environment. 
+Is also intended to be read as a practical introduction to surround and immersive audio production for those who are new to the medium and coming to it through _SPAT Revolution_. 
 Of course, there is plenty more knowledge to be had in the field of immersive audio and the technology behind it, which will strengthen your understanding and decision-making.
 
 We strongly suggest spending the time to read through this guide before starting on your first major production and keep it on hand during the process. 

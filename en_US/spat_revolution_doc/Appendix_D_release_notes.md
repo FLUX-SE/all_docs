@@ -31,7 +31,7 @@
 - New elevation clamping - Source-object is projected on speaker extremum planes for 3D channel-based speaker arrangements
 - New option "Source fit speaker elevation" in the protection section of Room output panel: render a 3D creation on 2D setups will be more coherent
 - Official support for software input (Local Audio Path via plugin) and hardware output in the same session.
-- SPAT Revolution Essential - Now supports up to 16 channel arrangements
+- _SPAT Revolution_ **Essential** - Now supports up to 16 channel arrangements
 
 ### Improvements
 

@@ -11,7 +11,7 @@ Sources can be excluded of a snapshot recall:
 - on the "Source Page", disabling "Snapshot" on the wanted sources.
 - on a "Room Page", right-clicking on the wanted source and disabling the "Snapshot recall enable" option.
 
-![SPAT Revolution_snapshot_recall](include/SpatRevolution_snapshot_recall.gif)
+![_SPAT Revolution__snapshot_recall](include/SpatRevolution_snapshot_recall.gif)
 
 <!-- TODO: update the image -->
 

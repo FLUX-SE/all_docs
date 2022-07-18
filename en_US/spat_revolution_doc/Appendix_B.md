@@ -110,9 +110,9 @@ There are also some performance preferences that may help in the case that your 
 To lower UI graphic frame rates, go to the SPAT preferences.
 Changing the Edit Frame Rate will reduce pressure on the graphics updates and important when a host machine does not have dedicated GPU and CPU resources.
 
-The latest release of SPAT Revolution includes a new Multi-Core Parallel Computation Algorithm. In the preference of SPAT Revolution, in the Engine section at the bottom, you can choose various computer hardware presets that match your setup. This is a simple step to tuning the computation algorithm.
+The latest release of _SPAT Revolution_ includes a new Multi-Core Parallel Computation Algorithm. In the preference of _SPAT Revolution_, in the Engine section at the bottom, you can choose various computer hardware presets that match your setup. This is a simple step to tuning the computation algorithm.
 
-If you are still experiencing performance and sync issues, you may want to ensure that your hardware configuration meets the **[SPAT Revolution requirements and recommendations](Appendix_A.md)**
+If you are still experiencing performance and sync issues, you may want to ensure that your hardware configuration meets the **[_SPAT Revolution_ requirements and recommendations](Appendix_A.md)**
 
 Consider as well to kill as many processes not required as possible (Wi-Fi/internet, background services and activity).
 
@@ -128,7 +128,7 @@ Included in release version 20.12 is the ability to display performance (CPU) me
 
 _!> Engine profiles are only available with the Ultimate license of SPAT Revolution_.
 
-SPAT Revolution v20.12 introduced a new Multi-Core Parallel Computation Algorithm that is key to optimizing your hardware. This is for both the automation and the audio processing. The **Display Performance** option stated above will be our best ally to monitor the results. This can be accessed with shortcuts <code>Shift + Option + Command + P.</code>
+_SPAT Revolution_ v20.12 introduced a new Multi-Core Parallel Computation Algorithm that is key to optimizing your hardware. This is for both the automation and the audio processing. The **Display Performance** option stated above will be our best ally to monitor the results. This can be accessed with shortcuts <code>Shift + Option + Command + P.</code>
 
 The Engine Preference section includes three Profiles for parallel processing
 ![New updated Engine Preference Section](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Preference/Engine.png)
@@ -137,7 +137,7 @@ The Engine Preference section includes three Profiles for parallel processing
 
 ![Automation Rate Optimization](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Preference/EngineAutomationRate.png)
 
-**Max Number of Core** is your ability to make more or fewer cores available to the SPAT Revolution algorithm. By default, it will be at your number of native core. Not hyper-threading. This can be increased or reduced. Watch not to take all cores for a multitasking computer.
+**Max Number of Core** is your ability to make more or fewer cores available to the _SPAT Revolution_ algorithm. By default, it will be at your number of native core. Not hyper-threading. This can be increased or reduced. Watch not to take all cores for a multitasking computer.
 
 ![Max Number Of Cores - Engine Preference](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Preference/EngineNumberOfCores.png)
 

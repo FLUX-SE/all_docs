@@ -7,7 +7,7 @@ ReaVolution was developed by Jean-Loup Pecquais, between Orléans and Paris, fro
 The author would like to acknowledge a few peoples:
 
 - Gael Martinet, FLUX:: Immersive CEO, to support and believe in this project
-- Hugo Larin, Spat Revolution product manager & business Development at FLUX:: Immersive, for his help and interest
+- Hugo Larin, _SPAT Revolution_ product manager & business Development at FLUX:: Immersive, for his help and interest
 - Nicolas Erard, to have tested almost every corner of ReaVolution and cramped my todo list with too many bugs report
 - Sylvain Lambinet, which has followed this idea from the very start and always inputted some great feedback
 - Justin Frankel and the whole Cockos team to have put on the market such an incredible tool.
@@ -23,7 +23,7 @@ ReaVolution theme uses graphical elements provided to the Reaper community by th
 
 *What is ReaVolution?*
 
-ReaVolution is an attempt to provide a customization to Reaper standard configuration in order to simplify its integration to Spat Revolution and provide a complete simple immersive audio creation package.
+ReaVolution is an attempt to provide a customization to Reaper standard configuration in order to simplify its integration to _SPAT Revolution_ and provide a complete simple immersive audio creation package.
 
 At the base of ReaVolution is Reaper, a DAW developed by Cockos. 
 It is a very stable and fully-featured DAW with lots of customization possibilities. 
@@ -95,15 +95,15 @@ On the left side of the arrangement view, above the track panel control (TCP), t
 
 ### SPAT Revolution library
 
-ReaVolution is designed to work seamlessly with the software SPAT Revolution developed by Flux:: Immersive. SPAT Revolution is a stand-alone application to create immersive sound content and support almost any surround sound technologies. Flux:: has also developed audio pipe technologies which allow sending audio from a DAW to SPAT Revolution using a VST/AAX/AU plug-ins. This is a very powerful tool, but it can be quite time-consuming to setup.
+ReaVolution is designed to work seamlessly with the software _SPAT Revolution_ developed by Flux:: Immersive. _SPAT Revolution_ is a stand-alone application to create immersive sound content and support almost any surround sound technologies. Flux:: has also developed audio pipe technologies which allow sending audio from a DAW to _SPAT Revolution_ using a VST/AAX/AU plug-ins. This is a very powerful tool, but it can be quite time-consuming to setup.
 
-ReaVolution comes with a set of action that automates all the things that needs to be done prior to sending audio from Reaper to SPAT Revolution and work in pairs with the **Audio Stream library** to support any channel configuration.
+ReaVolution comes with a set of action that automates all the things that needs to be done prior to sending audio from Reaper to _SPAT Revolution_ and work in pairs with the **Audio Stream library** to support any channel configuration.
 
 ### Audio Stream library
 
 This library is the core of ReaVolution. Its goal is to provide a way to overcome the limitation that Reaper imposes on track format. By default, tracks and channels can only be even numbers. But in the real world, numerous audio streams come in odd channel numbers, mono being the really obvious one.
 
-How does it work? the library uses the combination of a JSFX called "Audio Stream" and some scripts. This JSFX is present on every track and is used to store and display the stream type to the user. It supports the same streams as SPAT Revolution: channels based, HOA, Ambisonics, binaural and transaural.
+How does it work? the library uses the combination of a JSFX called "Audio Stream" and some scripts. This JSFX is present on every track and is used to store and display the stream type to the user. It supports the same streams as _SPAT Revolution_: channels based, HOA, Ambisonics, binaural and transaural.
 
 ### Various library
 

@@ -74,7 +74,7 @@ In SPAT, go to *Preferences/Hardware IO* , then set:
 * External Sampling Rate: Enabled
 * Block Size: 1024
 
-![SPAT Revolution Preferences](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/ProToolsSpatPreferences.jpg)
+![_SPAT Revolution_ Preferences](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/ProToolsSpatPreferences.jpg)
 
 <!-- TODO: update the image -->
 
@@ -120,7 +120,7 @@ This is the strategy used in templates and SPAT Pro Tools tracks presets.
 
 As far as we are concerned, the Ultimate version of Pro Tools is highly recommended because of the use of multichannel buses. 
 Using a standard Pro Tools license forces us to return our audio streams by groups of two channels. 
-For example, you will need 12 SPAT RETURNS plug-ins (and 12 x 2-channels tracks) to return a 22.2 stream from SPAT Revolution.
+For example, you will need 12 SPAT RETURNS plug-ins (and 12 x 2-channels tracks) to return a 22.2 stream from _SPAT Revolution_.
 
 This strategy is still used when dealing with channel-based format higher than the supported bus in Pro Tools. 
 So for example for a NHK 22.2 bus in Ultimate, we can return this to 3 x 8-channels (7.1) bus or to 2 x 16-channels ambisonic buses where only 8 channels will be used on the second one. 
@@ -147,8 +147,8 @@ When inserting a plug-in, all its parameters will then be available for automati
 
 **FLUX:: Track presets for Pro Tools** is a simple strategy to rapidly add Send and Return objects into a Pro Tools session. **Session Templates** are great because they give a starting point. 
 
-SPAT Revolution is unique as it can deal with send sources/objects that can be mono, stereo, LCR and all the above (up to 16 channels with Pro Tools, 64 with other DAWs). 
-The same applies for the return busses as we are dealing with the various stream formats you can create in SPAT Revolution, for monitoring or rendering. 
+_SPAT Revolution_ is unique as it can deal with send sources/objects that can be mono, stereo, LCR and all the above (up to 16 channels with Pro Tools, 64 with other DAWs). 
+The same applies for the return busses as we are dealing with the various stream formats you can create in _SPAT Revolution_, for monitoring or rendering. 
 Templates are often just a start point and are most of the time not exactly reflecting your desired session. 
 
 Welcome the **[Avid Pro Tools - Track Presets](https://public.3.basecamp.com/p/ux78xLZDnjtihA3hm8xFKhCP)**.
@@ -196,7 +196,7 @@ You can do this on a single audio track or a series of tracks to send everything
 ![trackPreset1](include/SpatRevolution_UserGuide_protools_trackPreset1.gif)
 
 Why creating an aux SPAT send object and not instantiating the plug-in directly on the audio track? 
-Although this is possible as well (and you have to make sure your audio tracks have the proper routing), this simply allows to have a post-fader send to SPAT Revolution, as plug-in insert in Pro Tools are always pre-fader. 
+Although this is possible as well (and you have to make sure your audio tracks have the proper routing), this simply allows to have a post-fader send to _SPAT Revolution_, as plug-in insert in Pro Tools are always pre-fader. 
 Using the aux track model is simple, clean and allows for creating Send stems.
 
 ![trackPreset1](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/ProToolsDummyBus.png)

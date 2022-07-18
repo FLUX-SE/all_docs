@@ -32,7 +32,7 @@ To activate licenses:
 - An iLok user account is required.
 - An iLok USB key is optional.
 
-FLUX:: uses the iLok license management system to deliver software licenses to users. If you don’t have an iLok account yet, please create a free iLok account at http://www.ilok.com and download the iLok license manager. SPAT Revolution Essential license comes with one (1) activation where the SPAT Revolution Ultimate Bundle includes two (2) activation linked to your user account. Having two activations gives you the possibility of a fixed license on one particular machine and a portable license on an iLok USB key if you own one. Other examples are for main and backup SPAT Engine running on a live production or In-studio and on-the-road scenarios.
+FLUX:: uses the iLok license management system to deliver software licenses to users. If you don’t have an iLok account yet, please create a free iLok account at http://www.ilok.com and download the iLok license manager. _SPAT Revolution_ **Essential** license comes with one (1) activation where the _SPAT Revolution_ Ultimate Bundle includes two (2) activation linked to your user account. Having two activations gives you the possibility of a fixed license on one particular machine and a portable license on an iLok USB key if you own one. Other examples are for main and backup SPAT Engine running on a live production or In-studio and on-the-road scenarios.
 
 > Cloud license is currently not supported.
 
@@ -47,7 +47,7 @@ For new iLok users, the first step is to download and install the iLok license m
 
 ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/FLUX/Generic/iLokManagerTransfer.jpg ':class=img-title')
 
-Pressing on the sign in button will allow you to connect to your account. After Logging in, you are now ready to transfer any licenses to a computer or to any iLok USB key if you happen to have one. The process of transferring a license is as simple as dragging the license from the Available tab to your Local Computer *(or iLok key)* on the left side. SPAT Revolution Essential license is a single license where SPAT Revolution Ultimate is a bundle containing three (3) licenses, Essential, Ultimate and Legacy.
+Pressing on the sign-in button will allow you to connect to your account. After Logging in, you are now ready to transfer any licenses to a computer or to any iLok USB key if you happen to have one. The process of transferring a license is as simple as dragging the license from the Available tab to your Local Computer *(or iLok key)* on the left side. _SPAT Revolution_ Essential license is a single license where _SPAT Revolution_ Ultimate is a bundle containing three (3) licenses, Essential, Ultimate and Legacy.
 
 **Simply drag your license to your Local Computer or on an iLok USB key. You are now set!**
 
@@ -59,7 +59,7 @@ Pressing on the sign in button will allow you to connect to your account. After 
 Next step is to get the installers for the FLUX:: products you are licensed for. All the software and plugins from FLUX:: are available via our FLUX:: Center software. This is a Mac or Windows application we have created to help keep your FLUX:: products up to date and to give you a clear overview of what you have installed. Firstly, please visit the download section of the FLUX:: Website to get the installer for the [FLUX:: Center application.
 ](https://flux.audio/download/)
 
-On this page you will find a Mac OS X, a Windows 64 bits. As well are provided legacy version for older operating systems. After downloading and installing, you can open the FLUX:: Center applications to begin the process of installing the SPAT Revolution software.
+On this page you will find a Mac OS X, a Windows 64 bits. As well are provided legacy version for older operating systems. After downloading and installing, you can open the FLUX:: Center applications to begin the process of installing the _SPAT Revolution_ software.
 
 !> An authentification is required at the launch of FLUX:: Center. This is the login details of your FLUX shop account which allows you to see only your products licensed for (temporary or permanent)
 
@@ -71,7 +71,7 @@ When you open FLUX:: Center you will see a page that lists all FLUX:: products a
 
 ## Center Preferences and Options
 ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Center/Generic/Preferences.jpg ':class=img-title')
-> *Spat Revolution Send/Room/Return plugins are available in VST-64bit, AU-64bit and AAX-64bit only.*
+> *_SPAT Revolution_ Send/Room/Return plugins are available in VST-64bit, AU-64bit and AAX-64bit only.*
 
 This preference page will allow you to choose various installation options such as preferred plug-in formats for your system. Choosing your format and returning to the main page by pressing the OK button will show all your install options for software and plugins based on the desired formats chosen.
 

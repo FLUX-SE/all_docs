@@ -2,9 +2,9 @@
 
 ![Snapshots page](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Snapshots/Page.png)
 
-The new Snapshots' page of SPAT Revolution allows the user to deeply manage its show. Snapshots are an easy way to create different session states. A classic example would be to have different snapshots for different songs, or section of a song, in a live show.
+The new Snapshots' page of _SPAT Revolution_ allows the user to deeply manage its show. Snapshots are an easy way to create different session states. A classic example would be to have different snapshots for different songs, or section of a song, in a live show.
 
-The system built in SPAT Revolution is both simple and powerful. As a generality, when a snapshot is created, it stores the entire session state. Only the recall function can filter what is recalled.
+The system built in _SPAT Revolution_ is both simple and powerful. As a generality, when a snapshot is created, it stores the entire session state. Only the recall function can filter what is recalled.
 
 The page is divided into four different sections: the action bar, the snapshot list, the version history and the inspector.
 

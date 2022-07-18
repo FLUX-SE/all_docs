@@ -7,12 +7,12 @@
 ## Binaural Audio
 
 
-[Creating Binaural Content with Spat Revolution
+[Creating Binaural Content with _SPAT Revolution_
 ](https://www.flux.audio/2020/07/21/creating-binaural-content-in-object-based-audio-with-spat-revolution/)
 
 [Getting your Aural ID for binaural reference accuracy](https://www.flux.audio/2020/07/21/getting-your-aural-id-for-binaural-reference-accuracy/)
 
-[Acquiring and Importing your Genelec Aural ID to Spat Revolution
+[Acquiring and Importing your Genelec Aural ID to _SPAT Revolution_
 ](https://www.flux.audio/2020/07/21/acquiring-and-importing-your-genelec-aural-id-to-spat-revolution/)
 
 [Managing and Importing HRTF](https://www.flux.audio/2020/07/21/managing-and-importing-hrtf/)
@@ -24,4 +24,4 @@
 
 ## System Configuration
 
-[How to set up your DAW with Spat Revolution](https://www.flux.audio/2020/05/01/how-to-set-up-your-daw-with-spat-revolution/)
+[How to set up your DAW with _SPAT Revolution_](https://www.flux.audio/2020/05/01/how-to-set-up-your-daw-with-spat-revolution/)

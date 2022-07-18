@@ -11,8 +11,8 @@ The dual scenario is preferred as this level of processing can become heavy on l
 In order to use the Local Audio Path (LAP) feature of the SPAT SEND and RETURN plug-in, a workaround to the stereo limitation needs to be applied if wanting to integrate the audio portion in this manner.
 
 New templates are available for use with Ableton Live. 
-They are start sessions and can be used as examples to see how to integrate SPAT Revolution using the SPAT plug-in suite SEND and RETURN. 
-Now let's dive in how to use SPAT Revolution with Ableton Live and how our templates work.
+They are start sessions and can be used as examples to see how to integrate _SPAT Revolution_ using the SPAT plug-in suite SEND and RETURN. 
+Now let's dive in how to use _SPAT Revolution_ with Ableton Live and how our templates work.
 
 You can download the following session templates:
 
@@ -26,9 +26,9 @@ The console is organized in this way:
 
 - The eight first tracks are the one where you will put audio event or even live input.
 
-- Then is a folder containing eight other tracks. Each of our audio input tracks are routed to one of these tracks. These tracks are hosting SPAT SEND plug-in. They are your SPAT sources/objects and the bridge between Live and SPAT Revolution.
+- Then is a folder containing eight other tracks. Each of our audio input tracks are routed to one of these tracks. These tracks are hosting SPAT SEND plug-in. They are your SPAT sources/objects and the bridge between Live and _SPAT Revolution_.
 
-- A "REC" folder contains another bunch of tracks. They are for recording your audio streams returning from SPAT Revolution. 
+- A "REC" folder contains another bunch of tracks. They are for recording your audio streams returning from _SPAT Revolution_. 
 
 - Lastly are a couple of "return tracks", as named after Ableton Live nomenclature, which host your SPAT RETURN plug-ins.
 
@@ -46,7 +46,7 @@ Its strategy seems to deactivate every processing unit, like tracks or plug-ins,
 If a track is actively monitoring input, no optimization is applied.
 
 If it may be very efficient from the point of view of CPU consumption, it is a real problem with our SPAT plug-ins. 
-This means that if a track hosting a SPAT plug-in does not play audio for a certain amount of time, the plug-in will be deactivated behind the hood and SPAT Revolution will lose the sync.
+This means that if a track hosting a SPAT plug-in does not play audio for a certain amount of time, the plug-in will be deactivated behind the hood and _SPAT Revolution_ will lose the sync.
 
 **To each problem, a solution**
 
@@ -76,7 +76,7 @@ Now, simply drop the *SyncBox.amxd* device in this folder. It can be downloaded 
 
 ## Ableton Live routing
 
-The golden rule when working with SPAT Revolution plug-ins is to make sure each track containing a SPAT SEND plug-in is routed to **every and each** track containing a SPAT RETURN plug-in. 
+The golden rule when working with _SPAT Revolution_ plug-ins is to make sure each track containing a SPAT SEND plug-in is routed to **every and each** track containing a SPAT RETURN plug-in. 
 This way, we are absolutely sure every SPAT SEND plug-in are processed before each SPAT RETURN plug-in.
 
 For our purpose, Ableton Live has a very interesting type of track called a "Return track". 

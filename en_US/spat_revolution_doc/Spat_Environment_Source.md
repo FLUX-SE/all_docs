@@ -60,7 +60,7 @@ A multichannel cluster can be conveniently positioned and manipulated _as a sing
 The dot at the center of each cluster, where each virtual “channel emitter” is attached, is called the “BaryCentric” focus — In other words, a _relative_ listener position that the virtual source configuration remains focused on.
 
 
-These complex spatial positioning algorithms are computed and controlled in real time using SPAT Revolution’s advanced _Barycentric_ and relative direction source parameters.
+These complex spatial positioning algorithms are computed and controlled in real time using _SPAT Revolution_’s advanced _Barycentric_ and relative direction source parameters.
 A group that may contain many elements can be transformed, scaled, moved and manipulated in complex ways, through only one set of controls.
 See dedicated section for a breakdown of the [**Source Parameters**](Spat_Environment_Source_Parameters.md).
 

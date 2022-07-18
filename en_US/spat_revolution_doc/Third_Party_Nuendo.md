@@ -1,11 +1,11 @@
 # Steinberg Nuendo
 
-A tutorial on **[How to set up SPAT Revolution with Nuendo](https://youtu.be/DIE2RiB_i8I)** is available here for a quick dive into this integration.  You can as well have a look at **SYNC: Steinberg Yamaha Network Channel on YouTube for [Nuendo 11 | Spat Revolution integration](https://www.youtube.com/watch?v=ZW6VveWqYuA)**.
+A tutorial on **[How to set up _SPAT Revolution_ with Nuendo](https://youtu.be/DIE2RiB_i8I)** is available here for a quick dive into this integration.  You can as well have a look at **SYNC: Steinberg Yamaha Network Channel on YouTube for [Nuendo 11 | _SPAT Revolution_ integration](https://www.youtube.com/watch?v=ZW6VveWqYuA)**.
 
 
 ## Templates
 
-The following session templates are available for use with Nuendo. They are start sessions and can be used as examples to see how to integrate SPAT Revolution using the SPAT plug-in suite SEND, RETURN and ROOM.
+The following session templates are available for use with Nuendo. They are start sessions and can be used as examples to see how to integrate _SPAT Revolution_ using the SPAT plug-in suite SEND, RETURN and ROOM.
 
 
 You can download the following session templates:
@@ -27,11 +27,11 @@ For troubleshooting, please review the **[Appendix B - Troubleshooting](Appendix
 
 ## Nuendo and External OSC rendering
 
-Starting with Nuendo V11, it is now possible to deploy object-oriented sessions using open sound control (OSC). This brings the possibility to send/receive metadata from/to the Nuendo object VST MultiPanner. This functionality allows the support of SPAT Revolution as an external rendering engine using OSC thanks to the [ADM-OSC](Ecosystem_&_integration_ADM_OSC.md) initiative. More information and specifications on the **ADM-OSC** initiative can be found on the dedicated GitHub repository, [immersive-audio-live/ADM-OSC](https://github.com/immersive-audio-live/ADM-OSC).
+Starting with Nuendo V11, it is now possible to deploy object-oriented sessions using open sound control (OSC). This brings the possibility to send/receive metadata from/to the Nuendo object VST MultiPanner. This functionality allows the support of _SPAT Revolution_ as an external rendering engine using OSC thanks to the [ADM-OSC](Ecosystem_&_integration_ADM_OSC.md) initiative. More information and specifications on the **ADM-OSC** initiative can be found on the dedicated GitHub repository, [immersive-audio-live/ADM-OSC](https://github.com/immersive-audio-live/ADM-OSC).
 
-Once configured, you can playback or record object-oriented sessions (audio and metadata) for live production and immersive creations workflows while using SPAT Revolution mixing and rendering capabilities.
+Once configured, you can playback or record object-oriented sessions (audio and metadata) for live production and immersive creations workflows while using _SPAT Revolution_ mixing and rendering capabilities.
 
-As Nuendo can import and export ADM files, this allows for an ADM master, exported from another environment, to be imported into a Nuendo session and mapped to SPAT Revolution. This integration brings the ability to render the object-based mix for various stream types (Ambisonic, Binaural, Channel-based), from standard to custom speaker arrangements and using multiple spatialization options and techniques.
+As Nuendo can import and export ADM files, this allows for an ADM master, exported from another environment, to be imported into a Nuendo session and mapped to _SPAT Revolution_. This integration brings the ability to render the object-based mix for various stream types (Ambisonic, Binaural, Channel-based), from standard to custom speaker arrangements and using multiple spatialization options and techniques.
 
 The functioning is based around the declared ADM object approach in Nuendo. At the base, as soon as a track is being assigned to a multichannel output bus, the VST MultiPanner becomes available and can work in bed or object mode. Here, we are interested in the object mode that will give us the possibility to stream or listen to the object position.
 
@@ -45,7 +45,7 @@ Complete information on dealing with objects in Nuendo available in their docume
 
 
 
-Although controlling SPAT Revolution source objects from Nuendo audio tracks is possible with the SPAT send plugin and the automation of it, the actual integration of the Nuendo VST MultiPanner with SPAT Revolution brings the ability to remain in the mixer environment. With this, users can stay within the typical mixer panner automation and use the same common remote control tools (HUI, MCU, and EUCON compatible controllers can be used, bringing tactile functionality to SPAT Revolution). It can be used with current sessions by simply adding the connection to SPAT Revolution as an external rendering tool, leading to a perceptual factors of objects and an acoustic simulation helping build soundscapes. Various use cases are possible:
+Although controlling _SPAT Revolution_ source objects from Nuendo audio tracks is possible with the SPAT send plugin and the automation of it, the actual integration of the Nuendo VST MultiPanner with _SPAT Revolution_ brings the ability to remain in the mixer environment. With this, users can stay within the typical mixer panner automation and use the same common remote control tools (HUI, MCU, and EUCON compatible controllers can be used, bringing tactile functionality to _SPAT Revolution_). It can be used with current sessions by simply adding the connection to SPAT Revolution as an external rendering tool, leading to a perceptual factors of objects and an acoustic simulation helping build soundscapes. Various use cases are possible:
 
 * Import an ADM file from another environment, render with SPAT Revolution in channel-based (various panning and speaker arrangement formats) or scene-based (binaural, ambisonic up to 7th order).
 * Deliver alternate formats from the same session you've rendered your Dolby Atmos deliverables.

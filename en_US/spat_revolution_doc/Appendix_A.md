@@ -2,7 +2,7 @@
 
 ## Availability
 
-SPAT Revolution is a stand-alone application for macOS and Windows.
+_SPAT Revolution_ is a stand-alone application for macOS and Windows.
 SPAT Send/Return/Room plugins are available in AU/VST/AAX Native.
 SPAT Send plugin is available in AAX VENUE.
 
@@ -10,7 +10,7 @@ See [plugins specifications](https://www.flux.audio/plugin-specifications/) for 
 
 ## Processing
 
-SPAT Revolution stand-alone software:
+_SPAT Revolution_ stand-alone software:
 - unlimited number of Inputs and Outputs (Ultimate only, hardware and audio interface dependent).
 - 32/64-bits internal floating-point processing.
 - Sampling rates up to 384kHz, block size starting at 16 samples.
@@ -27,7 +27,7 @@ SPAT Revolution stand-alone software:
 
 ### Single Computer (Creative Station with DAW and SPAT Revolution)
 
-Single computer systems can provide an excellent option for portability but come with the importance of having a performing computer. As SPAT Revolution comes with a 3D graphic engine where audio objects are manipulated, GPU resources are required.
+Single computer systems can provide an excellent option for portability but come with the importance of having a performing computer. As _SPAT Revolution_ comes with a 3D graphic engine where audio objects are manipulated, GPU resources are required.
 
 **Apple based recommended hardware:**
 
@@ -40,13 +40,13 @@ Single computer systems can provide an excellent option for portability but come
   - iMac Pro, 3.2GHz 8‑core Intel Xeon W Turbo Boost, Radeon Pro Vega 56 8 GB, 32GB RAM
   - MacBook Pro with dedicated GPU video graphic card
 
-> *SPAT Revolution is fully supported to Silicon / ARM Apple computers via the Rosetta binary translator.
+> *_SPAT Revolution_ is fully supported to Silicon / ARM Apple computers via the Rosetta binary translator.
 
 
 **Generic hardware specification:**
 
 - Processing: Intel Core i9-9900K, i7-9700K or equivalent. Intel 8th generation or greater processor. (Minimum 6 cores - 8 preferred), 8 MB Cache.
-- System Memory: 16 minimum GB DDR4 (32 preferred when integrating with DAW and SPAT Revolution on the same machine with local audio path - LAP)
+- System Memory: 16 minimum GB DDR4 (32 preferred when integrating with DAW and _SPAT Revolution_ on the same machine with local audio path - LAP)
 - Chipset: High-quality / Professional main-board
 - Graphic: GeForce GTX 1060 - 4GB GDDR5 Graphic Memory or greater. _Graphic card fully supporting OpenGL 2.0 is required. USB displays are not supported_.
 - Audio Interfaces:
@@ -88,7 +88,7 @@ To use the software, an iLok.com user account is required (the iLok USB Smart Ke
 
 ## Certified configurations (SPAT Revolution v.22.02.50151)
 
-These configurations are tested and validated on a computer dedicated to SPAT Revolution. All other applications have been closed, and computer has been optimized as indicated below.
+These configurations are tested and validated on a computer dedicated to _SPAT Revolution_. All other applications have been closed, and computer has been optimized as indicated below.
 
 Computer optimization:
 - Disable Wi-Fi and Bluetooth if not absolutely required.

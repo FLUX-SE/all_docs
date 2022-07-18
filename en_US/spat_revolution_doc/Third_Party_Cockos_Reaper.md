@@ -14,9 +14,9 @@ If you are using the Local Audio Path, it is also recommended reviewing the **[A
 ## Templates 
 
 New recent templates are available for use with Reaper. 
-They are start sessions and can be used as examples to see how to integrate SPAT Revolution using the SPAT plugin suite SEND, RETURN and ROOM.
+They are start sessions and can be used as examples to see how to integrate _SPAT Revolution_ using the SPAT plugin suite SEND, RETURN and ROOM.
 
-A tutorial on **[How to set up SPAT Revolution with Reaper](https://youtu.be/XRhO-FJm2KU)** is available here for a quick dive into this integration.
+A tutorial on **[How to set up _SPAT Revolution_ with Reaper](https://youtu.be/XRhO-FJm2KU)** is available here for a quick dive into this integration.
 
 You can download the following session templates:
 
@@ -34,16 +34,16 @@ You can download the following session templates:
 ## ReaVolution
 
 Release in 20.12 is ReaVolution. 
-ReaVolution is an attempt to provide a customization to Reaper standard configuration in order to simplify its integration to SPAT Revolution and provide a complete simple immersive audio creation package.
+ReaVolution is an attempt to provide a customization to Reaper standard configuration in order to simplify its integration to _SPAT Revolution_ and provide a complete simple immersive audio creation package.
 
-The ReaVolution package includes macros (scripts), customized toolbars, system behaviour preference enhancements and makes the integration of SPAT Revolution to Reaper a charm.
+The ReaVolution package includes macros (scripts), customized toolbars, system behaviour preference enhancements and makes the integration of _SPAT Revolution_ to Reaper a charm.
 
 Please follow this link for more information on [ReaVolution](Third_Party_ReaVolution.md).
 
 
 ## Setting Up Sync
 
-As described in section **[SPAT PI : Local audio path](Ecosystem_&_integration_DAW_Automation_Local_Audio_Path.md)**, when you are using the Local Audio path, the buffer size and sample rate must be matched in both SPAT Revolution and Reaper. 
+As described in section **[SPAT PI : Local audio path](Ecosystem_&_integration_DAW_Automation_Local_Audio_Path.md)**, when you are using the Local Audio path, the buffer size and sample rate must be matched in both _SPAT Revolution_ and Reaper. 
 In SPAT, you set this in the preferences and in Reaper in the Audio Device preferences.
 
 ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/ReaperPreferencesDevice.jpg)
@@ -88,7 +88,7 @@ Press on the little COG wheel icon at the top corner of the SEND plug-in to open
 The SPAT _IO Config_ should have inherited the Channel count of the Track, which you have specified in the _TrackIO_ of the Reaper Track.
 
 In the main page, enable **Local Audio Path**. 
-If all is well, you will see the SEND appear as an input at the top of the setup environment in your SPAT Revolution application. 
+If all is well, you will see the SEND appear as an input at the top of the setup environment in your _SPAT Revolution_ application. 
 If you do not see it, you can try clicking on _Get send/return_ on the top actions or in *Setup/Pipes/Get send return* to force SPAT to look for virtual IO.
 
 

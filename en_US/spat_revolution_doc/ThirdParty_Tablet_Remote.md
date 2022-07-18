@@ -9,7 +9,7 @@ They can be used as-is, but can be modified in the editor software (Lemur editor
 
  [**Spat_Snapshot - 2020 SR Beta - _SPAT Revolution_**](https://public.3.basecamp.com/p/L8xYp9jzJ1DRh76fcBcuH4fG)  is a dedicated Snapshot control page.
  
-[**Spat_Multitouch - 2020 SR Beta - SPAT Revolution**](https://public.3.basecamp.com/p/XftQefeGH9AsqLmum1N12boA) is a Multitouch remote for up to 8 sources!
+[**Spat_Multitouch - 2020 SR Beta - _SPAT Revolution_**](https://public.3.basecamp.com/p/XftQefeGH9AsqLmum1N12boA) is a Multitouch remote for up to 8 sources!
 
 
 You will need LEMUR iOS or Android software to be able to use these templates. 
@@ -38,7 +38,7 @@ You can save it in your device, clicking on the wheel on the top right.
 
 ## Setting up OSC targets
 
-The simple step to use it with _SPAT Revolution_ is to configure (one time) your OSC Targets, in this case, SPAT Revolution. 
+The simple step to use it with _SPAT Revolution_ is to configure (one time) your OSC Targets, in this case, _SPAT Revolution_. 
 To configure the OSC address and port in Lemur, click on the wheel on the right top, then on “More Settings”.
 
 ![image(2)](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/LemurOSCSettings.png)
@@ -101,11 +101,11 @@ The port and host should match that of the Lemur app.
 
 ![image(5)](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/LemurRemote.png)
 
-This patch allows 8 different Remotes to control SPAT Revolution’s sources. 
+This patch allows 8 different Remotes to control _SPAT Revolution_’s sources. 
 You have access to the principal parameters, for each source. 
 To choose the source you want to control, touch on the button next to ‘Sources’. 
 A panel will appear with a certain number of sources and a -1 button. 
-This last  control (-1) is the actual selection (or multi-selection) on SPAT Revolution.
+This last  control (-1) is the actual selection (or multi-selection) on _SPAT Revolution_.
 
 ![image(6)](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/LemurRemoteExplanation.png)
 
