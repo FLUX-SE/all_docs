@@ -2,7 +2,7 @@
 
 ![](include/SpatRevolution_UserGuide_-358.jpg)
 
-Currently in Spat Revolution version 1.1, it is necessary to create a mono mix for a
+Currently in _SPAT Revolution_ version 1.1, it is necessary to create a mono mix for a
 LFE channel using a workaround method. To get a mono LFE mix that will be
 summed into the n.1 channel in a surround configuration, create a secondary mix
 room. It should not have reverb, and is a special channel based configuration

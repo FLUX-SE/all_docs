@@ -2,7 +2,7 @@
 
 ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/InputModuleRow.png)
 
-SPAT Revolution itself does not play audio files. The input blocs are here to access to audio streams and process them in the SPAT Revolution spatialization engine. Input blocs are represented at the top row of the signal graph.
+_SPAT Revolution_ itself does not play audio files. The input blocs are here to access to audio streams and process them in the _SPAT Revolution_ spatialization engine. Input blocs are represented at the top row of the signal graph.
 
 There are two types of input blocs:
 + Hardware blocs, which look at signal coming from an actual audio interface,
@@ -18,7 +18,7 @@ Allows to edit the name of an input. It is possible to edit several names at onc
 
 ## Inputs configuration
 
-+ Input type : allow to select if the source of the signal is coming from the selected input or from the signal generator included in SPAT Revolution. The nature of the generated signal can be changed in the [Preference page](Application_Preferences.md).
++ Input type : allow to select if the source of the signal is coming from the selected input or from the signal generator included in _SPAT Revolution_. The nature of the generated signal can be changed in the [Preference page](Application_Preferences.md).
 + Input stream : allow to select the stream type of the bloc.
 
 > Input stream types are : channel-based, HOA, A-Format, B-Format, UHJ, MS, Binaural and Transaural.

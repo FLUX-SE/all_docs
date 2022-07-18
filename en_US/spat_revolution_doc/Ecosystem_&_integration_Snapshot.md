@@ -1,7 +1,7 @@
 # Snapshot
 
 Snapshots are an important part of a live show.
-It can be used to capture an audio scene into SPAT Revolution.
+It can be used to capture an audio scene into _SPAT Revolution_.
 Sources, rooms and master properties will be stored in a snapshot.
 It allows a complete transformation of the soundscape, with interpolation.
 

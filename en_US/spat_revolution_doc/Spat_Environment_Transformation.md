@@ -15,7 +15,7 @@ Sources’ transformations also include an integration time which allows to crea
 
 To modify a speaker arrangement with a predefined action, you can use the "transform" menu. To access it, click on the "Transform" button. A pop-up window will appear.
 
-![width=800, atl=Spat Revolution Transform Speaker](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/SpeakerEditorTransform.png)
+![width=800, atl=_SPAT Revolution_ Transform Speaker](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/SpeakerEditorTransform.png)
 
 **Normalize Distance**: The further speaker will be place at the given distance. All the other speakers will be placed at the relative distance from it.
 

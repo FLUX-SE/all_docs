@@ -10,7 +10,7 @@ It does so with [OSC](https://opensoundcontrol.stanford.edu/index.html) a commun
 Immersive audio is gaining ground in different industries, from music streaming to gaming, from live sound to broadcast.
 [ADM](https://adm.ebu.io/) or _Audio Definition Model_, is becoming a popular standard metadata model in some of these industries, with serial ADM used in broadcast or ADM xml files used in the studio.
 
-A first implementation of ADM-OSC is now included with the latest release of SPAT Revolution.
+A first implementation of ADM-OSC is now included with the latest release of _SPAT Revolution_.
 Other industry peers have implemented early versions of ADM-OSC such as L-Acoustics (L-ISA), Merging Technologies (Ovation) and Yamaha Steinberg Media (Nuendo). It is supported by default on OSC input and as an option on OSC output.
 
 More information abd specifications on the **ADM-OSC** initiative can be found on the GitHub repository [immersive-audio-live/ADM-OSC](https://github.com/immersive-audio-live/ADM-OSC)
@@ -18,9 +18,9 @@ More information abd specifications on the **ADM-OSC** initiative can be found o
 
 ## ADM-OSC in SPAT Revolution
 
-![SPAT Revolution ADM OSC](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Education/ADMOSC.png )
+![_SPAT Revolution_ ADM OSC](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Education/ADMOSC.png )
 
-SPAT Revolution supports **ADM-OSC** in input as an alternate grammar, and on output as an option. The specification calls for normalized (linear) data value to provide interoperability and tend to align with the ADM protocol. Typically, object-based mixing renderers will handle the scaling based on the system configuration.
+_SPAT Revolution_ supports **ADM-OSC** in input as an alternate grammar, and on output as an option. The specification calls for normalized (linear) data value to provide interoperability and tend to align with the ADM protocol. Typically, object-based mixing renderers will handle the scaling based on the system configuration.
 
 Specifications calls for:
 
@@ -55,7 +55,7 @@ All output options are already set with the preset.
 
 ## Third party example
 
-Recently, L-Acoustics released their new L-ISA controller that can now output ADM-OSC as an alternate method (hardware required) and is functional to be received by SPAT Revolution, for example. OSC messages can be sent using the ADM-OSC format and be interpreted identically by any ADM-OSC compatible device.
+Recently, L-Acoustics released their new L-ISA controller that can now output ADM-OSC as an alternate method (hardware required) and is functional to be received by _SPAT Revolution_, for example. OSC messages can be sent using the ADM-OSC format and be interpreted identically by any ADM-OSC compatible device.
 
 ![L-ISA](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/LisaOSCConfiguration.png)
 

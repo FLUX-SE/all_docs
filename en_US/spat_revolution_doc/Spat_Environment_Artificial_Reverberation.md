@@ -9,7 +9,7 @@ Open the _Artificial Reverberation_ graphical editor by clicking on the (<code>*
 
 ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Room/ReverbPanel.png)
 
-Internally, the SPAT Revolution reverb engine models many technical acoustic parameters, but the user interface has been simplified a great deal, to make artificial reverb design more straightforward and functional.
+Internally, the _SPAT Revolution_ reverb engine models many technical acoustic parameters, but the user interface has been simplified a great deal, to make artificial reverb design more straightforward and functional.
 
 
 > **Some Spat Reverb parameters control how the acoustics are _perceived_**

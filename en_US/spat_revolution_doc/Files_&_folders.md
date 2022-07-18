@@ -8,9 +8,9 @@ SPAT uses 3 different file types:
 * .ioconfig
 * .reverbPresets
 
-*.json* are the main files of SPAT Revolution: sessions are saved in this file type.
+*.json* are the main files of  _SPAT Revolution_: sessions are saved in this file type.
 
-To save a session, click on the "Save session" button on the Setup page, or use the shortcut <code>Ctrl + S</code> on Windows, or <code>Cmd + S</code> on Mac, on any page of SPAT Revolution.
+To save a session, click on the "Save session" button on the Setup page, or use the shortcut <code>Ctrl + S</code> on Windows, or <code>Cmd + S</code> on Mac, on any page of  _SPAT Revolution_.
 
 User created custom speaker arrangement(s) can be exported or imported as *.ioconfig* files in the edit speaker config window.
 
@@ -26,7 +26,7 @@ Reverb preset can be stored and exported as *.reverbPresets.* They can later be 
 
 The FLUX SE Folder contains a subfolder named *Config*  which has 3 files:  
 
-* .ioconfig contains your added speaker arrangements to SPAT Revolution
+* .ioconfig contains your added speaker arrangements to  _SPAT Revolution_
 * .presets contains your reverb presets
 * .theme contains your theme (Dark or Light mode)
 
@@ -42,7 +42,7 @@ A subfolder named *Shell* containing:
 
 *  history.txt - a history of the terminal commands
 
-The FLUX SE - IRCAM Folder contains preferences and presets of the three SPAT Revolution plug-ins.
+The FLUX SE - IRCAM Folder contains preferences and presets of the three _SPAT Revolution_ plug-ins.
 
 The Ircam Folder contains a subfolder called *sofa* which contains the sofa.catalog.xml file. The HRTF catalog.
 
@@ -54,4 +54,4 @@ The Ircam Folder contains a subfolder called *sofa* which contains the sofa.cata
 
 <code>Users/.../Document/FLUX SE/Spat Revolution</code>
 
-> *An example of a script file is the [customSpeakerArrangement](https://public.3.basecamp.com/p/rQStK3igPkaXisYS4Gs5sJ2g/upload/download/customSpeakerArrangement.py?disposition=attachment) that can be used as a method to add arrangements to SPAT Revolution.*
+> *An example of a script file is the [customSpeakerArrangement](https://public.3.basecamp.com/p/rQStK3igPkaXisYS4Gs5sJ2g/upload/download/customSpeakerArrangement.py?disposition=attachment) that can be used as a method to add arrangements to  _SPAT Revolution_.*

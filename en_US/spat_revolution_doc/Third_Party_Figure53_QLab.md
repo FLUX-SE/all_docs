@@ -1,35 +1,35 @@
 # Figure53 QLab
 
 Rock solid and fully featured show control program, based under a 'cue' based paradigm, QLab is great for manually sequencing multiple media and show type events, running video, sound, lights and virtually any type of control scripts through its easy-to-use interface. 
-Some of the more advanced control features in QLab make the most of its native OSC network integration - which is why it becomes a great integration partner to Spat Revolution.
+Some of the more advanced control features in QLab make the most of its native OSC network integration - which is why it becomes a great integration partner to _SPAT Revolution_.
 
 ## QLab Templates
 
-New updated templates for QLab are available and provide cue examples that can be used with Spat Revolution.  All the templates are available in EURO and US Version, using comma or period for denoting the decimal.
+New updated templates for QLab are available and provide cue examples that can be used with _SPAT Revolution_.  All the templates are available in EURO and US Version, using comma or period for denoting the decimal.
 
-**Qlab SPAT Revolution integration.qlab4**
+**Qlab _SPAT Revolution_ integration.qlab4**
 
-With the release of the snapshot feature, this template shows how you can manage SPAT Revolution and QLab integration on the same machine, using SPAT Revolution Send plug-ins. Both QLab and SPAT Revolution session are included, with 16 Mono and 8 Stereo SPAT Send on cue outputs.
-This template iss SPAT Revolution Essential compliante, for binaural and Channel-based setups.
+With the release of the snapshot feature, this template shows how you can manage _SPAT Revolution_ and QLab integration on the same machine, using _SPAT Revolution_ Send plug-ins. Both QLab and _SPAT Revolution_ session are included, with 16 Mono and 8 Stereo SPAT Send on cue outputs.
+This template iss _SPAT Revolution_ Essential compliante, for binaural and Channel-based setups.
 
-**[Qlab SPAT Revolution integration EURO.qlab4](https://public.3.basecamp.com/p/vhf67dYdBTHhwbtVJV4y227i)**
-**[Qlab SPAT Revolution integration US.qlab4](https://public.3.basecamp.com/p/oi3GoHpToVmEqijVV7F4QhJq)**
+**[Qlab _SPAT Revolution_ integration EURO.qlab4](https://public.3.basecamp.com/p/vhf67dYdBTHhwbtVJV4y227i)**
+**[Qlab _SPAT Revolution_ integration US.qlab4](https://public.3.basecamp.com/p/oi3GoHpToVmEqijVV7F4QhJq)**
 
 ---
 
-**Qlab SPAT Revolution snapshot carts.qlab4**
+**Qlab _SPAT Revolution_ snapshot carts.qlab4**
 
-This template shows how you can manage Spat Revolution snapshots within QLab and have some carts for quick actions. It demonstrates how interpolation time value can be used in the snapshot recall messages (last float, ex: 2.5).
+This template shows how you can manage _SPAT Revolution_ snapshots within QLab and have some carts for quick actions. It demonstrates how interpolation time value can be used in the snapshot recall messages (last float, ex: 2.5).
 
-**[Qlab SPAT Revolution snapshot carts EURO.qlab4](https://public.3.basecamp.com/p/gC6XhzQjmEqpgFDRx7AXjuDL)**
-**[Qlab SPAT Revolution snapshot carts US.qlab4](https://public.3.basecamp.com/p/F4qR1QAXYVY5iA2Jt67si5ow)**
+**[Qlab _SPAT Revolution_ snapshot carts EURO.qlab4](https://public.3.basecamp.com/p/gC6XhzQjmEqpgFDRx7AXjuDL)**
+**[Qlab _SPAT Revolution_ snapshot carts US.qlab4](https://public.3.basecamp.com/p/F4qR1QAXYVY5iA2Jt67si5ow)**
 
 
 ![Spat Snapshot message with interpolletation time](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/QLabSnapshotsInterpollation.png)
 
 ---
 
-**Qlab SPAT Revolution Examples**
+**Qlab _SPAT Revolution_ Examples**
 
 
 
@@ -37,10 +37,10 @@ This template is our updated template and includes many cue examples using vario
 Beyond direct cue send actions, it brings 1D and 2D fade (Parameter ramp, 2D trajectories and more). 
 As of QLab4 there is a time interpolated 2D fade system for creating spatial XY gestures or similar multi parameter control ideas. 
 X/Interpolation time value can always be used directly in your messages as well as shown in some template examples. 
-With the latest release of Spat Revolution, the ability to send messages to the currently selected source (s) with index -1 is shown in this template as well.
+With the latest release of _SPAT Revolution_, the ability to send messages to the currently selected source (s) with index -1 is shown in this template as well.
 
-**[Qlab SPAT Revolution examples EURO.qlab4](https://public.3.basecamp.com/p/nB4YRiTASZ9DrT8nLH11XzqY)**
-**[Qlab SPAT Revolution examples US.qlab4](https://public.3.basecamp.com/p/N9foEbx4DhktH5K53yAhugdM)**
+**[Qlab _SPAT Revolution_ examples EURO.qlab4](https://public.3.basecamp.com/p/nB4YRiTASZ9DrT8nLH11XzqY)**
+**[Qlab _SPAT Revolution_ examples US.qlab4](https://public.3.basecamp.com/p/N9foEbx4DhktH5K53yAhugdM)**
 
 ![Spat Message with interpolletation time](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/QLabMessageXTime.png)
 
@@ -52,9 +52,9 @@ With the latest release of Spat Revolution, the ability to send messages to the 
 
 ## QLab messages via network cues
 
-In a realtime situation, where performers or sounds are being spatialized live by Spat Revolution, and cues need to be sent in the right running order with the rest of the show, Network OSC type cues can be sent from QLab to Spat Revolution to control all aspects of the Spat rendering software. 
+In a realtime situation, where performers or sounds are being spatialized live by _SPAT Revolution_, and cues need to be sent in the right running order with the rest of the show, Network OSC type cues can be sent from QLab to _SPAT Revolution_ to control all aspects of the Spat rendering software. 
 To do this interaction, it is necessary to setup the OSC communication. It is relatively straightforward. 
-_In the Spat Revolution preferences make sure the OSC Enable is engaged._
+_In the _SPAT Revolution_ preferences make sure the OSC Enable is engaged._
 
 ![Setting the OSC Connection](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Preference/OSCMain.png)
 
@@ -63,7 +63,7 @@ _In the Spat Revolution preferences make sure the OSC Enable is engaged._
 **Setting the OSC Connection**
 ![Setting the OSC Connection](https://raw.githubusercontent.com/FLUX-SE/doc_images/main/SpatR/Preference/OSCConnectionCustomLocalHost.png)
 
-Go to the OSC connection section of Spat Revolution and:
+Go to the OSC connection section of _SPAT Revolution_ and:
 
 * Change the pull down menu from *None* to the *Input | Custom* preset (meaning you are setting an OSC Input of Spat).
 

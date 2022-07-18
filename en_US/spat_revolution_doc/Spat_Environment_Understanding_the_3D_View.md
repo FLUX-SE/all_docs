@@ -3,9 +3,9 @@
 ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Room/3DView.png)
 
 
-The whole mixing experience of SPAT Revolution takes place in the 3D view. It is really simple to create a mix this way: simply grab a source and move it where you want it to be. But there are a few subtleties that are important to get right.
+The whole mixing experience of _SPAT Revolution_ takes place in the 3D view. It is really simple to create a mix this way: simply grab a source and move it where you want it to be. But there are a few subtleties that are important to get right.
 
-The first important thing to understand is that there are two main zones in the SPAT Revolution 3D view:
+The first important thing to understand is that there are two main zones in the _SPAT Revolution_ 3D view:
 + One inside which you should put sound sources in: the efficiency zone.
 + One inside which you shouldn’t: the protection zone.
 
@@ -29,7 +29,7 @@ When a source is inside the protection zone on a 3D capable stream type/speaker 
 
 ## The presence of a source
 
-A sound source in SPAT Revolution has a presence factor. It defines its overall level and brightness inside the virtual acoustic space. This presence factor can be changed by many parameters:
+A sound source in _SPAT Revolution_ has a presence factor. It defines its overall level and brightness inside the virtual acoustic space. This presence factor can be changed by many parameters:
 
 - The distance between the source and the **protection zone**
 - The presence parameter
@@ -69,7 +69,7 @@ Inside a non-channel-based room, the efficiency zone is a sphere, because there 
 
 ### Behaviour of sources outside the efficiency zone
 
-When a source is out of the efficiency zone, SPAT Revolution offers three behaviours:
+When a source is out of the efficiency zone, _SPAT Revolution_ offers three behaviours:
 1. The source is clamped to the efficiency zone (default for new session)
 2. The source is muted
 3. It does nothing (default for pre 22.02 release sessions)
@@ -114,12 +114,12 @@ When dealing with a 2D speaker array, there is no point at placing a source abov
 
 + **3D Speaker Array**
 
-Most 3D speaker arrays have at least two speaker layers. Such layers are defined by three non-align speakers sharing the same height (z). Elevation clamping will handle sources as they exceed the extreme layers. This clamping behaviour, like with 2D speaker array, is shown with phantom sources that indicate the position used inside the DSP stage of SPAT Revolution.
+Most 3D speaker arrays have at least two speaker layers. Such layers are defined by three non-align speakers sharing the same height (z). Elevation clamping will handle sources as they exceed the extreme layers. This clamping behaviour, like with 2D speaker array, is shown with phantom sources that indicate the position used inside the DSP stage of _SPAT Revolution_.
 
 ![]( https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR//Room/3DViewHeightClamping.png)
 
 ## Limit cases
 
 + Elevation clamping does not occur with distance-based pan law when using 3D speaker array, except for the Z=0 plan. This prevents some jumps and aberrations in sound. <!-- TODO: Clarify, DBAP can't be 3D, you mean for KNN an WFS? -->
-+ When using a 2D non-surrounding speaker array, efficiency and elevation clamping are tied together. If efficiency clamping is activated, SPAT Revolution automatically switches on the elevation clamping. On the contrary, if elevation clamping is turned off, then, so is the efficiency clamping.
++ When using a 2D non-surrounding speaker array, efficiency and elevation clamping are tied together. If efficiency clamping is activated, _SPAT Revolution_ automatically switches on the elevation clamping. On the contrary, if elevation clamping is turned off, then, so is the efficiency clamping.
 + WFS is the only case where it can make sense to put virtual sources in front of the speakers, to take advantages of the focus zone. This zone and the associated behaviour is detailed in the  [WFS Section](Spatialisation_Technology_WFS.md) of this user guide.

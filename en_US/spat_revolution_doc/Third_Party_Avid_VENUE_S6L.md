@@ -1,7 +1,7 @@
 # Avid VENUE S6L
 
 
-Currently, Spat Send is the only available plug-in from FLUX:: Immersive for the Spat Revolution integration to **Avid VENUE S6L** platform. 
+Currently, Spat Send is the only available plug-in from FLUX:: Immersive for the _SPAT Revolution_ integration to **Avid VENUE S6L** platform. 
 The mono or stereo plug-in instances provide the integration of the Spat source/object parameters into the channel strip (insertion on the channel for source parameter control, no audio processing). 
 This channel strip can be a pure input channel or an actual bus (aux, group) for working with stem objects.
 
@@ -19,11 +19,11 @@ New with version 20.12:
 * Communication improvements and optimization.
 
 
-The OSC (Open Sound Control) part is the key aspect to this integration as when properly configured, the console will be sending OSC commands to SPAT Revolution software engine (OSC Out) and receiving OSC commands into the S6L console (OSC In). 
+The OSC (Open Sound Control) part is the key aspect to this integration as when properly configured, the console will be sending OSC commands to _SPAT Revolution_ software engine (OSC Out) and receiving OSC commands into the S6L console (OSC In). 
 Thus, for a bidirectional configuration. 
 This is what the SPAT Send plug-in does on the console. 
-Optionally is the ability to enable a second OSC output from the console to send to a backup SPAT Revolution computer engine (unidirectional). 
-The bidirectional aspect will mean that creating a sound scene in SPAT revolution interface (or from third party interfaces) will automatically push the information to the plug-in instances on the console. 
+Optionally is the ability to enable a second OSC output from the console to send to a backup _SPAT Revolution_ computer engine (unidirectional). 
+The bidirectional aspect will mean that creating a sound scene in _SPAT Revolution_ interface (or from third party interfaces) will automatically push the information to the plug-in instances on the console. 
 Furthermore, the pushed data can be captured in a console snapshot. 
 Automation prepared in pre-production (third party like DAW or controllers) can be captured by the console PI snapshots.
  
@@ -44,18 +44,18 @@ This makes it as well a cross platform solution Windows or Mac.
 
 
 
-![Dual SPAT Revolution integration to S6L via MADI](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/S6LDualSpatRevolutionIntegrationS6LMadi.png) 
-**Dual SPAT Revolution integration to S6L via MADI**
+![Dual _SPAT Revolution_ integration to S6L via MADI](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/S6LDualSpatRevolutionIntegrationS6LMadi.png) 
+**Dual _SPAT Revolution_ integration to S6L via MADI**
 
 
-![SPAT Revolution integration to S6L via the AVB port for audio and control](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/S6LIntegrationAVB.png) 
-**SPAT Revolution integration to S6L via the AVB port for audio and control**
+![_SPAT Revolution_ integration to S6L via the AVB port for audio and control](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/S6LIntegrationAVB.png) 
+**_SPAT Revolution_ integration to S6L via the AVB port for audio and control**
 
 
 ## Configuring OSC
 
 Now let’s look at configuring the control (OSC) part of this integration. 
-The OSC settings (SPAT send plug-in and SPAT Revolution) are specific to your console IP address and to the SPAT Revolution preferences.
+The OSC settings (SPAT send plug-in and _SPAT Revolution_) are specific to your console IP address and to the _SPAT Revolution_ preferences.
 
 ![SPAT Send plug-in in the Plug-Ins rack of VENUE](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/S6LPluginRack.png)  
 **SPAT Send plug-in in the Plug-Ins rack of VENUE**
@@ -67,26 +67,26 @@ The OSC settings (SPAT send plug-in and SPAT Revolution) are specific to your co
 
 The PI interface doesn’t have much and is straight forward:
 
-- Track name doesn’t get populated by S6L as you insert it to a channel. That said, If connected to SPAT Revolution, changing the track name to your desired name will rename your source/object name in SPAT Revolution software! Names are part of snapshots as well. The below SPAT / S6L templates have all the start naming set!
+- Track name doesn’t get populated by S6L as you insert it to a channel. That said, If connected to _SPAT Revolution_, changing the track name to your desired name will rename your source/object name in _SPAT Revolution_ software! Names are part of snapshots as well. The below SPAT / S6L templates have all the start naming set!
 
-- Index refers to the object/source number in SPAT Revolution application. This gets automatically generated every time there is a new instance of SPAT sent plug-in in the console plug-in rack. It can be changed by snapshots, but it is unique and no instance can take over a currently used index. As Index number is part of snapshots, be careful not to change them after creating snapshots or while using snapshots.
+- Index refers to the object/source number in _SPAT Revolution_ application. This gets automatically generated every time there is a new instance of SPAT sent plug-in in the console plug-in rack. It can be changed by snapshots, but it is unique and no instance can take over a currently used index. As Index number is part of snapshots, be careful not to change them after creating snapshots or while using snapshots.
 
-- In IP: Pull down menu will allow you to choose the ethernet interface you will be listening to OSC commands in the S6L coming from SPAT Revolution. You will need this address for setting up SPAT preference later. This can be the AVB port 169.254.x.x, or your ECx port network interface of the console depending on the integration route. In the above example, ECx interface with IP 192.168.1.203 is chosen.
+- In IP: Pull down menu will allow you to choose the ethernet interface you will be listening to OSC commands in the S6L coming from _SPAT Revolution_. You will need this address for setting up SPAT preference later. This can be the AVB port 169.254.x.x, or your ECx port network interface of the console depending on the integration route. In the above example, ECx interface with IP 192.168.1.203 is chosen.
 
 
-- In Port#: This port <code>#9101</code> is already set for you and matches the corresponding Port# used by the SPAT Revolution OSC preferences / Avid S6L preset. It can be left to default unless conflicting with other OSC traffic.
+- In Port#: This port <code>#9101</code> is already set for you and matches the corresponding Port# used by the _SPAT Revolution_ OSC preferences / Avid S6L preset. It can be left to default unless conflicting with other OSC traffic.
 
-- Out IP: This IP address is the manual address (above example 192.168.1.201) that your Primary SPAT Revolution computer is configured at. 
+- Out IP: This IP address is the manual address (above example 192.168.1.201) that your Primary _SPAT Revolution_ computer is configured at. 
 
-- Out Port#: This port <code>#9100</code> is already set for you and matches the corresponding Port# used by the SPAT Revolution OSC preferences / Avid S6L preset. It can be left to default unless conflicting with other OSC traffic.
+- Out Port#: This port <code>#9100</code> is already set for you and matches the corresponding Port# used by the _SPAT Revolution_ OSC preferences / Avid S6L preset. It can be left to default unless conflicting with other OSC traffic.
 
-- OSC second output activates OSC messages to a second SPAT computer (such as your backup/ redundant computer engine). Output IP is the destination IP so the IP of the second SPAT computer. Same port# as primary is already set for you and matches the corresponding Port# used by the SPAT Revolution OSC preferences / Avid S6L preset. Note that the backup computer is not bidirectional to S6L and will only receive messages. So SPAT Primary computer is the one that is bi-directional (so updating plug-ins live with movements so you can take a snapshot of it).
+- OSC second output activates OSC messages to a second SPAT computer (such as your backup/ redundant computer engine). Output IP is the destination IP so the IP of the second SPAT computer. Same port# as primary is already set for you and matches the corresponding Port# used by the _SPAT Revolution_ OSC preferences / Avid S6L preset. Note that the backup computer is not bidirectional to S6L and will only receive messages. So SPAT Primary computer is the one that is bi-directional (so updating plug-ins live with movements so you can take a snapshot of it).
 
 > Note that any changes you do to properties to the SPAT Send interface gets done across the board (across all PI instances, except the index which is unique).
 
 ## Setting the preferences of the SPAT Revolution Application
 
-Let’s now setup your preferences in SPAT Revolution preferences page:
+Let’s now setup your preferences in _SPAT Revolution_ preferences page:
 
 - Hit preference in the top right corner. Look for the OSC Main section. First, you want to make sure the checkbox OSC Enable is engaged.
 
@@ -95,7 +95,7 @@ Let’s now setup your preferences in SPAT Revolution preferences page:
 ![SPAT OSC Main preferences](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Preference/OSCMain.png)
 
 
-- In the OSC Connections section, you will see 8 OSC connections slots. Set one connection to Input Avid S6L and one to Output Avid S6L. We will use 2 slots for this. Output will be to go to S6L SPAT Send Plug-in, In will be to listen to S6L in SPAT Revolution.
+- In the OSC Connections section, you will see 8 OSC connections slots. Set one connection to Input Avid S6L and one to Output Avid S6L. We will use 2 slots for this. Output will be to go to S6L SPAT Send Plug-in, In will be to listen to S6L in _SPAT Revolution_.
 		
 **SPAT OSC Connections Matrix**
 
@@ -120,7 +120,7 @@ Let’s now setup your preferences in SPAT Revolution preferences page:
 
 ## Configuring Audio Connections ##
 
-Let’s now look for the  Hardware I/O connection. This is where you will configure the hardware input and output (audio interface) for SPAT Revolution. 
+Let’s now look for the  Hardware I/O connection. This is where you will configure the hardware input and output (audio interface) for _SPAT Revolution_. 
 
 **SPAT Hardware IO (Audio) preferences – AVB example**
 ![SPAT Hardware IO (Audio) preferences – AVB example](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/S6LHardwareIOAVB.png)	
@@ -135,10 +135,10 @@ Let’s now look for the  Hardware I/O connection. This is where you will config
 
 ## Templates
 
-As of SPAT Revolution version 20.12.0, we are proving our users with 3 different start templates that can help them built their session or simply review an example of SPAT Revolution integration. 
+As of _SPAT Revolution_ version 20.12.0, we are proving our users with 3 different start templates that can help them built their session or simply review an example of _SPAT Revolution_ integration. 
 They have been updated on our latest release, built with S6L v6.3 and qualified/tested for S6L V7.
 
->**To note** that show files built with SPAT Send version 48020 or 48049 can't use SPAT Send 20.12.0. Version 48049 is the version to use for these older showfiles. That said, SPAT Revolution 20.12 release works good with these older sessions (nothing prevents a user to update to the latest SPAT Revolution just keeping the old SPAT Send version for show file (snapshot) compatibility.
+>**To note** that show files built with SPAT Send version 48020 or 48049 can't use SPAT Send 20.12.0. Version 48049 is the version to use for these older showfiles. That said, _SPAT Revolution_ 20.12 release works good with these older sessions (nothing prevents a user to update to the latest _SPAT Revolution_ just keeping the old SPAT Send version for show file (snapshot) compatibility.
 
 
 [SPAT_S6L_V7_64MONO_20_12](https://public.3.basecamp.com/p/2WqGPJ4ner3k3No1AtbYB6Gw)
@@ -154,7 +154,7 @@ The S6L file contains 3 snapshots:
 
 [SPAT_S6L_V7_32MONO_16ST GROUPS_20_12](https://public.3.basecamp.com/p/UQU8nhgHxy3FUjVgPndb8baK)
 
-**SPAT_S6L_V7_32MONO_16ST GROUPS_20_12** contains an S6L file with 32 Mono SPAT send sources/objects ready to be inserted on the channels you are using as direct out to SPAT Revolution. 
+**SPAT_S6L_V7_32MONO_16ST GROUPS_20_12** contains an S6L file with 32 Mono SPAT send sources/objects ready to be inserted on the channels you are using as direct out to _SPAT Revolution_. 
 These are name source/object 1-32. 
 The file is all well ready with 16 Stereo groups for your source/object stems (33-48). Two test snapshots are preconfigured to **reset all source positions** and one as a snapshot test recalling all sources in a **horizontal line**. 
 Plug-ins are set with a 2 seconds interpolation time showing how time value is used to smooth out transitions. 

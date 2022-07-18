@@ -17,21 +17,21 @@ The status bar help you easily monitor many critical information about your hard
 ### Input stream
 
 Allows monitoring the good reception of audio through LAP.
-+ When "No connection" is displayed, this means that no SPAT Send plug-in with LAP enabled is seen by SPAT Revolution.
++ When "No connection" is displayed, this means that no SPAT Send plug-in with LAP enabled is seen by  _SPAT Revolution_.
 + When a connection is validated, it should provide a timecode, corresponding to the DAW transport position.
-+ If the sample rate or block size is unmatched between SPAT Revolution and the DAW used, the "all in sync" mention will turn red and count the sync errors.
++ If the sample rate or block size is unmatched between _SPAT Revolution_ and the DAW used, the "all in sync" mention will turn red and count the sync errors.
 
 ### Hardware device
 
-This section helps you monitor your audio hardware and how it interacts with SPAT Revolution.
+This section helps you monitor your audio hardware and how it interacts with  _SPAT Revolution_.
 
 + You can see the name of your input & output device.
-+ The block size and sample rate of SPAT Revolution.
++ The block size and sample rate of  _SPAT Revolution_.
 + The whole latency of the system. This depends on the block size and on the selected audio interfaces. Using different audio interfaces can result in a higher latency.
 
 ### Timecode source
 
-Here, you can choose which timecode SPAT Revolution should look at.
+Here, you can choose which timecode _SPAT Revolution_ should look at.
 
 + By default, it is set to "Absolute". It refers to the clock of your computer, no matter of the connection with an audio interface or with LAP streams.
 + "LAP Send" looks at the clock provided by SPAT Sends plug-ins.
@@ -40,7 +40,7 @@ Here, you can choose which timecode SPAT Revolution should look at.
 
 ### Timecode
 
-Let you monitor the timecode seen by SPAT Revolution. For proper operation of snapshots and automations, it should be always running.
+Let you monitor the timecode seen by  _SPAT Revolution_. For proper operation of snapshots and automations, it should be always running.
 
 ### Clock source
 
@@ -54,4 +54,4 @@ Choose what clock SPAT should follow.
 
 Allows to send feedback to the FLUX:: Immersive support team.
 
-> With Send/Return plug-ins, if sampling rate and block size between DAW and Spat Revolution are different, the status bar will be red. Double-click on this bar to automatically change them into Spat Revolution.
+> With Send/Return plug-ins, if sampling rate and block size between DAW and _SPAT Revolution_ are different, the status bar will be red. Double-click on this bar to automatically change them into _SPAT Revolution_.

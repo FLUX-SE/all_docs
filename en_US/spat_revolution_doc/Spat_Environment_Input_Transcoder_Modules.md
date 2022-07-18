@@ -1,6 +1,6 @@
 # Input Transcoder
 
-SPAT Revolution can handle many formats of multichannel audio throughout the signal flow, as we have been pointing out. As we approach the actual virtualisation of inputs into object-based audio sources in the SPAT _Virtual Rooms_ it may be necessary to change from the original input format to another. You use the Input Transcoder module and its parameters to do this.
+_SPAT Revolution_ can handle many formats of multichannel audio throughout the signal flow, as we have been pointing out. As we approach the actual virtualisation of inputs into object-based audio sources in the SPAT _Virtual Rooms_ it may be necessary to change from the original input format to another. You use the Input Transcoder module and its parameters to do this.
 
 ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Education/InputTranscoding.png)
 

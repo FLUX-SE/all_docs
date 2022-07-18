@@ -37,7 +37,7 @@ Prominence of the reverberation with respect to the source, or in other words, h
 
 ### Running Reverberance
 
-This parameter controls the amount of perceived reverb when feeding a continuous music message, where the overall sound is a tight blend of the dry and wet signals and the reverb part cannot be mentally separated. It is linked to the early reflections decay time of the SPAT Revolution Reverb engine. N
+This parameter controls the amount of perceived reverb when feeding a continuous music message, where the overall sound is a tight blend of the dry and wet signals and the reverb part cannot be mentally separated. It is linked to the early reflections decay time of the _SPAT Revolution_ Reverb engine. N
 
 > This setting is not the same as the ‘reverberance’ in the _Reverb Properties_.
 

@@ -56,7 +56,7 @@ _Ambisonics_ can also be encoded without elevation - this is called 2D horizonta
 
 ## Normalization, sorting and presets
 
-These different components are organised according to different standards, known as sorting. The three most used are available in Spat Revolution:
+These different components are organised according to different standards, known as sorting. The three most used are available in _SPAT Revolution_:
 - ACN: Ambisonic Channel Number, WYZXVTRSUQOMKLNP...
 - SID: Single Index Designation, WXYZUVSTRPQNOLMK...
 - FMH: Furse-Malham Harmonics, WXYZRSTUVKLMNOPQ...
@@ -77,7 +77,7 @@ To help with these different standards, we have created Ambisonics presets to si
 
 ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/InputInspectorAFormat.png)
 
-A-format is a 4-channel audio stream. It is the RAW output of a first-order ambisonic microphone, so it has not been encoded to ambisonic yet. So we need to transcode a A-Format input to an HOA or a channel-based stream. Because each manufacturer has their own strategy to create such microphone, we have almost as many transcoder as A-format microphone builder. SPAT Revolution comes with a comprehensive list of A-Format transcoder, including Sennheiser Ambeo, Soundfield, DPA, Oktava etc.
+A-format is a 4-channel audio stream. It is the RAW output of a first-order ambisonic microphone, so it has not been encoded to ambisonic yet. So we need to transcode a A-Format input to an HOA or a channel-based stream. Because each manufacturer has their own strategy to create such microphone, we have almost as many transcoder as A-format microphone builder. _SPAT Revolution_ comes with a comprehensive list of A-Format transcoder, including Sennheiser Ambeo, Soundfield, DPA, Oktava etc.
 
 
 ## History and references

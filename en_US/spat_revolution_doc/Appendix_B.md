@@ -2,7 +2,7 @@
 
 ## Sync issues with LAP
 
-When using Local Audio Path (LAP), synchronisation issues can be identified when the synchronisation indicator in SPAT Revolution (bottom left corner) turns to red. 
+When using Local Audio Path (LAP), synchronisation issues can be identified when the synchronisation indicator in _SPAT Revolution_ (bottom left corner) turns to red. 
 This can in some cases result in clicks, noises, and or loss of sound.
 
 ![Sync Error](https://raw.githubusercontent.com/FLUX-SE/doc_images/main/SpatR/Generic/Sync_Error.png)
@@ -19,18 +19,18 @@ To force the DAW to process this way, each track with SEND plug-in inserted must
 
 > You can reset the sync error by double-clicking on the sync error counter.
 
-If you see red indicators in the bottom left corner section of SPAT, this could be related to having a mismatch in frame size  (buffer) or sample rate between the DAW and the SPAT Revolution.
+If you see red indicators in the bottom left corner section of SPAT, this could be related to having a mismatch in frame size  (buffer) or sample rate between the DAW and the  _SPAT Revolution_.
 
-Frame size (sometimes called buffer size or block size) should be matched in the host DAW and SPAT Revolution. A red message would identify a different frame rate the host DAW. Simply double-clicking on **smp/f** message in error will automatically change you SPAT block size setup to match the incoming audio.
+Frame size (sometimes called buffer size or block size) should be matched in the host DAW and  _SPAT Revolution_. A red message would identify a different frame rate the host DAW. Simply double-clicking on **smp/f** message in error will automatically change you SPAT block size setup to match the incoming audio.
 
 If the audio processing is too demanding for your computer at the current block size and sample rate, you may also experience dropouts and sync problems due to CPU overload.
 
 If you are experiencing lost sync when using Local Audio:
 
 * Increase the block size in the SPAT preferences.
-* Save your project and quit SPAT Revolution.
+* Save your project and quit  _SPAT Revolution_.
 * Change the block size in your host DAW to match the new setting.
-* Reopen SPAT Revolution.
+* Reopen  _SPAT Revolution_.
 
 
 Also, please be sure to carefully read the detailed advice of the various DAW in the **[Third party integration](Third_Party_Integration.md)** section of this guide and refer to the various provided templates.
@@ -38,15 +38,15 @@ Also, please be sure to carefully read the detailed advice of the various DAW in
 
 ## SPAT Send and Return DAW
 
-When dealing with SPAT Send and Return, you do not need to have a hardware device configured in the preference. In this case, SPAT Revolution will automatically adapt its sampling rate and synchronize to the incoming software audio I/O.
+When dealing with SPAT Send and Return, you do not need to have a hardware device configured in the preference. In this case, _SPAT Revolution_ will automatically adapt its sampling rate and synchronize to the incoming software audio I/O.
 
-Sync issues encountered in SPAT Revolution when using the Local Audio Path workflow can often be fixed when following some guidelines for routing order inside the DAW. Thanks to the various DAW templates, this is done for the users.
+Sync issues encountered in _SPAT Revolution_ when using the Local Audio Path workflow can often be fixed when following some guidelines for routing order inside the DAW. Thanks to the various DAW templates, this is done for the users.
 
 To work properly, the SEND plug-ins instances must be processed by the DAW **before** the RETURN plug-in instances. To force the DAW to process this way, each track with SEND plug-in inserted must be routed (directly or indirectly) to the tracks hosting a RETURN plug-in, using DAW internal routing.
 
 Following are four examples of recommended practice with DAW routing, which should cover the main use cases. If your problems persist even after implementing these suggestions, don't hesitate to drop us a line at FLUX:: support.
 
-> **PLEASE NOTE:** The mixing of HARDWARE inputs and LOCAL AUDIO PATH may report a sync loss, as SPAT Revolution cannot guarantee correct sync in this scenario. Proceed with caution if this is unavoidable. This is not officially supported._
+> **PLEASE NOTE:** The mixing of HARDWARE inputs and LOCAL AUDIO PATH may report a sync loss, as _SPAT Revolution_ cannot guarantee correct sync in this scenario. Proceed with caution if this is unavoidable. This is not officially supported._
 
 **SPAT RETURN plug-in on master track**
 
@@ -66,7 +66,7 @@ Issues may happen when return is inserted on an AUX track. Make sure that each S
 
 **Several RETURN on AUX tracks**
 
-When several RETURN tracks are needed (for example several rooms to render from SPAT Revolution, and/or several output stream formats), you will have to route each SEND track to each RETURN track, using the same technique.
+When several RETURN tracks are needed (for example several rooms to render from  _SPAT Revolution_, and/or several output stream formats), you will have to route each SEND track to each RETURN track, using the same technique.
 
 As it can quickly become complicated as the project grows, in the following example, the use of a 'dummy' track, avoids using several AUX sends on the 'SEND 'tracks. It makes routing clearer and easier to implement on larger projects. The 'dummy' AUX track is routed to all the RETURN tracks (using AUX sends or patching the output to a multichannel/multi-format 'dummy' bus).
 
@@ -79,7 +79,7 @@ Then, simply route all your SEND tracks to this 'dummy' track by simply patching
 
 One of the good practices to deal with the source/object you are sending for external rendering is to use tracks as dedicated objects. (Similar to many object-based mixing workflows proposed by DAW.) This way you can leave the session audio tracks and their channel insertion as they are and simply send your audio track to the SPAT SEND object track. This allows you to send a single audio track or multiple ones (stem) to the SPAT SEND object track.
 
-Doing this can segment your external rendering routing and is highly recommended to prevent audio track delay compensation systems in DAW to come and jeopardize the audio synchronization between the DAW and SPAT. This as well ensures that your audio track automation on levels for example is respected as some DAWs don't have post-fader insertion (a pre-fader insert with SPAT SEND PI will send audio to SPAT Revolution prior to your fader automation).
+Doing this can segment your external rendering routing and is highly recommended to prevent audio track delay compensation systems in DAW to come and jeopardize the audio synchronization between the DAW and SPAT. This as well ensures that your audio track automation on levels for example is respected as some DAWs don't have post-fader insertion (a pre-fader insert with SPAT SEND PI will send audio to _SPAT Revolution_ prior to your fader automation).
 
 ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Generic/PluginsSchemaObjectsDummyBus.png)
 
@@ -90,7 +90,7 @@ This way, you keep the dry signal on the audio track's output.
 ## Clearing Shared Memory
 
 Some users have experienced an issue where SPAT SEND and RETURN plug-ins are
-not cleared from the shared memory when used with certain third-party DAW hosts (or seen after DAW crashes). Although this should not happen and have been intensively improved in the latest releases of SPAT Revolution, a **Clean Shared Memory** option can fix some connection issues (ghost modules, duplicated modules, modules not connecting when opening session). This can sometimes be seen where SPAT Send and Return modules appear in the SPAT setup page when there is no DAW host software running in the background. It can cause problems, when a host with plug-ins is launched and more SEND and RETURN plug-ins appear to be doubled.
+not cleared from the shared memory when used with certain third-party DAW hosts (or seen after DAW crashes). Although this should not happen and have been intensively improved in the latest releases of  _SPAT Revolution_, a **Clean Shared Memory** option can fix some connection issues (ghost modules, duplicated modules, modules not connecting when opening session). This can sometimes be seen where SPAT Send and Return modules appear in the SPAT setup page when there is no DAW host software running in the background. It can cause problems, when a host with plug-ins is launched and more SEND and RETURN plug-ins appear to be doubled.
 
 Although rebooting the computer would fix this issue, the workaround if this is happening with your particular third-party software, is to invoke a special debug action called _Clean Shared Memory_. It is available by the *Help* menu _Help/Clean Shared Memory_
 

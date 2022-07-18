@@ -2,12 +2,12 @@
 
 ## Templates
 
-SPAT Revolution 20.12 brings 3 new Lemur templates that have been created to bring some iOS and Android remotes into your workflows. 
+_SPAT Revolution_ 20.12 brings 3 new Lemur templates that have been created to bring some iOS and Android remotes into your workflows. 
 They can be used as-is, but can be modified in the editor software (Lemur editor).
 
-[**Spat_Remote - 2020 SR Beta - SPAT Revolution**](https://public.3.basecamp.com/p/aWJ2wnHxpGGQZJ6CL8VE4yB9) is a great one as it combines the actual source control page and controls for the newly introduced snapshots.
+[**Spat_Remote - 2020 SR Beta - _SPAT Revolution_**](https://public.3.basecamp.com/p/aWJ2wnHxpGGQZJ6CL8VE4yB9) is a great one as it combines the actual source control page and controls for the newly introduced snapshots.
 
- [**Spat_Snapshot - 2020 SR Beta - SPAT Revolution**](https://public.3.basecamp.com/p/L8xYp9jzJ1DRh76fcBcuH4fG)  is a dedicated Snapshot control page.
+ [**Spat_Snapshot - 2020 SR Beta - _SPAT Revolution_**](https://public.3.basecamp.com/p/L8xYp9jzJ1DRh76fcBcuH4fG)  is a dedicated Snapshot control page.
  
 [**Spat_Multitouch - 2020 SR Beta - SPAT Revolution**](https://public.3.basecamp.com/p/XftQefeGH9AsqLmum1N12boA) is a Multitouch remote for up to 8 sources!
 
@@ -38,7 +38,7 @@ You can save it in your device, clicking on the wheel on the top right.
 
 ## Setting up OSC targets
 
-The simple step to use it with SPAT Revolution is to configure (one time) your OSC Targets, in this case, SPAT Revolution. 
+The simple step to use it with _SPAT Revolution_ is to configure (one time) your OSC Targets, in this case, SPAT Revolution. 
 To configure the OSC address and port in Lemur, click on the wheel on the right top, then on “More Settings”.
 
 ![image(2)](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/LemurOSCSettings.png)
@@ -48,9 +48,9 @@ The port is locked by default at <code>8000</code>.
 
 OSC 0 - OSC 7 are actual targets. 
 You can add up to 8 OSC targets. 
-An example of this could be to target 2 SPAT Revolution for main and back up hardware.
+An example of this could be to target 2 _SPAT Revolution_ for main and back up hardware.
 
-As of SPAT Revolution 20.12, input | Lemur and output | Lemur presets are available in the OSC Connection section. Port are by default <code>8000</code> for input and output.
+As of _SPAT Revolution_ 20.12, input | Lemur and output | Lemur presets are available in the OSC Connection section. Port are by default <code>8000</code> for input and output.
 
 From the above example, the Lemur IP is <code>192.168.2.5</code> Port <code>8000</code>. 
 And we have set the OSC target OSC 0 to the SPAT computer IP Adress <code>192.168.43.10</code> with port number <code>53700</code>. 

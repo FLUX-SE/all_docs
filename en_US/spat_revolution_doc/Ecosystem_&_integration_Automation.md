@@ -1,6 +1,6 @@
 # Ecosystem & integration
 
-Almost all parameters of SPAT Revolution can be continuously controlled in real time using SPAT's high resolution _automated control_ features.
+Almost all parameters of _SPAT Revolution_ can be continuously controlled in real time using SPAT's high resolution _automated control_ features.
 
 ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/ReaperAutomation2.jpg)
 

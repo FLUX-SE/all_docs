@@ -2,7 +2,7 @@
 
 This is where you will generally start a project by designing the signal-flow graph that you will be working with. The _Setup page_ is also where you manage the loading and saving of projects to disk.
 
-!> Using the SPAT Revolution Essential license version all the setup modules are configured for you using the Setup Wizard. Adding, reorganizing, duplicating is not allowed. The only required and permitted part is to connect and disconnect Input or Output modules, being software or hardware I/O_
+!> Using the _SPAT Revolution_ Essential license version all the setup modules are configured for you using the Setup Wizard. Adding, reorganizing, duplicating is not allowed. The only required and permitted part is to connect and disconnect Input or Output modules, being software or hardware I/O_
 
 ## Setup Modules
 
@@ -74,7 +74,7 @@ The drag and drop feature also allows reorganizing the modules of the same type.
 
 ## The setup wizard
 
-In our effort to make SPAT Revolution easier to use, we created a small utility to help you set up new SPAT sessions. This is used mainly when dealing with hardware I/O.
+In our effort to make _SPAT Revolution_ easier to use, we created a small utility to help you set up new SPAT sessions. This is used mainly when dealing with hardware I/O.
 
 To open it, you can either:
 
@@ -96,7 +96,7 @@ Other shortcuts have been implemented in this wizard:
 - <code>Ctrl/Cmd + Go Left</code> or <code>Ctrl/Cmd + Go Right</code> to change the format (if Channel Based), or the Dimension (if HOA).
 - <code>Ctrl/Cmd + Shift + Go Left</code> or <code>Ctrl/Cmd + Shift + Go Right</code> to change the Order (if HOA).
 
-When we are done creating out different sources, we have two ways to validate the operation. We can either click on <code>Ok</code>, all the sources, rooms and outputs will be created, with a straight routing, or, we can choose to click on <code>Ok +  matrix</code>. This last option will open the input and output matrix of our whole SPAT Revolution session to allow us to quickly customize or validate our patch. Also, if you need to easily create a line in SPAT matrix, simply hold <code>Ctrl</code> and click on the starting point of your line.
+When we are done creating out different sources, we have two ways to validate the operation. We can either click on <code>Ok</code>, all the sources, rooms and outputs will be created, with a straight routing, or, we can choose to click on <code>Ok +  matrix</code>. This last option will open the input and output matrix of our whole _SPAT Revolution_ session to allow us to quickly customize or validate our patch. Also, if you need to easily create a line in SPAT matrix, simply hold <code>Ctrl</code> and click on the starting point of your line.
 
 ![setupWizard2](include/setupWizard2.gif)
 
@@ -104,7 +104,7 @@ When we are done creating out different sources, we have two ways to validate th
 
 This menu handles basic operation of modules, like connecting, disconnecting and renaming. Some of these actions are contextual, and depend on the block, or the number of modules selected.
 
-!> Note that there is no undo in SPAT Revolution. Think twice before operating and save regularly.
+!> Note that there is no undo in _SPAT Revolution_. Think twice before operating and save regularly.
 
 ### Remove selected
 
@@ -118,7 +118,7 @@ Duplicate the selected modules.
 
 ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/RoomDuplicate.png)
 
-SPAT Revolution allows to quickly duplicate a room with a few options to help the user
+_SPAT Revolution_ allows to quickly duplicate a room with a few options to help the user
 to optimize the routing process. To access this menu, simply click on the <code>Duplicate Selected</code> button, when only a room selected.
 
 The new pop-up windows allows to:
@@ -133,7 +133,7 @@ The new pop-up windows allows to:
 
 Connect selected modules. Modules can be connected to multiple destinations.
 
-> SPAT Revolution will always try to guess what you try to achieve. For exemple, you can connect an input block directly to an output block and SPAT will create necessary modules in-between.
+> _SPAT Revolution_ will always try to guess what you try to achieve. For exemple, you can connect an input block directly to an output block and SPAT will create necessary modules in-between.
 
 ### Disconnect selected
 
@@ -156,7 +156,7 @@ As you can imagine routing and patching high density channel counts can get comp
 When it comes to that, the SPAT routing matrix is there to help.
 You will find it at many points throughout the **Environment Setup** graph.
 
-![width=800, atl=Spat Revolution Matrix](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/OutputMatrix.png)
+![width=800, atl=_SPAT Revolution_ Matrix](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/OutputMatrix.png)
 
 > *Avoid cable swapping on the loudspeaker setup, use software routing instead.*
 

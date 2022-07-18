@@ -2,7 +2,7 @@
 
 # Room
 
-In SPAT Revolution, spatialization of virtual sources takes places inside _Rooms_. To enter a room and open its graphic editor environment, double-click on a room module in the Setup graph, or select a room tab from the Navigation bar.
+In _SPAT Revolution_, spatialization of virtual sources takes places inside _Rooms_. To enter a room and open its graphic editor environment, double-click on a room module in the Setup graph, or select a room tab from the Navigation bar.
 
 When we enter a Room, we will see the 3D view and all the connected sources. Option related to the 3D view display are located in top menu. On the left side panel of the room editor, you get a list representation of each source with its index identification number. We can click on the Index number of each source, and the _[source parameters](Spat_Environment_Source?id=source-parameters.md)_ editor for that virtual source will appear.
 
@@ -148,6 +148,6 @@ This parameter changes the scale of RTTrPM protocol data.
 
 <!-- TODO: add the image -->
 
-This panel allows you to import a background image in SPAT Revolution and to position it in the 3D view.
+This panel allows you to import a background image in _SPAT Revolution_ and to position it in the 3D view.
 
 !> Make sure to have no special character in the path or file name.

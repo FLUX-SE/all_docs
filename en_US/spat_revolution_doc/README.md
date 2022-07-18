@@ -1,2 +1,2 @@
 # spat_revolution_doc
-Spat Revolution documentation
+_SPAT Revolution_ documentation

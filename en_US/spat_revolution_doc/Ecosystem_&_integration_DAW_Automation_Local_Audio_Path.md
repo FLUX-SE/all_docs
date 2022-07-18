@@ -1,11 +1,11 @@
 # SPAT PI : Local audio path
 
-If you are deploying a setup for a single computer, you can use a software method to move multiple channels of audio from the DAW running on the same machine as the SPAT Revolution spatialization environment.
+If you are deploying a setup for a single computer, you can use a software method to move multiple channels of audio from the DAW running on the same machine as the _SPAT Revolution_ spatialization environment.
 This is not normally a trivial task, and many previous solutions have been prone to drop-outs and other problems.
 
 In answer to this challenge, *FLUX:: immersive* has developed an audio pipe technology. Called "Local Audio Path" (LAP), it is available in the two (2) of the three (3) plug-ins available in AU, VST and AAX format.
 
-The SPAT plug-ins offer a straightforward way to integrate the SPAT Revolution spatialization environment with other digital audio workstation environments - _running on the same machine._
+The SPAT plug-ins offer a straightforward way to integrate the _SPAT Revolution_ spatialization environment with other digital audio workstation environments - _running on the same machine._
 
 ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/ReaperPlugins.png)
 
@@ -41,9 +41,9 @@ take into account certain principles of configurations.
 
 !> **Sample Rate and buffer size must match in both SPAT and the Plug-in Host**
 
-You can configure these settings in the SPAT Revolution Preferences, and matching settings also need to be configured in the host DAW Preferences.
+You can configure these settings in the _SPAT Revolution_ Preferences, and matching settings also need to be configured in the host DAW Preferences.
 
-> If the sample rate and the buffer size don't match in SPAT Revolution, double-clicking over the "Sync section" at left bottom will automatically adjust them.  
+> If the sample rate and the buffer size don't match in  _SPAT Revolution_, double-clicking over the "Sync section" at left bottom will automatically adjust them.  
 
 ![]( https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/ReaperPluginsAdvancedPanel.png)
 
@@ -64,7 +64,7 @@ If SPAT is running, then a Send or Return IO module will automatically appear in
 
 **Index** - Relates the Plug-in automation to a virtual source.
 - INDEX is assigned automatically and can only be changed manually to an index number that is not yet in use by another SPAT Plug-in.
-- On SPAT Revolution, INDEX is designed as "Remote number". Itinially set to the object number, you can customize it by object.
+- On  _SPAT Revolution_, INDEX is designed as "Remote number". Itinially set to the object number, you can customize it by object.
 
 **Position mode** - In Send only, choose the recorded and read coordinate mode.  
 
@@ -80,9 +80,9 @@ If SPAT is running, then a Send or Return IO module will automatically appear in
 
 ## DAW routing priority
 
-In order to make sure that no sync error can happen between SPAT Revolution and the DAW of your choice, it is obligatory to make sure that **each track containing a Spat Send plug-in have to be routed to every and each track containing a Spat Return plug-in.**
+In order to make sure that no sync error can happen between _SPAT Revolution_ and the DAW of your choice, it is obligatory to make sure that **each track containing a Spat Send plug-in have to be routed to every and each track containing a Spat Return plug-in.**
 
-This routing forced digital audio workstations to process *SPAT Send* plug-ins **before** *SPAT Return* ones. Without this prioritization, you can end up in a situation where the DAW call for samples from SPAT that have never been sent. This led to sync errors, and most likely to audio drop. This is an absolute golden rule when working with SPAT Revolution and a DAW on the same computer.
+This routing forced digital audio workstations to process *SPAT Send* plug-ins **before** *SPAT Return* ones. Without this prioritization, you can end up in a situation where the DAW call for samples from SPAT that have never been sent. This led to sync errors, and most likely to audio drop. This is an absolute golden rule when working with _SPAT Revolution_ and a DAW on the same computer.
 
 !> **Be always sure that each track containing a SPAT Send plug-in is routed to every and each track containing a Spat Return plug-in.**
 
@@ -92,6 +92,6 @@ For more DAW specific information, please consult our [third-party integration](
 
 Some DAWs, like REAPER, use some technic to reduce the load of VST plug-ins on the CPU. One common trick is to process an audio track ahead of time and then delay the buffer to play it back at the intended moment. It is called anticipative processing. This is often very efficient and can drastically reduce the CPU load (up to 30-50% !)
 
-Other DAWs, like Ableton live, put plug-ins that does not receive or send any audio in an off-line state. Although it is not necessary displayed to the user, this can create some major issues when working with Spat Revolution PI.
+Other DAWs, like Ableton live, put plug-ins that does not receive or send any audio in an off-line state. Although it is not necessary displayed to the user, this can create some major issues when working with _SPAT Revolution_ PI.
 
 !> Be sure to consult our [third-party integration](Third_Party_Integration.md) section for more DAW specific information.

@@ -1,6 +1,6 @@
 # Appendix C - OSC Table
 
-This table lists all the OSC message supported in SPAT Revolution.
+This table lists all the OSC message supported in  _SPAT Revolution_.
 
 The table is divided into different messages' categories :
 * Project-related messages
@@ -9,11 +9,11 @@ The table is divided into different messages' categories :
 * Master-related messages
 * Snapshots-related messages
 
-The complete document can be downloaded here: [OSC Commands for SPAT Revolution](https://public.3.basecamp.com/p/fWnQ9D3R2indGgBfHiL2QZZT)
+The complete document can be downloaded here: [OSC Commands for  _SPAT Revolution_](https://public.3.basecamp.com/p/fWnQ9D3R2indGgBfHiL2QZZT)
 
 ## OSC Grammar
 
-FLUX:: SPAT Revolution supports by default 3 input grammars: FLUX:: OSC grammar, ADM-OSC grammar and IRCAM ADMix positional grammar.
+FLUX:: _SPAT Revolution_ supports by default 3 input grammars: FLUX:: OSC grammar, ADM-OSC grammar and IRCAM ADMix positional grammar.
 
 ## OSC Output Options
 
