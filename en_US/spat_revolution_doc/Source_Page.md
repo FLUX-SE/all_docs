@@ -9,7 +9,7 @@ Add image
 - **Number**: the source number order of the list. _It can be adjusted dragging and dropping the source, on the setup Page or on the room view._ 
 - **Color**: select the color of the source
 - **Name**: edit this field to change the name of the source
-- **Active**: define if the source is computed or not. _It defines either or not the source is part of the allowed sources, when running into Essential version._
+- **Active**: define if the source is computed or not. _It defines either or not the source is part of the allowed sources, when running into **Essential** version._
 - **Speaker arrangement**: select the speaker arrangement of the source.
 - **Remote**: define if the source can be controlled by OSC or not.
 - **Remote number**: define the index of the source on OSC side. _If set to 0, the remote number is equal to the Source number. Careful with this behavior: this will be edited with the source order._

@@ -111,7 +111,7 @@ DBAP localizes sounds towards arbitrarily positioned speakers in a space using a
 
 ## K Nearest Neighbor (KNN)
 
-KNN is another panning type that does not depend on a sweet spot to be perceived correctly. It is a version of a 'Nearest-neighbor' interpolation algorithm. This family of algorithms are also used in the fields of complex systems, 3D graphics and network science to name a few. In _SPAT Revolution_, you can sonically explore a network of loudspeakers using this panning type and some virtual sound sources.
+KNN is another panning type that does not depend on a _Sweet Spot_ to be perceived correctly. It is a version of a 'Nearest-neighbor' interpolation algorithm. This family of algorithms are also used in the fields of complex systems, 3D graphics and network science to name a few. In _SPAT Revolution_, you can sonically explore a network of loudspeakers using this panning type and some virtual sound sources.
 
 **How Does It Work?**
 
@@ -189,7 +189,7 @@ http://lib.tkk.fi/Diss/2001/isbn9512255324/article1.pdf
 
 https://pdfs.semanticscholar.org/8fed/f0c12b58d4af2a94af6a817021ee812bf6a8.pdf
 
-“[…] Most common techniques for spatialization require the lis-tener to be positioned at a “sweet spot” surrounded by loud-speakers. For practical concert, stage, and installation appli-cations such layouts may not be desirable.  Distance-basedamplitude  panning  (DBAP)  offers  an  alternative  panning-based spatialization method where no assumptions are madeconcerning the layout of the speaker array nor the positionof the listener.”
+“[…] Most common techniques for spatialization require the lis-tener to be positioned at a _Sweet Spot_ surrounded by loudspeakers. For practical concert, stage, and installation appli-cations such layouts may not be desirable.  Distance-based amplitude  panning  (DBAP)  offers  an  alternative  panning-based spatialization method where no assumptions are made concerning the layout of the speaker array nor the position of the listener.”
 
 “[…] Distance-based amplitude panning (DBAP) is a matrix-based spatialization technique that takes the actual positions of the speakers in space as the point of departure while making no assumptions as to where the listeners are situated.   This  makes  DBAP  useful  for  a  number  of real-world  situations  such  as  concerts,  stage  productions, installations,  and  museum  sound  design  where  predefined geometric speaker layouts may not apply”
 

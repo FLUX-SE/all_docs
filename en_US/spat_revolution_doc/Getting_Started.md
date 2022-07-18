@@ -4,7 +4,7 @@ In the following section, we will discuss how to install _SPAT Revolution_, usin
 
 We will also explain all the differences between the Ultimate and Essential versions.
 
-Furthermore, if you are searching for a quick start guide, check this document : [quick start guide]().
+<!-- TODO : Insert quick start guide and then uncomment next line-->
+<!--  Furthermore, if you are searching for a quick start guide, check this document : [quick start guide]().-->
 
-<!-- TODO : Insert quick start guide -->
 

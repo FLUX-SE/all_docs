@@ -16,7 +16,7 @@
 
 
 ## Redeem a License Code from activation code
-FLUX:: uses the iLok license management system to deliver software licenses to users. If you have received an activation code (such as from a dealer purchase),you can use the Redeem License Code window to activate your license.
+FLUX:: uses the iLok license management system to deliver software licenses to users. If you have received an activation code (such as from a dealer purchase), you can use the Redeem License Code window to activate your license.
 
 
 ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/FLUX/Account/RedeemLicense.png ':class=img-title')
@@ -32,7 +32,7 @@ To activate licenses:
 - An iLok user account is required.
 - An iLok USB key is optional.
 
-FLUX:: uses the iLok license management system to deliver software licenses to users. If you don’t have an iLok account yet, please create a free iLok account at http://www.ilok.com and download the iLok license manager. _SPAT Revolution_ **Essential** license comes with one (1) activation where the _SPAT Revolution_ Ultimate Bundle includes two (2) activation linked to your user account. Having two activations gives you the possibility of a fixed license on one particular machine and a portable license on an iLok USB key if you own one. Other examples are for main and backup SPAT Engine running on a live production or In-studio and on-the-road scenarios.
+FLUX:: uses the iLok license management system to deliver software licenses to users. If you don’t have an iLok account yet, please create a free iLok account at http://www.ilok.com and download the iLok license manager. _SPAT Revolution_ **Essential** license comes with one (1) activation where the _SPAT Revolution_ **Ultimate** Bundle includes two (2) activation linked to your user account. Having two activations gives you the possibility of a fixed license on one particular machine and a portable license on an iLok USB key if you own one. Other examples are for main and backup SPAT Engine running on a live production or In-studio and on-the-road scenarios.
 
 > Cloud license is currently not supported.
 
@@ -47,7 +47,7 @@ For new iLok users, the first step is to download and install the iLok license m
 
 ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/FLUX/Generic/iLokManagerTransfer.jpg ':class=img-title')
 
-Pressing on the sign-in button will allow you to connect to your account. After Logging in, you are now ready to transfer any licenses to a computer or to any iLok USB key if you happen to have one. The process of transferring a license is as simple as dragging the license from the Available tab to your Local Computer *(or iLok key)* on the left side. _SPAT Revolution_ Essential license is a single license where _SPAT Revolution_ Ultimate is a bundle containing three (3) licenses, Essential, Ultimate and Legacy.
+Pressing on the sign-in button will allow you to connect to your account. After Logging in, you are now ready to transfer any licenses to a computer or to any iLok USB key if you happen to have one. The process of transferring a license is as simple as dragging the license from the Available tab to your Local Computer *(or iLok key)* on the left side. _SPAT Revolution_ **Essential** license is a single license where _SPAT Revolution_ **Ultimate** is a bundle containing three (3) licenses, **Essential**, **Ultimate** and **Legacy**.
 
 **Simply drag your license to your Local Computer or on an iLok USB key. You are now set!**
 

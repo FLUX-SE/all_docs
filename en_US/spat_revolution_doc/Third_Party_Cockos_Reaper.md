@@ -167,5 +167,5 @@ This is done in realtime.
 
 ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/ReaperBounce.png)
 
-The same process can be followed to render any Channel Based or other stream type from SPAT Revolution to disk for further composition, mastering or final delivery.
+The same process can be followed to render any Channel Based or other stream type from _SPAT Revolution_ to disk for further composition, mastering or final delivery.
 
