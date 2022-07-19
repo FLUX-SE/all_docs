@@ -1,4 +1,4 @@
-# Ultimate and Essential licences
+# Ultimate and Essential licenses
 
 _SPAT Revolution_ comes in different flavors: an **Essential** and an **Ultimate** version.
 Both share the same audio engine and powerful 3D audio capabilities.

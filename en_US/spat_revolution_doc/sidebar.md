@@ -4,7 +4,7 @@
 2. [Users & applications](Users_and_Applications.md)
 3. [Getting Started](Getting_Started.md)
    1. [Installation & activation](Installation_and_Activation.md)
-   2. [Ultimate & Essential Licences](Ultimate_And_Essential_Licences.md)
+   2. [Ultimate & Essential Licenses](Ultimate_And_Essential_Licences.md)
 4. [Spatialization technologies](Spatialisation_Technology_Spatialisation_Technology.md)
    1. [Listener position](Spatialisation_Technology_Listener_Position.md)
    2. [Binaural](Spatialisation_Technology_Binaural.md)
