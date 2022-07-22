@@ -30,8 +30,6 @@ For example, working in an HOA room create 3D view that does not show any speake
 
 _Nebula_ is a technology adapted from our flagship **FLUX:: Analyzer System**, a suite of highly regarded professional mastering and mixing visualization tools.
 
-!> _Nebula Technology is only available with the Ultimate license of SPAT Revolution_.
-
 
 ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Layout/FilmMixingC.png)
 

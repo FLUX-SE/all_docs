@@ -28,7 +28,7 @@ Multi-channel sources is one of the unique SPAT Revolution features.
 
 SPAT Revolution is able to receive data from RTTrPM open protocol tracking systems. This protocol is supported by BlackTrax™. BlackTrax™ is a vision-based system that connects to different third-party applications, such as robotic lights, media servers and SPAT Revolution. OSC is the other very good method to use for tracking, and various tracking systems support it natively.
 
-!> _RTTrPM protocol is only available with the Ultimate license of SPAT Revolution_.
+!> _RTTrPM protocol is not available with the **Essential** license of SPAT Revolution_.
 
 When you have correctly set up the BlackTrax protocol (see [BlackTrax Integration section](ThirdParty_BlackTrax.md)) then you can directly assign Tracking Number to virtual sources, and also to listener position (see [Listener position section](Spatialisation_Technology_Listener_Position.md)) for advanced virtual reality interactive audio projects.
 
@@ -50,9 +50,9 @@ It is a classic case of object-based mixing, where source modules associate meta
 
 ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/SessionWithRoomSelected.png)
 
-The first thing to notice is that we can add any number of rooms (in Ultimate version only). In the screenshot above, two HOA 3D rooms are being used, each with differently designed acoustics. SPAT revolution offers flexibility, in order to encompass different workflow ideas or experimental approaches. For example, the same virtual sources may be assigned into multiple rooms, with multiple end destinations. Or as in the screenshot above, virtual sources might exist in different spaces that get summed together.
+The first thing to notice is that we can add any number of rooms. In the screenshot above, two HOA 3D rooms are being used, each with differently designed acoustics. SPAT revolution offers flexibility, in order to encompass different workflow ideas or experimental approaches. For example, the same virtual sources may be assigned into multiple rooms, with multiple end destinations. Or as in the screenshot above, virtual sources might exist in different spaces that get summed together.
 
-!> _Multiple rooms are only available with the Ultimate license of SPAT Revolution_.
+!> _The **Essential** license limits the number of active (processed) rooms to one (1). The other are deactivated (not processed).
 
 ### Name
 

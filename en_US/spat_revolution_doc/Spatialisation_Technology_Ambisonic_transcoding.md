@@ -9,8 +9,6 @@ When patching an HOA or B-Format input to a source, or a HOA room to a channel-b
 
 ### Projection
 
-!> Projection is only available in the Ultimate version of _SPAT Revolution_.
-
 Projection decoding is also sometimes called “sampling ambisonic decoding” (SAD).
 It is the simplest form of ambisonic decoding.
 It samples the virtual panning function at the loudspeaker directions.
@@ -23,8 +21,6 @@ To keep it really simple, t-design is a mathematical way of constructing sphere 
 In _SPAT Revolution_, we chose to use the method used by the mathematician Sloane for our speaker layouts.
 
 ### Regularized pseudo-inverse
-
-!> Regularized pseudo-inverse is only available in the Ultimate version of _SPAT Revolution_.
 
 The pseudo-inverse decoder, or “mode-matching decoder” (MMAD), is suitable for both 2D and 3D.
 It is based on a pseudo-inverse of the re-encoding matrix.
@@ -48,8 +44,6 @@ Intermediate values of alpha allow to “blend” MMAD and EPAD.
 
 ### Energy preserving
 
-!> Energy preserving is only available in the Ultimate version of _SPAT Revolution_.
-
 EPAD (energy preserving ambisonic decoding) and AllRAD (All-round Ambisonic decoding) are other HOA decoding methods suitable for 2D and 3D HOA, and they can cope with any kind of loudspeaker arrangement.
 These decoding methods always work, as soon as there are enough loudspeakers; they are always feasible and by nature numerically stable.
 EPAD uses a regularized matrix inversion such that the decoded energy is preserved even with non-uniformly arranged arrays (and even for directions with only sparse loudspeaker coverage).
@@ -60,8 +54,6 @@ EPAD is the default method in spat5 (and the one we usually recommend).
 “All-round Ambisonic decoding” (AllRAD) is designed in two steps. First, an optimal virtual loudspeaker layout using t-design arrangement is considered (for which the SAD is optimal). Secondly, the signals of these virtual loudspeakers are mapped to the real loudspeakers via VBAP.
 
 ### Improved AllRAD
-
-!> Improved AllRAD is only available in the Ultimate version of _SPAT Revolution_.
 
 “Improved All-Round Ambisonic Decoding” (AllRAD+) combines AllRAD and SAD.
 Constant energy that is achieved for the idealized virtual loudspeaker setup in AllRAD is corrupted by the VBAP stage as, per loudspeaker pair, all virtual sources are superimposed linearly instead of energetically.

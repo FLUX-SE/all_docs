@@ -2,7 +2,6 @@
 
 This is where you will generally start a project by designing the signal-flow graph that you will be working with. The _Setup page_ is also where you manage the loading and saving of projects to disk.
 
-!> Using the _SPAT Revolution_ Essential license version all the setup modules are configured for you using the Setup Wizard. Adding, reorganizing, duplicating is not allowed. The only required and permitted part is to connect and disconnect Input or Output modules, being software or hardware I/O.
 
 ## Setup Modules
 

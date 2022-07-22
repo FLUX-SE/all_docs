@@ -161,7 +161,7 @@ The barycentric transformations will continue to orient their on-axis energy tow
 ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Room/SourceOptions.png)
 <!-- TODO: update the image -->
 
-Finally, there are some options available for each source. Some are available by sources only on Ultimate version. It is possible to edit a global parameter on the room panel on the preferences page. 
+Finally, there are some options available for each source. It is possible to edit a global parameter on the room panel on the preferences page. 
 
 ### Doppler
 
@@ -169,15 +169,15 @@ The Doppler effect is a well-known wave propagation phenomenon where the height 
 
 > Careful with this effect: it adds the delay corresponding on the distance between the source and the listener point.
 
-### Air Absorption - Ultimate version per source, global for Essential
+### Air Absorption
 
 Simulates the frequency-dependent absorption of air, where high frequencies roll off quicker than low-frequencies with respect to distance. You have most probably noticed this phenomenon when you are far away from a concert venue and only able to hear the bass, and gradually start to hear the whole mix as you get closer.
 
-### Drop Factor and Drop Log - Ultimate version per source, global for Essential
+### Drop Factor and Drop Log 
 
 Owing to a fundamental law of acoustics and geometry - namely energy conservation - sound pressure drops in level as one moves away from the source. Enable _Drop Log_ for an acoustically accurate setting, which corresponds to a drop value attenuation every time the distance from the source is doubled (logarithmic behavior). The default _Drop Factor_ of 6 dB is also the acoustically accurate setting.
 
-### Radius - Ultimate version per source, global for Essential
+### Radius
 
 Specifies the radius of a sphere or disc in meters, centered around the listener position, where the drop attenuation is not taken into account, and the sound level is kept constant in regard to distance. This is not only useful to prevent any dramatic sound level peak when placing a source too close to the listener, it also reflects real-world behavior quite accurately, where sources do have a certain physical size, unlike point sources that are commonly used to model far-field acoustics. This “no-drop” zone is displayed as a transparent sphere of matching radius in the Room graphics.
 

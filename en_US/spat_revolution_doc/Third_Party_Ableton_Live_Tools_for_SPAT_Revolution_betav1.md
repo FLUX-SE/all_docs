@@ -62,7 +62,7 @@ Now that both accounts have been created and activated, and both the FLUX Center
 
 To do so simply go into the [iLok Licenses](https://shop.flux.audio/en_US/account/trial/request) section of your FLUX:: account, and follow the procedure.
 
-Last step is to go into the trial section and request a trial for SPAT Revolution Ultimate. The license will be automatically placed on your iLok account.
+Last step is to go into the trial section and request a trial for _SPAT Revolution_ **Ultimate**. The license will be automatically placed on your iLok account.
 
 Now open the iLok License Manager app and activate your license by drag and dropping it to your computer. You can then close the iLok app and open the FLUX:: Center.
 

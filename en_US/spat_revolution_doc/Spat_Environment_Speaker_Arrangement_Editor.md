@@ -78,7 +78,7 @@ TODO: add transformation speaker picture
 
 **Nb.:** identify the channel of the speaker.
 
-!> With a Spat Revolution Essential license, blocks cannot use an arrangement containing more than sixteen speakers.
+!> The _SPAT Revolution_ **Essential** license limits the total number of channels for all Input blocks to 32 channels, and to 16 channels for all Output blocks.
 
 **Name:** identify the name of the speaker.
 

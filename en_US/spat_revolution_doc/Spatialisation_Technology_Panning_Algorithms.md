@@ -40,9 +40,7 @@ These two Panning Types will only become available when a _Virtual Room_ is set 
 
 ## Vector Base Amplitude panning (VBAP)
 
-!> VBAP is only available in the Ultimate version of _SPAT Revolution_.
-
-Vector Base Amplitude Panning has become one of the more standardised methods for multichannel spatialisation. It can reproduce on a 2D or 3D configuration. Its sound is characterised by clearly localisable virtual sound sources. Multiple moving or stationary sounds can be positioned in any direction over the speaker array using this method. In theory, VBAP can be used on an unlimited number of loudspeakers and can even be reliable on relatively asymmetric setups.
+Vector Base Amplitude Panning has become one of the more standardised methods for multichannel spatialisation. It can reproduce on a 2D or 3D configuration. Its sound is characterised by clearly localizable virtual sound sources. Multiple moving or stationary sounds can be positioned in any direction over the speaker array using this method. In theory, VBAP can be used on an unlimited number of loudspeakers and can even be reliable on relatively asymmetric setups.
 
 **How does it work?**
 
@@ -62,8 +60,6 @@ Three important dependencies to consider when using VBAP:
 speakers are equidistant even when they are not.
 
 ## Vector Base Intensity (VBIP)
-
-!> VBIP is only available with the **Ultimate** license of _SPAT Revolution_.
 
 Vector Base Intensity Panning is a similar variation to the VBAP technique. It can also reproduce a 2D or 3D immersive sound field with sharply localised virtual sound sources.
 
@@ -125,8 +121,6 @@ What makes this particularly interesting is that different sources can activate 
 
 ## Speaker-Placement Correction Amplitude (SPCAP)
 
-!> SPCAP is only available with the **Ultimate** license of _SPAT Revolution_.
-
 SPCAP is a 3D panning algorithm which takes its inspiration from VBAP. SPCAP selects not just 2 or 3, but any number of speakers to render a virtual source and weights signal gains according to how much each selected speaker is actually contributing to the overall power output of the speaker configuration. Using this method SPCAP guarantees conservation of loudspeakers power output across any speaker arrangement. Its strengths lie in the down-mixing and up-mixing of virtual scenes from very different channel-based speaker arrangements, and in being able to render wider sound sources by using more speakers in a smart way.
 
 **How Does It Work?**
@@ -139,8 +133,6 @@ The result will still be _Sweet Spot_ dependent, although it will be a wider lis
 > ★ SPCAP panning can do a good job of translating surround audio mixes from one speaker configuration to another.
 
 ## Ambisonic Equivalent Panning (AEP)
-
-!> AEP is only available in the Ultimate version of _SPAT Revolution_.
 
 In common with the channel based panning types we have covered so far, Ambisonics is a technology that also distributes virtual sound sources in space. Yet it achieves this in a fundamentally different way. Ambisonics rely on a two-step process.
 
@@ -157,8 +149,6 @@ AEP has certain computational and ambisonic mixing advantages and exhibits very 
 
 ## Angular and PanR
 
-!> PanR is only available in the Ultimate version of _SPAT Revolution_.
-
 These are legacy 2D pan pot laws from the original IRCAM Spat library. They only become available when using 2D channel based streams and are primarily included for backwards compatibility.
 
 **How Does It Work?**
@@ -166,8 +156,6 @@ These are legacy 2D pan pot laws from the original IRCAM Spat library. They only
 Angular and PanR are pairwise amplitude panning essentially the same as VBAP 2D described on the next page. There is a subtle difference, however, in the way the panning law changes when moving the source from one speaker to another.
 
 ## Continuous Surround Panning (CSP)
-
-!> CSP is only available in the Ultimate version of _SPAT Revolution_.
 
 This Panning Type is available in _Virtual Room_ with 5.0 speakers arrangements. It optimizes the render into this arrangement, using circular harmonics. This leads to a continuous law, independently of the angle.
 

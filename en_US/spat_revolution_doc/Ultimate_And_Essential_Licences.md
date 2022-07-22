@@ -1,13 +1,13 @@
 # Ultimate and Essential licenses
 
-_SPAT Revolution_ comes in different flavors: an **Essential** and an **Ultimate** version.
+_SPAT Revolution_ comes in different flavors: an **Essential** and an **Ultimate** licenses.
 Both share the same audio engine and powerful 3D audio capabilities.
 
 The **Essential** license aims at being a limited version of **Ultimate**: same workflow but limited capacities at reduced price.
 
 ## Ultimate and Essential : what's common?
 
-The _SPAT Revolution_ software supports with the same installer (binary) both license options and  has the common features listed below:
+The _SPAT Revolution_ software supports with the same installer (binary) both license options and has the common features listed below:
 
  - An easy-to-understand setup page, showing a clear representation of the signal path.
  - A powerful mixing environment, using a 3D view and perceptive factor parameters.
@@ -22,12 +22,12 @@ The _SPAT Revolution_ software supports with the same installer (binary) both li
 
 ## Ultimate and Essential: Differences
 
-The main limitations of the **Essential** license are listed below:
+The main limitations of the **Essential** license are:
 
- - Total source channel inputs is limited to 32.
- - The number of rooms output is limited to either 16 speakers or HOA 3rd order.
+ - The number of channels is limited to 32 for all Inputs (cumulated).
+ - The number of channels is limited to 16 for all Outputs (cumulated).
+ - HOA order is limited to 3rd order.
  - Only one room can be used at a time: no simultaneous rendering.
- - Ambisonic decoding is done using AllRAD method
 
 <!-- TODO: check if there is other main limitations we want to list here -->
 

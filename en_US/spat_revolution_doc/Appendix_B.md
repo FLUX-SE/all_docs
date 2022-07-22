@@ -126,8 +126,6 @@ Included in release version 20.12 is the ability to display performance (CPU) me
 
 ## Engine Parallel Processing profile
 
-_!> Engine profiles are only available with the Ultimate license of SPAT Revolution_.
-
 _SPAT Revolution_ v20.12 introduced a new Multi-Core Parallel Computation Algorithm that is key to optimizing your hardware. This is for both the automation and the audio processing. The **Display Performance** option stated above will be our best ally to monitor the results. This can be accessed with shortcuts <code>Shift + Option + Command + P.</code>
 
 The Engine Preference section includes three Profiles for parallel processing

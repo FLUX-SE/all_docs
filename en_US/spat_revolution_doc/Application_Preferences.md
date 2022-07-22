@@ -3,7 +3,7 @@
 
 ![Preference Page]( https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Preference/PageUltimate.png)
 
-This page allows you to change global preferences of the application. Some panels could differ between the Essential and the Ultimate version, a note on the section title indicates it.
+This page allows you to change global preferences of the application.
 
 ## Global
 
@@ -34,19 +34,19 @@ Change the temperature used in the delay line calculation.
 _Default is 20 °C_
 
 
-### Edit Frame Rate - Ultimate only
+### Edit Frame Rate
 
 Define how many times per second the UI is refreshed.
 
 _Default is 30 Hz_
 
-### Engine Frame Rate - Ultimate only
+### Engine Frame Rate
 
 Define how many times per second the engine is refreshed.
 
 _Default is 60 Hz_
 
-### Meter Default Refresh Rate - Ultimate only
+### Meter Default Refresh Rate
 
 Define how many times per second the meters are refreshed
 
@@ -62,7 +62,7 @@ _Default is English_
 
 Reset back all the global parameters to default.
 
-### Import/Export Preferences - Ultimate only
+### Import/Export Preferences
 
 Allow exporting or import preferences.
 
@@ -145,7 +145,7 @@ Allows displaying the OSC messages in the application’s console.
 
 Allow to dump all properties when a socket change, i.e. when the IP address or the port number has been edited, or the socket is enabled. This ensures a constant synchronisation between any remote control and SPAT Revolution.
 
-### Output rate - Ultimate only
+### Output rate
 
 Define OSC output rates in milliseconds.
 
@@ -169,7 +169,7 @@ The HRTF panel allows setting up some generic options for HRTF handling.
 
 Choose the default HRTF used in binaural room or binaural monitoring blocks
 
-### Manage HRTFs - Ultimate only
+### Manage HRTFs - Ultimate license only
 
 The button open a window that allows downloading or removed HRTF. You can also import your own HRTF from this menu.
 
@@ -177,7 +177,7 @@ The button open a window that allows downloading or removed HRTF. You can also i
 
 ![Room Section]( https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Preference/Room.png)
 
-This panel allows changing some room properties. This is where you find most of the room options in the Essential version.
+This panel allows changing some room properties.
 
 ### Room gain
 
@@ -186,22 +186,6 @@ Change the gain of all the rooms of SPAT Revolution.
 ### Compute LFE
 
 Off by default, this option allows including the LFE position in the compute of the speaker alignment process.
-
-## Air absorption - Essential only
-
-Define the default behavior of air absorption for all the sources. See the source parameter section for more information about this property.
-
-## Drop log - Essential only
-
-Define the default behavior of drop log for all the sources. See the source parameter section for more information about this property.
-
-## Drop factor - Essential only
-
-Define the default behavior of drop factor for all the sources. See the source parameter section for more information about this property.
-
-## Coordinate mode - Essential only
-
-Define the coordinate mode of drop factor for all the sources. See the source parameter section for more information about this property.
 
 
 ## Signal Generator
@@ -241,7 +225,7 @@ Define the number of CPU cores used by the engine.
 Define how the CPU resources are spread among the cores available. In _Max Distribution_ mode, the CPU resources are evenly spread among the available cores.
 In _Favor First Core_, the engine will fill the CPU cores one by one. The _Balanced Distribution_ mode is a compromise between both.
 
-### BlackTrax RTTrPM - Ultimate only
+### BlackTrax RTTrPM - Ultimate license only
 
 ![BlackTrax Section](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Preference/Blacktrax.png)
 

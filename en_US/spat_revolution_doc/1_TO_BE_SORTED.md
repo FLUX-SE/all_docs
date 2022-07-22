@@ -95,7 +95,7 @@ Each source's direct sound plus the reverberation it creates is modeled and synt
 
 One of the most straightforward methods to start working with HOA spatialization in a signal flow is to connect input sources directly into an HOA Room. To convert a Room to be HOA, select High Order Ambisonics as the _Output Configuration Stream Type_.
 
-!> _HOA advanced features are only available with the Ultimate license of SPAT Revolution._
+!> _**Essential** licenses limits HOA order to the 3rd._
 
 All inputs to a room must be in channel-based format, even when it is an Ambisonic or Binaural Room. <!--That is the workflow at the time of writing (SPAT Revolution v1.1).--> This makes most intuitive sense, when using Ambisonic format inputs as pre-encoded "3D sound field" type inputs into a room. You cannot just add them into an HOA room, even though they may be HOA format. Why is that?
 
@@ -131,8 +131,6 @@ This is a First Order Ambisonic (FOA) room which is correctly suited for mixing 
 
 
 ## Mid-Side Room
-
-!> _Mid-Side option is only available with the Ultimate license of SPAT Revolution_.
 
 Similarly, if you are working with two-channel signals already encoded as MS format stereo, you can mix in an MS room. The outputs of MS rooms need to be decoded or transcoded into a suitable stereo format for reproduction on a stereo system.
 

@@ -52,7 +52,7 @@ _Ambisonics_ can also be encoded without elevation - this is called 2D horizonta
 - 6th Order 2D -> 13 Channels
 - 7th Order 2D -> 15 Channels
 
-!> Orders below the 1st and 3rd are only available for respectively sources and rooms with the Essential license of _SPAT Revolution_.
+!> With **Essential** license, 1st, 2nd and 3rd orders are only available.
 
 ## Normalization, sorting and presets
 

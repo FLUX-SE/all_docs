@@ -18,5 +18,3 @@ The **Master** bloc gives you a last gain staging control, as well as down mixin
 ![Master matrix](https://raw.githubusercontent.com/FLUX-SE/doc_images/main/SpatR/Setup/MasterMatrix.png)
 
 Finally, the [**Binaural Monitoring**](5_Spatialisation_Technology_5_1_Binaural_5_1_Binaural?id=binaural-monitoring-module.md) row provides a way to decode the whole scene to headphones only in binaural 3D.
-
-!> _Master section is automatically configured by the setup wizard with the Essential license of SPAT Revolution._

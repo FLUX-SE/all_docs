@@ -11,7 +11,8 @@ See [plugins specifications](https://www.flux.audio/plugin-specifications/) for 
 ## Processing
 
 _SPAT Revolution_ stand-alone software:
-- unlimited number of Inputs and Outputs (Ultimate only, hardware and audio interface dependent).
+- unlimited number of Inputs and Outputs
+- unlimited number of channels for Inputs and Outputs (**Ultimate** license only, hardware and audio interface dependent).
 - 32/64-bits internal floating-point processing.
 - Sampling rates up to 384kHz, block size starting at 16 samples.
 

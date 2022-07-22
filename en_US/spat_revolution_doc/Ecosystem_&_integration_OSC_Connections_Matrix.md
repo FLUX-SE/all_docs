@@ -35,7 +35,7 @@ For more details about the SPAT Revolution OSC dictionary and its usage syntax p
 
 The **output rate** allows changing how fast the engine will send OSC messages.
 The lower the value is, the more SPAT Revolution will send OSC message and the remote will display the changes, but it will also increase the stress on the CPU.
-If you experienced some CPU overload when moving sources through OSC command, you can try to increase the value (Ultimate only).
+If you experienced some CPU overload when moving sources through OSC command, you can try to increase the value.
 By default, it is set to 5.0 ms.
 
 ## OSC Connections Menu
@@ -80,6 +80,5 @@ Transform presets are accessible for each OSC connection and allow some quick re
 If the included transform preset does not fit yours needs, you can click on the <code>+</code> button to open the custom OSC transform menu.
 In this menu, you can choose how to scale our input our output values. You can also choose to exclude specific OSC command from the scaling rules.
 
-!> _Custom transformations are only available with Ultimate license of SPAT Revolution_.
 
 <!-- TODO: Do we need to add more information of the custom transformation? Explain what is "discrete(s)", ... I see most of people having issue understand it -->

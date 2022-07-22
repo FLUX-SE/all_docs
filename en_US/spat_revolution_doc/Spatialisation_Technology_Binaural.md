@@ -14,7 +14,7 @@ HRTF is an abbreviation for _Head Related Transfer Function_. This function is a
 
 When synthesizing binaural monitoring, a perfect result could be attained by rendering through the exact HRTFs that matches the body filtering effect of an individual. In practice this is not easily done, so _SPAT Revolution_ offers many choices of pre-analyzed HRTFs profiles which you can apply for monitoring and encoding binaural audio. You can manage the selection of HRTFs profiles in the _SPAT Revolution_ Preferences where you will find a number of different profiles including the option to load your own HRTFs. The default HRTFs is the Kemar dummy head model, which is often used as an all-round generic head and shoulder filter.
 
-!> _HRTFs import and management are only available with **Ultimate** license._
+!> _HRTFs import and management are not available with **Essential** license of SPAT Revolution._
 
 ## HRTF Profiles
 
@@ -28,12 +28,10 @@ The included HRTFs profiles in _SPAT Revolution_ are taken from a number of larg
 
 ### Normal binaural mode
 
-This mode uses the selected HRTFs profile in order to recreate the sound field. This is the only pan law available for binaural with the **Essential** license of _SPAT Revolution_.
+This mode uses the selected HRTFs profile in order to recreate the sound field.
 
 
 ### Advanced algorithms
-
-!> These advanced binaural “modes” are only available with the **Ultimate** license of _SPAT Revolution_.
 
 #### Near-field binaural
 
