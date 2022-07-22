@@ -24,6 +24,7 @@
       4. [Master section modules](Spat_Environment_Master_Section_Modules.md)
       5. [Output modules](Spat_Environment_Output_Modules.md)
       6. [Modules channel count](Spat_Environment_Modules_channel_count.md)
+      7. [Modules (de)activation](Spat_Environment_Modules_de_activation.md)
    4. [Items page](Items_Page.md)
    5. [Rooms pages](Spat_Environment_Room.md)
       1. [Sources properties & manipulation](Spat_Environment_Source.md)
