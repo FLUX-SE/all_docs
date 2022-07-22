@@ -169,7 +169,7 @@ A bus created with this command checks the audio stream of each track and adjust
 
 This is a new concept brought by ReaVolution.
 
-When working with software like SPAT Revolution, we often encounter one problem. Let say we have a drum kit recorded with four microphones: kick, snare & stereo overheads. A common mixing workflow is to create a summing bus and do some processing on it (compression and/or EQing). But then, we can only fed a summed stream to SPAT Revolution and we cannot spatialized each element independently.
+When working with software like _SPAT Revolution_, we often encounter one problem. Let say we have a drum kit recorded with four microphones: kick, snare & stereo overheads. A common mixing workflow is to create a summing bus and do some processing on it (compression and/or EQing). But then, we can only fed a summed stream to SPAT Revolution and we cannot spatialized each element independently.
 
 Here comes the multi-busses. It is a simple trick actually. If we create a multi-bus from our drum kit, it will create a folder track where the kick is routed to channel 1, the snare is routed to channel 2 and the overhead are routed to channel 3-4. So each element has its channel so nothing is summed here.
 
@@ -199,7 +199,7 @@ After running this action, you should be done at least at 95% of your configurat
 
 ### Receiving audio from SPAT Revolution
 
-To receive audio from SPAT Revolution, simply create a track at the wanted format using **"Audio stream::insert track"**. Then, go back to the **"SPAT Revolution"** menu by right-clicking on the track we just created and choose **"Receive audio from SPAT Revolution on selected track"**.
+To receive audio from _SPAT Revolution_, simply create a track at the wanted format using **"Audio stream::insert track"**. Then, go back to the **"SPAT Revolution"** menu by right-clicking on the track we just created and choose **"Receive audio from SPAT Revolution on selected track"**.
 
 ![receiveFromSpat.gif](include/receiveFromSpat.gif)
 

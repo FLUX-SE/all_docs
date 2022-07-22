@@ -39,7 +39,7 @@ The SPAT plug-ins offer a straightforward way to integrate the _SPAT Revolution_
 In order for the audio software integration to function correctly, the user needs to
 take into account certain principles of configurations.
 
-!> **Sample Rate and buffer size must match in both SPAT and the Plug-in Host**
+!> **Sample Rate and buffer size must match in both _SPAT Revolution_ and the Plug-in Host**
 
 You can configure these settings in the _SPAT Revolution_ Preferences, and matching settings also need to be configured in the host DAW Preferences.
 
@@ -51,12 +51,12 @@ You can configure these settings in the _SPAT Revolution_ Preferences, and match
 
 Additionally, there is an IO configuration setting inside each plug-in, accessible from the small 'cogs' icon.
 Set the IO Channel Count for each of the plug-ins this way.
-Each plug-in instance can carry up to 64 channels to and from SPAT.
+Each plug-in instance can carry up to 64 channels to and from _SPAT Revolution_.
 Once you have selected the channel count, _Enable_ the software routing using the _Local audio path_ switch.
 
 ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/InputModuleRow.png)
 
-If SPAT is running, then a Send or Return IO module will automatically appear in the _Environment Setup_ labeled with the _Track Name_ of the SPAT plug-in, and set to the channel count you have configured in the plug-in. If all is well configuration wise, and a successful local audio stream has been established, the Send and Return modules will have a small green indicator.
+If _SPAT Revolution_ is running, then a Send or Return IO module will automatically appear in the _Environment Setup_ labeled with the _Track Name_ of the SPAT plug-in, and set to the channel count you have configured in the plug-in. If all is well configuration wise, and a successful local audio stream has been established, the Send and Return modules will have a small green indicator.
 
 > _On some machines, you need to use the TAB key to register a new Track Name or IP address change in a Spat Plug in._
 

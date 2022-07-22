@@ -75,7 +75,7 @@ Although controlling _SPAT Revolution_ source objects from Nuendo audio tracks i
   * Make sure output 1 to 64 remains unpatched, leaving this part of the patch to objects.
   * Patch 7.1.2 bus to 65 to 74 and 75 to 84 for the Atmos master bus.
 
-> **Even if you aren't going to be using the Dolby capabilities of Nuendo and are planning only to render with SPAT Revolution, you need the 7.1.4 Atmos Master bus as this is being used to declared tracks as objects and assign objects IDs**
+> **Even if you aren't going to be using the Dolby capabilities of Nuendo and are planning only to render with _SPAT Revolution_, you need the 7.1.4 Atmos Master bus as this is being used to declared tracks as objects and assign objects IDs**
 
 
 ![Audio Connection in Nuendo V11](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/NuendoADMAudioConnections1.png)

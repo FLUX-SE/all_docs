@@ -15,7 +15,7 @@ In the case where an incoming Channel Based stream needs transcoding into an out
 
 ## When to Transcode Inputs?
 
-The main reason you will need to transcode inputs is when you are mixing and spatializing inputs in a SPAT _Virtual Room_. This is because the _Virtual Room_ module requires incoming sources to be in a Channel Based format. Internally, the Room may well be panning in Channel based, Ambisonics or binaural format, but it always needs Channel Based streams as inputs. More about this in the _Virtual Room_ section. Format transcoding may not always need re-spatializing in a room. There are some contexts where you will not use a Virtual Room in the signal flow,
+The main reason you will need to transcode inputs is when you are mixing and spatializing inputs in a _SPAT Revolution_ _Virtual Room_. This is because the _Virtual Room_ module requires incoming sources to be in a Channel Based format. Internally, the Room may well be panning in Channel based, Ambisonics or binaural format, but it always needs Channel Based streams as inputs. More about this in the _Virtual Room_ section. Format transcoding may not always need re-spatializing in a room. There are some contexts where you will not use a Virtual Room in the signal flow,
 
 ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Education/TranscodingExplained.png)
 
@@ -26,7 +26,7 @@ As mentioned in [Introduction to Ambisonics](Spatialisation_Technology_Scene_bas
 
 ## Aggregation of input
 
-As some DAW does not support multichannel tracks, SPAT provides on the input transcoder a way to aggregate stereo or mono input in order to make multichannel sources.
+As some DAW does not support multichannel tracks, _SPAT Revolution_ provides on the input transcoder a way to aggregate stereo or mono input in order to make multichannel sources.
 
 To do it, connect several inputs on the same input transcoder or source and select on it the wanted format. When selecting it, a combobox "Aggregate Input" will appear, and will allow to aggregate all the inputs.
 

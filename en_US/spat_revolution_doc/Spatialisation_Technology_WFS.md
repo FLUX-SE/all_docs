@@ -12,7 +12,7 @@ Under certain strict conditions, WFS can create the impression of a source posit
 
 ### Availability  - WFS Add-on license
 
-Referred to as a panning type in SPAT Revolution, the WFS spatial audio reproduction technique is available with **the WFS Add-on license option, only for SPAT Revolution Ultimate version.**
+Referred to as a panning type in _SPAT Revolution_, the WFS spatial audio reproduction technique is available with **the WFS Add-on license option, only for _SPAT Revolution_ Ultimate version.**
 
 
 ## SPAT Revolution implementation of WFS

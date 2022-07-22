@@ -15,7 +15,7 @@ Gäel Martinet, Vincent Carlier, Thibaut Carpentier, Anders Tveit and the IRCAM 
 
 **Legal Information**
 
-Third edition of FLUX:: Spat Revolution User Guide published in January 2022
+Third edition of FLUX:: _SPAT Revolution_ User Guide published in January 2022
 
 All writing is protected under copyright © 2022 Cristian Vogel / FLUX SOFTWARE ENGINEERING
 

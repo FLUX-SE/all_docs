@@ -66,7 +66,7 @@ Last step is to go into the trial section and request a trial for SPAT Revolutio
 
 Now open the iLok License Manager app and activate your license by drag and dropping it to your computer. You can then close the iLok app and open the FLUX:: Center.
 
-Connect to your FLUX account and download the SPAT Revolution, when you download the SPAT Revolution the plugins and the Ableton Live Tools for SPAT Revolution will be automatically installed as well.
+Connect to your FLUX account and download the _SPAT Revolution_, when you download the SPAT Revolution the plugins and the Ableton Live Tools for SPAT Revolution will be automatically installed as well.
 
 ### Tools
 
@@ -117,7 +117,7 @@ Software such as **Loopback** from **Rogue Amoeba** can be very useful to route 
 
 Now that everything is installed, let's optimize a few parameters in your macOS before getting into the setup.
 
-When working with SPAT Revolution, and this can extend to any other audio work, you do not want any interference or background apps refreshing that would consume even the tiniest bit of CPU, so disabling Bluetooth, Wi-Fi as well as AirDrop is a great way to start and very simple to do.
+When working with _SPAT Revolution_, and this can extend to any other audio work, you do not want any interference or background apps refreshing that would consume even the tiniest bit of CPU, so disabling Bluetooth, Wi-Fi as well as AirDrop is a great way to start and very simple to do.
 
 You can make it even more simply using the provided *Shortcuts package* we created to do just that. They are located in the same folder as the other device so: <code>/Library/Application Support/Flux/Ableton Live Devices/SPAT/macOS Shortcuts</code>
 
@@ -491,7 +491,7 @@ We will start by creating an "Aggregate Device" in the "AUDIO MIDI SETUP" panel 
 
 Then we will use this device as Output in SPAT Revolution and Input in Ableton Live, set the out channels of the binaural output block to the two corresponding channels of my 2ch device and the rest to the Atmos output.
 
-Then the only thing left to do is to create the tracks in Live that will receive the audio coming out of SPAT Revolution, routing them accordingly and press record and letting the thing play!
+Then the only thing left to do is to create the tracks in Live that will receive the audio coming out of _SPAT Revolution_, routing them accordingly and press record and letting the thing play!
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/FBz65vx_xJM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -593,7 +593,7 @@ To the Ableton Team for making such an amazing DAW.
 
 ### iLok Message
 
-If you ever get that message when starting SPAT Revolution, first if you have activated your license from the iLok License Manager app, this error can still happens.
+If you ever get that message when starting _SPAT Revolution_, first if you have activated your license from the iLok License Manager app, this error can still happens.
 
 ![iLok Message](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/Live_Tools/Screenshot%202022-03-31%20at%2018.32.48.png)
 

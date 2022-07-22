@@ -10,11 +10,11 @@ Essentially, when we start working with multiple speakers in different configura
 
 **_SPAT Revolution_ lets you explore some of the most advanced panning algorithms for surround, immersive 3D or ad-hoc sound systems.**
 
-In _SPAT Revolution_, you will be able to explore some of the best panning algorithms for multispeakers setups. You can apply them in realtime and identify their characteristic differences by ear. Trying them out in realtime on a setup will help you select the panning algorithm that is best suited for your particular project and material.
+In _SPAT Revolution_, you will be able to explore some of the best panning algorithms for multi-speakers setups. You can apply them in realtime and identify their characteristic differences by ear. Trying them out in realtime on a setup will help you select the panning algorithm that is best suited for your particular project and material.
 
 Although there are technical aspects to be interested in and aware of, you are still invited to be creative and use your ears when deciding which are the right panning types for your project and intended audience.
 
-> ★ Try using more than one Spat Room to use different panning algorithms for sound material that has different sonic qualities (Ultimated only).
+> ★ Try using more than one _SPAT Revolution_ _Virtual Room_ to use different panning algorithms for sound material that has different sonic qualities (**Ultimate** license only).
 
 
 > Some academic papers about some following panning laws could be found here [on the online _SPAT Revolution_ knowledge base](https://www.flux.audio/knowledge-base/panning-types/).
@@ -26,7 +26,7 @@ Although there are technical aspects to be interested in and aware of, you are s
 This mode reproduces the basic experience of a pan pot. It comes with some options:
 + The pan law can follow a sin/cos approach or a square root. This produces a subtle difference in how the sound travel between the left and right speaker.
 + It is possible to change the center attenuation. By default, a sound placing at the center of the two speakers is played back with an attenuation of 3dB (considering acoustic summing). Other possible attenuation is : -4.5dB, -6dB.
-+ The PMAP, Perceptually Motivated Amplitude Panning, aimed at improving sound localization on stereo systems and on any pair speaker system with an arbitrary base angle.
++ The PMAP, Perceptually Motivated Amplitude Panning, aims at improving sound localization on stereo systems and on any pair speaker system with an arbitrary base angle.
 
 ### XY and AB
 
@@ -36,7 +36,7 @@ These two Panning Types will only become available when a _Virtual Room_ is set 
 
 **XY Panning** simulates the recording of the sound scene by a pair of microphones in a XY coincident configuration.
 
-> ★ The aim is to get the same stereo flavor as these dual microphone tracking techniques. Try them on close miked sources or any mono. Source, to get a realistic stereo image.
+> ★ The aim is to get the same stereo flavor as these dual microphone tracking techniques. Try them on close miked sources or any mono source, to get a realistic stereo image.
 
 ## Vector Base Amplitude panning (VBAP)
 
@@ -47,7 +47,7 @@ Vector Base Amplitude Panning has become one of the more standardised methods fo
 **How does it work?**
 
 
-Traditional VBAP works by manipulating the gain of the signals being routed to the two (in 2D) or three (in 3D) closest speakers to a virtual sound source. VBAP relies heavily on an accurate speaker arrangement model to do this. It triangulates gain vectors mathematically in order to render a virtual object in the physical space and achieves its characteristic 'sharp' focus by using only a few speakers closest to the virtual source location. Additionally, it is possible to uniformly extend the traditional VBAP pair-wise (or triplet-wise) speaker picking and activate more of the sound system, effectively diffusing the relationship between individual speakers and sounds using _spread_.
+Traditional VBAP works by manipulating the gain of the signals being routed to the two (in 2D), or three (in 3D), closest speakers to a virtual sound source. VBAP relies heavily on an accurate speaker arrangement model to do this. It triangulates gain vectors mathematically in order to render a virtual object in the physical space and achieves its characteristic 'sharp' focus by using only a few speakers closest to the virtual source location. Additionally, it is possible to uniformly extend the traditional VBAP pair-wise (or triplet-wise) speaker picking and activate more of the sound system, effectively diffusing the relationship between individual speakers and sounds using _spread_.
 
 > ★ Widen a VBAP point source by increasing the Spread source parameter.
 
@@ -63,7 +63,7 @@ speakers are equidistant even when they are not.
 
 ## Vector Base Intensity (VBIP)
 
-!> VBIP is only available in the Ultimate version of _SPAT Revolution_.
+!> VBIP is only available with the **Ultimate** license of _SPAT Revolution_.
 
 Vector Base Intensity Panning is a similar variation to the VBAP technique. It can also reproduce a 2D or 3D immersive sound field with sharply localised virtual sound sources.
 
@@ -115,23 +115,23 @@ KNN is another panning type that does not depend on a _Sweet Spot_ to be perceiv
 
 **How Does It Work?**
 
-An interesting parameter of KNN is that the user gets manual control over one of the main coefficients in the underlying algorithm. The parameter is called _Nearest Neighbor Spreading_. It sets a maximum limit to the number of speakers that the algorithm can use as neighbors - the parameter becomes available as a continuously variable percentage _for each virtual source_ in a SPAT room.
+An interesting parameter of KNN is that the user gets manual control over one of the main coefficients in the underlying algorithm. The parameter is called _Nearest Neighbor Spreading_. It sets a maximum limit to the number of speakers that the algorithm can use as neighbors - the parameter becomes available as a continuously variable percentage _for each virtual source_ in a _SPAT Revolution_ room.
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Room/SourceSpreading.png)
+![Source Spreading](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Room/SourceSpreading.png)
 
-What makes this particularly interesting is that different sources can activate less or more of the sound system dynamically and in a very smooth way. For example, one virtual sound source might seem to pop in and out of individual speakers because its _Nearest Neighbors Spread_ parameter is set a low percentage. For example, on a 10-speaker arrangement :1-10% will use 1 speaker, 11% to 20% 2 and so on. Another sound source could seem diffuse over the entire sound system, because its spread variable is set to 100%.
+What makes this particularly interesting is that different sources can activate less or more of the sound system dynamically and in a very smooth way. For example, one virtual sound source might seem to pop in and out of individual speakers because its _Nearest Neighbors Spread_ parameter is set a low percentage. For example, on a 10-speaker arrangement :1-10% will use 1 speaker, 11% to 20% 2, and so on. Another sound source could seem diffuse over the entire sound system, because its spread variable is set to 100%.
 
 > ★ Try automating the Nearest Neighbors Spread in a relationship with another source property of the same sound sources such as room presence.
 
 ## Speaker-Placement Correction Amplitude (SPCAP)
 
-!> SPCAP is only available in the Ultimate version of _SPAT Revolution_.
+!> SPCAP is only available with the **Ultimate** license of _SPAT Revolution_.
 
 SPCAP is a 3D panning algorithm which takes its inspiration from VBAP. SPCAP selects not just 2 or 3, but any number of speakers to render a virtual source and weights signal gains according to how much each selected speaker is actually contributing to the overall power output of the speaker configuration. Using this method SPCAP guarantees conservation of loudspeakers power output across any speaker arrangement. Its strengths lie in the down-mixing and up-mixing of virtual scenes from very different channel-based speaker arrangements, and in being able to render wider sound sources by using more speakers in a smart way.
 
 **How Does It Work?**
 
-The result will still be sweet-spot dependent although it will be a wider listening area. SPCAP inherits some of the dependencies of VBAP to get successful spatial imaging.
+The result will still be _Sweet Spot_ dependent, although it will be a wider listening area. SPCAP inherits some of the dependencies of VBAP to get successful spatial imaging.
 
 1. Speakers must be placed _around_ the listening position.
 2. 2D speakers should be on the same horizontal plane as the ears.

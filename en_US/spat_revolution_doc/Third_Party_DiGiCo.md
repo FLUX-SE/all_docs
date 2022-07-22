@@ -105,7 +105,7 @@ Important: The source/object index numbers of SPAT Revolution is matching the ph
 This means channel or group 1 on the desk will be source/object index 1 in SPAT Revolution. 
 The same applies to a stereo channel or a stereo group. 
 It is a single index for a stereo element. 
-The communication between SPAT Revolution and DiGiCo is bidirectional - so when moving an object in SPAT Revolution, you will see that the parameters are changing at the external control window of the desk and vice versa.
+The communication between SPAT Revolution and DiGiCo is bidirectional - so when moving an object in _SPAT Revolution_, you will see that the parameters are changing at the external control window of the desk and vice versa.
 
 You can use console snapshots to create your various scenes/cues. 
 When recalling snapshots, the external parameters will be recalled as well. 

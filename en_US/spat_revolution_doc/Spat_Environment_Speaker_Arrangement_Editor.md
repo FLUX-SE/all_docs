@@ -4,7 +4,7 @@
 
 The **speaker arrangement editor** offers the ability to prepare the model of the sound diffusion system you are actually using.
 
-![width=700, atl=Spat Revolution Speaker Config Edit](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/RoomInspectorEdit.png)
+![width=700, atl=_SPAT Revolution_ Speaker Config Edit](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/RoomInspectorEdit.png)
 
 When you find yourself working on a custom multi-channels speaker arrangement, the **Speaker Config** editor is where a model of the sound diffusion system can be defined and stored into the list of speaker arrangements.
 
@@ -12,7 +12,7 @@ Open the **speaker arrangement editor** by clicking on the <code>Edit</code> but
 
 ## Creating & editing a speaker arrangement
 
-![width=500, atl=Spat Revolution Speaker Config](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/SpeakerEditor3.png)
+![width=500, atl=_SPAT Revolution_ Speaker Config](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/SpeakerEditor3.png)
 
 ### Speaker Arrangement section
 
@@ -36,7 +36,7 @@ Open the **speaker arrangement editor** by clicking on the <code>Edit</code> but
 
 ### Alignment section
 
-![width=800, atl=Spat Revolution Speaker Config](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/SpeakerEditorCompute3.png)
+![width=800, atl=_SPAT Revolution_ Speaker Config](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/SpeakerEditorCompute3.png)
 
 **Reset:** revert the *compute* process.
 
@@ -49,7 +49,7 @@ Regarding the LFE, by default it is not included in the compute process. If you 
 
 ### Speakers section
 
-It is possible to create many speakers or to edit them all at once using geometric transformation. In SPAT Revolution, these transformations are mathematical law used to distribute points (in our case, speakers) in the space. In other words, it can help to create circles, spheres or lines of speakers in second instead of minutes.
+It is possible to create many speakers or to edit them all at once using geometric transformation. In _SPAT Revolution_, these transformations are mathematical law used to distribute points (in our case, speakers) in the space. In other words, it can help to create circles, spheres or lines of speakers in second instead of minutes.
 
 **Add:** add new speakers according to a specified transformation.
 
