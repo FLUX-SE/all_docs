@@ -654,11 +654,13 @@ If that doesn't do it you can also change the OSC Port to something else, and th
 
 ![osc error](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/Live_Tools/osc_in_error.gif)
 
-### SPAT Revolution Essential Version?
+### SPAT Revolution Essential license?
 
-Q: Is this workflow compatible with the Essential Version of SPAT Revolution?
+Q: Is this workflow compatible with the **Essential** license of _SPAT Revolution_?
 
-A: For now due to limitation of the Essential version this workflow isn't fully compatible, maybe later with some future update of Essential and some tweaking on my end. Making this workflow work for Essential would require to change it some much that you could not call this the same Workflow.
+A: For now due to limitation of the **Essential** license this workflow isn't fully compatible, maybe later with some future update of Essential and some tweaking on my end. Making this workflow work for Essential would require to change it some much that you could not call this the same Workflow.
+
+<!-- todo: is this still true? -->
 
 ## You want More?!
 

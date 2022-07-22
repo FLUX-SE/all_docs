@@ -10,7 +10,9 @@ New updated templates for QLab are available and provide cue examples that can b
 **Qlab _SPAT Revolution_ integration.qlab4**
 
 With the release of the snapshot feature, this template shows how you can manage _SPAT Revolution_ and QLab integration on the same machine, using _SPAT Revolution_ Send plug-ins. Both QLab and _SPAT Revolution_ session are included, with 16 Mono and 8 Stereo SPAT Send on cue outputs.
-This template iss _SPAT Revolution_ Essential compliante, for binaural and Channel-based setups.
+This template is _SPAT Revolution_ Essential compliant, for binaural and Channel-based setups.
+
+<!-- todo is this always true? can others be compliant? -->
 
 **[Qlab _SPAT Revolution_ integration EURO.qlab4](https://public.3.basecamp.com/p/vhf67dYdBTHhwbtVJV4y227i)**
 **[Qlab _SPAT Revolution_ integration US.qlab4](https://public.3.basecamp.com/p/oi3GoHpToVmEqijVV7F4QhJq)**

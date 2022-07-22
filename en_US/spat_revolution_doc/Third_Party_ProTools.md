@@ -162,8 +162,8 @@ With this in place, you will have track presets that can be used for SEND and RE
 - Send 7.1
 - Send 7.1.2
 - Send HOA 1
-- Send HOA 2 (not supported on Essential)
-- Send HOA 3 (not supported on Essential)
+- Send HOA 2 (not supported on Essential) <!-- todo is this always true as Essential allows up to 3rd HOA order? -->
+- Send HOA 3 (not supported on Essential) <!-- todo is this always true as Essential allows up to 3rd HOA order? -->
 - Return Stereo
 - Return Binaural
 - Return Quad
