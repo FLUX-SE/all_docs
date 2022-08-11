@@ -102,8 +102,6 @@ For example, working in an HOA room create 3D view that does not show any speake
 This panel lists all the speakers used in the room (when set to channel based). It allows quick access to the speaker arrangement editor and to the compute function.
 Each output has a "test" button that sends the signal from the signal generator directly the routed speaker. The signal generator type and level are set in the _[Preferences page](Application_Preferences.md)_.
 
-!> Be careful, the generator is post mute and post gain.
-
 ### Listener
 
 This panel gives access to the listening point. We can change its position, using the _X_, _Y_, _Z_ parameters, and its rotations using _Yaw_, _Pitch_, _Roll_.

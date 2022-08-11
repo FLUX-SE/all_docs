@@ -40,23 +40,24 @@ Open the **speaker arrangement editor** by clicking on the <code>Edit</code> but
 
 **Reset:** revert the *compute* process.
 
-**Compute:** compute an ideal position to align all the speakers on the same circle to improve the sweetspot rendering. The furthest away speaker is used as the alignment reference.
-
-Regarding the LFE, by default it is not included in the compute process. If you wish to change this, you will find a "compute LFE" option in the room panel of the preferences page.
-
-> It is preferable to do this alignment in SPAT Revolution instead of external processing as SPAT will use the computed speaker locations (the virtual speakers) for actually spatializing afterward.
+**Compute:** opens a dialog to help to set delay and gain on the speaker arrangement. More information of the [dedicated section below](Spat_Environment_Speaker_Arrangement_Editor.md?id=delay-and-gain-computing)
 
 
-### Speakers section
+### Selected or all speakers section
 
-It is possible to create many speakers or to edit them all at once using geometric transformation. In _SPAT Revolution_, these transformations are mathematical law used to distribute points (in our case, speakers) in the space. In other words, it can help to create circles, spheres or lines of speakers in second instead of minutes.
+It is possible to create many speakers or to edit them all at once using geometric transformation. In _SPAT Revolution_, these transformations are mathematical laws used to distribute points (in our case, speakers) in the space. In other words, it can help to create circles, spheres or lines of speakers in second instead of minutes.
 
-**Add:** add new speakers according to a specified transformation.
+**Transform:** modify the selected or all speakers according to a specified transformation. For more information about it, check out the [transformation section](Spat_Environment_Transformation.md).
 
-**Transform:** modify the current speaker arrangement according to a specified transformation.
+**Set orientation**: set the orientation of selected or all speakers.
 
+**Fix automatic orientation**: for speakers whose orientation is set to automatic, replace it to real orientation (front, back, listener, custom, ...) instead of automatic.
 
-For more information about it, check out the [transformation section](Spat_Environment_Transformation.md)
+**Del.:** remove the selected speaker(s) in the arrangement.
+
+**Move up:** move the selected speaker(s) one row above.
+
+**Move down:** move the selected speaker(s) one row below.
 
 <!--
 
@@ -64,15 +65,12 @@ TODO: add transformation speaker picture
 
 -->
 
-### Speaker section
+### Add speaker(s) section
 
 **Add:** create a new speaker in the arrangement.
 
-**Del.:** remove the selected speaker in the arrangement.
+**Add along geometries:** add new speakers according to a specified geometries.
 
-**Move up:** move the selected speaker one row above.
-
-**Move down:** move the selected speaker one row below.
 
 ### The speakers list section
 
@@ -137,3 +135,15 @@ There are five colors associated with the possible panning types:
 > Error displayed with HOA panning type.
 
 For more information about each pan law, check out the section [Panning algorithms](Spatialisation_Technology_Panning_Algorithms.md).
+
+## Alignment
+
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/AlignmentDialog.png)
+
+Speakers alignments section lets _SPAT Revolution_ compute the delay and gain for the selected speaker arrangement. To help to deal with them with complex systems, several methods are provided, allowing adapting your alignment according ot the wanted behavior:
+
+- **Spherical**: will align speaker according to a sphere. The farthest speaker will determine the sphere radius. _This is the old behavior of the compute feature._
+- **Cartesian with minimum delay**: will align the speakers according to straight lines.
+- **Cartesian with symmetry**: will align left/right and front/back speakers according to symmetrical straight lines.
+
+It is possible to select the speakers on each the alignment will be done according to their orientation.

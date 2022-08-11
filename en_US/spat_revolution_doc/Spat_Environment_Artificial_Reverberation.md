@@ -1,8 +1,10 @@
 # Artificial Reverberation
 
+<!-- TODO: Update all images of this part -->
+
 Each _Virtual Room_ in SPAT can have its own artificial reverberation. 
 Reverberation is a very important element in the psycho-acoustic perception of localised sources and immersive sound fields.
-The reverb processor in SPAT is a multi-channel algorithmic 3D reverb based on feedback delay networks.
+The reverb processor in SPAT is a multichannel algorithmic 3D reverb based on feedback delay networks.
 The SPAT reverberation engine is designed to synthesise the experience of the virtual sources, and the listener all being placed within the same virtual acoustic space.
 Virtual spaces can be tuned, scaled and stored.
 Open the _Artificial Reverberation_ graphical editor by clicking on the (<code>**R**</code>) index at the bottom of the list of sources on the left side panel of the Room.
@@ -12,7 +14,7 @@ Open the _Artificial Reverberation_ graphical editor by clicking on the (<code>*
 Internally, the _SPAT Revolution_ reverb engine models many technical acoustic parameters, but the user interface has been simplified a great deal, to make artificial reverb design more straightforward and functional.
 
 
-> **Some Spat Reverb parameters control how the acoustics are _perceived_**
+> Some Spat Reverb parameters control how the acoustics are _perceived_.
 
 Alongside conventional tuning parameters which you might be familiar with, you will also find perceptual parameters, such as _heaviness_, _liveness_ and _presence_.
 
@@ -34,22 +36,10 @@ Remember it works in 3D and interacts deeply with the parametric design of all v
 
 **This is no ordinary reverb.**
 
-The SPAT Reverb is a true acoustic modelling multi-channel reverb, not just a so-called true stereo reverb.
+The SPAT Reverb is a true acoustic modelling multichannel reverb, not just a so-called true stereo reverb.
 Despite its internal complexity, the user is invited to morph and modulate the characteristics of the virtual acoustics.
 To make this process fluid and natural, the parameter controls have been carefully designed so that they do not glitch.
 This invites continuous parametric modulation ideas, for designing out of this world reverberant spaces, in realtime.
-
-## Defaults
-
-A double click on any Reverb Parameter dial will reset it to a SPAT default setting.
-The default setting of a parameter is indicated around a dial as a larger tick than the other tick marks.
-Additionally, a range is graphically indicated between the default setting and the current setting of a variable parameter.
-
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Room/SourcePanelTweaked.jpg)
-
-<!-- TODO: Update this image -->
-
-> _Use the defaults as reference points in your spatial sound design._
 
 ## Reverb Design Presets
 
@@ -62,7 +52,7 @@ you already know.
 
 ## Preset Memories
 
-<!-- TODO: do we really want this part here? It'q global to all parameters, not only reverb one -->
+<!-- TODO: do we really want this part here? It's global to all parameters, not only reverb one -->
 
 Each parameter has the possibility to store useful preset settings of your own choosing.
 Right click on a parameter dial, and a contextual menu will pop up. From there you can store the current setting to a Memory Slot, or Recall a setting from a previously saved memory slot.
@@ -73,7 +63,7 @@ Right click on a parameter dial, and a contextual menu will pop up. From there y
 
 ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Room/ReverberationGeneral.png)
 
-### Reverb Enabled
+### Reverb enable
 
 Enable/disable the entire reverberation engine for the room. All the components (early, cluster and tail) of all sources will be affected.
 

@@ -1,18 +1,18 @@
 # Items' page
 
-This page gives an overview and allow to edit the major parameters for each type of items (Input, Source, Room, etc.)
+This page gives an overview and allows to edit the major parameters for each items type (Input, Source, Room, etc.)
 
-![The items' page](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ItemsPage/ItemsPage.png)
+![The items' page](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Items/Page.png)
 
 The following video illustrates some possibilities that this page offers.
 
-![The Items' page demo](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ItemsPage/ItemsPageDemo.gif)
+![The Items' page demo](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Items/Demo.gif)
 
 ## Items' type selection
 
 The upper left list control allows to choose which kind of items you want to display in the Items' Page.
 
-![Items' selection](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ItemsPage/ItemsPage_item_selection.gif)
+![Items' selection](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Items/Iitem_Selection.gif)
 
 
 ## Parameters
@@ -24,8 +24,8 @@ Depending on the selected item's type, the editable parameters are the following
 For all items (except Snapshots) the items' page allows quick edition of: 
 
 - **Number**: the item number order of the list. 
-- **Name**: edit this field to change the name of the item
-- **Active**: define if the item is computed or not. _If the item is inactive due to license restriction, the field cannot be edited_
+- **Name**: edit this field to change the name of the item.
+- **Active**: define if the item is computed or not. _If the item is inactive due to license restriction, the field cannot be edited._
 
 ### Source specific parameters
 
@@ -38,26 +38,49 @@ In addition to the common parameters, when the _Source_ item's type is selected,
 - **Remote number**: define the index of the source on OSC side. _If set to 0, the remote number is equal to the source number. Careful with this behavior: this will be edited with the source order._
 - **Automation**: define if the source can be controlled by automation via Local Audio Path.
 - **Snapshot**: define if the source can be controlled by snapshot recall.
-- **Tracking number**: define the RTTrPM beacon number used for control this source. If set to 0, the tracking will be disabled. _Ultimate license only._ 
+- **RTTrPM number**: define the RTTrPM beacon number used for control this source. If set to 0, the tracking will be disabled. _Ultimate license only._ 
 - **Gain**: define the gain of the source.
 - **Mute**: define the mute status of the source.
 
-![Items page for sources](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ItemsPage/Sources.png)
+![Items page for sources](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Items/Sources.png)
 
 ### Input specific parameters
 
 In addition to the common parameters, when the _Input_ item's type is selected, the Items' Page shows:
 
-- **Type**: displays if the input is _Live inpput_ or _Signal generator_.
-- **Connected**: displays if the input is connected to other items. 
+- **Type**: displays if the input is _Live input_ or _Signal generator_.
+- **Speaker arrangement**: select the speaker arrangement of the input.
+- **Delay (smp)**: define the input delay in sample.
+- **Delay (ms)**: define the input delay in ms.
+- **Delay (meters)**: define the input delay in meters.
+- **Delay (feets)**: define the input delay in feets.
+- **Connected**: displays if the input is connected to other items.
+- **Send to analyzer**: displays if the input is sent to FLUX:: Analyzer.
 
-![Items page for sources](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ItemsPage/Inputs.png)
+![Items page for sources](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Items/Inputs.png)
+
+### Room specific parameters
+
+In addition to the common parameters, when the _Room_ item's type is selected, the Items' Page shows:
+
+- **Connected sources**: displays the number of connected sources.
+- **Speaker arrangement**: select the speaker arrangement of the room. For HOA and Binaural room, this field displays respectively the dimension and the HRTF. 
+- **Pan law**: select the pan law of the _Room_, if stream type is Channel-Based or Binaural. For HOA room, this field displays the HOA order.
+- **Reverb enable**: define if the reverb is enabled in this room.
+- **Scaling distance**: define the scaling distance of the room in meters.
+- **Tracking scaling**: define the tracking scaling of the room in meters.
+- **Efficiency zone**: select the wanted behavior when a source is out of the efficiency zone of the room.
+- **Protection zone width**: define the width of the protection zone.
+- **Send to analyzer**: displays if the room is sent to FLUX:: Analyzer.
+
+
+<!-- todo document ! and add picture
 
 ### Snapshot specific parameters
 
 Regarding the Snapshots, the Items' page shows and allow to edit the following information:
 
-<!-- todo document ! and add picture -->
+ -->
 
 ## Navigation
 

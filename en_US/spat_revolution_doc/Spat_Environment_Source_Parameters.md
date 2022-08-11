@@ -1,5 +1,6 @@
 # Source Parameters
 
+<!-- TODO: update all images of this section -->
 
 ## Room specific gain
 
@@ -128,7 +129,7 @@ The aperture parameter relates to the “sound cone” projected by the virtual 
 
 > Aperture can make a source 'activate' more of the acoustic space.
 
-### Send LFE
+## Send LFE
 
 ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Room/SourceSendLFE.png)
 

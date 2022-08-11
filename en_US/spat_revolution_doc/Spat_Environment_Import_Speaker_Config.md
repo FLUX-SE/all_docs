@@ -2,16 +2,16 @@
 
 For systems that are regularly changing such as in live production, setting up the speaker configuration in the simulation software and then  repeating it in the immersive software is not the most fun part!
 
-To ease this part of the setup, you can now import from software of Nexo  (NS-1), Adamson (Blueprint), d&b (ArrayCalc), CODA Audio (System Optimiser) and the standard EASE software.
+To ease this part of the setup, you can now import from software of Nexo (NS-1), Adamson (Blueprint), d&b (ArrayCalc), CODA Audio (System Optimiser) and the standard EASE software.
 
-This import is integrated into the "Speaker Config" editor where you can find the "Import from" button.
+This import is integrated into the **Speaker Arrangement** editor where you can find the <code>Import from</code> button.
 
 ![image](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/SpeakerEditorImportFrom.png)
 To begin is the FLUX IOConfig. This is the FLUX:: speaker arrangements file format. This can be a great tool to export and save your FLUX:: arrangements or to import an arrangement into another session / computer system.
 
 In _SPAT Revolution_, it is important to understand that speaker arrangements **DO**  follow the session file. So if you are opening a .JSON with an arrangement new to your system, _SPAT Revolution_ will copy that arrangement and it will then be part of the user-created arrangements. In consequence, this new arrangement will be accessible for any new _SPAT Revolution_ session.
 
-If you care to know where these arrangements are stored, <code>Document/FLUX SE/Spat Revolution/Config</code> is where your master IOCONFIG file, containing all the user-defined arrangement, is located. Note that the repertory <code>Document/FLUX SE/Spat Revolution</code> is now the folder that contains all of your SPAT preferences. If you ever need to erase your preferences, for troubleshooting purpose, remember to export your speaker arrangements first, and then back them up outside of this folder.
+If you care to know where these arrangements are stored, <code>Document/FLUX SE/Spat Revolution/Config</code> is where your master IOConfig file, containing all the user-defined arrangement, is located. Note that the repertory <code>Document/FLUX SE/Spat Revolution</code> is now the folder that contains all of your SPAT preferences. If you ever need to erase your preferences, for troubleshooting purpose, remember to export your speaker arrangements first, and then back them up outside this folder.
 
 ## How to import a speaker configuration from
 

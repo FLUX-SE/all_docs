@@ -120,14 +120,3 @@ A new panel relative to the snapshot is available on the preferences page, allow
 - **Number of saved version**: determines the number of version saved when updating a snapshot. Careful: increasing this number increases deeply the size of the .json SPAT file. 
 - **Ask for update before recalling**: when checked, a dialog will ask you if you want to update the snapshot before each recalled.
 
-
-## Snapshot toolbar
-
-![Snasphot toolbar](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Generic/SnapshotToolbar.png)
-
-This toolbar has been designed to help to play with snapshots without navigating to the snapshots page. You will find some of the most important snapshot actions:
-- Recall the <code>Previous</code> snapshot.
-- The name of the <code>Current</code> snapshot. Clicking on it will display the snapshot list, enabling to recall any snapshot of the list.
-- Recall the <code>Next</code> snapshot.
-- <code>Update</code> the current snapshot.
-- Enable or disable the <code>Relative Recall</code>.

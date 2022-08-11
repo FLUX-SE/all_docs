@@ -19,7 +19,7 @@ The _Environment Setup_ editor is a modular environment. The signal flow starts 
 
 ## Stream types and associated options
 
-Modules blocs are caracterized by their stream type. In spatial audio, audio streams can be of different natures, as seen in the [Spatialisation Technology]() section.
+Modules blocs are characterized by their stream type. In spatial audio, audio streams can be of different natures, as seen in the [Spatialisation Technology]() section.
 
 Stream types and their options are :
 + **Channel-based** : most common used bloc where one channel correspond to one speaker or one microphone.
@@ -40,7 +40,7 @@ The modular graph editor handles basic mouse editing.
 
 ### Module selection
 
-Modules can be select by clicking on them. To select several ones, hold <code>Ctrl/Cmd</code> while clicking on additional modules. It is also possible to use a marquee selection by left clicking, holding the button, and dragging the mouse over the modules you want to select.
+Modules can be select by clicking on them. To select several ones, hold <code>Ctrl/Cmd</code> while clicking on additional modules. It is also possible to use a marquee selection by left-clicking, holding the button, and dragging the mouse over the modules you want to select.
 
 ### Drag & Drop
 

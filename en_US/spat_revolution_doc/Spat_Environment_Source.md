@@ -25,7 +25,7 @@ Additionally, a _right click_ on a Source Number will bring up some further opti
 
 > If a source is a multichannel one, there will be only one number and one set of parameters for the whole cluster.
 
-!> Note that the source number can also be used for OSC automation is remote number is set to 0!
+!> Note that the source number can also be used for OSC automation if remote number is set to 0!
 
 The source's parameters are detailed on the next section, [Source Parameters](Spat_Environment_Source_Parameters.md).
 
@@ -34,7 +34,7 @@ The source's parameters are detailed on the next section, [Source Parameters](Sp
 
 ### Reset to defaults
 
-A double-click on any Source Parameter dial will reset it to a SPAT default setting. The default setting of a parameter is indicated around a dial as a larger tick than the other tick marks. Additionally, a range is graphically indicated between the default setting and the current setting of a variable parameter.
+A double click on any Source Parameter dial will reset it to a SPAT default setting. The default setting of a parameter is indicated around a dial as a larger tick than the other tick marks. Additionally, a range is graphically indicated between the default setting and the current setting of a variable parameter.
 
 ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Room/SourcesInspector.png)
 <!-- TODO: update the image -->
@@ -43,7 +43,7 @@ A double-click on any Source Parameter dial will reset it to a SPAT default sett
 
 ### Preset Memories
 
-Each parameter has the possibility to store useful preset settings of your own choosing. Right click on a parameter dial, and a contextual menu will pop up. From there you can store the current setting to a Memory Slot, or Recall a setting from a previously saved memory slot.
+Each parameter has the possibility to store useful preset settings of your own choosing. Right-click on a parameter dial, and a contextual menu will pop up. From there you can store the current setting to a Memory Slot, or Recall a setting from a previously saved memory slot.
 
 ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Generic/ParameterPreset.png)
 <!-- TODO: update the image -->
@@ -60,7 +60,7 @@ A multichannel cluster can be conveniently positioned and manipulated _as a sing
 The dot at the center of each cluster, where each virtual “channel emitter” is attached, is called the “BaryCentric” focus — In other words, a _relative_ listener position that the virtual source configuration remains focused on.
 
 
-These complex spatial positioning algorithms are computed and controlled in real time using _SPAT Revolution_’s advanced _Barycentric_ and relative direction source parameters.
+These complex spatial positioning algorithms are computed and controlled in real time using _SPAT Revolution’s_ advanced _Barycentric_ and relative direction source parameters.
 A group that may contain many elements can be transformed, scaled, moved and manipulated in complex ways, through only one set of controls.
 See dedicated section for a breakdown of the [**Source Parameters**](Spat_Environment_Source_Parameters.md).
 
@@ -86,6 +86,6 @@ This feature allows you to display one or several parameters for all the sources
 ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Room/SourcesPanelSearch.png)
 <!-- TODO: update the image -->
 
-The key word <code>strict:</code> allows searching strictly one or several parameter. For example, </code>strict: gain presence</code> will display only the sources gain and presence, will <code>gain presence</code> will display the gain, the room specific gain, the presence, the room presence, and all gains of the axis and omni filters.
+The key word <code>strict:</code> allows searching strictly one or several parameter. For example, </code>strict: gain presence</code> will display only the sources gain and presence, while <code>gain presence</code> will display the gain, the room specific gain, the presence, the room presence, and all gains of the axis and omni filters.
 
 Some pre-determined presets are available on a menu accessible on the left of this edit to give you some ideas.

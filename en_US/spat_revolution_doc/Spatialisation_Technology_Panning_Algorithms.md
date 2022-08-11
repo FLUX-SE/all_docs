@@ -57,7 +57,7 @@ Three important dependencies to consider when using VBAP:
  3. 2D Speakers should be on the same horizontal plane as the ears.
  4. VBAP works best when the listening room is not very reverberant.
 
-*See the [Alignment](Spat_Environment_Speaker_Arrangement_Editor.md#Alignment section) section: the speaker alignment feature provides the impression that the actual speakers are equidistant even when they are not.
+*See the [Alignment](Spat_Environment_Speaker_Arrangement_Editor.md#Alignment-section) section: the speaker alignment feature provides the impression that the actual speakers are equidistant even when they are not.
 
 ## Vector Base Intensity (VBIP)
 
