@@ -14,7 +14,7 @@ In _SPAT Revolution_, you will be able to explore some of the best panning algor
 
 Although there are technical aspects to be interested in and aware of, you are still invited to be creative and use your ears when deciding which are the right panning types for your project and intended audience.
 
-> ★ Try using more than one _SPAT Revolution_ _Virtual Room_ to use different panning algorithms for sound material that has different sonic qualities (**Ultimate** license only).
+> ★ Try using more than one _SPAT Revolution_ virtual Room to use different panning algorithms for sound material that has different sonic qualities (**Ultimate** license only).
 
 
 > Some academic papers about some following panning laws could be found here [at the end of this section.](https://doc.flux.audio/#/en_US/spat_revolution_doc/Spatialisation_Technology_Panning_Algorithms?id=related-papers).
@@ -24,9 +24,9 @@ Although there are technical aspects to be interested in and aware of, you are s
 ### Stereopan Law
 
 This mode reproduces the basic experience of a pan pot. It comes with some options:
-+ The pan law can follow a sin/cos approach or a square root. This produces a subtle difference in how the sound travel between the left and right speaker.
-+ It is possible to change the center attenuation. By default, a sound placing at the center of the two speakers is played back with an attenuation of 3dB (considering acoustic summing). Other possible attenuation is : -4.5dB, -6dB.
-+ The PMAP, Perceptually Motivated Amplitude Panning, aims at improving sound localization on stereo systems and on any pair speaker system with an arbitrary base angle.
++ The pan law can follow a **sin/cos** approach or a **square root**. This produces a subtle difference in how the sound travel between the left and right speaker.
++ It is possible to change the **center attenuation**. By default, a sound placing at the center of the two speakers is played back with an attenuation of 3dB (considering acoustic summing). Other possible attenuation is : -4.5dB, -6dB.
++ The **PMAP**, [Perceptually Motivated Amplitude Panning](https://doc.flux.audio/#/en_US/spat_revolution_doc/Spatialisation_Technology_Panning_Algorithms?id=PMAP), aims at improving sound localization on stereo systems and on any pair speaker system with an arbitrary base angle.
 
 ### XY and AB
 
@@ -41,12 +41,12 @@ These two Panning Types will only become available when a _Virtual Room_ is set 
 
 ## Vector Base Amplitude panning (VBAP)
 
-Vector Base Amplitude Panning has become one of the more standardised methods for multichannel spatialisation. It can reproduce on a 2D or 3D configuration. Its sound is characterised by clearly localizable virtual sound sources. Multiple moving or stationary sounds can be positioned in any direction over the speaker array using this method. In theory, VBAP can be used on an unlimited number of loudspeakers and can even be reliable on relatively asymmetric setups.
+Vector Base Amplitude Panning has become one of the more standardised methods for multichannel spatialization. It can reproduce on a 2D or 3D configuration. Its sound is characterised by clearly localizable virtual sound sources. Multiple moving or stationary sounds can be positioned in any direction over the speaker array using this method. In theory, VBAP can be used on an unlimited number of loudspeakers and can even be reliable on relatively asymmetric setups.
 
 **How does it work?**
 
 
-Traditional VBAP works by manipulating the gain of the signals being routed to the two (in 2D), or three (in 3D), closest speakers to a virtual sound source. VBAP relies heavily on an accurate speaker arrangement model to do this. It triangulates gain vectors mathematically in order to render a virtual object in the physical space and achieves its characteristic 'sharp' focus by using only a few speakers closest to the virtual source location. Additionally, it is possible to uniformly extend the traditional VBAP pair-wise (or triplet-wise) speaker picking and activate more of the sound system, effectively diffusing the relationship between individual speakers and sounds using _spread_.
+Traditional VBAP works by manipulating the gain of the signals being routed to the two (in 2D), or three (in 3D), the closest speakers to a virtual sound source. VBAP relies heavily on an accurate speaker arrangement model to do this. It triangulates gain vectors mathematically in order to render a virtual object in the physical space and achieves its characteristic 'sharp' focus by using only a few speakers closest to the virtual source location. Additionally, it is possible to uniformly extend the traditional VBAP pair-wise (or triplet-wise) speaker picking and activate more of the sound system, effectively diffusing the relationship between individual speakers and sounds using _spread_.
 
 > ★ Widen a VBAP point source by increasing the Spread source parameter.
 
@@ -57,9 +57,7 @@ Three important dependencies to consider when using VBAP:
  3. 2D Speakers should be on the same horizontal plane as the ears.
  4. VBAP works best when the listening room is not very reverberant.
 
-*See the [Alignment](Spat_Environment_Speaker_Arrangement_Editor.md#Alignment section) section: the speaker alignment feature can give the impression that the actual
-speakers are equidistant even when they are not.
-<!-- Check if this is the right section to link, I'm not sure because I don't understand the sentence -->
+*See the [Alignment](Spat_Environment_Speaker_Arrangement_Editor.md#Alignment section) section: the speaker alignment feature provides the impression that the actual speakers are equidistant even when they are not.
 
 ## Vector Base Intensity (VBIP)
 
@@ -87,9 +85,9 @@ The dependencies mentioned in the VBAP section also apply to Dual Band Vector Ba
 
 ## Layer based amplitude panning (LBAP)
 
-Layer based amplitude panning can be explained as multiple 2D VBAP layers: The speaker setup is split into several layers, depending on the speaker elevation. The panning used between speakers on the same layer is the VBAP 2D. Between these layers, a crossfade is applied between the two nearest layers.
+Layer based amplitude panning can be explained as **multiple 2D VBAP layers**: The speaker setup is split into several layers, depending on the speaker elevation. The panning used between speakers on the same layer is the VBAP 2D. Between these layers, a crossfade is applied between the two nearest layers.
 
-The difference between VBAP 3D and LBAP is the number of speakers which will be active between the layers: three in VBAP versus four in LBAP.
+> The difference between VBAP 3D and LBAP is the number of speakers which will be active between the layers: three in VBAP versus four in LBAP.
 
 ## Distance Base Angular panning (DBAP)
 
@@ -107,13 +105,13 @@ DBAP localizes sounds towards arbitrarily positioned speakers in a space using a
 
 > ★ Speakers can be freely positioned when using DBAP - look for reflections and reverberations in a room to enhance spatial aspects.
 
-## K Nearest Neighbor (KNN)
+## K-Nearest Neighbor (KNN)
 
 KNN is another panning type that does not depend on a _Sweet Spot_ to be perceived correctly. It is a version of a 'Nearest-neighbor' interpolation algorithm. This family of algorithms are also used in the fields of complex systems, 3D graphics and network science to name a few. In _SPAT Revolution_, you can sonically explore a network of loudspeakers using this panning type and some virtual sound sources.
 
-**How Does It Work?**
+**How does it work?**
 
-An interesting parameter of KNN is that the user gets manual control over one of the main coefficients in the underlying algorithm. The parameter is called _Nearest Neighbor Spreading_. It sets a maximum limit to the number of speakers that the algorithm can use as neighbors - the parameter becomes available as a continuously variable percentage _for each virtual source_ in a _SPAT Revolution_ room.
+An interesting parameter of KNN is that the user gets manual control over one of the main coefficients in the underlying algorithm. The parameter is called _Nearest Neighbor spreading_. It sets a maximum limit to speakers number that the algorithm can use as neighbors. The parameter becomes available as a continuously variable percentage _for each virtual source_ in a _SPAT Revolution_ room.
 
 ![Source Spreading](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Room/SourceSpreading.png)
 
@@ -125,9 +123,9 @@ What makes this particularly interesting is that different sources can activate 
 
 SPCAP is a 3D panning algorithm which takes its inspiration from VBAP. SPCAP selects not just 2 or 3, but any number of speakers to render a virtual source and weights signal gains according to how much each selected speaker is actually contributing to the overall power output of the speaker configuration. Using this method SPCAP guarantees conservation of loudspeakers power output across any speaker arrangement. Its strengths lie in the down-mixing and up-mixing of virtual scenes from very different channel-based speaker arrangements, and in being able to render wider sound sources by using more speakers in a smart way.
 
-**How Does It Work?**
+**How does it work?**
 
-The result will still be _Sweet Spot_ dependent, although it will be a wider listening area. SPCAP inherits some of the dependencies of VBAP to get successful spatial imaging.
+The result will still be _Sweet Spot_ dependent, although it will be a wider listening area. SPCAP inherits some dependencies of VBAP to get successful spatial imaging.
 
 1. Speakers must be placed _around_ the listening position.
 2. 2D speakers should be on the same horizontal plane as the ears.
@@ -145,7 +143,7 @@ In common with the channel based panning types we have covered so far, Ambisonic
 
 Keeping these two steps separate has a number of advantages. Primarily, that of being able to record the encoded Ambisonic audio signals independently of any fixed speaker arrangement. On the other hand, it is possible to "fuse" the two stages of the process together resulting in what appears to be the output of a generalized channel based type of panning. That is the AEP panning type in a nutshell.
 
-**How Does It Work?**
+**How does it work?**
 
 AEP has certain computational and ambisonic mixing advantages and exhibits very different behavior from the VBAP/VBIP pairwise approaches. It is up to you to decide whether to work with pure Ambisonic rooms (more about that in the later section) or to use AEP as a channel based panning law. Both approaches are valid and could be useful. As we have mentioned a few times already, the choice of panning type depends on what sounds best in the context of your material, your compositional goals and the acoustics of the system you are working with.
 
@@ -153,7 +151,7 @@ AEP has certain computational and ambisonic mixing advantages and exhibits very 
 
 These are legacy 2D pan pot laws from the original IRCAM Spat library. They only become available when using 2D channel based streams and are primarily included for backwards compatibility.
 
-**How Does It Work?**
+**How does it work?**
 
 Angular and PanR are pairwise amplitude panning essentially the same as VBAP 2D described on the next page. There is a subtle difference, however, in the way the panning law changes when moving the source from one speaker to another.
 
@@ -187,3 +185,9 @@ https://pdfs.semanticscholar.org/8fed/f0c12b58d4af2a94af6a817021ee812bf6a8.pdf
 http://decoy.iki.fi/dsound/ambisonic/motherlode/source/ICMC08_AEP_paper.pdf
 
 “[…] A  further advantage of AEP is the possibility to use an arbitrary order of directivity for each individual sound source. It becomes possible to mix pre-recorded low order ambisonic B-format, medium order ambient sounds, high order precise localizable sound and sounds with changing localizability. How the individual sounds are perceived if different orders are used at the same time is an open question that  can be answered only by experience.”
+
+### PMAP
+
+https://pure.hud.ac.uk/en/publications/perceptually-motivated-amplitude-panning-pmap-for-accurate-phanto
+
+"This paper proposes and evaluates a new constant-power amplitude-panning law named 'Perceptually Motivated Amplitude Panning (PMAP)'. The method is based on novel image shift functions that were derived from previous psychoacoustic experiments. The PMAP is also optimised for a loudspeaker setup with an arbitrary base angle using a novel phantom image localisation model. Listening tests conducted using various sound sources suggest that, for the 60° base angle, the PMAP provides a significantly better panning accuracy than the tangent law. For the 90° base angle, on the other hand, both panning methods perform equally good. The PMAP is considered to be useful for intelligent sound engineering applications, where an accurate matching between the target and perceived positions is important."

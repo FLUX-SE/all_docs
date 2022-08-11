@@ -1,9 +1,9 @@
 # Installation and Activation
-## How to Install SPAT Revolution
+## How to Install SPAT Revolution?
 
 ***FOUR (4) STEPS:***
 
-1. [Create an account](https://shop.flux.audio/en_US/login "") at flux.audio
+1. [Create an account](https://shop.flux.audio/en_US/login "") on [FLUX website](flux.audio "")
 1. License code redeem
 1. Software license activation
 1. Download and installation
@@ -12,16 +12,16 @@
 ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/FLUX/Account/Create.png ':class=img-title')
 
 
-[Create an account](https://shop.flux.audio/en_US/login "")
+[Create an account](https://shop.flux.audio/en_US/login "") on the FLUX website, clicking on the previous link.
 
 
 ## Redeem a License Code from activation code
-FLUX:: uses the iLok license management system to deliver software licenses to users. If you have received an activation code (such as from a dealer purchase), you can use the Redeem License Code window to activate your license.
+FLUX:: uses the iLok license management system to deliver software licenses to users. If you have received an activation code (such as from a dealer purchase or [30-day trial](https://shop.flux.audio/en_US/page/trial-request-information '')), you can use the Redeem License Code window to activate your license.
 
 
 ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/FLUX/Account/RedeemLicense.png ':class=img-title')
 
-Visit our [License Code Activation page](https://shop.flux.audio/en_US/account/licence_code_redeem "").
+Visit our [License Code Activation page](https://shop.flux.audio/en_US/account/licence_code_redeem "") for more information.
 
 ## iLok User Account
 
@@ -61,7 +61,7 @@ Next step is to get the installers for the FLUX:: products you are licensed for.
 
 On this page you will find a Mac OS X, a Windows 64 bits. As well are provided legacy version for older operating systems. After downloading and installing, you can open the FLUX:: Center applications to begin the process of installing the _SPAT Revolution_ software.
 
-!> An authentification is required at the launch of FLUX:: Center. This is the login details of your FLUX shop account which allows you to see only your products licensed for (temporary or permanent)
+!> An authentication is required at the launch of FLUX:: Center. This is the login details of your FLUX shop account which allows you to see only your products licensed for (temporary or permanent).
 
 ## Center Preferences
 
@@ -75,4 +75,4 @@ When you open FLUX:: Center you will see a page that lists all FLUX:: products a
 
 This preference page will allow you to choose various installation options such as preferred plug-in formats for your system. Choosing your format and returning to the main page by pressing the OK button will show all your install options for software and plugins based on the desired formats chosen.
 
-If you would like to be closer to the most current development cycles of the software, you can enable the Beta Versions option. This will give you access to a special set of software installers from the pull down menus on the main FLUX:: Center page. Beta versions are the new builds that are still under development but may contain useful bug fixes and new features. If you find that a beta version is not stable enough for you, then you can always roll back to a stable release version at any time through the FLUX:: Center installers. Note that these versions starts with a "B" where official releases start with a "V".
+If you would like to be closer to the most current development cycles of the software, you can enable the Beta Versions option. This will give you access to a special set of software installers from the pull down menus on the main FLUX:: Center page. Beta versions are the new builds that are still under development but may contain useful bug fixes and new features. If you find that a beta version is not stable enough for you, then you can always roll back to a stable release version at any time through the FLUX:: Center installers. Note that these versions starts with a <code>B</code> where official releases start with a <code>V</code>.

@@ -107,17 +107,19 @@ The below configurations have been **tested at the worst scenario**, with the re
 
 !> **Processing can be different according to the used HRTF**. Kemar HRTF were used for these tests.
 
+!> In the case of the _Dante Virtual Soundcard_, the network latency, reported into SPAT, have been set to 10ms.
+
 ---
 
 ### 48000 kHz
 
 #### mac Mini M1 | Basic configuration
 
-Number of sources | Number of speakers |         Room and PanType          |              Sound card               | Buffer size / reported Latency
+Number of sources | Number of speakers |         Room and PanType          |              Buffer with RME Digiface Dante / AVB               |  Buffer with Dante Virtual Soudcard   
  :---: |:------------------:|:---------------------------:|:-------------------------------------:| :---:
-64 |         32         |         1 WFS room          |       RME Digiface Dante / AVB        | 256 (11.5ms)
-64 |         64         |         1 WFS room          | RME Digiface Dante / AVB | 512 (22.16ms)
-64 |   16 + Binaural    | 2 rooms: 1 WFS + 1 Binaural | RME Digiface Dante / AVB | 1024 (43.5ms)
+64 |         32         |         1 WFS room          |       256 (11.5ms)        | 128 (25.33ms)
+64 |         64         |         1 WFS room          | 512 (22.16ms) | 256 (30.66ms)
+64 |   16 + Binaural    | 2 rooms: 1 WFS + 1 Binaural | 1024 (43.5ms) | 512 (52ms)
 
 #### mac Studio M1 Max | Basic configuration
 

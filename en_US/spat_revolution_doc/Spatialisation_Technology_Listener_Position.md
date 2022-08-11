@@ -20,4 +20,6 @@ It is worth noting that there are some panning algorithms in _SPAT Revolution_ t
 
 ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Room/OutputChannelBased.png)
 
-In certain advanced situations which might combine position tracking systems with real time binaural audio, it is even possible to transform the _Listener Position_ in _SPAT Revolution_. One application of this might be to give the sensation of getting closer to a sound emitter inside a virtual scene for a headset wearing participant at an interactive VR installation. Given the camera position perspective to the listener is as well possible by mapping camera position to the _Listener Position_ of SPAT.
+## Listener position and head tracking
+
+In certain advanced situations which might combine position tracking systems with real time binaural audio, it is even possible to transform the _Listener Position_ in _SPAT Revolution_. One application of this might be to give the sensation of getting closer to a sound emitter inside a virtual scene for a headset wearing participant at an interactive VR installation. Given the camera position perspective to the listener is as well possible by mapping camera position to the _Listener Position_ of SPAT Revolution.

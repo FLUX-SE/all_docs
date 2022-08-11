@@ -7,7 +7,7 @@
 **Cristian Vogel, Hugo Larin, Jean-Loup Pecquais and Nicolas Erard**
 
 **Additional contributions:**
-Gaël Martinet, Vincent Carlier, Thibaut Carpentier, Anders Tveit and the IRCAM team.
+Gaël Martinet, Vincent Carlier, Florie-Anne Lafaye, Thibaut Carpentier, Anders Tveit and the IRCAM team.
 
 ### Project Manager and Designer:
 Gaël Martinet, Hugo Larin
@@ -44,9 +44,11 @@ Hugo Larin, Vincent Carlier, Jean-Loup Pecquais, Nicolas Erard, Jean Cruypenynck
 Emmanuel Julien (GS lib) and Gaël Martinet
 
 ### Translation
-* German: Nils Hahmann
-* Spanish: Ralph Killhertz
 * French: Jean-Loup Pecquais, Nicolas Erard
+* German: Nils Hahmann
+* Korean: Gong Eunju, Kim Joohna
+* Italian: Gianni Tamanini
+* Spanish: Ralph Killhertz
 
 
 ### Additional libs:

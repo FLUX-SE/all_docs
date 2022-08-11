@@ -2,7 +2,7 @@
 
 We have already covered the two-channels binaural stream type for monitoring and final encoding into a binaural format. One of the other important Stream Types is referred to as _Channel Based_. This stream can range from a single-channel mono to a multichannel audio stream (*). These streams will flow as a perfectly synchronized group through the signal graph defined in the _Setup_ page. The channel count of the stream is set by the choice in the _Speaker Arrangement_ pull down menu of a module. A change to the speaker configuration here alters the channel count in and out of a module, depending on its context in the signal graph. When you connect channel-based modules together in _SPAT Revolution_, they automatically inherit the speaker arrangement and channel count from the stream type at their connected input.
 
->! The **Essential** license limits the total number channels to 32 channels for all Input blocks and to 16 channels for all Output blocks  
+!> The **Essential** license limits the total number channels to 32 channels for all Input blocks and to 16 channels for all Output blocks.
 
 Channel based audio streams - when connected to a hardware output module - will render the spatial composition on speakers connected to the physical outputs of your audio hardware. _SPAT Revolution_ is expecting the loudspeaker system specified in the speaker arrangement of the _Output_ module. If the real loudspeaker arrangement does not correctly match the speaker arrangement model or there is a mistake in your routing somewhere, the spatial sound image will then be compromised.
 
@@ -10,7 +10,7 @@ Channel based audio streams - when connected to a hardware output module - will 
 
 The golden rule for spatialization using channel-based audio is that each rendered channel must be connected only to its corresponding sound emitter in the destination system. An exact correlation from the model to the physical system is assumed by the calculations inside each of the panning algorithms. If the installation is not right for some reason, a listener may experience something with spatial aspects, but not with the intended quality. To correctly install and tune a multichannel sound system is one of the more challenging aspects of working with spatial composition and performance systems. So many things can compromise the spatial image, and sometimes it is hard to tell by ears.
 
-In order to try and simplify this process in practice, certain labeling conventions are used by engineers and designers to identify which speaker belongs to which channel. When channel counts are high, angular positioning and distance measurements are used to identify the correct speaker routing. In _SPAT Revolution_’s **Speaker Arrangement editor**, you additionally get a 3D graphical rendering of the sound system, where you can select speakers which will be visually identified, so you can label them clearly. These labels will be saved into a speaker arrangement profile, so you can get some more consistent reference points when routing.
+In order to try and simplify this process in practice, certain labeling conventions are used by engineers and designers to identify which speaker belongs to which channel. When channel counts are high, angular positioning and distance measurements are used to identify the correct speaker routing. In _SPAT Revolution’s_ **Speaker Arrangement editor**, you additionally get a 3D graphical rendering of the sound system, where you can select speakers which will be visually identified, so you can label them clearly. These labels will be saved into a speaker arrangement profile, so you can get some more consistent reference points when routing.
 
 
 Left | Centre | Right
@@ -21,7 +21,7 @@ Top Back Left | Top Front Center | Top Back Right
 Left Surround Rear | VOG | Right Surround Rear
 Top Front Left | Back Center | Top Front Left
 
-> Some common Speaker Channel naming conventions.
+> Some common speaker channel naming conventions.
 
 
 ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/SpeakerEditor2.png)

@@ -26,7 +26,7 @@ The included HRTFs profiles in _SPAT Revolution_ are taken from a number of larg
 
 ## Binaural algorithms
 
-### Normal binaural mode
+### Standard binaural mode
 
 This mode uses the selected HRTFs profile in order to recreate the sound field.
 
@@ -68,7 +68,7 @@ It is available on the room parameter on the _Setup_ page, but also on the outpu
 
 In the _Setup_ page of _SPAT Revolution_, you will find a module dedicated to binaural monitoring. Its purpose is to monitor any kind of speaker setup using headphones and binaural encoding. This can give you an impression of how your spatialization might sound on a particular channel based system when you are off location.
 
-You can add a binaural monitoring module_ by clicking on the <code>+</code> icon of the Monitor row towards the bottom of the _Setup_ page graph. The module is very simple to use. It will automatically detect the type of channel based audio stream you connect into it.
+You can add a __binaural monitoring module__ by clicking on the <code>+</code> icon of the Monitor row towards the bottom of the _Setup_ page graph. The module is very simple to use. It will automatically detect the type of channel based audio stream you connect into it.
 
 The binaural monitoring module works by virtualizing each speaker, not each source, so any real world speaker phenomena will be reflected in the binaural rendering. For example, a virtual source positioned in the center between two virtual speakers will be rendered with the same “phantom speaker” in the binaural monitoring as in the physical world, because there is no virtual speaker at the center point either.
 
