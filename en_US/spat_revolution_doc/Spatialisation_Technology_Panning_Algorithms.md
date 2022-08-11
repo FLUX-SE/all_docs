@@ -17,7 +17,7 @@ Although there are technical aspects to be interested in and aware of, you are s
 > ★ Try using more than one _SPAT Revolution_ _Virtual Room_ to use different panning algorithms for sound material that has different sonic qualities (**Ultimate** license only).
 
 
-> Some academic papers about some following panning laws could be found here [on the online _SPAT Revolution_ knowledge base](https://www.flux.audio/knowledge-base/panning-types/).
+> Some academic papers about some following panning laws could be found here [at the end of this section.](https://doc.flux.audio/#/en_US/spat_revolution_doc/Spatialisation_Technology_Panning_Algorithms?id=related-papers).
 
 ## Stereo-exclusive Panning Laws
 
@@ -175,7 +175,6 @@ http://lib.tkk.fi/Diss/2001/isbn9512255324/article1.pdf
 “[…] the approach enables the use of an unlimited number of loudspeakers in an arbitrary two- or three-dimensional placement around the listener. The loudspeakers are required to be nearly equidistant from the listener, and the listening room is assumed to be not very reverberant. Multiple moving or stationary sounds can be positioned in any direction in the sound field spanned by the loudspeaker.”
 
 ### DBAP
-
 
 https://pdfs.semanticscholar.org/8fed/f0c12b58d4af2a94af6a817021ee812bf6a8.pdf
 
