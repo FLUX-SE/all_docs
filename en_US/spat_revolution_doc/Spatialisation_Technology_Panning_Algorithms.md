@@ -30,12 +30,11 @@ This mode reproduces the basic experience of a pan pot. It comes with some optio
 
 ### XY and AB
 
-These two Panning Types will only become available when a _Virtual Room_ is set to be virtualizing a stereo speaker arrangement <!-- (see section 6.52) --> - they are pan laws that are derived from widely used dual microphone techniques for rendering stereo imaging from an omnidirectional scene.
-<!-- TODO find what is this 6.52 section, replace and uncomment -->
+These two Panning Types will only become available when a _Virtual Room_ is set to be virtualizing a **stereo** speaker arrangement. They are pan laws that are derived from widely used dual microphone techniques for rendering stereo imaging from an omnidirectional scene.
 
-**AB Panning** simulates the recording of the sound scene by a pair of spaced cardioid microphones, pointing laterally at azimuths +/- 55 deg. (elevation 0), with a distance of 17 cm between the two capsules. Also known as **ORTF**.
+**AB panning** simulates the recording of the sound scene by a pair of spaced cardioid microphones, pointing laterally at azimuths +/- 55 deg. (elevation 0), with a distance of 17 cm between the two capsules. Also known as **ORTF**.
 
-**XY Panning** simulates the recording of the sound scene by a pair of microphones in a XY coincident configuration.
+**XY panning** simulates the recording of the sound scene by a pair of microphones in a XY coincident configuration.
 
 > ★ The aim is to get the same stereo flavor as these dual microphone tracking techniques. Try them on close miked sources or any mono source, to get a realistic stereo image.
 
@@ -57,7 +56,7 @@ Three important dependencies to consider when using VBAP:
  3. 2D Speakers should be on the same horizontal plane as the ears.
  4. VBAP works best when the listening room is not very reverberant.
 
-*See the [Alignment](Spat_Environment_Speaker_Arrangement_Editor.md#Alignment-section) section: the speaker alignment feature provides the impression that the actual speakers are equidistant even when they are not.
+*See the [Alignment](Spat_Environment_Speaker_Arrangement_Editor.md#alignment-section) section: the speaker alignment feature provides the impression that the actual speakers are equidistant even when they are not.
 
 ## Vector Base Intensity (VBIP)
 
