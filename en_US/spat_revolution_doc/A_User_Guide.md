@@ -2,20 +2,18 @@
 
 # FLUX:: Immersive SPAT Revolution
 
-## An Immersive Audio Revolution
-
 ## A User Guide
 
 **Written by Cristian Vogel, Jean-Loup Pecquais, Hugo Larin and Nicolas Erard**
 
 with contributions from:
-Gäel Martinet, Vincent Carlier, Thibaut Carpentier, Anders Tveit and the IRCAM team.
+Gäel Martinet, Vincent Carlier, Florie-Anne Lafaye, Thibaut Carpentier, Anders Tveit and the IRCAM team.
 
 ---
 
 **Legal Information**
 
-Third edition of FLUX:: _SPAT Revolution_ User Guide published in January 2022
+Third edition of FLUX:: _SPAT Revolution_ User Guide published in August 2022
 
 All writing is protected under copyright © 2022 Cristian Vogel / FLUX SOFTWARE ENGINEERING
 

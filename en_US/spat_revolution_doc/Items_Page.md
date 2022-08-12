@@ -1,6 +1,6 @@
 # Items' page
 
-This page gives an overview and allows to edit the major parameters for each items type (Input, Source, Room, etc.)
+This page gives an overview and allows to edit the major parameters for each item type (Input, Source, Room, etc.)
 
 ![The items' page](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Items/Page.png)
 
