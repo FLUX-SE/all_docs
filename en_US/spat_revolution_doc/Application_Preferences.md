@@ -33,6 +33,12 @@ Change the temperature used in the delay line calculation.
 
 _Default is 20 °C_
 
+### Input delay - Unit of measure
+
+Change the unit format for delay.
+
+_Default is sample_
+
 
 ### Edit Frame Rate
 
@@ -54,7 +60,7 @@ _Default is 30 Hz_
 
 ### Language
 
-Allow to change the language of SPAT Revolution. English, German, Japanese, French, Spanish are available. If you wish to help us to translate SPAT in another language, don’t hesitate to contact us.
+Allow to change the language of SPAT Revolution. English, Italian, German, Korean, French, and Spanish are available. If you wish to help us to translate SPAT in another language, don’t hesitate to contact us.
 
 _Default is English_
 
@@ -141,6 +147,10 @@ Enable or disable the OSC communication between SPAT Revolution and other device
 
 Allows displaying the OSC messages in the application’s console.
 
+### Show invalid OSC input messages
+
+Allows displaying the unknown and invalid OSC messages in the application’s console.
+
 ### Dump on socket change
 
 Allow to dump all properties when a socket change, i.e. when the IP address or the port number has been edited, or the socket is enabled. This ensures a constant synchronisation between any remote control and SPAT Revolution.
@@ -158,6 +168,25 @@ This button exports the OSC parameters to a text file.
 ![OSC Connections Section]( https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Preference/OSCConnections.png)
 
 This panel allows creating OSC connection between SPAT Revolution and other devices, like tablets, phones, computers and many others. More information is available on the OSC section.
+
+## Snapshots
+
+![Snasphot preferences](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Preference/Snapshot.png)
+
+### Show snapshot bar 
+
+Determines if the snapshot bar and the timecode is shown or hidden.
+
+### Recall sources name
+
+Determines if the source names is recalled with snapshots.
+
+### Number of saved versions
+
+Determines the number of version saved when updating a snapshot. Careful: increasing this number increases deeply the size of the .json SPAT file.
+### Ask for update before recalling
+
+When checked, a dialog will ask you if you want to update the snapshot before each recalled.
 
 ## HRTF
 
@@ -201,6 +230,10 @@ Configure the signal generator gain.
 ### Signal Type
 
 Configure the type of signal generator.
+
+### Speaker test post "Mute/Solo"
+
+Allow the speaker test to be post speaker mute/solo, i.e. the speaker test will pass even if the speaker is muted. 
 
 ## Engine
 

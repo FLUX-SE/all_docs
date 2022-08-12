@@ -8,8 +8,8 @@ It allows a complete transformation of the soundscape, with interpolation.
 Snapshots could be controlled by the dedicated menu, and with OSC messages.
 
 Sources can be excluded of a snapshot recall:
-- on the "Source Page", disabling "Snapshot" on the wanted sources.
-- on a "Room Page", right-clicking on the wanted source and disabling the "Snapshot recall enable" option.
+- on the **Source Page**, disabling "Snapshot" on the wanted sources.
+- on a **Room Page**, right-clicking on the wanted source and disabling the "Snapshot recall enable" option.
 
 ![_SPAT Revolution_ snapshot recall](include/SpatRevolution_snapshot_recall.gif)
 
@@ -19,9 +19,9 @@ Sources can be excluded of a snapshot recall:
 ## Create a snapshot
 
 We can create a snapshot:
-- by using the "Create" action into the "Snapshots" menu.
-In this case, the snapshot will be added at the end of the list.
-The shortcut <code>Alt + Space</code> could also be used to capture a snapshot (currently note working on Windows).
+- by using the <code>Create</code> action into the "Snapshots" menu, or the <code>Create snapshot</code> available on the snapshot bar.
+In this case, the snapshot will be added, following the current snapshot (if there is any).
+The shortcut <code>Alt + Space</code> could also be used to capture a snapshot (currently not working on Windows).
 
 - by using the "Insert Before" action.
 This option is available only if another snapshot exists.
@@ -35,7 +35,15 @@ The snapshot will be inserted after the selected snapshot, and all the snapshots
 ## Recall a snapshot
 
 Recalling a snapshot will interpolate all the current properties with the stored values of the snapshot.
-Different options located on the "Snapshots/option recall" menu could alter the snapshot running:
+Different options located on the **Snapshot page** could alter the snapshot running:
+
+- Recall relative
+
+This option enable to keep differences between the current state and the current snapshots. More information about it [on the snapshot page section](Spat_Environment_Snapshot_Page.md)
+
+- Global
+
+This option enables to follow the global snapshot recall settings. It is also possible to setting up a particular one, disabling this option on the snapshot page.
 
 - Recall time
 
@@ -48,6 +56,8 @@ As all the properties are stored into snapshots, this option gives us the possib
 The recall of each section could be separately activated.
 
 !> Be careful with the Room properties recall, changing some properties like _Reverberation Density_ or Size causes reverb reconstruction (and audio drops).
+
+!> If **Ask for update before recalling** option is checked and changes are detected between the current snapshot and current state, a window will propose to update the current snapshot.
 
 ## Snapshots handling
 

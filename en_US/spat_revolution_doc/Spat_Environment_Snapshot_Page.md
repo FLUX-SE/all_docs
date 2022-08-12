@@ -108,15 +108,3 @@ Select the snapshot you want to compare, and click on the <code>Show differences
 
 You can filter the list by an object name and/or a property name. You can also choose to show only information by sources, rooms or masters.
 
-
-## Snapshot preferences
-
-A new panel relative to the snapshot is available on the preferences page, allowing some options.
-
-![Snasphot preferences](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Preference/Snapshot.png)
-
-- **Show snapshot bar**: determines if the snapshot bar and the timecode is shown or hidden.
-- **Recall sources name**: determines if the source names is recalled with snapshots.
-- **Number of saved version**: determines the number of version saved when updating a snapshot. Careful: increasing this number increases deeply the size of the .json SPAT file. 
-- **Ask for update before recalling**: when checked, a dialog will ask you if you want to update the snapshot before each recalled.
-

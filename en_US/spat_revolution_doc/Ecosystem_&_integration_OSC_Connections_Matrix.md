@@ -44,27 +44,31 @@ There is a lot of flexibility in the OSC connection menu. We find it in the SPAT
 
 ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Preference/OSCConnections.png)
 
-Eight different connections can be set up, either as input or output connection. It is displayed as a table where each connection is a line. The first parameter is the connection type, which offer many presets for both input and output. These presets come with dedicated network ports, dedicated option and dedicated transform if needed.
+Eight different connections can be set up, either as input or output connection. It is displayed as a table where each connection is a line. 
 
-OSC presets are:
-- SPAT plugins
-- ADM-OSC
-- Lemur
-- Avid S6L
-- Digico
-- SSL Live
-- SpaceMap Go
+The first parameter is the **connection type**, which offer many presets for both input and output. These presets come with dedicated network ports, dedicated option and dedicated transform if needed.
 
-Then the IP address needs to be set.
+> OSC presets are:
+> - SPAT plugins
+> - ADM-OSC
+> - Lemur
+> - Avid S6L
+> - Digico
+> - SSL Live
+> - SpaceMap Go
+
+Then the **IP address** needs to be set.
 If the OSC connection is established locally, on the same computer, the port 127.0.0.1 is dedicated to local network usage.
 For other configurations, we need to inform the IP of the targeted device.
 
-Lastly, the port number can be adjusted to a free one.
+Lastly, the **port number** can be adjusted to a free one.
 If a "custom" preset is loaded, we most likely need to edit this parameter to establish a network connection.
 
-If we want to deactivate an OSC socket without losing the parameters, it is possible to deactivate an OSC socket. To do this, click right on the OSC socket number and click on <code>Activate/Deactivate</code>, or shift-click on the OSC socket number. As it, the input or output will be deactivated.
+And finally, it is possible to **name the OSC slot**, clicking on the name of the top of the right panel.
 
-If we loose the sync between the remote and SPAT, it is also possible to dump all the project property on a particular socket. To do so, click right on the OSC socket number and click on <code>Dump project</code>. To note that the project is always dumped when the OSC socket is activated, and when the OSC IP address or port are changed. 
+If we want to deactivate an OSC socket without losing the parameters, it is possible to **deactivate an OSC socket**. To do this, click right on the OSC socket number and click on <code>Activate/Deactivate</code>, or shift-click on the OSC socket number. As it, the input or output will be deactivated.
+
+If we loose the sync between the remote and SPAT, it is also possible to **dump all the project properties** on a particular socket. To do so, click right on the OSC socket number and click on <code>Dump project</code>. To note that the project is always dumped when the OSC socket is activated, and when the OSC IP address or port are changed. 
 
 ## OSC Transform
 

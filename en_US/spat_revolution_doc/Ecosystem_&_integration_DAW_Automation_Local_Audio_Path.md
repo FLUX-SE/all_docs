@@ -58,13 +58,13 @@ Once you have selected the channel count, _Enable_ the software routing using th
 
 If _SPAT Revolution_ is running, then a Send or Return IO module will automatically appear in the _Environment Setup_ labeled with the _Track Name_ of the SPAT plug-in, and set to the channel count you have configured in the plug-in. If all is well configuration wise, and a successful local audio stream has been established, the Send and Return modules will have a small green indicator.
 
-> _On some machines, you need to use the TAB key to register a new Track Name or IP address change in a Spat Plug in._
+> On some machines, you need to use the <code>Tab</code> key to register a new Track Name or IP address change in a SPAT Plug in.
 
 ## Plug-ins parameters
 
-**Index** - Relates the Plug-in automation to a virtual source.
-- INDEX is assigned automatically and can only be changed manually to an index number that is not yet in use by another SPAT Plug-in.
-- On  _SPAT Revolution_, INDEX is designed as "Remote number". Itinially set to the object number, you can customize it by object.
+**Index** - Relates the plug-in automation to a virtual source.
+- **Index** is assigned automatically and can only be changed manually to an index number that is not yet in use by another SPAT Plug-in.
+- On  _SPAT Revolution_, Index is designed as **Remote number**. Initially set to the object number, you can customize it by object.
 
 **Position mode** - In Send only, choose the recorded and read coordinate mode.  
 
@@ -92,6 +92,6 @@ For more DAW specific information, please consult our [third-party integration](
 
 Some DAWs, like REAPER, use some technic to reduce the load of VST plug-ins on the CPU. One common trick is to process an audio track ahead of time and then delay the buffer to play it back at the intended moment. It is called anticipative processing. This is often very efficient and can drastically reduce the CPU load (up to 30-50% !)
 
-Other DAWs, like Ableton live, put plug-ins that does not receive or send any audio in an off-line state. Although it is not necessary displayed to the user, this can create some major issues when working with _SPAT Revolution_ PI.
+Other DAWs, like Ableton live, put plug-ins that does not receive or send any audio in an off-line state. Although it is not necessarily displayed to the user, this can create some major issues when working with _SPAT Revolution_ plug-ins.
 
 !> Be sure to consult our [third-party integration](Third_Party_Integration.md) section for more DAW specific information.
