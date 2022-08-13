@@ -106,5 +106,29 @@ It allows to easily monitor what was changed and how it was changed.
 
 Select the snapshot you want to compare, and click on the <code>Show differences</code>, or use the shortcut <code>Ctrl + D</code> on Windows, <code>Command + D</code> on macOS.
 
-You can filter the list by an object name and/or a property name. You can also choose to show only information by sources, rooms or masters.
+You can group the list by an object name or a property name, or research for object or property.
 
+## Propagate through snapshots
+
+n order to edit a large number of snapshots, a propagation system has been implemented into the new Snapshot Page.
+
+It is deeply linked to the snapshot inspector. The <code>propagate differences</code> action is located on it.
+
+It is possible to propagate:
+the selected differences
+all the differences. This happens when no differences are selected.
+
+To select differences, use <code>Ctrl + Click</code> on Windows, or <code>Cmd + Click</code> on macOS to add several items, or <code>Shift + Click</code> to select all between two items.
+
+### Propagate dialog
+
+![Inspector](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Snapshots/PropagateDialog.png)
+
+On the propagate dialog, the selected data will be retrieved, displaying
+the absolute value which can be applied when validating on "apply with absolute value"
+the trim value which will be added to each snapshot value when validating with "trim value".
+For example, if my Accordeon L has an azimuth value of 50.0, it will become 13.475 applying with absolute value, and 50.22 applying with trim value.
+
+On the left panel, the snapshot list is displayed in order to choose the snapshot for which the propagation will be applied.
+
+![Inspector](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Snapshots/PropagateDialogSelectedSnapshots.png)
