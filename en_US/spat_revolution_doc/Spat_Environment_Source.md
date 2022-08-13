@@ -72,7 +72,6 @@ You can shift click on the Index number of separate sources to create an ad hoc 
 When you have selected an ad hoc group using the shift click technique, you can then open the _[Source Parameter](Spat_Environment_Source_Parameters.md)_ panel by clicking on the property panel header 'fold arrow' as  shown in the screenshot below.
 
 ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/ActionsMultiselection.png)
-<!-- TODO: update the image -->
 
 Any source parameter variable you adjust manually will assign that same setting on all selected sources in the group. A barycenter will then become practical to work from a center of mass perspective. For example, transformations like scaling, distance, rotation and directivity of the group is managed by SPAT controlling each member of the group a barycentric relationship.
 

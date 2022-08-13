@@ -18,9 +18,7 @@ The _SPAT Revolution_ software supports with the same installer (binary) both li
  - An audio pipe technologies allowing receiving and sending audio from all the major DAW to and from _SPAT Revolution_.
  - An exhaustive list of OSC commands to allow a deep remote control of _SPAT Revolution_.
 
-<!-- TODO: update? -->
-
-## Ultimate and Essential: Differences
+## Ultimate and Essential: differences
 
 The main limitations of the **Essential** license are:
 
