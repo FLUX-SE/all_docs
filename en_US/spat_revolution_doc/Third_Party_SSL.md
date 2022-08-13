@@ -55,16 +55,10 @@ The provided template has all these configurations done for you but you can deci
 
 ![Enable OSC](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Preference/OSCMain.png)
 
-
 * In the OSC Connections section, use the pre-configured SSL Live OSC presets. 
   In the pull down menu, choose **input |SSL Live** and select the local IP address you are using to communicate with the desk. 
   Then set a second OSC Connection for the output from _SPAT Revolution_ to the desk. 
   In the pull down menu, choose **output | SSL Live**. 
   You will enter the desk IP address as found in the OSC settings. Ports # <code>9300</code> (Input) and <code>9301</code> (Output) are pre-configured.
 
-![OSC Connections DiGiCo Presets](include/ssl_osc_communication.png)
-
-<!-- TODO: update the image -->
- 
-
-----
+![Enable OSC](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Preference/OSCConnectionsSSL.png)

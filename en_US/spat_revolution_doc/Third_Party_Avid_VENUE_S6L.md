@@ -99,13 +99,9 @@ Let’s now setup your preferences in _SPAT Revolution_ preferences page:
 		
 **SPAT OSC Connections Matrix**
 
-![SPAT OSC Connections Matrix](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/S6LOSCConnectionMatrixInput.png) 
-
-<!-- TODO: update the image -->
+![SPAT OSC Connections Matrix](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/S6LOSCConnectionMatrixInput.png)
 
 ![SPAT OSC Connections Matrix](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/S6LOSCConnectionMatrixOutput.png)
-
-<!-- TODO: update the image -->
 
 ### SPAT OSC Connections preferences
 

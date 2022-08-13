@@ -1,8 +1,6 @@
 # Artificial Reverberation
 
-<!-- TODO: Update all images of this part -->
-
-Each _Virtual Room_ in SPAT can have its own artificial reverberation. 
+Each _Virtual Room_ in SPAT can have its own artificial reverberation.
 Reverberation is a very important element in the psycho-acoustic perception of localised sources and immersive sound fields.
 The reverb processor in SPAT is a multichannel algorithmic 3D reverb based on feedback delay networks.
 The SPAT reverberation engine is designed to synthesise the experience of the virtual sources, and the listener all being placed within the same virtual acoustic space.
@@ -49,15 +47,6 @@ The Artificial Reverberation editor has its own preset management system, where 
 
 This is useful for building up a collection of pre-designed reverberation spaces and for designing models that might closely match the measurements of actual spaces
 you already know.
-
-## Preset Memories
-
-<!-- TODO: do we really want this part here? It's global to all parameters, not only reverb one -->
-
-Each parameter has the possibility to store useful preset settings of your own choosing.
-Right click on a parameter dial, and a contextual menu will pop up. From there you can store the current setting to a Memory Slot, or Recall a setting from a previously saved memory slot.
-
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Generic/ParameterPreset.png)
 
 ## Reverb General
 

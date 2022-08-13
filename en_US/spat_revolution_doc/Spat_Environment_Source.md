@@ -36,7 +36,6 @@ The source's parameters are detailed on the next section, [Source Parameters](Sp
 A double click on any Source Parameter dial will reset it to a SPAT default setting. The default setting of a parameter is indicated around a dial as a larger tick than the other tick marks. Additionally, a range is graphically indicated between the default setting and the current setting of a variable parameter.
 
 ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Room/SourcesInspector.png)
-<!-- TODO: update the image -->
 
 > ★ _Use the defaults as points of reference in your spatial sound design._
 
@@ -45,7 +44,6 @@ A double click on any Source Parameter dial will reset it to a SPAT default sett
 Each parameter has the possibility to store useful preset settings of your own choosing. Right-click on a parameter dial, and a contextual menu will pop up. From there you can store the current setting to a Memory Slot, or Recall a setting from a previously saved memory slot.
 
 ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Generic/ParameterPreset.png)
-<!-- TODO: update the image -->
 
 # Barycentric Groups
 
@@ -65,7 +63,7 @@ See dedicated section for a breakdown of the [**Source Parameters**](Spat_Enviro
 
 ### Multiple Source Selection
 
-You can shift click on the Index number of separate sources to create an ad hoc edit group. When you have group Sources in this way, you can perform a number of group edit actions. When you Right Click on an ad hoc group selection, a menu will pop up where you can:
+You can shift click on the Index number of separate sources to create an ad hoc edit group. When you have group Sources in this way, you can perform a number of group edit actions. When you right-Click on an ad hoc group selection, a menu will pop up where you can:
 
 - distribute the sources in the group with the [Transform panel](Spat_Environment_Transformation.md)
 - generate different colors for the sources

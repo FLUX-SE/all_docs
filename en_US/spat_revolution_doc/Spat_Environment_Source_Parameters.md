@@ -1,10 +1,8 @@
 # Source Parameters
 
-<!-- TODO: update all images of this section -->
-
 ## Room specific gain
 
-<!-- TODO: add the image -->
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Room/SourceRoomSpecific.png)
 
 New on the 22.02 build, this parameter allows to trim the source gain on each room. A source can so have a different level for each room, which can be useful for monitor, musician headphone monitor, N-1, ...
 
@@ -49,7 +47,6 @@ Envelopment corresponds to the perceived notion of how much the listener feels t
 ## Reverb Options
 
 ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Room/SourceReverb.png)
-<!-- TODO: update the image -->
 
 ### Reverb Enabled
 
@@ -160,7 +157,6 @@ The barycentric transformations will continue to orient their on-axis energy tow
 ## Options
 
 ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Room/SourceOptions.png)
-<!-- TODO: update the image -->
 
 Finally, there are some options available for each source. It is possible to edit a global parameter on the room panel on the preferences page. 
 
@@ -170,19 +166,30 @@ The Doppler effect is a well-known wave propagation phenomenon where the height 
 
 > Careful with this effect: it adds the delay corresponding on the distance between the source and the listener point.
 
-### Air Absorption
-
-Simulates the frequency-dependent absorption of air, where high frequencies roll off quicker than low-frequencies with respect to distance. You have most probably noticed this phenomenon when you are far away from a concert venue and only able to hear the bass, and gradually start to hear the whole mix as you get closer.
-
 ### Drop Factor and Drop Log 
 
 Owing to a fundamental law of acoustics and geometry - namely energy conservation - sound pressure drops in level as one moves away from the source. Enable _Drop Log_ for an acoustically accurate setting, which corresponds to a drop value attenuation every time the distance from the source is doubled (logarithmic behavior). The default _Drop Factor_ of 6 dB is also the acoustically accurate setting.
+
+### Air Absorption
+
+Simulates the frequency-dependent absorption of air, where high frequencies roll off quicker than low-frequencies with respect to distance. You have most probably noticed this phenomenon when you are far away from a concert venue and only able to hear the bass, and gradually start to hear the whole mix as you get closer.
 
 ### Radius
 
 Specifies the radius of a sphere or disc in meters, centered around the listener position, where the drop attenuation is not taken into account, and the sound level is kept constant in regard to distance. This is not only useful to prevent any dramatic sound level peak when placing a source too close to the listener, it also reflects real-world behavior quite accurately, where sources do have a certain physical size, unlike point sources that are commonly used to model far-field acoustics. This “no-drop” zone is displayed as a transparent sphere of matching radius in the Room graphics.
 
 > The radius is now depreciated, except on rare case where you really want a source to have a different behavior than others. Please prefer the room protection zone width to prevent the audio drop.
+
+### XY translation mode
+
+Specifies the two different behaviors:
+- multichannel sources one regarding internal sources orientation. When set to polar, the source orientation will follow the listener. When set to cartesian, it will face the X-axis.
+- snapshot interpolation for all sources when position is moving. If set to cartesian, the source will move to the given point with the shape of a straight line, whereas the shape will be a circular when set to polar. 
+
+### Z translation mode
+
+Changes the behavior of the translation mode regarding the Z-axis. The behavior are the same as XY translation mode.
+
 
 ## Spreading
 

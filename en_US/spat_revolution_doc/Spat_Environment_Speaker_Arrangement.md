@@ -40,9 +40,7 @@ As we use absolute, we solve this common use case by using an automatic scaling 
 
 If you change the speaker arrangement of a room where you already routed some sources, the global sound scene could be scaled to the new speaker arrangement.
 
-For example, if you first created your session with a speaker arrangement with a diameter of four meters, and then deploy it in a venue where the actual diameter of the sound system is eight meters, then all the source position, incoming automation and snapshot data will be scaled by a factor of two. 
-
-<!-- TODO: add the image -->
+For example, if you first created your session with a speaker arrangement with a diameter of four meters, and then deploy it in a venue where the actual diameter of the sound system is eight meters, then all the source position, incoming automation and snapshot data will be scaled by a factor of two.
 
 ## Speaker arrangements examples
 

@@ -97,18 +97,20 @@ For example, working in an HOA room create 3D view that does not show any speake
 
 ### Output list
 
-<!-- TODO: add the image -->
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Room/OutputListPanel.png)
 
 This panel lists all the speakers used in the room (when set to channel based). It allows quick access to the speaker arrangement editor and to the compute function.
 Each output has a "test" button that sends the signal from the signal generator directly the routed speaker. The signal generator type and level are set in the _[Preferences page](Application_Preferences.md)_.
 
 ### Listener
 
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Room/OutputListenerPanel.png)
+
 This panel gives access to the listening point. We can change its position, using the _X_, _Y_, _Z_ parameters, and its rotations using _Yaw_, _Pitch_, _Roll_.
 
 ### Protection Zone
 
-<!-- TODO: add the image -->
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Room/OutputProtectionZonePanel.png)
 
 This panel controls the behavior and size of the protection zone. By default, it is set to a diameter of four meters. Please check out the section named [Understanding the mixing zone](Spat_Environment_Understanding_the_3D_View.md) if you want more information about the protection zone.
 Note that the protection zone is attached to the listener position.
@@ -117,10 +119,9 @@ Note that the protection zone is attached to the listener position.
 + Source over listener head
 + Width
 
-
 ### Efficiency Zone
 
-<!-- TODO: add the image -->
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Room/OutputEfficiencyZonePanel.png)
 
 This panel contains options related to the efficiency zone.
 
@@ -128,11 +129,9 @@ This panel contains options related to the efficiency zone.
 + Depth - change the depth of the efficiency zone
 + Trunc (available only for non-surrounding 2D speakers' setup) - change the starting distance of the efficiency zone
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Room/OutputEfficiencyZonePanel.png)
-
 ### Scaling
 
-<!-- TODO: add the image -->
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Room/OutputScalingPanel.png)
 
 #### Distance
 
@@ -144,7 +143,7 @@ This parameter changes the scale of RTTrPM protocol data.
 
 ### Background Image
 
-<!-- TODO: add the image -->
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Room/OutputBackgroundImagePanel.png)
 
 This panel allows you to import a background image in _SPAT Revolution_ and to position it in the 3D view.
 

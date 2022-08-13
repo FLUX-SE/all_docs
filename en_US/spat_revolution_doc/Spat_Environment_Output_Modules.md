@@ -11,6 +11,4 @@ The software RETURN workflow offers an easy way to render the spatial scene to d
 
 > Create multiple output routes to capture Ambisonic recordings at the same time as sound system specific rendering.
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Room/InputSelected.png)
-
-<!-- TODO: update the image -->
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/OutputSelected.png)
