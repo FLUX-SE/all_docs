@@ -10,7 +10,6 @@ External software needs to know how to identify virtual objects, and that will b
 
 > When using a BlackTrax positional tracking system a Tracking index can be assigned to a virtual source directly from the Source module.
 
-
 ## Source Parameters
  -->
 
