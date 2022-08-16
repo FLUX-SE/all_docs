@@ -110,14 +110,16 @@ You can group the list by an object name or a property name, or research for obj
 
 ## Propagate through snapshots
 
-n order to edit a large number of snapshots, a propagation system has been implemented into the new Snapshot Page.
+In order to edit a large number of snapshots, a propagation system has been implemented into the new **Snapshot Page**.
 
-It is deeply linked to the snapshot inspector. The <code>propagate differences</code> action is located on it.
+Their are two possibilities to propagate values:
+- Propagate the differences between the _current state_ and the _current snapshot_.
 
-It is possible to propagate:
-the selected differences
-all the differences. This happens when no differences are selected.
+This behavior happens clicking on the <code>Propagate</code> button located on the **Snapshot bar**, or on **Action** panel of the **Snapshot Page**.
+- Propagate the differences between the _current state_ and the _selected snapshot and version_. 
+It is deeply linked to the **Snapshot inspector**. The <code>Propagate differences</code> action is located on it.
 
+It is possible to propagate the selected differences or all the differences (if no differences are selected).
 To select differences, use <code>Ctrl + Click</code> on Windows, or <code>Cmd + Click</code> on macOS to add several items, or <code>Shift + Click</code> to select all between two items.
 
 ### Propagate dialog
@@ -125,10 +127,13 @@ To select differences, use <code>Ctrl + Click</code> on Windows, or <code>Cmd + 
 ![Inspector](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Snapshots/PropagateDialog.png)
 
 On the propagate dialog, the selected data will be retrieved, displaying
-the absolute value which can be applied when validating on "apply with absolute value"
-the trim value which will be added to each snapshot value when validating with "trim value".
-For example, if my Accordeon L has an azimuth value of 50.0, it will become 13.475 applying with absolute value, and 50.22 applying with trim value.
+the absolute value which can be applied when validating on <code>Propagate absolute values</code>
+the trim value which will be added to each snapshot value when validating with <code>Propagate trim values</code>.
+
+> For example, if my Accordeon L has an azimuth value of 50.0, it will become 13.475 propagating with absolute value, and 50.22 propagating with trim value.
 
 On the left panel, the snapshot list is displayed in order to choose the snapshot for which the propagation will be applied.
 
 ![Inspector](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Snapshots/PropagateDialogSelectedSnapshots.png)
+
+On the right panel, the differences are displayed. It is possible to select them in order to filter which ones will be propagated. Do not select row for propagate all the values.
