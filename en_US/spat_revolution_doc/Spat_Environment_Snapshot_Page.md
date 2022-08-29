@@ -1,98 +1,96 @@
-# Snapshot page
+# Snapshots page
 
-![Snapshot page](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Snapshots/Page.png)
+![Snapshots page](../../../doc_images/SpatR/Snapshots/Page.png)
 
-The new Snapshots page of SPAT Revolution allows the user to deeply manage its show. Snapshots are an easy way to create different session states. A classic example would be to have different snapshots for different songs, or section of a song, in a live show.
+The new Snapshots page of _SPAT Revolution_ allows the user to deeply manage its show. Snapshots are an easy way to create different session states. A classic example would be to have different snapshots for different songs, or section of a song, in a live show.
 
-The system built in SPAT Revolution is both simple and powerful. As a generality, when a snapshot is created, it store the entire session state. Only the recall function can filter what is recallen.
+The system built in _SPAT Revolution_ is both simple and powerful. As a generality, when a snapshot is created, it stores the mixes parameters, i.e. the sources, rooms and masters parameters. All parameters are always stored, but it is possible to filter the recalled parameters.
 
-The page is divided into four different sections: the action bar, the snapshot list, the version history and the inspector.
-
-## The action bar
-
-![Action bar](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Snapshots/ActionBar.png)
-
-This action bar countain many buttons to manage snapshots
-
-- <code>Create</code> allows to create a new snapshot, storing the current sources/rooms/masters state.
-- <code>Duplicate</code> allows to duplicate the current snapshot selected in the snapshot list.
-- <code>Recall</code> allows to restore a previously saved snapshot selected in the snapshot list.
-- <code>Relative recall</code> is a parameter of the recall function. It allows to recall a snapshot while preserving anything that was offseted from the previous state. Here is an exemple. Let's say you have two snapshot, "A" and "B". Sources inside your project have different place in space between the two snapshots. Now, let's presume that once the show is started, you feel that one of the sources, let's say the source "2" is too close. So you grab the distance parameter and put it further away. The "Relative recall" function will preserve this offset to any of the futur recallen snapshot. This allow a perfect blend of live mixing and preparation work.
-- <code>Update</code> allows to update the selected snapshot in the snapshot list with the current state of the session.
-- <code>Remove</code> allows to delete the snapshot selected in the snapshot list
-- <code>Enable/Disable</code> allows to disable or enable the selected snapshots. This will exclude them of the next/previous behavior of the snapshot toolbar and the OSC messages.
+The page is divided into three different sections: the snapshot list, the version history and the inspector.
 
 ## The snapshot list
 
 ### Generality
 
-![Snapshot list](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Snapshots/SnapshotsList.png)
+![Snapshot list](../../../doc_images/SpatR/Snapshots/SnapshotsList.png)
 
-The snapshot list serves many purpose. First, it display the snapshot organization of your session. You can change the order of each snapshot **drag & dropping** them in the list. The snapshot name can also be edited by clicking on the text field. To recall a snapshot from the snapshot list, simply double-click on number of one of them.
+The snapshot list serves many purpose. First, it displays the snapshot organization of your session. The snapshot name can also be edited by clicking on the text field. To recall a snapshot from the snapshot list, simply double-click on number of one of them.
 
 A snapshot can have different states. First, it can be selected or unselected inside the list. The state of selection is graphical element that let the user know on which snapshot an action is performed.
 
-![Unselected snapshot](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Snapshots/UnselectedSnapshot.png)
-> Unselected snapshot
+![Unselected snapshot](../../../doc_images/SpatR/Snapshots/UnselectedSnapshot.png)
+Unselected snapshot
 
-![Selected snapshot](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Snapshots/SelectedSnapshot.png)
-> Selected snapshot
+![Selected snapshot](../../../doc_images/SpatR/Snapshots/SelectedSnapshot.png)
+Selected snapshot
 
-A snapshot can also be disabled. A disabled snapshot will be darken in the list. It cannot be recallen. The <code>next</code> and <code>previous</code> snapshot buttons will automatically skip a disabled snapshot. To activate or deactivate a snapshot, select the snapshot and click on the <code>Enable</code> button on the action bar, or right-click on a selected snapshot and click on the <code>Enable/disable</code> option.
+A snapshot can also be disabled. A disabled snapshot will be darkened in the list. It cannot be recalled. The <code>next</code> and <code>previous</code> snapshot buttons will automatically skip a disabled snapshot. To activate or deactivate a snapshot, select the snapshot and click on the <code>Enable</code> button on the action bar, or right-click on a selected snapshot and click on the <code>Enable/disable</code> option.
 
-![Active / inactive](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Snapshots/SnapshotEnableDisable.png)
-> Deactivated snapshot (1) VS activated snapshot (2)
+![Active / inactive](../../../doc_images/SpatR/Snapshots/SnapshotEnableDisable.png)
+Activated snapshot (1) VS deactivated snapshot (2)
 
-Lastly, the last recallen snapshot is displayed with a white border around it. This allows the user to monitor where he is in his show.
+Lastly, the last recalled snapshot is displayed with a white border around it. This allows the user to monitor where he is in his show.
 
-![In-play / not-in-play](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Snapshots/SnasphotRecalled.png)
-> In-play snapshot (2) VS not-in-play snapshot (1)
+![In-play / not-in-play](../../../doc_images/SpatR/Snapshots/SnapshotRecalled.png)
+In-play snapshot (2) VS not-in-play snapshot (1)
+
+### The actions
+
+![Action bar](../../../doc_images/SpatR/Snapshots/SnapshotsListActions.png)
+
+This snapshot list top bar regroups all the snapshots actions:
+
+- <code>New</code> allows to create a new snapshot, storing the current sources, rooms and masters state.
+- <code>Duplicate</code> allows to duplicate the current snapshot selected in the snapshot list.
+- <code>Update</code> allows to update the selected snapshot in the snapshot list with the current state of the session.
+- <code>Remove</code> allows to delete the snapshot(s) selected in the snapshot list.
+- <code>Move up</code> moves the selected snapshot(s) up one row in the snapshot list.
+- <code>Move down</code> moves the selected snapshot(s) down one row in the snapshot list.
+- <code>Recall</code> allows to load a previously saved snapshot selected in the snapshot list.
+
+!> Keep in mind that source with "Snapshot" parameter set to off will be stored, but won't be recalled.
 
 ### Snapshot Index
 
 To recall through OSC a snapshot, the name or the index is required. As snapshot order can be moved with the list, the snapshot index does not depend on the place of the snapshot on the list. The snapshot index is indicated on each snapshot, left to the recall options.
 
-![Snapshot index](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Snapshots/SelectedSnapshot.png)
+![Snapshot index](../../../doc_images/SpatR/Snapshots/SelectedSnapshot.png)
 
-It is possible to reorder the all the snapshot index according to list order. To do so, click on the menu <code>Snasphot/Reindex all snapshots</code>.
+It is possible to reorder the all the snapshot index according to list order. To do so, click on the menu <code>Snapshot/Reindex all snapshots</code>.
+
+### Relative recall option
+
+<code>Relative recall</code> is an option of the recall function. It allows to recall a snapshot while preserving anything that was offset from the previous state. This can help to prevent technical problems during a show. 
+
+Here is an example: let's say you have two snapshots, _A_ and _B_. Sources inside your project have different gains between the two snapshots: 0dB for the snapshot _A_, -5dB for the snapshot _B_. Now, let's presume that once the show is started, you feel that one of the sources is too quiet (the singer preserves his voice). So you grab the gain parameter and trim by 4dB. The "Relative recall" function will preserve this offset to any of the future recalled snapshot. Recalling snapshot _B_ will set the gain of the singer to -1dB instead of -5dB. This allows a perfect blend of live mixing and preparation work.
 
 ### Global snapshot preferences, global and override
 
 The snapshot list also exposes four recall options on its top right corner : the recall time, the source option, the room option and the master option. These parameters affect each snapshot.
 
-- The **recall time** is an interpolation between the current session state and the session state recallen from a snapshot. This allows to smooth out the transition between two scenes and can also be used to create some movements.
-- The **source option** defines if the sources state should be recallen. This refers to the sources position and other properties.
-- The **room option** defines if the rooms state should be recallen. This refers to the reverb parameters of rooms and also the listener head. Be careful with this as some parameters of the reverberation can be recalled without sound dropping.
-- The **master option** defines if the rooms state should be recallen. This refers to the master level output.
+- The **recall time** is an interpolation between the current session state and the session state recalled from a snapshot. This allows to smooth out the transition between two scenes and can also be used to create some movements.
+- The **source option** defines if the sources state should be recalled. This refers to the sources position and other properties.
+- The **room option** defines if the rooms state should be recalled. This refers to the reverb parameters of rooms and also the listener head. Be careful with this as some parameters of the reverberation can be recalled without sound dropping.
+- The **master option** defines if the rooms state should be recalled. This refers to the master level output.
 
-By default only sources properties are recallen from snapshots. Remember than even if only some parameters are recall, the whole session is stored on the creation of a snapshot.
+By default, only sources properties are recalled from snapshots. Remember than even if only some parameters are recall, the whole session is stored on the creation of a snapshot.
 
-Beside each snapshot, there is a tickbox, under a collumn named "**GLobal**". If the tickbox is checked, the default values of the recall preferences refer to the global value. If the tickbox is unchecked, you can override the global preferences and enter a specific recall values for the snapshot.
-
-### Changing snapshots color
-
-![Coloring snapshot](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Snapshots/SnapshotColor.png)
-
-To help to a better organisation of the session, snapshots can be recolored. To do so, right-click on the selected snapshot and choose <code>Set colors</code>. A palette, from which you can pick a color, will appear. 
+Beside each snapshot, there is a checkbox, under a column named "**Global options**". If the checkbox is checked, the default values of the recall preferences refer to the global value. If the checkbox is unchecked, you can override the global preferences and enter a specific recall values for the snapshot.
 
 ## Version history
 
-![Snapshot version history](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Snapshots/VersionHistory.png)
+![Snapshot version history](../../../doc_images/SpatR/Snapshots/VersionHistory.png)
 
-In this panel takes place a very powerful feature. For each snapshot, SPAT Revolution automatically stores the last ten version. Of course, you can recall any of this ten previous state, remove one, make a previous one the current.
+In this panel takes place a very powerful feature. For each snapshot, SPAT Revolution automatically stores the last versions. By default, **ten versions** are stored. It is possible to increase or decrease this number on the **Preferences** page. Of course, you can recall any of this ten previous state, remove one.
 
-Very much like the snapshot list, an entry in the version history list can have various state :
+An entry in the version history has for indication its creation date and time. To describe the version, you can insert a custom note.
 
-- It can be selected or unselected
-- It can be in-play or not-in-play.
+The **Active** field allows to choose which version will be in used when the snapshot is recalled. Only one version can be activated. 
 
-An entry in the version history as for the name its creation date and time. It is not editable, but you can also insert a custom note.
-
-A set of actions is presented right-clicking on the snapshot:
-  - A previous snapshot version can be recallen by double-clicking, or choosing <code>Recall</code>.
-  - An entry can be deleted by right clicking on the selected entry and by choosing <code>Delete</code>.
-  - If you want to set a previous version as the one to be in used when recalling the snasphot, right-click on the snasphot and click on <code>Make current</code>.
-  - All versions excluding the selected one can be deleted, clicking on <code>Delete all others versions</code>.
+A set of actions is presented on the top:
+  - A previous snapshot version can be recalled by clicking on the <code>Recall</code> button. The recalled version will be indicated by the **Current** field.
+  - Versions can be deleted, clicking on <code>Delete</code>.
+  - All versions excluding the selected one(s) can be deleted, clicking on <code>Delete all others versions</code>.
 
 ## Inspector
 
@@ -100,32 +98,38 @@ The inspector lets you visualize the difference between the current state of you
 
 It allows to easily monitor what was changed and how it was changed.
 
-![Inspector](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Snapshots/Inspector.png)
+![Inspector](../../../doc_images/SpatR/Snapshots/Inspector.png)
 
-Select the snapshot you want to compare, and click on the <code>Show differences</code>, or use the shorcut <code>Ctrl + D</code> on Windows, <code>Command + D</code> on macOS.
+Select the snapshot you want to compare, and click on the <code>Show differences</code>, or use the shortcut <code>Ctrl + D</code> on Windows, <code>Command + D</code> on macOS.
 
-You can filter the list by an object name and/or a property name. You can also choose to show only informations by sources, rooms or masters.
+You can group the list by an object name or a property name, or research for object or property.
 
+## Propagate through snapshots
 
-## Snapshot preferences
+In order to edit a large number of snapshots, a propagation system has been implemented into the new **Snapshot Page**.
 
-A new panel relative to the snapshot is available on the preferences page, allowing some options.
+There are two possibilities to propagate values:
+- Propagate the differences between the _current state_ and the _current snapshot_.
 
-![Snasphot preferences](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Preference/Snapshot.png)
+This behavior happens clicking on the <code>Propagate</code> button located on the **Snapshot bar**, or on the top of the snapshot list of the **Snapshot Page**.
+- Propagate the differences between the _current state_ and the _selected snapshot and version_. 
+It is deeply linked to the **Snapshot inspector**. The <code>Propagate differences</code> action is located on it.
 
-- **Show snapshot bar**: determines if the snapshot bar and the timecode is shown or hidden.
-- **Recall sources name**: determines if the source names is recalled with snasphots.
-- **Number of saved version**: determines the number of version saved when updating a snapshot. Carefull: increasing this number increases deeply the size of the .json SPAT file. 
-- **Ask for update before recalling**: when checked, a dialog will ask you if you want to update the snapshot before each recalled.
+It is possible to propagate the selected differences or all the differences (if no differences are selected).
+To select differences, use <code>Ctrl + Click</code> on Windows, or <code>Cmd + Click</code> on macOS to add several items, or <code>Shift + Click</code> to select all between two items.
 
+### Propagate dialog
 
-## Snapshot toolbar
+![Inspector](../../../doc_images/SpatR/Snapshots/PropagateDialog.png)
 
-![Snasphot toolbar](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Generic/SnapshotToolbar.png)
+On the propagate dialog, the selected data will be retrieved, displaying
+the absolute value which can be applied when validating on <code>Propagate absolute values</code>
+the trim value which will be added to each snapshot value when validating with <code>Propagate trim values</code>.
 
-This toolbar has been designed to help playing with snapshots without navigating to the snapshots page. You will find some of the most important snapshot actions:
-- Recall the <code>Previous</code> snapshot.
-- The name of the <code>Current</code> snapshot. Clicking on it will display the snapshot list, enabling to recall any snapshot of the list.
-- Recall the <code>Next</code> snapshot.
-- <code>Update</code> the current snapshot.
-- Enable or disable the <code>Relative Recall</code>.
+> For example, if my Accordeon L has an azimuth value of 50.0, it will become 13.475 propagating with absolute value, and 50.22 propagating with trim value.
+
+On the left panel, the snapshot list is displayed in order to choose the snapshot for which the propagation will be applied.
+
+![Inspector](../../../doc_images/SpatR/Snapshots/PropagateDialogSelectedSnapshots.png)
+
+On the right panel, the differences are displayed. It is possible to select them in order to filter which ones will be propagated. Do not select row for propagate all the values.
