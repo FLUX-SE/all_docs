@@ -8,11 +8,11 @@ The following video illustrates some possibilities that this page offers.
 
 ![The Items' page demo](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Items/Demo.gif)
 
-## Items' type selection
+## Items type selection
 
 The upper left list control allows to choose which kind of items you want to display in the Items' Page.
 
-![Items' selection](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Items/Iitem_Selection.gif)
+![Items' selection](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Items/Item_Selection.gif)
 
 
 ## Parameters
@@ -21,7 +21,7 @@ Depending on the selected item's type, the editable parameters are the following
 
 ### Common parameters
 
-For all items (except Snapshots) the items' page allows quick edition of: 
+For all items (except Snapshots) the items' page allows quick edition of:
 
 - **Number**: the item number order of the list. 
 - **Name**: edit this field to change the name of the item.

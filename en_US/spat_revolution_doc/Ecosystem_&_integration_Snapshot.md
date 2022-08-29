@@ -5,7 +5,7 @@ It can be used to capture an audio scene into _SPAT Revolution_.
 Sources, rooms and master properties will be stored in a snapshot.
 It allows a complete transformation of the soundscape, with interpolation.
 
-Snapshots could be controlled by the dedicated menu, and with OSC messages.
+Snapshots could be controlled by the dedicated page, the dedicated menu, and with OSC messages.
 
 Sources can be excluded of a snapshot recall:
 - on the **Source Page**, disabling "Snapshot" on the wanted sources.
