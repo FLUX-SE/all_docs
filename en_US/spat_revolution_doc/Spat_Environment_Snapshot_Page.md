@@ -31,19 +31,19 @@ A snapshot can also be disabled. A disabled snapshot will be darkened in the lis
 
 Lastly, the last recalled snapshot is displayed with a white border around it. This allows the user to monitor where he is in his show.
 
-![In-play / not-in-play](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Snapshots/SnasphotRecalled.png)
+![In-play / not-in-play](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Snapshots/SnapshotRecalled.png)
 > In-play snapshot (2) VS not-in-play snapshot (1)
 
 ### The actions
 
-![Action bar](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Snapshots/ActionBar.png)
+![Action bar](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Snapshots/SnapshotsListActions.png)
 
 This snapshot list top bar regroups all the snapshots actions:
 
 - <code>New</code> allows to create a new snapshot, storing the current sources, rooms and masters state.
 - <code>Duplicate</code> allows to duplicate the current snapshot selected in the snapshot list.
 - <code>Update</code> allows to update the selected snapshot in the snapshot list with the current state of the session.
-- <code>Remove</code> allows to delete the snapshot(s) selected in the snapshot list;
+- <code>Remove</code> allows to delete the snapshot(s) selected in the snapshot list.
 - <code>Move up</code> moves the selected snapshot(s) up one row in the snapshot list.
 - <code>Move down</code> moves the selected snapshot(s) down one row in the snapshot list.
 - <code>Recall</code> allows to load a previously saved snapshot selected in the snapshot list.
