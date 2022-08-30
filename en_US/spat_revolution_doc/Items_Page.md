@@ -2,18 +2,21 @@
 
 This page gives an overview and allows to edit the major parameters for each item type (Input, Source, Room, etc.)
 
-![The items' page](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Items/Page.png)
+![The items' page](../../../doc_images/SpatR/Items/Page.png)
 
 The following video illustrates some possibilities that this page offers.
 
-![The Items' page demo](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Items/Demo.gif)
+![The Items' page demo](../../../doc_images/SpatR/Items/Demo.gif)
+
+<!-- TODO: update the image -->
 
 ## Items type selection
 
 The upper left list control allows to choose which kind of items you want to display in the Items' Page.
 
-![Items' selection](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Items/Item_Selection.gif)
+![Items' selection](../../../doc_images/SpatR/Items/ItemSelection.gif)
 
+<!-- TODO: update the image -->
 
 ## Parameters
 
@@ -21,28 +24,11 @@ Depending on the selected item's type, the editable parameters are the following
 
 ### Common parameters
 
-For all items (except Snapshots) the items' page allows quick edition of:
+For all items, the items' page allows quick edition of:
 
 - **Number**: the item number order of the list. 
 - **Name**: edit this field to change the name of the item.
 - **Active**: define if the item is computed or not. _If the item is inactive due to license restriction, the field cannot be edited._
-
-### Source specific parameters
-
-In addition to the common parameters, when the _Source_ item's type is selected, the Items' Page allows quick edit of:
-
-- **Color**: select the color of the source
-- **Room**: list the rooms' names the source belongs to. _The rows can be grouped by rooms. See [Group sources by rooms](Items_Page.md#Group sources by rooms)_
-- **Speaker arrangement**: select the speaker arrangement of the source.
-- **Remote**: define if the source can be controlled by OSC or not.
-- **Remote number**: define the index of the source on OSC side. _If set to 0, the remote number is equal to the source number. Careful with this behavior: this will be edited with the source order._
-- **Automation**: define if the source can be controlled by automation via Local Audio Path.
-- **Snapshot**: define if the source can be controlled by snapshot recall.
-- **RTTrPM number**: define the RTTrPM beacon number used for control this source. If set to 0, the tracking will be disabled. _Ultimate license only._ 
-- **Gain**: define the gain of the source.
-- **Mute**: define the mute status of the source.
-
-![Items page for sources](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Items/Sources.png)
 
 ### Input specific parameters
 
@@ -55,32 +41,41 @@ In addition to the common parameters, when the _Input_ item's type is selected, 
 - **Delay (meters)**: define the input delay in meters.
 - **Delay (feets)**: define the input delay in feets.
 - **Connected**: displays if the input is connected to other items.
-- **Send to analyzer**: displays if the input is sent to FLUX:: Analyzer.
 
-![Items page for sources](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Items/Inputs.png)
+![Items page for sources](../../../doc_images/SpatR/Items/Inputs.png)
+
+<!-- TODO: update the image -->
+
+### Source specific parameters
+
+In addition to the common parameters, when the _Source_ item's type is selected, the Items' Page allows quick edit of:
+
+- **Color**: select the color of the source.
+- **Room**: list the rooms' names the source belongs to. _The rows can be grouped by rooms. See [Group sources by rooms](Items_Page.md#Group sources by rooms)_
+- **Speaker arrangement**: select the speaker arrangement of the source.
+- **Remote**: define if the source can be controlled by OSC or not.
+- **Remote number**: define the index of the source on OSC side. _If set to 0, the remote number is equal to the source number. Careful with this behavior: this will be edited with the source order._
+- **Automation**: define if the source can be controlled by automation via Local Audio Path.
+- **Snapshot**: define if the source can be controlled by snapshot recall.
+- **RTTrPM number**: define the RTTrPM beacon number used for control this source. If set to 0, the tracking will be disabled. _Ultimate license only._
+- **Gain**: define the gain of the source.
+- **Mute**: define the mute status of the source.
+
+![Items page for sources](../../../doc_images/SpatR/Items/Sources.png)
 
 ### Room specific parameters
 
 In addition to the common parameters, when the _Room_ item's type is selected, the Items' Page shows:
 
 - **Connected sources**: displays the number of connected sources.
-- **Speaker arrangement**: select the speaker arrangement of the room. For HOA and Binaural room, this field displays respectively the dimension and the HRTF. 
+- **Speaker arrangement**: select the speaker arrangement of the room. For HOA and Binaural room, this field displays respectively the dimension and the HRTF.
 - **Pan law**: select the pan law of the _Room_, if stream type is Channel-Based or Binaural. For HOA room, this field displays the HOA order.
 - **Reverb enable**: define if the reverb is enabled in this room.
-- **Scaling distance**: define the scaling distance of the room in meters.
+- **Protection zone width**: define the width of the [protection zone](https://doc.flux.audio/#/en_US/spat_revolution_doc/Spat_Environment_Understanding_the_3D_View?id=the-protection-zone).
+- **Efficiency zone**: select the wanted behavior when a source is out of the [efficiency zone](https://doc.flux.audio/#/en_US/spat_revolution_doc/Spat_Environment_Understanding_the_3D_View?id=the-efficiency-zone) of the room.
+- **Scaling distance**: define the [scaling distance] of the room in meters.
 - **Tracking scaling**: define the tracking scaling of the room in meters.
-- **Efficiency zone**: select the wanted behavior when a source is out of the efficiency zone of the room.
-- **Protection zone width**: define the width of the protection zone.
-- **Send to analyzer**: displays if the room is sent to FLUX:: Analyzer.
 
-
-<!-- todo document ! and add picture
-
-### Snapshot specific parameters
-
-Regarding the Snapshots, the Items' page shows and allow to edit the following information:
-
- -->
 
 ## Navigation
 
@@ -101,14 +96,19 @@ In order to give an easy navigation on this page and its parameters, keyboard sh
 - <code>Page Up</code>: select the cell on the previous page.
 - <code>Page Down</code>: select the cell on the next page.
 
+It is also possible to sort the items according to a specific field, shift-clicking on the header of it.
+
 ## Filtering and Group by
 
 To go further in easing the edition of parameters, the Items' page allows to filter of the displayed data. Moreover, for sources, they can be grouped according to the rooms they belong to.
 
 ### Filtering
-Enter text in the top search field to filter the displayed objects. 
+
+Enter text in the top search field to filter the displayed objects. This will search on all the field. To search for a specific field, type the name of the field and add ":". For example, to search the object with the name beginning by "Violin", type <code>name:Violin</code>.
 
 ### Group sources by rooms
 
-![Group by rooms](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ItemsPage/GroupBy.gif)
+![Group by rooms](../../../doc_images/SpatR/Items/GroupBy.gif)
+
+<!-- TODO: update the image -->
 
