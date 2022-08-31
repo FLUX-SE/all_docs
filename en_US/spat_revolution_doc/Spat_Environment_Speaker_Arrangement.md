@@ -4,11 +4,11 @@
 
 ## Rendering to Speakers
 
-In order for the virtual scene (our room) to translate correctly as an immersive sound experience on a speaker system, _SPAT Revolution_ needs to have a model of a multi-channel speaker arrangement which will be used to apply the panning or synthesis method to map the information to the destination speakers and render the sound field correctly.
+In order for the virtual scene (our room) to translate correctly as an immersive sound experience on a speaker system, _SPAT Revolution_ needs to have a model of a multichannel speaker arrangement which will be used to apply the panning or synthesis method to map the information to the destination speakers and render the sound field correctly.
 
 To this end, you will find a large library of standard and specialized speaker arrangements already built into _SPAT Revolution_ which can be used in various places throughout the Environment Setup.
 
-Speaker arrangements can be used to fit the format of a virtual room to match the actual speaker system being used to diffuse the mix in a real room. Channel-based speaker configurations are used to define a multi-channel source arrangement, a room speaker source arrangement, and can also be used in the transcoding phase of sound fields.
+Speaker arrangements can be used to fit the format of a virtual room to match the actual speaker system being used to diffuse the mix in a real room. Channel-based speaker configurations are used to define a multichannel source arrangement, a room speaker source arrangement, and can also be used in the transcoding phase of sound fields.
 
 The golden rule when working with multi-channels based audio is to ensure to have the appropriate format, speaker arrangement, and channel routing throughout, otherwise the virtual space will not map correctly into a physical space.
 

@@ -14,9 +14,11 @@ The page is divided into three different sections: the snapshot list, the versio
 
 ![Snapshot list](../../../doc_images/SpatR/Snapshots/SnapshotsList.png)
 
-The snapshot list serves many purpose. First, it displays the snapshot organization of your session. The snapshot name can also be edited by clicking on the text field. To recall a snapshot from the snapshot list, simply double-click on number of one of them.
+The snapshot list is the main section of snapshot management and serves many purposes. First, it displays the snapshot organization of your session. The snapshot name can also be edited by clicking on the text field. To recall a snapshot from the snapshot list, simply double-click on number of one of them.
 
-A snapshot can have different states. First, it can be selected or unselected inside the list. The state of selection is graphical element that let the user know on which snapshot an action is performed.
+#### Snapshot selection
+
+A snapshot can have different states. First, it can be selected or unselected inside the list. It will serve to make a specific action on the selected snapshot(s) and allow to reveal the version history and inspector section (if only one is selected). The state of selection is graphical element that let the user know on which snapshot an action is performed.
 
 ![Unselected snapshot](../../../doc_images/SpatR/Snapshots/UnselectedSnapshot.png)
 Unselected snapshot
@@ -24,12 +26,16 @@ Unselected snapshot
 ![Selected snapshot](../../../doc_images/SpatR/Snapshots/SelectedSnapshot.png)
 Selected snapshot
 
-A snapshot can also be disabled. A disabled snapshot will be darkened in the list. It cannot be recalled. The <code>next</code> and <code>previous</code> snapshot buttons will automatically skip a disabled snapshot. To activate or deactivate a snapshot, select the snapshot and click on the <code>Enable</code> button on the action bar, or right-click on a selected snapshot and click on the <code>Enable/disable</code> option.
+#### Snapshot activation and deactivation
+
+A snapshot can also be disabled using the dedicated toggle. A disabled snapshot will be darkened in the list. It cannot be recalled. The <code>next</code> and <code>previous</code> snapshot buttons on the snapshot toolbar will automatically skip a disabled snapshot.
 
 ![Active / inactive](../../../doc_images/SpatR/Snapshots/SnapshotEnableDisable.png)
 Activated snapshot (1) VS deactivated snapshot (2)
 
-Lastly, the last recalled snapshot is displayed with a white border around it. This allows the user to monitor where he is in his show.
+#### Current snapshot
+
+Lastly, the last recalled snapshot is displayed with the "current" field set to on. This allows the user to monitor where he is in his show.
 
 ![In-play / not-in-play](../../../doc_images/SpatR/Snapshots/SnapshotRecalled.png)
 In-play snapshot (2) VS not-in-play snapshot (1)
@@ -56,32 +62,37 @@ To recall through OSC a snapshot, the name or the index is required. As snapshot
 
 ![Snapshot index](../../../doc_images/SpatR/Snapshots/SelectedSnapshot.png)
 
-It is possible to reorder the all the snapshot index according to list order. To do so, click on the menu <code>Snapshot/Reindex all snapshots</code>.
+It is possible to generate new indexes for the all snapshot according to list order. To do so, click on the menu <code>Snapshot/Reindex all snapshots</code>.
 
-### Relative recall option
+### Recall options
 
-<code>Relative recall</code> is an option of the recall function. It allows to recall a snapshot while preserving anything that was offset from the previous state. This can help to prevent technical problems during a show. 
-
-Here is an example: let's say you have two snapshots, _A_ and _B_. Sources inside your project have different gains between the two snapshots: 0dB for the snapshot _A_, -5dB for the snapshot _B_. Now, let's presume that once the show is started, you feel that one of the sources is too quiet (the singer preserves his voice). So you grab the gain parameter and trim by 4dB. The "Relative recall" function will preserve this offset to any of the future recalled snapshot. Recalling snapshot _B_ will set the gain of the singer to -1dB instead of -5dB. This allows a perfect blend of live mixing and preparation work.
-
-### Global snapshot preferences, global and override
-
-The snapshot list also exposes four recall options on its top right corner : the recall time, the source option, the room option and the master option. These parameters affect each snapshot.
-
-- The **recall time** is an interpolation between the current session state and the session state recalled from a snapshot. This allows to smooth out the transition between two scenes and can also be used to create some movements.
+Recalling a snapshot will use 4 different options:
+- The **timing** is the transition time between the current session state and the session state recalled from a snapshot. This allows to smooth out the transition between two scenes and can also be used to create some movements.
 - The **source option** defines if the sources state should be recalled. This refers to the sources position and other properties.
 - The **room option** defines if the rooms state should be recalled. This refers to the reverb parameters of rooms and also the listener head. Be careful with this as some parameters of the reverberation can be recalled without sound dropping.
 - The **master option** defines if the rooms state should be recalled. This refers to the master level output.
 
-By default, only sources properties are recalled from snapshots. Remember than even if only some parameters are recall, the whole session is stored on the creation of a snapshot.
+> By default, only sources properties are recalled from snapshots.
+>
+> If only some parameters are recalled, the whole session is stored on the creation of a snapshot.
+
+### Using global options or override them
+
+The snapshot list exposes the four global recall options on its top right corner : the recall timing, the sources recall option, the rooms recall option and the masters recall option. These parameters affect each snapshot with global option activated.
 
 Beside each snapshot, there is a checkbox, under a column named "**Global options**". If the checkbox is checked, the default values of the recall preferences refer to the global value. If the checkbox is unchecked, you can override the global preferences and enter a specific recall values for the snapshot.
+
+### Relative recall option
+
+<code>Relative recall</code> is an option of the recall function. It allows to recall a snapshot while preserving anything that was offset from the previous state. This can help to prevent technical problems during a show.
+
+Here is an example: let's say you have two snapshots, _A_ and _B_. Sources inside your project have different gains between the two snapshots: 0dB for the snapshot _A_, -5dB for the snapshot _B_. Now, let's presume that once the show is started, you feel that one of the sources is too quiet (the singer preserves his voice). So you grab the gain parameter and trim by 4dB. The "Relative recall" function will preserve this offset to any of the future recalled snapshot. Recalling snapshot _B_ will set the gain of the singer to -1dB instead of -5dB. This allows a perfect blend of live mixing and preparation work.
 
 ## Version history
 
 ![Snapshot version history](../../../doc_images/SpatR/Snapshots/VersionHistory.png)
 
-In this panel takes place a very powerful feature. For each snapshot, SPAT Revolution automatically stores the last versions. By default, **ten versions** are stored. It is possible to increase or decrease this number on the **Preferences** page. Of course, you can recall any of this ten previous state, remove one.
+In this panel takes place a very powerful feature. For each snapshot, SPAT Revolution automatically stores the last versions. By default, **ten versions** are stored. It is possible to increase or decrease this number on the Snapshot panel of the **Preferences** page. Of course, you can recall any of this ten previous state, remove one.
 
 An entry in the version history has for indication its creation date and time. To describe the version, you can insert a custom note.
 

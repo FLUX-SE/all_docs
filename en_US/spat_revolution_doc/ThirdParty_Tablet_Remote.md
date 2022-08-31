@@ -65,8 +65,6 @@ The port and host should match that of the Lemur app.
 
 ![image(3)](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/LemurOSCConnectionsMatrix.png)
 
-<!-- TODO: update the image -->
-
 - Input from your IP <code>192.168.43.10</code> (or whatever you SPAT computer IP is) with port # <code>53700</code>.
 
 - Output to <code>192.168.2.5</code> (The Lemur iPad IP) with port # <code>8000</code>. Default and needed checkbox setup are: 

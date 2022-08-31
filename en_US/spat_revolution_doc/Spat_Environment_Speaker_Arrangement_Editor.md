@@ -42,10 +42,7 @@ Open the **speaker arrangement editor** by clicking on the <code>Edit</code> but
 
 **Compute:** opens a dialog to help to set delay and gain on the speaker arrangement. More information of the [dedicated section below](Spat_Environment_Speaker_Arrangement_Editor.md?id=delay-and-gain-computing)
 
-
 ### Selected or all speakers section
-
-It is possible to create many speakers or to edit them all at once using geometric transformation. In _SPAT Revolution_, these transformations are mathematical laws used to distribute points (in our case, speakers) in the space. In other words, it can help to create circles, spheres or lines of speakers in second instead of minutes.
 
 **Transform:** modify the selected or all speakers according to a specified transformation. For more information about it, check out the [transformation section](Spat_Environment_Transformation.md).
 
@@ -146,4 +143,5 @@ Speakers alignments section lets _SPAT Revolution_ compute the delay and gain fo
 - **Cartesian with minimum delay**: will align the speakers according to straight lines.
 - **Cartesian with symmetry**: will align left/right and front/back speakers according to symmetrical straight lines.
 
+Alignment can be made on the all arrangement, but also selecting a certain speaker orientation type. 
 It is possible to select the speakers on each the alignment will be done according to their orientation.

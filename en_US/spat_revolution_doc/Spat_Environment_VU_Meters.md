@@ -8,4 +8,4 @@ Also, notice how the “wire” that graphically connects modules in the setup s
 
 ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/InspectorVU.png)
 
-<!-- TODO: update the image -->
+<!-- TODO: update the image (bad visualization in september release) -->

@@ -170,8 +170,6 @@ In the SPAT Revolution OSC Connection preferences:
 
 ![SPAT OSC settings for Nuendo ADM-OSC](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Preference/OSCConnectionsADM.png ':size=600')
 
-<!-- TODO: update the image -->
-
 * Choose <code>Input ADM-OSC</code> preset and select you network interface. If Nuendo and SPAT Revolution are on the same computer, choose Localhost <code>127.0.0.1</code>, otherwise choose the network interface where OSC messages are incoming.
 
 * You can edit the transform double-clicking on it. This is where you will define the SPAT Revolution automation zone range (scaling to). For example, here we are using -3, 3.
@@ -196,7 +194,7 @@ This configuration is for sending SPAT source objects data to Nuendo.
 
 Et voila! You are set.
 
-Ready to move info an object-oriented worklow!
+Ready to move info an object-oriented workflow!
 
 <!--
 

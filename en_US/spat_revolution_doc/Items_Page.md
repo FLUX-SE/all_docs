@@ -71,8 +71,8 @@ In addition to the common parameters, when the _Room_ item's type is selected, t
 - **Speaker arrangement**: select the speaker arrangement of the room. For HOA and Binaural room, this field displays respectively the dimension and the HRTF.
 - **Pan law**: select the pan law of the _Room_, if stream type is Channel-Based or Binaural. For HOA room, this field displays the HOA order.
 - **Reverb enable**: define if the reverb is enabled in this room.
-- **Protection zone width**: define the width of the [protection zone](https://doc.flux.audio/#/en_US/spat_revolution_doc/Spat_Environment_Understanding_the_3D_View?id=the-protection-zone).
-- **Efficiency zone**: select the wanted behavior when a source is out of the [efficiency zone](https://doc.flux.audio/#/en_US/spat_revolution_doc/Spat_Environment_Understanding_the_3D_View?id=the-efficiency-zone) of the room.
+- **Protection zone width**: define the width of the [protection zone](/Spat_Environment_Understanding_the_3D_View?id=the-protection-zone).
+- **Efficiency zone**: select the wanted behavior when a source is out of the [efficiency zone](/Spat_Environment_Understanding_the_3D_View?id=the-efficiency-zone) of the room.
 - **Scaling distance**: define the [scaling distance] of the room in meters.
 - **Tracking scaling**: define the tracking scaling of the room in meters.
 

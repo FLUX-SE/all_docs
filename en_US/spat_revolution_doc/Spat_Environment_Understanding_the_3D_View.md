@@ -24,8 +24,6 @@ When a source is inside the protection zone on a 3D capable stream type/speaker 
 
 ![ProtectionZonePanel]( https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR//Room/OutputProtectionZonePanel.png)
 
-<!-- TODO: Image of Source over head in the 3D view -->
-
 
 ## The presence of a source
 
