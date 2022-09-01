@@ -56,12 +56,6 @@ Open the **speaker arrangement editor** by clicking on the <code>Edit</code> but
 
 **Move down:** move the selected speaker(s) one row below.
 
-<!--
-
-TODO: add transformation speaker picture
-
--->
-
 ### Add speaker(s) section
 
 **Add:** create a new speaker in the arrangement.

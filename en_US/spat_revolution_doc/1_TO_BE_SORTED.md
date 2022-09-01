@@ -13,7 +13,7 @@ Additionally, the powerful _Nebula Spatial Spectrogram_ is highly dependent on t
 
 ## Virtual Room Concepts
 
-![](include/SpatRevolution_UserGuide_-104.jpg)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Generic/SplashScreen.png)
 ### Simulated Speaker Diffusion
 
 When a Virtual Room is Channel Based, the speaker configuration layout is modeled as fixed speakers which appear in the Room graphically according to their programmed positions (_see [Custom Speaker Configuration](Spatialisation_technology_Speaker_Arrangement.md)_) - you will not be able to move those speakers around with the mouse. These fixed speaker positions are vitalizing a sound system configuration which is often the same one that will be used for diffusion. These virtual speakers interact with the virtual acoustics of each room as designed by the _[artificial reverberation](8_Artificial_Reverberation_8_Artificial_Reverberation.md)_.
@@ -28,7 +28,7 @@ It is advisable to think in parallel as far as room mixing goes. You could think
 
 In practice, the best mixes are obtained by mixing on the same sound system in the studio or venue as you have represented in the Channel Based Rooms. But there is also the possibility of monitoring Channel Based mixing on headphones using the [binaural monitor](5_Spatialisation_Technology_5_1_Binaural_5_1_Binaural?id=binaural-monitoring-module.md) or a dedicated, parallel, binaural room. This is workable enough to allow you to keep on arranging a mix and spatial composition 'off location' without too many surprises when it comes to the final result.
 
-![](include/SpatRevolution_UserGuide_-106.jpg)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Room/3DView3DConfig.png)
 
 > Channel Based simulations render localizable virtual sources by controlling the virtual speaker array in a similar way that panning laws do on real world physical systems. They do not model the positions of virtual sound sources, but instead control the gains of the virtual speakers in the model to render perceived positions.
 
@@ -36,7 +36,7 @@ In practice, the best mixes are obtained by mixing on the same sound system in t
 
 All inputs to a room must be in some kind of Channel Based format, even when the Room is an Ambisonic or Binaural Room. Even a mono source can be considered as a channel based signal of [one channel](6_Spat_Environment_6_4_Inputs_6_4_Inputs?id=mono-input.md). For any source that has more than one channel, it will be structured as a Channel Based configuration - and that configuration will be virtualized inside the Room as one single source in an interconnected cluster formation - this is designed to maintain interchannel spatial image relationships as much possible, keeping the multichannel source in a discrete self-contained system. The sound, size and positioning of that configuration can now be manipulated as a unified group.
 
-![](include/SpatRevolution_UserGuide_-108.jpg)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Room/3DViewMultichannelSources.png)
 
 ### Speakerless Virtual Rooms - Binaural and Ambisonic
 
@@ -58,12 +58,12 @@ One workflow that is often required is that of remixing a pre-rendered channel b
 
 Here is an example of that in the Room view. Notice how it is possible to rebalance and remix the original using the perceptual factors or positional parameters. A room simulation reverb is also playing a significant role in the cross-format mixing process, as the reverb simulation adds new spatial information to the mix, which might help get a more immersive result in the output format.
 
-![](include/SpatRevolution_UserGuide_-110.jpg)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Room/UpmixingExplanation.png)
 <!-- TODO: update the image -->
 
 This is an example of a multiple format changing signal graph, which changes format in two ways, to provide an alternative result. Firstly, by transcoding the output of an HOA Room into various other Channel Based formats, but also a room that simulates how the target speaker configuration might render the source speaker configuration. Both methods will give different results and the choice is up to the designer.
 
-![](include/SpatRevolution_UserGuide_-112.jpg)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/HOADecodingOptions.png)
 <!-- TODO: update the image -->
 
 Options are available when _transcoding_ (aka _decoding_ ) from a High Order Ambisonic room into a Channel Based stream. These decoding options will affect the sound in quite different ways - luckily it is possible to listen to the results of different Ambisonic decoding options in real time. More about this in the section about [Ambisonic transcoding](Ambisonic_transcoding.md).
@@ -72,7 +72,7 @@ Options are available when _transcoding_ (aka _decoding_ ) from a High Order Amb
 
 When a Virtual Room is set to be Channel Based / Stereo, it will model a stereo speaker system in the virtual room acoustics _and_ virtualize stereo microphones in real-world stereophonic recording configurations. This is a hybrid approach, where you 'record' the sources positioned in the Room through virtual matched pair microphones at the listener position, as if you were miking up a concert for stereo broadcast or playback. The microphone modes were described in the section about [XY and AB panning](5_Spatialisation_Technology_5_5_Panning_Algorithms?id=xy-ab.md) and become available under the Panning Type menu of the Room when it is set to Channel Based Stereo.
 
-![](include/SpatRevolution_UserGuide_-114.jpg)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/PanTypeXY.png)
 
 You will notice how the SPAT Reverberation handles the stereo image naturally, because it is modeling the entire mix scene in the acoustic context of a Virtual Room, rather than the conventional 'voltage controlled' left-right pan pot that all audio mixers offer for stereo mixing.
 
@@ -88,7 +88,7 @@ Each source's direct sound plus the reverberation it creates is modeled and synt
 
 > For the best Binaural Monitoring try setting up two rooms, one all Channel Based going to speakers and one Binaural for your 3D headphone mix.
 
-![](include/SpatRevolution_UserGuide_-052.jpg)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/SessionAtmosBinaural.png)
 <!-- TODO: update the image -->
 
 ## High Order Ambisonic Room
@@ -110,7 +110,7 @@ many ways.
 
 The output from an Ambisonic room must always be _decoded_ into a channel-based stream in order to hear the resulting spatial image. But even though it is not speaker compatible, it is still an audio data stream - so therefore it is quite possible to record a HOA stream to disk without decoding. This is a powerful way to work, as the HOA format encodes full sphere spatial information which can then be decoded/transcoded at a later stage.
 
-![](include/SpatRevolution_UserGuide_-118.jpg)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/SessionHOA.png)
 <!-- TODO: update the image, and update in order to give the indication of ACN and N3D for SPAT Room.-->
 
 In an HOA Room, the order can be changed at the output configuration of the room very easily, by selecting a different value pull down menu. When you have correctly set up a speaker compatible decoding method for the HOA stream coming out of a Virtual Room, you should clearly hear the difference in focus and the way that the Artificial Reverberation behaves as the Order goes up. <!-- Do not be complacent about the simplicity of the HOA interface. There is plenty going on under the hood but Spat makes it feel simple to explore how different Ambisonic Orders sound. Similarly, other encoding options are available to apply and listen to directly. -->
@@ -127,7 +127,6 @@ This is a First Order Ambisonic (FOA) room which is correctly suited for mixing 
 
 <!-- The output configuration is preset for B-Format Room, although it is possible to change to 2D or 3D. -->
 
-<!--![](include/SpatRevolution_UserGuide_-120.jpg) -->
 
 
 ## Mid-Side Room

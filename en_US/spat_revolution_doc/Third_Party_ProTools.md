@@ -187,7 +187,7 @@ It’s an aux track containing your SPAT SEND plug-in instance ready to enable L
 Moreover, this creates the "all-format" dummy bus mentioned above, and your Send Object track is already assigned to it. 
 You can do this on a single audio track or a series of tracks to send everything like a stem.
 
-![trackPreset1](include/SpatRevolution_UserGuide_protools_trackPreset1.gif)
+![trackPreset1](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/ProToolsTrackPreset1.gif)
 
 Why creating an aux SPAT send object and not instantiating the plug-in directly on the audio track? 
 Although this is possible as well (and you have to make sure your audio tracks have the proper routing), this simply allows to have a post-fader send to _SPAT Revolution_, as plug-in insert in Pro Tools are always pre-fader. 
@@ -200,7 +200,7 @@ Choose track presets, choose FLUX:: and then choose the required format.
 SPAT RETURN plug-in will be instantiated on the newly created bus. 
 The bus is already fed from the dummy bus previously created and you don’t have to worry about the routing for synchronization!
 
-![trackPreset2](include/SpatRevolution_UserGuide_protools_trackPreset2.gif)
+![trackPreset2](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/ProToolsTrackPreset2.gif)
 
 
 ### Source/Object Index, moving from LAP to OSC
@@ -213,5 +213,3 @@ Granted this is not important when using LAP, but the day that you decide to sep
 The rule of thumb is simple. 
 The index # presents the Source # in _SPAT Revolution_ and deleting (or re-ordering in the case of SPAT) will change the index number. 
 When using the plug-in in OSC mode, this will have an impact on the source that the SPAT plug-in is speaking too.
-
----

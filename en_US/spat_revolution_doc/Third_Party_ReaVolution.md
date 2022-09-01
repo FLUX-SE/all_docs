@@ -134,7 +134,7 @@ If you are working on a session that has not been created with ReaVolution, you 
 
 !> Inserting an Audio Stream plug-in will not be sufficient to display the stream type in the MCP. You have to right click on the instance and select "Show embedded UI".
 
-![createSession.gif](include/createSession.gif)
+![createSession.gif](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/ReavolutionCreateSession.gif)
 
 > When defining a channel based audio stream, you can either enter a number of channels (12 for example) or enter a speaker arrangement (5.1, 7.1, 7.1.4, 22.2 etc...).
 
@@ -163,7 +163,7 @@ In Reaper, the concept of busses is merged with the concept of folders. A folder
 
 A bus created with this command checks the audio stream of each track and adjusts its number of channels to fit them all. It also looks at the parent channel of each track. For example, if you have one mono track going to 3-4 channels and another one going to 5-6 channels, it will create a bus routed to 3-4 and reroute the child track to 1-2 and to 3-4.
 
-![bus.gif](include/bus.gif)
+![bus.gif](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/ReavolutionBus.gif)
 
 **Creating multi-busses**
 
@@ -193,7 +193,7 @@ ReaVolution comes with an action that do all of this automatically. With the hel
 
 This action is found by right clicking on a track, inside the menu **"SPAT Revolution"**. It is called **"Route selected tracks to SPAT Revolution"**. This action will create a new auxiliary for each selected track, with the right routing, the right configuration and a SPAT Revolution Send Plug-in inserted.
 
-![sendToSpat.gif](include/sendToSpat.gif)
+![sendToSpat.gif](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/ReavolutionSendToSpat.gif)
 
 After running this action, you should be done at least at 95% of your configuration.
 
@@ -201,7 +201,7 @@ After running this action, you should be done at least at 95% of your configurat
 
 To receive audio from _SPAT Revolution_, simply create a track at the wanted format using **"Audio stream::insert track"**. Then, go back to the **"SPAT Revolution"** menu by right-clicking on the track we just created and choose **"Receive audio from SPAT Revolution on selected track"**.
 
-![receiveFromSpat.gif](include/receiveFromSpat.gif)
+![receiveFromSpat.gif](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/ReavolutionReceiveFromSpat.gif)
 
 You will find an option related to SPAT routing in the top bar menu, under **Extension>ReaVolution>When tracks are routed to SPAT**. 
 
@@ -233,13 +233,13 @@ Regarding the time selection, it is now quite volatile and easy to clear. A simp
 
 You will also notice that the play/edit cursor is know very static. To move it, you can either left click in the ruler of the use the middle click of the mouse in the arrange view.
 
-![mouseEditing.gif](include/mouseEditing.gif)
+![mouseEditing.gif](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/ReavolutionMouseEditing.gif)
 
 **Moving items**
 
 Items can be move by simply dragging them by clicking on the bottom half. It is also dependent on the time selection. There is no need to cut the items prior to move part of them. If the time selection is longer than the selected items, the time selection is trimmed to adjust to the item selection.
 
-![itemMove.gif](include/itemMove.gif)
+![itemMove.gif](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/ReavolutionItemMove.gif)
 
 **Advanced mouse usage**
 
@@ -247,7 +247,7 @@ Items can be move by simply dragging them by clicking on the bottom half. It is 
 
 Double clicking in an empty area of a track selects the time between two items or between the beginning of the session and the first item on the track.
 
-![selectEmptyArea.gif](include/selectEmptyArea.gif)
+![selectEmptyArea.gif](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/ReavolutionSelectEmptyArea.gif)
 
 - **Quickly move items**
 
@@ -261,7 +261,7 @@ ReaVolution has some quick way to move items to the play cursor:
 
 You can set the snap offset of an item by using the mouse modifier <code>SHIFT+CTRL</code> and by clicking on the top half of the item.
 
-![moveItem.gif](include/moveItem.gif)
+![moveItem.gif](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/ReavolutionMoveItem.gif)
 
 - **Automatic ripple edit**
 
@@ -277,7 +277,7 @@ ReaVolution comes with a set of shortcuts and mouse modifiers that take advantag
 > 
 > <code>CTRL/CMD + SHIFT + Backspace</code> : delete content of time selection on selected tracks
 
-![rippleEdit.gif](include/rippleEdit.gif)
+![rippleEdit.gif](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/ReavolutionRippleEdit.gif)
 
 **Using the keyboard**
 

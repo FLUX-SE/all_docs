@@ -48,21 +48,15 @@ The drag and drop feature allows an easy and ergonomic way to connect and reorga
 
 **Connect modules**
 
-![drag&drop1](include/drag&drop1.gif)
-
-<!-- TODO: update the image -->
+![drag&drop1](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/DragDrop1.gif)
 
 To create a connection between two modules, simply drag one on the other. SPAT will  automatically connect the two modules. If it is necessary, SPAT will also create supplementary modules if needed. For example, if we drag and drop an input on a room, SPAT will automatically create a "source" block  between them.
 
-![drag&drop2](include/drag&drop2.gif)
-
-<!-- TODO: update the image -->
+![drag&drop2](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/DragDrop2.gif)
 
 This feature also works on a selection of multiple modules of the same type. For example, if we wished to connect 5 inputs to 1 output, we can select our inputs a drag them  on the output. All the input modules will be patched to a room block through sources, and the room is a patch to the output through a master block, with the default stereo room that can be changed later.
 
-![drag&drop3](include/drag&drop3.gif)
-
-<!-- TODO: update the image -->
+![drag&drop3](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/DragDrop3.gif)
 
 **Reorganize modules**
 
@@ -81,13 +75,13 @@ To open it, you can either:
 - Go to the main menu, into setup, then "Setup Wizard";
 - Or, use <code>ALT + W</code> (the shortcut is not working in Windows).
 
-![openWizard](include/openWizard.gif)
+![openWizard](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/OpenSetupWizard.gif)
 
 The top part of the setup wizard allows to create a new room (with associated options) or to select an existing room to patch new sources into. If a new room is created, we can choose its stream type and many options linked to it. We can also choose to associate a binaural monitoring block to it (virtualizing the room output). Lastly, for each new room created, a master block and an output block is also created.
 
 The main part of the wizard allows creating up to 8 different types of sources. It works like a table where each line can be used for a specific input stream type. To add or remove a line, simply click on the <code>+</code> or <code>-</code> sign on the left side of a line. You can also use the shortcut <code>Ctrl/Cmd + Go Down</code> or <code>Ctrl/Cmd + Go Up</code>.
 
-![setupWizard](include/setupWizard.gif)
+![setupWizard](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/SetupWizard.gif)
 
 Other shortcuts have been implemented in this wizard:
 - <code>Go up</code> and <code>Go down</code> to increase / decrease the number of sources
@@ -97,7 +91,7 @@ Other shortcuts have been implemented in this wizard:
 
 When we are done creating out different sources, we have two ways to validate the operation. We can either click on <code>Ok</code>, all the sources, rooms and outputs will be created, with a straight routing, or, we can choose to click on <code>Ok +  matrix</code>. This last option will open the input and output matrix of our whole _SPAT Revolution_ session to allow us to quickly customize or validate our patch. Also, if you need to easily create a line in SPAT matrix, simply hold <code>Ctrl</code> and click on the starting point of your line.
 
-![setupWizard2](include/setupWizard2.gif)
+![setupWizard2](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/SetupWizard.gif)
 
 ## Action menu
 
@@ -125,7 +119,7 @@ The new pop-up windows allows to:
 * Choose if the sources routed to the original room are routed the new one, or duplicated, or nothing is patched.
 * Choose if the outputs of the original rooms are duplicated, mirrored or nothing is done to the duplicated room.
 
-![](include/SpatRevolution_duplicateRoom.gif)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/DuplicateRoom.gif)
 
 
 ### Connect selected
@@ -165,4 +159,4 @@ The speaker configuration editor, a clear channel labeling and the built-in rout
 
 > The shortcut <code>Ctrl + click</code> will route one per one all the following channels.
 
-Master transcoder and master matrix support summing, thus, one input can be connect to several outputs, or the opposite.
+Master transcoder and master matrix support summing, thus, one input can be connected to several outputs, or the opposite.
