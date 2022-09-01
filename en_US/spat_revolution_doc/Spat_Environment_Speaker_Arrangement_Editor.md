@@ -145,3 +145,5 @@ Speakers alignments section lets _SPAT Revolution_ compute the delay and gain fo
 
 Alignment can be made on the all arrangement, but also selecting a certain speaker orientation type. 
 It is possible to select the speakers on each the alignment will be done according to their orientation.
+
+!> 

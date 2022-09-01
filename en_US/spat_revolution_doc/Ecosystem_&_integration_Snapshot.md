@@ -13,9 +13,6 @@ Sources can be excluded of a snapshot recall:
 
 ![_SPAT Revolution_ snapshot recall](include/SpatRevolution_snapshot_recall.gif)
 
-<!-- TODO: update the image -->
-
-
 ## Create a snapshot
 
 We can create a snapshot:
@@ -30,7 +27,6 @@ The snapshot will be inserted before the selected snapshot, and all the snapshot
 - by using the "Insert After" action.
 This option is available only if another snapshot exists.
 The snapshot will be inserted after the selected snapshot, and all the snapshots will be renumbered.
-
 
 ## Recall a snapshot
 

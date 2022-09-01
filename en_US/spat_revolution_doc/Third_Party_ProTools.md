@@ -74,9 +74,7 @@ In SPAT, go to *Preferences/Hardware IO* , then set:
 * External Sampling Rate: Enabled
 * Block Size: 1024
 
-![_SPAT Revolution_ Preferences](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/ProToolsSpatPreferences.jpg)
-
-<!-- TODO: update the image -->
+![_SPAT Revolution_ Preferences](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/ProToolsSpatPreferences.png)
 
 
 ### Setting Up Object Tracks
