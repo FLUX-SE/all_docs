@@ -15,7 +15,15 @@ If you care to know where these arrangements are stored, <code>Document/FLUX SE/
 
 ## How to import a speaker configuration from
 
-### Nexo NS-1 :
+### Ease
+
+In EASE software, open the project, and click <code>Edit Project Data</code> on the upper toolbar. In the new window, click on <code>Edit</code> toolbar button, then <code>Loudspeakers</code>, <code>File</code> and finally <code>Send table to file</code>.
+
+A popup window will open, asking to use only selected rows. If you want to export all the speakers, click on <code>NO</code>. Select the target catalog for the text file you are going to generate, and click on save. The newly created file can now be imported in SPAT Revolution.
+
+> Chances are the reference point used in EASE won't be the central reference point typically used in SPAT. Simply use the Transform speaker arrangement option. Typical, you will want to offset X / Y position or Rotate the arrangement 180 degrees.
+
+### Nexo NS-1
 
 In NS-1, to export all the speakers : Go to the <code>Speaker Positions Windows</code>,  <code>Speakers/Speakers Position</code> or <code>Ctrl + P</code>. Select all the Speakers, and click on <code>Export, File...</code>. This will export a .txt file, readable by _SPAT Revolution_.
 
