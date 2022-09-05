@@ -31,6 +31,14 @@ Give access to the routing matrix
 
 !> This option is only available on hardware input.
 
-### Levels
+## Levels
 
 Basic true peak metering for each block's channels.
+
+## Delay
+
+Each input comes with a delay which can be useful:
+- in live situation, to compensate delay between microphones.
+- in studio situation, to compensate the plugins delay when using Local Audio Path.
+
+The delay can be set in samples, milliseconds, or distance unit (meters if metric system, feet otherwise). This can be chosen on the **Global** panel of the **Preferences** page.

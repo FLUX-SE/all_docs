@@ -137,15 +137,11 @@ We can calculate that 3HOA3D needs 16 channels.
 
 ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/ReaperTrackChannels.jpg)
 
-First of all set up a Track in Reaper that can handle 16 channels at once. 
-Then add a
-SPAT RETURN plug-in on this track. 
-It should automatically inherit the channel count, if not do it manually using the IO config of the plug-in, available from the little cog wheel in the top corner of SPAT RETURN.
+First, set up a Track in Reaper that can handle 16 channels at once. Then add a SPAT RETURN plug-in on this track. It should automatically inherit the channel count, if not do it manually using the IO config of the plug-in, available from the little cog wheel in the top corner of SPAT RETURN.
 
 ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/ReaperReturn.jpg)
 
-Enable the Local Audio Path: you should see a Return output module appear in the SPAT Setup Environment.
-Connecting it to the 3HOA3D stream output from the Room (or Rooms in a mixer/transcoder) and it should inherit the format.
+Enable the Local Audio Path: you should see a Return output module appear in the SPAT Setup Environment. Connecting it to the 3HOA3D stream output from the Room (or Rooms in a mixer/transcoder) and it should inherit the format.
 
 ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/ReaperSessionExample.jpg)
 
@@ -155,13 +151,11 @@ Connecting it to the 3HOA3D stream output from the Room (or Rooms in a mixer/tra
 
 To do this, it is necessary to make Reaper record the software OUTPUT of the audio track:
 
-- the audio coming into the Track is a virtual audio path through the SPAT RETURN plug-in, so it will _not_ appear at the _Inputs_ list of the Track. 
-Right click on the record arm button on the track, and the Track record contextual menu will appear.
+- the audio coming into the Track is a virtual audio path through the SPAT RETURN plug-in, so it will _not_ appear at the _Inputs_ list of the Track. Right-click on the record arm button on the track, and the Track record contextual menu will appear.
 
 ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/ReaperRecordOutputMenu.jpg)
 
-Arm the track to record, press play and render the scene to a 3HOA3D interleaved 16-channel WAV file (avoid using FLAC for higher than 8 channels). 
-This is done in realtime.
+Arm the track to record, press play and render the scene to a 3HOA3D interleaved 16-channel WAV file (avoid using FLAC for higher than 8 channels). This is done in realtime.
 
 ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/ReaperBounce.png)
 
