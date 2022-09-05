@@ -48,7 +48,7 @@ This snapshot list's top bar regroups all the snapshot actions:
 
 - <code>New</code> allows creating a new snapshot, storing the current sources, rooms and masters state.
 - <code>Duplicate</code> allows duplicating the current snapshot selected in the snapshot list.
-- <code>Update</code> allows updating the selected snapshot in the snapshot list with the current state of the session.
+- <code>Update</code> allows updating the selected snapshot in the snapshot list with the current state of the session. It will create a new snapshot version.
 - <code>Remove</code> allows deleting the snapshot(s) selected in the snapshot list.
 - <code>Move up</code> moves the selected snapshot(s) up one row in the snapshot list.
 - <code>Move down</code> moves the selected snapshot(s) down one row in the snapshot list.
@@ -69,7 +69,7 @@ It is possible to generate new indexes for all the snapshots according to list o
 Recalling a snapshot will use four different options:
 - The **timing** is the transition time between the current session state and the session state recalled from a snapshot. This allows smoothing out the transition between two scenes and can also be used to create some movements.
 - The **source option** defines if the sources state should be recalled. This refers to the sources' position and other properties.
-- The **room option** defines if the rooms' state should be recalled. This refers to the reverb parameters of rooms and also the listener head. Be careful with this as some parameters of the reverberation can be recalled without sound dropping.
+- The **room option** defines if the rooms' state should be recalled. This refers to the reverb parameters of rooms and also the listener head. Be careful with this as some parameters of the reverberation can't be recalled without sound dropping.
 - The **master option** defines if the masters' state should be recalled. This refers to the master level output.
 
 > By default, only sources' properties are recalled from snapshots.
@@ -80,7 +80,7 @@ Recalling a snapshot will use four different options:
 
 The snapshot list exposes the four global recall options on its top right corner : the recall timing, the sources recall option, the rooms recall option and the masters recall option. These parameters affect each snapshot with global options activated.
 
-Beside each snapshot, there is a checkbox, under a column named "**Global options**". If the checkbox is checked, the default values of the recall preferences refer to the global value. If the checkbox is unchecked, you can override the global preferences and enter a specific recall value for the snapshot.
+Beside each snapshot, there is a checkbox, under a column named "**Global options**". If the checkbox is checked, the default values of the recall preferences refer to the global values. If the checkbox is unchecked, it will override the global preferences and use the specific recall values for the snapshot.
 
 ### Relative recall option
 
@@ -135,7 +135,7 @@ To select differences, use <code>Ctrl + Click</code> on Windows, or <code>Cmd + 
 
 On the propagate dialog, the selected data will be retrieved, displaying the absolute value which can be applied when validating on <code>Propagate absolute values</code> and the trim value which will be added to each snapshot value when validating with <code>Propagate trim values</code>.
 
-> For example, if my Accordeon has an azimuth value of 50.0, it will become 13.475 propagating with absolute value, and 50.22 propagating with trim value.
+> For example, if my Accordion has an azimuth value of 50.0, it will become 13.475 propagating with absolute value, and 50.22 propagating with trim value.
 
 On the left panel, the snapshot list is displayed in order to choose the snapshot for which the propagation will be applied.
 

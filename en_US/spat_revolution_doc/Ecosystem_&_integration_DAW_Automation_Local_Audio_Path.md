@@ -9,8 +9,6 @@ The SPAT plug-ins offer a straightforward way to integrate the _SPAT Revolution_
 
 ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/ReaperPlugins.png)
 
-<!-- TODO: update the image -->
-
 **SPAT Send**
 
 - Send multichannel audio from a DAW track to a SPAT Send input modules

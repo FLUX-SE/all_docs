@@ -29,8 +29,6 @@ Remember that the index number of each SPAT plug-in links it to a virtual source
 
 !> Some systems require you to press <code>Tab</code> key and not <code>Return</code> after editing a field in the Plug-in.
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/ReaperSend.jpg)
-
-<!-- TODO: update the image -->
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/ReaperSend.png)
 
 > All send plug-in instances in one DAW will have the same IP and port number in the DAW, but different and unique Index numbers. 

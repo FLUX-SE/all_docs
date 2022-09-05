@@ -48,7 +48,7 @@ Open the **speaker arrangement editor** by clicking on the <code>Edit</code> but
 
 **Set orientation**: set the orientation of selected or all speakers.
 
-**Fix automatic orientation**: for speakers whose orientation is set to automatic, replace it to real orientation (front, back, listener, custom, ...) instead of automatic.
+**Fix automatic orientation**: for speakers whose orientation is set to automatic, replace it to real orientation (front, back, listener, custom with the given angle, ...) instead of automatic.
 
 **Del.:** remove the selected speaker(s) in the arrangement.
 
@@ -62,7 +62,6 @@ Open the **speaker arrangement editor** by clicking on the <code>Edit</code> but
 
 **Add along geometries:** add new speakers according to a specified geometries.
 
-
 ### The speakers list section
 
 **Nb.:** identify the channel of the speaker.
@@ -75,11 +74,11 @@ Open the **speaker arrangement editor** by clicking on the <code>Edit</code> but
 
 !> SPAT Revolution uses speaker naming to sum speaker arrangement.
 
-**X (m):** define the position of the speaker on the X-axis, in meters.
+**X (m):** defines the position of the speaker on the X-axis, in meters.
 
-**Y (m):** define the position of the speaker on the Y-axis, in meters.
+**Y (m):** defines the position of the speaker on the Y-axis, in meters.
 
-**Z (m):** define the position of the speaker on the Z-axis, in meters.
+**Z (m):** defines the position of the speaker on the Z-axis, in meters.
 
 **Azimuth (°):** define the angle of incidence of the source to the center of the 3D space, in the horizontal plan.
 
@@ -97,11 +96,16 @@ Open the **speaker arrangement editor** by clicking on the <code>Edit</code> but
   + Side Right: the speaker points to the right side of the 3D view
   + Custom: the user can define the orientation with the *yaw* and *pitch* parameters.
 
+> The orientation (0°,0°) is pointing to the listener.  
+
 **Yaw:** rotate the speaker around the Z-axis. 0° degree is pointing the listener.
 
 **Pitch (°):** rotate the speaker in elevation.
 
 !> **Orientation**, **yaw** and **pitch** are only useful in WFS use case.
+
+> Tips: to
+> - point down (speaker with positive elevation) or up (speaker with negative elevation) a speaker, set the pitch to 90 menus the speaker elevation value;
 
 **Delay (ms):** add a fix amount of latency to a speaker.
 
@@ -131,13 +135,11 @@ For more information about each pan law, check out the section [Panning algorith
 
 ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/AlignmentDialog.png)
 
-Speakers alignments section lets _SPAT Revolution_ compute the delay and gain for the selected speaker arrangement. To help to deal with them with complex systems, several methods are provided, allowing adapting your alignment according ot the wanted behavior:
+Speakers alignments section lets _SPAT Revolution_ compute the delay and gain for the selected speaker arrangement. To help to deal with them with complex systems, several methods are provided, allowing adapting your alignment according to the wanted behavior:
 
 - **Spherical**: will align speaker according to a sphere. The farthest speaker will determine the sphere radius. _This is the old behavior of the compute feature._
 - **Cartesian with minimum delay**: will align the speakers according to straight lines.
-- **Cartesian with symmetry**: will align left/right and front/back speakers according to symmetrical straight lines.
+- **Cartesian with symmetry**: will align left/right and front/back speakers according to symmetrical straight lines. _A typical use case will be to help to deal with an asymmetrical arrangement._
 
 Alignment can be made on the all arrangement, but also selecting a certain speaker orientation type. 
 It is possible to select the speakers on each the alignment will be done according to their orientation.
-
-!> 

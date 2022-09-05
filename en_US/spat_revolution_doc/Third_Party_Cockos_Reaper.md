@@ -71,9 +71,7 @@ All automation for that source should happen in the Envelope Lanes of the Parent
 
 ## Setting up SPAT SEND
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/ReaperSend.jpg)
-
-<!-- TODO: update the image -->
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/ReaperSend.png)
 
 Simply insert the SPAT SEND plug-in on a Parent Track. 
 This means that as the composition grows, you may have multiple Child tracks sending different audio material to the same virtual source/object in SPAT, through one SEND plug-in on the Parent Folder Track.
