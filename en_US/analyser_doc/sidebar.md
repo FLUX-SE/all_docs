@@ -1,6 +1,6 @@
 * Welcome
     * [Thank you](00_Pure_Analyzer_00_Pure_Analyzer.md)
-    * [Pure analyzer versions](00_Pure_Analyzer_01_Pure-analyzer-versions.md)
+    * [Analyzer versions](00_Pure_Analyzer_01_Pure-analyzer-versions.md)
 * Initial setup
     * [Introduction](01_Initial_Setup_00_Introduction.md)
     * Samplegrabber
@@ -128,7 +128,6 @@
 * System requirements
     * [System requirements](18_System_Requirements_00_System_requirements.md)
     * [Compatibility](18_System_Requirements_01_Compatibility.md)
-* Appendix 
+* Appendix
 	* [Credits](19_Credits.md)
 	* [Release Notes](flux_analyser_release_notes.md)
-
