@@ -5,7 +5,7 @@
 First of all, thank you for acquiring _SPAT Revolution_. 
 We hope it will provide you with new levels of productivity, creativity and experience in sound design. 
 Our goal was to deliver the most comprehensive real-time spatial audio renderer ever designed, and to make the whole process of spatialized audio production powerful and intuitive for beginners and professionals alike. 
-Our real-time audio environment provides easy access to some of the most advanced spatialisation algorithms currently available, at the very best sound quality currently possible.
+Our real-time audio environment provides easy access to some of the most advanced spatialization algorithms currently available, at the very best sound quality currently possible.
 
 _'SPAT'_ is short for _Spatialisateur_ in French. 
 It is a real-time audio library that allows composers, sound artists, performers and sound engineers to control the localisation of sound sources in virtual and real 3D auditory spaces.

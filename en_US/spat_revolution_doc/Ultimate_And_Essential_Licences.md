@@ -28,10 +28,9 @@ The main limitations of the **Essential** license are:
 - HOA order is limited to 3rd order.
  - Tracking data cannot be modified
  - RTTrp is not allowed.
- - HRTF manager is not available, so custom HRTF is not permitted.
 
  **Complete specification is available [here](https://www.flux.audio/project/spat-revolution/#specifications).**
-<!-- TODO: update the complete spec -->
+<!-- TODO: update the complete spec --> 
 
 ## Ultimate and Essential sessions compatibility
 
@@ -42,7 +41,7 @@ Thus, an **Ultimate** session can be opened with an **Essential** license and vi
 
 In the top bar menu, click on <code>File > Check Essential Compatibility</code> to check if the current session is compatible with the SPAT Essential restrictions.
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Essential_Check_compatibility.png)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/EssentialAlreadyCompatible.png)
 
 If the session is not compatible, it can be opened with an **Essential** license, the restrictions due to license limitations will automatically deactivate the non-authorized objects. 
 
@@ -54,5 +53,5 @@ See [Modules (de)activation](Spat_Environment_Modules_de_activation.md) for more
 
 The **Ultimate** license offers an _Essential Compatibility Mode_, for switching between **Essential** and **Ultimate** behaviors without any change in your license authorization.
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Essential_Compatibility_mode.png)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/EssentialCompatibilityModeOn.png)
 

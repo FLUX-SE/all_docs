@@ -13,7 +13,7 @@ Gäel Martinet, Vincent Carlier, Florie-Anne Lafaye, Thibaut Carpentier, Anders 
 
 **Legal Information**
 
-Third edition of FLUX:: _SPAT Revolution_ User Guide published in August 2022
+Third edition of FLUX:: _SPAT Revolution_ User Guide published in September 2022
 
 All writing is protected under copyright © 2022 Cristian Vogel / FLUX SOFTWARE ENGINEERING
 
