@@ -66,7 +66,8 @@ This toolbar has been designed to help to handle snapshots without navigating to
 - Recall the <code>Next</code> snapshot.
 - <code>Update</code> the current snapshot.
 - Enable or disable the <code>Relative Recall</code>.
+- <code>Propagate</code> values between snapshots.
 
 _This bar can be hided on the snapshot panel of the __Preference__ page._
 
-> More information about snapshot can be found on the **[snapshot page](Spat_Environment_Snapshot_Page.md)**.
+> More information about snapshot can be found on the **[snapshots page](Spat_Environment_Snapshot_Page.md)**.

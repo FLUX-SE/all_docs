@@ -26,6 +26,8 @@ Let you open a session from a disk.
 
 ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Home/Recent.png)
 
+<!-- TODO: udpate this image with session on the panel -->
+
 This box lists the latest open session in _SPAT Revolution_. You can open one by double-clicking on it.
 
 ## Resources
