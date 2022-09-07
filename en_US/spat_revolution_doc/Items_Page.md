@@ -12,7 +12,7 @@ The following video illustrates some possibilities that this page offers.
 
 The upper left list control allows to choose which kind of items you want to display in the Items' Page.
 
-![Items' selection](https://media.githubusercontent.com/media/FLUX-SE/doc_images/SpatR/main/Items/ItemSelection.gif)
+![Items' selection](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Items/ItemSelection.gif)
 
 ## Parameters
 
