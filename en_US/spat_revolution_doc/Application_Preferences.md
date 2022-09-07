@@ -82,11 +82,11 @@ The hardware IO panel allows choosing the audio interface that can be accessed b
 
 This menu allows selecting the audio interface. SPAT Revolution audio engine supports all devices compatible with ASIO (Windows) or CoreAudio (macOS).
 
->! **Note that you should select “None” when using the Local Audio Path connections.**
+!> **Note that you should select “None” when using the Local Audio Path connections.**
 
 SPAT Revolution audio engine also supports different input and output interfaces, on both macOS and Windows, for maximum flexibility.
 
->! In case of different input and output devices, the sample rate and the block size need to be the same.
+!> In case of different input and output devices, the sample rate and the block size need to be the same.
 
 ### Sampling Rate
 
@@ -149,7 +149,7 @@ Allows displaying the OSC messages in the application’s console.
 
 ### Show invalid OSC input messages
 
-Allows displaying the unknown and invalid OSC messages in the application’s console.
+Allows displaying the unknown and invalid OSC messages in the application’s terminal.
 
 ### Dump on socket change
 
@@ -167,15 +167,11 @@ This button exports the OSC parameters to a text file.
 
 ![OSC Connections Section]( https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Preference/OSCConnections.png)
 
-This panel allows creating OSC connection between SPAT Revolution and other devices, like tablets, phones, computers and many others. More information is available on the OSC section.
+This panel allows creating OSC connection between SPAT Revolution and other devices, like tablets, phones, computers and many others. More information is available on the [OSC section](Ecosystem_&_integration_OSC_Connections_Matrix.md).
 
 ## Snapshots
 
 ![Snasphot preferences](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Preference/Snapshot.png)
-
-### Show snapshot bar 
-
-Determines if the snapshot bar and the timecode is shown or hidden.
 
 ### Recall sources name
 
@@ -184,6 +180,7 @@ Determines if the source names is recalled with snapshots.
 ### Number of saved versions
 
 Determines the number of version saved when updating a snapshot. Careful: increasing this number increases deeply the size of the .json SPAT file.
+
 ### Ask for update before recalling
 
 When checked, a dialog will ask you if you want to update the snapshot before each recalled.
@@ -216,6 +213,14 @@ Change the gain of all the rooms of SPAT Revolution.
 
 Off by default, this option allows including the LFE position in the compute of the speaker alignment process.
 
+
+### Speaker test post "mute/solo"
+
+Change the behavior of the signal generator for speaker, pre or post speaker's mute and solo.
+
+### WFS default truncation distance of Efficiency zone for linear antenna
+
+Add a distance offset to efficiency zone when using WFS with linear antenna to avoid issue with focus zone.
 
 ## Signal Generator
 

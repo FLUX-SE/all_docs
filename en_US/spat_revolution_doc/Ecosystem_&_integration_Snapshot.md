@@ -31,11 +31,11 @@ The snapshot will be inserted after the selected snapshot, and all the snapshots
 ## Recall a snapshot
 
 Recalling a snapshot will interpolate all the current properties with the stored values of the snapshot.
-Different options located on the **Snapshot page** could alter the snapshot running:
+Different options located on the **Snapshots page** could alter the snapshot running:
 
 - Recall relative
 
-This option enable to keep differences between the current state and the current snapshots. More information about it [on the snapshot page section](Spat_Environment_Snapshot_Page.md)
+This option enable to keep differences between the current state and the current snapshots. More information about it [on the snapshot page section](Spat_Environment_Snapshot_Page.md).
 
 - Global
 
@@ -53,7 +53,7 @@ The recall of each section could be separately activated.
 
 !> Be careful with the Room properties recall, changing some properties like _Reverberation Density_ or Size causes reverb reconstruction (and audio drops).
 
-!> If **Ask for update before recalling** option is checked and changes are detected between the current snapshot and current state, a window will propose to update the current snapshot.
+!> If **Ask for update before recalling** option is checked and changes are detected between the current snapshot and current state, a window will propose to update the current snapshot if there are differences between the current state and the snapshot.
 
 ## Snapshots handling
 
@@ -69,7 +69,7 @@ The recall of each section could be separately activated.
 
 # Handle snapshots with OSC
 
-Different snapshots actions could be launched by OSC messages.
+Different snapshots actions could be launched by OSC messages. The complete list of them is available on the [OSC Table](Appendix_C_OSC_Table.md).
 
 > Like sources and rooms, the index could be part of the message (<code>/snapshot/3/update</code>), or send as an argument (<code>/snapshot/update, 3</code>). All the example below will use it as part of the message.
 
@@ -77,19 +77,19 @@ Different snapshots actions could be launched by OSC messages.
 
 - Create a snapshot: <code>/snapshot/create [*snapshot Name]</code>
 
-The snapshot name could be added in argument.
+The snapshot name could be added in argument (optional).
 
 - Recall a snapshot: <code>/snapshot/[index]/recall [*time, *Recall Effective Selection, *Recall Actual Selection, *Enable sources recall, *Enable rooms recall, *Enable masters recall] </code>
 
- _index_: the snapshot index to recall. Used as an argument, it can be replaced by the snapshot name.
+ _Index_: the snapshot index to recall. Used as an argument, it can be replaced by the snapshot name.
 
  _Time_: optional, it will define the recall time. If not given, the default value is 0s.
 
  _Recall Effective Selection_: optional, if the value is <code>True</code>, the sources' selection on the snapshot creation will be recalled. It's the default value. If <code>False</code>, selection will not be recalled.
 
- _Recall Actual Selection_: optional, if the value is <code>True</code>, only the parameters of selected sources' will be recalled. Else, all the sources will recalled (default behavior).
+ _Recall Actual Selection_: optional, if the value is <code>True</code>, only the parameters of selected sources' will be recalled. Else, all the sources will be recalled (default behavior).
 
-_Enable sources recall, Enable rooms recall, Enable masters recal_: optional, enable to define if sources, rooms and masters parameters will be recalled. If not given, the default set value will be used. 
+_Enable sources recall, Enable rooms recall, Enable masters recall_: optional, enable to define if sources, rooms and masters parameters will be recalled. If not given, the default set value will be used. 
 
 
 - Update a snapshot: <code>/snapshot/[index]/update </code>

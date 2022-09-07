@@ -5,8 +5,8 @@ This table lists all the OSC message supported in  _SPAT Revolution_.
 The table is divided into different messages' categories :
 * Project-related messages
 * Sources-related messages
-* Room-related messages
-* Master-related messages
+* Rooms-related messages
+* Masters-related messages
 * Snapshots-related messages
 
 The complete document can be downloaded here: [OSC Commands for  _SPAT Revolution_](https://public.3.basecamp.com/p/fWnQ9D3R2indGgBfHiL2QZZT)
