@@ -66,7 +66,7 @@ Open the **speaker arrangement editor** by clicking on the <code>Edit</code> but
 
 **Nb.:** identify the channel of the speaker.
 
-!> The _SPAT Revolution_ **Essential** license limits the total number of channels to 32 input channels, and to 16 output channels.
+!> The _SPAT Revolution_ **Essential** license limits the total number of channels to 32 input channels, and to 18 output channels.
 
 **Name:** identify the name of the speaker.
 

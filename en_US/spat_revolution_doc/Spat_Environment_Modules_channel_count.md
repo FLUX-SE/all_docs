@@ -37,7 +37,7 @@ something 'wide sounding.'
 
 Any input module configured to represent a stream of multichannel audio can be configured as a Speaker Arrangement format which would require that number of channels, as a minimum. For example, _DTU 7.1_ needs 8 channels, and _DTU 5.1_ needs 6. _Auro3D 13.1_ needs 14 channels. Unfortunately, things can get complicated in practice, as there are a few variations of standardised speaker layouts which have the same number of channels and seem very similar - but need disambiguation. This is important to get right, and will depend a lot on the context of your project and on changing standards in the audio industry. For example, at least four different 7.1 routing standards are to be found 'in the wild' and it’s important to know which one you are actually dealing with. Often, for example, the so-called low-frequency effects channel in cinema surround formats, is not always on the same channel.
 
-!> **Essential** license of _SPAT Revolution_ limits total number of channels to 32 input channels and to 16 output channels.
+!> **Essential** license of _SPAT Revolution_ limits total number of channels to 32 input channels and to 18 output channels.
 
 > Try to stick to industry standard channel naming conventions throughout a cinematic surround sound project.
 

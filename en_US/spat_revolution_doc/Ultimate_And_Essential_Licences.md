@@ -23,7 +23,7 @@ The _SPAT Revolution_ software supports with the same installer (binary) both li
 The main limitations of the **Essential** license are:
 
  - The number of cumulated input channels is limited to 32.
- - The number of cumulated output channels is limited to 16.
+ - The number of cumulated output channels is limited to 18.
  - The number of rooms is limited to 1: no simultaneous rendering.
 - HOA order is limited to 3rd order.
  - Tracking data cannot be modified

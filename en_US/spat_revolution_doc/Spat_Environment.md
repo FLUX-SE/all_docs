@@ -19,7 +19,7 @@ The golden rule when working with multichannel based audio is that you must be s
 
 Successful diffusion of a sound field in space relies on every loudspeaker being assigned correctly to each software rendered output channels.
 
-A diffusion system could range from a simple pair of headphones to a 16 (**Essential**) or unlimited (**Ultimate**) speakers array and anything in between.
+A diffusion system could range from a simple pair of headphones to a 18 (**Essential**) or unlimited (**Ultimate**) speakers array and anything in between.
 In some of the more virtualized workflows of _SPAT Revolution_, you may even be thinking about diffusion in a virtual space on configurations of virtual speaker arrangements and channel based formats.
 The same rule for successful diffusion applies here—the diffusion in the virtual room will be compromised and sound off if the channel assignments to the virtual systems are incorrect.
 

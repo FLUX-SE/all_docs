@@ -2,7 +2,7 @@
 
 We have already covered the two-channels binaural stream type for monitoring and final encoding into a binaural format. One of the other important Stream Types is referred to as _Channel Based_. This stream can range from a single-channel mono to a multichannel audio stream (*). These streams will flow as a perfectly synchronized group through the signal graph defined in the _Setup_ page. The channel count of the stream is set by the choice in the _Speaker Arrangement_ pull down menu of a module. A change to the speaker configuration here alters the channel count in and out of a module, depending on its context in the signal graph. When you connect channel-based modules together in _SPAT Revolution_, they automatically inherit the speaker arrangement and channel count from the stream type at their connected input.
 
-!> * The **Essential** license limits the total number channels to 32 input channels and to 16 outputs channels.
+!> * The **Essential** license limits the total number channels to 32 input channels and to 18 outputs channels.
 
 Channel based audio streams - when connected to a hardware output module - will render the spatial composition on speakers connected to the physical outputs of your audio hardware. _SPAT Revolution_ is expecting the loudspeaker system specified in the speaker arrangement of the _Output_ module. If the real loudspeaker arrangement does not correctly match the speaker arrangement model or there is a mistake in your routing somewhere, the spatial sound image will then be compromised.
 
