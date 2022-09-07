@@ -44,7 +44,7 @@ Display the name of the speakers.
 
 Make the elements bigger of smaller for adjust ease of sight.
 
-**Shinniness:**
+**Shininess:**
 
 Change the shininess aspect of the graphical elements.
 
@@ -56,9 +56,15 @@ Change the brightness of the graphical elements.
 
 Change the transparency of the Nebula spectral analyzer.
 
-> When set to 0%, Nebula does not take any ressources at all.
+> When set to 0%, Nebula does not take any resources at all.
 
 Consult the "[Nebula Spatial Spectrogram](Spat_Environment_Nebula.md)" section for more information.
+
+**Nebula Quality:**
+
+Configure the quality factor of nebula. 
+
+> Changing this factor will significantly change the performances.
 
 **Speaker Alpha:**
 
@@ -74,7 +80,7 @@ Toggle between polar or cartesian grids.
 
 **Display Output:**
 
-Allows to display another room or setup modules. This is useful if you want to see the decoding of an ambisonic stream inside an ambisonic room for example.
+Allows to display the nebula of a difference setup module, connected to this room. This is useful if you want to see the decoding of an ambisonic stream inside an ambisonic room for example.
 
 **Background color:**
 

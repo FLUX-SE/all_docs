@@ -16,7 +16,7 @@ The golden rule when working with multi-channels based audio is to ensure to hav
 
 ## Custom speaker arrangement
 
-![width=700, atl=_SPAT Revolution_ Speaker Position](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/SpeakerEditorCompute2.png)
+![width=700, atl=_SPAT Revolution_ Speaker Position](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/SpeakerEditorCompute2.jpg)
 
 While there are many standardized speaker array, such as Dolby Surround, Atmos, Auro 3D, DTS, Quad or even stereo, we are in many cases confronted to a very specific speaker positioning.
 
@@ -24,7 +24,7 @@ For such use case, it is possible to create custom speaker arrangements. Using a
 
 We also create a powerful automatic speaker alignment tool that aligns, in time and in level, all the speakers of the arrangement on the furthest away one. These "virtual" positions are used by _SPAT Revolution_ to process the sound stage through pan law. Please, check the [Speaker Arrangement Editor](Spat_Environment_Speaker_Arrangement_Editor.md) section for more information. 
 
-To make this task as easy as possible, _SPAT Revolution_ supports both Cartesian and spherical coordinate system and can also import speaker configurations from third-party software, such as NS-1, Blueprint or ArrayCal.
+To make this task as easy as possible, _SPAT Revolution_ supports both cartesian and spherical coordinate system and can also import speaker configurations from third-party softwares, such as NS-1, Blueprint or ArrayCal.
 
 ## Understanding when a speaker arrangement, or a sound scene, is 2D or 3D
 

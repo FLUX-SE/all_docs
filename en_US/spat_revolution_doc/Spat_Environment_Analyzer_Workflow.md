@@ -5,3 +5,7 @@ _SPAT Revolution_ provides a close integration with the analyzer designed by FLU
 
 Nothing more simple to do it: on the *Setup Page*, select a block. On the list **Send to Analyzer**, select <code>True</code>.
 On the FLUX:: Analyzer, you will see it as a new Source, called "SPAT Revolution". Select it, and select the correct speaker arrangement into the Analyzer: that it's.
+
+> Send to Analyzer feature is not compatible between all versions of _SPAT Revolution_ and _FLUX:: Analyzer_. Please note that:
+> - _SPAT Revolution_ 22.02.50151 version and below versions are compatible with _FLUX:: Analyzer_ 22.01.50131 version and below.
+> - _SPAT Revolution_ 22.09.50200 version and up are compatible with _FLUX:: Analyzer_ 22.09.50XXX (coming version) and up.
