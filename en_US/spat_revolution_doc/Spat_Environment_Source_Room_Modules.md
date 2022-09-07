@@ -52,7 +52,7 @@ It is a classic case of object-based mixing, where source modules associate meta
 
 The first thing to notice is that we can add any number of rooms. In the screenshot above, two HOA 3D rooms are being used, each with differently designed acoustics. SPAT revolution offers flexibility, in order to encompass different workflow ideas or experimental approaches. For example, the same virtual sources may be assigned into multiple rooms, with multiple end destinations. Or as in the screenshot above, virtual sources might exist in different spaces that get summed together.
 
-!> _The **Essential** license limits the number of active (processed) rooms to one (1). The other are deactivated (not processed).
+!> The **Essential** license limits the number of active (processed) rooms to one (1). The other are deactivated (not processed).
 
 ### Name
 

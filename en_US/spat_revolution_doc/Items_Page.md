@@ -2,17 +2,17 @@
 
 This page gives an overview and allows to edit the major parameters for each item type (Input, Source, Room, etc.)
 
-![The items' page](https://media.githubusercontent.com/media/FLUX-SE/doc_images/SpatR/Items/Page.png)
+![The items' page](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Items/Page.png)
 
 The following video illustrates some possibilities that this page offers.
 
-![The Items' page demo](https://media.githubusercontent.com/media/FLUX-SE/doc_images/SpatR/Items/Demo.gif)
+![The Items' page demo](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Items/Demo.gif)
 
 ## Items type selection
 
 The upper left list control allows to choose which kind of items you want to display in the Items' Page.
 
-![Items' selection](https://media.githubusercontent.com/media/FLUX-SE/doc_images/SpatR/Items/ItemSelection.gif)
+![Items' selection](https://media.githubusercontent.com/media/FLUX-SE/doc_images/SpatR/main/Items/ItemSelection.gif)
 
 ## Parameters
 
@@ -38,7 +38,7 @@ In addition to the common parameters, when the _Input_ item's type is selected, 
 - **Delay (feets)**: define the input delay in feets.
 - **Connected**: displays if the input is connected to other items.
 
-![Items page for sources](https://media.githubusercontent.com/media/FLUX-SE/doc_images/SpatR/Items/Inputs.png)
+![Items page for sources](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Items/Inputs.png)
 
 ### Source specific parameters
 
@@ -55,7 +55,7 @@ In addition to the common parameters, when the _Source_ item's type is selected,
 - **Gain**: define the gain of the source.
 - **Mute**: define the mute status of the source.
 
-![Items page for sources](https://media.githubusercontent.com/media/FLUX-SE/doc_images/SpatR/Items/Sources.png)
+![Items page for sources](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Items/Sources.png)
 
 ### Room specific parameters
 
@@ -70,7 +70,7 @@ In addition to the common parameters, when the _Room_ item's type is selected, t
 - **Scaling distance**: define the [scaling distance] of the room in meters.
 - **Tracking scaling**: define the tracking scaling of the room in meters.
 
-![Items page for rooms](https://media.githubusercontent.com/media/FLUX-SE/doc_images/SpatR/Items/Rooms.png)
+![Items page for rooms](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Items/Rooms.png)
 
 ## Navigation
 
@@ -103,5 +103,5 @@ Enter text in the top search field to filter the displayed objects. This will se
 
 ### Group sources by rooms
 
-![Group by rooms](https://media.githubusercontent.com/media/FLUX-SE/doc_images/SpatR/Items/GroupBy.gif)
+![Group by rooms](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Items/GroupBy.gif)
 

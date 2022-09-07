@@ -32,4 +32,4 @@ To do it, connect several inputs on the same input transcoder or source and sele
 
 ![Input aggregation](https://raw.githubusercontent.com/FLUX-SE/doc_images/main/SpatR/Setup/InputAggregation.png)
 
->! The order of the channel is determined by the connection order to the input transcoder or source.
+!> The order of the channel is determined by the connection order to the input transcoder or source.
