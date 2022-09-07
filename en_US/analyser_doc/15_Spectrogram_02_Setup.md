@@ -21,13 +21,13 @@ This has the effect of compressing the dynamic range, and makes low energy compo
 
 ## Threshold
 
-### Threshold min
-
-Sets the minimum amplitude spectrum value to be displayed.
-
-### Threshold max
+### Threshold  - Range Max
 
 Sets the maximum amplitude spectrum value to be displayed.
+
+### Threshold - Range Min
+
+Sets the minimum amplitude spectrum value to be displayed.
 
 ## Color Mode
 
@@ -53,6 +53,8 @@ In this color mode, the amplitude of a time-frequency point is mapped to a pixel
 
 In this color mode, the amplitude of a time-frequency point determines the intensity of the corresponding pixel, whose color varies according to frequency.
 
-### Duotone start/end colors
+### Duo-tone grading start/end colors
 
 Sets the color to use for minimum and maximum amplitude components respectively, when color mode is set to _Duotone_.
+
+<!-- ALLVERSIONS-->

@@ -13,3 +13,5 @@ Output level of the waveform, expressed in dB RMS.
 
 # Enable
 Toggles signal generator output on and off.
+
+<!-- LIVEVERSIONS-->

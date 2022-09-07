@@ -3,19 +3,19 @@
 
 > Snapshot list and controls
 
-The snapshot area shows a list view, where one or more snapshots can be selected. 
+The snapshot area shows a list view, where one or more snapshots can be selected.
 The selected snapshot(s) will be highlighted accordingly, both in the list and the corresponding display(s), with increased curve thickness.
 
 ## Selection and navigation
 The snapshot list follows standard user interface guidelines, which means you can:
 
-* Use keyboard up and down arrows to change the currently selected snapshot. 
-Note: the snapshot area must have focus for this to have effect.
+* Use keyboard up and down arrows to change the currently selected snapshot.
+Note: the snapshot section area must be in focus for this to have effect.
 * Click on any snapshot to select it.
 * <code>Shift + click</code> to define a selection range of multiple snapshots.
 
 ## Add new snapshot
-Clicking the icon immediately creates a new snapshot, stores it on disk, adds it to the current project and selects it.
+Clicking the ![](include/CreateSnapshot.png) icon immediately creates a new snapshot, stores it on disk, in the folder, adds it to the current project and selects it.
 
 ## Acquire sweep
 The ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Generic/Sweep.png) button launches acquisition of a sweep snapshot. 
@@ -53,7 +53,7 @@ The averaging can only be performed if the snapshots are compatible with one ano
 
 A warning message will inform you the averaging cannot be performed if one of the above conditions are not met.
 
-> The snapshot average stores the average of the snapshots at the moment it was created. 
+> The snapshot average stores the average of the snapshots at the moment it was created.
 > If you change the snapshots in any way, the snapshot average will not change.
 
 ## Update current
@@ -88,3 +88,6 @@ By the default, newly created snapshots are given the name <c>unlabeled-x</c>, w
 
 ## Invert (Iv)
 Inverts the magnitude curve of the Transfer function.
+
+<!-- LIVEVERSION-->
+<!-- TODO: Load IR, not documentated  -->

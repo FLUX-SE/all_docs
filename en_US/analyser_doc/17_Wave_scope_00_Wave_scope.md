@@ -12,3 +12,4 @@ The wave scope is a simple oscilloscope-type waveform display.
 >The wave scope will include more functionality and settings in future releases.
 
 
+<!-- ALLVERSION-->

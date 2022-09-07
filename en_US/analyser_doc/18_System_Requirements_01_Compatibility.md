@@ -1,16 +1,18 @@
 # Compatibility
-Pure Analyzer is a 64bit application fully compatible with 64-bit operating systems.
+FLUX:: Analyzer is a 64bit application fully compatible with 64-bit operating systems.
 
 ## Operating Systems
 
 * PC: Windows 10
-* Apple: Mac OS X versions 10.12 and up (MacOS Catalina and Big Sur compliant, No official support to ARM / Silicon)
+* Apple: Mac OS X versions 10.13 and up (macOS Big Sur, Monterey compliant, Compatible with ARM / Silicon)
 
 ## Hardware IO support
 Any soundcard with a driver compliant with these standards:
 
 * ASIO(Windows).
 * Core Audio (Mac OS X).
+
+##  Software - Sample Push support
 
 SampleGrabber is a 32-bit plug-in compatible using 64-bit double precision internal processing, compatible with 32-bit and 64-bit (via bridge) hosts
 
@@ -33,3 +35,4 @@ All major native formats (AAX, VST, AU, RTAS, TDM, AAX VENUE) are supported.
 
 > *The TDM/RTAS version requires ProTools version 7 or above.
 
+<!-- TODO: To review when native ARM, -->

@@ -1,9 +1,9 @@
 # Introduction
-The impulse response of a system is the signal obtained at the output when feeding a click (also termed impulse, spike or Dirac) its input. 
+The impulse response of a system is the signal obtained at the output when feeding a click (also termed impulse, spike or Dirac) its input.
 It is a fundamental tool to describe the time properties of a
 linear system.
 
-Combined with the transfer function, impulse response measurement is essential in characterizing the acoustics of a studio, concert hall or venue, from which synthetic figures such as reverberation time are derived. 
+Combined with the transfer function, impulse response measurement is essential in characterizing the acoustics of a studio, concert hall or venue, from which synthetic figures such as reverberation time are derived.
 Determining the impulse response of an amplifier and loudspeaker in tandem can also serve to assess their performance.
 
 A pass-trough device, or equivalently, a completely dead space such as an anechoic chamber exhibit a unit impulse response, whose value at zero time is gain, and is zero at all other instants.
@@ -32,6 +32,4 @@ If Real Time curve is disable, the Max value of the selected snapshot is used.
 
 > The impulse response is closely tied to the transfer function, in that they are both related to another by a Fourier transform.
 >
-> For practical aspects, Pure Analyzer employs two distinct analysis engines to compute the impulse response and transfer function, as this allows to use separate settings for the two, which is often necessary in practice.
-
-
+> For practical aspects, FLUX:: Analyzer employs two distinct analysis engines to compute the impulse response and transfer function, as this allows to use separate settings for the two, which is often necessary in practice.

@@ -17,11 +17,11 @@ If necessary, you can manually adjust the delay figure
 using either of these methods:
 
 * Direct keyboard numeric value entry as time or distance figure.
-* Increment / decrement by clicking the / icons.
+* Increment / decrement by clicking the +/- icons.
 * Increment / decrement using the +/- numeric keys.
 
 ## Perform a new measurement
 Press the ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Generic/Find.png) button again to perform a new measurement. 
 This will overwrite any previous value.
 
-
+<!-- LIVEVERSIONS-->
