@@ -1,3 +1,3 @@
 # Live IO
 
-![](include/LiveIO1.png)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/LiveIO/Main.png)

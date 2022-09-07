@@ -108,14 +108,14 @@
         * [Magnitude](13_Transfer_function_measurement_05_Setup_04_Magnitude.md)
         * [Phase](13_Transfer_function_measurement_05_Setup_05_Phase.md)
         * [Other](13_Transfer_function_measurement_05_Setup_06_Other.md)
-* Impluse response measurement
-    * [Introduction](14_Impluse_response_measurement_01_Introduction.md)
-    * [General procedure](14_Impluse_response_measurement_02_General_procedure.md)
-    * [Time averaging](14_Impluse_response_measurement_03_Time_averaging.md)
-    * [Main setup](14_Impluse_response_measurement_04_Main_setup.md)
-    * [Time](14_Impluse_response_measurement_05_Time.md)
-    * [Scale](14_Impluse_response_measurement_06_Scale.md)
-    * [Other](14_Impluse_response_measurement_07_Other.md)
+* Impulse response measurement
+    * [Introduction](14_Impulse_response_measurement_01_Introduction.md)
+    * [General procedure](14_Impulse_response_measurement_02_General_procedure.md)
+    * [Time averaging](14_Impulse_response_measurement_03_Time_averaging.md)
+    * [Main setup](14_Impulse_response_measurement_04_Main_setup.md)
+    * [Time](14_Impulse_response_measurement_05_Time.md)
+    * [Scale](14_Impulse_response_measurement_06_Scale.md)
+    * [Other](14_Impulse_response_measurement_07_Other.md)
 * Spectrogram
     * [Usage](15_Spectrogram_01_Usage.md)
     * [Setup](15_Spectrogram_02_Setup.md)

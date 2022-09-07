@@ -1,5 +1,5 @@
 # Reference
-![](include/RMSMeterSetup.png)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Metering/Setup.png)
 
 > RMS metering setup options
 
@@ -13,12 +13,12 @@ Standard values are -18dB for DVD authoring and -20dB for film.
 
 
 ## Weighting
-![](include/RMSWeighting.png)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Metering/Weighting.png)
 
 Applies an optional weighting filter conforming to various standard curves:
 
 * None (default).
-* ITU 1770: K-weighting filter, comprising of a shelving and a high-pass (RLB-weighting) filter in series, as specified in ITU-R BS.1170-2 and employed by EBU R128 (PLOUD).
+* ITU 1770: K-weighting filter, comprising a shelving and a high-pass (RLB-weighting) filter in series, as specified in ITU-R BS.1170-2 and employed by EBU R128 (PLOUD).
 * ANSI A, which is roughly the inverse of the Fletcher-Munson curve.
 * ANSI B.
 * ANSI C.

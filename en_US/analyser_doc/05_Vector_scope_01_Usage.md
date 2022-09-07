@@ -1,17 +1,17 @@
 # Usage
 The vector scope tool is displayed when a stereo input is detected, otherwise the display will switch to [Surround scope](06_Nebula_Surround_scope_01_Usage.md) provided if your edition of Pure Analyzer includes this option.
 
-![](include/Vector_Scope.png)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/VectorScope/Main.png)
 
 > Vector scope display in stereo.
 
-![](include/Vector-Scope-SR.png)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/VectorScope/Stereo.png)
 
 > Vector scope display in surround (with selection menu).
 
 ## Modes in Surround :
 
-![](include/Vector-Scope-SR-Menu.png)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/VectorScope/SurroundModes.png)
 
 **L-R**
 

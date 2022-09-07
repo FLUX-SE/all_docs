@@ -18,11 +18,11 @@ This position is taken as the center of gravity of the various channels, weighte
 
 
 
-![](include/Nebula_ST.png) | ![](include/Nebula_51.png)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Nebula/Stereo.png) | ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Nebula/51.png)
 ---------------------------------|-------------------------------------
 Nebula / Spatial Spectrogram display with stereo input | Nebula / Spatial Spectrogram display with surround input
 
-![](include/Spatial_Spectrogram_Setup.png)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Nebula/Setup.png)
 
 > Nebula / Spatial Spectrogram setup options
 

@@ -1,12 +1,12 @@
 # Display
-![](include/Surround_scope_Setup.png)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Nebula/SurroundScopeSetup.png)
 
 > Nebula | Surround scope setup options
 
 # Mode
 ## Speaker mode
 
-![](include/SpeakerMode.png)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Nebula/SpeakerMode.png)
 
 Selects between various commonly employed surround speaker arrangements.
 
@@ -36,13 +36,13 @@ With large values more of the spectrum dynamics are taken into account, and only
 ## Log blending
 Toggles between linear and logarithmic blending of the current particle with old particles.
 
-The default is off, ie. linear blending, which tends to favor the display of peaks.
+The default is off, i.e. linear blending, which tends to favor the display of peaks.
 
 Logarithmic blending on the other hand preserves more of the full dynamic range of the data, and also gives some visibility to lower levels.
 
-# Display
+## Color mode
 
-![](include/ColorMode.png)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Nebula/ColorMode.png)
 
 ## Fading
 

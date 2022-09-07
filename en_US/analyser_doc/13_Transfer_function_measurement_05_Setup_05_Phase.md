@@ -7,7 +7,7 @@ It is important to understand that smoothing destroys information in order to ac
 
 The algorithms employed here are specific to phase, and have more options than the regular smoothing employed for spectrum magnitude, transfer function magnitude and coherence, in case you wish to fine-tune their behavior.
 
-![](include/Phase_Display.png)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/TransferFunction/Phase.png)
 
 ## Display
 Toggles between the various phase curve display modes:
@@ -54,7 +54,7 @@ Color of the pen used to draw the phase curve.
 
 # Method
 
-![](include/Phase_Smooth_Method.png)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/TransferFunction/PhaseSmoothMethod.png)
 
 Available phase smoothing algorithms.
 

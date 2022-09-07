@@ -1,7 +1,7 @@
 # Preset
 A number of presets covering widely and not so widely-used metering standards are provided.
 
-![](include/Presets_RMS.png)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Metering/PresetsRMS.png)
 
 > Available RMS metering presets
 

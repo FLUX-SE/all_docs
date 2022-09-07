@@ -1,10 +1,10 @@
 # Controls
-![](include/Signal_Gen.png)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/SignalGenerator/Main.png)
 
 > Signal generator controls.
 
 # Type
-![](include/NoiseType.png)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/SignalGenerator/NoiseType.png)
 
 Sets the signal type to generate.
 

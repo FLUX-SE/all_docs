@@ -28,7 +28,7 @@ Color of the pen used to draw the max curve.
 # Color grading
 Applies an optional frequency-dependent coloring to the main channel-sum curve.
 
-![](include/Spectrum4.png)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Spectrum/Spectrum4.png)
 
 Magnitude spectrum with color grading enabled
 

@@ -1,5 +1,5 @@
 # Controls
-![](include/Snapshots.png)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Snapshots/Main.png)
 
 > Snapshot list and controls
 
@@ -18,7 +18,7 @@ Note: the snapshot area must have focus for this to have effect.
 Clicking the icon immediately creates a new snapshot, stores it on disk, adds it to the current project and selects it.
 
 ## Acquire sweep
-The ![](include/Sweep.png) button launches acquisition of a sweep snapshot. 
+The ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Generic/Sweep.png) button launches acquisition of a sweep snapshot. 
 This special type of snapshot automates the acquisition of transfer function and impulse response curves using a swept sine generator output.
 
 Please check the following for proper operation:
@@ -32,7 +32,7 @@ Providing the previous requirements are met, a progress dialog will then be disp
 > Ensure the outputs of the generator and the connected speakers are set to reasonable levels in order to prevent damage to your equipment and hearing loss.
 
 ## Create average
-Click the ![](include/Average.png) button with multiple snapshots selected to create a new snapshot average of these.
+Click the ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Generic/Average.png) button with multiple snapshots selected to create a new snapshot average of these.
 
 The new snapshot curve data is computed from the selected snapshot data as follows:
 
@@ -57,7 +57,7 @@ A warning message will inform you the averaging cannot be performed if one of th
 > If you change the snapshots in any way, the snapshot average will not change.
 
 ## Update current
-Clicking the ![](include/Update.png) button will overwrite the last selected snapshot contents with the most current data.
+Clicking the ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Generic/Update.png) button will overwrite the last selected snapshot contents with the most current data.
 
 This is especially useful when you are fine-tuning your measurement setup and only want to keep the latest one, without creating several snapshots and deleting them afterwards.
 

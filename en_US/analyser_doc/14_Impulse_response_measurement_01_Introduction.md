@@ -8,25 +8,25 @@ Determining the impulse response of an amplifier and loudspeaker in tandem can a
 
 A pass-trough device, or equivalently, a completely dead space such as an anechoic chamber exhibit a unit impulse response, whose value at zero time is gain, and is zero at all other instants.
 
-![](include/IR.png)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/ImpulseResponse/Main.png)
 
 > Impulse response display example
 
 ## Analyze / freeze
-The ![](include/Play.png) button toggles the impulse response real-time update on and off.
+The ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Generic/Play.png) button toggles the impulse response real-time update on and off.
 
 ## Delay Set
-The ![](include/Set2Delay.png) delay Set button set value of the peak time location to the delay value currently set for microphone channels in the [Live IO](11_Live_IO_01_Introduction.md) panel.
+The ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Generic/Set2Delay.png) delay Set button set value of the peak time location to the delay value currently set for microphone channels in the [Live IO](11_Live_IO_01_Introduction.md) panel.
 
 If Real Time curve is disable, the Max value of the selected snapshot is used.
 
 ## Delay add
-The ![](include/Add2Delay.png) delay add button adds value of the peak time location to the delay value currently set for microphone channels in the [Live IO](11_Live_IO_01_Introduction.md) panel.
+The ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Generic/Add2Delay.png) delay add button adds value of the peak time location to the delay value currently set for microphone channels in the [Live IO](11_Live_IO_01_Introduction.md) panel.
 
 If Real Time curve is disable, the Max value of the selected snapshot is used.
 
 ## Delay subtract
-The ![](include/Subtract2Delay.png) delay subtract button subtracts the peak value to the microphone channels delay.
+The ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Generic/Subtract2Delay.png) delay subtract button subtracts the peak value to the microphone channels delay.
 
 If Real Time curve is disable, the Max value of the selected snapshot is used.
 

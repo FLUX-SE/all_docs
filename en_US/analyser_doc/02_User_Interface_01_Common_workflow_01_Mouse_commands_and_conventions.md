@@ -25,9 +25,9 @@ factor greater than one shifts the current scale.
 <code>Alt + Click + drag</code> inside an item with a Zoom Factor
 allows to setup a new zoom according to the defined selection.
 
-![](include/ZoomSelection2.png)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Generic/ZoomSelection2.png)
 
-![](include/ZoomSelection1.png)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Generic/ZoomSelection1.png)
 
 ## Scroll wheel + click and drag
 Turning the middle mouse wheel, if present,

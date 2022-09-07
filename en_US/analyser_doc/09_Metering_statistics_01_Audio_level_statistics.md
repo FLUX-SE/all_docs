@@ -2,7 +2,7 @@
 The metering statistics view shows a synthetic view of the current and past meter values in numeric form.
 It also serves to process multiple existing audio files in one pass, display and export the results to disk.
 
-![](include/MeteringStats2.png)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/MeteringStatistics/Main.png)
 
 > Metering statistics display
 
@@ -19,10 +19,10 @@ As EBU R128 Loudness already incorporates statistical computations, only the cur
 ## File export
 Exports a report containing a summary of the metering statistics data to a text file.
 
-Clicking the ![](include/Export.png) button brings up a standard file dialog where you can specify the desired file name for the dialog.
+Clicking the ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Generic/Export.png) button brings up a standard file dialog where you can specify the desired file name for the dialog.
 
 ## Setup
-![](include/MeteringStatSetup.png)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/MeteringStatistics/Setup.png)
 
 ### Absolute Timecode
 

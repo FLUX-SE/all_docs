@@ -17,7 +17,7 @@ Default is _Manual_.
 
 Uses a fixed range as specified by the above settings.
 
-![](include/Spectrum_Manual.png)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Spectrum/ManualRange.png)
 
 ### Auto
 
@@ -30,7 +30,7 @@ When engaged, auto-range continuously adjusts the display to the current range o
 The range is defined by dB Min/Max values, and the Y-axis is also compressed in the lower range.
 This can bring out peaks and valleys in the spectrum to better visualize resonant frequencies and such.
 
-![](include/Spectrum_Compressed.png)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Spectrum/CompressedRange.png)
 
 ### Compressed &vert; Auto
 

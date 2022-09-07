@@ -1,5 +1,5 @@
 # Setup
-![](include/SnapShotSetup.png)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Snapshots/Setup.png)
 
 > Snapshot setup options
 

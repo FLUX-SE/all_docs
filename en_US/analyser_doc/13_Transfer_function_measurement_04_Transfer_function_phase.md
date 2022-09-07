@@ -14,7 +14,7 @@ The transfer function phase curve displays the phase difference between output a
 > This is inevitable and a direct consequence of the complex nature of the system, and not a limitation of the instrument. 
 > We advise to use Pure spectrum analysis mode which mitigates phase computation inaccuracies compared to plain FFT.
  
- ![](include/TransferFunction.png)
+ ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/TransferFunction/Main.png)
 >
 > Typical transfer function display in a live room?
 

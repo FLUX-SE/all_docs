@@ -1,6 +1,6 @@
 # Snapshots page
 
-![Snapshots page](../../../doc_images/SpatR/Snapshots/Page.png)
+![Snapshots page](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Snapshots/Page.png)
 
 The new Snapshots page of _SPAT Revolution_ allows the user to deeply manage its show. Snapshots are an easy way to create different session states. A classic example would be to have different snapshots for different songs, or sections of a song, in a live show.
 
@@ -12,7 +12,7 @@ The page is divided into three different sections: the snapshot list, the versio
 
 ### Generality
 
-![Snapshot list](../../../doc_images/SpatR/Snapshots/SnapshotsList.png)
+![Snapshot list](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Snapshots/SnapshotsList.png)
 
 The snapshot list is the main section of snapshot management and serves many purposes. First, it displays the snapshot organization of your session. The snapshot name can also be edited by clicking on the text field. To recall a snapshot from the snapshot list, simply double-click on the number of one of them.
 
@@ -20,29 +20,29 @@ The snapshot list is the main section of snapshot management and serves many pur
 
 A snapshot can have different states. First, it can be selected or unselected inside the list. It will serve to make a specific action on the selected snapshot(s) and reveals the versions' history and inspector section (if only one is selected). The state of selection is a graphical element that let the user know on which snapshot an action is performed.
 
-![Unselected snapshot](../../../doc_images/SpatR/Snapshots/UnselectedSnapshot.png)
+![Unselected snapshot](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Snapshots/UnselectedSnapshot.png)
 Unselected snapshot
 
-![Selected snapshot](../../../doc_images/SpatR/Snapshots/SelectedSnapshot.png)
+![Selected snapshot](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Snapshots/SelectedSnapshot.png)
 Selected snapshot
 
 #### Snapshot activation and deactivation
 
 A snapshot can also be disabled using the dedicated toggle. A disabled snapshot will be darkened in the list. It cannot be recalled. The <code>next</code> and <code>previous</code> snapshot buttons on the snapshot toolbar will automatically skip a disabled snapshot.
 
-![Active / inactive](../../../doc_images/SpatR/Snapshots/SnapshotEnableDisable.png)
+![Active / inactive](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Snapshots/SnapshotEnableDisable.png)
 Activated snapshot (1) VS. deactivated snapshot (2)
 
 #### Current snapshot
 
 Lastly, the last recalled snapshot is displayed with the "current" field set on. This allows the user to monitor where he is in his show.
 
-![In-play / not-in-play](../../../doc_images/SpatR/Snapshots/SnapshotRecalled.png)
+![In-play / not-in-play](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Snapshots/SnapshotRecalled.png)
 In-play snapshot (2) VS. not-in-play snapshot (1)
 
 ### The actions
 
-![Action bar](../../../doc_images/SpatR/Snapshots/SnapshotsListActions.png)
+![Action bar](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Snapshots/SnapshotsListActions.png)
 
 This snapshot list's top bar regroups all the snapshot actions:
 
@@ -60,7 +60,7 @@ This snapshot list's top bar regroups all the snapshot actions:
 
 To recall through OSC a snapshot, the name or the index is required. As snapshot order can be changed, the snapshot index does not depend on the snapshot position in the list. The snapshot index is indicated on each snapshot, on the left side of the recall options.
 
-![Snapshot index](../../../doc_images/SpatR/Snapshots/SelectedSnapshot.png)
+![Snapshot index](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Snapshots/SelectedSnapshot.png)
 
 It is possible to generate new indexes for all the snapshots according to list order. To do so, click on the menu <code>Snapshot/Reindex all snapshots</code>.
 
@@ -90,7 +90,7 @@ Here is an example: let's say you have two snapshots, _A_ and _B_. Sources insid
 
 ## Version history
 
-![Snapshot version history](../../../doc_images/SpatR/Snapshots/VersionHistory.png)
+![Snapshot version history](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Snapshots/VersionHistory.png)
 
 In this panel takes place a very powerful feature. For each snapshot, SPAT Revolution automatically stores the last versions. By default, **ten versions** are stored. It is possible to increase or decrease this number on the Snapshot panel of the **Preferences** page. Of course, you can recall any of this ten previous state, remove one.
 
@@ -109,7 +109,7 @@ The inspector lets you visualize the difference between the current state of you
 
 It allows an easy monitoring of what was changed and how it was changed.
 
-![Inspector](../../../doc_images/SpatR/Snapshots/Inspector.png)
+![Inspector](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Snapshots/Inspector.png)
 
 Select the snapshot you want to compare, and click on the <code>Show differences</code>, or use the shortcut <code>Ctrl + D</code> on Windows, <code>Command + D</code> on macOS.
 
@@ -131,7 +131,7 @@ To select differences, use <code>Ctrl + Click</code> on Windows, or <code>Cmd + 
 
 ### Propagate dialog
 
-![Inspector](../../../doc_images/SpatR/Snapshots/PropagateDialog.png)
+![Inspector](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Snapshots/PropagateDialog.png)
 
 On the propagate dialog, the selected data will be retrieved, displaying the absolute value which can be applied when validating on <code>Propagate absolute values</code> and the trim value which will be added to each snapshot value when validating with <code>Propagate trim values</code>.
 
@@ -139,6 +139,6 @@ On the propagate dialog, the selected data will be retrieved, displaying the abs
 
 On the left panel, the snapshot list is displayed in order to choose the snapshot for which the propagation will be applied.
 
-![Inspector](../../../doc_images/SpatR/Snapshots/PropagateDialogSelectedSnapshots.png)
+![Inspector](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Snapshots/PropagateDialogSelectedSnapshots.png)
 
 On the right panel, the differences are displayed. It is possible to select them in order to filter which ones will be propagated. Do not select rows for propagate all the values.

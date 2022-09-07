@@ -8,6 +8,6 @@ The first step is therefore to setup the measurement chain. In cases where an ou
 If you're measuring the acoustic response of a physical space, you'll need to place at least one microphone at the preferred listening position to record the response. 
 The source can either be picked up directly at the DAW output or recorded with a second microphone placed in front of the loudspeaker(s), depending on whether you want to include the loudspeaker's influence or not in the measurement.
 
-![](include/SystemAnalysisPrinciple.png)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/SystemAnalysis/Principle.png)
 
 > System analysis overall principle.

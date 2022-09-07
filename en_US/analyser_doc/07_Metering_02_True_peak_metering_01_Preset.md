@@ -1,6 +1,6 @@
 # Preset
 
-![](include/Presets_TruePeak.png)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/TruePeakMeter/Presets.png)
 
 ## Custom
 User defined values.

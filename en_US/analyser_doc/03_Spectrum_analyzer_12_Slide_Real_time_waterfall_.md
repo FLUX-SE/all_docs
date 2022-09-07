@@ -1,5 +1,6 @@
 # Slide (Real Time waterfall)
-![](include/SpectrumSlide.png)
+
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Spectrum/Slide.png)
 
 # Enable
 Enable/disable the slide mode.

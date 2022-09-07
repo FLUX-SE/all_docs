@@ -1,12 +1,12 @@
 # Setup
 
-![](include/Spectrogram_Setup.png)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Spectrogram/Setup.png)
 
 > Spectrogram setup
 
 ## Direction
 
-![](include/SpectrogramSetupDirection.png)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Spectrogram/Direction.png)
 
 Defines the scrolling direction of the spectrogram.
 
@@ -31,7 +31,7 @@ Sets the maximum amplitude spectrum value to be displayed.
 
 ## Color Mode
 
-![](include/SpectrogramColorMode.png)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Spectrogram/ColorMode.png)
 
 ### Duotone
 

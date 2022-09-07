@@ -1,5 +1,5 @@
 # Setup
-![](include/MeterHistorySetup.png)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/MeteringHistory/Setup.png)
 
 > Metering history setup options.
 

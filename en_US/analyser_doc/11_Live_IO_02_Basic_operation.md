@@ -1,7 +1,7 @@
 # Basic operation
 
 ## Compute the delay
-Press the ![](include/Find.png) button to find the delay using the most recent incoming audio. 
+Press the ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Generic/Find.png) button to find the delay using the most recent incoming audio. 
 The resulting figure is displayed almost instantly as a:
 
 * Delay in samples (smp).
@@ -9,7 +9,7 @@ The resulting figure is displayed almost instantly as a:
 * Delay in milliseconds (ms).
 
 ## Compensate the delay
-Pressing the ![](include/On.png) button activates a delay line in the source signal path to compensate for the currently displayed delay value, effectively time-aligning <i>source</i> and <i>response</i> signals. 
+Pressing the ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Generic/On.png) button activates a delay line in the source signal path to compensate for the currently displayed delay value, effectively time-aligning <i>source</i> and <i>response</i> signals. 
 Pressing again deactivates the delay line, which allows for quick comparison between uncompensated and compensated signal paths.
 
 ## Fine-tune manually
@@ -21,7 +21,7 @@ using either of these methods:
 * Increment / decrement using the +/- numeric keys.
 
 ## Perform a new measurement
-Press the ![](include/Find.png) button again to perform a new measurement. 
+Press the ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Generic/Find.png) button again to perform a new measurement. 
 This will overwrite any previous value.
 
 

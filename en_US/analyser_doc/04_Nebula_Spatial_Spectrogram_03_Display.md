@@ -6,7 +6,7 @@ Lowering this value retains past particles longer, whereas increasing this make 
 Controls the size of individual particles with respect to screen size.
 
 # Blur kernel size
-![](include/BlurKernelSize.png)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Nebula/BlurKernelSize.png)
 
 Controls the radius of the blur effect applied to past particles.
 Particles are "smeared" more and more as they become older, depending on this setting. 

@@ -6,13 +6,13 @@ The media queue is intended for processing a soundtrack possibly split across se
 Reels are processed in the order in which they are added and in which they appear in the list.
 
 ## Usage
-Audio files are added by clicking the icon ![](include/Plus2.png), which brings up a standard file selection dialog, where you can select as many files as you want, provided they all have the same channel count and in a supported format, with a recognized extension (.wav).
-When you are ready, click the ![](include/Play.png) icon to start processing the list, which will be computed much faster than real-time, especially if you have a fast computer.
+Audio files are added by clicking the icon ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Generic/Plus.png), which brings up a standard file selection dialog, where you can select as many files as you want, provided they all have the same channel count and in a supported format, with a recognized extension (.wav).
+When you are ready, click the ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Generic/Play.png) icon to start processing the list, which will be computed much faster than real-time, especially if you have a fast computer.
 
 The results are displayed when ready in the main view, and you can export these to a file just as you would with metering statistics computed on incoming audio.
 
 ## Reel grouping
-If reels are split across several multi-channel files, you can add all the files at once directly in the file selection dialog. 
+If reels are split across several multichannel files, you can add all the files at once directly in the file selection dialog. 
 Reel order corresponds to the order in which the files were added.
 
 ## Channel grouping

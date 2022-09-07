@@ -17,7 +17,7 @@ Controls the amount of frequency detail of the smoothed curve, when using window
 > This curves acts as a kind of zoom-out control, as it shows the global frequency content of the signal, leaving out details such as harmonic peaks and variations imputable to transient and noise components. Typical uses for this curve is to monitor the global frequency balance of a mix and to visualize the influence of broad equalizer corrections on the mix.
 
 # Curve display
-![](include/CurveDisplay.png)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Spectrum/CurveDisplay.png)
 
 Toggles between the following curve display modes:
 * Full: main curve only (no smoothing).
@@ -27,7 +27,7 @@ Toggles between the following curve display modes:
 > Selecting one of the first two modes is recommended to avoid display clutter when comparing several channels and/or snapshots.
 
 # Max curve
-![](include/MaxCurve.png)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Spectrum/MaxCurve.png)
 
 The max curve employs much longer release time compared to the main curve, and as such registers short peaks much more easily.
 
@@ -39,14 +39,14 @@ The max curve setting controls its visibility and whether smoothing is applied:
 > The max curve is never displayed for snapshots, as it would be the same as the main curve, since this type of curve does not evolve in time.
 
 # Peak type
-![](include/PeakType.png)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Spectrum/PeakType.png)
 
 This setting controls the manner in which spectrum magnitude peaks are computed:
 * Max (global): compute a global maximum over the entire spectrum range.
 * Max (user): compute the maximum across a user defined portion of the spectrum set in the Peak range.
 
 # Peak label
-![](include/PeakLabel.png)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Spectrum/PeakLabel.png)
 
 Determines the appearance of the peak display:
 * None: peaks are not shown.

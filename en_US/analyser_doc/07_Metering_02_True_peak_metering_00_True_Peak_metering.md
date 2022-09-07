@@ -16,7 +16,7 @@ TruePeak metering aims to overcome these limitations by mimicking parts of the D
 
 
 
-![](include/TruePeakMeterSetup.png)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/TruePeakMeter/Setup.png)
 
 > TruePeak metering setup options
 

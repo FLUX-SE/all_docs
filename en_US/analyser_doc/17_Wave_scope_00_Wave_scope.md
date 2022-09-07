@@ -1,11 +1,11 @@
 # Wave scope
 The wave scope is a simple oscilloscope-type waveform display.
 
-![](include/WaveScope02.png)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Wavescope/Main2.png)
 
-![](include/WaveScope03.png)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Wavescope/Main3.png)
 
-![](include/WaveScope01.png)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Wavescope/Main1.png)
 
 > Wave scope display with stereo input.
 

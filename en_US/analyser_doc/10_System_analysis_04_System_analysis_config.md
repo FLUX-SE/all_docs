@@ -1,9 +1,9 @@
 # Measurement setup
-![](include/LiveAnalyzer1.png)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/SystemAnalysis/LiveSetup1.png)
 
 > Typical configuration for a live venue measurement setup using external signal generator.
 
-![](include/LiveAnalyzer2.png)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/SystemAnalysis/LiveSetup2.png)
 
 > Typical configuration for a live venue measurement setup using Pure Analyzer's internal signal generator and loopback
 

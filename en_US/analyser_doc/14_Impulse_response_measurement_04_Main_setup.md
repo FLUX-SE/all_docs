@@ -1,5 +1,5 @@
 # Main setup
-![](include/IRSetup.png)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/ImpulseResponse/Setup.png)
 
 Impulse response setup options
 
@@ -12,6 +12,6 @@ Disabling 'Run' is equivalent to freezing the measurement, and leaves the averag
 # Reset
 Resets the impulse response computation, including the averaging buffer.
 
-> If you are using a lengthy averaging setting and have just have changed your setup, you can reset the entire impulse response to immediately forget previous measurements .
+> If you are using a lengthy averaging setting and have just changed your setup, you can reset the entire impulse response to immediately forget previous measurements .
 
 

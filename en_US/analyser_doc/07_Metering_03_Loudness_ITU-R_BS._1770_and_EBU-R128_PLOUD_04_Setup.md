@@ -1,11 +1,11 @@
 # Setup
-![](include/PLoudMeterSetup.png)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Metering/PLoudMeterSetup.png)
 
 > EBU R128 Loudness metering setup.
 
 ## Presets
 
-![](include/Presets_Loudness.png)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Metering/LoudnessPresets.png)
 
 ### Custom
 Uses user-defined custom range according to min./max. values below.

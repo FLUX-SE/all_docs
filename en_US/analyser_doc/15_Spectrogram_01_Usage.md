@@ -7,7 +7,7 @@ Broadband noise appears as background, a pure tone as a horizontal line, and a t
 
 Harmonic content appears as horizontal groups of parallel lines and vertical bars respectively, etc.
 
-![](include/SpectrogramView.png)
-![](include/SpectrogramView2.png)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Spectrogram/Main.png)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Spectrogram/Main2.png)
 
 > Example spectrogram view

@@ -1,5 +1,5 @@
 # Mic. channel Leq setup
-![](include/LeqMeterSetup.png)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/LEQMetering/Setup.png)
 
  >Mic. channel Leq setup
 

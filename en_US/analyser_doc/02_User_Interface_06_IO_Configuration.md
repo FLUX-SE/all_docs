@@ -1,5 +1,5 @@
 # IO Configuration
-![](include/IOSetup.png)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Setup/IOSetup.png)
 
 > IO configuration dialog
 
@@ -10,7 +10,7 @@ Saves / restores a complete user defined configuration.
 
 ## Device
 
-![](include/Device.png)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Setup/Devices.png)
 
 This setting lets you choose amongst a selection of devices, depending on your particular hardware configuration.
 
@@ -26,14 +26,14 @@ Any installed soundcard(s) will be listed here. Under Windows, it might appear s
 
 
 ## Sampling rate
-![](include/SamplingRate.png)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Setup/SamplingRate.png)
 
 > Available sampling rates (hardware specific)
 
 Sets the sampling rate used internally by the application. When a hardware device is selected, be sure to match this to the sampling rate set in the application panel of your soundcard control panel. We deliberately chose not to employ resampling, which in our opinion has no place in a measurement instrument. Instead we generally advise you to set your soundcard's sampling rate to 44.1k or 48k, which covers the entire audio hearing range (20-20kHz). Increasing the sampling rate above these values increases the processing power required to carry out the computations without any benefit for most practical applications.
 
 ## Buffer size
-![](include/BufferSize.png)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Setup/BufferSize.png)
 
 Displays the current soundcard I/O buffer size. Depending on your soundcard, you might be able to change this to a different value directly in Pure Analyzer without opening its control panel beforehand. Smaller buffer sizes leads to a shorter latency between incoming audio, display update, and audio output. This setting is certainly not as crucial as in the context of live sound processing, so there is no need to go down to extremely small values here, as this only increases the system load without offering any practical advantage.
 
@@ -45,14 +45,14 @@ Opens the ASIO (Windows) / CoreAudio (MacOS) control panel for the selected soun
 # Channels
 
 ## Max number of channels
-![](include/Channels.png)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Setup/Channels.png)
 
 Selects the maximum number of channels to be used by the application, or equivalently the number of channels in the application I/O bus. You should set this according to the source material format you want to analyze and visualize. This determines notably how many real-time curves are displayed in the [Spectrum analyzer](03_Spectrum_analyzer_01_Basic_principles.md) view, whether the [Surround scope](06_Nebula_Surround_scope_01_Usage.md) is displayed, etc.
 
 !> **IMPORTANT!** - The Pure Analyzer Studio Session supports only 2 channels of audio.
 
 ## Reference configuration
-![](include/RefConfiguration.png)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Setup/ReferenceConfiguration.png)
 
 > [Reference](07_Metering_01_RMS_Metering_03_Reference.md)
 configurations available with 8 max. channels
@@ -68,7 +68,7 @@ The channels are labeled according to this configuration to make them easier to 
 # Signal generator
 ## Output
 
-![](include/OutputChoice.png)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Setup/OutputPatch.png)
 
 > Example of a output channel routing (hardware specific)
 

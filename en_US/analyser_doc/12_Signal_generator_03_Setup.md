@@ -1,5 +1,5 @@
 # Setup
-![](include/Signal_Gen_Setup.png)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/SignalGenerator/Setup.png)
 
 > Signal generator setup options.
 

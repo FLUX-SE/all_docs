@@ -22,7 +22,7 @@ variations such as those that frequently occur in movie soundtracks.
 
 # Linear blend range
 Adds a constant blend amount to the particle. 
-This ensures some particle are always blended into the image even if its original magnitude is low.
+This ensures some particles are always blended into the image even if its original magnitude is low.
 
 A low value for this setting has the effect of stabilizing the appearance of particles. 
 With large values more of the spectrum dynamics are taken into account, and only peaks mostly come through.
@@ -30,6 +30,6 @@ With large values more of the spectrum dynamics are taken into account, and only
 # Log blending
 Toggles between linear and logarithmic blending of the current particle with old particles.
 
-The default is off, ie. linear blending, which tends to favor the display of peaks.
+The default is off, i.e. linear blending, which tends to favor the display of peaks.
 
 Logarithmic blending on the other hand preserves more of the full dynamic range of the data, and also gives some visibility to lower levels.

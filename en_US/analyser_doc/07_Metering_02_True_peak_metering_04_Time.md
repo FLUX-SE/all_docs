@@ -14,6 +14,6 @@ Number of frames to hold the peaks, before the actual release phase begins.
 When enabled, peaks are held until the next reset, which is useful for checking a whole track never clips.
 
 ## Reset
-![](include/Refresh.png) button resets the meter to its initial state (values and peaks at minimum).
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Generic/Refresh.png) button resets the meter to its initial state (values and peaks at minimum).
 
 

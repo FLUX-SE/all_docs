@@ -4,20 +4,19 @@ Start and end time-points of the period over which the history are displayed lef
 
 Selecting which meters are to be included in the display is done by clicking the corresponding buttons in the setup.
 
-![](include/Metering_History.png)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/MeteringHistory/Main.png)
 
 > Metering history display.
 
-
 ## Timecode offset
-Clicking the ![](include/TCOffset.png) defines the current time as the Timecode offset.
+Clicking the ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Generic/TCOffset.png) defines the current time as the Timecode offset.
 
 ## Timecode offset reset
-Clicking the ![](include/ResetTCOffset.png) button resets the Timecode offset to zero. 
+Clicking the ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Generic/ResetTCOffset.png) button resets the Timecode offset to zero. 
 Absolute and relative Timecode will then be the same.
 
 ## Play
-Clicking the ![](include/Play.png) toggles history recording on and off. 
+Clicking the ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Generic/Play.png) toggles history recording on and off. 
 Metering values are discarded when off.
 
 > The metering history relies on the same settings as those defined in the various meters. However, when multiple meter values are displayed simultaneously, the display range of the history is adapted so it encompasses the display ranges of the meters.

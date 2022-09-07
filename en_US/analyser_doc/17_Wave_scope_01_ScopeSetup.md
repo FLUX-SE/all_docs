@@ -1,12 +1,12 @@
 # Setup
-![](include/WaveScope04.png)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Wavescope/Setup.png)
 
 ## Time
 Time window in milliseconds.
 
 ## Color Mode
 
-![](include/WaveScopeColorModes.png)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Wavescope/ColorModes.png)
 
 ### Static
 Displays the waves using 1 unique static color.

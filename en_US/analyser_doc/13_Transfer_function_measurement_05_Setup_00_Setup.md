@@ -1,5 +1,5 @@
 # Setup
-![](include/Transfer-Function-Setup.png)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/TransferFunction/Setup.png)
 
 > Transfer function setup options
 

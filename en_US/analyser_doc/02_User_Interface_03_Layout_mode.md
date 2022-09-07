@@ -1,7 +1,7 @@
 # Layout mode
 Pure Analyzer offers a number of user interface layouts designed and named according to typical tasks:
 
-![](include/Global-Presets.png)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Generic/GlobalPresets.png)
 
 The layouts are grouped into categories, as described below.
 

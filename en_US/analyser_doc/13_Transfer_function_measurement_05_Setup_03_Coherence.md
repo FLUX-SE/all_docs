@@ -16,7 +16,7 @@ Toggles between one of three modes:
 * Smoothed: smoothed coherence only.
 * All: both.
 
-![](include/Coherence_Display.png)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/TransferFunction/Coherence.png)
 
 > Available coherence display modes
 

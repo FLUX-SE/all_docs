@@ -4,7 +4,7 @@ Each row in the list shows a record of the offending peak value in dB alongside 
 You can navigate the list and locate the time positions of the incident, then playback again the corresponding source material in order to identify and correct the problem.
 
 # Setup
-![](include/TruePeakIncSetup.png)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/MeteringStatistics/IncidentSetup.png)
 
 > Incidents setup options.
 
