@@ -10,9 +10,9 @@ The goal of WFS is to recreate the wavefront of a primary (or virtual) source sy
 
 Under certain strict conditions, WFS can create the impression of a source positioned in front of the speaker system. This zone in front of a speaker line is referred to as the Focus Zone. That being said, the criteria are quite drastic to get this effect. Ircam states at least 32 speakers should be used with 15 to 20 cm spacing.
 
-### Availability  - WFS Add-on license
+### Availability - WFS Add-on license
 
-Referred to as a panning type in _SPAT Revolution_, the WFS spatial audio reproduction technique is available with **the WFS Add-on license option**.
+> Referred to as a panning type in _SPAT Revolution_, the WFS spatial audio reproduction technique is available with **the WFS Add-on license option**, available with Ultimate and Essential version.
 
 
 ## SPAT Revolution implementation of WFS
@@ -20,7 +20,7 @@ Referred to as a panning type in _SPAT Revolution_, the WFS spatial audio reprod
 ![WFS]( https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Room/WFSNiceOutput.png)
 
 
-Where traditionally WFS is used on a colinear array of very tightly spaced loudspeakers, SPAT Revolution allows for the use of the spatial audio reproduction technique on systems with greater spacing, in smaller loudspeaker quantity and potentially handling any type of 2D or 3D speaker arrangements.
+Where traditionally WFS is used on a collinear array of very tightly spaced loudspeakers, SPAT Revolution allows for the use of the spatial audio reproduction technique on systems with greater spacing, in smaller loudspeaker quantity and potentially handling any type of 2D or 3D speaker arrangements.
 
 ![WFS]( https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Room/WFSNice4.png)
 

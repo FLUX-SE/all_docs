@@ -14,7 +14,7 @@ Ambisonic, as opposed to other surround and spatial techniques and methods does 
 
 When Ambisonics is played back on speakers, all the speakers contribute to the directional content, what one is hearing is not the sound coming from a specific speaker but from a specific direction.
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/ReaperHOA3DTrack.png)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/ReaperHOA3DTrack.jpg)
 
 > Overview of a fifth-order HOA 3D Ambisonic File created by Tine Surell Lange.
 
