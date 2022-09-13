@@ -9,13 +9,14 @@ Starting with QLab5, the network type cue (OSC messages) has been substantially 
 
 ![QLab5](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/QLab5.png)
 
-Earlier provided template (QLab 4) of actual examples of remote control message for SPAT Revolution are no longer needed to assist with programming. Some QLab 5 templates are now available strictly to provide example on how to use the SPAT Send plugin on cue outputs to route audio directly into SPAT Revolution application (when on single computer, such as in creation)
+Earlier provided template (QLab 4) of actual examples of remote control message for SPAT Revolution are no longer needed to assist with programming. <!--Some QLab 5 templates are now available strictly to provide example on how to use the SPAT Send plugin on cue outputs to route audio directly into SPAT Revolution application (when on single computer, such as in creation)-->
 
 ## QLab 5 Integration template
 
 New QLab 5 template will be provided shortly
 
-## QLab 4 Integration template (V4 exclusive)
+
+## QLab 4 Integration template (V4 validated)
 
 This template shows how you can manage _SPAT Revolution_ and QLab integration on the same machine, using _SPAT Revolution_ Send plug-ins. Both QLab and _SPAT Revolution_ session are included, with 16 Mono and 8 Stereo SPAT Send on cue outputs.
 This template is _SPAT Revolution_ Essential compliant, for binaural and Channel-based setups.
