@@ -32,7 +32,8 @@ This guide works as a base and not an “end all be all”, any ideas on how to 
 
 ## Demo
 
-*video not uploaded yet*
+<iframe width="560" height="315" src="https://www.youtube.com/embed/l575MU3l5SI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+direct link if not loading: https://youtu.be/l575MU3l5SI
 
 ## Installation
 
