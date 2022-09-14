@@ -4,7 +4,8 @@
 
 *Written by [Arsene](https://www.flux.audio/contacts/arsene)*
 
-> This guide is also available as YouTube Videos: *playlist link* (not available yet)
+> This guide is also available as YouTube Videos: [https://youtube.com/playlist?list=PL_Dcg2GwhLHnavr0YtK6JC64rGrE2KLxo](https://youtube.com/playlist?list=PL_Dcg2GwhLHnavr0YtK6JC64rGrE2KLxo)
+> <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PL_Dcg2GwhLHnavr0YtK6JC64rGrE2KLxo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Introduction
 
@@ -40,7 +41,7 @@ direct link if not loading: [https://youtu.be/l575MU3l5SI](https://youtu.be/l575
 
 > If you already have a FLUX:: account as well as an iLok account and already have a SPAT Revolution License or Trial you can jump to the [next section of the guide](https://doc.flux.audio/#/en_US/spat_revolution_doc/Third_Party_Ableton_Live_Tools_for_SPAT_Revolution?id=tools).
 
-> You can follow this part with the dedicated video as well: [https://youtu.be/7govpoyIFeA](https://youtu.be/7govpoyIFeA)
+> You can also follow this part with the dedicated video as well: [https://youtu.be/7govpoyIFeA](https://youtu.be/7govpoyIFeA)
 > <iframe width="560" height="315" src="https://www.youtube.com/embed/7govpoyIFeA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 - So we are going to first create our FLUX:: account [here](https://shop.flux.audio/en_US/register).
@@ -412,7 +413,8 @@ Moving this device to another track instead of deleting and creating a new one w
 
 ## Workflow
 
-> Watching the corresponding video is highly recommended for this part: *link* (not available yet)
+> Watching the corresponding video is highly recommended for this part: [https://youtu.be/YYcnobAmRFk](https://youtu.be/YYcnobAmRFk)
+> <iframe width="560" height="315" src="https://www.youtube.com/embed/YYcnobAmRFk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Now that we are completely setup, the formula is very simple:
 
@@ -472,7 +474,8 @@ Happy Immersive Creating!
 
 ## Printing an Immersive Mix
 
-> This part is also available as a YouTube Video here: *link* (not available yet)
+> This part is also available as a YouTube Video here: [https://youtu.be/lOA86iQuxls](https://youtu.be/lOA86iQuxls)
+> <iframe width="560" height="315" src="https://www.youtube.com/embed/lOA86iQuxls" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Now comes the time to think about how to render what we made inside Ableton Live and SPAT Revolution.
 
@@ -502,7 +505,8 @@ Then the only thing left to do is to create the tracks in Live that will receive
 
 ## From Single Machine to Dual Computer Setup
 
-> This part is also available as a YouTube Video here: *link*
+> This part is also available as a YouTube Video here: [https://youtu.be/TnZSjCVULlQ](https://youtu.be/TnZSjCVULlQ)
+> <iframe width="560" height="315" src="https://www.youtube.com/embed/TnZSjCVULlQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 The process of switch this all workflow from a single computer to a dual one is fairly simple.
 
@@ -661,9 +665,7 @@ If that doesn't do it you can also change the OSC Port to something else, and th
 
 Q: Is this workflow compatible with the **Essential** license of _SPAT Revolution_?
 
-A: For now due to limitation of the **Essential** license this workflow isn't fully compatible, maybe later with some future update of Essential and some tweaking on my end. Making this workflow work for Essential would require to change it some much that you could not call this the same Workflow.
-
-<!-- todo: is this still true? -->
+A: Yes, you do not have to get the Ultimate version to start creating with this workflow.
 
 ## You want More?!
 
