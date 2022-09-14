@@ -1,6 +1,6 @@
 ![]( https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Generic/SPATionautsImage.png)
 
-# FLUX:: Immersive SPAT Revolution
+# FLUX:: Immersive SPAT Revolution 22.09
 
 ## A User Guide
 

@@ -19,7 +19,7 @@ _SPAT Revolution_ stand-alone software:
 
 - Windows 10 - 64 bits.
 
-- macOS - All versions from 10.12 including macOS Big Sur and Monterey compliant. *
+- macOS - All versions from 10.15 including macOS Big Sur and Monterey compliant. *
 
 > *See hardware details for more information on compatibility.
 
