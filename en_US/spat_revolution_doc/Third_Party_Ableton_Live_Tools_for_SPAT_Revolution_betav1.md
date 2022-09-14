@@ -33,13 +33,15 @@ This guide works as a base and not an “end all be all”, any ideas on how to 
 ## Demo
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/l575MU3l5SI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-direct link if not loading: https://youtu.be/l575MU3l5SI
+
+direct link if not loading: [https://youtu.be/l575MU3l5SI](https://youtu.be/l575MU3l5SI)
 
 ## Installation
 
 > If you already have a FLUX:: account as well as an iLok account and already have a SPAT Revolution License or Trial you can jump to the [next section of the guide](https://doc.flux.audio/#/en_US/spat_revolution_doc/Third_Party_Ableton_Live_Tools_for_SPAT_Revolution?id=tools).
 
-> You can follow this part with the dedicated video as well: *link* (not available yet)
+> You can follow this part with the dedicated video as well: [https://youtu.be/7govpoyIFeA](https://youtu.be/7govpoyIFeA)
+> <iframe width="560" height="315" src="https://www.youtube.com/embed/7govpoyIFeA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 - So we are going to first create our FLUX:: account [here](https://shop.flux.audio/en_US/register).
 
