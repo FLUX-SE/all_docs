@@ -5,7 +5,6 @@
 *Written by [Arsene](https://www.flux.audio/contacts/arsene)*
 
 > This guide is also available as YouTube Videos: [https://youtube.com/playlist?list=PL_Dcg2GwhLHnavr0YtK6JC64rGrE2KLxo](https://youtube.com/playlist?list=PL_Dcg2GwhLHnavr0YtK6JC64rGrE2KLxo)
-> <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PL_Dcg2GwhLHnavr0YtK6JC64rGrE2KLxo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Introduction
 
@@ -675,7 +674,7 @@ Main SPAT Revolution Page
 - https://www.flux.audio/project/spat-revolution
 
 Latest Release
-- https://www.flux.audio/spat-revolution-22-02
+- https://www.flux.audio/spat-revolution-22-09
 
 The complete user guide of SPAT Revolution
 - https://doc.flux.audio/#/en_US/spat_revolution_doc/A_User_Guide
