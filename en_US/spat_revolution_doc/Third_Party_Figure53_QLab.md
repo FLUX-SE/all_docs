@@ -3,6 +3,9 @@
 Rock solid and fully featured show control program, based under a 'cue' based paradigm, QLab is great for manually sequencing multiple media and show type events, running video, sound, lights and virtually any type of control scripts through its easy-to-use interface.
 Some of the more advanced control features in QLab make the most of its native OSC network integration - which is why it becomes a great integration partner to _SPAT Revolution_.
 
+![QLab Dual Computer setup](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/QLabDualComputer.png)
+**QLab Dual Computer setup**
+
 ## QLab 5
 
 Starting with QLab5, the network type cue (OSC messages) has been substantially revamped and now includes support to directly control SPAT Revolution. Over 100 predefined messages for SPAT Revolution are now possible, including project, source, room, master and snapshot control messages.
