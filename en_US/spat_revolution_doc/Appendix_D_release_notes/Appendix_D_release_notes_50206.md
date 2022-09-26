@@ -1,4 +1,4 @@
-# Release Notes - Build 22.02.0.50200
+# Release Notes - Build 22.02.0.50206
 
 ## Bugs
 - A Snapshot update message appears when updating from OSC messages
