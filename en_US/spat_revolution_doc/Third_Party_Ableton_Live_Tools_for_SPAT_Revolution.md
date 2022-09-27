@@ -65,7 +65,7 @@ Now that both accounts have been created and activated, and both the FLUX Center
 
 To do so simply go into the [iLok Licenses](https://shop.flux.audio/en_US/account/trial/request) section of your FLUX:: account, and follow the procedure.
 
-Last step is to go into the trial section and request a trial for _SPAT Revolution_ **Ultimate**. The license will be automatically placed on your iLok account.
+Last step is to go into the trial section and request a trial for _SPAT Revolution_ **Ultimate** or **Essential**. The license will be automatically placed on your iLok account.
 
 Now open the iLok License Manager app and activate your license by drag and dropping it to your computer. You can then close the iLok app and open the FLUX:: Center.
 
@@ -576,7 +576,6 @@ The Immersive Audio World is full of new possibilities and we hope that this gui
 Let us know if there's anything missing from this guide (and the devices provided), ideas on how to better it, or simply what are you thoughts!
 
 You can contact me directly here:
-- Instagram: https://instagram.com/arsene_music
 - FLUX:: https://www.flux.audio/contacts/arsene
 
 ## Credit
@@ -617,7 +616,7 @@ If none of it solve the issue please contact the FLUX:: Tech Support here: suppo
 
 Q: Do you plan on making a Windows specific guide?
 
-A: Maybe if we get lots of requests about it.
+A: Probably if we get some requests for it.
 
 ### OSC issues? (Automation not going to SPAT)
 
@@ -665,6 +664,13 @@ If that doesn't do it you can also change the OSC Port to something else, and th
 Q: Is this workflow compatible with the **Essential** license of _SPAT Revolution_?
 
 A: Yes, you do not have to get the Ultimate version to start creating with this workflow.
+
+### Demo Sessions?
+
+Q: Is there demo sessions so I can have a quick look?
+
+A: Yes they are located in the same folder as the rest of the tools located here:
+<code>/Library/Application Support/Flux/Ableton Live Devices/SPAT/demo sessions</code>
 
 ## You want More?!
 
