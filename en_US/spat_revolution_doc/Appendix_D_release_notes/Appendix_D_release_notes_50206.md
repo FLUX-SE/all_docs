@@ -1,8 +1,6 @@
 # Release Notes - Build 22.02.0.50206
 
-## Bugs
-- A Snapshot update message appears when updating from OSC messages
-- ADM-OSC transform issue, scaling only on a single axis for all Incoming axis, after recalling snapshot
+## Bug fixed
 - Any setup action in the setup page unmute ALL rooms
 - Delay value on the Item list - Feets value appears wrong , giving same value as meters when your system is not in metric
 - Grids - Hitting enter after renaming the last element of the grid does not close the edit box
@@ -12,24 +10,25 @@
 - Mirror transformation is broken
 - OSC - /adm/obj/1/name/? message replies with /source/1/name even if the port is set to ADM-OSC
 - OSC - Dump at session creation appears incomplete
+- OSC - ADM-OSC transform issue, scaling only on a single axis for all Incoming axis, after recalling snapshot
 - Overload if changing to an arrangement with one using  .1 (LFE) channel
 - Preset 1.1 is broken: no LFE
-- QLab4 - QLab5  AU Crash when instantiating 
+- QLab4 - QLab5  AU Crash when instantiating
 - Room duplication display a stereo speaker array in the 3D view, no matter of the original room config
 - SPAT Revolution crash when the buffer size is set to 64 samples
 - Select All sources becomes very long and CPU intensif
 - Setting "Depth" parameter to zero generate an overload state that cannot be undo
+- Snapshot - Update message dialog appears when updating from OSC messages
 - Snapshot - Active version history is not correct when opening the session
 - Snapshot - Propagate issue with snapshot history
-- Snapshot Page - Snapshots  created from OSC do not refresh on UI
-- Snapshot creation shortcut for Mac opens file searching menu. New shortcut: Shift + Space
+- Snapshot Page - Snapshots created from OSC do not refresh on UI
+- Snapshot - New shortcut Shift + Space (Mac and Windows)
 - Snapshot list - double clicking on an empty part of the list makes SPAT crash
 - Snapshot menu - Undefined name gives only one snapshot in the menu even if multiple
 - Speaker automatic orientation: wrong orientation for some speakers in typical live setups
-- crash in korean
-- issues with italian localisation 
-- macOS - Doesn't to work in Mojave since 50167
-- macOS - Doesn't to work in Sierra and High Sierra
+- Crash with Korean localisation
+- Issues with Italian localisation
+- macOS - Doesn't to work in Sierra, High Sierra and Mojave
 
 ## Known Issues
 - App - A process still running after quitting SPAT Revolution when ASIO4ALL is used as audio driver on Windows
