@@ -40,6 +40,9 @@ The last step is to simply run the server. Simply press the Play button and the 
 ![Run Server](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/SPATRevolutionRemoteRunServer.png)
 ![Server Info](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/SPATRevolutionRemoteServerInfo.png)
 
+>  IMPORTANT. *Please make sure to open the server before opening SPAT Revolution*. 
+
+
 ## Autostart
 
 You can optionally, engage the autostart so everytime Open Stage Control is started, the server will run. You can as well make Open Stage Control part of the launch of your computer so it will always be there running for you
