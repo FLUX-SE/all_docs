@@ -40,17 +40,18 @@ The last step is to simply run the server. Simply press the Play button and the 
 ![Run Server](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/SPATRevolutionRemoteRunServer.png)
 ![Server Info](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/SPATRevolutionRemoteServerInfo.png)
 
->  IMPORTANT. *Please make sure to open the server before opening SPAT Revolution*. 
+>  IMPORTANT. *Please make sure to open the server before opening SPAT Revolution*.
 
 
 ## Autostart
 
-You can optionally, engage the autostart so everytime Open Stage Control is started, the server will run. You can as well make Open Stage Control part of the launch of your computer so it will always be there running for you
+You can optionally, engage the autostart so everytime Open Stage Control is started, the server will run. You can as well make Open Stage Control part of the launch of your computer so it will always be there running for you.
+
 ![Autostart](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/SPATRevolutionRemoteAutostart.png)
 
 ## SPAT Revolution Configuration
 
-Configuring SPAT Revolution requires to set the OSC Connection Input and Output port for the SPAT Remote Server. Predefined presets simply needs to be chosen for the input and the output. These presets include the ADM-OSC transformation presets which offer the ability to scale the normalized positioning data to the desired range (The object positioning zone). By default, it is scaling to a scene a 10 m3 and a max distance of 10m
+Configuring SPAT Revolution requires to set the OSC Connection Input and Output port for the SPAT Remote Server. Predefined presets simply needs to be chosen for the input and the output. These presets include the ADM-OSC transformation presets which offer the ability to scale the normalized positioning data to the desired range (The object positioning zone). By default, it is scaling to a scene a 10 m3 and a max distance of 10m.
 
 - Access the SPAT Revolution preference page and reach the OSC Connection section
 
