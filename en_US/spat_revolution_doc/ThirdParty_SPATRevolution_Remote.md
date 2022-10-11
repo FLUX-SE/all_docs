@@ -80,7 +80,7 @@ With this, we can then turn to the Ipad and start Safari. It is the preferred br
 ![Reaching the server from Ipad](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/SPATRevolutionRemote_RemoteClientIpad.png)
 
 
-### Adding the SPAT Revolution Remote as and shortcut(Ipad)
+### Adding the SPAT Revolution Remote as a shortcut(Ipad)
 
 If you would like to have a shortcut on you Ipad to reach the SPAT Revolution remote, you can do this with these simple steps. Important to note that if you change the IP address of the server, you will need to redo this step again.
 
@@ -100,7 +100,7 @@ Although most pages are pretty much self-explanatory, here is a review of the Ma
 
 ## Release Notes
 
-### 20.9.0.50200
+### 22.10.0.50210
 
 Release of the SPAT Revolution Remote package
 
