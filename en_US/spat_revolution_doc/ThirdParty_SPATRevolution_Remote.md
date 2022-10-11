@@ -78,16 +78,21 @@ With this, we can then turn to the Ipad and start Safari. It is the preferred br
 
 ### Adding the SPAT Revolution Remote as and shortcut(Ipad)
 
-![Adding Page to Ipad Home Screen 1](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/SPATRevolutionRemote_IpadHome1.png)
+If you would like to have a shortcut on you Ipad to reach the SPAT Revolution remote, you can do this with these simple steps. Important to note that if you change the IP address of the server, you will need to redo this step again.
+
+![Adding Page to Ipad Home Screen 1 25%](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/SPATRevolutionRemote_IpadHome1.png)
 
 ![Adding Page to Ipad Home Screen 2](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/SPATRevolutionRemote_IpadHome2.png)
 
 ![Adding Page to Ipad Home Screen 3](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/SPATRevolutionRemote_IpadHome3.png)
 
+## SPAT Revolution Remote  page
 
-## SPAT Revolution Remote Main page
+Although most pages are pretty much self-explanatory, here is a review of the Main and Snapshot pages
 
 ![SPAT Revolution Main Page](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/SPATRevolutionRemoteMain_Review.png)
+
+![SPAT Revolution Main Page](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/SPATRevolutionRemoteSnapshot_Review.png)
 
 ## Release Notes
 
@@ -97,4 +102,4 @@ Release of the SPAT Revolution Remote package
 
 #### Known Issues
 
-- [Windows] Unidirectional support only Remote -> SPAT Revolution_
+- [Windows] Unidirectional support only Remote -> SPAT Revolution.
