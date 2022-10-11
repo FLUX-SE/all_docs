@@ -10,4 +10,10 @@ Powered by [Open Stage Control](https://openstagecontrol.ammd.net/) a modular OS
 
 ## SPAT Revolution Configuration
 
-##
+## Release Notes
+
+### 20.9.0.50200
+
+Release of the SPAT Revolution Remote package
+
+#### Known Issues
