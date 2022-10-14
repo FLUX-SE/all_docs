@@ -1,6 +1,6 @@
 # SPAT Revolution Remote
 
-Powered by [Open Stage Control](https://openstagecontrol.ammd.net/) a modular OSC controller/server, this new tool provides a web-based solution for remotely controlling _SPAT Revolution_ . Being a web-based solution, it makes it compatible with various operating systems (OS), such as tablets and iPads, without excluding it’s used on any computers, even better with touch screens. It even supports simultaneous clients (remote browser) if need be.
+Completely supported by the recent release of SPAT Revolution 22.9 and powered by [Open Stage Control](https://openstagecontrol.ammd.net/) a modular OSC controller/server, this new tool provides a web-based solution for remotely controlling _SPAT Revolution_ . Being a web-based solution, it makes it compatible with various operating systems (OS), such as tablets and iPads, without excluding it’s used on any computers, even better with touch screens. It even supports simultaneous clients (remote browser) if need be.
 
 The SPAT Revolution Remote communication adopts the basic [ADM-OSC](https://doc.flux.audio/#/en_US/spat_revolution_doc/Ecosystem_&_integration_ADM_OSC?id=adm-osc) normalized grammar for source positioning while expanding it to most SPAT Revolution OSC control messages.
 
