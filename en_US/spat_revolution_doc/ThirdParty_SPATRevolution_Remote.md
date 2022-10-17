@@ -1,13 +1,13 @@
 # SPAT Revolution Remote
 
-Completely supported by the recent release of SPAT Revolution 22.9 and powered by [Open Stage Control](https://openstagecontrol.ammd.net/) a modular OSC controller/server, this new tool provides a web-based solution for remotely controlling _SPAT Revolution_ . Being a web-based solution, it makes it compatible with various operating systems (OS), such as tablets and iPads, without excluding it’s used on any computers, even better with touch screens. It even supports simultaneous clients (remote browser) if need be.
+Completely supported by the recent release of SPAT Revolution 22.9 and powered by [Open Stage Control](https://openstagecontrol.ammd.net/) a modular OSC controller/server, this new tool provides a web-based solution for remotely controlling _SPAT Revolution_ . Being a web-based solution, it makes it compatible with various operating systems (OS), such as tablets and iPads, without excluding computers, even better with touch screens. It even supports simultaneous clients (remote browser) if need be.
 
 The SPAT Revolution Remote communication adopts the basic [ADM-OSC](https://doc.flux.audio/#/en_US/spat_revolution_doc/Ecosystem_&_integration_ADM_OSC?id=adm-osc) normalized grammar for source positioning while expanding it to most SPAT Revolution OSC control messages.
 
 
 ## Installation
 
-The first installation step is to download the resources. A config & patch file are available for download via in the [FLUX:: Center](https://www.flux.audio/download/)
+The first installation step is to download the resources. A config and a patch files are available for download via in the [FLUX:: Center](https://www.flux.audio/download/)
 
 ![FLUX:: Center SPAT Revolution Remote](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/SPATRevolutionRemoteInstall.png)
 
@@ -15,7 +15,7 @@ This install the resources in:
 - macOS: ```Library/Application Support/Flux/SPAT Remote Server```
 - Windows: ```Program Files/Flux/SPAT Remote Server```
 
-To operate this server, you will need to download and install [Open Stage Control](https://openstagecontrol.ammd.net/). The application (server) that runs in the background and allow a web remote client access
+To operate this server, you will need to download and install [Open Stage Control](https://openstagecontrol.ammd.net/), The application (server) that runs in the background and allows a web remote client access.
 
   - [MacOS](https://github.com/jean-emmanuel/open-stage-control/releases/download/v1.17.0/open-stage-control-1.17.0-osx.zip)
   - [Windows (64-bit)](https://github.com/jean-emmanuel/open-stage-control/releases/download/v1.17.0/open-stage-control-1.17.0-win32-x64.zip)
@@ -44,22 +44,22 @@ By default, the actual user interface of the Remote control will appear on your 
 
 If you rather not see this interface every-time the server starts, you can add ```true``` to the no-gui field. But you are serving any browser in all cases.
 
-![No GUI](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/SPATRevolutionRemoteConfigNoGui.png.png)
+![No GUI](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/SPATRevolutionRemoteConfigNoGui.png)
 
->  IMPORTANT. *Please make sure to open the server before opening SPAT Revolution*.
+!>  **Important: ** *Please make sure to open the server before opening SPAT Revolution*.
 
 
 ## Autostart
 
-You can optionally, engage the autostart so every-time Open Stage Control is started, the server will run. You can as well make Open Stage Control part of the launch of your computer so it will always be there running for you.
+You can optionally engage the autostart so every-time Open Stage Control is started, the server will run. You can as well make Open Stage Control part of the launch of your computer so it will always be there running for you.
 
 ![Autostart](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/SPATRevolutionRemoteAutostart.png)
 
 ## SPAT Revolution Configuration
 
-Configuring SPAT Revolution requires to set the OSC Connection Input and Output port for the SPAT Remote Server. Predefined presets simply needs to be chosen for the input and the output. These presets include the ADM-OSC transformation presets which offer the ability to scale the normalized positioning data to the desired range (The object positioning zone). By default, it is scaling to a scene of 10 m3 and a max distance of 10m.
+Configuring SPAT Revolution requires to set the OSC Connection Input and Output ports for the SPAT Remote Server. Predefined presets simply need to be chosen for the input and the output. These presets include the ADM-OSC transformation presets which offer the ability to scale the normalized positioning data to the desired range (the object positioning zone). By default, it is scaling to a scene of 10 m3 and a max distance of 10m.
 
-- Access the SPAT Revolution preference page and reach the OSC Connection section
+- Access the SPAT Revolution preference page and reach the OSC Connection section.
 
 - Add the input | SPAT Remote server preset
 ![SPAT Revolution OSC Connection Input](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/SPATRevolutionRemoteSPATOSCConnectionIn.png)
@@ -67,7 +67,7 @@ Configuring SPAT Revolution requires to set the OSC Connection Input and Output 
 - Add the output| SPAT Remote server preset
 ![SPAT Revolution OSC Connection Output](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/SPATRevolutionRemoteSPATOSCConnectionOut.png)
 
-> These above presets use the default ports and address of the Open Stage Control Config files supplied. By default, the local 127.0.0.1 address is sed as it is assumed that the Remote server (Open Stage Control) is used locally on the same computer as SPAT Revolution. This is the most common scenario. If your server is running on another computer, you can simply change the IP address on the server prior to launching it. (The IP of the SPAT Revolution computer Ethernet interface NIC)
+> These above presets use the default ports and address of the Open Stage Control Config files supplied. By default, the local 127.0.0.1 address is set as it is assumed that the Remote server (Open Stage Control) is used locally on the same computer as SPAT Revolution. This is the most common scenario. If your server is running on another computer, you can simply change the IP address on the server prior to launching it, giving the IP of the SPAT Revolution computer Ethernet interface NIC.
 
 ![Changing the IP address in the server](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/SPATRevolutionRemoteConfig_ChangeIP.png)
 
@@ -77,9 +77,9 @@ In the above example, we saw that after launching the server, we saw the address
 
 ![Server Info](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/SPATRevolutionRemoteServerInfo.png)
 
-This is basically giving me all the addresses (all the network interfaces of my computer) that can reach the server as a client (in a browser), and reach the SPAT Revolution Remote.  For example, the last one, the ```172.20.10.2``` represent the hardwire connection of and Ipad (yes, they form a network when you connect them in USB). This makes a more than ever robust remote instead of relying on wifi (which still works good).
+This is basically giving you all the addresses of the network interfaces of your computer that can reach the server as a client (in a browser), and reach the SPAT Revolution Remote. For example, the last one, the ```172.20.10.2``` represents the hardwire connection of an Ipad - yes, they form a network when you connect them in USB. This makes a more than ever robust remote instead of relying on Wi-Fi (which still works good).
 
-With this, we can then turn to the Ipad and start Safari. It is the preferred browser Simply dial the address shows where the server lies.
+With this, we can then turn to the Ipad and start Safari. It is the preferred browser, simply dial the address shows where the server lies.
 
 -  ``` http://172.20.10.2:9410 ```
 
@@ -88,7 +88,7 @@ With this, we can then turn to the Ipad and start Safari. It is the preferred br
 
 ### Adding the SPAT Revolution Remote as a shortcut(Ipad)
 
-If you would like to have a shortcut on you iPad to reach the SPAT Revolution remote, you can do this with these simple steps. Important to note that if you change the IP address of the server, you will need to redo this step again.
+If you would like to have a shortcut on your iPad to reach the SPAT Revolution remote, you can do this with these simple steps. Important to note that if you change the IP address of the server, you will need to redo this step again.
 
 ![Adding Page to iPad Home Screen 1 25%](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/SPATRevolutionRemote_IpadHome1.png)
 
@@ -112,4 +112,4 @@ Release of the SPAT Revolution Remote package
 
 #### Known Issues
 
-- [Windows] Unidirectional support only Remote -> SPAT Revolution.
+- [Windows] Unidirectional support only: Remote -> SPAT Revolution.
