@@ -61,7 +61,7 @@
    9. [Avid S6L consoles](Third_Party_Avid_VENUE_S6L.md)
    10. [DiGiCo SD consoles](Third_Party_DiGiCo.md)
    11. [SSL Live consoles](Third_Party_SSL.md)
-   12. [Lemur: Remote control](ThirdParty_Tablet_Remote.md)
+   12. [Remote Control Server](ThirdParty_SPATRevolution_Remote.md)
    13. [BlackTrax tracking](ThirdParty_BlackTrax.md)
 * [Appendix A - SPAT Revolution specification](Appendix_A.md)
 * [Appendix B - Troubleshooting](Appendix_B.md)
