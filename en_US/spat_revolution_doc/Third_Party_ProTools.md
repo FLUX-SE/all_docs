@@ -17,13 +17,13 @@ Being with local audio integration (LAP) or alternate audio routing methods in s
 
 Recent technical articles covers various aspects of Pro Tools integration.
 
-- [Pro Tools integration to _SPAT Revolution_ (2022)](https://www.flux.audio/2022/10/17/pro-tools-integration-to-spat-revolution-2022/) is a good overview of the different possible integrations.
+- **[Pro Tools integration to _SPAT Revolution_ (2022)**](https://www.flux.audio/2022/10/17/pro-tools-integration-to-spat-revolution-2022/) is a good overview of the different possible integrations.
 
-- [Using Pro Tools routing folders with _SPAT Revolution_](https://www.flux.audio/2022/10/13/using-pro-tools-routing-folders-with-spat-revolution/) introduces the concepts of using routing folders as _SPAT Revolution_ object tracks. (Requires Pro Tools 2020.03 and above)
+- **[Using Pro Tools routing folders with _SPAT Revolution_]**(https://www.flux.audio/2022/10/13/using-pro-tools-routing-folders-with-spat-revolution/) introduces the concepts of using routing folders as _SPAT Revolution_ object tracks. (Requires Pro Tools 2020.03 and above)
 
-- [Pro Tools 2022.9 AUX I/O routing with _SPAT Revolution_](https://www.flux.audio/2022/10/14/pro-tools-2022-9-aux-i-o-routing-with-spat-revolution/) covers the Pro Tools newly AUX I/O & Bridge device feature (macOS) and how this can be used to route to/from SPAT Revolution the SPAT Object track and the various renders.
+- **[Pro Tools 2022.9 AUX I/O routing with _SPAT Revolution_]**(https://www.flux.audio/2022/10/14/pro-tools-2022-9-aux-i-o-routing-with-spat-revolution/) covers the Pro Tools newly AUX I/O & Bridge device feature (macOS) and how this can be used to route to/from SPAT Revolution the SPAT Object track and the various renders.
 
-- [Reporting latency for delay compensation in _SPAT Revolution_](https://www.flux.audio/2022/10/17/reporting-latency-for-delay-compensation-in-spat-revolution/) covers the subject of reporting track latency when using Local Audio Path in order for SPAT Revolution to habdle delay compensation.
+- **[Reporting latency for delay compensation in _SPAT Revolution_]**(https://www.flux.audio/2022/10/17/reporting-latency-for-delay-compensation-in-spat-revolution/) covers the subject of reporting track latency when using Local Audio Path in order for SPAT Revolution to habdle delay compensation.
 
 
 ## Templates
