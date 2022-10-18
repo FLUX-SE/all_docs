@@ -106,10 +106,6 @@ Although most pages are pretty much self-explanatory, here is a review of the Ma
 
 ## Release Notes
 
-### 22.10.0.50210
+### 22.10.0.50212
 
 Release of the SPAT Revolution Remote package
-
-#### Known Issues
-
-- [Windows] Unidirectional support only: Remote -> SPAT Revolution.
