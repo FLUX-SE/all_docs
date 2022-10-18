@@ -1,4 +1,6 @@
-# Tablet Remote (Lemur)
+# Tablet Remote (Lemur) - Legacy
+
+!> As LEMUR is discontinued, the above patches will not be updated on the future. For an updated tablet remote, please use the [SPAT Revolution REMOTE](ThirdParty_SPATRevolution_Remote).
 
 ## Templates
 
