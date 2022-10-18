@@ -11,7 +11,7 @@ The movements will be captured into the DAW timeline in precisely the same way y
 
 Alternatively, a wireless OSC control surface could be used to control the parameters of _SPAT Revolution_ in real time, whilst you stand in the middle of the sound system away from the computer.
 There is already fully programmed remote for _SPAT Revolution_:
-- the [__SPAT Revolution REMOTE__](ThirdParty_SPATRevolution_Remote) can be used on any device as a web-based controller.
+- the [SPAT Revolution REMOTE](ThirdParty_SPATRevolution_Remote) can be used on any device as a web-based controller.
 - the legacy and discontinuated _Lemur_ template for _SPAT Revolution_ (see [Third party integration" - Lemur](ThirdParty_Tablet_Remote.md)).
 
 If you are using _Figure53 Qlab_ for show control, spatial effects can be sent along with the rest of the audio-visual cues for a big show or event (see ["Third party integration" - QLab](Third_Party_Figure53_QLab.md)).
