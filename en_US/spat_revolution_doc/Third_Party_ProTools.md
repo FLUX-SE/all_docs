@@ -17,7 +17,7 @@ Being with local audio integration (LAP) or alternate audio routing methods in s
 
 Recent technical articles covers various aspects of Pro Tools integration.
 
-- **[Pro Tools integration to _SPAT Revolution_ (2022)**](https://www.flux.audio/2022/10/17/pro-tools-integration-to-spat-revolution-2022/) is a good overview of the different possible integrations.
+- **[Pro Tools integration to _SPAT Revolution_ (2022)]**(https://www.flux.audio/2022/10/17/pro-tools-integration-to-spat-revolution-2022/) is a good overview of the different possible integrations.
 
 - **[Using Pro Tools routing folders with _SPAT Revolution_]**(https://www.flux.audio/2022/10/13/using-pro-tools-routing-folders-with-spat-revolution/) introduces the concepts of using routing folders as _SPAT Revolution_ object tracks. (Requires Pro Tools 2020.03 and above)
 
@@ -42,7 +42,7 @@ After copying the templates to the proper folder, they will appear in the templa
 ![Create a new session](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/ProToolsTemplates.png)
 
 All accompanying  _SPAT Revolution_ .JSON session file for the above templates are available as a single download as well:
-[SPAT Revolution Session Templates](https://public.3.basecamp.com/p/yoAYTeMkGK9mBdMaNkToj2HU).
+**[SPAT Revolution Session Templates]**(https://public.3.basecamp.com/p/yoAYTeMkGK9mBdMaNkToj2HU).
 
 You can download the following session templates and presets:
 
