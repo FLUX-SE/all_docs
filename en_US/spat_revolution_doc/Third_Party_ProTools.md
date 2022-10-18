@@ -46,14 +46,6 @@ All accompanying  _SPAT Revolution_ .JSON session file for the above templates a
 
 You can download the following session templates and presets:
 
-AVID Pro Tools  – Basic Music Local Audio Path	 Package containing SPAT Revolution .JSON session(V22.09) and Pro Tools template. Binaural, 5.1, Atmos 7.1.2 output formats + binaural monitoring	Zip Archive	Download
-AVID Pro Tools  – Multiformat Local Audio Path	Package containing  SPAT Revolution .JSON session(V22.09) and Pro Tools template. Atmos 7.1.2, NHK 22.2 and multiple binaural output formats	Zip Archive	Download
-AVID Pro Tools Studio– Audio Bridge (32ch)	Package containing  SPAT Revolution .JSON session(V22.09) and Pro Tools Studio template. Atmos 7.1.2, Binaural and HOA 3rd order	Zip Archive	Download
-AVID Pro Tools Studio– Local Audio Path (32ch)	Package containing  SPAT Revolution .JSON session(V22.09) and Pro Tools Studio template. Atmos 7.1.2, Binaural and HOA 3rd order	Zip Archive	Download
-AVID Pro Tools Ultimate Audio Bridge (64ch)	Package containing  SPAT Revolution .JSON session(V22.09) and Pro Tools Studio template. Atmos 7.1.2, Binaural and HOA 3rd order	Zip Archive	Download
-AVID Pro Tools Ultimate Local Audio Path (64ch)	Package containing  SPAT Revolution .JSON session(V22.09) and Pro Tools Studio template. Atmos 7.1.2, Binaural and HOA 3rd order	Zip Archive	Download
-
-
 **Pro Tools Templates and _SPAT Revolution_ Sessions**
 
 * **[AVID Pro Tools – Basic Music Local Audio Path](https://public.3.basecamp.com/p/iCntSJrBatq7CzUua45NHQDto)** is a basic music template using Local Audio Path SEND and RETURN to render Binaural, 5.1, Atmos 7.1.2  output formats with Binaural monitoring. It contains 8 Mono and 4 Stereo object tracks
