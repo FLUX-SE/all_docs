@@ -50,6 +50,7 @@ The first parameter is the **connection type**, which offer many presets for bot
 
 > OSC presets are:
 > - SPAT plugins
+> - SPAT Remote server
 > - ADM-OSC
 > - Lemur
 > - Avid S6L
