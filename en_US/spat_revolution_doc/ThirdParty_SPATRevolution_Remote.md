@@ -1,6 +1,6 @@
 # SPAT Revolution Remote
 
-Completely supported by the recent release of SPAT Revolution 22.9 and powered by [Open Stage Control](https://openstagecontrol.ammd.net/) a modular OSC controller/server, this new tool provides a web-based solution for remotely controlling _SPAT Revolution_ . Being a web-based solution, it makes it compatible with various operating systems (OS), such as tablets and iPads, without excluding computers, even better with touch screens. It even supports simultaneous clients (remote browser) if need be.
+Completely supported by the recent release of SPAT Revolution 22.9 and powered by [Open Stage Control](https://openstagecontrol.ammd.net/) a modular OSC controller/server, this new tool provides a web-based solution for remotely controlling _SPAT Revolution_. Being a web-based solution, it makes it compatible with various operating systems (OS), such as tablets and iPads, without excluding computers, even better with touch screens. It even supports simultaneous clients (remote browser) if need be.
 
 The SPAT Revolution Remote communication adopts the basic [ADM-OSC](https://doc.flux.audio/#/en_US/spat_revolution_doc/Ecosystem_&_integration_ADM_OSC?id=adm-osc) normalized grammar for source positioning while expanding it to most SPAT Revolution OSC control messages.
 
@@ -55,7 +55,7 @@ You can optionally engage the autostart so every-time Open Stage Control is star
 
 ![Autostart](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/SPATRevolutionRemoteAutostart.png)
 
-## SPAT Revolution Configuration
+## SPAT Revolution configuration
 
 Configuring SPAT Revolution requires to set the OSC Connection Input and Output ports for the SPAT Remote Server. Predefined presets simply need to be chosen for the input and the output. These presets include the ADM-OSC transformation presets which offer the ability to scale the normalized positioning data to the desired range (the object positioning zone). By default, it is scaling to a scene of 10 m3 and a max distance of 10m.
 
