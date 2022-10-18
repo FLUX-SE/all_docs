@@ -17,20 +17,20 @@ Being with local audio integration (LAP) or alternate audio routing methods in s
 
 Recent technical articles covers various aspects of Pro Tools integration.
 
-- [Pro Tools integration to SPAT Revolution (2022)](https://www.flux.audio/2022/10/17/pro-tools-integration-to-spat-revolution-2022/) is a good overview of the different possible integrations.
+- [Pro Tools integration to _SPAT Revolution_ (2022)](https://www.flux.audio/2022/10/17/pro-tools-integration-to-spat-revolution-2022/) is a good overview of the different possible integrations.
 
-- [Using Pro Tools routing folders with SPAT Revolution](https://www.flux.audio/2022/10/13/using-pro-tools-routing-folders-with-spat-revolution/) introduce the concepts of using routing folders as _SPAT Revolution_ object tracks. (Requires Pro Tools 2020.03 and above)
+- [Using Pro Tools routing folders with _SPAT Revolution_](https://www.flux.audio/2022/10/13/using-pro-tools-routing-folders-with-spat-revolution/) introduces the concepts of using routing folders as _SPAT Revolution_ object tracks. (Requires Pro Tools 2020.03 and above)
 
-- [Pro Tools 2022.9 AUX I/O routing with SPAT Revolution](https://www.flux.audio/2022/10/14/pro-tools-2022-9-aux-i-o-routing-with-spat-revolution/) covers the Pro Tools newly AUX I/O & Bridge device feature (macOS) and how this can be used to route to/from SPAT Revolution the SPAT Object track and the various renders
+- [Pro Tools 2022.9 AUX I/O routing with _SPAT Revolution_](https://www.flux.audio/2022/10/14/pro-tools-2022-9-aux-i-o-routing-with-spat-revolution/) covers the Pro Tools newly AUX I/O & Bridge device feature (macOS) and how this can be used to route to/from SPAT Revolution the SPAT Object track and the various renders.
 
-- [Reporting latency for delay compensation in SPAT Revolution](https://www.flux.audio/2022/10/17/reporting-latency-for-delay-compensation-in-spat-revolution/) covers the subject of reporting track latency when using Local Audio Path in order for SPAT Revolution to habdle delay compensation
+- [Reporting latency for delay compensation in _SPAT Revolution_](https://www.flux.audio/2022/10/17/reporting-latency-for-delay-compensation-in-spat-revolution/) covers the subject of reporting track latency when using Local Audio Path in order for SPAT Revolution to habdle delay compensation.
 
 
 ## Templates
 
 **Templates downloads**
 
-New updated templates are available for use with Avid Pro Tools.  They are .ptxt session template files and can be used as examples to see how to integrate _SPAT Revolution_ . using the SPAT plug-in suite SEND, RETURN and ROOM. While some templates uses the Local Audio Path (LAP) feature others really on alternate audio devices such as audio bridge on single machine computer or other high channel count audio devices in dual computer setup.
+New updated templates are available for use with Avid Pro Tools.  They are .ptxt session template files and can be used as examples to see how to integrate _SPAT Revolution_, using the SPAT plug-in suite SEND, RETURN and ROOM. While some templates use the Local Audio Path (LAP) feature, others rely on alternate audio devices such as audio bridge on single machine computer or other high channel count audio devices in dual computer setup.
 
 The [Avid Pro Tools Session Templates](https://public.3.basecamp.com/p/N48YKyqnBWXmMq1Fohskew8c) is a complete .zip package of all the 6 available templates and can be copied to your **Pro Tools Session Templates** folder.
 
@@ -38,21 +38,21 @@ The [Avid Pro Tools Session Templates](https://public.3.basecamp.com/p/N48YKyqnB
 
 !>  **Create a FLUX:: Folder for your templates**
 
-After copying the templates to the proper folder, they will appear in the template in the Pro Tools dashboard
+After copying the templates to the proper folder, they will appear in the template in the Pro Tools dashboard:
 ![Create a new session](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/ProToolsTemplates.png)
 
-All accompanying  _SPAT Revolution_ .JSON session file for the above templates are available as a single download as well.
-[SPAT Revolution Session Templates](https://public.3.basecamp.com/p/yoAYTeMkGK9mBdMaNkToj2HU)
+All accompanying  _SPAT Revolution_ .JSON session file for the above templates are available as a single download as well:
+[SPAT Revolution Session Templates](https://public.3.basecamp.com/p/yoAYTeMkGK9mBdMaNkToj2HU).
 
 You can download the following session templates and presets:
 
 **Pro Tools Templates and _SPAT Revolution_ Sessions**
 
-* **[AVID Pro Tools – Basic Music Local Audio Path](https://public.3.basecamp.com/p/iCntSJrBatq7CzUua45NHQDto)** is a basic music template using Local Audio Path SEND and RETURN to render Binaural, 5.1, Atmos 7.1.2  output formats with Binaural monitoring. It contains 8 Mono and 4 Stereo object tracks
+* **[AVID Pro Tools – Basic Music Local Audio Path](https://public.3.basecamp.com/p/iCntSJrBatq7CzUua45NHQDt)** is a basic music template using Local Audio Path SEND and RETURN to render Binaural, 5.1, Atmos 7.1.2  output formats with Binaural monitoring. It contains 8 Mono and 4 Stereo object tracks.
 
-* **[AVID Pro Tools – Multiformat Local Audio Path](https://public.3.basecamp.com/p/9HweoDCdcAbtdu6cKzxkrmjK)** ** is a advanced multiformat template using Local Audio Path SEND and RETURN to render Atmos 7.1.2, NHK 22.2 (with 3 x 8 channel buses in Pro Tools) and 3 binaural outputs. It contains 8 Mono and 4 Stereo, 1 5.1 and 1 7.1 object tracks.
+* **[AVID Pro Tools – Multiformat Local Audio Path](https://public.3.basecamp.com/p/9HweoDCdcAbtdu6cKzxkrmjK)** is a advanced multiformat template using Local Audio Path SEND and RETURN to render Atmos 7.1.2, NHK 22.2 (with 3 x 8 channel buses in Pro Tools) and 3 binaural outputs. It contains 8 Mono and 4 Stereo, 1 5.1 and 1 7.1 object tracks.
 
-* **[AVID Pro Tools Studio – Audio Bridge (32ch)](https://public.3.basecamp.com/p/vECzLo5HWq1pVKk8e7ngK2cg)**  is a template for using audio interface for routing (single or dual computer) and is tested for support to Pro Tools 2022.09 AUX I/O & bridge feature. It renders Atmos 7.1.2, Binaural and HOA 3rd order. It contains 24 Mono and 4 Stereo object tracks for compatibility with Pro Tools Studio
+* **[AVID Pro Tools Studio – Audio Bridge (32ch)](https://public.3.basecamp.com/p/vECzLo5HWq1pVKk8e7ngK2cg)**  is a template for using audio interface for routing (single or dual computer) and is tested for support to Pro Tools 2022.09 AUX I/O & bridge feature. It renders Atmos 7.1.2, Binaural and HOA 3rd order. It contains 24 Mono and 4 Stereo object tracks for compatibility with Pro Tools Studio.
 
 * **[AVID Pro Tools Studio – Local Audio Path (32ch)](https://public.3.basecamp.com/p/rH2nXUmCDdpzXgY46c3LVXuA)**   is a template for using Local Audio Path SEND and RETURN for routing (single computer). It renders Atmos 7.1.2, Binaural and HOA 3rd order. It contains 24 Mono and 4 Stereo object tracks.
 
@@ -84,13 +84,13 @@ In SPAT, go to *Preferences/Hardware IO* , then set:
 
 ### The SPATSync (aka dummy bus) and why
 
-Quite simply, all tracks or Aux object tracks that have a SPAT SEND need to be outputting to a common bus that is then feeding to each the input SPAT RETURN buses.
+Quite simply, all tracks or Aux object tracks that have a SPAT SEND need to be outputting to a common bus that is then feeding to each the input SPAT RETURN buses, in order for the SPAT Send to be computed before the SPAT Return.
 Using FLUX:: Immersive Pro Tools templates and sessions provided prevents the user having to do these steps.
 
 A simple, nice and clean way to handle SPATSync bus for all scenarios and formats is to create a 16-channels ambisonic dummy bus (the largest bus that Pro Tools supports) and include all the sub arrangements from mono all the way to 3rd order ambisonic: HOA3, HOA2,  HOA1, Atmos 7.1.2, 7.1, 6.1, 5.1, 5, 4, LCR, Stereo and Mono. Whatever the track format SPAT SEND plug-in is, it can be sent to this dummy bus that can handle all the formats.
 Then all these buses are available to feed any SPAT RETURN whatever the channel count.
 
-This is the strategy used in templates
+This is the strategy used in templates.
 
 ### Pro Tools license versions
 
