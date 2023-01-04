@@ -61,10 +61,7 @@ The EVO EQ is a straightforward comprehensive 4-band equalizer with additional 6
 The graphical interactive EQ curve is layered on top of the built in Spectrum Analyzer for hands-on editing with
 direct connection to the visual response.
 
-Built with our proprietary State-Space technology, like in Epure, the EQ section has been carefully tuned to
-preserve the optimal signal to noise ratio independent of the parameter settings preventing the signal from
-deteriorating when the gain is reduced. It’s an efficient sharp-edged surgical precision tool for the most
-demanding equalizing and filtering tasks conceivable.
+Built with a 64 bit dynamic range, the EQ section has been carefully tuned to preserve the optimal signal to noise ratio independent of the parameter settings preventing the signal from deteriorating when the gain is reduced. It’s an efficient sharp-edged surgical precision tool for the most demanding equalizing and filtering tasks conceivable.
 
 Equalization module is divided in two parts :
 - A filtering part composed of a low cut, a low shelf, a high cut and a high shelf filter.
