@@ -30,7 +30,7 @@ window.$docsify.plugins.push(
 );
 
 window.$docsify.footer = {
-    copy: '<span>FLUX:: SE &copy; 2022 | </span>',
+    copy: '<span>FLUX:: SE &copy; 2023 | </span>',
     pre: '',
     class: 'docsify-footer'
 };
