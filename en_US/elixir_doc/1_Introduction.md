@@ -1,6 +1,6 @@
 # Introduction
 
-Elixir is the improved and revamp version of the legacy Elixir v3.
+Elixir is the improved and revamp version of the legacy Elixir.
 Such as it, Elixir is a novel kind of program limiter carefully designed to accomplish a truly natural sounding result without changing the nature of the audio material and its timbre, presenting none, or effectively reduced, conventional limiting “pumping” effects even during heavy processing.
 Now supporting up to 16 channels, 64bits float audio processing and conforming with the ITU-R and EBU loudness norms, Elixir Essential is an indispensable tool for immersive audio productions.
 

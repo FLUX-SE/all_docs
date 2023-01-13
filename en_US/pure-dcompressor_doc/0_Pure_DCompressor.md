@@ -1,4 +1,4 @@
-# Pure DCompressor v3
+# Pure DCompressor
 [Product Page](https://www.flux.audio/project/pure-dcompressor/) 
 | [Shop Page](https://shop.flux.audio/en_US/products/pure-dcompressor)
 

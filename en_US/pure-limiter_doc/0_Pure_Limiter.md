@@ -1,4 +1,4 @@
-# Pure Limiter v3
+# Pure Limiter
 [Product Page](https://www.flux.audio/project/pure-limiter/) 
 | [Shop Page](https://shop.flux.audio/en_US/products/pure-limiter)
 
@@ -7,7 +7,7 @@
 Pure Limiter makes transparent limiting easy; a dramatic increase of the average audio level can now be accomplished 
 without damaging the perceived audio quality, with the exquisite proprietary Flux:: technology generating
 a release envelope assuring that no artifacts on the processed sound are produced. Unless you use it as a special
-effect, Pure Limiter v3 should always be in the very last stage of your audio processing chain.  
+effect, Pure Limiter should always be in the very last stage of your audio processing chain.  
 
 To make the setting even easier, the Pure Limiter also features two display modes, when mode A is engaged, both
 original and limited waveforms are displayed. The Mode B displays the limited waveform, the limiter action and the

@@ -1,8 +1,8 @@
-# Solera V3
+# Solera
 [Product Page](https://www.flux.audio/project/solera/) 
 | [Shop Page](https://shop.flux.audio/en_US/products/solera)
 
-The Solera v3 dynamic processor is a comprehensive dynamic processor providing a compressor, expander, 
+The Solera dynamic processor is a comprehensive dynamic processor providing a compressor, expander, 
 de-compressor and de-expander, that each may be enabled individually, all processing in parallel using one 
 single common detector.
 
@@ -19,7 +19,7 @@ level and instead in regards to the signal dynamic range.
 
 ## Display Area
 
-For full visual control over the processing Solera v3 provides a comprehensive display area including: 
+For full visual control over the processing Solera provides a comprehensive display area including: 
 
 -  Resultant dynamics curve
 -  Parametric curve for the side-chain EQ
@@ -31,7 +31,7 @@ For full visual control over the processing Solera v3 provides a comprehensive d
 
 ## MS Mode
 
-To conform with the demands of serious audio mastering Solera v3 features a Mid/Side (MS) encoder/decoder 
+To conform with the demands of serious audio mastering Solera features a Mid/Side (MS) encoder/decoder 
 section encoding the signal from the stereo inputs by summing left and right channels to produce the 
 Mid, and by phase switching the right channel from the left channel to produce the Side signal.
 
@@ -44,12 +44,12 @@ A bass drum in the stereo center with a fluctuating level surrounded by a synthe
 the bass drum can be processed without affecting the S channel featuring the Synthesizer pad. Changing the S gain when 
 decoding allows controlling the stereo width using MS Width (20).
 
-The Solera v3 MS mode should only be used with stereo signal and it is strongly recommended to avoid this 
+The Solera MS mode should only be used with stereo signal and it is strongly recommended to avoid this 
 on already MS encoded signal.
 
 ## Side Chain & Detector Equalizer
 
-Solera v3 features a three band Detector Equalizer for frequency-sensitive processing. The Detector EQ does not 
+Solera features a three band Detector Equalizer for frequency-sensitive processing. The Detector EQ does not 
 affect the direct audio signal, but instead it applies to the signal detection channel that drives the processing, 
 offering the option to shape the actual processing to be performed within a certain frequency range. For further control 
 of the processing, optional external side-chain signal feeding is provided.
@@ -67,7 +67,7 @@ decreasing the processing of a particular part of the audio spectrum.
 Reducing the gain for the low frequencies before the detection, increase the low frequencies in the processed signal 
 if the processing settings reduce the gain according to the signal level. With this configuration, increasing the 
 gain for the high frequencies makes the processing more sensitive to this particular part of the audio spectrum, and 
-turns Solera v3 into a sibilance controller. 
+turns Solera into a sibilance controller. 
 
 ## Delay
 

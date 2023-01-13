@@ -1,6 +1,6 @@
 # Compatibility
 
-## Pure Expander v3
+## Pure Expander
 
 ### Windows - 10, 64 bits only.
 
@@ -18,7 +18,7 @@
 - Waves WPAPI Native/Soundgrid in 64 bit
 - AVID VENUE Systems
 
-## Pure Expander v3 Studio Session
+## Pure Expander Studio Session
 
 ### Windows - 10, 64 bits.
 

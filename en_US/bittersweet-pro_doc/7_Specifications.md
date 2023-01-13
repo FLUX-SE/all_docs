@@ -1,13 +1,13 @@
 # Specifications
 
-## Processing Specifications - BitterSweet Pro v3
+## Processing Specifications - BitterSweet Pro
 
 *   Up to 8 channels Input/Output.
 *   64-bits internal floating point processing.
 *   Sampling rate up to 384 kHz DXD (Pyramix and Ovation MassCore/Native).
 *   Sampling rate up to 192 kHz for Native (AU/VST/AAX/AAX AudioSuite).
 
-## Processing Specifications - BitterSweet Pro v3 Studio Session
+## Processing Specifications - BitterSweet Pro Studio Session
 
 *   Mono/Stereo Input/Output.
 *   64-bits internal floating-point processing.
@@ -15,7 +15,7 @@
 
 ## Compatibility
 
-**BitterSweet Pro v3**
+**BitterSweet Pro**
 
 *   **Windows - 10 64 bits.**
     *   VST (2.4) in 64 bit
@@ -33,7 +33,7 @@
     *   Waves WPAPI Native/Soundgrid in 64 bit
     *   Avid Venue Systems
 
-**BitterSweet Pro v3 Studio Session**
+**BitterSweet Pro Studio Session**
 
 *   **Windows - 10 64 bits.**
     *   VST (2.4) in 64 bit

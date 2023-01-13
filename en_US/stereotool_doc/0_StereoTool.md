@@ -1,5 +1,5 @@
-# Stereo Tool V3
-Stereo Tool V3 is the perfect tool for correcting the stereophonic image of audio tracks and buses, both for mixing and 
+# Stereo Tool
+Stereo Tool is the perfect tool for correcting the stereophonic image of audio tracks and buses, both for mixing and 
 mastering. The integrated goniometer allows you to easily visualize and identify problems with your stereo signals.
  
 ![](include/Stereotool_loupes.png)

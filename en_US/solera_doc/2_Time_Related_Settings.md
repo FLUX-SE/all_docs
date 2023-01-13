@@ -29,7 +29,7 @@ Default Value: Off
 In order to adapt the dynamic processing for the actual signal a detector examines the incoming signal in advance. 
 Based on how the detection is performed different results can be achieved in the dynamic processing.
 
-### Solera v3 provides eight different detection modes:
+### Solera provides eight different detection modes:
 
 - **Solera** - The Attack setting also controls the integration time for RMS detection. With Auto Delay (46) engaged the 
 produced attack time is zero. 

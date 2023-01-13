@@ -1,6 +1,6 @@
 # Compatibility
 
-### Pure Limiter v3
+### Pure Limiter
 
 ### Windows - 10, 64 bits only.
 
@@ -18,7 +18,7 @@
 - Waves WPAPI Native/Soundgrid in 64 bit
 - AVID VENUE Systems
 
-## Pure Limiter v3 Studio Session
+## Pure Limiter Studio Session
 
 ### Windows - 10, 64 bits only.
 
