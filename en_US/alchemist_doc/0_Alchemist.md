@@ -1,6 +1,6 @@
-# Alchemist V3 - The Alchemist concept
+# Alchemist - The Alchemist concept
 
-[Product Page](https://www.flux.audio/project/alchemist-v3/) 
+[Product Page](https://www.flux.audio/project/alchemist/) 
 | [Shop Page](https://shop.flux.audio/en_US/products/alchemist)
 
 ![](include/Alchemist_00.png)

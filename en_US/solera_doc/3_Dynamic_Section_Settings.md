@@ -51,7 +51,7 @@ with a standard compressor is to increase the threshold to retain the airiness i
 the compressor will not work any more on the low levels and you will hear differences (in term density, live space, 
 grain etc.) especially when the compressor starts working.
 >
-> With Solera v3, adjust the threshold and ratio on the high levels to what you find okay, then increase the L.I.D. 
+> With Solera, adjust the threshold and ratio on the high levels to what you find okay, then increase the L.I.D. 
 (from 20 to 50 %) and listen to the low levels and especially the transition between low and high levels. You can 
 also increase the ratio for a stronger effect, and you will notice that the compression will still be present and still affect 
 the high/loud levels (unless you set 100% L.I.D.) and make the compression very smooth with no more pumping. 

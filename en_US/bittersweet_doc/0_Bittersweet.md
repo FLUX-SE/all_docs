@@ -1,5 +1,5 @@
-# BitterSweet V3 
-[Product Page](https://www.flux.audio/project/bittersweet-v3/) 
+# BitterSweet
+[Product Page](https://www.flux.audio/project/bittersweet/) 
 | [Download](https://flux.audio/download)
 
 ![](include/Bittersweet_00.png)

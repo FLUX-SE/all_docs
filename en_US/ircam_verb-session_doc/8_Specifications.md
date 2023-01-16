@@ -1,13 +1,13 @@
 # Specifications
 
-### Processing Specifications - Verb Session v3
+### Processing Specifications - Verb Session
 - Mono/Stereo Input/Output.
 - 64-bits internal floating point processing.
 - Sampling rate up to 384 kHz DXD (Pyramix and Ovation MassCore/Native).
 - Sampling rate up to 192 kHz for Native (AU/VST/AAX/AAX AudioSuite).
 
 
-### Processing Specifications - Verb v3 Studio Session
+### Processing Specifications - Verb Studio Session
 - Mono/Stereo Input/Output.
 - 64-bits internal floating point processing.
 - Sampling rate up to 96 kHz.

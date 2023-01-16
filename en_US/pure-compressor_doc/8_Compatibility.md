@@ -1,6 +1,6 @@
 # Compatibility
 
-## Pure Compressor v3
+## Pure Compressor
 
 ### Windows - 10, 64 bits only.
 
@@ -18,7 +18,7 @@
 - Waves WPAPI Native/Soundgrid in 64 bit
 - AVID VENUE Systems
 
-## Pure Compressor v3 Studio Session
+## Pure Compressor Studio Session
 
 ### Windows - 10, 64 bits.
 

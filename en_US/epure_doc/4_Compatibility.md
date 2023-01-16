@@ -1,6 +1,6 @@
 # Compatibility
 
-## Epure v3
+## Epure
 
 ### Windows - 10, 64 bits.
 
@@ -18,7 +18,7 @@
 - Waves WPAPI Native/Soundgrid in 64 bit
 - AVID VENUE Systems
 
-## Epure v3 Studio Session
+## Epure Studio Session
 
 ### Windows - 10, 64 bits.
 
