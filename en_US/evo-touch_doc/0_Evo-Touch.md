@@ -3,12 +3,10 @@
 
 # Introduction
 
-**EVO Touch - The Ultimate Channel Strip Redefined**
+**EVO Touch - The icing on the cake that brings out the magic !**
 
-The philosophy of the analog Channel Strip, the essential element of all analog consoles, is about being
-efficient, fast, and making things sound great already from the start. EVO Channel is designed to be as efficient,
-fast and hands-on, adding the advantages of creative digital innovation in terms of workflow and sound,
-providing everything you need to stay in control of your sound!
+The Final Touch module EVO Touch, also available in EVO Channel, is a polymorphic section offering a variety of different processors designed to adapt to the requirements of the material, with seven different processing modes including a frequency dependent DeEsser, Expander and a Transient and Sustain Designer.
+
 
 ![](include/evoTouch.png)
 

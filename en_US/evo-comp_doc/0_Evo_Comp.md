@@ -5,11 +5,11 @@
 
 # Introduction
 
-**EVO Comp - The Ultimate Channel Strip Compressor Redefined**
+**EVO Comp - The Sound Attitude Generator**
 
-The philosophy of the analog Channel Strip, the essential element of all analog consoles, is about being
-efficient, fast, and making things sound great already from the start. EVO Comp is designed to be as efficient,
-fast and hands-on, adding the advantages of creative digital innovation in terms of workflow and sound,
-providing everything you need to stay in control of your sound!
+In addition to controlling the signal dynamics, the compressor is often used for shaping the attitude of a sound. To use a compressor in a creative and artistic fashion it’s important that it’s easy to use and has the ability to create an interesting sound.
+
+The EVO Channel and EVO Comp compressor offers a wide range and variety of sound with nine different compression modes, and a Wet / Dry control for adjusting the level of compression, allowing for parallel compression within the module.
+
 
 ![](include/evoComp.png)

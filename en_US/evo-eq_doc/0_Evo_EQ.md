@@ -3,11 +3,14 @@
 
 # Introduction
 
-**EVO EQ - The Ultimate Channel Strip EQ Redefined**
+**EVO EQ - The canvas for painting the colors**
 
-The philosophy of the analog Channel Strip, the essential element of all analog consoles, is about being
-efficient, fast, and making things sound great already from the start. EVO EQ is designed to be as efficient,
-fast and hands-on, adding the advantages of creative digital innovation in terms of workflow and sound,
-providing everything you need to stay in control of your sound!
+One of the cornerstones in a Channel Strip is a well-built, efficient and complete Equalizer.
+The equalizer in the EVO Channel and EVO EQ is a straightforward comprehensive 4-band parametric equalizer with an additional low/high shelf and a 6-24 dB low/high cut filter.
+
+The graphical interactive EQ curve is layered on top of the built in Spectrum Analyzer for hands-on editing with direct connection to the visual response.
+
+The spectrum analyzer originates from the FLUX:: Analyzer and has been optimized for the EVO Channel and EVO EQ. It gives you an accurate direct view of what’s going on in the different frequency domains of your material.
+
 
 ![](include/evoEQ.png)
