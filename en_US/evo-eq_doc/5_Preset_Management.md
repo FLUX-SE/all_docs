@@ -1,6 +1,6 @@
 # Preset Management
 
-EVO Channel, as well as all other Flux:: plug-ins, provides two preset slots referred to as slot A and slot B,
+EVO Eq, as well as all other Flux:: plug-ins, provides two preset slots referred to as slot A and slot B,
 which provide access to two sets of parameter settings simultaneously. In addition to just recall the settings for
 each of the slots individually and alternate between their settings, a morphing slider is provided offering the
 possibility to morph between the slots and their corresponding settings. When clicking on one of the preset
@@ -10,7 +10,7 @@ slots, the built in preset manager appears.
 
 ## Preset Sections
 
-EVO Channel provides two preset sections referred to as section A and section B, offering simultaneous access
+EVO Eq provides two preset sections referred to as section A and section B, offering simultaneous access
 to two full sets of parameter settings. Clicking the A section (bottom left) or the B section (bottom right), or
 clicking the arrow in the Current Selected Preset display, opens a new window accessing the built-in preset
 manager.

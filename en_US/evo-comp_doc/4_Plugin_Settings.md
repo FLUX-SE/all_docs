@@ -3,7 +3,7 @@
 Clicking the cogwheel symbol opens a window with a range of general settings and a direct access button to
 the user manual.
 
-![](include/ManualEvoChannel-012.jpg)
+![](include/evoComp_opt.png)
 
 ## Main Setup
 
@@ -44,7 +44,7 @@ Enables/Disables Multithread Automation.
 
 ## OSC
 
-OSC is available in EVO Channel.
+OSC is available in EVO Comp.
 
 ### Enable
 

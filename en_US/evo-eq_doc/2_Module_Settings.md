@@ -67,7 +67,7 @@ Equalization module is divided in two parts :
 - A filtering part composed of a low cut, a low shelf, a high cut and a high shelf filter.
 - A parametric equalization stage made of four parametric EQs.
 
-![](include/ManualEvoChannel-009.jpg)
+![](include/evoEQ_eq.png)
 
 ### Low-Cut Switch
 
@@ -254,7 +254,7 @@ Default Value : 0.0dB
 
 ### Output Gain
 
-The output gain control trims the level of the signal at the output of EVO Channel. The meter shows both RMS
+The output gain control trims the level of the signal at the output of EVO Eq. The meter shows both RMS
 signal (VU-Meter, blue) and peak signal (peak meter, green), from -24 to +18 dB range, referenced at -18dB.
 
 

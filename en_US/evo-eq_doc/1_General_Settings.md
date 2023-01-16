@@ -12,17 +12,9 @@ Default Value : Disabled
 
 ## Skin
 
-The look of the EVO Channel user interface.
+The look of the EVO Eq user interface.
 
 
 Value Range : Light/Dark
 
 Default Value : Light
-
-## Flow
-
-![](include/ManualEvoChannel-006.png)
-
-Flow allow you to change the order of the modules in EVO Channel. Simply drag and drop a module to set your
-perfect signal flow.
-

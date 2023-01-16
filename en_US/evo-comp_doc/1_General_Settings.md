@@ -12,7 +12,7 @@ Default Value : Disabled
 
 ## Skin
 
-The look of the EVO Channel user interface.
+The look of the EVO Comp user interface.
 
 
 Value Range : Light/Dark

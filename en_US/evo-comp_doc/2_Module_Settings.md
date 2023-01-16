@@ -4,7 +4,7 @@
 
 ### Input Gain
 
-The input gain control trims the level of the signal at the input of EVO Channel. The meter shows both RMS
+The input gain control trims the level of the signal at the input of EVO Comp. The meter shows both RMS
 signal (VU-Meter, blue) and peak signal (peak meter, green), from -24 to +18 dB range, referenced at -18dB.
 
 
@@ -20,7 +20,7 @@ Default Value : 0.0 dB
 
 ### Drive
 
-In EVO Channel a signal Drive is available direct at the input Gain for restoring and maintaining the vitality of
+In EVO Comp a signal Drive is available direct at the input Gain for restoring and maintaining the vitality of
 the sound.
 
 The drive module has been specially designed to add a soft saturation and warmth to your audio tracks.
@@ -36,8 +36,8 @@ In addition to controlling the signal dynamics, the compressor is often used for
 To use a compressor in a creative and artistic fashion it’s important that it’s easy to use and has the ability to
 create an interesting sound.
 
-The EVO Channel’s compressor module is based on the Pure Compressor’s dynamics engine, and the same
-range of compression types are available in EVO Channel through the different modes available (each mode
+The EVO Comp’s compressor module is based on the Pure Compressor’s dynamics engine, and the same
+range of compression types are available in EVO Comp through the different modes available (each mode
 corresponds to a fine tuning of Pure Compressor). As some modes use a LID compression (Level Independent
 Detection) in parallel, a gain reduction may be processed even if the audio level is below the threshold.
 
@@ -150,7 +150,7 @@ Default Value : 100%
 
 ### Output Gain
 
-The output gain control trims the level of the signal at the output of EVO Channel. The meter shows both RMS
+The output gain control trims the level of the signal at the output of EVO Comp. The meter shows both RMS
 signal (VU-Meter, blue) and peak signal (peak meter, green), from -24 to +18 dB range, referenced at -18dB.
 
 
