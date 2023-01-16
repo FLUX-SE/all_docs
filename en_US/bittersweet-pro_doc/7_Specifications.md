@@ -5,7 +5,7 @@
 *   Up to 8 channels Input/Output.
 *   64-bits internal floating point processing.
 *   Sampling rate up to 384 kHz DXD (Pyramix and Ovation MassCore/Native).
-*   Sampling rate up to 192 kHz for Native (AU/VST/AAX/AAX AudioSuite).
+*   Sampling rate up to 192 kHz for Native (AU/VST/VST3/AAX/AAX AudioSuite).
 
 ## Processing Specifications - BitterSweet Pro Studio Session
 
@@ -19,6 +19,7 @@
 
 *   **Windows - 10 64 bits.**
     *   VST (2.4) in 64 bit
+    *   VST (3.1) in 64 bit
     *   AAX Native/DSP\* in 64 bit
     *   AAX AudioSuite\* in 64 bit
     *   Waves WPAPI Native/Soundgrid in 64 bit
@@ -27,22 +28,12 @@
 
 *   **macOS (Intel and ARM) - 10.12 and more, 11 and 12.**
     *   VST (2.4) in 64 bit
+    *   VST3 (3.1) in 64 bit
     *   AU in 64 bit
     *   AAX Native/DSP\* in 64 bit
     *   AAX AudioSuite\* in 64 bit
     *   Waves WPAPI Native/Soundgrid in 64 bit
     *   Avid Venue Systems
-
-**BitterSweet Pro Studio Session**
-
-*   **Windows - 10 64 bits.**
-    *   VST (2.4) in 64 bit
-    *   AAX Native/AudioSuite\* in 64 bit
-
-*   **macOS (Intel and ARM) - 10.12 and more, 11 and 12.**
-    *   VST (2.4) in 64 bit
-    *   AU in 64 bit
-    *   AAX Native/AudioSuite\* in 64 bit
     
 \*\* VS3 for Pyramix & Ovation Native/MassCore sold only through Merging Technologies and authorized dealers.
 

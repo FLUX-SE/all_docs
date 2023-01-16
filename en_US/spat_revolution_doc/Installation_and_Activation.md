@@ -59,7 +59,7 @@ Pressing on the sign-in button will allow you to connect to your account. After 
 Next step is to get the installers for the FLUX:: products you are licensed for. All the software and plugins from FLUX:: are available via our FLUX:: Center software. This is a Mac or Windows application we have created to help keep your FLUX:: products up to date and to give you a clear overview of what you have installed. Firstly, please visit the download section of the FLUX:: Website to get the installer for the [FLUX:: Center application.
 ](https://flux.audio/download/)
 
-On this page you will find a Mac OS X, a Windows 64 bits. As well are provided legacy version for older operating systems. After downloading and installing, you can open the FLUX:: Center applications to begin the process of installing the _SPAT Revolution_ software.
+On this page you will find a macOS, a Windows 64 bits. As well are provided legacy version for older operating systems. After downloading and installing, you can open the FLUX:: Center applications to begin the process of installing the _SPAT Revolution_ software.
 
 !> An authentication is required at the launch of FLUX:: Center. This is the login details of your FLUX shop account which allows you to see only your products licensed for (temporary or permanent).
 

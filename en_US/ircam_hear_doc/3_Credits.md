@@ -23,9 +23,9 @@ Collection Manager for Flux:: Gael Martinet
 IRCAMTOOLS SPAT, VERB  
 Copyright © 2011 Ircam and Flux:: sound and picture development. All rights reserved.
 
-Flux::  
+FLUX::  
 Head software engineering: Gael Martinet  
-Developpers: Gael Martinet, Samuel Tracol, Siegfried Hand  
+Developers: Gael Martinet, Samuel Tracol, Siegfried Hand  
 Designer: Nicolas Philippot
 
 Manual: Lorcan Mc Donagh/Thibaut Carpentier

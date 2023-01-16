@@ -1,10 +1,10 @@
 # Specifications
 
 ## Processing Specifications - Pure Compressor
-- Up to 8 channels Input/Output.
+- Up to 16 channels Input/Output.
 - 64-bits internal floating point processing.
 - Sampling rate up to 384 kHz DXD (Pyramix and Ovation MassCore/Native).
-- Sampling rate up to 192 kHz for Native (AU/VST/AAX/AAX AudioSuite).
+- Sampling rate up to 192 kHz for Native (AU/VST/ST3/AAX/AAX AudioSuite).
 
 ## Processing Specifications - Pure Compressor Studio Session
 - Mono/Stereo Input/Output.
