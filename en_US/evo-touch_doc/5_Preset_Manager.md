@@ -4,7 +4,7 @@ The preset manager contains two preset banks, the Factory bank contains factory 
 available for saving of presets but any of the presets can be loaded into a preset slot and then saved into, the
 User bank, where all user presets are saved.
 
-![](include/evoComp_userpreset.png)
+![](include/evoTouch_preset.png)
 
 In the preset manager, any preset can be loaded into a preset slot by double clicking on the name of the desired
 preset in the actual preset list, the preset will then be loaded into the preset slot corresponding to the position of
@@ -28,5 +28,5 @@ only allows the original preset author to uncheck and edit the preset. This mean
 presets in a multi-user configuration. Protected presets can only be modified using the session used for their
 creation. If used in another user session they can only be imported or deleted.
 
-![](include/evoComp_preset2.png)
-![](include/ManualEvoChannel-014.png)
+![](include/evoTouch_newPreset.png)
+![](include/evoTouch_userPreset.png)

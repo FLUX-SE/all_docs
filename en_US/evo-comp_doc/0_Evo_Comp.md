@@ -12,4 +12,4 @@ efficient, fast, and making things sound great already from the start. EVO Comp 
 fast and hands-on, adding the advantages of creative digital innovation in terms of workflow and sound,
 providing everything you need to stay in control of your sound!
 
-![](include/evoComp.gif)
+![](include/evoComp.png)
