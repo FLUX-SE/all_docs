@@ -1,26 +1,5 @@
 # Module Settings
 
-## Analyser
-
-### Analyser Switch
-
-The spectrum analyzer origins from the Flux:: Pure Analyzer and has been optimized for the EVO Channel. It
-gives you an accurate direct view of what’s going on in the different frequency domains of your audio. When
-switched on, the spectrum analysis is activated and displayed in the equalization view panel. The grey
-waveform correspond to your input signal (post gain/drive), the same as the input meter. The black one is the
-output signal (post output gain), the same as the output meter.
-
-Value Range : Enabled/Disabled
-
-Default Value : Enabled
-
-### Analyser Slider
-
-Controls the amount of frequency detail of the curve. Move the slider to the left to get a more smoothed curved,
-and to the right to get more details.
-
-Value Range : No Value
-
 ## Input
 
 ### Input Gain
@@ -48,8 +27,6 @@ The drive module has been specially designed to add a soft saturation and warmth
 
 
 Value Range : 0% / 100%
-
-
 
 Default Value : 0%
 
