@@ -16,12 +16,16 @@ Diff. is a key listener for the Difference between input and output signal (at t
 **Value Range:** Enabled/Disabled  
 **Default Value:** Disabled  
 
-## Dyn. Band
+## Bandwidth
 
-Dynamic Band adjusts the frequency bandwidth of the Peak, when a Peak is defined with the Dynamic Range filter, per default the it's static, which makes the bandwidth of the peak gain independent, and with Dynamic, the bandwidth becomes gain dependent.  
+**Value Range:** Static BW/Dynamic BW/Flat Sum  
+**Default Value:** Static BW
 
-**Value Range:** Enabled/Disabled  
-**Default Value:** Enabled  
+Static bandwidth provides a constant Q factor, no matter of the gain factor of the filter. It's computed by having a constant bandwidth at +- 3 dB from 0 dB.
+
+Dynamic bandwidth provides a dynamic Q factor, dependent on the gain factor of the filter. It's computed by having a constant bandwidth at +- 3 dB from peak levels of the filter.
+
+Flat Sum is a more traditional way of computing the Q factor. The bandwidth is constant for the gain factor divided by two.
 
 ## Attack
 
