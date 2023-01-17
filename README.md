@@ -10,6 +10,13 @@
  - [FLUX:: Analyzer](en_US/analyser_doc/00_Pure_Analyzer_00_Pure_Analyzer.md)
  - [Studio Session Analyzer](en_US/studio_session_analyser/0_StudioSessionAnalyser.md)
 
+## Evo Modules
+
+ - [Evo Channel](en_US/evo-channel_doc/0_Evo-Channel.md)
+ - [Evo In](en_US/evo-in_doc/0_Evo_In.md)
+ - [Evo EQ](en_US/evo-eq_doc/0_Evo_EQ.md)
+ - [Evo Compressor](en_US/evo-comp_doc/0_Evo_Comp.md)
+ - [Evo Touch](en_US/evo-touch_doc/0_Evo_Touch.md)
 
 ## Processing
 
@@ -18,10 +25,6 @@
  - [Bittersweet Pro](en_US/bittersweet-pro_doc/0_BitterSweet_Pro.md)
  - [Elixir](en_US/elixir_doc/0_Elixir.md)
  - [Epure](en_US/epure_doc/0_Epure.md)
- - [Evo Channel](en_US/evo-channel_doc/0_Evo-Channel.md)
- - [Evo In](en_US/evo-in_doc/0_Evo_In.md)
- - [Evo EQ](en_US/evo-eq_doc/0_Evo_EQ.md)
- - [Evo Comp](en_US/evo-comp_doc/0_Evo_Comp.md)
  - [Ircam HEar](en_US/ircam_hear_doc/0_Ircam_Hear.md)
  - [Ircam Trax](en_US/ircam_trax_doc/0_Ircam_Trax.md)
  - [Ircam Verb](en_US/ircam_verb_doc/0_Ircam_Verb.md)
