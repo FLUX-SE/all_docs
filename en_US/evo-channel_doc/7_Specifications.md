@@ -12,8 +12,7 @@ AU / VST / VST3 / AAX Native*/ AAX AudioSuite* / Waves WPAPI
 
 EVO Channel provides :
 
-
-- Up to 16 channels Input/Output in VST/VST3/AU/AAX.
+- Up to 16 channels Input/Output in AAX/AU/VST/VST3.
 - Up to 8 channels in WPAPI for Waves Soundgrid.
 - 64-bits internal floating point processing.
 - Sampling rate up to 384 kHz.
