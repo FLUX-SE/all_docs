@@ -45,13 +45,13 @@ In order to use BitterSweet Pro or BitterSweet Pro Studio Session, an iLok.com u
 
 AAX DSP - Number of BitterSweet Pro instances per DSP.  
 
-|                   | **44.1 - 48 khz (1 FS)**    | **88.2 - 96 khz (2 FS)** | **176.4 - 192 khz (4 FS)**    |
-|-------------------|-----------------------------|--------------------------|-------------------------------|
-| **1 Channel**     | 11                          | 5                        | 2                             |
-| **2 Channels**    | 5                           | 2                        | 1                             |
-| **3 Channels**    | 4                           | 1                        | 0                             |
-| **4 Channels**    | 3                           | 1                        | 0                             |
-| **5 Channels**    | 2                           | 1                        | 0                             |
-| **6 Channels**    | 2                           | 1                        | 0                             |
-| **7 Channels**    | 1                           | 0                        | 0                             |
-| **8 Channels**    | 1                           | 0                        | 0                             |
+|                   | **44.1 - 48 khz (1 FS)** | **88.2 - 96 khz (2 FS)** | **176.4 - 192 khz (4 FS)** |
+|-------------------|--------------------------|--------------------------|----------------------------|
+| **1 Channel**     | 9                        | 4                        | 1                          |
+| **2 Channels**    | 4                        | 2                        | 0                          |
+| **3 Channels**    | 3                        | 1                        | 0                          |
+| **4 Channels**    | 2                        | 1                        | 0                          |
+| **5 Channels**    | 1                        | 0                        | 0                          |
+| **6 Channels**    | 1                        | 0                        | 0                          |
+| **7 Channels**    | 1                        | 0                        | 0                          |
+| **8 Channels**    | 1                        | 0                        | 0                          |
