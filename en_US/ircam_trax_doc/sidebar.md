@@ -15,5 +15,6 @@
 * [Preset section](12_Preset_Section.md)
 * [Presets management](13_Presets_Management.md)
 * [Credits](14_Credits.md)
+* [Specifications](15_Specifications.md)
 * Appendix 
 	* [Release Notes](../../flux_processing_release_notes.md)

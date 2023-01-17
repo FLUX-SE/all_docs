@@ -5,5 +5,6 @@
 * [Display](4_Display.md)
 * [The SideChain EQ section](5_The_Side_Chain_EQ_Section.md)
 * [Preset management](6_Preset_Management.md)
+* [Specifications](7_Specifications.md)
 * Appendix 
 	* [Release Notes](../../flux_processing_release_notes.md)

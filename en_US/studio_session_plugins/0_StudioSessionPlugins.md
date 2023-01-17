@@ -20,7 +20,7 @@ The bundle includes:
 
 The **Studio Session Plugins** are installed as a single bundle that contains the above products. They have the exact same capacities with the following limitations:
 
-* Formats: AU / VST / VST3 / AAX Native only (not available for AAX VENUE and Waves WPAPI 
+* Formats: AU / VST / VST3 / AAX Native only (not available for AAX VENUE and Waves WPAPI)
 * Inputs & Outputs : Mono / Stereo only
 * Max 96kHz sample rate. 44.1, 48, 88.2, 96
 * No support For Open Sound Control
@@ -40,9 +40,9 @@ User documentation is the same as the standard products. Please refer to:
 
 Tutorials are as well available for **How to mix with Studio Session Pack**:
 
-* [How to mix with Studio Session Pack- Balance and EQ](https://youtu.be/qrmlZNY9Ut0)
-* [How to mix with Studio Session Pack- Dynamic treatment](https://youtu.be/q1HDL98Nzv8)
+* [How to mix with Studio Session Pack - Balance and EQ](https://youtu.be/qrmlZNY9Ut0)
+* [How to mix with Studio Session Pack - Dynamic treatment](https://youtu.be/q1HDL98Nzv8)
 * [How to mix with Studio Session Pack - Reverberation ](https://youtu.be/Izn3Le6Th5Q)
-* [How to mix with Studio Session Pack- Last stage of production](https://youtu.be/SHARm5sLtjw)
+* [How to mix with Studio Session Pack - Last stage of production](https://youtu.be/SHARm5sLtjw)
 
 ----
