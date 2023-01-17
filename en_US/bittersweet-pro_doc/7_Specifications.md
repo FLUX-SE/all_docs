@@ -1,13 +1,13 @@
 # Specifications
 
-## Processing Specifications - BitterSweet Pro
+## Processing Specifications - BitterSweet Pro Essential
 
-*   Up to 16 channels Input/Output for Essential version, up to 2 channels Input/Output for Session version.
+*   Up to 16 channels Input/Output for Essential version.
 *   64-bits internal floating point processing.
 *   Sampling rate up to 384 kHz DXD (Pyramix and Ovation MassCore/Native).
 *   Sampling rate up to 192 kHz for Native (AU/VST/VST3/AAX/AAX AudioSuite).
 
-## Processing Specifications - BitterSweet Pro Studio Session
+## Processing Specifications - BitterSweet Pro
 
 *   Mono/Stereo Input/Output.
 *   64-bits internal floating-point processing.
