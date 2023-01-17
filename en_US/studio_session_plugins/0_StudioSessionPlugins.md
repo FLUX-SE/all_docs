@@ -2,7 +2,7 @@
 
 ## Welcome
 
-Thank you for purchasing the Studio Session Plugins (bundle)
+Thank you for purchasing the Studio Session Plugins (bundle).
 
 The bundles include some of our finest recording and mixing tools, the essential FLUX:: technologies for the studio projects.
 
@@ -18,18 +18,16 @@ The bundle includes:
 * [Syrah](en_US/syrah_doc/0_Syrah.md)
 
 
-The **Studio Session Plugins** are installed as a single bundle that contains the above products. They have the exact same capacities with the following limitations;
+The **Studio Session Plugins** are installed as a single bundle that contains the above products. They have the exact same capacities with the following limitations:
 
-
-* Formats: AU / VST / AAX Native only (not available for AAX VENUE and Waves WPAPI 
-* Inputs & Outputs : Mono / Stereo Only
+* Formats: AU / VST / VST3 / AAX Native only (not available for AAX VENUE and Waves WPAPI 
+* Inputs & Outputs : Mono / Stereo only
 * Max 96kHz sample rate. 44.1, 48, 88.2, 96
-* No Support For Open Sound Control
-
+* No support For Open Sound Control
 
 ## User documentation and resources
 
-User documentation is the same as the standard products. Please refer to;
+User documentation is the same as the standard products. Please refer to:
 
 * [Bittersweet Pro](en_US/bittersweet-pro_doc/0_BitterSweet_Pro.md)
 * [Epure](en_US/epure_doc/0_Epure.md)
@@ -40,8 +38,7 @@ User documentation is the same as the standard products. Please refer to;
 * [Studio Session Analyzer](en_US/analyser_doc/00_Pure_Analyzer_00_Pure_Analyzer.md)
 * [Syrah](en_US/syrah_doc/0_Syrah.md)
 
-
-Tutorials are as well available for **How to mix with Studio Session Pack**;
+Tutorials are as well available for **How to mix with Studio Session Pack**:
 
 * [How to mix with Studio Session Pack- Balance and EQ](https://youtu.be/qrmlZNY9Ut0)
 * [How to mix with Studio Session Pack- Dynamic treatment](https://youtu.be/q1HDL98Nzv8)
@@ -49,4 +46,3 @@ Tutorials are as well available for **How to mix with Studio Session Pack**;
 * [How to mix with Studio Session Pack- Last stage of production](https://youtu.be/SHARm5sLtjw)
 
 ----
-

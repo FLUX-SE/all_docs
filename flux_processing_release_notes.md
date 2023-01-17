@@ -1,5 +1,37 @@
 # Release Notes
 
+## Build 21.12.0.50XXX - All plugins
+
+**New features**
+
+* New plugins Evo Compressor, Evo Touch and Evo EQ.
+* VST3 support
+* ARM support for AAX, AU and VST3
+* Plugins are not resizable
+* Elixir now supports 32 channels
+* Alchemist, BitterSweet, Epure, Pure Compressor, Pure DCompressor, Pure Expander, Pure DExpander, PureLimiter, Solera, Syrah now support 16 channels
+
+**Bug fixes**
+
+- All plugins - Preset Manager - Update user preset do not work
+- All plugins - Preset manager - Crash or freeze when saving a preset
+- All plugins - UI may be black on Intel UHD 630 graphical cards
+- All plugins - AAX - Crash with OSC when changing fx slot in Pro Tools
+- All plugins - DaVinci Resolve - VST - UI is truncated
+- All plugins - AU - Logic Pro - Automation of boolean/integer parameters broken
+- All plugins - Streamlabs - Plugins do not work
+- All plugins - Licensing issue in DaVinci Resolve and GarageBand
+
+- Alchemist - The range parameter works only for the 1st band
+- BSPro - some modes are not accessible due to GUI issue
+- Epure - macOS - Bad graphic scale initialization at 2&4FS
+- Evo Channel - Meter reference is not saved
+- Syrah - Crash when selecting preset "Static fast compression"
+- TRAX Tr - When the link is activated, the Formant slider does not have the expected audio effect
+- TRAX Tr - ProTools - Issue in AudioStudio when the modulation is enabled
+- VerbSession/VerbSession Studio Session and BSPro StudioSession - Pyramix - VST crash when instantiated
+- Verb/Verb Studio Session - Crash when reloading session having 2 instances
+
 ## Build 21.12.0.50123 - All plugins except TRAX and StudioSession
 
 **Bug fixes**

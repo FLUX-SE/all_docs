@@ -13,7 +13,6 @@
 * [Ircam Trax](en_US/ircam_trax_doc/0_Ircam_Trax.md)
 * [Ircam Verb](en_US/ircam_verb_doc/0_Ircam_Verb.md)
 * [Ircam Verb Session](en_US/ircam_verb-session_doc/0_Ircam_Verb_Session.md)
-* [Junger Level Magic](en_US/junger_level-magic_doc/0_Junger_level_Magic.md)
 * [Pure Compressor](en_US/pure-compressor_doc/0_Pure_Compressor.md)
 * [Pure Dcompressor](en_US/pure-dcompressor_doc/0_Pure_DCompressor.md)
 * [Pure Dexpander](en_US/pure-dexpander_doc/0_Pure_DExpander.md)
@@ -23,8 +22,9 @@
 * [SPAT Revolution](en_US/spat_revolution_doc/A_User_Guide.md)
 * [Stereotool](en_US/stereotool_doc/0_StereoTool.md)
 * [Studio Session Analyzer](en_US/studio_session_analyser/0_StudioSessionAnalyser.md)
-* [Studio Session Plugins](en_US/studio_session_plugins/0_StudioSessionPlugins.md)
 * [Syrah](en_US/syrah_doc/0_Syrah.md)
 * [Legacy]
     * [Elixir v3](en_US/elixir_v3_doc/0_Elixir.md)
     * [Ircam Spat](en_US/ircam_spat_doc/0_Ircam_Spat.md)
+    * [Junger Level Magic](en_US/junger_level-magic_doc/0_Junger_level_Magic.md)
+    * [Studio Session Plugins](en_US/studio_session_plugins/0_StudioSessionPlugins.md)

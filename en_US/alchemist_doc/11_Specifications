@@ -1,0 +1,43 @@
+# Specifications
+
+## Processing Specifications - Alchemist
+
+*   Up to 16 channels Input/Output for Essential version.
+*   64-bits internal floating point processing.
+*   Sampling rate up to 384 kHz DXD (Pyramix and Ovation MassCore/Native).
+*   Sampling rate up to 192 kHz for Native (AU/VST/VST3/AAX/AAX AudioSuite).
+
+## Processing Specifications - Alchemist Session
+
+*   Mono/Stereo Input/Output.
+*   64-bits internal floating-point processing.
+*   Sampling rate up to 96 kHz.
+
+## Compatibility
+
+**BitterSweet Pro**
+
+*   **Windows - 10 64 bits.**
+    *   VST (2.4) in 64 bit
+    *   VST (3.1) in 64 bit
+    *   AAX Native/DSP\* in 64 bit
+    *   AAX AudioSuite\* in 64 bit
+    *   Waves WPAPI Native/Soundgrid in 64 bit
+    *   VS3\*\* Pyramix 10 and more in 64 bit and Ovation 6 and more
+    *   Avid Venue Systems
+
+*   **macOS (Intel and ARM) - 10.12 and more, 11 and 12.**
+    *   VST (2.4) in 64 bit
+    *   VST3 (3.1) in 64 bit
+    *   AU in 64 bit
+    *   AAX Native/DSP\* in 64 bit
+    *   AAX AudioSuite\* in 64 bit
+    *   Waves WPAPI Native/Soundgrid in 64 bit
+    *   Avid Venue Systems
+    
+\*\* VS3 for Pyramix & Ovation Native/MassCore sold only through Merging Technologies and authorized dealers.
+
+## Licence Requirements
+
+In order to use Alchemist or Alchemist Session, an iLok.com user account is required (the iLok USB Smart Key is not required).
+

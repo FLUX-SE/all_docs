@@ -4,13 +4,13 @@ FLUX:: Analyzer is a 64bit application fully compatible with 64-bit operating sy
 ## Operating Systems
 
 * PC: Windows 10
-* Apple: Mac OS X versions 10.13 and up (macOS Big Sur, Monterey compliant, Compatible with ARM / Silicon)
+* Apple: macOS versions 10.13 and up (macOS Big Sur, Monterey compliant, Compatible with ARM / Silicon)
 
 ## Hardware IO support
 Any soundcard with a driver compliant with these standards:
 
 * ASIO(Windows).
-* Core Audio (Mac OS X).
+* Core Audio (macOS).
 
 ##  Software - Sample Push support
 
@@ -26,7 +26,7 @@ All major native formats (AAX, VST, AU, RTAS, TDM, AAX VENUE) are supported.
     * AAX
     * AAX VENUE
 
-* Mac OS X - 10.12, 10.13, 10.14, 10.15, 11.1
+* macOS - 10.12 and later
     * VST (2.4)
     * AU
     * AAX
