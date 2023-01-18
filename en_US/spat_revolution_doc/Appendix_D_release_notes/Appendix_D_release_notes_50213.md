@@ -20,6 +20,8 @@
 - Windows - Some UI refresh issues with the bottom of the window
  
 ## Known Issues
+
+- Important - When sources are SPAT Send and a room has a scaling, selecting the source applying the scaling. Avoid using scaling with LAP (use loopback solution or audio bridge on macOS). 
 - App - A process still running after quitting SPAT Revolution when ASIO4ALL is used as audio driver on Windows
 - App - Bad GUI initialization on Windows with intel graphics chipsets
 - App - Core Audio headphones and loudspeakers cannot be used without an aggregate

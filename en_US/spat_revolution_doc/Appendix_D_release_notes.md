@@ -2,7 +2,7 @@
 
 Here are the release notes of the last SPAT Revolution versions.
 
-- [Version 22.09.50217](Appendix_D_release_notes/Appendix_D_release_notes_50217.md)
+<!-- - [Version 22.09.50217](Appendix_D_release_notes/Appendix_D_release_notes_50217.md) -->
 - [Version 22.09.50213](Appendix_D_release_notes/Appendix_D_release_notes_50213.md)
 - [Version 22.09.50206](Appendix_D_release_notes/Appendix_D_release_notes_50206.md)
 - [Version 22.09.50200](Appendix_D_release_notes/Appendix_D_release_notes_50200.md)
