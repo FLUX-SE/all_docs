@@ -1,6 +1,6 @@
 # Release Notes
 
-## Build 21.12.0.50XXX - All plugins
+## Build 21.12.0.50251 - All plugins
 
 **New features**
 
@@ -16,13 +16,16 @@
 - All plugins - Preset Manager - Update user preset do not work
 - All plugins - Preset manager - Crash or freeze when saving a preset
 - All plugins - UI may be black on Intel UHD 630 graphical cards
+- All plugins - AU/VST3 - Preset manager - Default preset is not applied to parameters at plugin instantiation
 - All plugins - AAX - Crash with OSC when changing fx slot in Pro Tools
-- All plugins - DaVinci Resolve - VST - UI is truncated
 - All plugins - AU - Logic Pro - Automation of boolean/integer parameters broken
+- All plugins - DaVinci Resolve - VST - UI is truncated
 - All plugins - Streamlabs - Plugins do not work
 - All plugins - Licensing issue in DaVinci Resolve and GarageBand
 
 - Alchemist - The range parameter works only for the 1st band
+- BitterSweet - Not possible to tweak the Output gain after unlinking it
+- BitterSweet - Output gain not reloaded properly when the link is disabled
 - BSPro - some modes are not accessible due to GUI issue
 - Epure - macOS - Bad graphic scale initialization at 2&4FS
 - Evo Channel - Meter reference is not saved
