@@ -24,6 +24,7 @@
 - All plugins - Streamlabs - Plugins do not work
 - All plugins - Licensing issue in DaVinci Resolve and GarageBand
 
+
 - Alchemist - The range parameter works only for the 1st band
 - BitterSweet - Not possible to tweak the Output gain after unlinking it
 - BitterSweet - Output gain not reloaded properly when the link is disabled
