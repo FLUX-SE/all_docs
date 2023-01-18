@@ -69,16 +69,16 @@ Global bypass, when pressed the inputs are routed directly to the outputs.
 Default Value: Off
 
 ## Channel Processing Selector (9)
-On a multi-channel bus Solera v3 by default processes the incoming audio on all channels. Certain situations may 
+On a multi-channel bus Solera by default processes the incoming audio on all channels. Certain situations may 
 require exclusion of some of the channels from processing. Unchecking a channel excludes the audio material from 
 processing.
 
-By using several instances of Solera v3 in series this feature can be used for explicit processing of specific channels.
+By using several instances of Solera in series this feature can be used for explicit processing of specific channels.
 
 Default Value: On
 
 ## Side-Chain & External Side-Chain Routing (10)
-External side-chain is only available in mono and stereo. On a multi-channel bus Solera v3 is by default feeding all 
+External side-chain is only available in mono and stereo. On a multi-channel bus Solera is by default feeding all 
 channels to the side-chain.
 
 When using the external side-chain feature an additional side-chain channel button presents itself consecutively 
@@ -91,7 +91,7 @@ Different behaviours are exhibited for the external side-chain depending on the 
 -  AAX: The side-chain button is only active if a side-chain bus is selected from the plug-in handler.
 -  VST: No side-chain feature is available.
 
-Using Solera v3 on a multichannel bus and route the audio in the host accordingly to achieve the same functionality, 
+Using Solera on a multichannel bus and route the audio in the host accordingly to achieve the same functionality, 
 can be accomplished in most hosts.
 
 Some situations may require for certain channels to be omitted from the side-chain feed. Unchecking a side-chain 

@@ -1,8 +1,17 @@
-# BitterSweet V3 
-[Product Page](https://www.flux.audio/project/bittersweet-v3/) 
+# BitterSweet
+[Product Page](https://www.flux.audio/project/bittersweet/) 
 | [Download](https://flux.audio/download)
 
 ![](include/Bittersweet_00.png)
+
+## Specifications
+
+* Mono/Stereo Input/Output.
+* 64-bits internal floating-point processing.
+* Sampling rate up to 96 kHz.
+* Available on AAX / AAX DSP / AU / VST / VST3 on macOS
+* Available on AAX / AAX DSP /VST / VST3 on Windows
+* Available on AAX Venue
 
 ## Bypass (1)
 

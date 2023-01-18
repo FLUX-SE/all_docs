@@ -73,7 +73,7 @@ Core:
 
 UI:
 
-* Display issues and improvements on Mac OS
+* Display issues and improvements on macOS
 * Added workarounds for various OpenGL driver bugs that were causing display issues on certain setups.  
 * TruePeak preset name not reflected in UI
 * Meter peak value text is clamped to range

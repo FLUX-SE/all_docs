@@ -39,7 +39,7 @@ Enables/Disables Multithread Automation.
 
 ## OSC
 
-OSC is available in BitterSweet Pro v3 only, and is not supported in BitterSweet Pro v3 Studio Session.
+OSC is available in BitterSweet Pro only, and is not supported in BitterSweet Pro Studio Session.
 
 **Enable**  
 Enables/Disables OSC control and mapping of the plug-in's parameters.

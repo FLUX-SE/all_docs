@@ -15,7 +15,7 @@ Gäel Martinet, Vincent Carlier, Florie-Anne Lafaye, Thibaut Carpentier, Anders 
 
 Third edition of FLUX:: _SPAT Revolution_ User Guide published in September 2022
 
-All writing is protected under copyright © 2022 Cristian Vogel / FLUX SOFTWARE ENGINEERING
+All writing is protected under copyright © 2023 Cristian Vogel / FLUX SOFTWARE ENGINEERING
 
 ---
 FLUX:: is a trademark of FLUX SOFTWARE ENGINEERING
@@ -29,5 +29,5 @@ FLUX SOFTWARE ENGINEERING
 R.C.S 431 616 770 ORLEANS
 ```
 
-IRCAMTOOLS SPAT Copyright 2022 FLUX SOFTWARE ENGINEERING and IRCAM. All rights reserved.  
-SPAT Revolution Copyright 2022 FLUX SOFTWARE ENGINEERING and IRCAM. All rights reserved.
+IRCAMTOOLS SPAT Copyright 2023 FLUX SOFTWARE ENGINEERING and IRCAM. All rights reserved.  
+SPAT Revolution Copyright 2023 FLUX SOFTWARE ENGINEERING and IRCAM. All rights reserved.

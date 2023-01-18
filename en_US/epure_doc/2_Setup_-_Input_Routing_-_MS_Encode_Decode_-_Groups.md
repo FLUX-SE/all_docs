@@ -5,16 +5,16 @@
 ## Setup (17)
 Input Routing, MS Encoder/Decoder, Internal Channels and Groups setup.
 
-Any of Epure v3’s input channels can be routed to up to 8 internal EQ-channels using a sophisticated routing system
+Any of Epure’s input channels can be routed to up to 8 internal EQ-channels using a sophisticated routing system
 offering individual processing of up to 8 different equalization curves. The built in routing system provides up to 4
 M/S encoders and 4 M/S decoders (each of them in pairs of 2 channels).
 
-Epure v3 Studio Session supports Mono/Stereo input only which can be routed to up to 2 different equalization
+Epure Studio Session supports Mono/Stereo input only which can be routed to up to 2 different equalization
 curves and provides up to 2 M/S encoders/decoders.
 
 The built in MS encoders/decoders use odd EQ-channels for Mid and even EQ-channels for Side.
 Stereo or M/S encoded material as well as multichannel surround material can be processed individually, or combined 
-in configurable explicit groups, within one single instance of Epure v3.
+in configurable explicit groups, within one single instance of Epure.
 
 With the Link I/O Routing engaged, every input is automatically routed to the corresponding output, when the input
 routing settings are consistent. Please note that the Routing Matrix allows for routing of one input channel to
@@ -36,7 +36,7 @@ the Setup section as well.
 Select EQ-channel Group.  
 Any action on the EQ parameter settings is applied to the currently selected Group of internal EQ-channels.
 
-Only Group 1, gathering every available channel by default, is created when the first instance of the Epure v3 Plug-in
+Only Group 1, gathering every available channel by default, is created when the first instance of the Epure Plug-in
 is inserted.
 
 By right clicking on the graphical display the settings of any of the groups can be instantly copied to the currently
@@ -44,7 +44,7 @@ selected group. The behaviour of the vertical scale can also be selected as foll
 
 ## Lowest Frequency to display (19)
 Select the lowest displayed frequency.
-When 20 Hz is engaged, Epure v3 displays the frequency range from 20Hz to 1/2 sampling rate.
+When 20 Hz is engaged, Epure displays the frequency range from 20Hz to 1/2 sampling rate.
 
 ## Solo (20)
 Monitors the content of the selected group.
@@ -65,5 +65,5 @@ Default Value: Off
 ## Settings (22)
 Pressing the cogwheels opens a settings window providing information about the plug-in version/build, a direct access 
 button to the user manual, as well as setup for latency report and OSC (Open Sound Control). OSC is available
-in Epure v3 only, and is not supported in Epure v3 Studio Session.
+in Epure only, and is not supported in Epure Studio Session.
 

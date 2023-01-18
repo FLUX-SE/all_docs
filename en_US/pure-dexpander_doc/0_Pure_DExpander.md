@@ -1,4 +1,4 @@
-# Pure DExpander V3
+# Pure DExpander
 [Product Page](https://www.flux.audio/project/pure-dexpander/) 
 | [Shop Page](https://shop.flux.audio/en_US/products/pure-dexpander)
 

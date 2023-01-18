@@ -79,14 +79,14 @@ context help / credits page
 <td>Create new average snapshot</td>
 <td><i>Windows: Ctrl + Shift + Space</i>
 
-<i>Mac OS: alt + Space</i>
+<i>macOS: alt + Space</i>
 </td>
 </tr>
 <tr>
 <td>Update first selected snapshot</td>
 <td><i>Windows: Ctrl + Space</i>
 
-<i>Mac Os: Ctrl + Shift + Space</i>
+<i>macOS: Ctrl + Shift + Space</i>
 </td>
 </tr>
 <tr>
