@@ -74,7 +74,7 @@ Default Value: 20000
 
 Filters out the high-end from the detection circuit.
 
-## Knee (28)
+## Knee
 Unit: dB  
 Value Range: 0 to +24  
 Default Value: 0
@@ -83,7 +83,7 @@ Sets the smoothness of the transmission curve for the specific dynamic processin
 around the threshold value of the dB amount set with the knee value.
 
 
-## Peak Detection Amount (29)
+## Peak Detection Amount
 Unit: %  
 Value Range: 0 / 100  
 Step: 1  
@@ -93,7 +93,7 @@ Instant peak value can be added to the RMS signal feeding the detector section, 
 more sensitive to audio transients.
 
 
-## Dynamic Ratio (30)
+## Dynamic Ratio
 Unit: %  
 Value Range: 0 / 100  
 Step: 1  
@@ -110,7 +110,7 @@ Then increase the output gain to compensate the gain lost and then toggle betwee
 % you should hear more air in the sound, more transient and less compression impression; especially in terms of attack.
 
 
-## L.I.D.. (Level Independent Detector) (32)
+## L.I.D.. (Level Independent Detector)
 Unit: %  
 Value Range: 0 / 100  
 Step: 1  
@@ -135,7 +135,7 @@ smooth and no more pumpingº In addition with the Dynamic Ratio function, you'll
 envelop that allows to increase low levels, low frequency and to keep important transients.*
 
 
-## L.I.D.. Threshold (33)
+## L.I.D.. Threshold
 Sets the gain range of the L.I.D. parameter.
 
 - Up: Increasing of the L.I.D. action
@@ -148,7 +148,7 @@ exceeds the area between the two blue lines. For Expander and DExpander sections
 only when the orange Dynamic Activity (18) stays inside the area between the two blue lines.
 
 
-## L.I.D.. Maximum (34)
+## L.I.D.. Maximum
 When engaged, the threshold for the processing is determined by the maximum values from RMS/peak detection
 OR from the signal dynamic detection. The L.I.D. Threshold is still active, but the L.I.D. mix button is disabled. 
 
