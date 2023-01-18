@@ -2,7 +2,7 @@
 
 ## Build 21.12.0.50251 - All plugins
 
-**New features**
+### New features
 
 * New plugins Evo Compressor, Evo Touch and Evo EQ.
 * VST3 support
@@ -11,7 +11,7 @@
 * Elixir now supports 32 channels
 * Alchemist, BitterSweet, Epure, Pure Compressor, Pure DCompressor, Pure Expander, Pure DExpander, PureLimiter, Solera, Syrah now support 16 channels
 
-**Bug fixes**
+### Bugs fixes
 
 - All plugins - Preset Manager - Update user preset do not work
 - All plugins - Preset manager - Crash or freeze when saving a preset
@@ -19,6 +19,7 @@
 - All plugins - AU/VST3 - Preset manager - Default preset is not applied to parameters at plugin instantiation
 - All plugins - AAX - Crash with OSC when changing fx slot in Pro Tools
 - All plugins - AU - Logic Pro - Automation of boolean/integer parameters broken
+- All plugins - AU - Plugins crash in Da Vinci Resolve
 - All plugins - DaVinci Resolve - VST - UI is truncated
 - All plugins - Streamlabs - Plugins do not work
 - All plugins - Licensing issue in DaVinci Resolve and GarageBand
@@ -34,6 +35,14 @@
 - TRAX Tr - ProTools - Issue in AudioStudio when the modulation is enabled
 - VerbSession/VerbSession Studio Session and BSPro StudioSession - Pyramix - VST crash when instantiated
 - Verb/Verb Studio Session - Crash when reloading session having 2 instances
+
+### Known issues
+
+- All plugins - VST - GUI issue in Izotope Ozone and RX
+- All plugins - AAX - Preset manager - Default preset is not applied to parameters at plugin instantiation
+- Elixir - Latency not properly compensated after changing stage parameters value in VST and AudioUnit
+- TRAX tr - Learn function returning wrong values
+- VerbV3 - HOA 3rd order not working properly
 
 ## Build 21.12.0.50123 - All plugins except TRAX and StudioSession
 
