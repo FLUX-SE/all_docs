@@ -1,13 +1,13 @@
 # Release Notes
 
-## Build 21.12.0.50251 - All plugins
+## Build 23.1.0.50251 - All plugins
 
 ### New features
 
 * New plugins Evo Compressor, Evo Touch and Evo EQ.
 * VST3 support
 * ARM support for AAX, AU and VST3
-* Plugins are not resizable
+* Plugins are now resizable
 * Elixir now supports 32 channels
 * Alchemist, BitterSweet, Epure, Pure Compressor, Pure DCompressor, Pure Expander, Pure DExpander, PureLimiter, Solera, Syrah now support 16 channels
 
