@@ -1,4 +1,4 @@
-* [Evo Touch](0_Evo-Touch.md)
+* [Evo Touch](0_Evo_Touch.md)
 * [General settings](1_General_Settings.md)
 * [Module settings](2_Module_Settings.md)
 * [Module settings](3_Geek_Settings.md)
