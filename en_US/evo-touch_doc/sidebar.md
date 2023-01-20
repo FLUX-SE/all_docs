@@ -1,7 +1,7 @@
 * [Evo Touch](0_Evo_Touch.md)
 * [General settings](1_General_Settings.md)
 * [Module settings](2_Module_Settings.md)
-* [Module settings](3_Geek_Settings.md)
+* [Geek settings](3_Geek_Settings.md)
 * [Plugin settings](4_Plugin_Settings.md)
 * [Preset management](5_Preset_Management.md)
 * [Preset manager](6_Preset_Manager.md)
