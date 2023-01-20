@@ -1,6 +1,6 @@
 # Preset Management
 
-EVO Comp, as well as all other Flux:: plug-ins, provides two preset slots referred to as slot A and slot B,
+EVO Comp, as well as all other FLUX:: plug-ins, provides two preset slots referred to as slot A and slot B,
 which provide access to two sets of parameter settings simultaneously. In addition to just recall the settings for
 each of the slots individually and alternate between their settings, a morphing slider is provided offering the
 possibility to morph between the slots and their corresponding settings. When clicking on one of the preset

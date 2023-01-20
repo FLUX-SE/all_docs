@@ -119,20 +119,9 @@ Default Value: 0 %
 Allows process the audio signal independently of the sound level but regarding the signal dynamic range. It is
 mixed with the standard compression scheme.
 
-> *Take a piece of full mixed music, set the ratio to 3-4 and the compression will start working. Now set the threshold
-of the compressor to the maximum value, the compressor will stop working because the sound level will never reach
-the threshold. Then increase the L.I.D.. and you will see (and hear) the compression working again!!! Now decrease or increase
-the input gain (in Solera or before, as you want) and you will see that the compression will continue to work equally; it's totally,
-completely independent of the sound level and depends only on Ratio, Knee and sound content.
-How can this be used? When you have too much dynamic in the sound, going for e.g. from -3, -6 dB Vu (or less) to +12 dB; If you
-want to compress the low levels you will hear the sound ™pumping∫ when the sound reaches the High levels and the only thing
-to do with standard compressor will be to increase the threshold to rescue some airiness in the sound. But when doing that
-the compressor will not work any more on the low levels and you will hear some sound differences (in term density, live space,
-grain etcº ) especially when the compressor starts working. With Solera L.I.D.., adjust the threshold and ratio on the High levels
-to what you think OK, then increase the L.I.D.. (from 20 to 50 %) and listen now the low levels and especially the transition between Low and High levels. You can also start increasing the ratio to increase the effect. You'll then notice that the compression
-will always be active but can still take care of High, loud levels (unless you set 100% L.I.D..) and make the compression very
-smooth and no more pumpingº In addition with the Dynamic Ratio function, you'll be able to set a constant and very natural
-envelop that allows to increase low levels, low frequency and to keep important transients.*
+> Take a piece of full mixed music, set the ratio to 3-4 and the compression will start working. Now set the threshold of the compressor to the maximum value, the compressor will stop working because the sound level will never reach the threshold. Then increase the L.I.D.. and you will see (and hear) the compression working again!!! Now decrease or increase the input gain (in Solera or before, as you want) and you will see that the compression will continue to work equally; it's totally, completely independent of the sound level and depends only on Ratio, Knee and sound content.
+> 
+> How can this be used? When you have too much dynamic in the sound, going for e.g. from -3, -6 dB Vu (or less) to +12 dB; If you want to compress the low levels you will hear the sound ™pumping∫ when the sound reaches the High levels and the only thing to do with standard compressor will be to increase the threshold to rescue some airiness in the sound. But when doing that the compressor will not work any more on the low levels, and you will hear some sound differences (in term density, live space, grain etcº ) especially when the compressor starts working. With Solera L.I.D.., adjust the threshold and ratio on the High levels to what you think OK, then increase the L.I.D.. (from 20 to 50 %) and listen now the low levels and especially the transition between Low and High levels. You can also start increasing the ratio to increase the effect. You'll then notice that the compression will always be active but can still take care of High, loud levels (unless you set 100% L.I.D..) and make the compression very smooth and no more pumping. In addition with the Dynamic Ratio function, you'll be able to set a constant and very natural envelop that allows to increase low levels, low frequency and to keep important transients.
 
 
 ## L.I.D.. Threshold
