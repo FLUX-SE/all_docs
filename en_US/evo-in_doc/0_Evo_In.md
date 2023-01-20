@@ -1,7 +1,7 @@
 ![](include/ManualEvoIn-000.jpg)
 
-[Product Page](https://www.flux.audio/project/evo-in/) 
-| [Shop Page](https://shop.flux.audio/en_US/products/evo-in)
+[Product Page](https://www.flux.audio/project/evo-series/) 
+| [Shop Page](https://shop.flux.audio/en_US/products/evo-series-pack)
 
 # Introduction
 

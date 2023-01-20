@@ -1,5 +1,5 @@
-[Product Page](https://www.flux.audio/project/evo-channel/) 
-| [Shop Page](https://shop.flux.audio/en_US/products/evo-channel)
+[Product Page](https://www.flux.audio/project/evo-series/) 
+| [Shop Page](https://shop.flux.audio/en_US/products/evo-series-pack)
 
 # Introduction
 
