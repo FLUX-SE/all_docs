@@ -1,4 +1,4 @@
-* [Evo EQ](0_Evo-EQ.md)
+* [Evo EQ](0_Evo_EQ.md)
 * [General settings](1_General_Settings.md)
 * [Module settings](2_Module_Settings.md)
 * [Shortcuts](3_Shortcuts.md)
