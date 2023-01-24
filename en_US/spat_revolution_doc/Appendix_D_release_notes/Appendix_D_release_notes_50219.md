@@ -1,6 +1,10 @@
-# Release Notes - Build 22.02.0.50217
+# Release Notes - Build 22.02.0.50219
 
-## Bugs
+## Improvement
+
+- Speaker editor - Cartesian delay computation for up/down speakers
+
+## Bugs fixes
 - 3D view - Issue with scale of source when an automatic scaling is applied on the speaker editor
 - Grid - Double-clicking on boolean shows "true/false" instead of changing the state
 - LAP - Distance Scaling is re-apply on source selection
@@ -10,6 +14,7 @@
 - Snapshot - Issues with Relative recall and scaling
 - Snapshot - Issues with snapshot list and version list when rebuilding the GUI
 - Snapshot bar - Hiding the snapshot bar does not hide the background bar
+- Speaker editor - Delays are wrongly applied when speakers have elevation and are not oriented toward the listener
 - UI - When rebuilding the GUI, some 3D View parameters are not reapplied (scaling, output and number of view)
  
 ## Known Issues
