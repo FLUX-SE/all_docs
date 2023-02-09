@@ -1,0 +1,25 @@
+project:
+  type: website
+  output-dir: ../_build/home
+
+website:
+  title: "FLUX:: Immersive Products Documentation"
+  sidebar:
+    search: true
+    contents:
+      - href: index.qmd
+        text: Home
+      - section: "Plug-ins"
+        contents:
+          - href: ../evo-channel/index.html
+            text: "Evo Channel" 
+            
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+
+

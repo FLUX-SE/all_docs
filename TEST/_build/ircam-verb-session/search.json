@@ -1,0 +1,219 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "IRCAM Verb Session",
+    "section": "",
+    "text": "Product Page | Shop Page"
+  },
+  {
+    "objectID": "Quick_Start.html#block-diagram",
+    "href": "Quick_Start.html#block-diagram",
+    "title": "2  Quick Start",
+    "section": "2.1 Block diagram",
+    "text": "2.1 Block diagram\n\nThe block diagram above shows the global structure of the reverberation engine, which governs the time-structure of the reverberation tail.\n\nThe direct (dry) signal is fed straight to the output. It corresponds to the direct sound, i.e. the direct path from the source to the listener’s ears. This is always the first part of the sound that is heard.\nThe input is fed in parallel to the early reflections generator, abbreviated EARLY. Early reflections play a crucial role in our spatial perception of sound, as they allow us to build a mental representation of the surrounding environment (locations and materials of the walls, fl oor and ceiling). These reflections vary with source position and are panned accordingly.\nThe output of the EARLY stage is fed to a second generator, named CLUSTER, which is responsible for later early reflections. These diff er from early reflections in that they come later and with increased density. This models a transition stage between early and LATE/TAIL generators. In a typical standard configuration, they are a component of the whole acoustic space with no particular localization in order to blend in seamlessly. You can however force them to be directive by changing the diffuseness parameter.\nThe LATE/TAIL stage finally generates the reverberation tail. Acoustical analysis of this component has shown it to consist of dense material, homogeneous with the whole of the reverberated space. As with CLUSTER, the diff useness parameter allows you to override this natural behavior.\n\nA good understanding of this time structure and how it affects perception of sound and space is key to be able to exploit any reverberation system to its full potential and achieve the best sonic results."
+  },
+  {
+    "objectID": "Time_Structure_Display.html#direct-signal",
+    "href": "Time_Structure_Display.html#direct-signal",
+    "title": "3  Time Structure Display",
+    "section": "3.1 (1) Direct signal",
+    "text": "3.1 (1) Direct signal\nThe grey bar at the start of the reverberation pictogram represents the direct sound send at the input of the plug-in.\nIn the time structure of the reverberation, it is the first element that is heard."
+  },
+  {
+    "objectID": "Time_Structure_Display.html#early",
+    "href": "Time_Structure_Display.html#early",
+    "title": "3  Time Structure Display",
+    "section": "3.2 (2) Early",
+    "text": "3.2 (2) Early\nOverall representation of the early reflections distribution.\nVertical bars roughly indicate at what time locations (horizontally) and levels (bar height) these early reflections occur."
+  },
+  {
+    "objectID": "Time_Structure_Display.html#cluster",
+    "href": "Time_Structure_Display.html#cluster",
+    "title": "3  Time Structure Display",
+    "section": "3.3 (3) Cluster",
+    "text": "3.3 (3) Cluster\nSee 12."
+  },
+  {
+    "objectID": "Time_Structure_Display.html#reverb",
+    "href": "Time_Structure_Display.html#reverb",
+    "title": "3  Time Structure Display",
+    "section": "3.4 (4) Reverb",
+    "text": "3.4 (4) Reverb\nShows a graphical representation of the reverberation tail part of the engine. The decay curves of the high, mid and low bands, which are controlled by the decay time settings, are superimposed in different colors and can rapidly be assessed and checked."
+  },
+  {
+    "objectID": "Filter.html#low-freq",
+    "href": "Filter.html#low-freq",
+    "title": "4  Filter",
+    "section": "4.1 (5) Low Freq",
+    "text": "4.1 (5) Low Freq\nLow-pass filter frequency cutoff of the corresponding filter section.\nValue can be quickly adjusted using the mouse by clicking and holding the value box or the yellow vertical bar on the graphical frequency-response display, or exactly by clicking the value box and entering a value with the keyboard."
+  },
+  {
+    "objectID": "Filter.html#high-freq",
+    "href": "Filter.html#high-freq",
+    "title": "4  Filter",
+    "section": "4.2 (6) High Freq",
+    "text": "4.2 (6) High Freq\nHigh-pass filter frequency cutoff of the corresponding filter section."
+  },
+  {
+    "objectID": "Options.html#decay-time",
+    "href": "Options.html#decay-time",
+    "title": "5  Options",
+    "section": "5.1 (7) Decay time",
+    "text": "5.1 (7) Decay time\nThis is the duration of the reverberation ‘tail’ in seconds, in other words how long it takes for the reverberated sound to vanish away. In more technical terms, this is sometimes referred to as the RT factor, which is the time at which the response of the reverberation to an input signal goes below -60dB of attenuation.\nPlease bear in mind that the master decay and high/mid/low controls are interactive, which means that the same audible result can be attained with different settings. This is intentional, as this allows you to get to the result faster and in a manner suited to your personal habits. Generally speaking, it might be more convenient to adjust the master decay time using the resulting sound as a guideline, then fine tune using high and/or low decay controls and leave the mid decay at the default setting. On the other hand, if you specifically to concentrate on the mids, for example to create a ‘hollow room’ sound, it’s easier to focus on the mid decay control, leaving hi and mid decay untouched."
+  },
+  {
+    "objectID": "Options.html#room-size",
+    "href": "Options.html#room-size",
+    "title": "5  Options",
+    "section": "5.2 (8) Room size",
+    "text": "5.2 (8) Room size\nThis parameter is a meta parameter that allow you to quickly perform an homogeneous set of parameters for the early reflexions part (early + cluster). Theses part are particularly important to achieve the “room” feeling of the desired space. It adjust the time structure of the whole reverberation (early-min, early-max, cluster-min, cluster-max, reverb-start). This is a key control for quick settings, before a detailed fi ne tune with each parameters."
+  },
+  {
+    "objectID": "Options.html#predelay",
+    "href": "Options.html#predelay",
+    "title": "5  Options",
+    "section": "5.3 (9) PreDelay",
+    "text": "5.3 (9) PreDelay\nPreDelay controls the time at which the reverberation portion of the effect starts to be heard, with respect to the DIRECT signal. Increasing this helps to distinguish between direct and effected sound and preserve intelligibility, especially with large decay times and room sizes which would otherwise drench the audio material in reverberation."
+  },
+  {
+    "objectID": "Time_Structure_Settings.html#early-gain",
+    "href": "Time_Structure_Settings.html#early-gain",
+    "title": "6  Time Structure Settings",
+    "section": "6.1 (10) Early Gain",
+    "text": "6.1 (10) Early Gain\nControls the level of EARLY and CLUSTER contributed to the overall effect."
+  },
+  {
+    "objectID": "Time_Structure_Settings.html#tail-gain",
+    "href": "Time_Structure_Settings.html#tail-gain",
+    "title": "6  Time Structure Settings",
+    "section": "6.2 (11) Tail Gain",
+    "text": "6.2 (11) Tail Gain\nControls the level of LATE/TAIL contributed to the overall effect."
+  },
+  {
+    "objectID": "Time_Structure_Settings.html#low-damping",
+    "href": "Time_Structure_Settings.html#low-damping",
+    "title": "6  Time Structure Settings",
+    "section": "6.3 (12) Low Damping",
+    "text": "6.3 (12) Low Damping\nAdjusts low-frequency damping, for increasing or decreasing the decay of bass content with respect to the rest of the spectrum."
+  },
+  {
+    "objectID": "Time_Structure_Settings.html#high-damping",
+    "href": "Time_Structure_Settings.html#high-damping",
+    "title": "6  Time Structure Settings",
+    "section": "6.4 (13) High Damping",
+    "text": "6.4 (13) High Damping\nAdjusts high frequency content damping."
+  },
+  {
+    "objectID": "Input_Output_Section.html#input-gain",
+    "href": "Input_Output_Section.html#input-gain",
+    "title": "7  Input Output Section",
+    "section": "7.1 (20) Input Gain",
+    "text": "7.1 (20) Input Gain\nAdjusts the level of the signal fed to the plug-in, in dB increments."
+  },
+  {
+    "objectID": "Input_Output_Section.html#input-level-meter",
+    "href": "Input_Output_Section.html#input-level-meter",
+    "title": "7  Input Output Section",
+    "section": "7.2 (21) Input level meter",
+    "text": "7.2 (21) Input level meter\nShows the current level of the input signal after applying input gain, in dB FS (deciBel Full Scale)."
+  },
+  {
+    "objectID": "Input_Output_Section.html#output-gain",
+    "href": "Input_Output_Section.html#output-gain",
+    "title": "7  Input Output Section",
+    "section": "7.3 (22) Output Gain",
+    "text": "7.3 (22) Output Gain\nUsed to trim the output signal and possibly avoid any overloading of the signal in the rest of the signal-chain."
+  },
+  {
+    "objectID": "Input_Output_Section.html#output-level-meter",
+    "href": "Input_Output_Section.html#output-level-meter",
+    "title": "7  Input Output Section",
+    "section": "7.4 (23) Output level meter",
+    "text": "7.4 (23) Output level meter\nShows the current level of the input signal after applying output gain, in dB FS(deciBel Full Scale)."
+  },
+  {
+    "objectID": "Input_Output_Section.html#drywet",
+    "href": "Input_Output_Section.html#drywet",
+    "title": "7  Input Output Section",
+    "section": "7.5 (24) Dry/Wet",
+    "text": "7.5 (24) Dry/Wet\nWhen used as insert effect, one can dial the right amount of “wet”, reverberated signal with respect to the “dry”, untreated input signal.\nThe default 100-percent wet setting is mostly intended for the typical and preferred use in a send-effect configuration."
+  },
+  {
+    "objectID": "Input_Output_Section.html#setup",
+    "href": "Input_Output_Section.html#setup",
+    "title": "7  Input Output Section",
+    "section": "7.6 (25) Setup",
+    "text": "7.6 (25) Setup\nAdvanced settings to override default behavior, typically when using hosts that do not conform to the standards.\n\n7.6.1 I/O\nOverride automatic track I/O specifications. VerbSession automatically adjusts its I/O configuration based on what the hosts reports to the plugin. Some hosts such as Logic do not report this correctly or do not support asymmetric I/O configurations In this case you have to do this manually and select amongst a number of choices of symmetric (N-to- N) and asymmetric I/O (N to stereo).\n\n\n7.6.2 Options\nThese are best left at their default in most cases, but can be changed if required:\n\nDisable processing during bypass: stops processing completely during bypass. Allows to conserve CPU when using many instances and a lot of bypass on/off automation, such as fi lm or sound effects mixing. Default is off (enabled).\nUse Multi-Thread Automation: dedicate a separate thread for automation. Useful when heavy automation is present in the project to get rid of possible audio dropouts. Default is off (processing and automation share the same thread).\nTry to avoid latency as possible: minimize latency by employing minimal buffering, possibly at the expense of a little CPU overhead. Default is on.\nReport latency: report plugin latency, if any, to the host. Some hosts have difficulty coping with large latency values, in this case you can force the plugin to report zero, but you’ll have to manually compensate for this for tracks to remain synced. Default is on (report true latency)."
+  },
+  {
+    "objectID": "Preset_Section.html#save",
+    "href": "Preset_Section.html#save",
+    "title": "8  Preset Section",
+    "section": "8.1 (14) Save",
+    "text": "8.1 (14) Save\nSaves a snapshot of the current settings for future use.\nShort description and assorted comments can be provided, which comes in especially handy when sharing presets with other users, when the preset is part of a large preset bank, or to identify the author and source.\nEntering a descriptive keyword is a good practice to be able to quickly sort your presets, according to character, the type of space they simulate (e.g. hall, room, etc.), and the intended usage (e.g voice, percussion, guitar, etc.)\nA preset can be locked to prevent any further editing.\nTo re-save your preset under a new name, open the preset manager by clicking the corresponding (A/B) preset slot, then select New, enter a name for your preset, and finally press Save."
+  },
+  {
+    "objectID": "Preset_Section.html#recall",
+    "href": "Preset_Section.html#recall",
+    "title": "8  Preset Section",
+    "section": "8.2 (15) Recall",
+    "text": "8.2 (15) Recall\nRecall the settings from the currently selected preset, overwriting any current settings of the plug-in. The sub-menu which appears allows to recall at your choice:\n\nall parameters\nall parameters but setup: intended for when your particular speaker configuration is different from that of the preset’s author (typically stereo)\nall parameters but setup and dry/wet mix: useful in a mix setting when comparing and choosing presets"
+  },
+  {
+    "objectID": "Preset_Section.html#copy-b",
+    "href": "Preset_Section.html#copy-b",
+    "title": "8  Preset Section",
+    "section": "8.3 (16) Copy B",
+    "text": "8.3 (16) Copy B\nCopy current settings to the second parameter slot (B). To try out a variation of the current settings without erasing the reference, press this button, switch to B and adjust your parameters of choice, then switch or morph between A and B. When copying a preset to a slot, the morphing slider will automatically fl y to the corresponding slot."
+  },
+  {
+    "objectID": "Preset_Section.html#preset-name",
+    "href": "Preset_Section.html#preset-name",
+    "title": "8  Preset Section",
+    "section": "8.4 (17) Preset Name",
+    "text": "8.4 (17) Preset Name\nDisplays the current preset name, if any. Clicking the associated button (up&down arrows) brings up the preset manager."
+  },
+  {
+    "objectID": "Preset_Section.html#morphing-a-b",
+    "href": "Preset_Section.html#morphing-a-b",
+    "title": "8  Preset Section",
+    "section": "8.5 (18) Morphing A B",
+    "text": "8.5 (18) Morphing A B\nGradually morphes parameters from A to B slots.\nThe parameter set associated with the current morphing slider position can be saved as a preset. In addition, when the morphing slider is in an intermediary position, any edit made to a parameter switches the slider back to slot A or B, whichever is closest to the current position."
+  },
+  {
+    "objectID": "Preset_Section.html#automation",
+    "href": "Preset_Section.html#automation",
+    "title": "8  Preset Section",
+    "section": "8.6 (19) Automation",
+    "text": "8.6 (19) Automation\nEnabling the Automation control switch makes the morphing slider exposed and available for automation read.\nWhen engaged, keep in mind only the morphing slider value is used for automation, and other parameter values are ignored. This behavior is intended and necessary to prevent any parameter conflicts that would otherwise occur.\nAs a consequence of this, you need to make sure the Automation switch is engaged when mapping the morphing slider mapped to a control surface hardware knob or slider. On the opposite, when not engaged, the plug-in will listen for any parameter automation, except the morphing slider."
+  },
+  {
+    "objectID": "Preset_Management.html#from-the-plug-in-interface",
+    "href": "Preset_Management.html#from-the-plug-in-interface",
+    "title": "9  Preset Management",
+    "section": "9.1 From the Plug-in interface",
+    "text": "9.1 From the Plug-in interface\n\n9.1.1 A-B Sections\nA plug-in features two preset sections : A & B. Clicking on the slot of a specific section reaches the shared preset bank.\nFrom the preset management window you can select the preset you want to recall in the specific preset section.\n\n\n9.1.2 Save\nSave replaces the selected preset by a new one under the same name featuring the current settings. If you want to keep an existing preset without your new modifications, just select an empty place into the preset list, enter a new name for this modified preset featuring the current settings and press Save.\n\n\n9.1.3 Recall\nOnce a preset is selected from the preset list it must be explicitly loaded into the section A or the section B by using the recall button. A preset is effective only after it has been recalled.\nDouble-clicking on the preset name from the list, reloads the preset into the selected slot.\n\n\n9.1.4 AB Slider\nThis horizontal slider has no unity nor specific value display. It allows to morph current settings between two loaded presets. A double-click on one side of the slider area toggles between full A and full B settings. The results of an in between setting can be save as a new preset."
+  },
+  {
+    "objectID": "Preset_Management.html#from-the-preset-management-window",
+    "href": "Preset_Management.html#from-the-preset-management-window",
+    "title": "9  Preset Management",
+    "section": "9.2 From the Preset Management Window",
+    "text": "9.2 From the Preset Management Window\nThe Preset Management Window features three preset banks:\n\nThe Factory bank gathers presets that can’t be edited by users.\nThe User bank is dedicated to the users presets.\nThe Global bank features presets for A, B and morphing sections. A single global preset includes A and B section content and the morphing slider position.\n\nA Preset can directly be recalled into the preset section selected by the morphing slider position, by double-clicking on its name on the list. The preset lists can be filtered. This filter is applied to any preset information such as name, description, author, comments or key words.\n\n\n9.2.1 Recall A\nRecalls the selected preset into the corresponding location.\n\n\n9.2.2 Recall B\nRecalls the selected preset into the corresponding location.\n\n\n9.2.3 Copy A and Copy B\nThese buttons allow to easily create a variation around a preset.\n\n\n9.2.4 Update\nUpdate the current preset with current settings.\n\n\n9.2.5 New\nCreates a new preset in the list.\n\n\n9.2.6 Duplicate\nCreates a new preset in the list based on the currently selected one.\n\n\n9.2.7 Edit\nGives access to an edit window where you can change the preset’s name, description and add optional key words, the author’s name, etc.\n\n\n9.2.8 Delete\nSuppresses the selected preset.\n\n\n9.2.9 Export\nSaves the preset to a file on disk.\n\n\n9.2.10 Import\nAdds existing presets into the preset bank.\n\n\n9.2.11 Sorting arrows\nMoves a preset up and down in the list for sorting.\n\nWhen engaged, the preset is protected, and any subsequent modifications or edits are allowed for the original author only. This comes in handy in a multi-user configuration. Protected presets can of course still be loaded or deleted when the user logs under a different computer session."
+  },
+  {
+    "objectID": "Credits.html",
+    "href": "Credits.html",
+    "title": "10  Credits",
+    "section": "",
+    "text": "Spatialisateur and Spat~ are trademarks of Ircam and Espaces Nouveaux.\nDesign of digital signal processing algorithms and implementation in Max: Jean-Marc Jot (Espaces Nouveaux / Ircam).\nObjective and perceptual characterization of room acoustical quality: Jean-Pascal Jullien, Olivier Warusfel, Eckhard Kahle.\nAdditional contributions by Gerard Assayag, Georges Bloch, Martine Marin, véronique Larcher, Guillaume Vandernoot and Khoa-Van Nguyen.\nC++ development code : Thibaut Carpentier , Remy Muller; additional contributions: Gael Martinet.\nThanks to Xavier Chabot, Eric Daubresse, Gerhard Eckel, Serge Lemouton, Gilbert Nouno, Laurent Pottier, Manuel Poletti, Leslie Stuck, and Zack Settel for instructive discussions and advice.\nIrcam R&D Director : Hugues Vinet\nCollection Manager: Frederick Rousseau\nCopyright © 2011 Ircam. All rights reserved.\nIRCAMTOOLS\nCollection Manager for IRCAM: Frederick Rousseau\nCollection Manager for Flux:: Gael Martinet\nIRCAMTOOLS SPAT, VERB\nCopyright © 2010 Ircam and Flux:: sound and picture development. All rights reserved.\nFLUX::\nHead software engineering: Gael Martinet\nDeveloppers: Gael Martinet, Samuel Tracol, Siegfried Hand\nDesigner: Nicolas Philippot\nManual: Lorcan Mc Donagh"
+  },
+  {
+    "objectID": "Specifications.html#compatbility",
+    "href": "Specifications.html#compatbility",
+    "title": "11  Specifications",
+    "section": "11.1 Compatbility",
+    "text": "11.1 Compatbility\n\n11.1.1 Windows - 10, 64 bits.\n\nVST (2.4) in 64 bit\nVST3 (3.1) in 64 bit\nAAX Native/AudioSuite, all in 64 bit*\nVS3** Pyramix 10 and more in 64 bit and Ovation 6 and more\n\n\n\n11.1.2 macOS (Intel and ARM) - 10.12 (Sierra) and more.\n\nVST (2.4) in 64 bit\nVST3 (3.1) in 64 bit\nAU in 64 bit\nAAX Native/AudioSuite, all in 64 bit*"
+  }
+]

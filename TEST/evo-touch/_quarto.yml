@@ -1,0 +1,28 @@
+project:
+  type: book
+  output-dir: ../_build/evo-touch ####### <=========== Don't forget to edit path if renaming is needed. YAML don't support concatenation
+
+book:
+  title: "Evo Touch"
+  author: "FLUX:: Immersive"
+  date: "2/6/2023"
+  downloads: [pdf]
+  chapters:
+    - index.qmd
+    - General_Settings.qmd
+    - Module_Settings.qmd
+    - Geek_Settings.qmd
+    - Plugin_Settings.qmd
+    - Preset_Management.qmd
+    - Preset_Manager.qmd
+    - Specifications.qmd
+#[Release Notes](../../flux_processing_release_notes.md)
+
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreport
+  epub:
+    css: epub-styles.css

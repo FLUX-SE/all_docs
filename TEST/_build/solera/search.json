@@ -1,0 +1,513 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Solera",
+    "section": "",
+    "text": "1 Solera\nProduct Page | Shop Page\nThe Solera dynamic processor is a comprehensive dynamic processor providing a compressor, expander, de-compressor and de-expander, that each may be enabled individually, all processing in parallel using one single common detector.\nEach of the dynamics sections employs independent Dynamic Ratio and L.I.D. (Level Independent Detector) settings, two parameters that are kind of unique to dynamic processing, using the dynamic range content of the signal and not just the signal levels as standard dynamics processors do.\nDynamic Ratio (23) is controlling the amount of auto-ratio determined by the signal dynamics and the manual ratio setting.\nL.I.D. (25) (Level Independent Detector) controls the amount of auto-threshold determined by the signal dynamics and the manual threshold value, providing processing of the audio signal independently of the sound level and instead in regards to the signal dynamic range."
+  },
+  {
+    "objectID": "index.html#display-area",
+    "href": "index.html#display-area",
+    "title": "Solera",
+    "section": "1.1 Display Area",
+    "text": "1.1 Display Area\nFor full visual control over the processing Solera provides a comprehensive display area including:\n\nResultant dynamics curve\nParametric curve for the side-chain EQ\nInput level (VU-Meter referenced to -16 dB FS by default)\nOutput level\nResultant envelope (Compression, De-Compression, Expansion, De-Expansion & Clipper activity)\nDynamic difference between input and output\nLevel difference between input and output"
+  },
+  {
+    "objectID": "index.html#ms-mode",
+    "href": "index.html#ms-mode",
+    "title": "Solera",
+    "section": "1.2 MS Mode",
+    "text": "1.2 MS Mode\nTo conform with the demands of serious audio mastering Solera features a Mid/Side (MS) encoder/decoder section encoding the signal from the stereo inputs by summing left and right channels to produce the Mid, and by phase switching the right channel from the left channel to produce the Side signal.\nProcessing M and S as separate components with a compressor makes it possible to achieve results that would be impossible with a regular stereo setup.\nExample:\nA bass drum in the stereo center with a fluctuating level surrounded by a synthesizer pad. The M channel featuring the bass drum can be processed without affecting the S channel featuring the Synthesizer pad. Changing the S gain when decoding allows controlling the stereo width using MS Width (20).\nThe Solera MS mode should only be used with stereo signal and it is strongly recommended to avoid this on already MS encoded signal."
+  },
+  {
+    "objectID": "index.html#side-chain-detector-equalizer",
+    "href": "index.html#side-chain-detector-equalizer",
+    "title": "Solera",
+    "section": "1.3 Side Chain & Detector Equalizer",
+    "text": "1.3 Side Chain & Detector Equalizer\nSolera features a three band Detector Equalizer for frequency-sensitive processing. The Detector EQ does not affect the direct audio signal, but instead it applies to the signal detection channel that drives the processing, offering the option to shape the actual processing to be performed within a certain frequency range. For further control of the processing, optional external side-chain signal feeding is provided.\nEven though the Detector EQ parameters value ranges may seem extreme, with a Q-Factor up to 10, frequencies above 20 KHz and with cumulative gain, really smooth results can be achieved without deteriorating artefacts even when dealing with frequencies out of the audio spectrum. The purpose with this is to be able to use a part of the correction and include it into the audio spectrum; this is one of the secrets behind the “Air” correction often featured on vintage audio processors.\nThe wide range processing ensures a perfect accuracy in terms of phase and propagation time. Filtering the control signal upstream of the envelope gain generation allows for controlling the overall tonal balance by increasing or decreasing the processing of a particular part of the audio spectrum.\nReducing the gain for the low frequencies before the detection, increase the low frequencies in the processed signal if the processing settings reduce the gain according to the signal level. With this configuration, increasing the gain for the high frequencies makes the processing more sensitive to this particular part of the audio spectrum, and turns Solera into a sibilance controller."
+  },
+  {
+    "objectID": "index.html#delay",
+    "href": "index.html#delay",
+    "title": "Solera",
+    "section": "1.4 Delay",
+    "text": "1.4 Delay\nA delay line can be inserted into the processed signal with the main purpose to produce a zero/null attack time for the processing when the delay value equals the Attack time. The Auto (46) button automatically sets the delay value according to the Attack time. Setting the delay time lower than the Attack time preserves the peaks from the processing."
+  },
+  {
+    "objectID": "index.html#dry-mix",
+    "href": "index.html#dry-mix",
+    "title": "Solera",
+    "section": "1.5 Dry Mix",
+    "text": "1.5 Dry Mix\nThe original dry signal can be mixed with the processed material using the Dry Mix (2) dial. The original audio peaks are kept and added to the processed sound to preserve the sensitive information of the sound attacks. > Note that the Dry Mix function takes the delay that may be introduced by the processing into account. The summing is done before the clipper stage, and the displayed gain also reflects the Dry Mix setting."
+  },
+  {
+    "objectID": "General_Settings.html#dry-mix-2",
+    "href": "General_Settings.html#dry-mix-2",
+    "title": "2  General Settings",
+    "section": "2.1 Dry Mix (2)",
+    "text": "2.1 Dry Mix (2)\nAdjusts the amount of unprocessed signal mixed in with the processed signal.\nThe mix is made before the Output Gain (3).\nDefault Value: -144 dB"
+  },
+  {
+    "objectID": "General_Settings.html#output-gain-3",
+    "href": "General_Settings.html#output-gain-3",
+    "title": "2  General Settings",
+    "section": "2.2 Output Gain (3)",
+    "text": "2.2 Output Gain (3)\nAdjusts the global gain applied to the dynamics processing output.\nUnit: dB\nValue Range: -48 / +48\nStep: 0.01\nDefault Value: 0 dB"
+  },
+  {
+    "objectID": "General_Settings.html#invert-phase-4",
+    "href": "General_Settings.html#invert-phase-4",
+    "title": "2  General Settings",
+    "section": "2.3 Invert Phase (4)",
+    "text": "2.3 Invert Phase (4)\nInverts the phase of the processed signal by 180 degrees. The phase flip applies to the detector Equalizer Solo (40) as well.\nDefault Value: Off"
+  },
+  {
+    "objectID": "General_Settings.html#clipper-enable-5",
+    "href": "General_Settings.html#clipper-enable-5",
+    "title": "2  General Settings",
+    "section": "2.4 Clipper Enable (5)",
+    "text": "2.4 Clipper Enable (5)\nEnables the built in discrete peak limiter, applied at the very last stage of the processing.\nDefault Value: Off"
+  },
+  {
+    "objectID": "General_Settings.html#clipper-knee-6",
+    "href": "General_Settings.html#clipper-knee-6",
+    "title": "2  General Settings",
+    "section": "2.5 Clipper Knee (6)",
+    "text": "2.5 Clipper Knee (6)\nAdjusts the shape of the peak limiter response curve.\nUnit: dB\nValue Range: 0 / +6\nStep: 0.01\nDefault Value: 1 dB"
+  },
+  {
+    "objectID": "General_Settings.html#clipper-ceiling-6",
+    "href": "General_Settings.html#clipper-ceiling-6",
+    "title": "2  General Settings",
+    "section": "2.6 Clipper Ceiling (6)",
+    "text": "2.6 Clipper Ceiling (6)\nAdjusts the peak limiter output ceiling.\nUnit: dB\nValue Range: -0.3 / 0\nStep: 0.01\nDefault Value: 0 dB"
+  },
+  {
+    "objectID": "General_Settings.html#link-channels-7",
+    "href": "General_Settings.html#link-channels-7",
+    "title": "2  General Settings",
+    "section": "2.7 Link Channels (7)",
+    "text": "2.7 Link Channels (7)\nWhen Link Channels is enabled, by default the maximum value issued from all channels feeding the side chain is retained as the source for processing preserving the space information for the processed multi-channel signals.\nWhen Link Channels is disabled, each channel uses its own value for individual processing.\nUsing this configuration in conjunction with the MS width section, which encode the signal in MS before processing and decodes it at the output, the M signal can be processed while keeping the S channel untouched.\nDefault: Enabled"
+  },
+  {
+    "objectID": "General_Settings.html#bypass-8",
+    "href": "General_Settings.html#bypass-8",
+    "title": "2  General Settings",
+    "section": "2.8 Bypass (8)",
+    "text": "2.8 Bypass (8)\nGlobal bypass, when pressed the inputs are routed directly to the outputs.\nDefault Value: Off"
+  },
+  {
+    "objectID": "General_Settings.html#channel-processing-selector-9",
+    "href": "General_Settings.html#channel-processing-selector-9",
+    "title": "2  General Settings",
+    "section": "2.9 Channel Processing Selector (9)",
+    "text": "2.9 Channel Processing Selector (9)\nOn a multi-channel bus Solera by default processes the incoming audio on all channels. Certain situations may require exclusion of some of the channels from processing. Unchecking a channel excludes the audio material from processing.\nBy using several instances of Solera in series this feature can be used for explicit processing of specific channels.\nDefault Value: On"
+  },
+  {
+    "objectID": "General_Settings.html#side-chain-external-side-chain-routing-10",
+    "href": "General_Settings.html#side-chain-external-side-chain-routing-10",
+    "title": "2  General Settings",
+    "section": "2.10 Side-Chain & External Side-Chain Routing (10)",
+    "text": "2.10 Side-Chain & External Side-Chain Routing (10)\nExternal side-chain is only available in mono and stereo. On a multi-channel bus Solera is by default feeding all channels to the side-chain.\nWhen using the external side-chain feature an additional side-chain channel button presents itself consecutively after the standard side-chain channel buttons. In mono the side-chain channel is presented as channel 2, and in stereo as channel 3.\nDifferent behaviours are exhibited for the external side-chain depending on the host and plug-in type:\n\nAudio Unit: The side-chain button is displayed when the host actually feeds audio to the side-chain.\nAAX: The side-chain button is only active if a side-chain bus is selected from the plug-in handler.\nVST: No side-chain feature is available.\n\nUsing Solera on a multichannel bus and route the audio in the host accordingly to achieve the same functionality, can be accomplished in most hosts.\nSome situations may require for certain channels to be omitted from the side-chain feed. Unchecking a side-chain channel button omits that channel from the side-chain feed."
+  },
+  {
+    "objectID": "General_Settings.html#ms-width-control-20",
+    "href": "General_Settings.html#ms-width-control-20",
+    "title": "2  General Settings",
+    "section": "2.11 MS Width Control (20)",
+    "text": "2.11 MS Width Control (20)\nAdjusts the stereo width of the processed signal.\nWhen set to -6 dB the stereo width decreases and increases when set to +6 dB. Extreme settings may due to the nature of the processing produce phase issues.\nUnit: dB\nValue Range: -6 / +6\nStep: 0.01\nDefault Value: 0"
+  },
+  {
+    "objectID": "General_Settings.html#ms-mode-onoff-21",
+    "href": "General_Settings.html#ms-mode-onoff-21",
+    "title": "2  General Settings",
+    "section": "2.12 MS Mode On/Off (21)",
+    "text": "2.12 MS Mode On/Off (21)\nThe stereo width of the mix is controlled using a MS encoder/decoder at the dynamic processing input/output.\nWhen engaged, the side-chain is fed by a MS encoded signal with the M channel corresponding to the standard left channel, and the S channel corresponding to the standard right channel. This is reflected in the metering section of the graphical display where the label L and R are being replaced by M and S.\nThis feature is only available when processing two channels (no more, no less).\nDefault Value: Off"
+  },
+  {
+    "objectID": "Time_Related_Settings.html#delay-47",
+    "href": "Time_Related_Settings.html#delay-47",
+    "title": "3  Time Related Settings",
+    "section": "3.1 Delay (47)",
+    "text": "3.1 Delay (47)\nBy introducing a delay into the signal path reflecting the attack time, a zero attack time can be produced for the dynamic processing.\nShifting the delay value from the attack time makes it possible to control the transients. A delay value inferior to the attack time value, leaves the peaks untouched by the processing.\nFor obvious reasons the delay introduces latency in the processing and the different delay values on every band are automatically compensated.\n\nNote that Solera cannot be used to produce delay-based special effects.\n\n!> Warning: Morphing between presets with different delay values produces sound artefacts.\nUnit: ms\nValue Range: 0 to 50.0 ms\nDefault Value: 0 ms"
+  },
+  {
+    "objectID": "Time_Related_Settings.html#auto-delay-46",
+    "href": "Time_Related_Settings.html#auto-delay-46",
+    "title": "3  Time Related Settings",
+    "section": "3.2 Auto Delay (46)",
+    "text": "3.2 Auto Delay (46)\nLinks the Delay (47) to the Attack (49).\n\nNote that the latency introduced by this equals to the attack time divided by two.\n\nDefault Value: Off"
+  },
+  {
+    "objectID": "Time_Related_Settings.html#mode-48",
+    "href": "Time_Related_Settings.html#mode-48",
+    "title": "3  Time Related Settings",
+    "section": "3.3 Mode (48)",
+    "text": "3.3 Mode (48)\nIn order to adapt the dynamic processing for the actual signal a detector examines the incoming signal in advance. Based on how the detection is performed different results can be achieved in the dynamic processing.\n\n3.3.1 Solera provides eight different detection modes:\n\nSolera - The Attack setting also controls the integration time for RMS detection. With Auto Delay (46) engaged the produced attack time is zero.\nSolera Feed Backward - The Attack setting also controls the integration time for RMS detection, which is done on the output of the processor. This mode disables the Delay (47) feature. Note that the Solera Feed Backward prevents usage of the external side chain as the processed signal is feeding the side chain.\nClassic Fast - The integration time for RMS detection is 10 ms with no direct relation to the Attack setting. Though with Auto Delay (46) engaged the produced attack time is zero.\nClassic Medium - The integration time for RMS detection is 40 ms with no direct relation to the Attack setting. Though with Auto Delay (46) engaged the produced attack time is zero.\nClassic Slow - The integration time for RMS detection is 80 ms with no direct relation to the Attack setting. Though with Auto Delay (46) engaged the produced attack time is zero.\nClassic Feed Backward Fast - The integration time is 10 ms for RMS detection, which is done on the output of the processor. This mode disables the Delay (46) feature. Note that the Feed Backward mode prevents usage of the external side chain as the processed signal is feeding the side chain.\nClassic Feed Backward Medium - The integration time is 40 ms for RMS detection, which is done on the output of the processor. This mode disables the Delay (46) feature. Note that the Feed Backward mode prevents usage of the external side chain as the processed signal is feeding the side chain.\nClassic Feed Backward Slow - The integration time is 80 ms for RMS detection, which is done on the output of the processor. This mode disables the Delay (47) feature. Note that the Feed Backward mode prevents usage of the external side chain as the processed signal is feeding the side chain.\n\nThe Feed Backward modes have been inspired by vintage hardware architectures. They create a sort of auto regulation of the processing which produces a naturally beefy sound.\nDefault Value: Solera"
+  },
+  {
+    "objectID": "Time_Related_Settings.html#attack-49",
+    "href": "Time_Related_Settings.html#attack-49",
+    "title": "3  Time Related Settings",
+    "section": "3.4 Attack (49)",
+    "text": "3.4 Attack (49)\nSets the attack time of the processing envelope. It also controls the way the RMS value is computed from the incoming signal. Warning: The Attack setting also controls the integration time for the RMS detection.\nUnit: ms\nValue Range: 0 ms to 100 ms\nDefault Value: 0.0 ms"
+  },
+  {
+    "objectID": "Time_Related_Settings.html#hold-50",
+    "href": "Time_Related_Settings.html#hold-50",
+    "title": "3  Time Related Settings",
+    "section": "3.5 Hold (50)",
+    "text": "3.5 Hold (50)\nThis parameter is the only one in the time related settings that is independent per dynamic processor. The compressor and the expander may have different hold time. Used in the Expander section, this setting allows very precise gating of drum tracks. It can also be used for creative purpose on the other dynamic sections.\nUnit: ms\nValue Range: 0 ms / 500 ms.\nDefault Value: 0 ms"
+  },
+  {
+    "objectID": "Time_Related_Settings.html#release-mode-51",
+    "href": "Time_Related_Settings.html#release-mode-51",
+    "title": "3  Time Related Settings",
+    "section": "3.6 Release Mode (51)",
+    "text": "3.6 Release Mode (51)\nThree release modes are available for the envelop of the dynamic processing.\n\nManual - Corresponds to the value you have set.\nAuto - Enables the algorithm to generate a signal dependent value to avoid typical pumping effects.\nAdvanced - Gives access to two different values for release and to the control of the velocity of the variations between the maximum and the minimum release values.\n\nDefault Value: Auto"
+  },
+  {
+    "objectID": "Time_Related_Settings.html#release-52",
+    "href": "Time_Related_Settings.html#release-52",
+    "title": "3  Time Related Settings",
+    "section": "3.7 Release (52)",
+    "text": "3.7 Release (52)\nSets the manual release value and the maximum release value when in Advanced Mode.\nUnit: ms\nValue Range: 0.67 ms / 10000.00 ms\nDefault Value: 500.00 ms"
+  },
+  {
+    "objectID": "Time_Related_Settings.html#release-minimum-53",
+    "href": "Time_Related_Settings.html#release-minimum-53",
+    "title": "3  Time Related Settings",
+    "section": "3.8 Release Minimum (53)",
+    "text": "3.8 Release Minimum (53)\nSets the minimum release value when in Advanced Mode.\nUnit: ms\nValue Range: 0.67ms / 5000.00\nStep: 0.01\nDefault Value: 1.30 ms"
+  },
+  {
+    "objectID": "Time_Related_Settings.html#dynamic-factor-54",
+    "href": "Time_Related_Settings.html#dynamic-factor-54",
+    "title": "3  Time Related Settings",
+    "section": "3.9 Dynamic Factor (54)",
+    "text": "3.9 Dynamic Factor (54)\nAmplify or dim the extracted real time dynamic information.\nUnit: x\nValue Range: 0 / 3.0\nStep: variable\nDefault Value: 1"
+  },
+  {
+    "objectID": "Time_Related_Settings.html#dynamic-velocity-55",
+    "href": "Time_Related_Settings.html#dynamic-velocity-55",
+    "title": "3  Time Related Settings",
+    "section": "3.10 Dynamic Velocity (55)",
+    "text": "3.10 Dynamic Velocity (55)\nSets the speed of variation on the dynamic information.\nUnit: %\nValue Range: 10 / 1000\nStep: 1\nDefault Value: 50 %"
+  },
+  {
+    "objectID": "Dynamic_Section_Settings.html#peak-detection-amount-22",
+    "href": "Dynamic_Section_Settings.html#peak-detection-amount-22",
+    "title": "4  Dynamic Section Settings",
+    "section": "4.1 Peak Detection Amount (22)",
+    "text": "4.1 Peak Detection Amount (22)\nPercentage of the instant peak value used to feed the detector section, making the dynamic processing more sensitive to audio transients. 0 % means 100 % RMS signal feeding the detector section; 100 % means only peak signal is feeding the detector section, and 50 % is fifty-fifty of each.\nUnit: %\nValue Range: 0 / 100\nStep: 1\nDefault Value: 0 %"
+  },
+  {
+    "objectID": "Dynamic_Section_Settings.html#dynamic-ratio-23",
+    "href": "Dynamic_Section_Settings.html#dynamic-ratio-23",
+    "title": "4  Dynamic Section Settings",
+    "section": "4.2 Dynamic Ratio (23)",
+    "text": "4.2 Dynamic Ratio (23)\nThe Dynamic Ratio setting relaxes the ratio applied to the processor section when the detected signal dynamic rises, and literally opens the sound, increases the dynamic impression and maintains some crest by adjusting the ratio of every dynamic processing section in realtime, both their current ratio settings and the signal content (mainly dynamic range).\nUnit: %\nValue Range: 0 / 100\nStep: 1\nDefault Value: 0 %\n\nTo start understanding this setting and easily hear it, take a full mixed drum kit or a complete mix with punchy drums, set the compression threshold and ratio to values that makes it close to a pumping or an aggressive compression. Then increase the output gain to compensate the gain lost and toggle between 0 and 100% of Dynamic Ratio. At 100 % you should hear more air in the sound, more transient and less of the compression impression, especially the attack."
+  },
+  {
+    "objectID": "Dynamic_Section_Settings.html#dynamic-ratio-inverter-24",
+    "href": "Dynamic_Section_Settings.html#dynamic-ratio-inverter-24",
+    "title": "4  Dynamic Section Settings",
+    "section": "4.3 Dynamic Ratio Inverter (24)",
+    "text": "4.3 Dynamic Ratio Inverter (24)\nWhen engaged, the behaviour of the Dynamic Ratio is inverted.\nThe ratio value is increased depending of the detected signal dynamics."
+  },
+  {
+    "objectID": "Dynamic_Section_Settings.html#l.i.d.-level-independent-detector-25",
+    "href": "Dynamic_Section_Settings.html#l.i.d.-level-independent-detector-25",
+    "title": "4  Dynamic Section Settings",
+    "section": "4.4 L.I.D. (Level Independent Detector) (25)",
+    "text": "4.4 L.I.D. (Level Independent Detector) (25)\nControls the amount of auto-threshold determined by the signal dynamics and the manual threshold value, providing processing of the audio signal independently of the sound level and instead in regards to the signal dynamic range.\nUnit: %\nValue Range: 0 / 100\nStep: 1\nDefault Value: 0 %\n\nUse a full song mix. Set the ratio to 3-4 for the compression to start working and the threshold of the compressor to the max value, the compressor will stop working because the sound level will never reach the threshold. Now increase the L.I.D. and you will hear the compression working again. Next decrease or increase the input gain, the compression will continue to work equally completely independent of the sound level, only depending on Ratio, Knee and sound content.\nWhen you have too much dynamic in the sound, going from -3, -6 dB Vu (or less) to +12 dB, and you want to compress the low levels, you will get a pumping effect when the sound reaches the high levels. The only thing to do with a standard compressor is to increase the threshold to retain the airiness in the sound. But when this is done the compressor will not work any more on the low levels and you will hear differences (in term density, live space, grain etc.) especially when the compressor starts working.\nWith Solera, adjust the threshold and ratio on the high levels to what you find okay, then increase the L.I.D. (from 20 to 50 %) and listen to the low levels and especially the transition between low and high levels. You can also increase the ratio for a stronger effect, and you will notice that the compression will still be present and still affect the high/loud levels (unless you set 100% L.I.D.) and make the compression very smooth with no more pumping. In addition to the Dynamic Ratio function you will be able to set a constant and very natural envelope that allows to increase low levels, low frequency and to keep the important transients."
+  },
+  {
+    "objectID": "Dynamic_Section_Settings.html#l.i.d..-threshold-26",
+    "href": "Dynamic_Section_Settings.html#l.i.d..-threshold-26",
+    "title": "4  Dynamic Section Settings",
+    "section": "4.5 L.I.D.. Threshold (26)",
+    "text": "4.5 L.I.D.. Threshold (26)\nSets the gain range of the L.I.D. parameter.\n\nUp: Increasing of the L.I.D. action.\nDown: Decreasing of the L.I.D. action.\n\nTwo green lines on the Dynamic Activity display reflect the current L.I.D. threshold value. For Compressor and DCompressor sections, the L.I.D. action is effective only when the orange Dynamic Activity (18) exceeds the area between the two green lines. For Expander and DExpander sections, the L.I.D. action is effective only when the orange Dynamic Activity (18) stays inside the area between the two green lines."
+  },
+  {
+    "objectID": "Dynamic_Section_Settings.html#l.i.d.-maximum-27",
+    "href": "Dynamic_Section_Settings.html#l.i.d.-maximum-27",
+    "title": "4  Dynamic Section Settings",
+    "section": "4.6 L.I.D. Maximum (27)",
+    "text": "4.6 L.I.D. Maximum (27)\nWhen engaged, the threshold for the processing is determined by the maximum values from RMS/peak detection OR from the signal dynamic detection. The L.I.D. Threshold is still active, but the L.I.D. mix button is disabled. This feature allows the whole process to be more reactive to the signal content, very efficient when used on drum tracks."
+  },
+  {
+    "objectID": "Dynamic_Section_Settings.html#threshold-28",
+    "href": "Dynamic_Section_Settings.html#threshold-28",
+    "title": "4  Dynamic Section Settings",
+    "section": "4.7 Threshold (28)",
+    "text": "4.7 Threshold (28)\nSets the threshold of the specific dynamic processing section. This dB scale refers to an RMS value.\nThe threshold effective value is modified by the L.I.D, L.I.D. Threshold and L.I.D. Maximum settings.\nUnit: dB\nValue Ranges:\n-32 to +16 (Compressor/DCompressor)\n-80 to +16 (Expander/DExpander)\nDefault Value: 0"
+  },
+  {
+    "objectID": "Dynamic_Section_Settings.html#ratio-29",
+    "href": "Dynamic_Section_Settings.html#ratio-29",
+    "title": "4  Dynamic Section Settings",
+    "section": "4.8 Ratio (29)",
+    "text": "4.8 Ratio (29)\nSets the ratio of the specific dynamic processing section. The ratio effective value is modified by the Dynamic Ratio amount.\nUnit: dB\nValue Range: 1 to 10\nStep: 0.01\nDefault Value: 1"
+  },
+  {
+    "objectID": "Dynamic_Section_Settings.html#infinite-30",
+    "href": "Dynamic_Section_Settings.html#infinite-30",
+    "title": "4  Dynamic Section Settings",
+    "section": "4.9 Infinite (30)",
+    "text": "4.9 Infinite (30)\nSets the ratio to its maximum possible value depending of the dynamic section.\nThe DCcompressor section is limited to 12 when this button is engaged"
+  },
+  {
+    "objectID": "Dynamic_Section_Settings.html#range-31",
+    "href": "Dynamic_Section_Settings.html#range-31",
+    "title": "4  Dynamic Section Settings",
+    "section": "4.10 Range (31)",
+    "text": "4.10 Range (31)\nSets the maximum allowed gain variation for a specific dynamic processing section.\nUnit: dB\nValue Range: 0 to 48/140/24/16 (Compressor/Expander/DCompressor/DExpander)\nDefault Value: 24/96/12/12"
+  },
+  {
+    "objectID": "Dynamic_Section_Settings.html#knee-32",
+    "href": "Dynamic_Section_Settings.html#knee-32",
+    "title": "4  Dynamic Section Settings",
+    "section": "4.11 Knee (32)",
+    "text": "4.11 Knee (32)\nSets the smoothness of the transmission curve for the specific dynamic processing section. The curve is smoothed around the threshold value of the dB amount set with the knee value.\nUnit: dB\nValue Range: 0 / +24\nDefault Value: 0"
+  },
+  {
+    "objectID": "Dynamic_Section_Settings.html#dynamic-section-onoff-33",
+    "href": "Dynamic_Section_Settings.html#dynamic-section-onoff-33",
+    "title": "4  Dynamic Section Settings",
+    "section": "4.12 Dynamic Section On/Off (33)",
+    "text": "4.12 Dynamic Section On/Off (33)\nActivates the specific section."
+  },
+  {
+    "objectID": "Dynamic_Section_Settings.html#compressor-section-selector-35",
+    "href": "Dynamic_Section_Settings.html#compressor-section-selector-35",
+    "title": "4  Dynamic Section Settings",
+    "section": "4.13 Compressor Section Selector (35)",
+    "text": "4.13 Compressor Section Selector (35)\nSelects the Compressor section."
+  },
+  {
+    "objectID": "Dynamic_Section_Settings.html#dcompressor-section-selector-36",
+    "href": "Dynamic_Section_Settings.html#dcompressor-section-selector-36",
+    "title": "4  Dynamic Section Settings",
+    "section": "4.14 DCompressor Section Selector (36)",
+    "text": "4.14 DCompressor Section Selector (36)\nSelects the DCompressor section."
+  },
+  {
+    "objectID": "Dynamic_Section_Settings.html#expander-section-selector-37",
+    "href": "Dynamic_Section_Settings.html#expander-section-selector-37",
+    "title": "4  Dynamic Section Settings",
+    "section": "4.15 Expander Section Selector (37)",
+    "text": "4.15 Expander Section Selector (37)\nSelects the Expander section."
+  },
+  {
+    "objectID": "Dynamic_Section_Settings.html#dexpander-section-selector-38",
+    "href": "Dynamic_Section_Settings.html#dexpander-section-selector-38",
+    "title": "4  Dynamic Section Settings",
+    "section": "4.16 DExpander Section Selector (38)",
+    "text": "4.16 DExpander Section Selector (38)\nSelects the DExpander section."
+  },
+  {
+    "objectID": "Dynamic_Section_Settings.html#dynamic-section-activity-34",
+    "href": "Dynamic_Section_Settings.html#dynamic-section-activity-34",
+    "title": "4  Dynamic Section Settings",
+    "section": "4.17 Dynamic Section Activity (34)",
+    "text": "4.17 Dynamic Section Activity (34)\nThe gain is displayed in a 12 dB scale from left to right for gain increase and from right to left for gain decrease for the corresponding dynamic section."
+  },
+  {
+    "objectID": "Display.html#eq-display-12",
+    "href": "Display.html#eq-display-12",
+    "title": "5  Display",
+    "section": "5.1 Eq Display (12)",
+    "text": "5.1 Eq Display (12)\nGraphical editing of the three-band Detector EQ is provided. Double click on the EQ display will expand it."
+  },
+  {
+    "objectID": "Display.html#input-level-meter-13",
+    "href": "Display.html#input-level-meter-13",
+    "title": "5  Display",
+    "section": "5.2 Input Level Meter (13)",
+    "text": "5.2 Input Level Meter (13)\nVu-meter, not peak-meter, referenced to -16 dB Fs by default, with auto scale depending of the threshold values.\nWhen the MS Width section is engaged, the M (Mid) level is displayed on the left meter. S (Side) is displayed on the right meter. The green index reflects the threshold value."
+  },
+  {
+    "objectID": "Display.html#output-level-meter-14",
+    "href": "Display.html#output-level-meter-14",
+    "title": "5  Display",
+    "section": "5.3 Output Level Meter (14)",
+    "text": "5.3 Output Level Meter (14)\nVu-meter, not peak-meter, referenced to -16 dB Fs by default, with auto scale depending of the threshold values.\nWhen the MS Width section is engaged, the M (Mid) level is displayed on the left meter. S (Side) is displayed on the right meter."
+  },
+  {
+    "objectID": "Display.html#resultant-envelope-15",
+    "href": "Display.html#resultant-envelope-15",
+    "title": "5  Display",
+    "section": "5.4 Resultant Envelope (15)",
+    "text": "5.4 Resultant Envelope (15)\nVu-meter, not peak-meter, referenced to -16 dB Fs by default.\nThe scale is +/- 12 dB.\nThis is the compression, de-compression, expander and de-expander summing envelope."
+  },
+  {
+    "objectID": "Display.html#dynamic-difference-between-in-and-out-16",
+    "href": "Display.html#dynamic-difference-between-in-and-out-16",
+    "title": "5  Display",
+    "section": "5.5 Dynamic difference between in and out (16)",
+    "text": "5.5 Dynamic difference between in and out (16)\nVu-meter, not peak-meter, referenced to -16 dB Fs by default.\nThe scale is +/- 12 dB."
+  },
+  {
+    "objectID": "Display.html#level-difference-between-in-and-out-17",
+    "href": "Display.html#level-difference-between-in-and-out-17",
+    "title": "5  Display",
+    "section": "5.6 Level difference between in and out (17)",
+    "text": "5.6 Level difference between in and out (17)\nVu-meter, not peak-meter, referenced to -16 dB Fs by default.\nThe scale is +/- 12 dB. This is the compression, de-compression, expander and de-expander summing envelop which also takes account of the input and output gains of the band."
+  },
+  {
+    "objectID": "Display.html#dynamic-activity-display-18",
+    "href": "Display.html#dynamic-activity-display-18",
+    "title": "5  Display",
+    "section": "5.7 Dynamic Activity Display (18)",
+    "text": "5.7 Dynamic Activity Display (18)\nNo scale\nTwo green lines on the Dynamic Activity display reflect the current L.I.D. Threshold value.\nFor Compressor and DCompressor sections, the L.I.D. action is effective only when the orange Dynamic Activity exceeds the area between the two green lines. For Expander and DExpander sections, the L.I.D. action is effective only when the orange Dynamic Activity () stays inside the area between the two green lines."
+  },
+  {
+    "objectID": "Display.html#instant-release-value-19",
+    "href": "Display.html#instant-release-value-19",
+    "title": "5  Display",
+    "section": "5.8 Instant Release Value (19)",
+    "text": "5.8 Instant Release Value (19)\nAuto Scale depending of the release value(s)"
+  },
+  {
+    "objectID": "Display.html#resulting-transfer-curve-11",
+    "href": "Display.html#resulting-transfer-curve-11",
+    "title": "5  Display",
+    "section": "5.9 Resulting Transfer Curve (11)",
+    "text": "5.9 Resulting Transfer Curve (11)\nAuto Scale depending of the threshold value(s)"
+  },
+  {
+    "objectID": "The_Side_Chain_EQ_Section.html#in-39",
+    "href": "The_Side_Chain_EQ_Section.html#in-39",
+    "title": "6  The Side Chain EQ Section",
+    "section": "6.1 In (39)",
+    "text": "6.1 In (39)\nEnables the complete EQ section on detector section.\nDefault Value: Off"
+  },
+  {
+    "objectID": "The_Side_Chain_EQ_Section.html#solo-40",
+    "href": "The_Side_Chain_EQ_Section.html#solo-40",
+    "title": "6  The Side Chain EQ Section",
+    "section": "6.2 Solo (40)",
+    "text": "6.2 Solo (40)\nThe equalized detector signal can be monitored through the plug-in output when the solo button is enabled.\nDefault Value: Off"
+  },
+  {
+    "objectID": "The_Side_Chain_EQ_Section.html#section",
+    "href": "The_Side_Chain_EQ_Section.html#section",
+    "title": "6  The Side Chain EQ Section",
+    "section": "6.3 1-2-3 (41)",
+    "text": "6.3 1-2-3 (41)\nThree equalization bands are available on the detector section. Each can be selected to use the parameter knobs for settings. Note that a graphic editing is also available from the graphic curve display.\nDefault Value: none"
+  },
+  {
+    "objectID": "The_Side_Chain_EQ_Section.html#filter-type-42",
+    "href": "The_Side_Chain_EQ_Section.html#filter-type-42",
+    "title": "6  The Side Chain EQ Section",
+    "section": "6.4 Filter Type (42)",
+    "text": "6.4 Filter Type (42)\nThe filter type can be adjusted individually on each of the Detector EQ bands.\n\n12 dB per octave high pass filter\nLow shelving\nParametric\nHigh shelving\n12 dB per octave low pass filter\n\nDefault Value: Peak"
+  },
+  {
+    "objectID": "The_Side_Chain_EQ_Section.html#gain-43",
+    "href": "The_Side_Chain_EQ_Section.html#gain-43",
+    "title": "6  The Side Chain EQ Section",
+    "section": "6.5 Gain (43)",
+    "text": "6.5 Gain (43)\nSets the gain for the selected band.\nUnit: dB\nValue Range: -24 / +24\nStep: 0.01\nDefault Value: 0"
+  },
+  {
+    "objectID": "The_Side_Chain_EQ_Section.html#frequency-44",
+    "href": "The_Side_Chain_EQ_Section.html#frequency-44",
+    "title": "6  The Side Chain EQ Section",
+    "section": "6.6 Frequency (44)",
+    "text": "6.6 Frequency (44)\nSets the centre frequency for the selected band.\nUnit: Hz\nValue Range: 5 / 22K\nStep: variable\nDefault Value: 100 / 500 / 2000"
+  },
+  {
+    "objectID": "The_Side_Chain_EQ_Section.html#q-factor-45",
+    "href": "The_Side_Chain_EQ_Section.html#q-factor-45",
+    "title": "6  The Side Chain EQ Section",
+    "section": "6.7 Q-Factor (45)",
+    "text": "6.7 Q-Factor (45)\nSets the quality factor of the selected band if the filter type is parametric.\nValue Range: 1 / 100\nStep: 0.22\nDefault Value: 10"
+  },
+  {
+    "objectID": "Preset_Management.html#preset-manager-access-56",
+    "href": "Preset_Management.html#preset-manager-access-56",
+    "title": "7  Preset Management",
+    "section": "7.1 Preset Manager Access (56)",
+    "text": "7.1 Preset Manager Access (56)\nOpens a new window accessing the built-in preset manager."
+  },
+  {
+    "objectID": "Preset_Management.html#loaded-preset-preset-display-57",
+    "href": "Preset_Management.html#loaded-preset-preset-display-57",
+    "title": "7  Preset Management",
+    "section": "7.2 Loaded Preset Preset Display (57)",
+    "text": "7.2 Loaded Preset Preset Display (57)\nDisplays the current selected preset name.\nClicking the arrow opens a new window accessing the built-in preset manager."
+  },
+  {
+    "objectID": "Preset_Management.html#save-58",
+    "href": "Preset_Management.html#save-58",
+    "title": "7  Preset Management",
+    "section": "7.3 Save (58)",
+    "text": "7.3 Save (58)\nSave replaces the selected preset by a new one under the same name featuring the current settings. If you want to keep an existing preset without your new modifications, just select an empty place into the preset list, enter a new name for this modified preset featuring the current settings and press Save."
+  },
+  {
+    "objectID": "Preset_Management.html#recall-59",
+    "href": "Preset_Management.html#recall-59",
+    "title": "7  Preset Management",
+    "section": "7.4 Recall (59)",
+    "text": "7.4 Recall (59)\nOnce a preset is selected from the preset list it must be explicitly loaded into section A or the section B by using the recall button. A preset is effective only after it has been recalled."
+  },
+  {
+    "objectID": "Preset_Management.html#copy-a-copy-b-60",
+    "href": "Preset_Management.html#copy-a-copy-b-60",
+    "title": "7  Preset Management",
+    "section": "7.5 Copy A / Copy B (60)",
+    "text": "7.5 Copy A / Copy B (60)\nThe current parameters of a section are copied to the other one. The section A or B is re-initialized with the current values and the morphing slider is parked at 100% of the corresponding section."
+  },
+  {
+    "objectID": "Preset_Management.html#morphing-slider-61",
+    "href": "Preset_Management.html#morphing-slider-61",
+    "title": "7  Preset Management",
+    "section": "7.6 Morphing Slider (61)",
+    "text": "7.6 Morphing Slider (61)\nMorphs the parameter values of both parameter sections.\nThis horizontal slider has no unity or specific value display, it provides morphing of the current values from both of the parameter sections (A & B).\nA double-click on one side of the slider area toggles between the two parameter sections. The actual result of the morphed parameter settings can be saved as a new preset."
+  },
+  {
+    "objectID": "Preset_Management.html#automation-control-of-the-morphing-slider-62",
+    "href": "Preset_Management.html#automation-control-of-the-morphing-slider-62",
+    "title": "7  Preset Management",
+    "section": "7.7 Automation Control of the Morphing Slider (62)",
+    "text": "7.7 Automation Control of the Morphing Slider (62)\nWhen this button is disabled all of the plug-in parameter values are recorded when writing automation.\nWhen reading automation, if this button is disabled, all the plug-in parameters are controlled by the host automation except for the morphing slider (61), which is then ignored.\nWhen this button is engaged all parameters are recorded when writing automation, including the morphing slider(61), though when reading automation ONLY the morphing slider value is read and applied.\nThe Automation button must be engaged if the morphing slider is to be mapped on a control surface.\nDefault Value: Off"
+  },
+  {
+    "objectID": "Specifications.html#availability",
+    "href": "Specifications.html#availability",
+    "title": "8  Specifications",
+    "section": "8.1 Availability",
+    "text": "8.1 Availability\nSolera is available in:\nAU / VST / VST3 / AAX Native/ AAX AudioSuite\n* AAX Native & AAX AudioSuite in Pro Tools 11 and later"
+  },
+  {
+    "objectID": "Specifications.html#processing",
+    "href": "Specifications.html#processing",
+    "title": "8  Specifications",
+    "section": "8.2 Processing",
+    "text": "8.2 Processing\nSolera provides :\n\nUp to 16 channels Input/Output in VST/VST3/AU/AAX.\n64-bits internal floating point processing.\nSampling rate up to 384 kHz."
+  },
+  {
+    "objectID": "Specifications.html#hardware-requirements",
+    "href": "Specifications.html#hardware-requirements",
+    "title": "8  Specifications",
+    "section": "8.3 Hardware Requirements",
+    "text": "8.3 Hardware Requirements\nA graphic card fully supporting OpenGL 2.0 is required.\n\nmacOS : OpenGL 2.0 required – Mac Pro 1.1 & Mac Pro 2.1 are not supported.\nWindows : If your computer has an ATi or NVidia graphics card, please assure the latest graphic drivers from the ATi or NVidia website are installed."
+  },
+  {
+    "objectID": "Specifications.html#software-license-requirements",
+    "href": "Specifications.html#software-license-requirements",
+    "title": "8  Specifications",
+    "section": "8.4 Software License Requirements",
+    "text": "8.4 Software License Requirements\nIn order to use the software an iLok.com user account is required (the iLok USB Smart Key is not required)."
+  },
+  {
+    "objectID": "Specifications.html#compatibility",
+    "href": "Specifications.html#compatibility",
+    "title": "8  Specifications",
+    "section": "8.5 Compatibility",
+    "text": "8.5 Compatibility\nAll major native formats are supported\n\n8.5.1 Windows – 10, in 64 bits only.\n\nVST (2.4)\nVST3 (3.1)\nAAX Native*\nAAX AudioSuite*\nAAX DSP\n\n\n\n8.5.2 macOS (Intel and ARM)\nAll versions from Sierra (10.12) to latest. (Compatible with previous versions but not supported)\n\nVST (2.4)\nVST3 (3.1)\nAU\nAAX Native*\nAAX AudioSuite*\nAAX DSP\n\n* AAX Native & AAX AudioSuite in Pro Tools 11 and later"
+  }
+]

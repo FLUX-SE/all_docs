@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.2.335">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>IRCAM Spat - 15&nbsp; Setup</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./Routing.html" rel="next">
+<link href="./Setup.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-sidebar floating">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+    <div class="container-fluid d-flex justify-content-between">
+      <h1 class="quarto-secondary-nav-title"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Setup</span></h1>
+      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
+        <i class="bi bi-chevron-right"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">IRCAM Spat</a> 
+        <div class="sidebar-tools-main">
+    <a href="./IRCAM-Spat.pdf" title="Download PDF" class="sidebar-tool px-1"><i class="bi bi-file-pdf"></i></a>
+</div>
+    </div>
+      </div>
+      <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+      </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">IRCAM Spat</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="./Sources.html" class="sidebar-item-text sidebar-link">Sources</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Main_Section.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Main Section</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Display.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Display</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Perceptual_Factors_.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Perceptual Factors</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Radiations.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Radiations</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Axis_Omni_Filters.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Axis Omni Filters</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Options.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Options</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Main_Input_-_Output_Section.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Main Input - Output Section</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="./Reverb.html" class="sidebar-item-text sidebar-link">Reverb</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Main_Section2.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Main Section</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Perceptual_Factors.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Perceptual Factors</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Room_Response.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Room Response</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Display2.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Display</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Options2.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Options</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Main_Input_-_Output_Section.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Main Input - Output Section</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="./Setup.html" class="sidebar-item-text sidebar-link">Setup</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Setup2.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Setup</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Routing.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">Routing</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Stereo_Pair_Width_-_Subwoofer.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">Stereo Pair Width - Subwoofer</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Main_Input_-_Output_Section.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Main Input - Output Section</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Preset_Section.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title">Preset Section</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Preset_Management.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">20</span>&nbsp; <span class="chapter-title">Preset Management</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Credits.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">21</span>&nbsp; <span class="chapter-title">Credits</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#inv.-phase" id="toc-inv.-phase" class="nav-link active" data-scroll-target="#inv.-phase"><span class="toc-section-number">15.1</span>  (75) Inv. Phase</a></li>
+  <li><a href="#input-level-meter" id="toc-input-level-meter" class="nav-link" data-scroll-target="#input-level-meter"><span class="toc-section-number">15.2</span>  (76) Input level meter</a></li>
+  <li><a href="#stereo-pair" id="toc-stereo-pair" class="nav-link" data-scroll-target="#stereo-pair"><span class="toc-section-number">15.3</span>  (77) Stereo Pair</a></li>
+  <li><a href="#source-on" id="toc-source-on" class="nav-link" data-scroll-target="#source-on"><span class="toc-section-number">15.4</span>  (78) Source On</a></li>
+  <li><a href="#output-arangement" id="toc-output-arangement" class="nav-link" data-scroll-target="#output-arangement"><span class="toc-section-number">15.5</span>  (79) Output Arangement</a></li>
+  <li><a href="#panning-method" id="toc-panning-method" class="nav-link" data-scroll-target="#panning-method"><span class="toc-section-number">15.6</span>  (80) Panning Method</a></li>
+  <li><a href="#output-decoding" id="toc-output-decoding" class="nav-link" data-scroll-target="#output-decoding"><span class="toc-section-number">15.7</span>  (81) Output Decoding</a></li>
+  <li><a href="#hrtf" id="toc-hrtf" class="nav-link" data-scroll-target="#hrtf"><span class="toc-section-number">15.8</span>  (82) HRTF</a></li>
+  <li><a href="#reverb-density" id="toc-reverb-density" class="nav-link" data-scroll-target="#reverb-density"><span class="toc-section-number">15.9</span>  (83) Reverb Density</a></li>
+  <li><a href="#speaker-on" id="toc-speaker-on" class="nav-link" data-scroll-target="#speaker-on"><span class="toc-section-number">15.10</span>  (84) Speaker On</a></li>
+  <li><a href="#output-delays" id="toc-output-delays" class="nav-link" data-scroll-target="#output-delays"><span class="toc-section-number">15.11</span>  (85) Output Delays</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title d-none d-lg-block"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Setup</span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<p><img src="include/spat_17.jpg" class="img-fluid"></p>
+<section id="inv.-phase" class="level2" data-number="15.1">
+<h2 data-number="15.1" class="anchored" data-anchor-id="inv.-phase"><span class="header-section-number">15.1</span> (75) Inv. Phase</h2>
+<p>This little button labelled “Ø” inverts the phase of the source, applying a 180° phase shift.</p>
+</section>
+<section id="input-level-meter" class="level2" data-number="15.2">
+<h2 data-number="15.2" class="anchored" data-anchor-id="input-level-meter"><span class="header-section-number">15.2</span> (76) Input level meter</h2>
+<p>Gives an indication of the signal presence and peak level for the corresponding input source.</p>
+</section>
+<section id="stereo-pair" class="level2" data-number="15.3">
+<h2 data-number="15.3" class="anchored" data-anchor-id="stereo-pair"><span class="header-section-number">15.3</span> (77) Stereo Pair</h2>
+<p>Enable two successive inputs to be treated as a stereo pair, displayed by a yellow vertical block overlapping the two inputs, which make it possible to adjust their width in the stereo space.</p>
+</section>
+<section id="source-on" class="level2" data-number="15.4">
+<h2 data-number="15.4" class="anchored" data-anchor-id="source-on"><span class="header-section-number">15.4</span> (78) Source On</h2>
+<p>Toggles wether the corresponding source is active or not (muted).</p>
+</section>
+<section id="output-arangement" class="level2" data-number="15.5">
+<h2 data-number="15.5" class="anchored" data-anchor-id="output-arangement"><span class="header-section-number">15.5</span> (79) Output Arangement</h2>
+<p>Depending on the number of I/O channels you have selected in the setup menu, accessed via the cog icon between the I/O meters, this drop-down menu allows you to select the desired output arrangement amongst a choice of stereo and a variety of surround configurations, with or without a sub-woofer.<br>
+This setting is provided so you can operate the Spat on a subset of your surround channels, should your project require this.<br>
+For example, when mixing a film soundtrack, it is mandatory that the center channel, which is reserved for voice material, be left empty. The solution is to work with a so-called virtual center (equal energy in channels), disabling processing by the Spat for the physical center channel.</p>
+</section>
+<section id="panning-method" class="level2" data-number="15.6">
+<h2 data-number="15.6" class="anchored" data-anchor-id="panning-method"><span class="header-section-number">15.6</span> (80) Panning Method</h2>
+<p>Depending on the Output arrangement setting, choose the method to use for placement of the sources inside the audio space.<br>
+Possible choices are (some will be grayed out depending on your output configuration):</p>
+<ul>
+<li>Recursive</li>
+<li>Angular pairwise (default)</li>
+<li>Surround LRS</li>
+<li>Surround LRCS</li>
+<li>Binaural. Intended for stereo reproduction. Prefer transaural output encoding when loudspeakers are to be used.</li>
+<li>VBAP 2D (Vector Base Amplitude Panning).<br>
+Allows for arbitrary placement of the speakers onto a horizontal plane.<br>
+Refer to <a href="http://www.acoustics.hut.fi/~ville/">http://www.acoustics.hut.fi/~ville/</a> for more information on this technique.</li>
+<li>VBAP 3D<br>
+Same as above, but for a 3D speaker setup.</li>
+<li>DBAP (Distance-Based Amplitude Panning).<br>
+Does not rely on any assumptions regarding speaker array or listener position, which is good for avoiding sweet spots.<br>
+Refer to <a href="http://jamoma.org/papers/icmc2009-dbap.pdf">http://jamoma.org/papers/icmc2009-dbap.pdf</a> for more information.</li>
+<li>B-Format 2D.<br>
+A basic variant of Ambisonics. Amongst Ambisonics strong points are a good stability of the audio image with respect to listener position, free speaker positioning, and independence towards the reproduction system used.</li>
+<li>B-Format 3D</li>
+<li>2nd order Ambisonic 2D</li>
+<li>2nd order Ambisonic 3D</li>
+<li>XY. Stereo only.</li>
+<li>M/S (Mid/Side). Stereo only.</li>
+<li>A-B. Stereo only.</li>
+</ul>
+</section>
+<section id="output-decoding" class="level2" data-number="15.7">
+<h2 data-number="15.7" class="anchored" data-anchor-id="output-decoding"><span class="header-section-number">15.7</span> (81) Output Decoding</h2>
+<p>Spat can encode its output in the following currently supported formats</p>
+<ul>
+<li>Pass-trough, i.e.&nbsp;no encoding (default)</li>
+<li>Transaural. A method to reproduce binaural audio when using loudspeakers.</li>
+<li>B-Format 2D. A variant of Ambisonic encoding.</li>
+<li>B-Format 3D</li>
+<li>2nd order Ambisonic 2D</li>
+<li>2nd order Ambisonic 3D</li>
+<li>Surround LRS</li>
+<li>Surround LRCS</li>
+</ul>
+</section>
+<section id="hrtf" class="level2" data-number="15.8">
+<h2 data-number="15.8" class="anchored" data-anchor-id="hrtf"><span class="header-section-number">15.8</span> (82) HRTF</h2>
+<p>When the Binaural panning method is chosen, one can select between a variety of head HRTF profiles, which stands for Head-Related Transfer Function.<br>
+In essence, a HRTF models the way a listener’s head modifies an incoming sound beam, depending on its direction. One can then measure and replicate the interaction of the head of a particular listener to recreate a sensation of 3D space. &gt; Please keep in mind this technique is only applicable to the stereo case. The default one available is the Kemar head, a standard Manikin head. Some others are available (choose the HRTF library at install time). Their numbers refers to the anonymous id of the listeners that have sampled their profile at IRCAM laboratories.</p>
+</section>
+<section id="reverb-density" class="level2" data-number="15.9">
+<h2 data-number="15.9" class="anchored" data-anchor-id="reverb-density"><span class="header-section-number">15.9</span> (83) Reverb Density</h2>
+<p>Internally, spatial variations are computed using a kind of 2D-network of reverbs, and this setting toggles between an 8x8 (standard) or 16x16 size (high). The choice of which sounds best is left up to you, as this depends on the source material at hand, although it must be emphasized that the high density consumes a little more CPU and that the color of the reverb can be altered by this setting, particularly at some extreme parameter setting combinations.</p>
+</section>
+<section id="speaker-on" class="level2" data-number="15.10">
+<h2 data-number="15.10" class="anchored" data-anchor-id="speaker-on"><span class="header-section-number">15.10</span> (84) Speaker On</h2>
+<p>Toggles the corresponding speaker output on and off, which can prove useful for checking purposes. In general it is advisable to use your DAW surround mixer capabilities instead, as these are global to your project.</p>
+</section>
+<section id="output-delays" class="level2" data-number="15.11">
+<h2 data-number="15.11" class="anchored" data-anchor-id="output-delays"><span class="header-section-number">15.11</span> (85) Output Delays</h2>
+<p>An output delay, expressed in milliseconds, can be inserted just before output to the speaker, for example to compensate for a non-standard speaker arrangement. &gt; Please note that if you move a speaker in the source view, the associated delay is automatically applied on the &gt;corresponding output according to the speaker distance.</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./Setup.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Setup</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./Routing.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">Routing</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+</body></html>

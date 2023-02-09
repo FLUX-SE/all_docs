@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.2.335">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Jünger Level Magic - 6&nbsp; Open Sound Control (OSC)</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./Specifications.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-sidebar floating">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+    <div class="container-fluid d-flex justify-content-between">
+      <h1 class="quarto-secondary-nav-title"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Open Sound Control (OSC)</span></h1>
+      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
+        <i class="bi bi-chevron-right"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">Jünger Level Magic</a> 
+        <div class="sidebar-tools-main">
+    <a href="./Jünger-Level-Magic.pdf" title="Download PDF" class="sidebar-tool px-1"><i class="bi bi-file-pdf"></i></a>
+</div>
+    </div>
+      </div>
+      <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+      </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Level Magic</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./General_Settings.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">General Settings</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Preset_Management.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Preset Management</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Preset_Manager_Window.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Preset Manager Window</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Specifications.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Specifications</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Open_Sound_Control_(OSC).html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Open Sound Control (OSC)</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#the-osc-protocol" id="toc-the-osc-protocol" class="nav-link active" data-scroll-target="#the-osc-protocol"><span class="toc-section-number">6.1</span>  The OSC protocol</a></li>
+  <li><a href="#using-the-bonjour-protocol-zero-conf" id="toc-using-the-bonjour-protocol-zero-conf" class="nav-link" data-scroll-target="#using-the-bonjour-protocol-zero-conf"><span class="toc-section-number">6.2</span>  Using the Bonjour protocol, Zero Conf</a></li>
+  <li><a href="#configuring-osc-parameters-manually." id="toc-configuring-osc-parameters-manually." class="nav-link" data-scroll-target="#configuring-osc-parameters-manually."><span class="toc-section-number">6.3</span>  Configuring OSC parameters manually.</a></li>
+  <li><a href="#feedback-from-the-plug-in-to-the-controller" id="toc-feedback-from-the-plug-in-to-the-controller" class="nav-link" data-scroll-target="#feedback-from-the-plug-in-to-the-controller"><span class="toc-section-number">6.4</span>  Feedback from the plug-in to the controller</a></li>
+  <li><a href="#using-multiple-controllers-and-advanced-configurations" id="toc-using-multiple-controllers-and-advanced-configurations" class="nav-link" data-scroll-target="#using-multiple-controllers-and-advanced-configurations"><span class="toc-section-number">6.5</span>  Using multiple controllers and advanced configurations</a></li>
+  <li><a href="#commands" id="toc-commands" class="nav-link" data-scroll-target="#commands"><span class="toc-section-number">6.6</span>  Commands</a>
+  <ul class="collapse">
+  <li><a href="#how-to-use-the-commands" id="toc-how-to-use-the-commands" class="nav-link" data-scroll-target="#how-to-use-the-commands"><span class="toc-section-number">6.6.1</span>  How to use the commands</a></li>
+  <li><a href="#the-levelmagictm-osc-commands" id="toc-the-levelmagictm-osc-commands" class="nav-link" data-scroll-target="#the-levelmagictm-osc-commands"><span class="toc-section-number">6.6.2</span>  The LevelMagic(TM) OSC commands</a></li>
+  <li><a href="#global-commands" id="toc-global-commands" class="nav-link" data-scroll-target="#global-commands"><span class="toc-section-number">6.6.3</span>  Global Commands</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title d-none d-lg-block"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Open Sound Control (OSC)</span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<p>How to use the OSC protocol with LevelMagic(TM)</p>
+<section id="the-osc-protocol" class="level2" data-number="6.1">
+<h2 data-number="6.1" class="anchored" data-anchor-id="the-osc-protocol"><span class="header-section-number">6.1</span> The OSC protocol</h2>
+<p>The OSC protocol is a way of controlling devices via the network. Here we present a way of taking control of the LevelMagic(TM) plug-in using this protocol.</p>
+</section>
+<section id="using-the-bonjour-protocol-zero-conf" class="level2" data-number="6.2">
+<h2 data-number="6.2" class="anchored" data-anchor-id="using-the-bonjour-protocol-zero-conf"><span class="header-section-number">6.2</span> Using the Bonjour protocol, Zero Conf</h2>
+<p>If your control device uses bonjour or Zero conf protocol configuration will be quick and simple. Just select Flux::OSC in the ZeroConf device of your controller. Then, write the output port and IP address of your device in the labels of the plug-in. Remember that in the output port label of the plug-in you should write the input port of your controller and in the output address of the plug-in you should write the IP address of your device.</p>
+</section>
+<section id="configuring-osc-parameters-manually." class="level2" data-number="6.3">
+<h2 data-number="6.3" class="anchored" data-anchor-id="configuring-osc-parameters-manually."><span class="header-section-number">6.3</span> Configuring OSC parameters manually.</h2>
+<p>The following parameters are used to configure OSC manually in LevelMagic(TM)</p>
+<ul>
+<li>Network configuration: OSC is a network based protocol so make sure that both your controller and the host are connected to the same network.</li>
+<li>OSC Enable: When turned on this parameter creates a thread for receiving and sending OSC messages. This thread is multi-instances. This means that this will control all the instances of the plug-in. For example, if you have four LevelMagic(TM) opened, all the communication and control via OSC will be done via this one configured thread. You just have to be sure that the following parameters are well configured.</li>
+<li>Input Port: This is the port where the plug-in will be receiving OSC messages (the output of your control surface)</li>
+<li>Output Port: This is the port where the plug-in will send feedback to (the input of your control surface).</li>
+<li>Output IP Address: This is the address of destination of the outgoing OSC packets of the plug-in. You should write here the IP address of your controller</li>
+</ul>
+<p>The image below presents the different OSC parameters used for configuration.</p>
+<p><img src="include/level_magic_10.png" class="img-fluid"></p>
+</section>
+<section id="feedback-from-the-plug-in-to-the-controller" class="level2" data-number="6.4">
+<h2 data-number="6.4" class="anchored" data-anchor-id="feedback-from-the-plug-in-to-the-controller"><span class="header-section-number">6.4</span> Feedback from the plug-in to the controller</h2>
+<p>The Flux:: OSC manager will send feedback to your controller. These are the different situations when you will receive feedback:</p>
+<ul>
+<li>When a parameter begins to be edited<br>
+In this situation, the plug-in will send the following OSC messages:
+<ul>
+<li>Address Pattern: /NumberOfInstance/ControlBeginEdit<br>
+</li>
+<li>Argument: Name of the parameter.<br>
+</li>
+<li>Type: String</li>
+</ul></li>
+<li>When the edition of a parameter ends
+<ul>
+<li>Address Pattern: /NumberOfInstance/ControlEndEdit</li>
+<li>Argument: Name Of the parameter</li>
+<li>Type: String</li>
+</ul></li>
+<li>When a value is changed<br>
+When a parameter is changed in the plug-in by any mean (OSC, mouse, automation or other… ) Flux :: Osc will send a message with the new value of the parameter and the instance number of the plug-in it belongs to.
+<ul>
+<li>Address Pattern: /NumberOfInstance/ParameterName</li>
+<li>Argument: Float from 0 to 1, represents the value of the parameter.</li>
+<li>Type: Float</li>
+</ul></li>
+<li>When creating a new instance<br>
+When a new instance of a plug-in is created Flux:: OSC will send the following message:
+<ul>
+<li>Address Pattern: /NewInstanceRegisteredWithNumber</li>
+<li>Argument: The number assigned to the new instance created.</li>
+<li>Type: Float</li>
+</ul></li>
+<li>When an instance of a plug-in is destroyed
+<ul>
+<li>Address Pattern: /InstanceUnregisteredWithNumber</li>
+<li>Argument: Represents the index of the instance that was destroyed.</li>
+<li>Type: Float,</li>
+</ul></li>
+</ul>
+</section>
+<section id="using-multiple-controllers-and-advanced-configurations" class="level2" data-number="6.5">
+<h2 data-number="6.5" class="anchored" data-anchor-id="using-multiple-controllers-and-advanced-configurations"><span class="header-section-number">6.5</span> Using multiple controllers and advanced configurations</h2>
+<p>Flux :: OSC gives you the possibility to use multiple controllers for one instance of a plug-in and have a particular feedback for each one. If you want to use multiple controllers refer to the use of the /TalkToMeOnPort Command found under “Commands”.</p>
+</section>
+<section id="commands" class="level2" data-number="6.6">
+<h2 data-number="6.6" class="anchored" data-anchor-id="commands"><span class="header-section-number">6.6</span> Commands</h2>
+<section id="how-to-use-the-commands" class="level3" data-number="6.6.1">
+<h3 data-number="6.6.1" class="anchored" data-anchor-id="how-to-use-the-commands"><span class="header-section-number">6.6.1</span> How to use the commands</h3>
+<p>At first you have to know what an OSC message is composed of. Mainly, these two parts: The Address Pattern and the Argument.</p>
+<p>For controlling parameters Flux:: only supports arguments of float type so make sure that the arguments you are sending via your controller are Floats. Float arguments must always be from 0 to 1 for controlling a parameter so you don’t have to deal with scale conversion.</p>
+</section>
+<section id="the-levelmagictm-osc-commands" class="level3" data-number="6.6.2">
+<h3 data-number="6.6.2" class="anchored" data-anchor-id="the-levelmagictm-osc-commands"><span class="header-section-number">6.6.2</span> The LevelMagic(TM) OSC commands</h3>
+<p>When OSC is enabled in the Plug-in Settings (2) the file “OSC_Dict.xml” is automatically created in:<br>
+/Documents/Flux/LevelMagic</p>
+<p>This is a properties dictionary with each parameter that can be controlled and mapped using OSC. The commands in the dictionary includes a ”Translation” attribute that can be used in order translate the OSC name into the Flux:: internal parameter name in both directions.</p>
+</section>
+<section id="global-commands" class="level3" data-number="6.6.3">
+<h3 data-number="6.6.3" class="anchored" data-anchor-id="global-commands"><span class="header-section-number">6.6.3</span> Global Commands</h3>
+<p>Global commands allow you to access to some additional information. These commands don’t need an instance number. These are the available additional commands: - Address Pattern:/GetDeviceInfo - Type: Float - Value: 1 - Explanation: Get all the names of the controllable parameters</p>
+<ul>
+<li><p>Address Pattern: /TalkToMeOnPort</p></li>
+<li><p>Type: Float</p></li>
+<li><p>Value: Port Number</p></li>
+<li><p>Explanation: This command is very strong. It will store the IP address and the port in argument as an endpoint. All the different messages will be sent to this endpoint. This command is very useful for using many controllers.</p></li>
+<li><p>Address Pattern: /GetCurrentValues</p></li>
+<li><p>Type: Float</p></li>
+<li><p>Value: 1</p></li>
+<li><p>Explanation: This command will send all the current values of the different instances of a plug-in. The structure of the sent OSC messages is the same as the one for controlling them.</p></li>
+<li><p>Address Pattern: /GetNumberOfInstances</p></li>
+<li><p>Type: Float</p></li>
+<li><p>Value: 1</p></li>
+<li><p>Explanation: This command returns the opened number of instances of a plug-in. If you have five LevelMagic(TM) opened this command will return 5.</p></li>
+</ul>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./Specifications.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Specifications</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+</body></html>

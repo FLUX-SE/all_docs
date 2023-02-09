@@ -1,0 +1,135 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "IRCAM HEar",
+    "section": "",
+    "text": "1 Introduction\nProduct Page | Shop Page\n\nHEar allows faithful reproduction of a stereo or surround mix with a pair of conventional stereo headphones. It relies on proven technology to model the various phenomena that occur when playing back audio material through a loudspeaker system.\nThis allows monitoring a full surround mix in situations when a surround-capable environment is not available or practical. Another typical use of HEar is doing precise checking of a mix, which is convenient with headphones as these provide a ‘surgical’ and very detailed, microscope-like rendering of the audio.\nIt can also prove very useful in a project studio context, and whenever noise isolation is a concern, as it helps achieving a more realistic sound environment."
+  },
+  {
+    "objectID": "Concepts.html#auditory-scene-perception",
+    "href": "Concepts.html#auditory-scene-perception",
+    "title": "2  Concepts",
+    "section": "2.1 Auditory scene perception",
+    "text": "2.1 Auditory scene perception\nOur perception of sound mainly relies on our ability to identify and characterize a number of sound sources, depending on the spatial parameters of these sources, such as apparent position and size.\nThe duplex localization theory developed by Lord Rayleigh in 1907, claims two factors are predominant to characterize perception, namely the differences in arrival time (ITD) and intensity (ILD) between sounds reaching our ears. Perceived sound variations between ears are mainly attributed to the head obstructing sound waves and therefore forcing them to travel around the head in order to reach the opposite-facing ear.\nSubsequent studies have confirmed and refined this theory which has prevailed ever since its introduction more than a century ago."
+  },
+  {
+    "objectID": "Concepts.html#localisation",
+    "href": "Concepts.html#localisation",
+    "title": "2  Concepts",
+    "section": "2.2 Localisation",
+    "text": "2.2 Localisation\nThe ITD and ILD localization indexes are derived from measurements of the transfer function between the sound source’s origin, taken at a certain incidence, and the listener’s eardrums. The transfer function summarize the transformations the sound goes through before reaching the listener, including diffraction, diffusion and reflection on the listener’s body and head.\nThese measurements are commonly referred to as HRTF (Head-Related Transfer Function)."
+  },
+  {
+    "objectID": "Concepts.html#binaural-technology",
+    "href": "Concepts.html#binaural-technology",
+    "title": "2  Concepts",
+    "section": "2.3 Binaural technology",
+    "text": "2.3 Binaural technology\nBinaural technology encompasses methods for recording, processing, synthesizing and reproducing sound that are specifically designed to preserve tridimensional localisation properties.\nIn order to mimic the impression of a sound originating from a given incidence, it is sufficient to filter a mono signal, which on its own lacks any kind of spatial information, with both left and right HRTF filters. This constitutes the foundation of binaural synthesis.\n> Please note that the resulting signal is only meant to be listened to with headphones, and isn’t designed for a conventional stereo loudspeaker setup."
+  },
+  {
+    "objectID": "Concepts.html#virtual-head",
+    "href": "Concepts.html#virtual-head",
+    "title": "2  Concepts",
+    "section": "2.4 Virtual head",
+    "text": "2.4 Virtual head\nThis plugin relies on HRTF filter measurements made using a KEMAR (Knowles Electronics Manikin For Acoustic Research) dummy head and torso simulation. This type of manikin was conceived during the 1970’s for conducting acoustics experiments using a model with anthropometric dimensions equivalent to that of an average human listener.\n\nCourtesy of G.R.A.S. Sound & Vibration\nhttp://www.gras.dk/"
+  },
+  {
+    "objectID": "Concepts.html#virtual-speakers",
+    "href": "Concepts.html#virtual-speakers",
+    "title": "2  Concepts",
+    "section": "2.5 Virtual speakers",
+    "text": "2.5 Virtual speakers\nThe audio input is routed internally to virtual speakers, through a routing matrix. These represent the emulated loudpseaker setup configuration."
+  },
+  {
+    "objectID": "Controls.html#routing-matrix",
+    "href": "Controls.html#routing-matrix",
+    "title": "3  Controls",
+    "section": "3.1 (1) Routing Matrix",
+    "text": "3.1 (1) Routing Matrix\nThe routing matrix gives an overview of the mapping between the plugin’s inputs from the DAW track to the virtual speaker internal outputs. The virtual speaker outputs are down-mixed to stereo using a virtual speaker processing algorithm.\nPlease take note that the plugin’s output to the DAW track itself is always stereo as the binaural processing is intended exclusively for use with headphones.\nThe meters above the fi rst row indicate the source levels of individual input channels.\n\nUser controls"
+  },
+  {
+    "objectID": "Controls.html#speaker-mode",
+    "href": "Controls.html#speaker-mode",
+    "title": "3  Controls",
+    "section": "3.2 (2) Speaker Mode",
+    "text": "3.2 (2) Speaker Mode\nSpecifies which virtual speaker configuration should be emulated. Available modes depend on the configuration of the track the plugin is inserted into, and comprise of one or more of the following:\n\n5.0\n5.1\n7.1\n8.0"
+  },
+  {
+    "objectID": "Controls.html#space-preset",
+    "href": "Controls.html#space-preset",
+    "title": "3  Controls",
+    "section": "3.3 (3) Space Preset",
+    "text": "3.3 (3) Space Preset\nSelects between different spaces with subtly different colorations (Preset 1..3) or completely neutral (No Effect)"
+  },
+  {
+    "objectID": "Controls.html#speaker-width",
+    "href": "Controls.html#speaker-width",
+    "title": "3  Controls",
+    "section": "3.4 (4) Speaker Width",
+    "text": "3.4 (4) Speaker Width\nControls the width between virtual speakers, expressed in degrees. The default is 60°, which corresponds to the recommended setting. This allows to narrow or broaden the stereo image."
+  },
+  {
+    "objectID": "Controls.html#angle-shift",
+    "href": "Controls.html#angle-shift",
+    "title": "3  Controls",
+    "section": "3.5 (5) Angle Shift",
+    "text": "3.5 (5) Angle Shift\nControls the angle between the listener and the centre of the virtual speakers. The default is 0°, which corresponds to the ideal listener position, giving a balanced image between channels."
+  },
+  {
+    "objectID": "Controls.html#setup-menu",
+    "href": "Controls.html#setup-menu",
+    "title": "3  Controls",
+    "section": "3.6 (6) Setup Menu",
+    "text": "3.6 (6) Setup Menu\nAdvanced settings to override default behavior, typically when using hosts that do not conform to the standards.\n\n3.6.1 I/O\nOverride automatic track I/O specifications. HEar automatically adjusts its I/O configuration based on what the hosts reports to the plugin. Some hosts such as Logic do not report this correctly or do not support asymmetric I/O configurations In this case you have to do this manually and select amongst a number of choices of symmetric (N-to-N) and asymmetric I/O (N to stereo).\n\n\n3.6.2 Options\nThese are best left at their default in most cases, but can be changed if required:\n\nDisable processing during bypass: stops processing completely during bypass. Allows to conserve CPU when using many instances and a lot of bypass on/off automation, such as film or sound effects mixing. Default is off (enabled).\nUse Multi-Thread Automation: dedicate a separate thread for automation. Useful when heavy automation is present in the project to get rid of possible audio dropouts. Default is off (processing and automation share the same thread).\nTry to avoid latency as possible: minimize latency by employing minimal buffering, possibly at the expense of a little CPU overhead. Default is on.\nReport latency: report plugin latency, if any, to the host. Some hosts have difficulty coping with large latency values, in this case you can force the plugin to report zero, but you’ll have to manually compensate for this for tracks to remain synced. Default is on (report true latency)."
+  },
+  {
+    "objectID": "Credits.html",
+    "href": "Credits.html",
+    "title": "4  Credits",
+    "section": "",
+    "text": "Design of digital signal processing algorithms and implementation in Max: Jean-Marc Jot (Espaces Nouveaux / Ircam).\nObjective and perceptual characterization of room acoustical quality: Jean-Pascal Jullien, Olivier Warusfel, Eckhard Kahle.\nAdditional contributions by Gerard Assayag, Georges Bloch, Martine Marin, Véronique Larcher, Guillaume Vandernoot and Khoa-Van Nguyen.\nC++ development code : Thibaut Carpentier , Remy Muller; additional contributions: Gael Martinet.\nThanks to Xavier Chabot, Eric Daubresse, Gerhard Eckel, Serge Lemouton, Gilbert Nouno, Laurent Pottier, Manuel Poletti, Leslie Stuck, and Zack Settel for instructive discussions and advice.\nIrcam R&D Director : Hugues Vinet\nCollection Manager: Frederick Rousseau\nCopyright © 2011 Ircam. All rights reserved.\nIRCAMTOOLS\nCollection Manager for IRCAM: Frederick Rousseau\nCollection Manager for Flux:: Gael Martinet\nIRCAMTOOLS SPAT, VERB\nCopyright © 2011 Ircam and Flux:: sound and picture development. All rights reserved.\nFLUX::\nHead software engineering: Gael Martinet\nDevelopers: Gael Martinet, Samuel Tracol, Siegfried Hand\nDesigner: Nicolas Philippot\nManual: Lorcan Mc Donagh/Thibaut Carpentier"
+  },
+  {
+    "objectID": "References.html",
+    "href": "References.html",
+    "title": "5  References",
+    "section": "",
+    "text": "L. Rayleigh. On our perception of sound direction. Philosophical magazine, XIII :214–232, 1907.\nR. S. Woodworth, (1938) Experimental Psychology. New York: Holt, Rinehart, Winston.\nJ. Middlebrooks and D. Green. Sound localization by human listeners. Annu Rev Psychol, 42 :135–159, 1991.\nE.M. Wenzel, M. Arruda, D.J. Kistler, and F.L. Wightman. Localization using non-individualized head-related transfer functions. J. Acoust. Soc. Am,. 94, pages 111–123, 1993.\nJ. Blauert. Spatial Hearing : The Psychophysics of Human Sound Localization. MIT Press, Cambridge, MA, 1983.\nD. R. Begault, 3-D Sound for Virtual Reality and Multimedia, Cambridge, MA: Academic Press Professional, 1994.\nV. Larcher. Techniques de spatialisation des sons pour la réalité virtuelle. PhD thesis, Université Paris 6, 2001.\nW.G. Gardner and K. Martin. Hrtf measurements on a kemar dummy-head microphone. Technical Report 280, MIT Media Lab Perceptual Computing, 1994.\nM.D. Burkhard, R.M. Sachs, “KEMAR the Knowles Electronics Manikin for Acoustic Research”. Report No. 20032-1. Industrial Research Products, Inc., Elk Village, Illinois, (November 1972).\nF. Rumsey. Spatial Audio. Focal Press, 2001."
+  },
+  {
+    "objectID": "Specifications.html#availability",
+    "href": "Specifications.html#availability",
+    "title": "6  Specifications",
+    "section": "6.1 Availability",
+    "text": "6.1 Availability\nIrcam HEar is available in:\nAU / VST / VST3 / AAX Native/ AAX AudioSuite\n* AAX Native & AAX AudioSuite in Pro Tools 11 and later"
+  },
+  {
+    "objectID": "Specifications.html#processing",
+    "href": "Specifications.html#processing",
+    "title": "6  Specifications",
+    "section": "6.2 Processing",
+    "text": "6.2 Processing\nIrcam HEar provides :\n\nUp to 16 channels Input/Output in VST/VST3/AU/AAX.\n64-bits internal floating point processing.\nSampling rate up to 384 kHz."
+  },
+  {
+    "objectID": "Specifications.html#hardware-requirements",
+    "href": "Specifications.html#hardware-requirements",
+    "title": "6  Specifications",
+    "section": "6.3 Hardware Requirements",
+    "text": "6.3 Hardware Requirements\nA graphic card fully supporting OpenGL 2.0 is required.\n\nmacOS : OpenGL 2.0 required – Mac Pro 1.1 & Mac Pro 2.1 are not supported.\nWindows : If your computer has an ATi or NVidia graphics card, please assure the latest graphic drivers from the ATi or NVidia website are installed."
+  },
+  {
+    "objectID": "Specifications.html#software-license-requirements",
+    "href": "Specifications.html#software-license-requirements",
+    "title": "6  Specifications",
+    "section": "6.4 Software License Requirements",
+    "text": "6.4 Software License Requirements\nIn order to use the software an iLok.com user account is required (the iLok USB Smart Key is not required)."
+  },
+  {
+    "objectID": "Specifications.html#compatibility",
+    "href": "Specifications.html#compatibility",
+    "title": "6  Specifications",
+    "section": "6.5 Compatibility",
+    "text": "6.5 Compatibility\nAll major native formats are supported\n\n6.5.1 Windows – 10, in 64 bits only.\n\nVST (2.4)\nVST3 (3.1)\nAAX Native*\nAAX AudioSuite*\n\n\n\n6.5.2 macOS (Intel and ARM)\nAll versions from Sierra (10.12) to latest. (Compatible with previous versions but not supported)\n\nVST (2.4)\nVST3 (3.1)\nAU\nAAX Native*\nAAX AudioSuite*\n\n* AAX Native & AAX AudioSuite in Pro Tools 11 and later"
+  }
+]

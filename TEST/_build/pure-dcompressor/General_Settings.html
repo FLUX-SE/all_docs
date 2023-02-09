@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.2.335">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Pure DCompressor - 2&nbsp; General Settings</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./Time_Related_Settings.html" rel="next">
+<link href="./index.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-sidebar floating">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+    <div class="container-fluid d-flex justify-content-between">
+      <h1 class="quarto-secondary-nav-title"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">General Settings</span></h1>
+      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
+        <i class="bi bi-chevron-right"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">Pure DCompressor</a> 
+        <div class="sidebar-tools-main">
+    <a href="./Pure-DCompressor.pdf" title="Download PDF" class="sidebar-tool px-1"><i class="bi bi-file-pdf"></i></a>
+</div>
+    </div>
+      </div>
+      <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+      </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Pure DCompressor</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./General_Settings.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">General Settings</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Time_Related_Settings.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Time Related Settings</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Dynamic_Section_Settings.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Dynamic Section Settings</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Display.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Display</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Preset_Management.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Preset Management</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Specifications.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Specifications</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#output-gain-2" id="toc-output-gain-2" class="nav-link active" data-scroll-target="#output-gain-2"><span class="toc-section-number">2.1</span>  Output Gain (2)</a></li>
+  <li><a href="#invert-phase-3" id="toc-invert-phase-3" class="nav-link" data-scroll-target="#invert-phase-3"><span class="toc-section-number">2.2</span>  Invert Phase (3)</a></li>
+  <li><a href="#dry-mix-4" id="toc-dry-mix-4" class="nav-link" data-scroll-target="#dry-mix-4"><span class="toc-section-number">2.3</span>  Dry Mix (4)</a></li>
+  <li><a href="#clipper-knee-5" id="toc-clipper-knee-5" class="nav-link" data-scroll-target="#clipper-knee-5"><span class="toc-section-number">2.4</span>  Clipper Knee (5)</a></li>
+  <li><a href="#enable-clipper-6" id="toc-enable-clipper-6" class="nav-link" data-scroll-target="#enable-clipper-6"><span class="toc-section-number">2.5</span>  Enable Clipper (6)</a></li>
+  <li><a href="#clipper-celling-7" id="toc-clipper-celling-7" class="nav-link" data-scroll-target="#clipper-celling-7"><span class="toc-section-number">2.6</span>  Clipper Celling (7)</a></li>
+  <li><a href="#bypass-50" id="toc-bypass-50" class="nav-link" data-scroll-target="#bypass-50"><span class="toc-section-number">2.7</span>  Bypass (50)</a></li>
+  <li><a href="#channel-processing-selector-8" id="toc-channel-processing-selector-8" class="nav-link" data-scroll-target="#channel-processing-selector-8"><span class="toc-section-number">2.8</span>  Channel Processing Selector (8)</a></li>
+  <li><a href="#channel-side-chain-routing-9" id="toc-channel-side-chain-routing-9" class="nav-link" data-scroll-target="#channel-side-chain-routing-9"><span class="toc-section-number">2.9</span>  Channel Side Chain Routing (9)</a></li>
+  <li><a href="#ms-width-control-10" id="toc-ms-width-control-10" class="nav-link" data-scroll-target="#ms-width-control-10"><span class="toc-section-number">2.10</span>  MS Width Control (10)</a></li>
+  <li><a href="#ms-mode-onoff-11" id="toc-ms-mode-onoff-11" class="nav-link" data-scroll-target="#ms-mode-onoff-11"><span class="toc-section-number">2.11</span>  MS Mode On/Off (11)</a></li>
+  <li><a href="#link-12" id="toc-link-12" class="nav-link" data-scroll-target="#link-12"><span class="toc-section-number">2.12</span>  Link (12)</a></li>
+  <li><a href="#smooth-13" id="toc-smooth-13" class="nav-link" data-scroll-target="#smooth-13"><span class="toc-section-number">2.13</span>  Smooth (13)</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title d-none d-lg-block"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">General Settings</span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<p>Unit: dB<br>
+Value Range: -48 / +48<br>
+Step: 0.01<br>
+Default Value: 0 dB</p>
+<p>Sets the gain applied to the dynamic processing input.</p>
+<section id="output-gain-2" class="level2" data-number="2.1">
+<h2 data-number="2.1" class="anchored" data-anchor-id="output-gain-2"><span class="header-section-number">2.1</span> Output Gain (2)</h2>
+<p>Unit: dB<br>
+Value Range: -48 / +48<br>
+Step: 0.01<br>
+Default Value: 0 dB</p>
+<p>Sets the global gain applied to the dynamic processing output.</p>
+</section>
+<section id="invert-phase-3" class="level2" data-number="2.2">
+<h2 data-number="2.2" class="anchored" data-anchor-id="invert-phase-3"><span class="header-section-number">2.2</span> Invert Phase (3)</h2>
+<p>Default Value: Off</p>
+<p>When this button is engaged, the phase of the processed signal is inverted.</p>
+<p>This 180° phase shift is also applied on the Solo of the detector Equalizer.</p>
+</section>
+<section id="dry-mix-4" class="level2" data-number="2.3">
+<h2 data-number="2.3" class="anchored" data-anchor-id="dry-mix-4"><span class="header-section-number">2.3</span> Dry Mix (4)</h2>
+<p>Default Value: -144 dB</p>
+<p>This slider controls the amount of the original signal that can be added to the processed audio. This feature is dedicated to mastering works requiring both heavy processing and subtle control. The mix is done before the output gain.</p>
+</section>
+<section id="clipper-knee-5" class="level2" data-number="2.4">
+<h2 data-number="2.4" class="anchored" data-anchor-id="clipper-knee-5"><span class="header-section-number">2.4</span> Clipper Knee (5)</h2>
+<p>Unit: dB<br>
+Value Range: 0 / +3<br>
+Step: 0.01<br>
+Default Value: 1 dB</p>
+<p>Sets the smoothness of the transmission curve.</p>
+</section>
+<section id="enable-clipper-6" class="level2" data-number="2.5">
+<h2 data-number="2.5" class="anchored" data-anchor-id="enable-clipper-6"><span class="header-section-number">2.5</span> Enable Clipper (6)</h2>
+<p>The Clipper is the very last stage of the processing chain.</p>
+</section>
+<section id="clipper-celling-7" class="level2" data-number="2.6">
+<h2 data-number="2.6" class="anchored" data-anchor-id="clipper-celling-7"><span class="header-section-number">2.6</span> Clipper Celling (7)</h2>
+<p>The Clipper is the very last stage of the processing chain.</p>
+</section>
+<section id="bypass-50" class="level2" data-number="2.7">
+<h2 data-number="2.7" class="anchored" data-anchor-id="bypass-50"><span class="header-section-number">2.7</span> Bypass (50)</h2>
+<p>It’s a global bypass.</p>
+</section>
+<section id="channel-processing-selector-8" class="level2" data-number="2.8">
+<h2 data-number="2.8" class="anchored" data-anchor-id="channel-processing-selector-8"><span class="header-section-number">2.8</span> Channel Processing Selector (8)</h2>
+<p>When operating on a multi-channel bus, all channels are processed by default, but it can be useful to remove some channels from the processing for some reasons. This selector allows to keep the unchecked channels untouched.</p>
+<p>This feature may be used if different settings are required. Several instances of a plug-in can be used in series, each one processing a particular channel with its own settings.</p>
+</section>
+<section id="channel-side-chain-routing-9" class="level2" data-number="2.9">
+<h2 data-number="2.9" class="anchored" data-anchor-id="channel-side-chain-routing-9"><span class="header-section-number">2.9</span> Channel Side Chain Routing (9)</h2>
+<p>Side chain is only available for mono and stereo.</p>
+<p>When operating on a multi-channel bus, all channels are feeding the side chain by default, but it can be useful to prevent some channels feeding the side chain for some reasons. The external side chain button is the one that appear with the channel count + 1 label (for mono, label is “2”, for stereo label is “3”).</p>
+<p>Here are the different behaviors for external side chain depending of the host applications:</p>
+<ul>
+<li>Audio Unit : The side chain button is displayed when the side chain is connected by the host.</li>
+<li>AAX : The side chain button is only active if a side chain buss is selected from the plug-in handler.</li>
+<li>VST : No side chain feature is available.</li>
+</ul>
+</section>
+<section id="ms-width-control-10" class="level2" data-number="2.10">
+<h2 data-number="2.10" class="anchored" data-anchor-id="ms-width-control-10"><span class="header-section-number">2.10</span> MS Width Control (10)</h2>
+<p>Unit: dB<br>
+Value Range: -6 / +6<br>
+Step: 0.01<br>
+Default Value: 0</p>
+<p>Sets the stereo width of the processed signal. A -6 dB value deceases the stereo width. A +6 dB value increases the wideness of the stereo mix but can produce phase issue.</p>
+</section>
+<section id="ms-mode-onoff-11" class="level2" data-number="2.11">
+<h2 data-number="2.11" class="anchored" data-anchor-id="ms-mode-onoff-11"><span class="header-section-number">2.11</span> MS Mode On/Off (11)</h2>
+<p>Default Value: Off</p>
+<p>Enables one MS encoding matrix at the input and one MS decoding matrix at the output of the dynamic processing in order to control the stereo width of the mix. When engaged, the side chain is fed by a MS encoded signal that is reflected in the display section. M channel corresponds to the normal left channel. And the S channel corresponds to the normal right channel This feature is only available when two channels (no more, no less) are processed.</p>
+</section>
+<section id="link-12" class="level2" data-number="2.12">
+<h2 data-number="2.12" class="anchored" data-anchor-id="link-12"><span class="header-section-number">2.12</span> Link (12)</h2>
+<p>Default: Enabled</p>
+<p>By default the maximum value issued from all channels feeding the side chain is retained as source for processing. This manner, the space information is kept for the processed multi-channel signals.</p>
+<p>When disabled, every channel uses its own value for individual processing.</p>
+<p>This configuration may be used in conjunction with the MS width section which encode the signal in MS before processing, and decode at the output. This manner, the M signal can be processed while keeping the S channel untouched.</p>
+</section>
+<section id="smooth-13" class="level2" data-number="2.13">
+<h2 data-number="2.13" class="anchored" data-anchor-id="smooth-13"><span class="header-section-number">2.13</span> Smooth (13)</h2>
+<p>Default: Enabled</p>
+<p>When engaged, the side chain is set to preserve bass frequencies from excessive processing.</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./index.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Pure DCompressor</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./Time_Related_Settings.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Time Related Settings</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+</body></html>

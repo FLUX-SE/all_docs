@@ -5,3 +5,4 @@ _site/
 static/
 .DS_Store
 .idea
+/.luarc.json

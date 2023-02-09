@@ -1,0 +1,23 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Studio Session Analyser",
+    "section": "",
+    "text": "1 Studio Session Analyser"
+  },
+  {
+    "objectID": "index.html#welcome",
+    "href": "index.html#welcome",
+    "title": "Studio Session Analyser",
+    "section": "1.1 Welcome",
+    "text": "1.1 Welcome\nThank you for purchasing the Studio Session Plugins (bundle) which includes the Studio Session Analyser\nThe Studio Session Analyser is a light version of our renowned FLUX:: Real Time Analyzer System\nThe Session Analyser is installed as a single application. It has the same basic functioning as with the standard FLUX:: Analyser with the following limitations;\n\nInputs & Outputs : Mono / Stereo\nI/O Configuration: SampleGrabber Plug-in Only (no hardware I/O)\nMax 96kHz sample rate. 44.1, 48, 88.2, 96\nNo Support for any add-on options\n\n\nPlease note that the Studio Session Pack license is a bundle license and the Studio Session Analyzer can only be used on the same computer as the rest of the plug-ins in the bundle are used."
+  },
+  {
+    "objectID": "index.html#user-documentation",
+    "href": "index.html#user-documentation",
+    "title": "Studio Session Analyser",
+    "section": "1.2 User documentation",
+    "text": "1.2 User documentation\nPlease refer to the FLUX:: Real Time Analyzer System user documentation.\n…"
+  }
+]

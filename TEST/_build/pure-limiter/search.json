@@ -1,0 +1,240 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Pure Limiter",
+    "section": "",
+    "text": "1 Pure Limiter\nProduct Page | Shop Page\nPure Limiter makes transparent limiting easy; a dramatic increase of the average audio level can now be accomplished without damaging the perceived audio quality, with the exquisite proprietary Flux:: technology generating a release envelope assuring that no artifacts on the processed sound are produced. Unless you use it as a special effect, Pure Limiter should always be in the very last stage of your audio processing chain.\nTo make the setting even easier, the Pure Limiter also features two display modes, when mode A is engaged, both original and limited waveforms are displayed. The Mode B displays the limited waveform, the limiter action and the histogram of the release value which is especially useful when running in advanced mode. All display meters are peak-meters featuring a peak hold."
+  },
+  {
+    "objectID": "index.html#input-level-meter1",
+    "href": "index.html#input-level-meter1",
+    "title": "Pure Limiter",
+    "section": "1.1 Input Level Meter(1)",
+    "text": "1.1 Input Level Meter(1)\nfrom -96 dB to 0 dB"
+  },
+  {
+    "objectID": "index.html#output-level-meter2",
+    "href": "index.html#output-level-meter2",
+    "title": "Pure Limiter",
+    "section": "1.2 Output Level Meter(2)",
+    "text": "1.2 Output Level Meter(2)\nfrom -96 dB to 0 dB"
+  },
+  {
+    "objectID": "index.html#limiting-level-meter3",
+    "href": "index.html#limiting-level-meter3",
+    "title": "Pure Limiter",
+    "section": "1.3 Limiting Level Meter(3)",
+    "text": "1.3 Limiting Level Meter(3)\nfrom 0 dB to -12 dB"
+  },
+  {
+    "objectID": "index.html#input-gain-4",
+    "href": "index.html#input-gain-4",
+    "title": "Pure Limiter",
+    "section": "1.4 Input Gain (4)",
+    "text": "1.4 Input Gain (4)\nUnit: dB\nValue Range: -12 / +12\nStep: 0.01.\nDefault Value: 0 dB.\nSets the gain applied to the dynamic processing input. ## Threshold (5) Unit: dB\nValue Range: -12 / 0\nStep: 0.01.\nDefault Value: 0 dB\nSets the threshold of the limiting action. This value is displayed into the input peak meter."
+  },
+  {
+    "objectID": "index.html#knee-6",
+    "href": "index.html#knee-6",
+    "title": "Pure Limiter",
+    "section": "1.5 Knee (6)",
+    "text": "1.5 Knee (6)\nUnit: dB\nValue Range: 0 / +12\nStep: 0.01.\nDefault Value: 0 dB\nSets the smoothness of the transmission curve for the limiting action. The curve is smoothed above the threshold value. The transition range between the linear transfer to the fully limited transfer is set by the knee value."
+  },
+  {
+    "objectID": "index.html#output-gain-7",
+    "href": "index.html#output-gain-7",
+    "title": "Pure Limiter",
+    "section": "1.6 Output Gain (7)",
+    "text": "1.6 Output Gain (7)\nUnit: dB\nValue Range: -12 / +12\nStep: 0.01.\nDefault Value: 0 dB\nSets the global gain applied to the dynamic processing output."
+  },
+  {
+    "objectID": "index.html#link-knee-8",
+    "href": "index.html#link-knee-8",
+    "title": "Pure Limiter",
+    "section": "1.7 Link Knee (8)",
+    "text": "1.7 Link Knee (8)\nWhen enabled the knee value reflects the threshold value. Setting the threshold also sets the knee."
+  },
+  {
+    "objectID": "index.html#auto-knee-9",
+    "href": "index.html#auto-knee-9",
+    "title": "Pure Limiter",
+    "section": "1.8 Auto Knee (9)",
+    "text": "1.8 Auto Knee (9)\nThe knee is automatically defined according to your settings and may vary according to the audio material."
+  },
+  {
+    "objectID": "index.html#mode-10",
+    "href": "index.html#mode-10",
+    "title": "Pure Limiter",
+    "section": "1.9 Mode (10)",
+    "text": "1.9 Mode (10)\nDefault Value: Auto.\nThree modes are available for the envelop of the dynamic processing.\nManual corresponds to the value you have set.\nAuto enables our specific algorithm to generate a signal dependent value to avoid typical pumping effects.\nAdvanced will allow you to tweak the automatic mode."
+  },
+  {
+    "objectID": "index.html#release-maximum-11",
+    "href": "index.html#release-maximum-11",
+    "title": "Pure Limiter",
+    "section": "1.10 Release Maximum (11)",
+    "text": "1.10 Release Maximum (11)\nUnit: ms\nValue Range: 1.75 / 12000\nStep: variable.\nDefault Value: 3000 ms\nSets the manual release value and the maximum release value when in Advanced Mode."
+  },
+  {
+    "objectID": "index.html#release-minimum-12",
+    "href": "index.html#release-minimum-12",
+    "title": "Pure Limiter",
+    "section": "1.11 Release Minimum (12)",
+    "text": "1.11 Release Minimum (12)\nUnit: ms\nValue Range: 0.75 / 11999\nStep: variable.\nDefault Value: 60 ms\nSets the minimum release value when in Advanced Mode."
+  },
+  {
+    "objectID": "index.html#dynamic-velocity-13",
+    "href": "index.html#dynamic-velocity-13",
+    "title": "Pure Limiter",
+    "section": "1.12 Dynamic Velocity (13)",
+    "text": "1.12 Dynamic Velocity (13)\nUnit: %\nValue Range: 0 / 100\nStep: variable.\nDefault Value: 100%\nApply a release to the extracted real time dynamic informations.\n100% Mean full velocity (no release)."
+  },
+  {
+    "objectID": "index.html#dynamic-factor-14",
+    "href": "index.html#dynamic-factor-14",
+    "title": "Pure Limiter",
+    "section": "1.13 Dynamic Factor (14)",
+    "text": "1.13 Dynamic Factor (14)\nUnit: x\nValue Range: 0 / 3.0\nStep: variable.\nDefault Value: 1\nAmplify or dim the extracted real time dynamic informations."
+  },
+  {
+    "objectID": "index.html#dynamic-high-pass-filter-15",
+    "href": "index.html#dynamic-high-pass-filter-15",
+    "title": "Pure Limiter",
+    "section": "1.14 Dynamic High Pass Filter (15)",
+    "text": "1.14 Dynamic High Pass Filter (15)\nUnit: Hz\nValue Range: 10 / 21900\nStep: variable.\nDefault Value: 10 Hz\nSets the Lowest frequency feeding the release control section."
+  },
+  {
+    "objectID": "index.html#dynamic-low-pass-filter-16",
+    "href": "index.html#dynamic-low-pass-filter-16",
+    "title": "Pure Limiter",
+    "section": "1.15 Dynamic Low Pass Filter (16)",
+    "text": "1.15 Dynamic Low Pass Filter (16)\nUnit: Hz\nValue Range: 110 / 22000\nStep: variable.\nDefault Value: 22000 KHz\nSets the highest frequency feeding release control section."
+  },
+  {
+    "objectID": "index.html#channels-link-17",
+    "href": "index.html#channels-link-17",
+    "title": "Pure Limiter",
+    "section": "1.16 Channels Link (17)",
+    "text": "1.16 Channels Link (17)\n% of channels linkage\nUnit: Percents (%)\nRange: 0 to 100\nMin. Steps: 1\nDefault Value: 50%"
+  },
+  {
+    "objectID": "index.html#display-a-b-18-19",
+    "href": "index.html#display-a-b-18-19",
+    "title": "Pure Limiter",
+    "section": "1.17 Display A /B (18) (19)",
+    "text": "1.17 Display A /B (18) (19)\nToggle display of the dynamic curve"
+  },
+  {
+    "objectID": "index.html#make-up-20",
+    "href": "index.html#make-up-20",
+    "title": "Pure Limiter",
+    "section": "1.18 Make Up (20)",
+    "text": "1.18 Make Up (20)\nWhen engaged, the output gain is increased from the threshold value."
+  },
+  {
+    "objectID": "index.html#bypass-21",
+    "href": "index.html#bypass-21",
+    "title": "Pure Limiter",
+    "section": "1.19 Bypass (21)",
+    "text": "1.19 Bypass (21)\nDefault Value: Off. The inputs are directly routed to the outputs."
+  },
+  {
+    "objectID": "index.html#lookahead-22",
+    "href": "index.html#lookahead-22",
+    "title": "Pure Limiter",
+    "section": "1.20 Lookahead (22)",
+    "text": "1.20 Lookahead (22)\nUnit: ms\nValue Range: 0 / 10\nDefault Value: 10\nStep: 1 sample\nThis delay line allows to decrease the gain before the audio peak arrives. It’s a key point to avoid audio distortion. Note that changing this delay value may create clicks. Note also that this delay value is applied to the processed signal and it increases the processing latency."
+  },
+  {
+    "objectID": "index.html#auto-lookahead-23",
+    "href": "index.html#auto-lookahead-23",
+    "title": "Pure Limiter",
+    "section": "1.21 Auto Lookahead (23)",
+    "text": "1.21 Auto Lookahead (23)\nThe look ahead is automatically defined according to other settings and may vary according to the audio material."
+  },
+  {
+    "objectID": "index.html#diff-24",
+    "href": "index.html#diff-24",
+    "title": "Pure Limiter",
+    "section": "1.22 Diff (24)",
+    "text": "1.22 Diff (24)\nAllow to hear the difference only. Used to better understand the action and allow to easily tweak the parameters On/Off\nDefault Value: Off"
+  },
+  {
+    "objectID": "index.html#dynamic-filter-solo-25",
+    "href": "index.html#dynamic-filter-solo-25",
+    "title": "Pure Limiter",
+    "section": "1.23 Dynamic Filter Solo (25)",
+    "text": "1.23 Dynamic Filter Solo (25)\nWhen engaged, the signal feeding the dynamic extraction section is monitored. This allows to control which part of the audio spectrum is used to compute the release value."
+  },
+  {
+    "objectID": "index.html#loaded-preset-display-26",
+    "href": "index.html#loaded-preset-display-26",
+    "title": "Pure Limiter",
+    "section": "1.24 Loaded Preset Display (26)",
+    "text": "1.24 Loaded Preset Display (26)\nA plug-in features two preset sections; A & B. Clicking on the slot of a specific section reaches the preset bank. The main display is now a preset list in which you can select the preset you want to recall or save in the specific preset section. Two different presets must be used if you plan to use the morphing capability of FLUX Plug-in."
+  },
+  {
+    "objectID": "index.html#save-27",
+    "href": "index.html#save-27",
+    "title": "Pure Limiter",
+    "section": "1.25 Save (27)",
+    "text": "1.25 Save (27)\nSave replaces the selected preset by a new one under the same name featuring the current settings. If you want to keep an existing preset without your new modifications, just select an empty place into the preset list, enter a new name for this modified preset featuring the current settings and press Save."
+  },
+  {
+    "objectID": "index.html#recall-28",
+    "href": "index.html#recall-28",
+    "title": "Pure Limiter",
+    "section": "1.26 Recall (28)",
+    "text": "1.26 Recall (28)\nOnce a preset is selected from the preset list it must be explicitly loaded into section A or section B by using the recall button. A preset is effective only after it has been recalled."
+  },
+  {
+    "objectID": "index.html#copy-a-copy-b-29",
+    "href": "index.html#copy-a-copy-b-29",
+    "title": "Pure Limiter",
+    "section": "1.27 Copy A Copy B (29)",
+    "text": "1.27 Copy A Copy B (29)\nThe current parameters of a section are copied to the other one. The section A or B is re-initialized with the current values and the morphing slider is parked at 100% of the corresponding section."
+  },
+  {
+    "objectID": "index.html#morphing-slider-30",
+    "href": "index.html#morphing-slider-30",
+    "title": "Pure Limiter",
+    "section": "1.28 Morphing Slider (30)",
+    "text": "1.28 Morphing Slider (30)\nThis horizontal slider has no unity nor specific value display. It allows to morph current settings between two loaded presets. A double-click on one side of the slider area toggles between full A and full B settings. The results of an in-between setting can be saved as a new preset."
+  },
+  {
+    "objectID": "index.html#automation-31",
+    "href": "index.html#automation-31",
+    "title": "Pure Limiter",
+    "section": "1.29 Automation (31)",
+    "text": "1.29 Automation (31)\nDefault Value: Off\nWhen this button is disabled, all the plug-in parameters values are recorded when writing automation. The morphing slider is ignored.\nWhen reading automation, if this button is disabled, all the plug-in parameters are controlled by the host automation except the morphing slider.\nWhen this button is engaged, all parameters are recorded when writing automation uncluding the morphing slider.\nWhen this button is engaged, ONLY the morphing slider value is applied when reading automation.\nThe Automation button must be engaged if the morphing slider has to be mapped on a control surface."
+  },
+  {
+    "objectID": "index.html#preset-management-access-32",
+    "href": "index.html#preset-management-access-32",
+    "title": "Pure Limiter",
+    "section": "1.30 Preset Management Access (32)",
+    "text": "1.30 Preset Management Access (32)"
+  },
+  {
+    "objectID": "Plug-in_Settings.html",
+    "href": "Plug-in_Settings.html",
+    "title": "2  Plug-in Settings",
+    "section": "",
+    "text": "Pressing the cogwheels in the top right corner opens a settings window providing information about the plug-in version/build, a direct access button to the user manual, as well as setup for latency report and OSC (Open Sound Control). OSC is available in Pure Limiter only, and is not supported in Pure Limiter Studio Session."
+  },
+  {
+    "objectID": "Specifications.html",
+    "href": "Specifications.html",
+    "title": "3  Specifications",
+    "section": "",
+    "text": "3.0.1 Processing Specifications - Pure Limiter\n\nUp to 8 channels Input/Output.\n\n64-bits internal floating point processing.\n\nSampling rate up to 384 kHz DXD (Pyramix and Ovation MassCore/Native).\n\nSampling rate up to 192 kHz for Native (AU/VST/VST3/AAX/AAX AudioSuite).\n\n\n\n3.0.2 Processing Specifications - Pure Limiter Studio Session\n\nMono/Stereo Input/Output.\n64-bits internal floating point processing.\nSampling rate up to 96 kHz.\n\n\n\n3.0.3 Licence Requirements\nIn order to use Pure Limiter or Pure Limiter Studio Session, one of the following is required:\n- An iLok.com user account (the iLok USB Smart Key is not required).\n- A Flux:: USB Dongle (Available in our online store)."
+  },
+  {
+    "objectID": "Compatibility.html",
+    "href": "Compatibility.html",
+    "title": "4  Compatibility",
+    "section": "",
+    "text": "4.0.1 Pure Limiter\n\n\n4.0.2 Windows - 10, 64 bits only.\n\nVST (2.4) in 64 bit\nVST3 (3.1) in 64 bit\nAAX Native/DSP/AudioSuite, all in 64 bit*\nWaves WPAPI Native/Soundgrid in 64 bit\nVS3** Pyramix 10 and more in 64 bit and Ovation 6 and more\nAVID VENUE Systems\n\n\n\n4.0.3 macOS (Intel and ARM) - 10.12 (Sierra) and more, 11 and 12.\n\nVST (2.4) in 64 bit\nVST3 (3.1) in 64 bit\nAU in 64 bit\nAAX Native/DSP/AudioSuite, all in 64 bit*\nWaves WPAPI Native/Soundgrid in 64 bit\nAVID VENUE Systems\n\n** VS3 for Pyramix & Ovation Native/MassCore sold only through Merging Technologies and authorized dealers."
+  }
+]

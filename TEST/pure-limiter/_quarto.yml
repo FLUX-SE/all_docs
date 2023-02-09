@@ -1,0 +1,23 @@
+project:
+  type: book
+  output-dir: ../_build/pure-limiter ####### <=========== Don't forget to edit path if renaming is needed. YAML don't support concatenation
+
+book:
+  title: "Pure Limiter"
+  author: "FLUX:: Immersive"
+  date: "2/6/2023"
+  downloads: [pdf]
+  chapters:
+  - index.qmd
+  - Plug-in_Settings.qmd
+  - Specifications.qmd
+  - Compatibility.qmd
+    
+#[Release Notes](../../flux_processing_release_notes.md)
+
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreport

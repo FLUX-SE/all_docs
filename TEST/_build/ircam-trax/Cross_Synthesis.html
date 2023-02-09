@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.2.335">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>IRCAM Trax - 11&nbsp; Cross Synthesis</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./Source_Filter.html" rel="next">
+<link href="./Cross_Synthesis_&amp;_Source_Filter_Tools.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-sidebar floating">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+    <div class="container-fluid d-flex justify-content-between">
+      <h1 class="quarto-secondary-nav-title"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Cross Synthesis</span></h1>
+      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
+        <i class="bi bi-chevron-right"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">IRCAM Trax</a> 
+        <div class="sidebar-tools-main">
+    <a href="./IRCAM-Trax.pdf" title="Download PDF" class="sidebar-tool px-1"><i class="bi bi-file-pdf"></i></a>
+</div>
+    </div>
+      </div>
+      <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+      </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">index.html</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="./Transformer.html" class="sidebar-item-text sidebar-link">Transformer.html</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Mode.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Mode</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Source.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Source</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Target.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Target</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Remix.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Remix</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Filters.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Filters</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Options.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Options</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Modulation.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Modulation</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Spectral_Envelope.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Spectral Envelope</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Main_Input_-_Output_Section.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Main Input - Output Section</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="./Cross_Synthesis_&amp;_Source_Filter_Tools.html" class="sidebar-item-text sidebar-link">Cross Synthesis &amp; Source Filter Tools</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Cross_Synthesis.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Cross Synthesis</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Source_Filter.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Source Filter</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Preset_Section.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Preset Section</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Presets_Management.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Presets Management</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Credits.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Credits</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Specifications.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">Specifications</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#oversampling" id="toc-oversampling" class="nav-link active" data-scroll-target="#oversampling"><span class="toc-section-number">11.1</span>  (69) Oversampling</a></li>
+  <li><a href="#overlapp" id="toc-overlapp" class="nav-link" data-scroll-target="#overlapp"><span class="toc-section-number">11.2</span>  (70) Overlapp</a></li>
+  <li><a href="#window-size" id="toc-window-size" class="nav-link" data-scroll-target="#window-size"><span class="toc-section-number">11.3</span>  (71) Window Size</a></li>
+  <li><a href="#transient" id="toc-transient" class="nav-link" data-scroll-target="#transient"><span class="toc-section-number">11.4</span>  (72) Transient</a></li>
+  <li><a href="#amplitude" id="toc-amplitude" class="nav-link" data-scroll-target="#amplitude"><span class="toc-section-number">11.5</span>  Amplitude:</a>
+  <ul class="collapse">
+  <li><a href="#amplitude-left" id="toc-amplitude-left" class="nav-link" data-scroll-target="#amplitude-left"><span class="toc-section-number">11.5.1</span>  (73) Amplitude Left</a></li>
+  <li><a href="#amplitude-right" id="toc-amplitude-right" class="nav-link" data-scroll-target="#amplitude-right"><span class="toc-section-number">11.5.2</span>  (74) Amplitude Right</a></li>
+  <li><a href="#amplitude-link" id="toc-amplitude-link" class="nav-link" data-scroll-target="#amplitude-link"><span class="toc-section-number">11.5.3</span>  (75) Amplitude Link</a></li>
+  <li><a href="#product" id="toc-product" class="nav-link" data-scroll-target="#product"><span class="toc-section-number">11.5.4</span>  (76) Product</a></li>
+  <li><a href="#power" id="toc-power" class="nav-link" data-scroll-target="#power"><span class="toc-section-number">11.5.5</span>  (77) Power</a></li>
+  </ul></li>
+  <li><a href="#frequency" id="toc-frequency" class="nav-link" data-scroll-target="#frequency"><span class="toc-section-number">11.6</span>  Frequency :</a>
+  <ul class="collapse">
+  <li><a href="#frequency-left" id="toc-frequency-left" class="nav-link" data-scroll-target="#frequency-left"><span class="toc-section-number">11.6.1</span>  (78) Frequency Left</a></li>
+  <li><a href="#frequency-link" id="toc-frequency-link" class="nav-link" data-scroll-target="#frequency-link"><span class="toc-section-number">11.6.2</span>  (79) Frequency Link</a></li>
+  <li><a href="#frequency-right" id="toc-frequency-right" class="nav-link" data-scroll-target="#frequency-right"><span class="toc-section-number">11.6.3</span>  (80) Frequency Right</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title d-none d-lg-block"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Cross Synthesis</span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<p><img src="include/trax_13.png" class="img-fluid"></p>
+<section id="oversampling" class="level2" data-number="11.1">
+<h2 data-number="11.1" class="anchored" data-anchor-id="oversampling"><span class="header-section-number">11.1</span> (69) Oversampling</h2>
+<p>Adjusts the spectral domain oversampling factor, set to zero (none) by default. Increasing this setting can increase the processing the processing quality, depending on the audio material, although at the expense of higher CPU usage, which roughly doubles for every increment.</p>
+</section>
+<section id="overlapp" class="level2" data-number="11.2">
+<h2 data-number="11.2" class="anchored" data-anchor-id="overlapp"><span class="header-section-number">11.2</span> (70) Overlapp</h2>
+<p>This determines how much extraction windows overlap during a given time-frame, or in other terms, how often the analysis is updated for a given window size. Increasing this setting usually gives better results but also leads to more CPU resources being used, as more data has to be analyzed. The default setting of 4 is a good trade-off, but you can increase provided you have a reasonably fast machine and hear a noticeable difference.</p>
+</section>
+<section id="window-size" class="level2" data-number="11.3">
+<h2 data-number="11.3" class="anchored" data-anchor-id="window-size"><span class="header-section-number">11.3</span> (71) Window Size</h2>
+<p>Window size determines the time-frame base used to extract time-localized data in time from the incoming material. It is the most important parameter for all spectral domain signal transformations. It affects the capability of the algorithm to detect and identify the individual components of the signal (sinusoids, noise and transients/onsets) and to treat them independently. As general guidance, window size should be small for fast tempos and larger for slow music and at the same time larger for spectrally dense or low pitched sounds and smaller for spectrally sparse or high pitched sounds. In some cases, e.g.&nbsp;fast orchestral passages (that are spectrally dense and at the same time fast) the spectral and temporal characteristics ask for different windows sizes. In these cases finding the optimal window size requires some experimentation with different settings.</p>
+</section>
+<section id="transient" class="level2" data-number="11.4">
+<h2 data-number="11.4" class="anchored" data-anchor-id="transient"><span class="header-section-number">11.4</span> (72) Transient</h2>
+<p>For the T.R.A.X. Cross Synthesis plug-in, toggles transient processing on and off.</p>
+</section>
+<section id="amplitude" class="level2" data-number="11.5">
+<h2 data-number="11.5" class="anchored" data-anchor-id="amplitude"><span class="header-section-number">11.5</span> Amplitude:</h2>
+<p>This sub-panel determines how the output amplitude is affected by the left and right channels.</p>
+<section id="amplitude-left" class="level3" data-number="11.5.1">
+<h3 data-number="11.5.1" class="anchored" data-anchor-id="amplitude-left"><span class="header-section-number">11.5.1</span> (73) Amplitude Left</h3>
+<p>Sets the percentage of the left channel used to derive the output amplitude.</p>
+</section>
+<section id="amplitude-right" class="level3" data-number="11.5.2">
+<h3 data-number="11.5.2" class="anchored" data-anchor-id="amplitude-right"><span class="header-section-number">11.5.2</span> (74) Amplitude Right</h3>
+<p>Sets the percentage of the right channel used to derive the output amplitude.</p>
+</section>
+<section id="amplitude-link" class="level3" data-number="11.5.3">
+<h3 data-number="11.5.3" class="anchored" data-anchor-id="amplitude-link"><span class="header-section-number">11.5.3</span> (75) Amplitude Link</h3>
+<p>Links left and right channel amplitude controls in inverse fashion, which gives a kind of panning control.</p>
+</section>
+<section id="product" class="level3" data-number="11.5.4">
+<h3 data-number="11.5.4" class="anchored" data-anchor-id="product"><span class="header-section-number">11.5.4</span> (76) Product</h3>
+<p>Determines the amount of the product of the amplitudes of both channels that will be mixed into the output amplitude.</p>
+</section>
+<section id="power" class="level3" data-number="11.5.5">
+<h3 data-number="11.5.5" class="anchored" data-anchor-id="power"><span class="header-section-number">11.5.5</span> (77) Power</h3>
+<p>Exponent of the power law that is applied to the amplitude product. Default value of 0.5 corresponds to a square root, which produces the geometric mean of the amplitudes of both channels and is the setting that best preserves the signal power of the product amplitude spectrum when compared to the original input amplitude spectra. Smaller values of the power control will equalize low and high amplitude components while larger values will amplify the differences in the amplitude spectrum (amplifying spectral components in locations that are strong in both input spectra and suppressing spectral components that are weak in either or both input spectra).</p>
+</section>
+</section>
+<section id="frequency" class="level2" data-number="11.6">
+<h2 data-number="11.6" class="anchored" data-anchor-id="frequency"><span class="header-section-number">11.6</span> Frequency :</h2>
+<p>This sub-panel determines the frequency content of the output with respect to the inputs.</p>
+<section id="frequency-left" class="level3" data-number="11.6.1">
+<h3 data-number="11.6.1" class="anchored" data-anchor-id="frequency-left"><span class="header-section-number">11.6.1</span> (78) Frequency Left</h3>
+<p>Sets the percentage of the left channel used to derive the output frequency spectrum.</p>
+</section>
+<section id="frequency-link" class="level3" data-number="11.6.2">
+<h3 data-number="11.6.2" class="anchored" data-anchor-id="frequency-link"><span class="header-section-number">11.6.2</span> (79) Frequency Link</h3>
+<p>Controls the gain applied to the dynamic processing input. This setting may affect the dynamics signal detection.</p>
+</section>
+<section id="frequency-right" class="level3" data-number="11.6.3">
+<h3 data-number="11.6.3" class="anchored" data-anchor-id="frequency-right"><span class="header-section-number">11.6.3</span> (80) Frequency Right</h3>
+<p>Sets the percentage of the right channel used to derive the output frequency spectrum.</p>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./Cross_Synthesis_&amp;_Source_Filter_Tools.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Cross Synthesis &amp; Source Filter Tools</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./Source_Filter.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Source Filter</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+</body></html>

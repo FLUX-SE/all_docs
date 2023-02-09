@@ -1,0 +1,219 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Evo Channel",
+    "section": "",
+    "text": "Product Page | Shop Page\n\n1 Introduction\nEVO Channel - The Ultimate Channel Strip Redefined\nThe philosophy of the analog Channel Strip, the essential element of all analog consoles, is about being efficient, fast, and making things sound great already from the start. EVO Channel is designed to be as efficient, fast and hands-on, adding the advantages of creative digital innovation in terms of workflow and sound, providing everything you need to stay in control of your sound!\n\nEVO Channel architecture :"
+  },
+  {
+    "objectID": "General_Settings.html#bypass",
+    "href": "General_Settings.html#bypass",
+    "title": "2  General Settings",
+    "section": "2.1 Bypass",
+    "text": "2.1 Bypass\nGlobal bypass, when pressed, the signal is routed directly from the inputs to the outputs.\nValue Range : Enabled/Disabled\nDefault Value : Disabled"
+  },
+  {
+    "objectID": "General_Settings.html#skin",
+    "href": "General_Settings.html#skin",
+    "title": "2  General Settings",
+    "section": "2.2 Skin",
+    "text": "2.2 Skin\nThe look of the EVO Channel user interface.\nValue Range : Light/Dark\nDefault Value : Light"
+  },
+  {
+    "objectID": "General_Settings.html#flow",
+    "href": "General_Settings.html#flow",
+    "title": "2  General Settings",
+    "section": "2.3 Flow",
+    "text": "2.3 Flow\n\nFlow allow you to change the order of the modules in EVO Channel. Simply drag and drop a module to set your perfect signal flow."
+  },
+  {
+    "objectID": "Module_Settings.html#analyser",
+    "href": "Module_Settings.html#analyser",
+    "title": "3  Module Settings",
+    "section": "3.1 Analyser",
+    "text": "3.1 Analyser\n\n3.1.1 Analyser Switch\nThe spectrum analyzer origins from the Flux:: Pure Analyzer and has been optimized for the EVO Channel. It gives you an accurate direct view of what’s going on in the different frequency domains of your audio. When switched on, the spectrum analysis is activated and displayed in the equalization view panel. The grey waveform correspond to your input signal (post gain/drive), the same as the input meter. The black one is the output signal (post output gain), the same as the output meter.\nValue Range : Enabled/Disabled\nDefault Value : Enabled\n\n\n3.1.2 Analyser Slider\nControls the amount of frequency detail of the curve. Move the slider to the left to get a more smoothed curved, and to the right to get more details.\nValue Range : No Value"
+  },
+  {
+    "objectID": "Module_Settings.html#input",
+    "href": "Module_Settings.html#input",
+    "title": "3  Module Settings",
+    "section": "3.2 Input",
+    "text": "3.2 Input\n\n3.2.1 Input Gain\nThe input gain control trims the level of the signal at the input of EVO Channel. The meter shows both RMS signal (VU-Meter, blue) and peak signal (peak meter, green), from -24 to +18 dB range, referenced at -18dB.\nValue Range : -24.0 dB / +18.0 dB\nColors : - Blue : RMS Value - Green : Peak Value\nDefault Value : 0.0 dB\n\n\n3.2.2 Drive\nIn EVO Channel a signal Drive is available direct at the input Gain for restoring and maintaining the vitality of the sound.\nThe drive module has been specially designed to add a soft saturation and warmth to your audio tracks.\nValue Range : 0% / 100%\nDefault Value : 0%"
+  },
+  {
+    "objectID": "Module_Settings.html#phase",
+    "href": "Module_Settings.html#phase",
+    "title": "3  Module Settings",
+    "section": "3.3 Phase",
+    "text": "3.3 Phase\nOne of the most crucial parameters to take into account; Phase, or “The art of using multiple microphones on one and the same sound source”, a classic example is when setting up the sound for a drumkit.\nControlling the Phase of microphones is universal and relevant both for studio and live use. In EVO Channel an Arbitrary and Linear Phase Rotation throughout the spectrum is provided, to accomplish the same natural thing as when physically moving a microphone, of course without adding any latency.\n\nThe phase must be enabled for all the drum tracks. Then set the same group number for all these tracks. It allows to enable and disable the phase for all the drums in one click (simply switch on/off for the phase in one of the tracks).\n\n\n3.3.1 Phase Switch\nThe Phase is the result of Flux:: proprietary research, this unique algorithm allows linear phase correction with zero latency.\nActivate the phase module on all of the tracks that were recorded at the same time and in the same room (multi- microphones tracking or live recording in exemple), and then use the slider on the different tracks until you get full control over the phase and everything sounds correct.\nWhen enabled, the phase correction is turned on.\nValue Range : Enabled/Disabled\nDefault Value : Disabled\n\n\n3.3.2 Phase Group\nAdd an EVO Channel instance to a Phase Group. You can add an instance of EVO Channel to a group, all the members of the same group can then have their Phase enabled or disabled at one and the same time. To do so, add the instance to a group by selecting the group number for the desired group. Now when you then turn the phase switch on or off in any of the instances in the group, this will affect all instances that are members of the same group.\nValue Range : None/Group number\nNumber of groups : 8 groups\nDefault Value : Disabled\n\n\n3.3.3 Phase Correction\nSet the shift value used to correct the phase.\nValue Range : -180° / 180°\nDefault Value : 0°\n\n\n3.3.4 Polarity Invert\nWhen enabled, polarity inversion is applied to the signal.\nValue Range : Enabled / Disabled\nDefault Value : Disabled"
+  },
+  {
+    "objectID": "Module_Settings.html#equalization-module",
+    "href": "Module_Settings.html#equalization-module",
+    "title": "3  Module Settings",
+    "section": "3.4 Equalization module",
+    "text": "3.4 Equalization module\nOne of the corner stones in a Channel Strip is a well-built, efficient and complete Equalizer.\nThe EVO Channel EQ is a straightforward comprehensive 4-band equalizer with additional 6-24 dB Hi/Lo filters.\nThe graphical interactive EQ curve is layered on top of the built in Spectrum Analyzer for hands-on editing with direct connection to the visual response.\nBuilt with our proprietary State-Space technology, like in Epure, the EQ section has been carefully tuned to preserve the optimal signal to noise ratio independent of the parameter settings preventing the signal from deteriorating when the gain is reduced. It’s an efficient sharp-edged surgical precision tool for the most demanding equalizing and filtering tasks conceivable.\nEqualization module is divided in two parts : - A filtering part composed of a low cut, a low shelf, a high cut and a high shelf filter. - A parametric equalization stage made of four parametric EQs.\n\n\n3.4.1 Low-Cut Switch\nEnables the low cut filter.\nValue Range : Enabled / Disabled\nDefault Value : Enabled\n\n\n3.4.2 Low-Cut Cutoff Frequency\nCutoff frequency of the low cut filter.\nValue Range : 20Hz to sampling rate / 2\nDefault Value : 20Hz\n\n\n3.4.3 Low-Cut Slope\nSlope of the low cut filter.\nValue Range : 6dB/oct - 24dB/oct\nDefault Value : 6dB/oct\n\n\n3.4.4 Low Shelf Switch\nEnables the low shelf.\nValue Range : Enabled / Disabled\nDefault Value : Enabled\n\n\n3.4.5 Low Shelf Cutoff\nCutoff frequency of the low shelf.\nValue Range : 20Hz / 22050Hz\nDefault Value : 100Hz\n\n\n3.4.6 Low Shelf Gain\nTarget gain for frequencies below the cutoff frequency.\nValue Range : -24.0dB / +24.0dB\nDefault Value : 0.0dB\n\n\n3.4.7 High-Cut Switch\nEnables the high cut filter.\nValue Range : Enabled / Disabled\nDefault Value : Enabled\n\n\n3.4.8 High-Cut Cutoff Frequency\nCutoff frequency of the high cut filter.\nValue Range : 20Hz to sampling rate / 2\nDefault Value : Sampling rate / 2\n\n\n3.4.9 High-Cut Slope\nSlope of the high cut filter.\nValue Range : 6dB/oct - 24dB/oct\nDefault Value : 6dB/oct\n\n\n3.4.10 High Shelf Switch\nEnables the high shelf.\nValue Range : Enabled / Disabled\nDefault Value : Enabled\n\n\n3.4.11 High Shelf Cutoff\nCutoff frequency of the high shelf.\nValue Range : 20Hz to sampling rate / 2\nDefault Value : 5000Hz\n\n\n3.4.12 High Shelf Gain\nTarget gain for frequencies above the cutoff frequency.\nValue Range : -24.0dB / +24.0dB\nDefault Value : 0.0dB\n\n\n3.4.13 Parametric Equalization Switches\nEnables the corresponding parametric equalizer.\nValue Range : Enabled / Disabled\nDefault Value : Enabled\n\n\n3.4.14 Parametric Equalization Gain\nGain stage of parametric equalization.\nValue Range : -24.0dB / +24.0dB\nDefault Value : 0.0dB\n\n\n3.4.15 Parametric Equalization Center Frequency\nCenter frequency of parametric equalization.\nValue Range : 20Hz to sampling rate / 2\nDefault Value : Default value depends of the equalizer used.\n\nLow parametric equalizer : 200Hz\n\nMid-Low parametric equalizer : 500Hz\n\nMid-High parametric equalizer : 1300Hz\n\nHigh parametric equalizer : 2500Hz\n\n\n\n3.4.16 Parametric Equalization Q\nQ value of parametric equalization. Defines the width of the EQ band.\nValue Range : 1.0 Q / 100.0 Q\nDefault Value : 5.0 Q\n\n\n3.4.17 Equalization Output Gain\nA stage of gain at the output of the equalization module.\nValue Range : -12.0dB / +12.0dB\nDefault Value : 0.0dB"
+  },
+  {
+    "objectID": "Module_Settings.html#compressor",
+    "href": "Module_Settings.html#compressor",
+    "title": "3  Module Settings",
+    "section": "3.5 Compressor",
+    "text": "3.5 Compressor\nIn addition to controlling the signal dynamics, the compressor is often used for shaping the attitude of a sound. To use a compressor in a creative and artistic fashion it’s important that it’s easy to use and has the ability to create an interesting sound.\nThe EVO Channel’s compressor module is based on the Pure Compressor’s dynamics engine, and the same range of compression types are available in EVO Channel through the different modes available (each mode corresponds to a fine tuning of Pure Compressor). As some modes use a LID compression (Level Independent Detection) in parallel, a gain reduction may be processed even if the audio level is below the threshold.\n\n\n3.5.1 Mode\nThe compressor module gives you up to 9 modes of compression.\nAvailable modes :\n\nStart\nKick/Snare\nOverhead\nDrum Bus\nBass\nAcoustic\nPiano\nVocal\nMix\n\nDefault Value : Start\n\n\n3.5.2 Threshold\nThreshold value of the compressor.\nValue Range : -42.0dB / +18.0dB\nDefault Value : Depends on the Mode.\n\n\n3.5.3 Ratio\nCompression ratio parameter.\nValue Range : 1.0:1 / 10.0:\nDefault Value : Depends on the Mode.\n\n\n3.5.4 Attack\nAttack value of the compressor.\nValue Range : 0.1ms / 1000.0ms\nDefault Value : Depends on the Mode.\n\n\n3.5.5 Release\nRelease value of the compressor.\nValue Range : 1ms / 10000ms\nDefault Value : Depends on the Mode.\n\n\n3.5.6 Auto Adapt.\nWhen enabled, the compressor adapts its release time to the input signal depending on the audio signal, but won’t exceed the release time value.\nValue Range : Enabled / Disabled\nDefault Value : Enabled\n\n\n3.5.7 Gain Reduction Display\nDisplays the gain reduction performed by the compressor.\nValue Range : 0dB / -24dB\n\n\n3.5.8 Compressor Output Gain\nGain stage at the output of the compressor module.\nValue Range : 0.0dB / 24.0dB\nDefault Value : 0.0dB\n\n\n3.5.9 Wet\nWet parameter defines how much of the compressed signal is mixed with the original signal, for parallel compression.\nValue Range : 0% / 100%\nDefault Value : 100%"
+  },
+  {
+    "objectID": "Module_Settings.html#touch",
+    "href": "Module_Settings.html#touch",
+    "title": "3  Module Settings",
+    "section": "3.6 Touch",
+    "text": "3.6 Touch\nDifferent types of material require different tools, whether it’s a vocal cut, drums, guitar, piano or something else, it requires the accurate specific treatment for the material.\nThe Touch module in EVO Channel is a polymorphic section offering a variety of different processors designed to adapt to the requirements of the material, with seven different processing modes including a DeEsser, Expander and a Transient and Sustain Designer.\nWith the adjustable signal flow in EVO Channel the Touch module can be inserted where it’s best doing its job, like having the DeEsser or Expander first in the flow, or the Transient designer after the compressor.\n\n\n3.6.1 Mode\nMode parameter defines the processor used by the touch module. Seven different modes are provided.\nAvailable modes :\n\nTransient Boost\nTransient Kill\nSustain Boost\nSustain Kill\nDeEsser 1\nDeEsser 2\nExpander\n\nDefault Value : DeEsser 2\n\n\n3.6.2 Amount\nThe amount of signal processed by the Touch module.\nValue Range : 0% / 100%\nDefault Value : 0%\n\n\n3.6.3 Release/Range\nThere is a release parameter for the following modes :\n\nTransient Boost\nTransient Kill\nSustain Boost\nSustain Kill\nExpander\n\nValue Range : 1ms / 1000ms\nDefault Value : 20ms\nThe two deesser modes offers a range parameter, to limit the maximum gain reduction.\nValue Range : 0dB / 24dB\nDefault Value : 12dB\n\n\n3.6.4 Frequency Range\nThe Touch module works on a defined frequency range.\nValue Range :\nMinimal bound : 20Hz\nMaximal bound : Sampling Rate / 2\nDefault Value :\nInferior bound : 3.9kHz\nSuperior bound : up to Sampling Rate / 2\nRange width : Depends on the sampling rate.\n\n\n3.6.5 Listen\nWhen enabled, you can monitor the actual signal setup with the frequency range.\nValue Range : Enabled / Disabled\nDefault Value : Disabled"
+  },
+  {
+    "objectID": "Module_Settings.html#output",
+    "href": "Module_Settings.html#output",
+    "title": "3  Module Settings",
+    "section": "3.7 Output",
+    "text": "3.7 Output\n\n3.7.1 Output Gain\nThe output gain control trims the level of the signal at the output of EVO Channel. The meter shows both RMS signal (VU-Meter, blue) and peak signal (peak meter, green), from -24 to +18 dB range, referenced at -18dB.\nValue Range : -24.0 dB / +18.0 dB\nColors : - Blue : RMS Value - Green : Peak Value\nDefault Value : 0.0 dB"
+  },
+  {
+    "objectID": "Geek_Settings.html#compressor",
+    "href": "Geek_Settings.html#compressor",
+    "title": "4  Geek Settings",
+    "section": "4.1 Compressor",
+    "text": "4.1 Compressor\n\n4.1.1 Mode\nDefault Value: ClF Slow\n8 different detection modes are available:\n\nSolera: The Attack setting also controls the integration time for RMS detection.\nSolera Feed Backward: The Attack setting also controls the integration time for RMS detection which is done on the output of the processor. Note also that the Solera Feed Backward prevents to use the external side chain because it’s the processed signal which feed the side chain.\nClassic Fast: The integration time for RMS detection is 10 ms with no direct relation with the Attack setting.\nClassic Medium: The integration time for RMS detection is 40 ms with no direct relation with the Attack setting.\nClassic Slow: The integration time for RMS detection is 80 ms with no direct relation with the Attack setting.\nClassic Feed Backward Fast: The integration time is 10 ms for RMS detection which is done on the output of the processor. Note also that the Feed Backward mode prevents to use the external side chain because it’s the processed signal which feed the side chain.\nClassic Feed Backward Medium: The integration time is 40 ms for RMS detection which is done on the output of the processor. Note also that the Feed Backward mode prevents to use the external side chain because it’s the processed signal which feed the side chain.\nClassic Feed Backward Slow: The integration time is 80 ms for RMS detection which is done on the output of the processor. Note also that the Feed Backward mode prevents to use the external side chain because it’s the processed signal which feed the side chain.\n\n\nThese Feed Backward modes have been inspired by vintage hardware architectures. they create a sort of auto regulation of the processing which produces a naturally beefy sound. The output volume also control the feedback level.\n\n\n\n4.1.2 Hold\nUnit: ms\nValue Range: 0 ms / 500 ms.\nDefault Value: 0 ms\nThis parameter is the only one in the time related settings, that is independent per dynamic processor. The compressor and the expander may have different hold time.\n\nUsed in the Expander section, this setting allows very precise gating of drum tracks. It can also be used for creative purpose on the other dynamic sections.\n\n\n\n4.1.3 Release Minimum\nUnit: ms\nValue Range: 0.67ms / 5000.00\nStep: 0.01\nDefault Value: 1.30 ms\nSets the minimum release value when in Advanced Mode.\n\n\n4.1.4 Dynamic Factor\nUnit: x\nValue Range: 0 / 3.0\nStep: variable.\nDefault Value: 1\nAmplify or dim the extracted real time dynamic informations.\n\n\n4.1.5 Dynamic Velocity\nUnit: %\nValue Range: 10 / 1000\nStep: 1\nDefault Value: 50 %\nSets the speed of variation on the dynamic informations.\n\n\n4.1.6 SC Lo Cut\nUnit: Hz\nValue Range: 20 to 24000 Default Value: 20\nFilters out the low-end from the detection circuit.\n\n\n4.1.7 SC Hi Cut\nUnit: Hz\nValue Range: 20 to 24000 Default Value: 20000\nFilters out the high-end from the detection circuit.\n\n\n4.1.8 Knee (28)\nUnit: dB\nValue Range: 0 to +24\nDefault Value: 0\nSets the smoothness of the transmission curve for the specific dynamic processing section. The curve is smoothed around the threshold value of the dB amount set with the knee value.\n\n\n4.1.9 Peak Detection Amount (29)\nUnit: %\nValue Range: 0 / 100\nStep: 1\nDefault Value: 0 %\nInstant peak value can be added to the RMS signal feeding the detector section, making the dynamic processing more sensitive to audio transients.\n\n\n4.1.10 Dynamic Ratio (30)\nUnit: %\nValue Range: 0 / 100\nStep: 1\nDefault Value: 0 %\nThis setting relaxes the ratio applied to the processor section when the detected signal dynamic raises.\nThis setting literally opens the sound, increases the dynamic impression and keeps some crest by adjusting in real time the ratio of every dynamic processing section regarding both their current settings about ratio and the signal content (mainly dynamic range). To start understanding this setting and easily hear it, take a full mixed drum kit or a complete mix with punchy drums, set the compression threshold, ratio to get something near pumping or an aggressive compression.\nThen increase the output gain to compensate the gain lost and then toggle between 0 and 100% of Dynamic Ratio. At 100 % you should hear more air in the sound, more transient and less compression impression; especially in terms of attack.\n\n\n4.1.11 L.I.D.. (Level Independent Detector) (32)\nUnit: %\nValue Range: 0 / 100\nStep: 1\nDefault Value: 0 %\nAllows process the audio signal independently of the sound level but regarding the signal dynamic range. It is mixed with the standard compression scheme.\n\nTake a piece of full mixed music, set the ratio to 3-4 and the compression will start working. Now set the threshold of the compressor to the maximum value, the compressor will stop working because the sound level will never reach the threshold. Then increase the L.I.D.. and you will see (and hear) the compression working again!!! Now decrease or increase the input gain (in Solera or before, as you want) and you will see that the compression will continue to work equally; it’s totally, completely independent of the sound level and depends only on Ratio, Knee and sound content. How can this be used? When you have too much dynamic in the sound, going for e.g. from -3, -6 dB Vu (or less) to +12 dB; If you want to compress the low levels you will hear the sound ™pumping∫ when the sound reaches the High levels and the only thing to do with standard compressor will be to increase the threshold to rescue some airiness in the sound. But when doing that the compressor will not work any more on the low levels and you will hear some sound differences (in term density, live space, grain etcº ) especially when the compressor starts working. With Solera L.I.D.., adjust the threshold and ratio on the High levels to what you think OK, then increase the L.I.D.. (from 20 to 50 %) and listen now the low levels and especially the transition between Low and High levels. You can also start increasing the ratio to increase the effect. You’ll then notice that the compression will always be active but can still take care of High, loud levels (unless you set 100% L.I.D..) and make the compression very smooth and no more pumpingº In addition with the Dynamic Ratio function, you’ll be able to set a constant and very natural envelop that allows to increase low levels, low frequency and to keep important transients.\n\n\n\n4.1.12 L.I.D.. Threshold (33)\nSets the gain range of the L.I.D. parameter.\n\nUp: Increasing of the L.I.D. action\nDown: Decreasing of the L.I.D. action\n\nThe current L.I.D. Threshold value is reflected by two blue lines on the Dynamic Activity display.\nFor Compressor and DCompressor sections, the L.I.D. action is effective only when the orange Dynamic Activity (18) exceeds the area between the two blue lines. For Expander and DExpander sections, the L.I.D. action is effective only when the orange Dynamic Activity (18) stays inside the area between the two blue lines.\n\n\n4.1.13 L.I.D.. Maximum (34)\nWhen engaged, the threshold for the processing is determined by the maximum values from RMS/peak detection OR from the signal dynamic detection. The L.I.D. Threshold is still active, but the L.I.D. mix button is disabled.\n\nThis feature allows the whole process to be more reactive to the signal content. It worth to be tried on drum tracks."
+  },
+  {
+    "objectID": "Geek_Settings.html#touch",
+    "href": "Geek_Settings.html#touch",
+    "title": "4  Geek Settings",
+    "section": "4.2 Touch",
+    "text": "4.2 Touch\n\n4.2.1 Slope\nThe Slope sets the number of frequency-dependent components controlling the slope of the frequency response. One component, referred to as 1 (First-Order), gives a 6 dB/Octave slope, adding a second component, referred to as 2 (Second-Order), gives a 12 dB/Octave slope etc. The higher the Frequency Order is, the steeper the slope of the frequency response becomes.\nValue Range: 6 / 12 / 18 / 24 - dB Per Octave\nDefault Value: 6 dB/o\n\n\n4.2.2 Release\nAdjusts the release time for the transient processing envelope.\nValue Range: 0.00 ms / 500.00 ms\nDefault Value: 0.00 ms\n\n\n4.2.3 Bandwidth\nValue Range: Static BW/Dynamic BW/Flat Sum\nDefault Value: Static BW\nStatic bandwidth provides a constant Q factor, no matter of the gain factor of the filter. It’s computed by having a constant bandwidth at +- 3 dB from 0 dB.\nDynamic bandwidth provides a dynamic Q factor, dependent on the gain factor of the filter. It’s computed by having a constant bandwidth at +- 3 dB from peak levels of the filter.\nFlat Sum is a more traditional way of computing the Q factor. The bandwidth is constant for the gain factor divided by two.\n\n\n4.2.4 Zero Crossing Threshold\nThe Zero Crossing refers to the amount of time the signal crosses the point of an amplitude of zero. It gives an indication on transient detection, as they tend to produce bursts of zero crossing."
+  },
+  {
+    "objectID": "Plugin_Settings.html#main-setup",
+    "href": "Plugin_Settings.html#main-setup",
+    "title": "5  Plugin Settings",
+    "section": "5.1 Main Setup",
+    "text": "5.1 Main Setup\n\n5.1.1 UI Refresh Rate\nMax refresh rate of the plug-in’s UI."
+  },
+  {
+    "objectID": "Plugin_Settings.html#io",
+    "href": "Plugin_Settings.html#io",
+    "title": "5  Plugin Settings",
+    "section": "5.2 I/O",
+    "text": "5.2 I/O\n\n5.2.1 Input / Output\nI/O Config and Layout is not always available, though it is always displayed, it can only be edited in some configurations and formats.\n\n\n5.2.2 Config\nCurrent I/O configuration, is only available in certain VST hosts; typically hosts with limited capabilities for handling multichannel configurations.\n\n\n5.2.3 Layout\nAvailable I/O routings based on current I/O configuration. Layout is available for editing if more than two input channels are available. If the Layout is changed from the default value, an asterisk * is displayed next to the Layout information in the Input section."
+  },
+  {
+    "objectID": "Plugin_Settings.html#processing",
+    "href": "Plugin_Settings.html#processing",
+    "title": "5  Plugin Settings",
+    "section": "5.3 Processing",
+    "text": "5.3 Processing\n\n5.3.1 Report Latency\nEnables/Disables the latency reporting to the host."
+  },
+  {
+    "objectID": "Plugin_Settings.html#automation",
+    "href": "Plugin_Settings.html#automation",
+    "title": "5  Plugin Settings",
+    "section": "5.4 Automation",
+    "text": "5.4 Automation\n\n5.4.1 Multithread\nEnables/Disables Multithread Automation."
+  },
+  {
+    "objectID": "Plugin_Settings.html#osc",
+    "href": "Plugin_Settings.html#osc",
+    "title": "5  Plugin Settings",
+    "section": "5.5 OSC",
+    "text": "5.5 OSC\nOSC is available in EVO Channel.\n\n5.5.1 Enable\nEnables/Disables OSC control and mapping of the plug-in’s parameters."
+  },
+  {
+    "objectID": "Plugin_Settings.html#version-information",
+    "href": "Plugin_Settings.html#version-information",
+    "title": "5  Plugin Settings",
+    "section": "5.6 Version Information",
+    "text": "5.6 Version Information\nPlug-in version and build-number information."
+  },
+  {
+    "objectID": "Plugin_Settings.html#user-manual-credits",
+    "href": "Plugin_Settings.html#user-manual-credits",
+    "title": "5  Plugin Settings",
+    "section": "5.7 User Manual / Credits",
+    "text": "5.7 User Manual / Credits\nQuick link to the User Manual. Plug-in creation credits."
+  },
+  {
+    "objectID": "Shortcuts.html",
+    "href": "Shortcuts.html",
+    "title": "6  Shortcuts",
+    "section": "",
+    "text": "Shortcuts have been added to further enhance the user interaction and improve the workflow.\n\n\n\n\n\n\n\n\nWhere\nShortcut\nDescription\n\n\n\n\nEQ Display\nMouse Click + Alt\nReset to default value\n\n\nEQ Display\nMouse Move + Ctrl\nQ change only\n\n\nEQ Display\nMouse Move + Shift\nGain change only\n\n\nEQ Display\nMouse Move + Ctrl + Shift\nFrequency change only\n\n\nEQ Display\nWheel + Ctrl\nQ change only\n\n\nEQ Display\nWheel + Shift\nGain change only\n\n\nCompressor Mode\nMouse Click + Alt + Shift\nReset all compressor parameters to the default value of the Mode"
+  },
+  {
+    "objectID": "Preset_Management.html#preset-sections",
+    "href": "Preset_Management.html#preset-sections",
+    "title": "7  Preset Management",
+    "section": "7.1 Preset Sections",
+    "text": "7.1 Preset Sections\nEVO Channel provides two preset sections referred to as section A and section B, offering simultaneous access to two full sets of parameter settings. Clicking the A section (bottom left) or the B section (bottom right), or clicking the arrow in the Current Selected Preset display, opens a new window accessing the built-in preset manager."
+  },
+  {
+    "objectID": "Preset_Management.html#save",
+    "href": "Preset_Management.html#save",
+    "title": "7  Preset Management",
+    "section": "7.2 Save",
+    "text": "7.2 Save\nSave replaces the selected preset by a new one under the same name featuring the current settings. If you want to keep an existing preset without your new modifications, just select an empty place into the preset list, enter a new name for this modified preset featuring the current settings and press Save. Recall\nOnce a preset is selected from the preset list it must be explicitly loaded into section A or the section B by using the recall button. A preset is effective only after it has been recalled."
+  },
+  {
+    "objectID": "Preset_Management.html#copy-a-copy-b",
+    "href": "Preset_Management.html#copy-a-copy-b",
+    "title": "7  Preset Management",
+    "section": "7.3 Copy A / Copy B",
+    "text": "7.3 Copy A / Copy B\nThe current parameters of a section are copied to the other one. The section A or B is re-initialized with the current values and the morphing slider is parked at 100% of the corresponding section."
+  },
+  {
+    "objectID": "Preset_Management.html#morphing-slider",
+    "href": "Preset_Management.html#morphing-slider",
+    "title": "7  Preset Management",
+    "section": "7.4 Morphing Slider",
+    "text": "7.4 Morphing Slider\nMorphs the parameter values of both parameter sections, it has no unity or specific value display; it provides morphing of the current values from both of the parameter sections (A & B). A double-click on one side of the slider area toggles between the two parameter sections. The actual result of the morphed parameter settings can be saved as a new preset."
+  },
+  {
+    "objectID": "Preset_Manager.html",
+    "href": "Preset_Manager.html",
+    "title": "8  Preset Manager",
+    "section": "",
+    "text": "The preset manager contains two preset banks, the Factory bank contains factory presets, this bank is not available for saving of presets but any of the presets can be loaded into a preset slot and then saved into, the User bank, where all user presets are saved.\n\nIn the preset manager, any preset can be loaded into a preset slot by double clicking on the name of the desired preset in the actual preset list, the preset will then be loaded into the preset slot corresponding to the position of the morphing slider.\n\nAdditional controls in the preset manager\nRecall A loads the selected preset into the corresponding slot.\nRecall B loads the selected preset into the corresponding slot.\nUpdate, saves the current settings into the selected preset. (Available in User Bank only)\nNew, saves the current settings into a new preset. (Available in User Bank only)\nDuplicate creates a copy of the selected preset and saves it to the list.\nEdit allows for changes to the preset meta properties. (Available in User Bank only)\nDelete, removes the selected preset. (Available in User Bank only)\nExport, creates a file reflecting the content of the current preset bank.\nImport, allows for import of a preset bank file by adding the imported banks content to the content in the current preset bank.\n\nWhen saving or editing a preset, an option to protect the preset is presented. The preset protection, if engaged, only allows the original preset author to uncheck and edit the preset. This means that you can protect your presets in a multi-user configuration. Protected presets can only be modified using the session used for their creation. If used in another user session they can only be imported or deleted."
+  },
+  {
+    "objectID": "Specifications.html#availability",
+    "href": "Specifications.html#availability",
+    "title": "9  Specifications",
+    "section": "9.1 Availability",
+    "text": "9.1 Availability\nEVO Channel is available in:\nAU / VST / VST3 / AAX Native/ AAX AudioSuite / Waves WPAPI\n* AAX Native & AAX AudioSuite in Pro Tools 11 and later"
+  },
+  {
+    "objectID": "Specifications.html#processing",
+    "href": "Specifications.html#processing",
+    "title": "9  Specifications",
+    "section": "9.2 Processing",
+    "text": "9.2 Processing\nEVO Channel provides :\n\nUp to 16 channels Input/Output in AAX/AU/VST/VST3.\nUp to 8 channels in WPAPI for Waves Soundgrid.\n64-bits internal floating point processing.\nSampling rate up to 384 kHz."
+  },
+  {
+    "objectID": "Specifications.html#hardware-requirements",
+    "href": "Specifications.html#hardware-requirements",
+    "title": "9  Specifications",
+    "section": "9.3 Hardware Requirements",
+    "text": "9.3 Hardware Requirements\nA graphic card fully supporting OpenGL 2.0 is required.\n\nmacOS : OpenGL 2.0 required – Mac Pro 1.1 & Mac Pro 2.1 are not supported.\nWindows : If your computer has an ATi or NVidia graphics card, please assure the latest graphic drivers from the ATi or NVidia website are installed."
+  },
+  {
+    "objectID": "Specifications.html#software-license-requirements",
+    "href": "Specifications.html#software-license-requirements",
+    "title": "9  Specifications",
+    "section": "9.4 Software License Requirements",
+    "text": "9.4 Software License Requirements\nIn order to use the software an iLok.com user account is required (the iLok USB Smart Key is not required)."
+  },
+  {
+    "objectID": "Specifications.html#compatibility",
+    "href": "Specifications.html#compatibility",
+    "title": "9  Specifications",
+    "section": "9.5 Compatibility",
+    "text": "9.5 Compatibility\nAll major native formats are supported\n\n9.5.1 Windows – 10, in 64 bits only.\n\nVST (2.4)\nVST3 (3.1)\nAAX Native*\nAAX AudioSuite*\nWaves WPAPI\n\n\n\n9.5.2 macOS (Intel and ARM)\nAll versions from Sierra (10.12) to latest. (Compatible with previous versions but not supported)\n\nVST (2.4)\nVST3 (3.1)\nAU\nAAX Native*\nAAX AudioSuite*\nWaves WPAPI\n\n* AAX Native & AAX AudioSuite in Pro Tools 11 and later"
+  }
+]
