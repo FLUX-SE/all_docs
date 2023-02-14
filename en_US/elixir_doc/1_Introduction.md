@@ -13,10 +13,10 @@ There is no need to care about release time or any other conventional limiter se
 There’s an additional feature provided to increase the processing quality in Elixir called ‘Stages’.
 Stages present the option to set the algorithm to perform the limiting processing in multi-stages, for a limitation more natural and more respectful of the sound material. 
 
-# Elixir Session, Elixir Essential
+# Elixir Session, Elixir
 
 Elixir comes with two different licensing options:
+- Elixir supports up to 32 channels and a sample rate up to 384kHz
 - Elixir *Session* supports up to 2 channels and a sample rate up to 96kHz.
-- Elixir *Essential* supports up to 32 channels and a sample rate up to 384kHz
 
-The build is the same for both Session and Essential versions, the licensing allowing to use the plug-in as Elixir Session or Essential.
+The build is the same for both versions, the licensing allowing to use the plug-in as Elixir Session or Elixir.
