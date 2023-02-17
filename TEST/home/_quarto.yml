@@ -23,12 +23,12 @@ website:
         contents:
           - href: /evo-channel/index.html
             text: Evo Channel
-          - href: /evo-comp/index.html
-            text: Evo Compressor
-          - href: /evo-eq/index.html
-            text: Evo EQ
           - href: /evo-in/index.html
             text: Evo In
+          - href: /evo-eq/index.html
+            text: Evo EQ
+          - href: /evo-comp/index.html
+            text: Evo Compressor
           - href: /evo-touch/index.html
             text: Evo Touch 
       - section: "Plug-ins"

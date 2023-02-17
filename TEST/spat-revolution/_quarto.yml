@@ -1,0 +1,96 @@
+project:
+   type: book
+   output-dir: ../_build/spat-revolution ####### <=========== Don't forget to edit path if renaming is needed. YAML don't support concatenation
+
+book:
+   title: "SPAT Revolution"
+   author: "FLUX:: Immersive"
+   date: "2/6/2023"
+   downloads: [pdf]
+   chapters:
+   - index.qmd
+   - Credits.qmd
+   # - Welcome_to_Spat_Revolution.qmd
+   - Users_and_Applications.qmd
+   - part: Getting_Started.qmd
+     chapters:
+      - Installation_and_Activation.qmd
+      - Ultimate_And_Essential_Licences.qmd
+   - part: Spatialisation_Technology_Spatialisation_Technology.qmd
+     chapters:
+      - Spatialisation_Technology_Listener_Position.qmd
+      - Spatialisation_Technology_Binaural.qmd
+      - Spatialisation_Technology_Transaural.qmd
+      - Spatialisation_Technology_Channel_Based_Streams.qmd
+      # - Spatialisation_Technology_Panning_Algorithms.qmd
+      - Spatialisation_Technology_WFS.qmd
+      - Spatialisation_Technology_Scene_based_streams.qmd
+      - Spatialisation_Technology_Ambisonic_transcoding.qmd
+   - part: Spat_Environment.qmd
+     chapters:
+      - Spat_Environment_Home_Page.qmd
+      - Spat_Environment_Global_Bars.qmd
+      - Spat_Environment_Setup_Page.qmd
+      - Spat_Environment_Input_Modules.qmd
+      - Spat_Environment_Input_Transcoder_Modules.qmd
+      - Spat_Environment_Source_Room_Modules.qmd
+      - Spat_Environment_Master_Section_Modules.qmd
+      - Spat_Environment_Output_Modules.qmd
+      - Spat_Environment_Modules_channel_count.qmd
+      - Spat_Environment_Modules_de_activation.qmd
+      - Items_Page.qmd
+      - Spat_Environment_Snapshot_Page.qmd
+      - Spat_Environment_Room.qmd
+      - Spat_Environment_Source.qmd
+      - Spat_Environment_Source_Parameters.qmd
+      - Spat_Environment_Artificial_Reverberation.qmd
+      - Spat_Environment_Understanding_the_3D_View.qmd
+      - Spat_Environment_Speaker_Arrangement.qmd
+      - Spat_Environment_Speaker_Arrangement_Editor.qmd
+      - Spat_Environment_Import_Speaker_Config.qmd
+      - Spat_Environment_Transformation.qmd
+      - Spat_Environment_Balistic.qmd
+      - Spat_Environment_VU_Meters.qmd
+      - Spat_Environment_Nebula.qmd
+      - Spat_Environment_Analyzer_Workflow.qmd
+   - Files_&_folders.qmd
+   - Application_Preferences.qmd
+   - part: Ecosystem_&_integration_Automation.qmd
+     chapters:
+      - Ecosystem_&_integration_Using_Hardware_IO.qmd
+      - Ecosystem_&_integration_OSC_Connections_Matrix.qmd
+      - href: Ecosystem_&_integration_DAW_Automation_Manual_setup.qmd
+        text: "Plug-ins: Automation using OSC"
+      - href: Ecosystem_&_integration_DAW_Automation_Local_Audio_Path.qmd
+        text: "Plug-ins: Local audio path"
+      - Ecosystem_&_integration_Snapshot.qmd
+      - Ecosystem_&_integration_ADM_OSC.qmd
+   # - part: Third_Party_Integration.qmd
+   #   chapters:
+   #    - Third_Party_Cockos_Reaper.qmd
+   #    - Third_Party_ReaVolution.qmd
+   #    - Third_Party_ProTools.qmd
+   #    - Third_Party_AbletonLive.qmd
+   #    - Third_Party_Ableton_Live_Tools_for_SPAT_Revolution.qmd
+   #    - Third_Party_Nuendo.qmd
+   #    - Third_Party_Bitwig_Studio.qmd
+   #    - Third_Party_Figure53_QLab.qmd
+   #    - Third_Party_Avid_VENUE_S6L.qmd
+   #    - Third_Party_DiGiCo.qmd
+   #    - Third_Party_SSL.qmd
+   #    - ThirdParty_SPATRevolution_Remote.qmd
+   #    - ThirdParty_BlackTrax.qmd
+   # - href: Appendix_A.qmd
+   #   text: "Appendix A - SPAT Revolution specification"
+   # - href: Appendix_B.qmd
+   #   text: "Appendix B - Troubleshooting"
+   # - href: Appendix_C_OSC_Table.qmd
+   #   text: "Appendix C - OSC message table"
+   # - href: Appendix_D_release_notes.qmd
+   #   text: "Appendix D - Release notes"
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreport
