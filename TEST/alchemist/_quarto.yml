@@ -1,0 +1,39 @@
+docSection: "Processing"
+docSubsection: ""
+
+project:
+  type: book
+  output-dir: ../_build/alchemist ####### <=========== Don't forget to edit path if renaming is needed. YAML don't support concatenation
+
+book:
+  title: "Alchemist"
+  author: "FLUX:: Immersive"
+  date: "2/6/2023"
+  downloads: [pdf]
+  chapters:
+    - index.qmd
+    - part: General_Settings_and_Display.qmd
+      chapters:
+      - General_Settings.qmd
+      - General_Display.qmd
+    - part: Bands_Settings_and_Display.qmd
+      chapters:
+      - Band_Settings.qmd
+      - Time_Related_Settings.qmd
+      - Band_Display.qmd
+    - part: Dynamic_Sections_Settings_and_Display.qmd
+      chapters:
+      - Dynamic_Sections_Settings.qmd
+      - Dynamic_Sections_Display.qmd
+    - part: Specifications.qmd
+
+#[Release Notes](../../flux_processing_release_notes.md)
+
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreport
+  epub:
+    css: epub-styles.css

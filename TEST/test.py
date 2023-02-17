@@ -4,7 +4,7 @@ import yaml
 # Global Variables
 
 build_dir = "_build"
-
+mainYaml = "./home/_quarto.yml"
 
 # Get list of doc folder
 
@@ -31,21 +31,24 @@ def getProjectDict():
     result = {}
 
     for root, dirs, files in os.walk('.'):
+
         for file in files:
             if file == "_quarto.yml":
 
-                name = ""
                 with open(os.path.join(root,file)) as fp:
                     data = yaml.safe_load(fp)
 
+                docSection = None
+                docSubsection = None
+
+                if 'docSection' in data: docSection = data['docSection']
+                if 'docSubsection' in data : docSubsection = data['docSubsection']
                 if 'book' in data:
-                    #print(data['book']['title'])
                     name = data['book']['title']
                 elif 'website' in data:
-                    #print(data['website']['title'])
                     name = data['website']['title']
 
-                result.update({name: root})
+                result.update({name: (root,docSection,docSubsection)})
 
     return result
 
@@ -53,7 +56,40 @@ def getProjectDict():
 ##############################
 ##############################
 
+prjDict = getProjectDict()
 
-docDict = getProjectDict()
+#print(prjDict)
 
-print(docDict)
+with open(mainYaml) as fp:
+    data = yaml.safe_load(fp)
+
+dataSidebar = data['website']['sidebar']
+dataSidebar.pop('contents', None)
+
+prjList = []
+section = []
+
+for elem in prjDict:
+    doesExist = False
+    if len(section) == 0:
+        section.append(prjDict[elem][1])
+        dataSidebar.update({'content': {'section': prjDict[elem][1]}})
+    else:
+        for elem2 in section:
+            if prjDict[elem][1] == elem2:
+                doesExist = True
+                break
+        if doesExist == False:
+            section.append(prjDict[elem][1])
+            dataSidebar['content'].update({'section': prjDict[elem][1]})
+
+
+print(dataSidebar)
+
+for elem in prjDict:
+    prjList.append({'href:': prjDict[elem][0]+'/index.qmd', 'text': elem})
+    #print(elem)
+    #print(prjDict[elem])
+
+#dataSidebar.update({'content': prjList})
+#print(data['website']['sidebar'])
