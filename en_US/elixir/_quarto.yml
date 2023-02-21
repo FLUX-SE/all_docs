@@ -1,0 +1,32 @@
+docSection: "Processing"
+docSubsection: ""
+
+project:
+  type: book
+  output-dir: ../../_build/elixir ####### <=========== Don't forget to edit path if renaming is needed. YAML don't support concatenation
+
+book:
+  title: "Elixir"
+  author: "FLUX:: Immersive"
+  date: "2/6/2023"
+  downloads: [pdf]
+  chapters:
+    - index.qmd
+    - Introduction.qmd
+    - About_True_Peak.qmd
+    - Installation_authorization.qmd
+    - User_interface.qmd
+    - Preferences.qmd
+    - Specifications.qmd
+    #- Measurements.qmd
+
+#[Release Notes](../../flux_processing_release_notes.md)
+
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreport
+  epub:
+    css: epub-styles.css

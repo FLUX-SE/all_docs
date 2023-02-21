@@ -1,0 +1,145 @@
+# Speaker Arrangement Window
+
+> *★The speaker arrangement editor window showing a predefined 13.1 Auro 3D speaker arrangement.*
+
+The **speaker arrangement editor** offers the ability to prepare the model of the sound diffusion system you are actually using.
+
+![width=700, atl=_SPAT Revolution_ Speaker Config Edit](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/RoomInspectorEdit.png)
+
+When you find yourself working on a custom multi-channels speaker arrangement, the **Speaker Config** editor is where a model of the sound diffusion system can be defined and stored into the list of speaker arrangements.
+
+Open the **speaker arrangement editor** by clicking on the <code>Edit</code> button of a Channel-Based room, by the _Speaker Arrangement_ pull down menu. Pre-configured arrangements cannot be deleted or modified but can be **duplicated** (a copy will be generated for editing). A **new** config can also be created.
+
+## Creating & editing a speaker arrangement
+
+![width=500, atl=_SPAT Revolution_ Speaker Config](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/SpeakerEditor3.png)
+
+### Speaker Arrangement section
+
+**Arrangement drop-down menu:** this menu allows access to a list of all your existing speaker arrangement.
+
+**Duplicate:** create a copy of the current speaker arrangement.
+
+!> You cannot overwrite a factory arrangement. Duplicate it before trying to edit it.
+
+**New:** create a new empty speaker arrangement.
+
+**Delete:** delete the current speaker arrangement.
+
+!> There is no confirmation before deleting an arrangement.
+
+**Rename:** rename the current speaker arrangement.
+
+**Import from:** allow importing a speaker configuration from a third-party software. See the [next section](Spat_Environment_Import_Speaker_Config.md) for more detail.
+
+**Export:** open a window to export a selection of speaker arrangement.
+
+### Alignment section
+
+![width=800, atl=_SPAT Revolution_ Speaker Config](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/SpeakerEditorCompute3.png)
+
+**Reset:** revert the *compute* process.
+
+**Compute:** opens a dialog to help to set delay and gain on the speaker arrangement. More information of the [dedicated section below -@spkrArr-editor-alignment]
+
+### Selected or all speakers section
+
+**Transform:** modify the selected or all speakers according to a specified transformation. For more information about it, check out the [transformation section](Spat_Environment_Transformation.md).
+
+**Set orientation**: set the orientation of selected or all speakers.
+
+**Fix automatic orientation**: for speakers whose orientation is set to automatic, replace it to real orientation (front, back, listener, custom with the given angle, ...) instead of automatic.
+
+**Del.:** remove the selected speaker(s) in the arrangement.
+
+**Move up:** move the selected speaker(s) one row above.
+
+**Move down:** move the selected speaker(s) one row below.
+
+### Add speaker(s) section
+
+**Add:** create a new speaker in the arrangement.
+
+**Add along geometries:** add new speakers according to a specified geometries.
+
+### The speakers list section
+
+**Nb.:** identify the channel of the speaker.
+
+!> The _SPAT Revolution_ **Essential** license limits the total number of channels to 32 input channels, and to 18 output channels.
+
+**Name:** identify the name of the speaker.
+
+> To create an LFE channel, simply name one speaker of the arrangement "LFE". It is possible to create until 4 LFE, naming them "LFE 1", "LFE 2", "LFE 3" and "LFE 4". The corresponding sends button will appear on the source parameters panel.  
+
+!> SPAT Revolution uses speaker naming to sum speaker arrangement.
+
+**X (m):** defines the position of the speaker on the X-axis, in meters.
+
+**Y (m):** defines the position of the speaker on the Y-axis, in meters.
+
+**Z (m):** defines the position of the speaker on the Z-axis, in meters.
+
+**Azimuth (°):** define the angle of incidence of the source to the center of the 3D space, in the horizontal plan.
+
+**Elevation (°):** define the angle between the source, the center of the 3D space and horizontal plan.
+
+**Distance (m):** define the distance between the source and the center of the 3D space, in meters.
+
+**Orientation:** define the orientation of the speaker. Default settings is "Automatic"
+
+  + Automatic: default behavior, the yaw and the pitch angles are determined by the shape of the speaker arrangement. It should be the standard orientation of most cases, but can be inefficient on certain specific designs.
+  + Listener: the speaker points to the listener head
+  + Front: the speaker points to the bottom of the 3D view
+  + Back: the speaker points to the top of the 3D view
+  + Side Left: the speaker points to the left side of the 3D view
+  + Side Right: the speaker points to the right side of the 3D view
+  + Custom: the user can define the orientation with the *yaw* and *pitch* parameters.
+
+> The orientation (0°,0°) is pointing to the listener.  
+
+**Yaw:** rotate the speaker around the Z-axis. 0° degree is pointing the listener.
+
+**Pitch (°):** rotate the speaker in elevation.
+
+!> **Orientation**, **yaw** and **pitch** are only useful in WFS use case.
+
+> Tips: to
+> - point down (speaker with positive elevation) or up (speaker with negative elevation) a speaker, set the pitch to 90 menus the speaker elevation value;
+
+**Delay (ms):** add a fix amount of latency to a speaker.
+
+**Gain (dB):** change the sound level of the speaker.
+
+!> In many cases, it is wiser to let the **delay** and **gain** parameters untouched, and let the "compute" function do the job.
+
+### Panning Type Tips section
+
+Here, we can find information about which pan law is available in regard of our speaker array. Some explanations are displayed to help understand why some pan laws aren't available.
+
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/SpeakerEditorPanningTips.png)
+
+There are five colors associated with the possible panning types:
++ **Green**: this panning type is valid and functional with the selected speaker array.
++ **Orange**: this panning type is somewhat functional, but there certainly is a better solution available. Hovering the panning type with the mouse will display a message to help improve the arrangement.
++ **Red**: this panning type is not functional with the selected speaker array. Hovering the panning type with the mouse will display a message to explain why it does not work.
++ **Grey**: Two speakers are located at the same spot (i.e. the speakers are coincident). The speaker arrangement is incorrect.
+
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/SpeakerEditorInvalid.png)
+
+> Error displayed with HOA panning type.
+
+For more information about each pan law, check out the section [Panning algorithms](Spatialisation_Technology_Panning_Algorithms.md).
+
+## Alignment {#spkrArr-editor-alignment}
+
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/AlignmentDialog.png)
+
+Speakers alignments section lets _SPAT Revolution_ compute the delay and gain for the selected speaker arrangement. To help to deal with them with complex systems, several methods are provided, allowing adapting your alignment according to the wanted behavior:
+
+- **Spherical**: will align speaker according to a sphere. The farthest speaker will determine the sphere radius. _This is the old behavior of the compute feature._
+- **Cartesian with minimum delay**: will align the speakers according to straight lines.
+- **Cartesian with symmetry**: will align left/right and front/back speakers according to symmetrical straight lines. _A typical use case will be to help to deal with an asymmetrical arrangement._
+
+Alignment can be made on the all arrangement, but also selecting a certain speaker orientation type. 
+It is possible to select the speakers on each the alignment will be done according to their orientation.

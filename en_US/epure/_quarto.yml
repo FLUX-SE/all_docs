@@ -1,0 +1,30 @@
+docSection: "Processing"
+docSubsection: ""
+
+project:
+  type: book
+  output-dir: ../../_build/epure ####### <=========== Don't forget to edit path if renaming is needed. YAML don't support concatenation
+
+book:
+  title: "Epure"
+  author: "FLUX:: Immersive"
+  date: "2/6/2023"
+  downloads: [pdf]
+  chapters:
+    - index.qmd
+    - Special_Functions.qmd
+    - Setup_-_Input_Routing_-_MS_Encode_Decode_-_Groups.qmd
+    - Specifications.qmd
+    - Compatibility.qmd
+    #- Measurements.qmd
+
+#[Release Notes](../../flux_processing_release_notes.md)
+
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreport
+  epub:
+    css: epub-styles.css

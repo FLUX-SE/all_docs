@@ -1,0 +1,48 @@
+# Import Speaker Array
+
+For systems that are regularly changing such as in live production, setting up the speaker configuration in the simulation software and then  repeating it in the immersive software is not the most fun part!
+
+To ease this part of the setup, you can now import from software of Nexo (NS-1), Adamson (Blueprint), d&b (ArrayCalc), CODA Audio (System Optimiser) and the standard EASE software.
+
+This import is integrated into the **Speaker Arrangement** editor where you can find the <code>Import from</code> button.
+
+![image](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/SpeakerEditorImportFrom.png)
+To begin is the FLUX IOConfig. This is the FLUX:: speaker arrangements file format. This can be a great tool to export and save your FLUX:: arrangements or to import an arrangement into another session / computer system.
+
+In _SPAT Revolution_, it is important to understand that speaker arrangements **DO**  follow the session file. So if you are opening a .JSON with an arrangement new to your system, _SPAT Revolution_ will copy that arrangement and it will then be part of the user-created arrangements. In consequence, this new arrangement will be accessible for any new _SPAT Revolution_ session.
+
+If you care to know where these arrangements are stored, <code>Document/FLUX SE/Spat Revolution/Config</code> is where your master IOConfig file, containing all the user-defined arrangement, is located. Note that the repertory <code>Document/FLUX SE/Spat Revolution</code> is now the folder that contains all of your SPAT preferences. If you ever need to erase your preferences, for troubleshooting purpose, remember to export your speaker arrangements first, and then back them up outside this folder.
+
+## How to import a speaker configuration from
+
+### Ease
+
+In EASE software, open the project, and click <code>Edit Project Data</code> on the upper toolbar. In the new window, click on <code>Edit</code> toolbar button, then <code>Loudspeakers</code>, <code>File</code> and finally <code>Send table to file</code>.
+
+A popup window will open, asking to use only selected rows. If you want to export all the speakers, click on <code>NO</code>. Select the target catalog for the text file you are going to generate, and click on save. The newly created file can now be imported in SPAT Revolution.
+
+> Chances are the reference point used in EASE won't be the central reference point typically used in SPAT. Simply use the Transform speaker arrangement option. Typical, you will want to offset X / Y position or Rotate the arrangement 180 degrees.
+
+### Nexo NS-1
+
+In NS-1, to export all the speakers : Go to the <code>Speaker Positions Windows</code>,  <code>Speakers/Speakers Position</code> or <code>Ctrl + P</code>. Select all the Speakers, and click on <code>Export, File...</code>. This will export a .txt file, readable by _SPAT Revolution_.
+
+### Adamson BluePrint
+
+In BluePrint, to export all the cabinets: Go to the Cabinet tab. In the  line <code>Cabinet Group</code>, click on the 4th button, <code>Export All Cabinets</code>. This will export an .arys file readable by _SPAT Revolution_.
+
+![image(1)](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/AdamsonExport.png)
+
+
+### d&b ArrayCal
+
+In ArrayCal, export all the sources with "Files/Export/EASE/Coordinates of all sources". This will export a .xld file readable by _SPAT Revolution_.
+
+![image(2)](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/dbExport.png)
+
+### Excel
+
+![image(2)](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/SpeakerEditorImportExcel.png)
+
+**[Speaker import from Excel template](https://public.3.basecamp.com/p/w1VQL9UbbndSXP5P3qpU6DnU)**
+
