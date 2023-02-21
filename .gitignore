@@ -7,3 +7,4 @@ static/
 .idea
 /.luarc.json
 .vscode
+_build

@@ -10,7 +10,7 @@ book:
    chapters:
    - index.qmd
    - Credits.qmd
-   # - Welcome_to_Spat_Revolution.qmd
+   - Welcome_to_Spat_Revolution.qmd
    - Users_and_Applications.qmd
    - part: Getting_Started.qmd
      chapters:
@@ -22,7 +22,7 @@ book:
       - Spatialisation_Technology_Binaural.qmd
       - Spatialisation_Technology_Transaural.qmd
       - Spatialisation_Technology_Channel_Based_Streams.qmd
-      # - Spatialisation_Technology_Panning_Algorithms.qmd
+      - Spatialisation_Technology_Panning_Algorithms.qmd
       - Spatialisation_Technology_WFS.qmd
       - Spatialisation_Technology_Scene_based_streams.qmd
       - Spatialisation_Technology_Ambisonic_transcoding.qmd
@@ -65,29 +65,29 @@ book:
         text: "Plug-ins: Local audio path"
       - Ecosystem_&_integration_Snapshot.qmd
       - Ecosystem_&_integration_ADM_OSC.qmd
-   # - part: Third_Party_Integration.qmd
-   #   chapters:
-   #    - Third_Party_Cockos_Reaper.qmd
-   #    - Third_Party_ReaVolution.qmd
-   #    - Third_Party_ProTools.qmd
-   #    - Third_Party_AbletonLive.qmd
-   #    - Third_Party_Ableton_Live_Tools_for_SPAT_Revolution.qmd
-   #    - Third_Party_Nuendo.qmd
-   #    - Third_Party_Bitwig_Studio.qmd
-   #    - Third_Party_Figure53_QLab.qmd
-   #    - Third_Party_Avid_VENUE_S6L.qmd
-   #    - Third_Party_DiGiCo.qmd
-   #    - Third_Party_SSL.qmd
-   #    - ThirdParty_SPATRevolution_Remote.qmd
-   #    - ThirdParty_BlackTrax.qmd
-   # - href: Appendix_A.qmd
-   #   text: "Appendix A - SPAT Revolution specification"
-   # - href: Appendix_B.qmd
-   #   text: "Appendix B - Troubleshooting"
-   # - href: Appendix_C_OSC_Table.qmd
-   #   text: "Appendix C - OSC message table"
-   # - href: Appendix_D_release_notes.qmd
-   #   text: "Appendix D - Release notes"
+   - part: Third_Party_Integration.qmd
+     chapters:
+      - Third_Party_Cockos_Reaper.qmd
+      - Third_Party_ReaVolution.qmd
+      - Third_Party_ProTools.qmd
+      - Third_Party_AbletonLive.qmd
+      - Third_Party_Ableton_Live_Tools_for_SPAT_Revolution.qmd
+      - Third_Party_Nuendo.qmd
+      - Third_Party_Bitwig_Studio.qmd
+      - Third_Party_Figure53_QLab.qmd
+      - Third_Party_Avid_VENUE_S6L.qmd
+      - Third_Party_DiGiCo.qmd
+      - Third_Party_SSL.qmd
+      - ThirdParty_SPATRevolution_Remote.qmd
+      - ThirdParty_BlackTrax.qmd
+   - href: Appendix_A.qmd
+     text: "Appendix A - SPAT Revolution specification"
+   - href: Appendix_B.qmd
+     text: "Appendix B - Troubleshooting"
+   - href: Appendix_C_OSC_Table.qmd
+     text: "Appendix C - OSC message table"
+  #  - href: Appendix_D_release_notes.qmd
+  #    text: "Appendix D - Release notes"
 
 format:
   html:
