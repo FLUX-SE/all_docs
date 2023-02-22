@@ -67,7 +67,7 @@ You will find the information like in the screenshot bellow.
 
 Then, from the User Library, go to this location:
 
-<code>User Library\Presets\Audio Effects\Max Audio Effect</code>
+```User Library\Presets\Audio Effects\Max Audio Effect```
 
 Now, simply drop the *SyncBox.amxd* device in this folder. It can be downloaded here.
  
@@ -149,4 +149,3 @@ As we need 12 channels, 6 different SPAT stereo RETURN plug-ins are used.
 
 The internal routing in Ableton Live remains the same as in the earlier stereo & binaural template above.
 
----

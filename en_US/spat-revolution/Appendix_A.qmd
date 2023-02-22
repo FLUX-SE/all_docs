@@ -108,8 +108,6 @@ The below configurations have been **tested at the worst scenario**, with the re
 
 !> In the case of the _Dante Virtual Soundcard_, the network latency, reported into SPAT, have been set to 10ms.
 
----
-
 ### 48000 kHz
 
 #### mac Mini M1 | Basic configuration
@@ -127,8 +125,6 @@ Number of sources | Number of speakers |      Room and PanType       |          
 64 |         32         |         1 WFS room          |       RME Digiface Dante / AVB        | 64 (3.5ms)
 64 |         64         |         1 WFS room          | RME Digiface Dante / AVB | 128 (6.16ms)
 64 |   16 + Binaural    | 2 rooms: 1 WFS + 1 Binaural | RME Digiface Dante / AVB | 128 (6.16ms)
-
----
 
 ### 96000 kHz
 

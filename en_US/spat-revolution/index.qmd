@@ -9,15 +9,12 @@
 with contributions from:
 Gäel Martinet, Vincent Carlier, Florie-Anne Lafaye, Thibaut Carpentier, Anders Tveit and the IRCAM team.
 
----
-
 **Legal Information**
 
 Third edition of FLUX:: _SPAT Revolution_ User Guide published in September 2022
 
 All writing is protected under copyright © 2023 Cristian Vogel / FLUX SOFTWARE ENGINEERING
 
----
 FLUX:: is a trademark of FLUX SOFTWARE ENGINEERING
 All trademarks and the logos are copyright protected.
 

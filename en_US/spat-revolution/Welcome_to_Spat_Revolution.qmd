@@ -1,4 +1,5 @@
 # Welcome to SPAT Revolution
+
 [Product Page](https://www.flux.audio/project/spat-revolution/)
 | [Shop Page](https://shop.flux.audio/en_US/products/spat-revolution)
 
@@ -38,8 +39,6 @@ It brings together the technical expertise from decades of academic research and
 As you will discover, _SPAT Revolution_ can handle a virtually unlimited number of input and output audio streams and is prepared for all formats and 3D-audio workflows currently available or imaginable in the audio industry.
 
 Although this user guide cannot cover every technical aspect of the algorithms and expert knowledge contained within _SPAT Revolution_ we hope you will feel assured that the science behind the sound is absolutely correct.
-
----
 
 # About this Guide
 

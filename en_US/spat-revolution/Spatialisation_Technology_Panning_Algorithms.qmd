@@ -160,7 +160,6 @@ This Panning Type is available in _Virtual Room_ with 5.0 speakers arrangements.
 
 You can find more explanation about it in the [relative paper](http://www.music.mcgill.ca/marlonschumacher/wp-content/uploads/IMWI/literature/Spat1/Craven-Continuous_surround_panning_for_5-speaker_reproduction.pdf).
 
----
 
 ## Related papers
 

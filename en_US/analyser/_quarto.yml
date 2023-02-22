@@ -1,0 +1,167 @@
+project:
+   type: book
+   output-dir: "../../_build/analyzer" 
+
+book:
+   title: "FLUX:: Analyzer"
+   author: "FLUX:: Immersive"
+   date: "2/6/2023"
+   downloads: [pdf]
+   chapters:
+   - index.qmd
+   - Pure_Analyzer_Pure_Analyzer.qmd
+   - Pure_Analyzer_Pure-analyzer-versions.qmd
+   - part: Initial Setup
+     chatpers:
+      - Initial_Setup_Introduction.qmd
+      - Initial_Setup_SampleGrabber_Principe_of_operation.qmd
+      - Initial_Setup_SampleGrabber_Network_Configuration.qmd
+      - Initial_Setup_SampleGrabber_Password.qmd
+      - Initial_Setup_Typical_configuration_Autonomous_mobile_configuration.qmd
+      - Initial_Setup_Typical_configuration_Digital_audio_workstation.qmd
+      - Initial_Setup_Typical_configuration_Avid_venue_console.qmd
+   - part: User interface
+     chapters:
+        - User_Interface_Common_workflow_Mouse_commands_and_conventions.qmd
+        - User_Interface_Common_workflow_Keyboard_shortcuts.qmd
+        - User_Interface_Audio_source.qmd
+        - User_Interface_Layout_mode.qmd
+        - User_Interface_Main_setup.qmd
+        - User_Interface_UI_setup.qmd
+        - User_Interface_IO_Configuration.qmd
+        - User_Interface_Other.qmd
+   - part: Spectrum analyzer
+     chapters:
+        - Spectrum_analyzer_Basic_principles.qmd
+        - Spectrum_analyzer_Block_size.qmd
+        - Spectrum_analyzer_Transform_type.qmd
+        - Spectrum_analyzer_Window_type.qmd
+        - Spectrum_analyzer_Ballistics.qmd
+        - Spectrum_analyzer_Averaging_Spectrum.qmd
+        - Spectrum_analyzer_Frequency_scaling.qmd
+        - Spectrum_analyzer_Display_range.qmd
+        - Spectrum_analyzer_Mode.qmd
+        - Spectrum_analyzer_Summation.qmd
+        - Spectrum_analyzer_Channels.qmd
+        - Spectrum_analyzer_Slide_Real_time_waterfall.qmd
+        - Spectrum_analyzer_Various.qmd
+   - part: Nebula (spatial spectrogram)
+     chapters:
+        - Nebula_Spatial_Spectrogram_Principle_of_operation_and_intended_usage.qmd
+        - Nebula_Spatial_Spectrogram_Scale.qmd
+        - Nebula_Spatial_Spectrogram_Display.qmd
+   - part: Vector scope
+     chapters:
+        - Vector_scope_Usage.qmd
+        - Vector_scope_Display.qmd
+   - part: Nebula (surround scope)
+     chapters:
+       - Nebula_Surround_scope_Usage.qmd
+       - Nebula_Surround_scope_Display.qmd
+   - part: RMS Metering
+     chapters:
+       - Metering_Metering.qmd
+       - Metering_RMS_Metering_Introduction.qmd
+       - Metering_RMS_Metering_Preset.qmd
+       - Metering_RMS_Metering_Reference.qmd
+       - Metering_RMS_Metering_SPL.qmd
+       - Metering_RMS_Metering_Range.qmd
+       - Metering_RMS_Metering_Time.qmd
+       - Metering_RMS_Metering_Scale_and_split.qmd
+       - Metering_RMS_Metering_Bar_Graph_Texturing.qmd
+   - part: True peak metering
+     chapters:
+        - Metering_True_peak_metering_True_Peak_metering.qmd
+        - Metering_True_peak_metering_Preset.qmd
+        - Metering_True_peak_metering_Range.qmd
+        - Metering_True_peak_metering_Scale.qmd
+        - Metering_True_peak_metering_Time.qmd
+        - Metering_True_peak_metering_Scale_and_split.qmd
+        - Metering_True_peak_metering_Other.qmd
+        - Metering_Loudness_ITU-R_BS._1770_and_EBU-R128_PLOUD_Loudness_ITU-R_BS._1770_and_EBU-R128_PLOUD.qmd
+        - Metering_Loudness_ITU-R_BS._1770_and_EBU-R128_PLOUD_Principles.qmd
+        - Metering_Loudness_ITU-R_BS._1770_and_EBU-R128_PLOUD_Dolby_Dialogue_Intelligence.qmd
+        - Metering_Loudness_ITU-R_BS._1770_and_EBU-R128_PLOUD_Controls_and_display.qmd
+        - Metering_Loudness_ITU-R_BS._1770_and_EBU-R128_PLOUD_Setup.qmd
+   - part: Leq metering
+     chapters:
+        - Metering_Leq_Metering_Introduction.qmd
+        - Metering_Leq_Metering_Mic_Channel_Setup.qmd
+        - Metering_Leq_Metering_SPL.qmd
+        - Metering_Leq_Metering_Leq_Color.qmd
+   - part: Metering history
+     chapters:
+        - Metering_History_Usage.qmd
+        - Metering_History_Setup.qmd
+   - part: Metering statistics
+     chapters:
+        - Metering_statistics_Audio_level_statistics.qmd
+        - Metering_statistics_Incident_reporting.qmd
+        - Metering_statistics_Off-line_processing_media_queue.qmd
+   - part: System analysis
+     chapters:
+        - System_analysis_Introduction.qmd
+        - System_analysis_Initial_setup.qmd
+        - System_analysis_Practical_considerations_for_capturing_measurement_signals.qmd
+        - System_analysis_System_analysis_config.qmd
+        - System_analysis_Test_signals.qmd
+   - part: Live_IO_Live_IO.qmd
+     chapters:
+        - Live_IO_Introduction.qmd
+        - Live_IO_Basic_operation.qmd
+        - Live_IO_Notes.qmd
+        - Live_IO_User_interface_and_controls.qmd
+        - Live_IO_Setup.qmd
+   - part: Signal generator
+     chapters:
+        - Signal_generator_Signal_types.qmd
+        - Signal_generator_Controls.qmd
+        - Signal_generator_Setup.qmd
+   - part: Transfer function measurement
+        - Transfer_function_measurement_Introduction.qmd
+        - Transfer_function_measurement_Transfer_function_magnitude.qmd
+        - Transfer_function_measurement_Transfer_function_coherence.qmd
+        - Transfer_function_measurement_Transfer_function_phase.qmd)
+        - Transfer_function_measurement_Setup_Setup.qmd
+        - Transfer_function_measurement_Setup_Main.qmd
+        - Transfer_function_measurement_Setup_Coherence_Magnitude.qmd
+        - Transfer_function_measurement_Setup_Coherence.qmd
+        - Transfer_function_measurement_Setup_Magnitude.qmd
+        - Transfer_function_measurement_Setup_Phase.qmd
+        - Transfer_function_measurement_Setup_Other.qmd
+   - part: Impulse response measurement
+     chapters:
+        - Impulse_response_measurement_Introduction.qmd
+        - Impulse_response_measurement_General_procedure.qmd
+        - Impulse_response_measurement_Time_averaging.qmd
+        - Impulse_response_measurement_Main_setup.qmd
+        - Impulse_response_measurement_Time.qmd
+        - Impulse_response_measurement_Scale.qmd
+        - Impulse_response_measurement_Other.qmd
+   - part: Spectrogram
+     chapters:
+        - Spectrogram_Usage.qmd
+        - Spectrogram_Setup.qmd
+        - Snapshots_Snapshots.qmd
+        - Snapshots_Usage.qmd
+        - Snapshots_Controls.qmd
+        - Snapshots_Setup.qmd
+   - part: Wave_scope_Wave_scope.qmd
+     chapters:
+        - Wave_scope_ScopeSetup.qmd
+   - part: System requirements
+     chapters:
+        - System_Requirements_System_requirements.qmd
+        - System_Requirements_Compatibility.qmd
+   appendices:
+      - Credits.qmd
+      - flux_analyser_release_notes.md
+
+
+format:
+  html:
+    theme: cosmo
+    default-image-extension: gif
+  pdf:
+    documentclass: scrreport
+    default-image-extension: png

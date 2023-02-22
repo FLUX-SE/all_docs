@@ -148,5 +148,3 @@ Lastly are the 3 presets for you to choose from, to adapt the **parallel profile
 * **Balanced distribution** is a preset somehow in the middle. It intends to be a balance between both above options.
 
 ![Parallel Processing Algo Profile](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Preference/EngineProfiles.png)
-
----

@@ -51,4 +51,3 @@ These can be very easily mapped to SPAT SEND parameters for hands on control of 
 
 For troubleshooting, please review the **[Appendix B - Troubleshooting](Appendix_B.md)**
 
----

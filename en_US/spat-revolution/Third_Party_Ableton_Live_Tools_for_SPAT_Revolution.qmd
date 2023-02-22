@@ -600,7 +600,7 @@ To the Ableton Team for making such an amazing DAW.
 
 If you ever get that message when starting _SPAT Revolution_, first if you have activated your license from the iLok License Manager app, this error can still happens.
 
-![iLok Message](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/Live_Tools/Screenshot%202022-03-31%20at%2018.32.48.png)
+![iLok Message](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/Live_Tools/ilokIssue.png)
 
 You can fix it by simply launching the SPAT Revolution again once or twice depending on your luck. This is an issue that still needs to be addressed by the FLUX:: Team.
 
@@ -628,7 +628,7 @@ If a source in SPAT doesn't seem to receive the Automation parameters please che
 
 - is OSC enabled *(Preference panel in SPAT)*
 
-![osc enabled](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/Live_Tools/osc%20enabled.png)
+![osc enabled](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/Live_Tools/oscEnabled.png)
 
 If you want to see if SPAT is correctly receiving the OSC messages you can activate the "Enable commands log" option which will now display every message received by SPAT in the Terminal. 
 

@@ -53,7 +53,7 @@ To install ReaVolution, you need to follow this steps:
 - Download the latest version of Reaper on [reaper.fm](http://reaper.fm) (currently v6.15)
 - Download the latest version of ReaVolution on the Flux center
 
-- Locate the place of the ReaVolution folder. For MacOS users, go to your **Application** folder, and found the **ReaVolution** folder. For Windows users, go to **C:\Program Files\Flux\ReaVolution**.
+- Locate the place of the ReaVolution folder. For MacOS users, go to your **Application** folder, and found the **ReaVolution** folder. For Windows users, go to ```C:\Program Files\Flux\ReaVolution```.
     - On MacOS, launch the install package and drag and drop the application into the ReaVolution folder.
     - On Win10, launch the install executable, choose "install as portable installation" and choose the ReaVolution folder as the install folder.
     - If you already have a Reaper (> v6.xx) install, you can also copy paste the existing binary inside the ReaVolution folder.

@@ -133,7 +133,7 @@ In order to start you project from an existing ADM master file of another enviro
 
 ![Audio Connection in Nuendo V11 with Bus and Object outputs](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/NuendoADMAudioConnections2.png)
 
----
+
 
 ![Nuendo Surround VST MultiPanner in Object Mode](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/NuendoPanner.png ':size=500')
 
@@ -198,7 +198,6 @@ Ready to move info an object-oriented workflow!
 
 <!--
 
----
 
 The second step, in the **Project menu**, you can open the ADM Authoring for Dolby Atmos. This is the main windows ofr any Object configuration whatever the renderer.
 

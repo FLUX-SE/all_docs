@@ -44,7 +44,6 @@ This template shows how you can manage _SPAT Revolution_ snapshots within QLab a
 
 ![SPAT Snapshot message with interpolletation time](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/QLabSnapshotsInterpollation.png)
 
----
 
 **QLab _SPAT Revolution_ OSC Message examples**
 
@@ -63,7 +62,7 @@ With the latest release of _SPAT Revolution_, the ability to send messages to th
 
 ![2D Fade - trajectory messages](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/QLab2DCueSelectedSource.png)
 
----
+
 
 
 ## Configuring QLab -> SPAT for messages via network cues

@@ -142,5 +142,3 @@ This patch allows you to control the position of 8 sources at the same time, wit
 
 Like the 8Remote patch, you can edit some variables to customize the patch.
 To edit the number of sources you want to show, adapt the variable ‘numberSources’ on the Lemur editor. To edit the sources’ names, adapt the variable  ‘listSources’ in the Lemur editor, respecting the following format:  {‘nameSource1’, ‘nameSource2’, ‘nameSource3’} etc.
-
----

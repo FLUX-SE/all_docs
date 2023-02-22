@@ -1,6 +1,6 @@
 project:
    type: book
-   output-dir: ../../_build/spat-revolution ####### <=========== Don't forget to edit path if renaming is needed. YAML don't support concatenation
+   output-dir: "../../_build/spat-revolution" 
 
 book:
    title: "SPAT Revolution"
@@ -86,8 +86,8 @@ book:
      text: "Appendix B - Troubleshooting"
    - href: Appendix_C_OSC_Table.qmd
      text: "Appendix C - OSC message table"
-  #  - href: Appendix_D_release_notes.qmd
-  #    text: "Appendix D - Release notes"
+   - href: Appendix_D_release_notes.qmd
+     text: "Appendix D - Release notes"
 
 format:
   html:
