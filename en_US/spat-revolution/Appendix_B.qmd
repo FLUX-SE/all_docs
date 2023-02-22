@@ -52,14 +52,14 @@ Following are four examples of recommended practice with DAW routing, which shou
 
 In simple projects, when having a single return plug-in on a master track, you should not encounter any sync issue as long as each SEND track is routed to the master.
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Generic/PluginsSchemaSimple.png)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Education/PluginsSchemaSimple.png)
 
 
 **Single RETURN on an AUX track**
 
 Issues may happen when return is inserted on an AUX track. Make sure that each SEND track is routed to the AUX track (RETURN track). Here is an example using AUX send (see examples below).
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Generic/PluginsSchemaAux.png)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Education/PluginsSchemaAux.png)
 
 > ★ You might achieve the same by routing the track outputs to the bus.
 
@@ -72,7 +72,7 @@ As it can quickly become complicated as the project grows, in the following exam
 
 Then, simply route all your SEND tracks to this 'dummy' track by simply patching its output to the multichannel/multi-format 'dummy' bus or via the use of aux send.
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Generic/PluginsSchemaDummyBus.png)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Education/PluginsSchemaDummyBus.png)
 
 
 **Using specific tracks as your SPAT source/object**
@@ -81,7 +81,7 @@ One of the good practices to deal with the source/object you are sending for ext
 
 Doing this can segment your external rendering routing and is highly recommended to prevent audio track delay compensation systems in DAW to come and jeopardize the audio synchronization between the DAW and SPAT. This as well ensures that your audio track automation on levels for example is respected as some DAWs don't have post-fader insertion (a pre-fader insert with SPAT SEND PI will send audio to _SPAT Revolution_ prior to your fader automation).
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Generic/PluginsSchemaObjectsDummyBus.png)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Education/PluginsSchemaObjectsDummyBus.png)
 
 The above best practice ensures as well that you keep both the dry signal and the SPAT RETURN signals independent (when the mix requires to switch easily from one to the other), add one object AUX track per audio track to be sent to SPAT, and insert the SEND plug-in on these object AUX tracks.
 
@@ -122,7 +122,6 @@ Consider as well to kill as many processes not required as possible (Wi-Fi/inter
 Included in release version 20.12 is the ability to display performance (CPU) measurements. This can be done in the **Help** menu **Display Performance** option. This can be accesses as well with shortcuts <code>Shift + Option + Command + P</code>.
 
 ![Display Performance](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Generic/DisplayPerformance.png)
-
 
 ## Engine Parallel Processing profile
 

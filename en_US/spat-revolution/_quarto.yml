@@ -80,14 +80,15 @@ book:
       - Third_Party_SSL.qmd
       - ThirdParty_SPATRevolution_Remote.qmd
       - ThirdParty_BlackTrax.qmd
-   - href: Appendix_A.qmd
-     text: "Appendix A - SPAT Revolution specification"
-   - href: Appendix_B.qmd
-     text: "Appendix B - Troubleshooting"
-   - href: Appendix_C_OSC_Table.qmd
-     text: "Appendix C - OSC message table"
-   - href: Appendix_D_release_notes.qmd
-     text: "Appendix D - Release notes"
+   appendices:
+     - href: Appendix_A.qmd
+       text: "Appendix A - SPAT Revolution specification"
+     - href: Appendix_B.qmd
+       text: "Appendix B - Troubleshooting"
+     - href: Appendix_C_OSC_Table.qmd
+       text: "Appendix C - OSC message table"
+     - href: Appendix_D_release_notes.qmd
+       text: "Appendix D - Release notes"
 
 format:
   html:

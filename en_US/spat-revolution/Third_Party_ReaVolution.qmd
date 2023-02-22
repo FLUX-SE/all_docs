@@ -1,6 +1,6 @@
 # ReaVolution
 
-# Credits & acknowledgements
+## Credits & acknowledgements
 
 ReaVolution was developed by Jean-Loup Pecquais, between Orléans and Paris, from 2019 to 2020.
 

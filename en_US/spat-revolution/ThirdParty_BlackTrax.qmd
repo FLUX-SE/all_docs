@@ -47,7 +47,7 @@ When done with all operations with BlackTrax, you want to <code>Apply</code> the
 You can at this point close the Output Configuration window and go back to the main BlackTrax page. 
 You will want to apply the changes to the system.
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/BlackTraxEditWidonwsAdvancedSettingsApply)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/BlackTraxEditWidonwsAdvancedSettingsApply.jpg)
 
 You can confirm that you are actually sending data by going back to the Output Configuration page. 
 The status will give you this information.

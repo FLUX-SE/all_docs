@@ -1,6 +1,6 @@
 project:
   type: website
-  output-dir: ../_build
+  output-dir: ../../_build
 
 website:
   title: "FLUX:: Immersive Products Documentation"
