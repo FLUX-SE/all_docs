@@ -6,7 +6,8 @@ Controls whether channel curves are drawn as a solid color fill or a plain line.
 
 # Opacity
 
-Controls the opacity of the fill when <i>Filled</i> is enabled. 100% gives a fully opaque fill, lowering this value makes the curve fill more transparent.
+Controls the opacity of the fill when <i>Filled</i>
+is enabled. 100% gives a fully opaque fill, lowering this value makes the curve fill more transparent.
 
 #Channel curve color
 This setting controls the color of the curve corresponding to the n<super>th</super>channel, when summation mode is disabled.

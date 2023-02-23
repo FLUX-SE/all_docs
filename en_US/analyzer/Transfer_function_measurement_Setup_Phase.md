@@ -95,5 +95,7 @@ Combination of above methods, using absolute threshold.
 ## StdAvg/Rel
 Combination of above methods, using relative threshold.
 
-!> Please keep in mind the smoothing process is purely a visual aid, and is not intended to compensate for an inadequate measurement setup.
+:::{.callout-warning}
+ Please keep in mind the smoothing process is purely a visual aid, and is not intended to compensate for an inadequate measurement setup.
 In short: always rely on your ears and scientific knowledge first !
+:::
