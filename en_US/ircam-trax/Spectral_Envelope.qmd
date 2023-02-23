@@ -1,6 +1,6 @@
 # Spectral Envelope
 
-![](include/trax_10.png)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Plugins/ircam-trax/trax_10.png)
 
 The Spectral Envelope allows for complex remapping of the spectrum envelope, according to a freely definable curve.
 At startup, the spectral envelope is a diagonal line, giving a 1:1 remapping of the spectrum, i.e. no modification.

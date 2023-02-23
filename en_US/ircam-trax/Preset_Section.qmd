@@ -1,5 +1,5 @@
 # Preset Section
-![](include/trax_15.png)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Plugins/ircam-trax/trax_15.png)
 
 ## (90) Save Preset
 Saves a snapshot of the current settings for future use.

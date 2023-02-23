@@ -1,6 +1,6 @@
 # Preset Section
 
-![](include/spat_20.jpg)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Plugins/ircam-spat/spat_20.jpg)
 
 ## (95) Save
 Saves a snapshot of the current settings for future use.  

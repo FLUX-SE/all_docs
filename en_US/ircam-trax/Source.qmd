@@ -1,5 +1,5 @@
 # Source
-![](include/trax_03.png)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Plugins/ircam-trax/trax_03.png)
 
 The source panel settings are critical in obtaining a good and natural sounding result, should the
 latter be your objective, so you should always ensure to get these right before attempting any
@@ -97,6 +97,6 @@ incoming audio is analyzed to refine F0 min, mean and max values.
 The learn mode is linked to the presets and can be used only to refine preset parameters. It will not work if the selected
 preset does not match the audio.
 
-![](include/trax_04.png)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Plugins/ircam-trax/trax_04.png)
 
 (c) http://www.independentrecording.net/irn/resources/freqchart/main_display.htm

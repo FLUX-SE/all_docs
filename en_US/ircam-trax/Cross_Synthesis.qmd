@@ -1,5 +1,5 @@
 # Cross Synthesis
-![](include/trax_13.png)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Plugins/ircam-trax/trax_13.png)
 
 ## (69) Oversampling
 Adjusts the spectral domain oversampling factor, set to zero (none) by default. Increasing this setting can increase the

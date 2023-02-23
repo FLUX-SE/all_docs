@@ -1,6 +1,6 @@
 # Options
 
-![](include/trax_08.png)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Plugins/ircam-trax/trax_08.png)
 
 The options panel controls a number of parameters affecting the analysis-re-synthesis engine. The default settings should
 prove adequate as a a starting basis.

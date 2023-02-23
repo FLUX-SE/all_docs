@@ -1,4 +1,4 @@
 [Product Page](https://www.flux.audio/project/ircam-trax/) 
 | [Shop Page](https://shop.flux.audio/en_US/products/ircam-trax)
 
-![](include/trax_00.png)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Plugins/ircam-trax/trax_00.png)

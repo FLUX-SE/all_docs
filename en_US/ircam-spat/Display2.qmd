@@ -1,6 +1,6 @@
 # Display
 
-![](include/spat_14.jpg)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Plugins/ircam-spat/spat_14.jpg)
 
 ## (65) Direct signal
 The grey bar at the start of the reverberation pictogram represents the direct sound send at the input of the plug-in. 

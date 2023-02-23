@@ -1,5 +1,5 @@
 # Cross Synthesis & Source Filter Tools
-![](include/trax_12.png)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Plugins/ircam-trax/trax_12.png)
 
 ## Introduction:
 

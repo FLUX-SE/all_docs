@@ -2,7 +2,7 @@
 [Product Page](https://www.flux.audio/project/bittersweet/) 
 | [Download](https://flux.audio/download)
 
-![](include/Bittersweet_00.png)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Plugins/bittersweet/Bittersweet_00.png)
 
 ## Specifications
 

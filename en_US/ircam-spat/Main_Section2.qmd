@@ -1,6 +1,6 @@
 # Main Section
 
-![](include/spat_11.jpg)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Plugins/ircam-spat/spat_11.jpg)
 
 ## (50) Selected Reverb
 Selects and indicates the reverb engine currently being edited. Three engines,

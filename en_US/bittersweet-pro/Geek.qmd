@@ -2,7 +2,7 @@
 
 Clicking the Geek glasses opens a window with an additional range of parameters providing extended control of the transient processing envelope.
 
-![](include/bittersweet-pro_geek.jpg)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Plugins/bittersweet-pro/bittersweet-pro_geek.jpg)
 
 |                                   |                      |
 |              ---                  |          ---         |

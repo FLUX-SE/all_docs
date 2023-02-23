@@ -1,6 +1,6 @@
 # Main Input - Output Section
 
-![](include/spat_09.jpg)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Plugins/ircam-spat/spat_09.jpg)
 
 ## (44) Input Gain
 Adjust the level of the signal fed to the plug-in, in

@@ -1,6 +1,6 @@
 # Options
 
-![](include/spat_15.jpg)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Plugins/ircam-spat/spat_15.jpg)
 
 ## (71) Infinite
 When activated, decay time temporarily rises to infinity, making the signal recirculate indefinitely 

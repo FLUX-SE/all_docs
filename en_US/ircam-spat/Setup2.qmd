@@ -1,6 +1,6 @@
 # Setup
 
-![](include/spat_17.jpg)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Plugins/ircam-spat/spat_17.jpg)
 
 ## (75) Inv. Phase
 This little button labelled "Ø" inverts the phase of the source, applying a 180° phase shift.

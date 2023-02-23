@@ -1,6 +1,6 @@
 # Axis Omni Filters
 
-![](include/spat_07.jpg)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Plugins/ircam-spat/spat_07.jpg)
 
 
 ## (26) Omni

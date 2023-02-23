@@ -4,7 +4,7 @@ As you may notice, the controls are not the usual suspects found on a dynamics p
 
 Instead, the controls provided typically affect more than one parameter in the underlying algorithms, with everything carefully tweaked allowing for creative processing still ensuring the finest sound achievable.
 
-![](include/Elixir-Essential_16ch_Annotated.png)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Plugins/elixir/Elixir-Essential_16ch_Annotated.png)
 
 ## Commun parameters
 

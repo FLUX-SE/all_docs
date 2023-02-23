@@ -1,6 +1,6 @@
 # Filters
 
-![](include/trax_07.png)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Plugins/ircam-trax/trax_07.png)
 
 ## (36) Filter Curve
 The filter curve displays the overall frequency response of the filter section.

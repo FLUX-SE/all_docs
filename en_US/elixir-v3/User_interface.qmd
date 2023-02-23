@@ -5,7 +5,7 @@ excepted).
 
 Instead, the controls provided typically affect more than one parameter in the underlying algorithms, with everything carefully tweaked allowing for creative processing still ensuring the finest sound achievable.
 
-![](include/Elixir_01.png)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Plugins/elixir-v3/Elixir_01.png)
 
 ## Input / Output Section
 

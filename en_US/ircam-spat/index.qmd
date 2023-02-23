@@ -1,6 +1,6 @@
 # IRCAM Spat
 
-![](include/spat_01.jpg)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Plugins/ircam-spat/spat_01.jpg)
 
 ## Introduction
 

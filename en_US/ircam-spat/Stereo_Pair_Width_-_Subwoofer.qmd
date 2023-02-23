@@ -1,6 +1,6 @@
 # Stereo Pair Width - Subwoofer
 
-![](include/spat_19.jpg)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Plugins/ircam-spat/spat_19.jpg)
 
 ## (90) Stereo Pair Width
 Sets the width of a stereo pair, if previously defined, in degrees.

@@ -1,6 +1,6 @@
 # Perceptual Factors
 
-![](include/spat_12.jpg)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Plugins/ircam-spat/spat_12.jpg)
 
 ## (52) Reverberance
 Reverberance affects the amount by which the listener perceives the music to

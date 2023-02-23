@@ -1,6 +1,6 @@
 # Remix
 
-![](include/trax_06.png)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Plugins/ircam-trax/trax_06.png)
 
 ## (24) Remix On / Off
 Toggles the Remix console in and out of the signal path.  

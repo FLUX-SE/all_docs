@@ -1,6 +1,6 @@
 # General Settings
 
-![](include/bittersweet-pro.jpg)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Plugins/bittersweet-pro/bittersweet-pro.jpg)
 
 |                                       |                                               |
 |           ---                         |                       ---                     |

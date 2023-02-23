@@ -38,7 +38,7 @@ A Preset can directly be recalled into the preset section selected by the morphi
 on its name on the list. The preset lists can be filtered. This filter is applied to any preset information such as name,
 description, author, comments or key words.
 
-![](include/trax_16.png)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Plugins/ircam-trax/trax_16.png)
 
 ### Recall A
 recalls the selected preset into the corresponding section.
@@ -73,7 +73,7 @@ adds existing presets into the preset bank.
 ### Ordering arrows
 orders the presets into the list.
 
-![](include/trax_17.png)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Plugins/ircam-trax/trax_17.png)
 
 The preset protection if engaged, allows only its original modification author to uncheck and edit. So you can protect your
 presets in a multi-user configuration. Protected presets can only be modified using the session of their creator. If used in

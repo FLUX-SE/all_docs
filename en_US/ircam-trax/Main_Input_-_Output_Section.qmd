@@ -1,5 +1,5 @@
 # Main Input - Output Section
-![](include/trax_11.png)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Plugins/ircam-trax/trax_11.png)
 
 ## (61) Input Level
 Adjusts the level of the signal fed to the plug-in, in dB increments.

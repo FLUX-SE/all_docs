@@ -2,7 +2,7 @@
 [Product Page](https://www.flux.audio/project/bittersweet-pro/) 
 | [Shop Page](https://shop.flux.audio/en_US/products/bittersweet-pro)
 
-![](include/flux-logo.png)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Plugins/bittersweet-pro/flux-logo.png)
 
 ## The Ultimate Frequency Dependent Transient Designer
 

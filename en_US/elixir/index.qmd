@@ -5,4 +5,4 @@
 
 Thank you for using Elixir. We hope that you will get good use of the information found in this manual.
 
-![](include/Elixir-Essential_16ch.png)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Plugins/elixir/Elixir-Essential_16ch.png)

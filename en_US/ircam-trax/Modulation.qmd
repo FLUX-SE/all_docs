@@ -1,6 +1,6 @@
 # Modulation
 
-![](include/trax_09.png)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Plugins/ircam-trax/trax_09.png)
 
 The Modulation panel allows for some additional modification of the material’s pitch and formants.
 

@@ -2,7 +2,7 @@
 
 BitterSweet Pro, as well as all other Flux:: plug-ins, provides two preset slots referred to as slot A and slot B, which provide access to two sets of parameter settings simultaneously. In addition to just recall the settings for each of the slots individually and alternate between their settings, a morphing slider is provided offering the possibility to morph between the slots and their corresponding settings. When clicking on one of the preset slots, the built in preset manager appears.
 
-![](include/bittersweet-pro_preset-mgmt.jpg)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Plugins/bittersweet-pro/bittersweet-pro_preset-mgmt.jpg)
 
 *   [Preset Sections / Save / Recall / Copy A/B](#preset-sections)
 *   [Morphing Slider](#morphing-slider)

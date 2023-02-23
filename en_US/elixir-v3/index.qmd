@@ -5,4 +5,4 @@
 
 Thank you for using Elixir v3. We hope that you will get good use of the information found in this manual.
 
-![](include/Elixir_00.png)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Plugins/elixir-v3/Elixir_00.png)

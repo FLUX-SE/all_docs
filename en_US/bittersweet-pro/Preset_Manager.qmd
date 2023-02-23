@@ -2,7 +2,7 @@
 
 The preset manager contains three preset banks, the Factory bank contains factory presets, this bank is not available for saving of presets but any of the presets can be loaded into a preset slot and then saved into, the User bank, where all user presets are saved. Finally, the Global bank, here you can save a complete snapshot with all the settings from both preset slots, as well as the position of the morphing slider.
 
-![](include/preset-manager.jpg)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Plugins/bittersweet-pro/preset-manager.jpg)
 
 In the preset manager, any preset can be loaded into a preset slot by double clicking on the name of the desired preset in the actual preset list, the preset will then be loaded into the preset slot corresponding to the position of the morphing slider.
 
