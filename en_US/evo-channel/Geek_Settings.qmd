@@ -2,8 +2,6 @@
 
 These settings are available by clicking on the "Yves Jaget" icon.
 
-<!--![](include/evoComp_geek.png)-->
-
 ## Compressor
 
 ### Mode

@@ -41,7 +41,7 @@ range of compression types are available in EVO Comp through the different modes
 corresponds to a fine tuning of Pure Compressor). As some modes use a LID compression (Level Independent
 Detection) in parallel, a gain reduction may be processed even if the audio level is below the threshold.
 
-![](include/ManualEvoChannel-010.jpg)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Plugins/evo-channel/ManualEvoChannel-010.jpg)
 
 ### Mode
 

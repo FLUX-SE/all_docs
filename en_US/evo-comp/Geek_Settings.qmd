@@ -2,7 +2,7 @@
 
 These settings are available by clicking on the "Yves Jaget" icon.
 
-![](include/evoComp_geek.png)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Plugins/evo-comp/evoComp_geek.png)
 
 ## Mode
 Default Value: ClF Slow  

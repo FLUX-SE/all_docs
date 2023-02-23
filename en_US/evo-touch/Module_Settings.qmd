@@ -42,7 +42,7 @@ Expander and a Transient and Sustain Designer.
 With the adjustable signal flow in EVO Touch the Touch module can be inserted where it’s best doing its job,
 like having the DeEsser or Expander first in the flow, or the Transient designer after the compressor.
 
-![](include/evoTouch_panel.png)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Plugins/evo-touch/evoTouch_panel.png)
 
 ### Mode
 

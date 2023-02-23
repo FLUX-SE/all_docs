@@ -67,7 +67,7 @@ Equalization module is divided in two parts :
 - A filtering part composed of a low cut, a low shelf, a high cut and a high shelf filter.
 - A parametric equalization stage made of four parametric EQs.
 
-![](include/evoEQ_eq.png)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Plugins/evo-eq/evoEQ_eq.png)
 
 ### Low-Cut Switch
 

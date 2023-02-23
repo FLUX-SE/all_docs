@@ -62,13 +62,13 @@ Controlling the Phase of microphones is universal and relevant both for studio a
 Arbitrary and Linear Phase Rotation throughout the spectrum is provided, to accomplish the same natural thing
 as when physically moving a microphone, of course without adding any latency.
 
-![](include/ManualEvoChannel-007.jpg)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Plugins/evo-channel/ManualEvoChannel-007.jpg)
 
 The phase must be enabled for all the drum tracks. Then set the same group number for all these tracks. It
 allows to enable and disable the phase for all the drums in one click (simply switch on/off for the phase in one of
 the tracks).
 
-![](include/ManualEvoChannel-008.jpg)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Plugins/evo-channel/ManualEvoChannel-008.jpg)
 
 
 ### Phase Switch
@@ -145,7 +145,7 @@ Equalization module is divided in two parts :
 - A filtering part composed of a low cut, a low shelf, a high cut and a high shelf filter.
 - A parametric equalization stage made of four parametric EQs.
 
-![](include/ManualEvoChannel-009.jpg)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Plugins/evo-channel/ManualEvoChannel-009.jpg)
 
 ### Low-Cut Switch
 
@@ -339,7 +339,7 @@ range of compression types are available in EVO Channel through the different mo
 corresponds to a fine tuning of Pure Compressor). As some modes use a LID compression (Level Independent
 Detection) in parallel, a gain reduction may be processed even if the audio level is below the threshold.
 
-![](include/ManualEvoChannel-010.jpg)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Plugins/evo-channel/ManualEvoChannel-010.jpg)
 
 ### Mode
 
@@ -457,7 +457,7 @@ Expander and a Transient and Sustain Designer.
 With the adjustable signal flow in EVO Channel the Touch module can be inserted where it’s best doing its job,
 like having the DeEsser or Expander first in the flow, or the Transient designer after the compressor.
 
-![](include/ManualEvoChannel-011.jpg)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Plugins/evo-channel/ManualEvoChannel-011.jpg)
 
 ### Mode
 

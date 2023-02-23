@@ -1,4 +1,4 @@
-![](include/ManualEvoChannel-000.jpg)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Plugins/evo-comp/evoComp)
 
 [Product Page](https://www.flux.audio/project/evo-series/) 
 | [Shop Page](https://shop.flux.audio/en_US/products/evo-series-pack)
@@ -11,5 +11,4 @@ In addition to controlling the signal dynamics, the compressor is often used for
 
 The EVO Channel and EVO Comp compressor offers a wide range and variety of sound with nine different compression modes, and a Wet / Dry control for adjusting the level of compression, allowing for parallel compression within the module.
 
-
-![](include/evoComp.png)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Plugins/evo-comp/evoComp_main.png)

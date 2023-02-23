@@ -6,7 +6,7 @@ each of the slots individually and alternate between their settings, a morphing 
 possibility to morph between the slots and their corresponding settings. When clicking on one of the preset
 slots, the built in preset manager appears.
 
-![](include/ManualEvoChannel-013.png)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Plugins/evo-channel/ManualEvoChannel-013.png)
 
 ## Preset Sections
 

@@ -13,4 +13,4 @@ The graphical interactive EQ curve is layered on top of the built in Spectrum An
 The spectrum analyzer originates from the FLUX:: Analyzer and has been optimized for the EVO Channel and EVO EQ. It gives you an accurate direct view of what’s going on in the different frequency domains of your material.
 
 
-![](include/evoEQ.png)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Plugins/evo-eq/evoEQ.png)

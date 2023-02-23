@@ -1,4 +1,4 @@
-![](include/ManualEvoIn-000.jpg)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Plugins/evo-in/ManualEvoIn-000.jpg)
 
 [Product Page](https://www.flux.audio/project/evo-series/) 
 | [Shop Page](https://shop.flux.audio/en_US/products/evo-series-pack)
@@ -11,4 +11,4 @@ Unique, Precise, Arbitrary and Linear Phase Rotation, Phase Group to enable and 
 included tracks at the same time. Electrical polarity inverter. Soft saturation to attain roundness and warmth,
 restoring and maintaining the vitality of the sound!
 
-![](include/ManualEvoIn-003.jpg)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Plugins/evo-in/ManualEvoIn-003.jpg)
