@@ -3,6 +3,7 @@
 This table lists all the OSC message supported in  _SPAT Revolution_.
 
 The table is divided into different messages' categories :
+
 * Project-related messages
 * Sources-related messages
 * Rooms-related messages

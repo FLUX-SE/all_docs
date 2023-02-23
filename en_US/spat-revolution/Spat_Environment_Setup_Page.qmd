@@ -22,6 +22,7 @@ The _Environment Setup_ editor is a modular environment. The signal flow starts 
 Modules blocs are characterized by their stream type. In spatial audio, audio streams can be of different natures, as seen in the [Spatialisation Technology]() section.
 
 Stream types and their options are :
+
 + **Channel-based** : most common used bloc where one channel correspond to one speaker or one microphone.
   + Speaker arrangment : allow to select the channel configuration of the bloc.
 + **HOA** : generic ambisonic bloc.
@@ -48,15 +49,15 @@ The drag and drop feature allows an easy and ergonomic way to connect and reorga
 
 **Connect modules**
 
-![drag&drop1](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/DragDrop1)
+![Connect blocs with drag & drop feature](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/DragDrop1)
 
 To create a connection between two modules, simply drag one on the other. SPAT will  automatically connect the two modules. If it is necessary, SPAT will also create supplementary modules if needed. For example, if we drag and drop an input on a room, SPAT will automatically create a "source" block  between them.
 
-![drag&drop2](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/DragDrop2)
+![Auto-connect blocs with drag & drop](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/DragDrop2)
 
 This feature also works on a selection of multiple modules of the same type. For example, if we wished to connect 5 inputs to 1 output, we can select our inputs a drag them  on the output. All the input modules will be patched to a room block through sources, and the room is a patch to the output through a master block, with the default stereo room that can be changed later.
 
-![drag&drop3](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/DragDrop3)
+![Quick setup using drag & drop](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/DragDrop3)
 
 **Reorganize modules**
 
@@ -76,13 +77,13 @@ To open it, you can either:
 - Go to the main menu, into setup, then "Setup Wizard";
 - Or, use ```ALT + W``` (the shortcut is not working in Windows).
 
-![openWizard](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/OpenSetupWizard)
+![Opening the Setup Wizard](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/OpenSetupWizard)
 
 The top part of the setup wizard allows to create a new room (with associated options) or to select an existing room to patch new sources into. If a new room is created, we can choose its stream type and many options linked to it. We can also choose to associate a binaural monitoring block to it (virtualizing the room output). Lastly, for each new room created, a master block and an output block is also created.
 
 The main part of the wizard allows creating up to 8 different types of sources. It works like a table where each line can be used for a specific input stream type. To add or remove a line, simply click on the ```+``` or ```-``` sign on the left side of a line. You can also use the shortcut ```Ctrl/Cmd + Go Down``` or ```Ctrl/Cmd + Go Up```.
 
-![setupWizard](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/SetupWizard)
+![Setup Wizard in action 1/2](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/SetupWizard)
 
 Other shortcuts have been implemented in this wizard:
 - ```Go up``` and ```Go down``` to increase / decrease the number of sources
@@ -92,7 +93,7 @@ Other shortcuts have been implemented in this wizard:
 
 When we are done creating out different sources, we have two ways to validate the operation. We can either click on ```Ok```, all the sources, rooms and outputs will be created, with a straight routing, or, we can choose to click on ```Ok +  matrix```. This last option will open the input and output matrix of our whole _SPAT Revolution_ session to allow us to quickly customize or validate our patch. Also, if you need to easily create a line in SPAT matrix, simply hold ```Ctrl``` and click on the starting point of your line.
 
-![setupWizard2](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/SetupWizard)
+![Setup Wizard in action 2/2](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/SetupWizard)
 
 ## Action menu
 
@@ -154,7 +155,7 @@ As you can imagine routing and patching high density channel counts can get comp
 When it comes to that, the SPAT routing matrix is there to help.
 You will find it at many points throughout the **Environment Setup** graph.
 
-![width=800, atl=_SPAT Revolution_ Matrix](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/OutputMatrix.png)
+![Output Matrix](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/OutputMatrix.png)
 
 :::{.callout-note}
 *Avoid cable swapping on the loudspeaker setup, use software routing instead.*

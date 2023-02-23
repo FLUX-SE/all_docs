@@ -178,29 +178,22 @@ You can find more explanation about it in the [relative paper](http://www.music.
 
 ## Related papers
 
-### VBAP 2D/3D (Vector Base Amplitude Panning)
-http://lib.tkk.fi/Diss/2001/isbn9512255324/article1.pdf
+### [VBAP 2D/3D (Vector Base Amplitude Panning)](http://lib.tkk.fi/Diss/2001/isbn9512255324/article1.pdf)
 
-“[…] Using the method, vector base amplitude panning (VBAP), it is possible to create two- or three-dimensional sound fields where any number of loudspeakers can be placed arbitrarily. The method produces virtual sound sources that are as sharp as is possible with current loudspeaker configuration and amplitude panning methods.”
+> “[…] Using the method, vector base amplitude panning (VBAP), it is possible to create two- or three-dimensional sound fields where any number of loudspeakers can be placed arbitrarily. The method produces virtual sound sources that are as sharp as is possible with current loudspeaker configuration and amplitude panning methods.”
 
-“[…] the approach enables the use of an unlimited number of loudspeakers in an arbitrary two- or three-dimensional placement around the listener. The loudspeakers are required to be nearly equidistant from the listener, and the listening room is assumed to be not very reverberant. Multiple moving or stationary sounds can be positioned in any direction in the sound field spanned by the loudspeaker.”
+> “[…] the approach enables the use of an unlimited number of loudspeakers in an arbitrary two- or three-dimensional placement around the listener. The loudspeakers are required to be nearly equidistant from the listener, and the listening room is assumed to be not very reverberant. Multiple moving or stationary sounds can be positioned in any direction in the sound field spanned by the loudspeaker.”
 
-### DBAP
+### [DBAP](https://pdfs.semanticscholar.org/8fed/f0c12b58d4af2a94af6a817021ee812bf6a8.pdf)
 
-https://pdfs.semanticscholar.org/8fed/f0c12b58d4af2a94af6a817021ee812bf6a8.pdf
+> “[…] Most common techniques for spatialization require the lis-tener to be positioned at a _Sweet Spot_ surrounded by loudspeakers. For practical concert, stage, and installation appli-cations such layouts may not be desirable.  Distance-based amplitude  panning  (DBAP)  offers  an  alternative  panning-based spatialization method where no assumptions are made concerning the layout of the speaker array nor the position of the listener.”
 
-“[…] Most common techniques for spatialization require the lis-tener to be positioned at a _Sweet Spot_ surrounded by loudspeakers. For practical concert, stage, and installation appli-cations such layouts may not be desirable.  Distance-based amplitude  panning  (DBAP)  offers  an  alternative  panning-based spatialization method where no assumptions are made concerning the layout of the speaker array nor the position of the listener.”
+> “[…] Distance-based amplitude panning (DBAP) is a matrix-based spatialization technique that takes the actual positions of the speakers in space as the point of departure while making no assumptions as to where the listeners are situated.   This  makes  DBAP  useful  for  a  number  of real-world  situations  such  as  concerts,  stage  productions, installations,  and  museum  sound  design  where  predefined geometric speaker layouts may not apply”
 
-“[…] Distance-based amplitude panning (DBAP) is a matrix-based spatialization technique that takes the actual positions of the speakers in space as the point of departure while making no assumptions as to where the listeners are situated.   This  makes  DBAP  useful  for  a  number  of real-world  situations  such  as  concerts,  stage  productions, installations,  and  museum  sound  design  where  predefined geometric speaker layouts may not apply”
+### [AEP](http://decoy.iki.fi/dsound/ambisonic/motherlode/source/ICMC08_AEP_paper.pdf) 
 
-### AEP 
+> “[…] A  further advantage of AEP is the possibility to use an arbitrary order of directivity for each individual sound source. It becomes possible to mix pre-recorded low order ambisonic B-format, medium order ambient sounds, high order precise localizable sound and sounds with changing localizability. How the individual sounds are perceived if different orders are used at the same time is an open question that  can be answered only by experience.”
 
-http://decoy.iki.fi/dsound/ambisonic/motherlode/source/ICMC08_AEP_paper.pdf
+### [PMAP](https://pure.hud.ac.uk/en/publications/perceptually-motivated-amplitude-panning-pmap-for-accurate-phanto)
 
-“[…] A  further advantage of AEP is the possibility to use an arbitrary order of directivity for each individual sound source. It becomes possible to mix pre-recorded low order ambisonic B-format, medium order ambient sounds, high order precise localizable sound and sounds with changing localizability. How the individual sounds are perceived if different orders are used at the same time is an open question that  can be answered only by experience.”
-
-### PMAP
-
-https://pure.hud.ac.uk/en/publications/perceptually-motivated-amplitude-panning-pmap-for-accurate-phanto
-
-"This paper proposes and evaluates a new constant-power amplitude-panning law named 'Perceptually Motivated Amplitude Panning (PMAP)'. The method is based on novel image shift functions that were derived from previous psychoacoustic experiments. The PMAP is also optimised for a loudspeaker setup with an arbitrary base angle using a novel phantom image localisation model. Listening tests conducted using various sound sources suggest that, for the 60° base angle, the PMAP provides a significantly better panning accuracy than the tangent law. For the 90° base angle, on the other hand, both panning methods perform equally good. The PMAP is considered to be useful for intelligent sound engineering applications, where an accurate matching between the target and perceived positions is important."
+> "This paper proposes and evaluates a new constant-power amplitude-panning law named 'Perceptually Motivated Amplitude Panning (PMAP)'. The method is based on novel image shift functions that were derived from previous psychoacoustic experiments. The PMAP is also optimised for a loudspeaker setup with an arbitrary base angle using a novel phantom image localisation model. Listening tests conducted using various sound sources suggest that, for the 60° base angle, the PMAP provides a significantly better panning accuracy than the tangent law. For the 90° base angle, on the other hand, both panning methods perform equally good. The PMAP is considered to be useful for intelligent sound engineering applications, where an accurate matching between the target and perceived positions is important."

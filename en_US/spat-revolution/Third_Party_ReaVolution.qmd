@@ -159,10 +159,13 @@ To send tracks to another one, we have three shortcuts : one for post-fader, one
 A new auxiliary track gets his audio stream info from its source track. In other words, if you create an auxiliary track for a A-Format track, the destination track will also be A-Format.
 
 :::{.callout-note}
+
 *Shortcuts:*
+
 ```ALT + S``` → Create auxiliary track (post-fader)
 ```ALT + Shift + S``` → Create auxiliary track (pre-fader)
 ```ALT + Shift + CTRL/CMD + S``` → Create auxiliary track (pre-FX)
+
 :::
 
 **Creating busses**
@@ -230,9 +233,11 @@ The editing workflow of ReaVolution has been thought to be simple and straightfo
 First thing first, we need to discuss briefly about the basic mouse behavior in ReaVolution :
 
 :::{.callout-note}
+
 **Left click/left drag** : select time & items
 **Right drag** : select only items
 **Middle click** : change edit/play cursor position
+
 :::
 
 **Using the mouse**
@@ -286,10 +291,12 @@ Ripple edit is a very powerful feature to quickly edit and move lots of items. T
 ReaVolution comes with a set of shortcuts and mouse modifiers that take advantage of ripple editing without having to engage or disengage it.
 
 :::{.callout-note}
+
 ```SHIFT + Left click``` : move item with ripple edit on all activated tracks
 ```SHIFT + CTRL/CMD + Left click``` : move item with ripple edit on selected tracks
 ```CTRL/CMD + Backspace``` : delete content of time selection
 ```CTRL/CMD + SHIFT + Backspace``` : delete content of time selection on selected tracks
+
 :::
 
 ![rippleEdit.gif](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/ReavolutionRippleEdit)
@@ -303,7 +310,9 @@ ReaVolution comes with a complete set of shortcuts to easily edit audio items. T
 To keep things logical, there is two sets of shortcuts provided by ReaVolution : an AZERTY one and a QWERTY one. By default ReaVolution is set in AZERTY. To change this layout, go to the action list (shift+?), click on "Key Map" and choose "Import shortcut key map". In the newly opened explorer/finder window, choose the desire ReaVolution key map file. **This key maps only affect the shortcut shown in this section.**
 
 :::{.callout-note}
+
 Mouse editing :
+
 ```B``` : split item
 ```N``` : insert stretch marker
 ```H``` : Heal split in item
@@ -316,15 +325,18 @@ Mouse editing :
 ```X``` : set time selection end
 ```C``` : "special copy"
 ```V``` : "special paste"
+
 :::
 
 With all of this, you should already have most of your editing workflow. There is a few ones more that depend on the cursor or time selection :
 
 :::{.callout-note}
+
 ```CTRL/CMD + B``` : split all items that cross edit cursor or time selection
 ```ALT + B``` : trim selected item(s) to time selection
 ```CTRL + D``` : duplicate items (follow time selection)
 ```BackSpace``` or ```Delete``` : Remove items (follow time selection)
+
 :::
 
 ### Three and four points editing
@@ -334,20 +346,24 @@ When we need to edit big chunck of audio, across multiple takes, it's hard to be
 ReaVolution supports a similar way of editing with the shortcut **C**, **V** and **ALT+V**.
 
 :::{.callout-note}
+
 ```C``` : copy source items
 ```V``` : paste source items at cursor position (move later items)
 ```ALT + V``` : paste source items inside the time selection
+
 :::
 
 **Zoom and movement shortcuts**
 
 :::{.callout-note}
+
 ```R``` : Zoom out arrange view
 ```T``` : Zoom in arrange view
 ```Mousewheel``` : Scroll thru tracks
 ```SHIFT + mousewheel``` : Scroll in the timeline
 ```CTRL/CMD + mousewheel``` : Zoom in/out arrange view
 ```ALT + Z``` : Go back to the last view/zoom position
+
 :::
 
 **Some various useful shortcuts**
@@ -355,6 +371,7 @@ ReaVolution supports a similar way of editing with the shortcut **C**, **V** and
 These last shortcuts are not directly related to audio editing, but it can help with this task anyway.
 
 :::{.callout-note}
+
 ```CTRL + ALT + Mousewheel``` : Waveform Zoom In/Out
 ```Shift + S``` : Toggle solo for selected tracks
 ```Shift + M``` : Toggle mute for selected tracks or selected items
@@ -365,4 +382,5 @@ These last shortcuts are not directly related to audio editing, but it can help 
 ```M``` or ```Enter (num.)``` : Insert a marker at current position
 ```0``` : Toggle mute for selected items
 ```Alt + R``` or ```3``` : Record
+
 :::

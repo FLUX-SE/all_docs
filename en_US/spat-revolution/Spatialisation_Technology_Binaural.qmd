@@ -22,9 +22,10 @@ The included HRTFs profiles in _SPAT Revolution_ are taken from a number of larg
 
 :::{.callout-warning}
  _An imported HRTFs profile should be in SOFA format and should match the sample rate of your project. It is preferable to use a “SimpleFreeFieldSOS” IIR type of HRTFs._
+ 
+\* The profiles come from the “LISTEN”, “CROSSMOD” and “BiLi” databases.
 :::
 
-\* The profiles come from the “LISTEN”, “CROSSMOD” and “BiLi” databases.
 
 ## Binaural algorithms
 
