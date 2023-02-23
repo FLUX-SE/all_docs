@@ -21,7 +21,9 @@ _SPAT Revolution_ stand-alone software:
 
 - macOS - All versions from 10.15 including macOS Big Sur and Monterey compliant. *
 
-> *See hardware details for more information on compatibility.
+:::{.callout-note}
+*See hardware details for more information on compatibility.
+:::
 
 ## Hardware Recommendations and requirements
 
@@ -40,8 +42,9 @@ Single computer systems can provide an excellent option for portability but come
   - iMac Pro, 3.2GHz 8‑core Intel Xeon W Turbo Boost, Radeon Pro Vega 56 8 GB, 32GB RAM
   - MacBook Pro with dedicated GPU video graphic card
 
-> *_SPAT Revolution_ is fully supported to Silicon / ARM Apple computers via the Rosetta binary translator.
-
+:::{.callout-note}
+*_SPAT Revolution_ is fully supported to Silicon / ARM Apple computers via the Rosetta binary translator.
+:::
 
 **Generic hardware specification:**
 
@@ -68,8 +71,9 @@ Single computer systems can provide an excellent option for portability but come
 - Apple Intel
   - MacPro, 3.5GHz 8‑core Intel Xeon W processor, Radeon Pro W5500X, 32GB RAM
 
-  > Rackmounted Apple Mac Studio is possible using Sonnet’s xMac Studio or RackMac Studio 3U rackmount systems. xMac Studio can hold one Mac Studio and provide PCIe card expansion module while the RackMac Studio can hold 2 units such as in redundant configuration. MacPro can be installed in a Sonnet’s RackMac™
-
+:::{.callout-note}
+Rackmounted Apple Mac Studio is possible using Sonnet’s xMac Studio or RackMac Studio 3U rackmount systems. xMac Studio can hold one Mac Studio and provide PCIe card expansion module while the RackMac Studio can hold 2 units such as in redundant configuration. MacPro can be installed in a Sonnet’s RackMac™
+:::
 
 **Generic recommended hardware specification:**
 
@@ -104,9 +108,11 @@ Computer optimization:
 
 The below configurations have been **tested at the worst scenario**, with the reverberation at the highest density for all rooms, all sources active with reverberation and all sources in full movement using OSC input. WFS and Binaural PanType are used as reference as they are the most processing heavy techniques.
 
-!> **Processing can be different according to the used HRTF**. Kemar HRTF were used for these tests.
+:::{.callout-warning}
+ **Processing can be different according to the used HRTF**. Kemar HRTF were used for these tests.
 
-!> In the case of the _Dante Virtual Soundcard_, the network latency, reported into SPAT, have been set to 10ms.
+ In the case of the _Dante Virtual Soundcard_, the network latency, reported into SPAT, have been set to 10ms.
+:::
 
 ### 48000 kHz
 

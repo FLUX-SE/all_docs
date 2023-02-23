@@ -10,4 +10,6 @@ The source can either be picked up directly at the DAW output or recorded with a
 
 ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/SystemAnalysis/Principle.png)
 
-> System analysis overall principle.
+:::{.callout-note}
+System analysis overall principle.
+:::

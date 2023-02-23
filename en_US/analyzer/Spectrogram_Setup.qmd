@@ -2,7 +2,9 @@
 
 ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Spectrogram/Setup.png)
 
-> Spectrogram setup
+:::{.callout-note}
+Spectrogram setup
+:::
 
 ## Direction
 

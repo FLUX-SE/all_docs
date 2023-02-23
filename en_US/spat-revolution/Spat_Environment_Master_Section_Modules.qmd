@@ -8,7 +8,9 @@ The **Sum** module can handle different input configurations.
 It will Sum channels based on their channel names, so a correct naming convention is important.
 Summing a 5.1 and 7.1 rooms together will output a 7.1 where their common L, C, R, Left and Right Surround rear channels will have content summed from both rooms the but Left and Right Back surround will be only from the 7.1 room.
 
-> Summing can also be done directly in **Master** and **Output** Modules, but summing into a **Sum** module will save resources if the same sum is performed in different blocks.
+:::{.callout-note}
+Summing can also be done directly in **Master** and **Output** Modules, but summing into a **Sum** module will save resources if the same sum is performed in different blocks.
+:::
 
 The **Master Transcoder** row of modules offers an opportunity to consolidate the various formats you might have been mixing into one (or more) formats for final output routing by the **Output** modules.
 The same options and routing are available as in the [Input Transcoder modules](Spat_Environment_Input_Transcoder_Modules.md).

@@ -6,7 +6,9 @@ A value comprised between ±18 and ±24dB correlates well with our abilities in 
 
 Default is ±18dB.
 
-> Pixels outside the focus range are clamped to the view boundaries.
+:::{.callout-note}
+Pixels outside the focus range are clamped to the view boundaries.
+:::
 
 # AutoScale
 This parameter controls whether the intensity of the particles are modulated by the overall audio level variations. 

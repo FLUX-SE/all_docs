@@ -16,8 +16,9 @@ When Ambisonics is played back on speakers, all the speakers contribute to the d
 
 ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/ReaperHOA3DTrack.jpg)
 
-> Overview of a fifth-order HOA 3D Ambisonic File created by Tine Surell Lange.
-
+:::{.callout-note}
+Overview of a fifth-order HOA 3D Ambisonic File created by Tine Surell Lange.
+:::
 
 ## Order
 
@@ -52,7 +53,9 @@ _Ambisonics_ can also be encoded without elevation - this is called 2D horizonta
 - 6th Order 2D -> 13 Channels
 - 7th Order 2D -> 15 Channels
 
-!> With **Essential** license, 1st, 2nd and 3rd orders are only available.
+:::{.callout-warning}
+ With **Essential** license, 1st, 2nd and 3rd orders are only available.
+:::
 
 ## Normalization, sorting and presets
 
@@ -71,7 +74,9 @@ To help with these different standards, we have created Ambisonics presets to si
 - B-Format: the normalization is Fuma, and the sorting FMH.
 - SPAT Room: the normalization is N2D / N3D and the sorting ACN.
 
-!> Do not forget to transcode the ambisonic input if the format is different from N2D/N3D and ACN.
+:::{.callout-warning}
+ Do not forget to transcode the ambisonic input if the format is different from N2D/N3D and ACN.
+:::
 
 ## A-Format
 

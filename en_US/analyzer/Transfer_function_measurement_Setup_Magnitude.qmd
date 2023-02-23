@@ -6,9 +6,7 @@ Minimum and maximum values to which the display is clamped, in decibels.
 ## Display
 Toggles between various combinations of raw and smoothed magnitude curve display.
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/TransferFunction/Magnitude.png)
-
-> Available magnitude display modes
+![Available magnitude display modes](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/TransferFunction/Magnitude.png)
 
 * Full : main unsmoothed magnitude curve.
 * Smoothed: smoothed magnitude only.

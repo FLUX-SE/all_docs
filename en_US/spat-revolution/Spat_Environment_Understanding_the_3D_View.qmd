@@ -74,11 +74,15 @@ When a source is out of the efficiency zone, _SPAT Revolution_ offers three beha
 
 This option can be set in the room’s output section. Check out the [Room section](Spat_Environment_Room.md) for more information.
 
-> By default, the source is clamped to the border of the efficiency zone.
+:::{.callout-note}
+By default, the source is clamped to the border of the efficiency zone.
+:::
 
 Clamping the source to the efficiency zone helps to keep coherent sound scene, while the "mute" mode helps to create ins and outs effect. The mute only occurs in the actual room.
 
-> When in mute mode, a slight fade out is applied to avoid clicks. The length of the fade can be adjusting by making the source go faster or slower.
+:::{.callout-note}
+When in mute mode, a slight fade out is applied to avoid clicks. The length of the fade can be adjusting by making the source go faster or slower.
+:::
 
 Note that the preferred behaviours are clamping or muting. **Clamping will prevent an aberrant render in sound and localization.**
 
@@ -86,19 +90,27 @@ The pictures below shown some key cases of clamping, on non-surround systems:
 
 ![]( https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR//Room/3DViewAzimClamping.png)
 
-> On non-surrounding systems, trying to escape the efficiency zone will result in the source being clamped to its foremost left or right.
+:::{.callout-note}
+On non-surrounding systems, trying to escape the efficiency zone will result in the source being clamped to its foremost left or right.
+:::
 
 ![]( https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR//Room/3DViewFrontClamping.png)
 
-> If a source is placed in front of the speakers, the source will be clamped to the front line they formed while preserving the azimuth angle.
+:::{.callout-note}
+If a source is placed in front of the speakers, the source will be clamped to the front line they formed while preserving the azimuth angle.
+:::
 
 ![]( https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR//Room/3DViewMirrorClamping.png)
 
-> When a source is on the opposite side of a non-surround system, the projection of the virtual source will mirror the behavior of the actual source, thus, removing any jump or abrupt change in position of the source.
+:::{.callout-note}
+When a source is on the opposite side of a non-surround system, the projection of the virtual source will mirror the behavior of the actual source, thus, removing any jump or abrupt change in position of the source.
+:::
 
 ![]( https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR//Room/3DViewMuteSource.png)
 
-> When a source is outside the efficiency zone and mute behaviour is selected, the source is represented differently.
+:::{.callout-note}
+When a source is outside the efficiency zone and mute behaviour is selected, the source is represented differently.
+:::
 
 ### Elevation clamping
 

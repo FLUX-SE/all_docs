@@ -32,4 +32,6 @@ of all metering data at a glance.
 
 >Layout contents matrix
 
-> Some layouts might not be available in your Pure Analyzer edition.
+:::{.callout-note}
+Some layouts might not be available in your Pure Analyzer edition.
+:::

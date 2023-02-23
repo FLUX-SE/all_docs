@@ -8,7 +8,8 @@ The Source modules are where you set a descriptive name of each virtual object. 
 
 External software needs to know how to identify virtual objects, and that will be done using an index number rather than a name. This index number refers to one of these source modules, numbered from left to right which in turn, becomes a virtual sound emitting object in the _Virtual Room_. When working in a Channel Based Room outputting to a _n.1 surround_ speaker arrangement, each source will additionally acquire an individual _LFE Send_. This dial will be available in the Source Parameters inside the Virtual Room editor, and also mirrored here as a fader directly in the Source modules. _LFE Send_ controls how much of this source's signal is mixed into the LFE channel at the output.
 
-> When using a BlackTrax positional tracking system a Tracking index can be assigned to a virtual source directly from the Source module.
+:::{.callout-note}
+When using a BlackTrax positional tracking system a Tracking index can be assigned to a virtual source directly from the Source module.
 
 ## Source Parameters
  -->
@@ -22,9 +23,13 @@ The source's parameters are ordered inside panels. Each panel can be minimized o
 
 Additionally, a _right click_ on a Source Number will bring up some further options, especially useful is the **Color** option, which allows you to set an identification color to a Source or Group.
 
-> If a source is a multichannel one, there will be only one number and one set of parameters for the whole cluster.
+:::{.callout-note}
+If a source is a multichannel one, there will be only one number and one set of parameters for the whole cluster.
+:::
 
-!> Note that the source number can also be used for OSC automation if remote number is set to 0!
+:::{.callout-warning}
+Note that the source number can also be used for OSC automation if remote number is set to 0!
+:::
 
 The source's parameters are detailed on the next section, [Source Parameters](Spat_Environment_Source_Parameters.md).
 
@@ -37,7 +42,9 @@ A double click on any Source Parameter dial will reset it to a SPAT default sett
 
 ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Room/SourcesInspector.png)
 
-> ★ _Use the defaults as points of reference in your spatial sound design._
+:::{.callout-note}
+★ _Use the defaults as points of reference in your spatial sound design._
+:::
 
 ### Preset Memories
 
@@ -82,6 +89,6 @@ This feature allows you to display one or several parameters for all the sources
 ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Room/SourcesPanelSearch.png)
 <!-- TODO: update the image -->
 
-The key word <code>strict:</code> allows searching strictly one or several parameter. For example, </code>strict: gain presence</code> will display only the sources gain and presence, while <code>gain presence</code> will display the gain, the room specific gain, the presence, the room presence, and all gains of the axis and omni filters.
+The key word ```strict:``` allows searching strictly one or several parameter. For example, ```strict: gain presence``` will display only the sources gain and presence, while ```gain presence``` will display the gain, the room specific gain, the presence, the room presence, and all gains of the axis and omni filters.
 
 Some pre-determined presets are available on a menu accessible on the left of this edit to give you some ideas.

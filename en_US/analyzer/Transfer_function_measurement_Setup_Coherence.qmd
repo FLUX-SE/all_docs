@@ -19,9 +19,7 @@ Toggles between one of three modes:
 * Smoothed: smoothed coherence only.
 * All: both.
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/TransferFunction/Coherence.png)
-
-> Available coherence display modes
+![Available coherence display modes](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/TransferFunction/Coherence.png)
 
 ## Width
 Size of the pen used to draw the coherence curve.

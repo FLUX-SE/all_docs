@@ -4,7 +4,9 @@
 
 If the output configuration is set to **Channel Based**, the user must decide on the appropriate _[Panning Algorithm](5_Spatialisation_Technology_5_5_Panning_Algorithms.md)_ to work with. The loudspeaker array selected in the _Speaker Arrangement_ pull down menu will be 'virtualized' in the Room and all the speakers will appear graphically.
 
-> Speaker Arrangement also defines the amount of output channels.
+:::{.callout-note}
+Speaker Arrangement also defines the amount of output channels.
+:::
 
 The spatial composition of Virtual Sources is governed in the Virtual Room by the characteristics of the currently selected **Panning Type** and speaker positions. In other words, the _panning type_ is simulated inside the Room on the **Speaker Arrangement** model. **[Artificial reverberation](8_Artificial_Reverberation_8_Artificial_Reverberation.md)** is also modeled in relation to the speaker arrangement in a Channel Based Room.
 
@@ -18,7 +20,8 @@ Additionally, the powerful _Nebula Spatial Spectrogram_ is highly dependent on t
 
 When a Virtual Room is Channel Based, the speaker configuration layout is modeled as fixed speakers which appear in the Room graphically according to their programmed positions (_see [Custom Speaker Configuration](Spatialisation_technology_Speaker_Arrangement.md)_) - you will not be able to move those speakers around with the mouse. These fixed speaker positions are vitalizing a sound system configuration which is often the same one that will be used for diffusion. These virtual speakers interact with the virtual acoustics of each room as designed by the _[artificial reverberation](8_Artificial_Reverberation_8_Artificial_Reverberation.md)_.
 
-> Each room can have a DIFFERENT Virtual Acoustic design and different sources.
+:::{.callout-note}
+Each room can have a DIFFERENT Virtual Acoustic design and different sources.
 
 The idea is that by simulating speaker positions and acoustic interactions, the process of mixing for a particular speaker layout becomes more predictable. For example, by monitoring binaurally a scene from a channel based room, it is possible to get an impression as to how the mix might sound diffused by a particular speaker arrangement, including the space between speakers and gain characteristics belonging to selected panning types. As we have mentioned earlier in the section about [Ambisonics](Scene_based_streams.md), there are also options for mixing and monitoring a particular Channel Based Room simulation transcoded to a different setup than that being simulated, which may also be useful in certain contexts.
 
@@ -30,7 +33,8 @@ In practice, the best mixes are obtained by mixing on the same sound system in t
 
 ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Room/3DView3DConfig.png)
 
-> Channel Based simulations render localizable virtual sources by controlling the virtual speaker array in a similar way that panning laws do on real world physical systems. They do not model the positions of virtual sound sources, but instead control the gains of the virtual speakers in the model to render perceived positions.
+:::{.callout-note}
+Channel Based simulations render localizable virtual sources by controlling the virtual speaker array in a similar way that panning laws do on real world physical systems. They do not model the positions of virtual sound sources, but instead control the gains of the virtual speakers in the model to render perceived positions.
 
 ### Multichannel Virtual Sources
 
@@ -86,7 +90,8 @@ The Binaural Monitoring module is great for easy channel based system monitoring
 
 Each source's direct sound plus the reverberation it creates is modeled and synthesised binaurally for _each individual source_. This advanced processing can result in an excellent binaural experience; more precise and natural sounding than using the Binaural Monitoring module to listen to a virtualized Channel Based rendering. It is the preferred method to use when rendering binaural content <!-- to disk. To do that, you simply need to connect the binaural stream from the room directly to a (stereo) SPAT Return path back to your DAW. You could record and listen to a Binaural Room by using two output modules, one to the recording route, and one to a headphone output. -->
 
-> For the best Binaural Monitoring try setting up two rooms, one all Channel Based going to speakers and one Binaural for your 3D headphone mix.
+:::{.callout-note}
+For the best Binaural Monitoring try setting up two rooms, one all Channel Based going to speakers and one Binaural for your 3D headphone mix.
 
 ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/SessionAtmosBinaural.png)
 <!-- TODO: update the image -->
@@ -95,18 +100,23 @@ Each source's direct sound plus the reverberation it creates is modeled and synt
 
 One of the most straightforward methods to start working with HOA spatialization in a signal flow is to connect input sources directly into an HOA Room. To convert a Room to be HOA, select High Order Ambisonics as the _Output Configuration Stream Type_.
 
-!> _**Essential** licenses limits HOA order to the 3rd._
+:::{.callout-warning}
+ _**Essential** licenses limits HOA order to the 3rd._
+:::
 
 All inputs to a room must be in channel-based format, even when it is an Ambisonic or Binaural Room. <!--That is the workflow at the time of writing (SPAT Revolution v1.1).--> This makes most intuitive sense, when using Ambisonic format inputs as pre-encoded "3D sound field" type inputs into a room. You cannot just add them into an HOA room, even though they may be HOA format. Why is that?
 
 This is because Ambisonic audio always needs to be _decoded_ into a channel based format to hear the spatialized audio on speakers (as we have mentioned a few times already). And so in a virtual room, an Ambisonic source needs to be decoded to a _virtual_ speaker configuration. The choice of what virtual speaker configuration you decode the Ambisonic audio to will influence the way the source's direct signals will sound and its sound will be altered by the way it interacts with the Virtual Room Acoustics. If it is a 1st or 2nd Order B-Format source, then a Cube configuration for 3D or an Octaphonic for 2D is usually a good choice. The important thing to keep in mind is that a higher order of Ambisonic encoding will sound more accurate on a higher density channel-based configuration - and if the source Ambisonic encoding is 3D, then you really should choose a 3D type of channel configuration.
 
-!> _Ambisonic encoded audio is not intended to be listened to without decoding_
+:::{.callout-warning}
+ _Ambisonic encoded audio is not intended to be listened to without decoding_
+:::
 
 The other important thing to keep in mind is that decoding Ambisonics to a virtual channel-based configuration allows for some very special transformations and redesigning possibilities of the original Ambisonic source. When a B-Format source becomes an arbitrary configuration of virtual emitters in the virtual room, the ambisonic sound field becomes a group that you can manipulate and transform using all the source parameters - especially, the [barycentric source parameters](6_Spat_Environment_6_6_Source_6_6_Source?id=barycentric.md) which are really useful for rotating and transforming the original sound field in
 many ways.
 
-> Ambisonic encoding is a convenient way to share and archive spatial sound mixes
+:::{.callout-note}
+Ambisonic encoding is a convenient way to share and archive spatial sound mixes
 
 The output from an Ambisonic room must always be _decoded_ into a channel-based stream in order to hear the resulting spatial image. But even though it is not speaker compatible, it is still an audio data stream - so therefore it is quite possible to record a HOA stream to disk without decoding. This is a powerful way to work, as the HOA format encodes full sphere spatial information which can then be decoded/transcoded at a later stage.
 

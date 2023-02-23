@@ -37,11 +37,15 @@ The SPAT plug-ins offer a straightforward way to integrate the _SPAT Revolution_
 In order for the audio software integration to function correctly, the user needs to
 take into account certain principles of configurations.
 
-!> **Sample Rate and buffer size must match in both _SPAT Revolution_ and the Plug-in Host**
+:::{.callout-warning}
+ **Sample Rate and buffer size must match in both _SPAT Revolution_ and the Plug-in Host**
+:::
 
 You can configure these settings in the _SPAT Revolution_ Preferences, and matching settings also need to be configured in the host DAW Preferences.
 
-> If the sample rate and the buffer size don't match in  _SPAT Revolution_, double-clicking over the "Sync section" at left bottom will automatically adjust them.  
+:::{.callout-note}
+If the sample rate and the buffer size don't match in  _SPAT Revolution_, double-clicking over the "Sync section" at left bottom will automatically adjust them.  
+:::
 
 ![]( https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/ReaperPluginsAdvancedPanel.png)
 
@@ -56,7 +60,9 @@ Once you have selected the channel count, _Enable_ the software routing using th
 
 If _SPAT Revolution_ is running, then a Send or Return IO module will automatically appear in the _Environment Setup_ labeled with the _Track Name_ of the SPAT plug-in, and set to the channel count you have configured in the plug-in. If all is well configuration wise, and a successful local audio stream has been established, the Send and Return modules will have a small green indicator.
 
-> On some machines, you need to use the <code>Tab</code> key to register a new Track Name or IP address change in a SPAT Plug in.
+:::{.callout-note}
+On some machines, you need to use the ```Tab``` key to register a new Track Name or IP address change in a SPAT Plug in.
+:::
 
 ## Plug-ins parameters
 
@@ -82,7 +88,9 @@ In order to make sure that no sync error can happen between _SPAT Revolution_ an
 
 This routing forced digital audio workstations to process *SPAT Send* plug-ins **before** *SPAT Return* ones. Without this prioritization, you can end up in a situation where the DAW call for samples from SPAT that have never been sent. This led to sync errors, and most likely to audio drop. This is an absolute golden rule when working with _SPAT Revolution_ and a DAW on the same computer.
 
-!> **Be always sure that each track containing a SPAT Send plug-in is routed to every and each track containing a Spat Return plug-in.**
+:::{.callout-warning}
+ **Be always sure that each track containing a SPAT Send plug-in is routed to every and each track containing a Spat Return plug-in.**
+:::
 
 For more DAW specific information, please consult our [third-party integration](Third_Party_Integration.md) section.
 
@@ -92,4 +100,6 @@ Some DAWs, like REAPER, use some technic to reduce the load of VST plug-ins on t
 
 Other DAWs, like Ableton live, put plug-ins that does not receive or send any audio in an off-line state. Although it is not necessarily displayed to the user, this can create some major issues when working with _SPAT Revolution_ plug-ins.
 
-!> Be sure to consult our [third-party integration](Third_Party_Integration.md) section for more DAW specific information.
+:::{.callout-warning}
+ Be sure to consult our [third-party integration](Third_Party_Integration.md) section for more DAW specific information.
+:::

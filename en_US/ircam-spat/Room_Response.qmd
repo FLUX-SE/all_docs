@@ -30,8 +30,11 @@ Early Max. value, and vice-versa.
 
 ## (62) Cluster Minimum
 See 59, Early Min.  
-> Please keep in mind the cluster is fed with the input of the early reflections processor section, as is shown accordingly on
+
+:::{.callout-note}
+Please keep in mind the cluster is fed with the input of the early reflections processor section, as is shown accordingly on
 the display.
+:::
 
 
 ## (63) Cluster Maximum

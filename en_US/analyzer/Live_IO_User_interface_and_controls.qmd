@@ -1,7 +1,5 @@
 # User interface and controls
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/LiveIO/Main2.png)
-
-> Live IO controls.
+![Live IO controls.](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/LiveIO/Main2.png)
 
 ## Name
 ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/LiveIO/Name.png)

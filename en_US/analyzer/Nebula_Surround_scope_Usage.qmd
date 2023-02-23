@@ -10,32 +10,19 @@ Physical locations of the speakers for the selected configuration are marked on 
 # Music
 This is the typical surround speaker arrangement for musical reproduction.
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Nebula/Music.png)
-
-> Nebula | Surround scope in Music speaker mode
+![Nebula | Surround scope in Music speaker mode](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Nebula/Music.png)
 
 # Equidistant
 This mode employs equidistant speakers arranged as an equilateral polygon.
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Nebula/Equidistant.png)
-
-> Nebula | Surround scope display with equidistant speaker mode selected
+![Nebula | Surround scope display with equidistant speaker mode selected](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Nebula/Equidistant.png)
 
 # Square
 This arrangement employs speakers arranged on a square.
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Nebula/Square.png)
-
-> Nebula | Surround scope display in Square speaker mode
+![Nebula | Surround scope display in Square speaker mode](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Nebula/Square.png)
 
 # Theater
 This is the typical arrangement employed in movie theaters, with redundant rear channels.
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Nebula/Theater.png)
-
-> Nebula | Surround scope display in Theater speaker mode
-
-
-
-
-
+![Nebula | Surround scope display in Theater speaker mode](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Nebula/Theater.png)

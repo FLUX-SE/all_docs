@@ -54,20 +54,24 @@ Choose what clock SPAT should follow.
 
 Allows to send feedback to the FLUX:: Immersive support team.
 
-> With Send/Return plug-ins, if sampling rate and block size between DAW and _SPAT Revolution_ are different, the status bar will be red. Double-click on this bar to automatically change them into _SPAT Revolution_.
- 
+:::{.callout-note}
+With Send/Return plug-ins, if sampling rate and block size between DAW and _SPAT Revolution_ are different, the status bar will be red. Double-click on this bar to automatically change them into _SPAT Revolution_.
+:::
+
 ## Snapshot bar
 
 ![Snasphot toolbar](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Generic/SnapshotToolbar.png)
 
 This toolbar has been designed to help to handle snapshots without navigating to the snapshots page. Some of the most important snapshot actions will be found on it:
-- Recall the <code>Previous</code> snapshot.
-- The name of the <code>Current</code> snapshot. Clicking on it will display the snapshot list, enabling to recall any snapshot of the list.
-- Recall the <code>Next</code> snapshot.
-- <code>Update</code> the current snapshot.
-- Enable or disable the <code>Relative Recall</code>.
-- <code>Propagate</code> values between snapshots.
+- Recall the ```Previous``` snapshot.
+- The name of the ```Current``` snapshot. Clicking on it will display the snapshot list, enabling to recall any snapshot of the list.
+- Recall the ```Next``` snapshot.
+- ```Update``` the current snapshot.
+- Enable or disable the ```Relative Recall```.
+- ```Propagate``` values between snapshots.
 
 _This bar can be hided on the snapshot panel of the __Preference__ page._
 
-> More information about snapshot can be found on the **[snapshots page](Spat_Environment_Snapshot_Page.md)**.
+:::{.callout-note}
+More information about snapshot can be found on the **[snapshots page](Spat_Environment_Snapshot_Page.md)**.
+:::

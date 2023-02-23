@@ -14,8 +14,9 @@ the vocal cords and the filter the vocal tract. Some instruments fit this rough 
 clarinet, the source would be the reed and the filter the instrument cavity. Simple analog synthesizers also use the
 source-filter paradigm, in form of one or more frequency-controlled oscillators fed to various kinds of low-order filters.
 
-> NB: Ch.1 corresponds to the left channel of your DAW track, Ch2 to the right one.
-
+:::{.callout-note}
+NB: Ch.1 corresponds to the left channel of your DAW track, Ch2 to the right one.
+:::
 
 ## (81) Oversampling
 Adjusts the oversampling factor, set to zero (none) by default. Increasing this setting can increase the processing the 

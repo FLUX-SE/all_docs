@@ -28,8 +28,11 @@ specifically designed to preserve tridimensional localisation properties.
 In order to mimic the impression of a sound originating from a given incidence, it is sufficient to filter a mono signal, which
 on its own lacks any kind of spatial information, with both left and right HRTF filters. This constitutes the foundation of
 binaural synthesis.  
-> Please note that the resulting signal is only meant to be listened to with headphones, and isn't designed for a conventional
+
+:::{.callout-note}
+Please note that the resulting signal is only meant to be listened to with headphones, and isn't designed for a conventional
 stereo loudspeaker setup.
+:::
 
 ## Virtual head
 

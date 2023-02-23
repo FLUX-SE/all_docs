@@ -11,5 +11,6 @@ The controls the release time of the optional *Max* curve, which serves to displ
 
 Default is 50 seconds.
 
-> The attack time is zero so the curve displays reacts instantaneously to a rising amplitude.
-
+:::{.callout-note}
+The attack time is zero so the curve displays reacts instantaneously to a rising amplitude.
+:::

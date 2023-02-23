@@ -1,7 +1,8 @@
 # UI Setup
 ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Setup/UISetup.png)
 
-> User interface setup dialog
+:::{.callout-note}
+User interface setup dialog
 
 ## Configuration
 Saves / restores a complete user defined configuration.
@@ -28,9 +29,7 @@ When engaged, the user interface color scheme switches from white/grey on black 
 
 >Reverse color scheme off.
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Setup/BrightTheme.png)
-
-> Reverse color scheme on.
+![Reverse color scheme on.](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Setup/BrightTheme.png)
 
 ## Layout Shortcuts
 This list allows you to set up to nine shortcuts for direct access to your most frequently used layouts.

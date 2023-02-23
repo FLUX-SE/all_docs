@@ -33,6 +33,7 @@ All major native formats (AAX, VST, AU, RTAS, TDM, AAX VENUE) are supported.
     * RTAS*
     * TDM*
 
-> *The TDM/RTAS version requires ProTools version 7 or above.
-
+:::{.callout-warning}
+*The TDM/RTAS version requires ProTools version 7 or above.
+:::
 <!-- TODO: To review when native ARM, -->

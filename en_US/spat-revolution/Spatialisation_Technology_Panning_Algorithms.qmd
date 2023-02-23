@@ -14,10 +14,13 @@ In _SPAT Revolution_, you will be able to explore some of the best panning algor
 
 Although there are technical aspects to be interested in and aware of, you are still invited to be creative and use your ears when deciding which are the right panning types for your project and intended audience.
 
-> ★ Try using more than one _SPAT Revolution_ virtual Room to use different panning algorithms for sound material that has different sonic qualities (**Ultimate** license only).
+:::{.callout-note}
+Try using more than one _SPAT Revolution_ virtual Room to use different panning algorithms for sound material that has different sonic qualities (**Ultimate** license only).
+:::
 
-
-> Some academic papers about some following panning laws could be found here [at the end of this section.](https://doc.flux.audio/#/en_US/spat_revolution_doc/Spatialisation_Technology_Panning_Algorithms?id=related-papers).
+:::{.callout-note}
+Some academic papers about some following panning laws could be found here [at the end of this section.](https://doc.flux.audio/#/en_US/spat_revolution_doc/Spatialisation_Technology_Panning_Algorithms?id=related-papers).
+:::
 
 ## Stereo-exclusive Panning Laws
 
@@ -36,7 +39,9 @@ These two Panning Types will only become available when a _Virtual Room_ is set 
 
 **XY panning** simulates the recording of the sound scene by a pair of microphones in a XY coincident configuration.
 
-> ★ The aim is to get the same stereo flavor as these dual microphone tracking techniques. Try them on close miked sources or any mono source, to get a realistic stereo image.
+:::{.callout-note}
+The aim is to get the same stereo flavor as these dual microphone tracking techniques. Try them on close miked sources or any mono source, to get a realistic stereo image.
+:::
 
 ## Vector Base Amplitude panning (VBAP)
 
@@ -47,7 +52,9 @@ Vector Base Amplitude Panning has become one of the more standardised methods fo
 
 Traditional VBAP works by manipulating the gain of the signals being routed to the two (in 2D), or three (in 3D), the closest speakers to a virtual sound source. VBAP relies heavily on an accurate speaker arrangement model to do this. It triangulates gain vectors mathematically in order to render a virtual object in the physical space and achieves its characteristic 'sharp' focus by using only a few speakers closest to the virtual source location. Additionally, it is possible to uniformly extend the traditional VBAP pair-wise (or triplet-wise) speaker picking and activate more of the sound system, effectively diffusing the relationship between individual speakers and sounds using _spread_.
 
-> ★ Widen a VBAP point source by increasing the Spread source parameter.
+:::{.callout-note}
+Widen a VBAP point source by increasing the Spread source parameter.
+:::
 
 Three important dependencies to consider when using VBAP:
 
@@ -86,7 +93,9 @@ The dependencies mentioned in the VBAP section also apply to Dual Band Vector Ba
 
 Layer based amplitude panning can be explained as **multiple 2D VBAP layers**: The speaker setup is split into several layers, depending on the speaker elevation. The panning used between speakers on the same layer is the VBAP 2D. Between these layers, a crossfade is applied between the two nearest layers.
 
-> The difference between VBAP 3D and LBAP is the number of speakers which will be active between the layers: three in VBAP versus four in LBAP.
+:::{.callout-note}
+The difference between VBAP 3D and LBAP is the number of speakers which will be active between the layers: three in VBAP versus four in LBAP.
+:::
 
 ## Distance Base Angular panning (DBAP)
 
@@ -102,7 +111,9 @@ Only level differences are used with this panning method.
 
 DBAP localizes sounds towards arbitrarily positioned speakers in a space using a matrix-based technique. It calculates signal amplitudes according to the actual positions of the speakers in a space, while making no assumptions as to where the listeners are situated. Speaker tuning and interesting acoustic features in a room should be more utilized when working with DBAP.
 
-> ★ Speakers can be freely positioned when using DBAP - look for reflections and reverberations in a room to enhance spatial aspects.
+:::{.callout-note}
+Speakers can be freely positioned when using DBAP - look for reflections and reverberations in a room to enhance spatial aspects.
+:::
 
 ## K-Nearest Neighbor (KNN) {#panType-KNN}
 
@@ -116,7 +127,9 @@ An interesting parameter of KNN is that the user gets manual control over one of
 
 What makes this particularly interesting is that different sources can activate less or more of the sound system dynamically and in a very smooth way. For example, one virtual sound source might seem to pop in and out of individual speakers because its _Nearest Neighbors Spread_ parameter is set a low percentage. For example, on a 10-speaker arrangement :1-10% will use 1 speaker, 11% to 20% 2, and so on. Another sound source could seem diffuse over the entire sound system, because its spread variable is set to 100%.
 
-> ★ Try automating the Nearest Neighbors Spread in a relationship with another source property of the same sound sources such as room presence.
+:::{.callout-note}
+Try automating the Nearest Neighbors Spread in a relationship with another source property of the same sound sources such as room presence.
+:::
 
 ## Speaker-Placement Correction Amplitude (SPCAP)
 
@@ -129,7 +142,9 @@ The result will still be _Sweet Spot_ dependent, although it will be a wider lis
 1. Speakers must be placed _around_ the listening position.
 2. 2D speakers should be on the same horizontal plane as the ears.
 
-> ★ SPCAP panning can do a good job of translating surround audio mixes from one speaker configuration to another.
+:::{.callout-note}
+★ SPCAP panning can do a good job of translating surround audio mixes from one speaker configuration to another.
+:::
 
 ## Ambisonic Equivalent Panning (AEP)
 

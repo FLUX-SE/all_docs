@@ -19,15 +19,18 @@ in configurable explicit groups, within one single instance of Epure.
 With the Link I/O Routing engaged, every input is automatically routed to the corresponding output, when the input
 routing settings are consistent. Please note that the Routing Matrix allows for routing of one input channel to
 several EQ-channels, as well as for routing of several EQ-channels to one output. 
-> Please note that this is an inconsistent routing action that may in turn cause the Link I/O Routing to behave 
-> inconsistently.
+
+:::{.callout-note}
+Please note that this is an inconsistent routing action that may in turn cause the Link I/O Routing to behave inconsistently.
 
 With each Group representing one explicit EQ curve, the Group Matrix can be used to gather a number of internal
 EQ channels in a specific group for the combined processing of several input channels (Front/Surround, etc.). 
-> Note that when audio channels are grouped, the settings of the first audio channel (Channel 5 in group 2 in the above 
-example) are applied to all channels in the group (Channels 5 & 6 in the example).
 
-> Please note that morphing between two parameter settings using the Morphing Slider (12) affects the settings of
+Note that when audio channels are grouped, the settings of the first audio channel (Channel 5 in group 2 in the above 
+example) are applied to all channels in the group (Channels 5 & 6 in the example).
+:::
+
+Please note that morphing between two parameter settings using the Morphing Slider (12) affects the settings of
 the Setup section as well.
 
 ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Plugins/epure/Epure_02.png)

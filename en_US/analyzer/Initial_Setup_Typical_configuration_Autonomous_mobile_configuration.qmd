@@ -13,8 +13,10 @@
     * Wireless network connection.
 
 
-!> **IMPORTANT!** - The Pure Analyzer Studio Session supports audio input only by using the plug-in. 
+:::{.callout-warning}
+ **IMPORTANT!** - The Pure Analyzer Studio Session supports audio input only by using the plug-in. 
 No hardware input/output options are supported for the Pure Analyzer Session.
+:::
 
 ## Analysis
 

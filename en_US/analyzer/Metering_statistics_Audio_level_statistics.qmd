@@ -2,9 +2,7 @@
 The metering statistics view shows a synthetic view of the current and past meter values in numeric form.
 It also serves to process multiple existing audio files in one pass, display and export the results to disk.
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/MeteringStatistics/Main.png)
-
-> Metering statistics display
+![Metering statistics display](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/MeteringStatistics/Main.png)
 
 ## Overview
 The display shows the average and range for the various level meter values, since the start of the application or the last time the meter was reset, in a spread-sheet type view.

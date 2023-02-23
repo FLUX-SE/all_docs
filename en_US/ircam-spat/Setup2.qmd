@@ -75,9 +75,12 @@ When the Binaural panning method is chosen, one can select between a variety of 
 Head-Related Transfer Function.  
 In essence, a HRTF models the way a listener's head modifies an incoming sound beam, depending on its direction. One
 can then measure and replicate the interaction of the head of a particular listener to recreate a sensation of 3D space.
-> Please keep in mind this technique is only applicable to the stereo case. The default one available is the Kemar head, a
+
+:::{.callout-note}
+Please keep in mind this technique is only applicable to the stereo case. The default one available is the Kemar head, a
 standard Manikin head. Some others are available (choose the HRTF library at install time). Their numbers refers to the
 anonymous id of the listeners that have sampled their profile at IRCAM laboratories.
+:::
 
 ## (83) Reverb Density
 Internally, spatial variations are computed using a kind of 2D-network of reverbs, and this setting toggles between an 8x8
@@ -93,5 +96,7 @@ advisable to use your DAW surround mixer capabilities instead, as these are glob
 ## (85) Output Delays
 An output delay, expressed in milliseconds, can be inserted just before output to the speaker, for example to compensate
 for a non-standard speaker arrangement.
-> Please note that if you move a speaker in the source view, the associated delay is automatically applied on the 
->corresponding output according to the speaker distance.
+
+:::{.callout-note}
+Please note that if you move a speaker in the source view, the associated delay is automatically applied on the corresponding output according to the speaker distance.
+:::

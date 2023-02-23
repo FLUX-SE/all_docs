@@ -26,14 +26,16 @@ If a session contains inactive blocks that could be activated, a dialog offers t
 
 ## Check Essential compatibility in SPAT Revolution Ultimate
 
-In the <code>Menu File</code>, click on the <code>Check Essential Compatibility</code> item to check if the current session is compatible with the Essential version restrictions. A dialog then informs of the compatibility.
+In the ```Menu File```, click on the ```Check Essential Compatibility``` item to check if the current session is compatible with the Essential version restrictions. A dialog then informs of the compatibility.
 
 ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/EssentialCompatible.png)
 ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/EssentialNotCompatible.png)
 
 If the session is not compatible, it can be opened in Essential version but the non-authorized objects will be automatically deactivate (see paragraph  "Create and edit a session in _SPAT Revolution_ Essential" above).
 
-> The blocks contained in an Ultimate session can be manually deactivated to fit the Essential version restrictions. The check for compatibility answers that the session is compatible.
+:::{.callout-note}
+The blocks contained in an Ultimate session can be manually deactivated to fit the Essential version restrictions. The check for compatibility answers that the session is compatible.
+:::
 
 ## Essential Compatibility Mode for Ultimate version
 

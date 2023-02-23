@@ -25,4 +25,6 @@ In the context of Augmented and Virtual Reality, a spatialized auditory componen
 
 An important thing to keep in mind is the long heritage and technical expertise behind _SPAT Revolution_. There are many critical factors to consider when multichannel audio is actually applied in the real world. But rest assured that the algorithms behind your spatial sound project are being implemented correctly at the stage of the authoring and rendering environment. It is good to know that _SPAT Revolution_ is built with such a high level of technical expertise in such an intuitive package.
 
-> Whatever the scale of your spatialized audio production, _SPAT Revolution_ makes it simple to craft an impressive and reliable end result.
+:::{.callout-note}
+Whatever the scale of your spatialized audio production, _SPAT Revolution_ makes it simple to craft an impressive and reliable end result.
+:::

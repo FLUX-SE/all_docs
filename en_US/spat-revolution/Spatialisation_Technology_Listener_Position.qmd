@@ -10,13 +10,19 @@ In more complex speaker arrangements, the _Sweet Spot_ is usually considered to 
 The dummy head indicates the _Listener Position_. In _SPAT Revolution_, the _Listener Position_ is actually a bit more useful than just an indication of the _Sweet Spot_. In general, it is useful for getting some bearings in the spatial composition. Knowing which direction the _Listener Position_ is facing, helps you understand the spatial image and place sources correctly. For example, a train audibly approaches from the left in an ambisonic field recording you are working with as a source, but it visually approaches from the right on the video footage you are editing to. You can use the listener position as a reference point to transform the field recording correctly so that it correlates to what’s happening on screen. Also, when working in “stage” oriented spaces, the listener position in a SPAT Room will help you compose a scene with the correct relationship to the front, back and sides of the space. It also provides a method for giving a sense of distance to a sound source by placing virtual sound objects closer or farther away from the _Listener Position_. The internal distance perceptual cues, such as air absorption, doppler and gain drops are all calculated in relation to the _Listener Position_.
 
 
-> Some Panning and Stream Types have wider _Sweet Spots_ than others and some do not have a _Sweet Spot_ at all.
+:::{.callout-note}
+Some Panning and Stream Types have wider _Sweet Spots_ than others and some do not have a _Sweet Spot_ at all.
+:::
 
 It is worth noting that there are some panning algorithms in _SPAT Revolution_ that are **not** _Sweet Spot_ dependent. These are more suitable for use on arbitrarily positioned speaker distributions. We will get to them shortly.
 
-!> The dummy head is only visible for _Sweet Spot_ dependent panning types.
+:::{.callout-warning}
+ The dummy head is only visible for _Sweet Spot_ dependent panning types.
+:::
 
-> The Listener Position can be moved in a _SPAT Revolution_ room.
+:::{.callout-note}
+The Listener Position can be moved in a _SPAT Revolution_ room.
+:::
 
 ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Room/OutputChannelBased.png)
 

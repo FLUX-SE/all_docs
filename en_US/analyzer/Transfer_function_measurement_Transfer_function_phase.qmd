@@ -5,17 +5,22 @@ Altering the phase of a signal can range from subtle to dramatic, and phase dist
 
 The transfer function phase curve displays the phase difference between output and input of the system at different frequencies, in degrees, ranging from -180 to 180.
 
-> FLUX:: Analyzer employs several smoothing algorithms custom designed for phase curve smoothing, as explained in the section about [Phase](13_Transfer_function_measurement_05_Setup_05_Phase.md) setup.
->
-> Due to the definition of phase itself and the means of computing it, the curve is generally more sensitive to extraneous noise, distortion and time-varying conditions.
-> Even more so than with the magnitude curve, a precisely compensated delay is critical to accurate phase computation.
->`∏˜`
-> In very reverberant environments, the phase curve will be very chaotic.
-> This is inevitable and a direct consequence of the complex nature of the system, and not a limitation of the instrument.
-> We advise to use Pure spectrum analysis mode which mitigates phase computation inaccuracies compared to plain FFT.
+:::{.callout-note}
+FLUX:: Analyzer employs several smoothing algorithms custom designed for phase curve smoothing, as explained in the section about [Phase](13_Transfer_function_measurement_05_Setup_05_Phase.md) setup.
+:::
+
+Due to the definition of phase itself and the means of computing it, the curve is generally more sensitive to extraneous noise, distortion and time-varying conditions.
+
+Even more so than with the magnitude curve, a precisely compensated delay is critical to accurate phase computation.
+`∏˜`
+
+In very reverberant environments, the phase curve will be very chaotic.
+
+This is inevitable and a direct consequence of the complex nature of the system, and not a limitation of the instrument.
+
+We advise to use Pure spectrum analysis mode which mitigates phase computation inaccuracies compared to plain FFT.
+:::
  
- ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/TransferFunction/Main.png)
->
-> Typical transfer function display in a live room!
+![Typical transfer function display in a live room!](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/TransferFunction/Main.png)
 
 <!-- TODO: What is Pure spectrum analysis mode -->

@@ -23,7 +23,9 @@ Uses a fixed range as specified by the above settings.
 
 When engaged, auto-range continuously adjusts the display to the current range of the data.
 
-> A slight envelope is applied to the auto-range values in order to improve legibility, avoiding the display to follow every minor change. Peaks are always registered however, as these provide valuable information that should not be missed.
+:::{.callout-note}
+A slight envelope is applied to the auto-range values in order to improve legibility, avoiding the display to follow every minor change. Peaks are always registered however, as these provide valuable information that should not be missed.
+:::
 
 ### Compressed
 

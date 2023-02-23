@@ -38,7 +38,9 @@ Prominence of the reverberation with respect to the source, or in other words, h
 
 This parameter controls the amount of perceived reverb when feeding a continuous music message, where the overall sound is a tight blend of the dry and wet signals and the reverb part cannot be mentally separated. It is linked to the early reflections decay time of the _SPAT Revolution_ Reverb engine. N
 
-> This setting is not the same as the ‘reverberance’ in the _Reverb Properties_.
+:::{.callout-note}
+This setting is not the same as the ‘reverberance’ in the _Reverb Properties_.
+:::
 
 ### Envelopment
 
@@ -86,7 +88,9 @@ This filter section is for equalizing the on-axis part of the sound radiated by 
 
 Setting a rather flat on-axis equalizer curve, and maybe cutting the treble and mids for the omni response would be a good starting point to emulate a real-world speaker, so this is the default setting for these filters.
 
-> **_Spectral Axis_ performs more like conventional mixer EQ**
+:::{.callout-note}
+**_Spectral Axis_ performs more like conventional mixer EQ**
+:::
 
 ## Radiation
 
@@ -118,13 +122,17 @@ Angle of the source direct orientation relative to the listener-source axis, in 
 
 Source direct orientation pitch angle, in degrees. Think of _pitch_ in the nautical sense of the word, how a boat _pitches_ up and down in stormy seas.
 
-> Pitch and Yaw can be used to make a source more diffuse by turning its direct sound away from the listener.
+:::{.callout-note}
+Pitch and Yaw can be used to make a source more diffuse by turning its direct sound away from the listener.
+:::
 
 ### Aperture
 
 The aperture parameter relates to the “sound cone” projected by the virtual source in the acoustic space, and is measured in degrees. It determines whether the source will be very directive (small aperture), or omnidirectional (large aperture) inside the reverberant environment.
 
-> Aperture can make a source 'activate' more of the acoustic space.
+:::{.callout-note}
+Aperture can make a source 'activate' more of the acoustic space.
+:::
 
 ## Send LFE
 
@@ -134,7 +142,9 @@ This panel will only be available when the room is a Channel-Based Format which 
 
 It will send an amount of the source into the dedicated LFE speaker channels of the output channel based configuration.
 
-> Automate the LFE sends for dynamic low frequency effects.
+:::{.callout-note}
+Automate the LFE sends for dynamic low frequency effects.
+:::
 
 ## Barycentric
 
@@ -164,7 +174,9 @@ Finally, there are some options available for each source. It is possible to edi
 
 The Doppler effect is a well-known wave propagation phenomenon where the height of a sound perceived from a listener standpoint rises when the source is accelerating, and falls when decelerating. This is the fire siren pitch going up then down when passing you. It will only be heard if you rapidly move the source locations quite fast, but thanks to the virtual nature of the SPAT, you can bypass Physics’ laws and manually inhibit it using this switch, should it be unsuitable for the particular application you are dealing with.
 
-> Careful with this effect: it adds the delay corresponding on the distance between the source and the listener point.
+:::{.callout-note}
+Careful with this effect: it adds the delay corresponding on the distance between the source and the listener point.
+:::
 
 ### Drop Factor and Drop Log 
 
@@ -178,7 +190,9 @@ Simulates the frequency-dependent absorption of air, where high frequencies roll
 
 Specifies the radius of a sphere or disc in meters, centered around the listener position, where the drop attenuation is not taken into account, and the sound level is kept constant in regard to distance. This is not only useful to prevent any dramatic sound level peak when placing a source too close to the listener, it also reflects real-world behavior quite accurately, where sources do have a certain physical size, unlike point sources that are commonly used to model far-field acoustics. This “no-drop” zone is displayed as a transparent sphere of matching radius in the Room graphics.
 
-> The radius is now depreciated, except on rare case where you really want a source to have a different behavior than others. Please prefer the room protection zone width to prevent the audio drop.
+:::{.callout-note}
+The radius is now depreciated, except on rare case where you really want a source to have a different behavior than others. Please prefer the room protection zone width to prevent the audio drop.
+:::
 
 ### XY translation mode
 

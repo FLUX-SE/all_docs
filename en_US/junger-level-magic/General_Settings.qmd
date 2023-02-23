@@ -87,10 +87,12 @@ during production is -1dBTP.
 - Summary, Available Modes
 ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Plugins/junger-level-magic/level_magic_05.png)
 
-!> Important note:
+:::{.callout-warning}
+ Important note:
 Systems working in ITU BS.1770-1 mode do not feature a gating function. Thus its output readings may vary from meters
 compliant to EBU R128 or ITU BS.1770-2/-3. Further keep in mind that the gate is only applicable to the integrated or
 program loudness measurement and not used for short-term or momentary measurements.
+:::
 
 ## Link Mode (5)
 The link function connects all the parameters of the processed channels and links the control circuits of the processing
@@ -160,7 +162,9 @@ Processing Profile Presets:
 
 ## Leveler Loudness Target (14)
 
-> Please Note - This parameter is available in all modes except the Level mode.
+:::{.callout-note}
+Please Note - This parameter is available in all modes except the Level mode.
+:::
 
 The Loudness Target is the target level of the whole leveling process according to the ITU/EBU regulations.
 
@@ -207,11 +211,14 @@ Value Range: 0 / +40 dB
 The Leveler Freeze Level function holds the amount of gain or attenuation if the signal level drops below this threshold.  
 It works in a similar way to a hold function in other sound processors.
 
-An example:  
-> Assuming the process applies a gain change of 10 dB to achieve target loudness, the input level will suddenly drop
+:::{.callout-note}
+
+Assuming the process applies a gain change of 10 dB to achieve target loudness, the input level will suddenly drop
 below freeze level. The gain change remains in its last state until the signal returns above Freeze Level. This behaviour
 is different to the Processing Threshold (28) where the gain change would return to its neutral state if the level falls
 below threshold.
+
+:::
 
 It is necessary to always set Freeze Level above the Processing Threshold to prevent unwanted release behaviour.
 
@@ -258,7 +265,9 @@ Processing Profile Presets:
 - Uni Slow response
 - Classic Slowest response
 
-> Please note that the limiter setting will have an impact on the Transient Processor.
+:::{.callout-note}
+Please note that the limiter setting will have an impact on the Transient Processor.
+:::
 
 ## Limiter Max True Peak (22)
 The Limiter Max True Peak sets the threshold for the system’s true peak limiter. Its fast detection system with a 2ms
@@ -283,11 +292,13 @@ is completely sufficient. Though, in certain configurations it may be necessary 
 
 
 An example:
-> If LevelMagic(TM) is configured to work without gain or with just a very small amount of positive gain, then returning to
+
+:::{.callout-note}
+If LevelMagic(TM) is configured to work without gain or with just a very small amount of positive gain, then returning to
 unity from heavy attenuation can take quite some time. If a very loud part (above target) is followed by a quiet section
 (right at or below target), the recovery from damping will lead to an unnatural fade-in effect for the quiet section. In
-order to decrease this effect and accelerate the fade-in time, AGC Recovery can be set to \[Fast\] and will then be 
->accelerated up to fifteen times its normal speed.
+order to decrease this effect and accelerate the fade-in time, AGC Recovery can be set to \[Fast\] and will then be accelerated up to fifteen times its normal speed.
+:::
 
 
 The result sounds almost similar to if an audio engineer rides the fader to correct unwanted level jumps and thus
@@ -314,13 +325,13 @@ programs incorporates a known and undesired level jump.
 It is not necessary to exactly predict the level difference between the programs but already helpful to set up a few dB
 in the right direction.
 
-
-An example:
-> The level jump from a movie to a commercial break is usually around 6dB. Resetting LevelMagic(TM) at the transition point
+:::{.callout-note}
+The level jump from a movie to a commercial break is usually around 6dB. Resetting LevelMagic(TM) at the transition point
 helps to even-out the difference. Still, the process needs some attack time to build up a damping of 6dB, which can be
 audible depending on the program structure. If the gain is reset to a damping value between -4 to -6dB instead, the
 attack time is much shorter and artifacts will fall below the perception threshold. In many cases an Initial Dynamic Gain
 value of +/-3 dB is sufficient to create transitions with seamless loudness.
+:::
 
 Value Range: -40 / +15 dB
 

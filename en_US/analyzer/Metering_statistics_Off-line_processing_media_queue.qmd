@@ -23,7 +23,10 @@ Channel configuration and names are inferred from the file names using a fuzzy-l
 If the automatic channel grouping does not succeed, an error message will be displayed. 
 Please rename the offending file(s) according to one of the expected schemes above to correct the problem.
 
-> This function is not intended to process unrelated soundtracks in batch mode. 
-> Please repeat the operation as necessary if you wish to obtain separate results for individual tracks.
+:::{.callout-note}
+This function is not intended to process unrelated soundtracks in batch mode. 
+
+Please repeat the operation as necessary if you wish to obtain separate results for individual tracks.
+:::
 
 

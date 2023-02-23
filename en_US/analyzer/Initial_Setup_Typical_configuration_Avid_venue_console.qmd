@@ -5,4 +5,6 @@ When performing transfer function and impulse response measurements, a recommend
 
 ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/SampleGrabber/VENUE.png)
 
-> Recommended setup with Avid Venue console
+:::{.callout-note}
+Recommended setup with Avid Venue console
+:::

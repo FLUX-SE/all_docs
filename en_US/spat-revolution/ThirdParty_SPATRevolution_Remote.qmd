@@ -46,7 +46,9 @@ If you rather not see this interface every-time the server starts, you can add `
 
 ![No GUI](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/SPATRevolutionRemoteConfigNoGui.png)
 
-!>  **Important: ** *Please make sure to open the server before opening SPAT Revolution*.
+:::{.callout-warning}
+  **Important: ** *Please make sure to open the server before opening SPAT Revolution*.
+:::
 
 
 ## Autostart
@@ -67,7 +69,9 @@ Configuring SPAT Revolution requires to set the OSC Connection Input and Output 
 - Add the output| SPAT Remote server preset
 ![SPAT Revolution OSC Connection Output](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/SPATRevolutionRemoteSPATOSCConnectionOut.png)
 
-> These above presets use the default ports and address of the Open Stage Control Config files supplied. By default, the local 127.0.0.1 address is set as it is assumed that the Remote server (Open Stage Control) is used locally on the same computer as SPAT Revolution. This is the most common scenario. If your server is running on another computer, you can simply change the IP address on the server prior to launching it, giving the IP of the SPAT Revolution computer Ethernet interface NIC.
+:::{.callout-note}
+These above presets use the default ports and address of the Open Stage Control Config files supplied. By default, the local 127.0.0.1 address is set as it is assumed that the Remote server (Open Stage Control) is used locally on the same computer as SPAT Revolution. This is the most common scenario. If your server is running on another computer, you can simply change the IP address on the server prior to launching it, giving the IP of the SPAT Revolution computer Ethernet interface NIC.
+:::
 
 ![Changing the IP address in the server](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/SPATRevolutionRemoteConfig_ChangeIP.png)
 

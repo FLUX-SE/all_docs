@@ -28,5 +28,8 @@ This allows you to make adjustments without affecting Integrated Loudness, inste
 
 Clicking the ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Generic/Refresh.png) button resets the meter to its initial state.
 
-> Don't forget to reset the Loudness meter if you're starting playback of a new track, as Integrated Loudness, by design, measures the overall Loudness since the last reset.
-> Otherwise you'd be measuring the overall Loudness of the combined tracks, which is probably not what you want.
+:::{.callout-note}
+Don't forget to reset the Loudness meter if you're starting playback of a new track, as Integrated Loudness, by design, measures the overall Loudness since the last reset.
+
+Otherwise you'd be measuring the overall Loudness of the combined tracks, which is probably not what you want.
+:::

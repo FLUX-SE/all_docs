@@ -1,7 +1,9 @@
 # Display
 ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Nebula/SurroundScopeSetup.png)
 
-> Nebula | Surround scope setup options
+:::{.callout-note}
+Nebula | Surround scope setup options
+:::
 
 # Mode
 ## Speaker mode
@@ -23,8 +25,10 @@ When disabled, the color will reflect the absolute audio level. You can also thi
 This controls whether color variations should be smoothed in time or not. 
 When engaged, color variations is slowed down a bit, which makes overall level transitions more obvious.
 
-> You should enable this setting when you want to visualize quick level
+:::{.callout-note}
+You should enable this setting when you want to visualize quick level
 variations such as those that frequently occur in movie soundtracks.
+:::
 
 ## Linear blend range
 Adds a constant blend amount to the particle. 
@@ -59,7 +63,9 @@ Controls the radius of the blur effect applied to past particles.
 Particles are "smeared" more and more as they become older, depending on this setting. 
 Naturally, a bigger value increases the smearing, at the expense of processing power.
 
-> Choosing the value for this setting is really matter of taste, although please keep in mind values that above 5 will require a sufficiently powerful graphics card in order to maintain a responsive display.
+:::{.callout-note}
+Choosing the value for this setting is really matter of taste, although please keep in mind values that above 5 will require a sufficiently powerful graphics card in order to maintain a responsive display.
+:::
 
 ## Particle factor count
 Determines the amount of particles to display, relative to the default number used for the current screen size.

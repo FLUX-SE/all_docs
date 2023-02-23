@@ -1,7 +1,5 @@
 # Setup
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/SignalGenerator/Setup.png)
-
-> Signal generator setup options.
+![Signal generator setup options.](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/SignalGenerator/Setup.png)
 
 ## Output
 Selects the hardware output(s) to which the signal generator should be routed.
@@ -13,7 +11,9 @@ First generator output.
 ### Output 2
 Second generator output.
 
-> Both signals sent to the hardware output channels are identical.
+:::{.callout-note}
+Both signals sent to the hardware output channels are identical.
+:::
 
 ## Feed input reference
 Fed the reference input (default input 1) with the signal generator. 
@@ -22,9 +22,12 @@ Fed the reference input (default input 1) with the signal generator.
 Sets the frequency of the sine generator, only applicable when the signal type is set to Sine.
 
 ## Sweep start/end frequencies
+
 Sets the range of frequencies to sweep.
 
-> Reverse start and end frequencies to obtain reverse sweep.
+:::{.callout-note}
+Reverse start and end frequencies to obtain reverse sweep.
+:::
 
 ## Sweep length
 Sets the overall duration of the sweep in seconds,<i>i.e.</i> the time taken to go from start to end frequency.

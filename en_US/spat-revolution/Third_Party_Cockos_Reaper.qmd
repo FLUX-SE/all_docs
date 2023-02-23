@@ -100,12 +100,15 @@ If dealing with ambisonic 1st order such as AmbiX or B-Format, the input stream 
 
 There are a couple of things to make sure to optimize the integration and avoid inconsistent behaviour:
 
-!> Disable **Full Plug-in State** set by default in Plug-in Compatibility Preferences.
+:::{.callout-warning}
+ Disable **Full Plug-in State** set by default in Plug-in Compatibility Preferences.
+:::
 
 ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/ReaperPreferencesCompatibility.jpg)
 
-
-!> "Prevent Anticipative FX" should be enabled on tracks where SEND / RETURN are inserted.
+:::{.callout-warning}
+ "Prevent Anticipative FX" should be enabled on tracks where SEND / RETURN are inserted.
+:::
 
 ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/ReaperPerformanceOptionsMenu.jpg)
 
@@ -124,7 +127,7 @@ This is a great way to control source properties like _Azimuth_ or _Yaw_ using e
 
 ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/ReaperMIDI.jpg)
 
-In the Automation parameter list for SPAT SEND just click on the <code>LEARN...</code> button to manually assign an external controller that you have set up in the Reaper Controller preferences.
+In the Automation parameter list for SPAT SEND just click on the ```LEARN...``` button to manually assign an external controller that you have set up in the Reaper Controller preferences.
 
 From this page by clicking on the MOD... button of an automatable parameter, it is also possible to animate sources with independent LFOs that run all the time in the background, quick and dirty way to spatialise live inputs sources with autopan type effects for example.
 

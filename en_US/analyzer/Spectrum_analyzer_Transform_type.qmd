@@ -7,5 +7,6 @@ Although convenient in terms of computation, this can be seen as less than ideal
 
 Pure Analyzer employs both standard DFT and proprietary algorithms that more closely model the human perception. In addition to greatly improving the legibility of the resulting curves, this proprietary transform has the additional benefit of reducing sensitivity to noise in the high-frequency portion of the spectrum especially, and provides more stable readouts.
 
-> You can of course switch back to standard DFT by disengaging the Pure spectrum button.
-
+:::{.callout-note}
+You can of course switch back to standard DFT by disengaging the Pure spectrum button.
+:::

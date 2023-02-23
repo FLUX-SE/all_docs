@@ -6,4 +6,6 @@ Audio source allows you to select which source to use as input. Depending on you
 
 
 
-!> **IMPORTANT!** - The Pure Analyzer Studio Session supports audio input only by using the plug-in.  No hardware input/output options are supported for the Pure Analyzer Session.
+:::{.callout-warning}
+ **IMPORTANT!** - The Pure Analyzer Studio Session supports audio input only by using the plug-in.  No hardware input/output options are supported for the Pure Analyzer Session.
+:::

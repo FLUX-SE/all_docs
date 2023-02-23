@@ -26,7 +26,7 @@ presented.
 
 ### Windows
 
-SecurityManager.exe located in: <code>C:\\ProgramFiles\\Flux\\Plug-ins\\Misc</code>
+SecurityManager.exe located in: ```C:\\ProgramFiles\\Flux\\Plug-ins\\Misc```
 
 ### OS X
 

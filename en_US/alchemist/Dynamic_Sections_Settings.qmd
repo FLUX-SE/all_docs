@@ -72,9 +72,12 @@ Sets the gain range of the L.I.D. parameter.
 - Down: Decreasing of the L.I.D. action
 
 The current L.I.D. Threshold value is reflected by two green lines on the Dynamic Activity display.
-> For Compressor and DCompressor sections, the L.I.D. action is effective only when the orange Dynamic Activity (18)
+
+:::{.callout-note}
+For Compressor and DCompressor sections, the L.I.D. action is effective only when the orange Dynamic Activity (18)
 exceeds the area between the two green lines. For Expander and DExpander sections, the L.I.D. action is effective
 only when the orange Dynamic Activity (18) stays inside the area between the two green lines.
+:::
 
 
 ## L.I.D. Maximum (66)

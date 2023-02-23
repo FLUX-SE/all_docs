@@ -7,9 +7,7 @@ The default is 32768, which is appropriate for most cases.
 Increasing this value gives better frequency resolution, at the expense of CPU load.
 Lower values can be employed if you're only interested in the overall response of the analyzed system.
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/TransferFunction/BlockSize.png)
-
-> Transfer function block size
+![Transfer function block size](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/TransferFunction/BlockSize.png)
 
 ## Time averaging
 Toggles time averaging on and off.

@@ -73,7 +73,9 @@ _In the _SPAT Revolution_ preferences make sure the OSC Enable is engaged._
 
 ![Setting the OSC Connection](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Preference/OSCMain.png)
 
-> ★ Enable commands log to view the commands and confirm you are receiving data (Shift + F7 will open the log window). It is not recommended leaving it active all the time as it takes some system resources.
+:::{.callout-note}
+Enable commands log to view the commands and confirm you are receiving data (Shift + F7 will open the log window). It is not recommended leaving it active all the time as it takes some system resources.
+:::
 
 **Setting the OSC Connection**
 ![Setting the OSC Connection](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Preference/OSCConnectionCustomLocalHost.png)

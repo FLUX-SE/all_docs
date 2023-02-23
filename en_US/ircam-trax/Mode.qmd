@@ -9,9 +9,11 @@ of algorithm used internally by the plug-in, initializes source settings with al
 
 Selecting the right mode for your material should be the first step you perform before doing any further editing.
 
-> Please note that the algorithms used to process the signal are very different for the three modes, so setting the right mode
+:::{.callout-note}
+Please note that the algorithms used to process the signal are very different for the three modes, so setting the right mode
 here is crucial to proper operation, and failing to so would heavily compromise the quality and accuracy of the audible
 result.
+:::
 
 In some cases however, for example if you’re crafting special effects for sound design, are interested in deliberately 
 emphasizing artifacts or maybe creating distorted robotic voices, well of course, nothing should stop you from trying even the

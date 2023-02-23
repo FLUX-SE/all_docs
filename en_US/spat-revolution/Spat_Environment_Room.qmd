@@ -30,7 +30,9 @@ Display the presence factor as a green vector. The brighter it is, the more pres
 
 In some very specific cases, the position of source in the DSP may be different that the one you set up. When on, the DSP position is also displayed.
 
-> To understand better what these two first options do, consult the "[Understanding the mixing zones](Spat_Environment_Understanding_the_3D_View.md)" section.
+:::{.callout-note}
+To understand better what these two first options do, consult the "[Understanding the mixing zones](Spat_Environment_Understanding_the_3D_View.md)" section.
+:::
 
 **Source Infos:**
 
@@ -56,7 +58,9 @@ Change the brightness of the graphical elements.
 
 Change the transparency of the Nebula spectral analyzer.
 
-> When set to 0%, Nebula does not take any resources at all.
+:::{.callout-note}
+When set to 0%, Nebula does not take any resources at all.
+:::
 
 Consult the "[Nebula Spatial Spectrogram](Spat_Environment_Nebula.md)" section for more information.
 
@@ -64,7 +68,9 @@ Consult the "[Nebula Spatial Spectrogram](Spat_Environment_Nebula.md)" section f
 
 Configure the quality factor of nebula. 
 
-> Changing this factor will significantly change the performances.
+:::{.callout-note}
+Changing this factor will significantly change the performances.
+:::
 
 **Speaker Alpha:**
 
@@ -153,4 +159,6 @@ This parameter changes the scale of RTTrPM protocol data.
 
 This panel allows you to import a background image in _SPAT Revolution_ and to position it in the 3D view.
 
-!> Make sure to have no special character in the path or file name.
+:::{.callout-warning}
+ Make sure to have no special character in the path or file name.
+:::

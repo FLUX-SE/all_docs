@@ -16,16 +16,16 @@ The password entered in this field should match the one used by the SampleGrabbe
 ## Graphic engine
 ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Setup/EngineFrameRate.png)
 
-> Available graphic engine frame rates
+:::{.callout-note}
+Available graphic engine frame rates
+:::
 
 Here you can specify the rate at which the display should be refreshed. Please note higher frame rates place higher demands on the GPU, and to a lesser extent, on the CPU.
 
 >The effective frame rate can be displayed by typing `SetRenderStats(1)` in the console.
 
 ## Time code
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Setup/DisplayFrameRate.png)
-
-> Available display frame rates
+![Available display frame rates](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Setup/DisplayFrameRate.png)
 
 ### Display frame rate
 Sets the frame-rate used for time display in various parts of
@@ -84,7 +84,8 @@ Selects the normalization mode used to normalize the global gain of the spectrum
 Available choices are:
 
 * Coherent (sinus): 0dB peak sine gives 0dB amplitude.
-* Incoherent (noise/music): 0dB <link type="document" target="RMS">RMS</link> noise or music
+* Incoherent (noise/music): 0dB <link type="document" target="RMS">RMS</link>
+noise or music
 gives 0dB power.
 
 
@@ -118,7 +119,8 @@ Available choices are:
 ### Length
 The number of incoming blocks over which the resulting average spectrum is computed. Lower values lead to faster apparent display update rates, while higher values smooth-out any time-variations more. Default is 32.
 
->Running average employs a weighting window that gives more importance to the last incoming blocks of samples. This type of time averaging is also called <i>moving average</i>, <i>rolling average</i> or <i>running average</i>, and is good for smoothing out abrupt variations in time and still be able to monitor in a continuous fashion. Fill-freeze mode is useful for stabilizing a flickering display while still following long-term variations, which permits a more detailed study of the curve(s). This mode is therefore useful to get a very steady picture of the spectrum while still monitoring some of the mid-term changes, and saves you from holding and resetting the display manually again and again.
+>Running average employs a weighting window that gives more importance to the last incoming blocks of samples. This type of time averaging is also called <i>moving average</i>, <i>rolling average</i>
+or <i>running average</i>, and is good for smoothing out abrupt variations in time and still be able to monitor in a continuous fashion. Fill-freeze mode is useful for stabilizing a flickering display while still following long-term variations, which permits a more detailed study of the curve(s). This mode is therefore useful to get a very steady picture of the spectrum while still monitoring some of the mid-term changes, and saves you from holding and resetting the display manually again and again.
 
 
 ## Various

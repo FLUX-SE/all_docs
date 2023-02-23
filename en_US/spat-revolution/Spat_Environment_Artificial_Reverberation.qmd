@@ -5,14 +5,16 @@ Reverberation is a very important element in the psycho-acoustic perception of l
 The reverb processor in SPAT is a multichannel algorithmic 3D reverb based on feedback delay networks.
 The SPAT reverberation engine is designed to synthesise the experience of the virtual sources, and the listener all being placed within the same virtual acoustic space.
 Virtual spaces can be tuned, scaled and stored.
-Open the _Artificial Reverberation_ graphical editor by clicking on the (<code>**R**</code>) index at the bottom of the list of sources on the left side panel of the Room.
+Open the _Artificial Reverberation_ graphical editor by clicking on the (```**R**```) index at the bottom of the list of sources on the left side panel of the Room.
 
 ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Room/ReverbPanel.png)
 
 Internally, the _SPAT Revolution_ reverb engine models many technical acoustic parameters, but the user interface has been simplified a great deal, to make artificial reverb design more straightforward and functional.
 
 
-> Some Spat Reverb parameters control how the acoustics are _perceived_.
+:::{.callout-note}
+Some Spat Reverb parameters control how the acoustics are _perceived_.
+:::
 
 Alongside conventional tuning parameters which you might be familiar with, you will also find perceptual parameters, such as _heaviness_, _liveness_ and _presence_.
 
@@ -22,7 +24,9 @@ These can be found among the parameters for each virtual source.
 The SPAT reverb designer can be used for a lot more than only simulating a "normal" acoustic space.
 For example, you could try to design a totally unreal space with continuously modulating acoustic properties or a space with infinite reverberation.
 
-> _Try to switch the Infinite option for an immediately impressive immersive effect._
+:::{.callout-note}
+_Try to switch the Infinite option for an immediately impressive immersive effect._
+:::
 
 # Reverb Parameters
 
@@ -73,7 +77,9 @@ This is a meta-parameter that takes care of varying several other parameters in 
 
 Reverb start sets the duration between the direct, dry source signal, and the first late reflections, or start of the reverb tail.
 
-> Please note its value can never go below that of the cluster minimum time, as the reverb tail is fed with a signal derived from the cluster section.
+:::{.callout-note}
+Please note its value can never go below that of the cluster minimum time, as the reverb tail is fed with a signal derived from the cluster section.
+:::
 
 ## Perceptual Factors
 

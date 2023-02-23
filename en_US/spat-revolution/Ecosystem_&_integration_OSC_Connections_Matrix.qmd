@@ -7,29 +7,33 @@ If you are developing your own control systems to integrate with SPAT, you might
 You will find that option in the SPAT preferences.
 You will also find a complete [OSC table](Appendix_C_OSC_Table.md) in the appendix.
 
-> Enable commands log will display the received and emitted OSC messages in the log windows to confirm you are receiving data. <code>Shift + F7 </code> will open the log window.
+:::{.callout-note}
+Enable commands log will display the received and emitted OSC messages in the log windows to confirm you are receiving data. ```Shift + F7 ``` will open the log window.
+:::
 
 In general, SPAT OSC patterns have the form of:
 
-<code>/source/[remote number]/x</code>
+```/source/[remote number]/x```
 
 where [remote number] represents the Remote number of the Virtual Source, or the index (i.e. the room number) of the Room you wish to control with the message.
 
 The three positional formats can be packed into one message if that option is set in the OSC Connections Matrix;
 
-<code>/source/[remote number]/xyz</code> _Cartesian co-ordinates in meters_
+```/source/[remote number]/xyz``` _Cartesian co-ordinates in meters_
 
-<code>/source/[remote number]/aed</code> _Polar co-ordinates (azimuth, distance and elevation)_
+```/source/[remote number]/aed``` _Polar co-ordinates (azimuth, distance and elevation)_
 
-!> Take care to automate EITHER Cartesian OR Polar, not both.
+:::{.callout-warning}
+ Take care to automate EITHER Cartesian OR Polar, not both.
+:::
 
 Sometimes, it is more convenient to have the [remote number] parameter as an argument of the OSC message.
 This option is available in the OSC Connections Matrix, namely **Index as Arg**.
 If this option is switched in, then the messages will be of the pattern
 
-<code>/source/xyz ifff</code>
+```/source/xyz ifff```
 
-where <code>i</code> is an integer denoting the remote number of the target, and <code>f</code> according to convention is a float denoting the values of the message.
+where ```i``` is an integer denoting the remote number of the target, and ```f``` according to convention is a float denoting the values of the message.
 
 For more details about the SPAT Revolution OSC dictionary and its usage syntax please refer to [Appendix C](Appendix_C_OSC_Table.md).
 
@@ -48,15 +52,17 @@ Eight different connections can be set up, either as input or output connection.
 
 The first parameter is the **connection type**, which offer many presets for both input and output. These presets come with dedicated network ports, dedicated option and dedicated transform if needed.
 
-> OSC presets are:
-> - SPAT plugins
-> - SPAT Remote server
-> - ADM-OSC
-> - Lemur
-> - Avid S6L
-> - Digico
-> - SSL Live
-> - SpaceMap Go
+:::{.callout-note}
+OSC presets are:
+- SPAT plugins
+- SPAT Remote server
+- ADM-OSC
+- Lemur
+- Avid S6L
+- Digico
+- SSL Live
+- SpaceMap Go
+:::
 
 Then the **IP address** needs to be set.
 If the OSC connection is established locally, on the same computer, the port 127.0.0.1 is dedicated to local network usage.
@@ -67,9 +73,9 @@ If a "custom" preset is loaded, we most likely need to edit this parameter to es
 
 And finally, it is possible to **name the OSC slot**, clicking on the name of the top of the right panel.
 
-If we want to deactivate an OSC socket without losing the parameters, it is possible to **deactivate an OSC socket**. To do this, click right on the OSC socket number and click on <code>Activate/Deactivate</code>, or shift-click on the OSC socket number. As it, the input or output will be deactivated.
+If we want to deactivate an OSC socket without losing the parameters, it is possible to **deactivate an OSC socket**. To do this, click right on the OSC socket number and click on ```Activate/Deactivate```, or shift-click on the OSC socket number. As it, the input or output will be deactivated.
 
-If we loose the sync between the remote and SPAT, it is also possible to **dump all the project properties** on a particular socket. To do so, click right on the OSC socket number and click on <code>Dump project</code>. To note that the project is always dumped when the OSC socket is activated, and when the OSC IP address or port are changed. 
+If we loose the sync between the remote and SPAT, it is also possible to **dump all the project properties** on a particular socket. To do so, click right on the OSC socket number and click on ```Dump project```. To note that the project is always dumped when the OSC socket is activated, and when the OSC IP address or port are changed. 
 
 ## OSC Transform
 
@@ -80,9 +86,11 @@ To overcome these difficulties, some OSC transform presets have been implemented
 
 Transform presets are accessible for each OSC connection and allow some quick re-scaling of the values.
 
-> ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Preference/OSCTransformPresets.png)
+:::{.callout-note}
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Preference/OSCTransformPresets.png)
+:::
 
-If the included transform preset does not fit yours needs, you can click on the <code>+</code> button to open the custom OSC transform menu.
+If the included transform preset does not fit yours needs, you can click on the ```+``` button to open the custom OSC transform menu.
 In this menu, you can choose how to scale our input our output values. You can also choose to exclude specific OSC command from the scaling rules.
 
 

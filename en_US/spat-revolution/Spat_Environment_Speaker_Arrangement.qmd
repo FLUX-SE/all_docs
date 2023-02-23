@@ -12,7 +12,9 @@ Speaker arrangements can be used to fit the format of a virtual room to match th
 
 The golden rule when working with multi-channels based audio is to ensure to have the appropriate format, speaker arrangement, and channel routing throughout, otherwise the virtual space will not map correctly into a physical space.
 
-!> *Pay attention to arrangements and channel routing, they are the key!*
+:::{.callout-warning}
+ *Pay attention to arrangements and channel routing, they are the key!*
+:::
 
 ## Custom speaker arrangement
 

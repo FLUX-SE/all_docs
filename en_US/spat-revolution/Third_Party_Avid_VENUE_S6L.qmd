@@ -74,15 +74,17 @@ The PI interface doesn’t have much and is straight forward:
 - In IP: Pull down menu will allow you to choose the ethernet interface you will be listening to OSC commands in the S6L coming from _SPAT Revolution_. You will need this address for setting up SPAT preference later. This can be the AVB port 169.254.x.x, or your ECx port network interface of the console depending on the integration route. In the above example, ECx interface with IP 192.168.1.203 is chosen.
 
 
-- In Port#: This port <code>#9101</code> is already set for you and matches the corresponding Port# used by the _SPAT Revolution_ OSC preferences / Avid S6L preset. It can be left to default unless conflicting with other OSC traffic.
+- In Port#: This port ```#9101``` is already set for you and matches the corresponding Port# used by the _SPAT Revolution_ OSC preferences / Avid S6L preset. It can be left to default unless conflicting with other OSC traffic.
 
 - Out IP: This IP address is the manual address (above example 192.168.1.201) that your Primary _SPAT Revolution_ computer is configured at. 
 
-- Out Port#: This port <code>#9100</code> is already set for you and matches the corresponding Port# used by the _SPAT Revolution_ OSC preferences / Avid S6L preset. It can be left to default unless conflicting with other OSC traffic.
+- Out Port#: This port ```#9100``` is already set for you and matches the corresponding Port# used by the _SPAT Revolution_ OSC preferences / Avid S6L preset. It can be left to default unless conflicting with other OSC traffic.
 
 - OSC second output activates OSC messages to a second SPAT computer (such as your backup/ redundant computer engine). Output IP is the destination IP so the IP of the second SPAT computer. Same port# as primary is already set for you and matches the corresponding Port# used by the _SPAT Revolution_ OSC preferences / Avid S6L preset. Note that the backup computer is not bidirectional to S6L and will only receive messages. So SPAT Primary computer is the one that is bi-directional (so updating plug-ins live with movements so you can take a snapshot of it).
 
-> Note that any changes you do to properties to the SPAT Send interface gets done across the board (across all PI instances, except the index which is unique).
+:::{.callout-note}
+Note that any changes you do to properties to the SPAT Send interface gets done across the board (across all PI instances, except the index which is unique).
+:::
 
 ## Setting the preferences of the SPAT Revolution Application
 
@@ -107,12 +109,14 @@ Let’s now setup your preferences in _SPAT Revolution_ preferences page:
 
 - Set the In IP address by pulling then the menu and choosing the network interface of your SPAT engine computer (for example the 192.168.0.201 of whatever network interface/IP you are using for this communication as long as it is in the same network range as the console IP address).
 
-- The input side (receiving the OSC parameters from the Out IP of the console) doesn't need anything specific as the OSC input is ready for Avid S6L. You simply need to choose the **Input | Avid S6L** preset. As mentioned above in the S6L setup, the port # is predefined to port <code>#9100</code> on both side (PI and SPAT OSC preset for S6L). 
+- The input side (receiving the OSC parameters from the Out IP of the console) doesn't need anything specific as the OSC input is ready for Avid S6L. You simply need to choose the **Input | Avid S6L** preset. As mentioned above in the S6L setup, the port # is predefined to port ```#9100``` on both side (PI and SPAT OSC preset for S6L). 
 
-- On the OSC output connection, you will simply need to choose the **Output | Avid S6L** preset and put the destination IP of the console, see above 192.168.1.203. The port # is already predefined (9101) and matching the Avid SPAT Send PI Input. Port <code>#9101</code>. This IP address is the IP address found in the PI interface (most of the time the ECx port IP setting). With the preset, the default output option checkboxes are all set for S6L.
+- On the OSC output connection, you will simply need to choose the **Output | Avid S6L** preset and put the destination IP of the console, see above 192.168.1.203. The port # is already predefined (9101) and matching the Avid SPAT Send PI Input. Port ```#9101```. This IP address is the IP address found in the PI interface (most of the time the ECx port IP setting). With the preset, the default output option checkboxes are all set for S6L.
 
 
-> If desired, OSC Log can be seen for testing. In the SPAT OSC Main section, you can use the "Enable commands logs" option in order to confirm OSC communication. Pressing Shift + F7 or going to the help menu of SPAT will give you option for a mini log window to see if the traffic is flowing as you are moving a source either in SPAT software or on the parameters on the PI encoders. It is not recommended to leave commands logs enabled past the confirmation testing step. This will ensure that you don’t take up resources.
+:::{.callout-note}
+If desired, OSC Log can be seen for testing. In the SPAT OSC Main section, you can use the "Enable commands logs" option in order to confirm OSC communication. Pressing Shift + F7 or going to the help menu of SPAT will give you option for a mini log window to see if the traffic is flowing as you are moving a source either in SPAT software or on the parameters on the PI encoders. It is not recommended to leave commands logs enabled past the confirmation testing step. This will ensure that you don’t take up resources.
+:::
 
 ## Configuring Audio Connections ##
 

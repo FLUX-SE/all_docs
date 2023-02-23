@@ -10,9 +10,13 @@ attack time value, leaves the peaks untouched by the processing.
 For obvious reasons the delay introduces latency in the processing and the different delay values on every band are 
 automatically compensated.
 
-> Note that Solera cannot be used to produce delay-based special effects.
+:::{.callout-note}
+Note that Solera cannot be used to produce delay-based special effects.
+:::
 
-!> Warning: Morphing between presets with different delay values produces sound artefacts.
+:::{.callout-warning}
+ Warning: Morphing between presets with different delay values produces sound artefacts.
+:::
 
 Unit: ms  
 Value Range: 0 to 50.0 ms  
@@ -21,7 +25,9 @@ Default Value: 0 ms
 ## Auto Delay (46)
 Links the Delay (47) to the Attack (49).
 
-> Note that the latency introduced by this equals to the attack time divided by two.
+:::{.callout-note}
+Note that the latency introduced by this equals to the attack time divided by two.
+:::
 
 Default Value: Off 
 

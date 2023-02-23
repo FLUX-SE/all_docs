@@ -9,11 +9,15 @@ A delay reflecting the attack time can be introduced into the signal path in ord
 the dynamic processing. Shifting the delay value from the attack time allows to control transients. A delay value
 inferior to the attack value lets peaks untouched by the processing.
 
-> Note that the different delay values of every band are automatically compensated. Solera can’t be used to produce
+:::{.callout-note}
+Note that the different delay values of every band are automatically compensated. Solera can’t be used to produce
 delay based special effects.
+:::
 
-!> Warning: Morphing between presets with different delay values produces sound artefacts.
+:::{.callout-warning}
+ Warning: Morphing between presets with different delay values produces sound artefacts.
 Of course this delay introduces latency in the processing.
+:::
 
 ## Auto Delay (15)
 Default Value: Off  
@@ -43,9 +47,9 @@ processed signal which feed the side chain.
 - Classic Feed Backward Slow: The integration time is 80 ms for RMS detection which is done on the output of the
 processor. Note also that the Feed Backward mode prevents to use the external side chain because it’s the processed signal which feed the side chain.
 
-
-> These Feed Backward modes have been inspired by vintage hardware architectures. they create a sort of auto regulation of the processing which produces a naturally beefy sound.
-
+:::{.callout-note}
+These Feed Backward modes have been inspired by vintage hardware architectures. they create a sort of auto regulation of the processing which produces a naturally beefy sound.
+:::
 
 ## Attack (17)
 Unit: ms  
@@ -54,7 +58,9 @@ Default Value: 0.0 ms
 Sets the attack time of the processing envelop. It also controls the manner the RMS value is computed from the
 incoming signal.
 
-!> Warning : The Attack setting also controls the integration time for RMS detection.
+:::{.callout-warning}
+ Warning : The Attack setting also controls the integration time for RMS detection.
+:::
 
 ## Hold (18)
 Unit: ms  
@@ -64,9 +70,10 @@ Default Value: 0 ms
 This parameter is the only one in the time related settings, that is independent per dynamic processor. The compressor 
 and the expander may have different hold time.
 
-> Used in the Expander section, this setting allows very precise gating of drum tracks. It can also be used for creative
+:::{.callout-note}
+Used in the Expander section, this setting allows very precise gating of drum tracks. It can also be used for creative
 purpose on the other dynamic sections.
-
+:::
 
 ## Release Mode (19)
 Default Value: Auto  

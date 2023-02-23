@@ -9,11 +9,16 @@ Default Value: 0 ms
 A delay reflecting the attack time can be introduced into the signal path in order to produce a zero attack time for
 the dynamic processing. Shifting the delay value from the attack time allows to control transients. A delay value
 inferior to the attack value lets peaks untouched by the processing.  
-> Note that the different delay values of every band are automatically compensated. Solera can’t be used to produce
-delay based special effects.  
 
-!> Warning: Morphing between presets with different delay values produces sound artefacts.  
+:::{.callout-note}
+Note that the different delay values of every band are automatically compensated. Solera can’t be used to produce
+delay based special effects.  
+:::
+
+:::{.callout-warning}
+ Warning: Morphing between presets with different delay values produces sound artefacts.  
 Of course this delay introduces latency in the processing.
+:::
 
 
 ## Auto Delay (15)   
@@ -56,7 +61,9 @@ Default Value: 0.0 ms
 Sets the attack time of the processing envelop. It also controls the manner the RMS value is computed from the
 incoming signal.
 
-!> Warning : The Attack setting also controls the integration time for RMS detection.
+:::{.callout-warning}
+ Warning : The Attack setting also controls the integration time for RMS detection.
+:::
 
 ## Hold (18)   
 Unit: ms  

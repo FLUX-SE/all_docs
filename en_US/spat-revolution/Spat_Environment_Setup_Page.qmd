@@ -5,7 +5,7 @@ This is where you will generally start a project by designing the signal-flow gr
 
 ## Setup Modules
 
-The _Environment Setup_ editor is a modular environment. The signal flow starts from the inputs at the top of the graph and concludes with the outputs at the bottom. You add modules to rows using the small <code>+</code> icon to the left of the window. Modules are:
+The _Environment Setup_ editor is a modular environment. The signal flow starts from the inputs at the top of the graph and concludes with the outputs at the bottom. You add modules to rows using the small ```+``` icon to the left of the window. Modules are:
 
 * [Inputs](Spat_Environment_Input_Modules.md)
 * [Input Transcoders](Spat_Environment_Input_Transcoder_Modules.md)
@@ -40,7 +40,7 @@ The modular graph editor handles basic mouse editing.
 
 ### Module selection
 
-Modules can be select by clicking on them. To select several ones, hold <code>Ctrl/Cmd</code> while clicking on additional modules. It is also possible to use a marquee selection by left-clicking, holding the button, and dragging the mouse over the modules you want to select.
+Modules can be select by clicking on them. To select several ones, hold ```Ctrl/Cmd``` while clicking on additional modules. It is also possible to use a marquee selection by left-clicking, holding the button, and dragging the mouse over the modules you want to select.
 
 ### Drag & Drop
 
@@ -62,8 +62,9 @@ This feature also works on a selection of multiple modules of the same type. For
 
 The drag and drop feature also allows reorganizing the modules of the same type. This means that you can now change the order of already created modules. This gives to the setup page a more ergonomic and flexible feel.
 
-!> Important to note that this will be changing the index number of the source. So be careful with automation already created. This is specific to OSC like using the plugins with OSC where the index is important. Not the case with software sources/inputs which use a different ID system.
-
+:::{.callout-warning}
+ Important to note that this will be changing the index number of the source. So be careful with automation already created. This is specific to OSC like using the plugins with OSC where the index is important. Not the case with software sources/inputs which use a different ID system.
+:::
 
 ## The setup wizard
 
@@ -71,25 +72,25 @@ In our effort to make _SPAT Revolution_ easier to use, we created a small utilit
 
 To open it, you can either:
 
-- Click on the <code>Setup Wizard</code> button in the top menu of the Setup page;
+- Click on the ```Setup Wizard``` button in the top menu of the Setup page;
 - Go to the main menu, into setup, then "Setup Wizard";
-- Or, use <code>ALT + W</code> (the shortcut is not working in Windows).
+- Or, use ```ALT + W``` (the shortcut is not working in Windows).
 
 ![openWizard](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/OpenSetupWizard)
 
 The top part of the setup wizard allows to create a new room (with associated options) or to select an existing room to patch new sources into. If a new room is created, we can choose its stream type and many options linked to it. We can also choose to associate a binaural monitoring block to it (virtualizing the room output). Lastly, for each new room created, a master block and an output block is also created.
 
-The main part of the wizard allows creating up to 8 different types of sources. It works like a table where each line can be used for a specific input stream type. To add or remove a line, simply click on the <code>+</code> or <code>-</code> sign on the left side of a line. You can also use the shortcut <code>Ctrl/Cmd + Go Down</code> or <code>Ctrl/Cmd + Go Up</code>.
+The main part of the wizard allows creating up to 8 different types of sources. It works like a table where each line can be used for a specific input stream type. To add or remove a line, simply click on the ```+``` or ```-``` sign on the left side of a line. You can also use the shortcut ```Ctrl/Cmd + Go Down``` or ```Ctrl/Cmd + Go Up```.
 
 ![setupWizard](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/SetupWizard)
 
 Other shortcuts have been implemented in this wizard:
-- <code>Go up</code> and <code>Go down</code> to increase / decrease the number of sources
-- <code>Go Left</code> or <code>Go Right</code> to change the Stream Type.
-- <code>Ctrl/Cmd + Go Left</code> or <code>Ctrl/Cmd + Go Right</code> to change the format (if Channel Based), or the Dimension (if HOA).
-- <code>Ctrl/Cmd + Shift + Go Left</code> or <code>Ctrl/Cmd + Shift + Go Right</code> to change the Order (if HOA).
+- ```Go up``` and ```Go down``` to increase / decrease the number of sources
+- ```Go Left``` or ```Go Right``` to change the Stream Type.
+- ```Ctrl/Cmd + Go Left``` or ```Ctrl/Cmd + Go Right``` to change the format (if Channel Based), or the Dimension (if HOA).
+- ```Ctrl/Cmd + Shift + Go Left``` or ```Ctrl/Cmd + Shift + Go Right``` to change the Order (if HOA).
 
-When we are done creating out different sources, we have two ways to validate the operation. We can either click on <code>Ok</code>, all the sources, rooms and outputs will be created, with a straight routing, or, we can choose to click on <code>Ok +  matrix</code>. This last option will open the input and output matrix of our whole _SPAT Revolution_ session to allow us to quickly customize or validate our patch. Also, if you need to easily create a line in SPAT matrix, simply hold <code>Ctrl</code> and click on the starting point of your line.
+When we are done creating out different sources, we have two ways to validate the operation. We can either click on ```Ok```, all the sources, rooms and outputs will be created, with a straight routing, or, we can choose to click on ```Ok +  matrix```. This last option will open the input and output matrix of our whole _SPAT Revolution_ session to allow us to quickly customize or validate our patch. Also, if you need to easily create a line in SPAT matrix, simply hold ```Ctrl``` and click on the starting point of your line.
 
 ![setupWizard2](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/SetupWizard)
 
@@ -97,7 +98,9 @@ When we are done creating out different sources, we have two ways to validate th
 
 This menu handles basic operation of modules, like connecting, disconnecting and renaming. Some of these actions are contextual, and depend on the block, or the number of modules selected.
 
-!> Note that there is no undo in _SPAT Revolution_. Think twice before operating and save regularly.
+:::{.callout-warning}
+ Note that there is no undo in _SPAT Revolution_. Think twice before operating and save regularly.
+:::
 
 ### Remove selected
 
@@ -112,7 +115,7 @@ Duplicate the selected modules.
 ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/RoomDuplicate.png)
 
 _SPAT Revolution_ allows to quickly duplicate a room with a few options to help the user
-to optimize the routing process. To access this menu, simply click on the <code>Duplicate Selected</code> button, when only a room selected.
+to optimize the routing process. To access this menu, simply click on the ```Duplicate Selected``` button, when only a room selected.
 
 The new pop-up windows allows to:
 * Rename the duplicated room
@@ -126,7 +129,9 @@ The new pop-up windows allows to:
 
 Connect selected modules. Modules can be connected to multiple destinations.
 
-> _SPAT Revolution_ will always try to guess what you try to achieve. For exemple, you can connect an input block directly to an output block and SPAT will create necessary modules in-between.
+:::{.callout-note}
+_SPAT Revolution_ will always try to guess what you try to achieve. For exemple, you can connect an input block directly to an output block and SPAT will create necessary modules in-between.
+:::
 
 ### Disconnect selected
 
@@ -151,12 +156,16 @@ You will find it at many points throughout the **Environment Setup** graph.
 
 ![width=800, atl=_SPAT Revolution_ Matrix](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/OutputMatrix.png)
 
-> *Avoid cable swapping on the loudspeaker setup, use software routing instead.*
+:::{.callout-note}
+*Avoid cable swapping on the loudspeaker setup, use software routing instead.*
+:::
 
 The routing matrix is available on hardware input and output for routing as well as for remapping within some modules input and output: Input transcoder, Master, and Master transcoder.
 
 The speaker configuration editor, a clear channel labeling and the built-in routing matrix system all help to make the process of signal routing, checking and debugging more straightforward on location, in the virtual mix and in the studio.
 
-> The shortcut <code>Ctrl + click</code> will route one per one all the following channels.
+:::{.callout-note}
+The shortcut ```Ctrl + click``` will route one per one all the following channels.
+:::
 
 Master transcoder and master matrix support summing, thus, one input can be connected to several outputs, or the opposite.

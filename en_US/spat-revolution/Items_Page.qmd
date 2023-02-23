@@ -76,20 +76,20 @@ In addition to the common parameters, when the _Room_ item's type is selected, t
 
 In order to give an easy navigation on this page and its parameters, keyboard shortcuts have been implemented, including powerful multi-selection and edition.
 
-- <code>Up</code>: select the cell of the previous row.
-- <code>Shift + Up</code>: add the previous row to the row selection.
-- <code>Down</code>: select the celle of the next row.
-- <code>Shift + Down</code>: add the next row to the row selection.
-- <code>Shift + click</code>: select all the rows in between the two selected
-- <code>Ctrl + click</code>: select only the wanted rows.
-- <code>Left key</code>: select the previous cell.
-- <code>Right key</code>: select the next cell.
-- <code>Space</code> on an on/off button: it will toggle the button for the actual selection.
-- <code>Enter</code> (return) on a string or float edit, or a list: it will begin the edit of the selected cell. Using it a second time will edit the cell of the next row.
-- <code>Home</code>: go to the first row.
-- <code>End</code>: go to the last row.
-- <code>Page Up</code>: select the cell on the previous page.
-- <code>Page Down</code>: select the cell on the next page.
+- ```Up```: select the cell of the previous row.
+- ```Shift + Up```: add the previous row to the row selection.
+- ```Down```: select the celle of the next row.
+- ```Shift + Down```: add the next row to the row selection.
+- ```Shift + click```: select all the rows in between the two selected
+- ```Ctrl + click```: select only the wanted rows.
+- ```Left key```: select the previous cell.
+- ```Right key```: select the next cell.
+- ```Space``` on an on/off button: it will toggle the button for the actual selection.
+- ```Enter``` (return) on a string or float edit, or a list: it will begin the edit of the selected cell. Using it a second time will edit the cell of the next row.
+- ```Home```: go to the first row.
+- ```End```: go to the last row.
+- ```Page Up```: select the cell on the previous page.
+- ```Page Down```: select the cell on the next page.
 
 It is also possible to sort the items according to a specific field, shift-clicking on the header of it.
 
@@ -99,7 +99,7 @@ To go further in easing the edition of parameters, the Items' page allows to fil
 
 ### Filtering
 
-Enter text in the top search field to filter the displayed objects. This will search on all the field. To search for a specific field, type the name of the field and add ":". For example, to search the object with the name beginning by "Violin", type <code>name:Violin</code>.
+Enter text in the top search field to filter the displayed objects. This will search on all the field. To search for a specific field, type the name of the field and add ":". For example, to search the object with the name beginning by "Violin", type ```name:Violin```.
 
 ### Group sources by rooms
 

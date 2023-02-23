@@ -15,7 +15,9 @@ Hardware input connections could include:
 - AVB
 - ADAT
 
-!> _Make sure you have the Hardware Device selected in the SPAT preferences!_
+:::{.callout-warning}
+ _Make sure you have the Hardware Device selected in the SPAT preferences!_
+:::
 
 
 Hardware input formats could be mono, stereo or a format with any number of channels. Channels could be set up as single virtual sources, or as group multichannel sources using only one input/source module.
@@ -29,4 +31,6 @@ This is a powerful and reliable combination as it shares audio computational res
 
 Furthermore, a single machine setup can be converted to a fully automated distributed using OSC to target the single or dual SPAT engine for a real time controllable and interactive distributed hardware setup.
 
-!> _Enable bidirectional OSC communication in SPAT preferences to send automation over the network to another machine._ Contact Flux Support if you need to expert support on this kind of advanced distributed setup.
+:::{.callout-warning}
+ _Enable bidirectional OSC communication in SPAT preferences to send automation over the network to another machine._ Contact Flux Support if you need to expert support on this kind of advanced distributed setup.
+:::

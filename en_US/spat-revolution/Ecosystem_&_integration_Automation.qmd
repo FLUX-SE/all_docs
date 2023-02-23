@@ -20,5 +20,4 @@ If you are working with algorithmic gesture generators and modulators then your 
 
 ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Generic/OSCIntegrationDiagram.jpg)
 
-> **Get creative with spatial sound design using OSC and Spat**
-
+**Get creative with spatial sound design using OSC and Spat**

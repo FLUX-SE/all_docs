@@ -22,6 +22,7 @@ GPU: AMD/ATI Radeon or nVidia video-card. Intel integrated graphics are not powe
 ## Common requirements
 A free USB port to connect the iLok key if not using machine authorization
 
-> Please check the latest version of vendor-provided, optimized drivers are installed for your graphics card. Generic drivers are generally less up-to-date and may contain bugs or miss optimizations present in drivers specific to your particular model.
+:::{.callout-note}
+Please check the latest version of vendor-provided, optimized drivers are installed for your graphics card. Generic drivers are generally less up-to-date and may contain bugs or miss optimizations present in drivers specific to your particular model.
 
 <!-- TODO: To review-->

@@ -1,7 +1,5 @@
 # Controls
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Snapshots/Main.png)
-
-> Snapshot list and controls
+![Snapshot list and controls](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Snapshots/Main.png)
 
 The snapshot area shows a list view, where one or more snapshots can be selected.
 The selected snapshot(s) will be highlighted accordingly, both in the list and the corresponding display(s), with increased curve thickness.
@@ -12,7 +10,7 @@ The snapshot list follows standard user interface guidelines, which means you ca
 * Use keyboard up and down arrows to change the currently selected snapshot.
 Note: the snapshot section area must be in focus for this to have effect.
 * Click on any snapshot to select it.
-* <code>Shift + click</code> to define a selection range of multiple snapshots.
+* ```Shift + click``` to define a selection range of multiple snapshots.
 
 ## Add new snapshot
 Clicking the ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Snapshots/CreateSnapshot.png) icon immediately creates a new snapshot, stores it on disk, in the folder, adds it to the current project and selects it.
@@ -29,7 +27,9 @@ Please check the following for proper operation:
 
 Providing the previous requirements are met, a progress dialog will then be displayed until all data has been acquired and the snapshot is computed and ready for display.
 
-> Ensure the outputs of the generator and the connected speakers are set to reasonable levels in order to prevent damage to your equipment and hearing loss.
+:::{.callout-note}
+Ensure the outputs of the generator and the connected speakers are set to reasonable levels in order to prevent damage to your equipment and hearing loss.
+:::
 
 ## Create average
 Click the ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Generic/Average.png) button with multiple snapshots selected to create a new snapshot average of these.
@@ -53,16 +53,21 @@ The averaging can only be performed if the snapshots are compatible with one ano
 
 A warning message will inform you the averaging cannot be performed if one of the above conditions are not met.
 
-> The snapshot average stores the average of the snapshots at the moment it was created.
-> If you change the snapshots in any way, the snapshot average will not change.
+:::{.callout-note}
+The snapshot average stores the average of the snapshots at the moment it was created.
+
+If you change the snapshots in any way, the snapshot average will not change.
+:::
 
 ## Update current
 Clicking the ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Generic/Update.png) button will overwrite the last selected snapshot contents with the most current data.
 
 This is especially useful when you are fine-tuning your measurement setup and only want to keep the latest one, without creating several snapshots and deleting them afterwards.
 
-> This function is destructive: there is no means to revert the original
+:::{.callout-note}
+This function is destructive: there is no means to revert the original
 snapshot data.
+:::
 
 ## Load project
 Opens a dialog box where you can select an existing folder containing a previously saved project.
@@ -78,7 +83,9 @@ For each snapshot, you can control which curve should be displayed. These contro
 * Magnitude spectrum.
 * Impulse response.
 
-> The default visibility of newly created curves can be customized in Display defaults.
+:::{.callout-note}
+The default visibility of newly created curves can be customized in Display defaults.
+:::
 
 ## Color
 Opens up a color selector dialog where you can manually set the color used to identify the snapshot, both in the list and as a curve.

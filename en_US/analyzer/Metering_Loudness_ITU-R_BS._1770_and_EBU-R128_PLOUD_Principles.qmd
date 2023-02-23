@@ -16,8 +16,11 @@ EBU mode specifies three time scales corresponding to three different, complemen
 * I: Integrated from start of measurement or last reset, gated
 
 
-> Loudness is a measure of global loudness, so individual channel metering is not relevant in this context. 
-> No additional slowdown of the attack or release of the meter is employed, as indicated by the norm.
+:::{.callout-note}
+Loudness is a measure of global loudness, so individual channel metering is not relevant in this context. 
+
+No additional slowdown of the attack or release of the meter is employed, as indicated by the norm.
+:::
 
 The integrated loudness can be understood as the overload loudness of the audio over time, excluding very soft passages through the use of absolute and relative gating.
 

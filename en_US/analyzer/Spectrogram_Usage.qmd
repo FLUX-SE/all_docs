@@ -10,6 +10,8 @@ Harmonic content appears as horizontal groups of parallel lines and vertical bar
 ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Spectrogram/Main.png)
 ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Spectrogram/Main2.png)
 
-> Example spectrogram view
+:::{.callout-note}
+Example spectrogram view
+:::
 
 <!-- ALLVERSIONS-->

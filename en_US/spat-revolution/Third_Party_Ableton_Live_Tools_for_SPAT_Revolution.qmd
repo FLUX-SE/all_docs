@@ -4,7 +4,9 @@
 
 *Written by [Arsene](https://www.flux.audio/contacts/arsene)*
 
-> This guide is also available as YouTube Videos: [https://youtube.com/playlist?list=PL_Dcg2GwhLHnavr0YtK6JC64rGrE2KLxo](https://youtube.com/playlist?list=PL_Dcg2GwhLHnavr0YtK6JC64rGrE2KLxo)
+:::{.callout-note}
+This guide is also available as [YouTube Videos](https://youtube.com/playlist?list=PL_Dcg2GwhLHnavr0YtK6JC64rGrE2KLxo).
+:::
 
 ## Introduction
 
@@ -28,7 +30,9 @@ And now after reading this guide, it will be as easy as making good old fader au
 
 This guide works as a base and not an “end all be all”, any ideas on how to improve this workflow, the devices provided, the templates, and any other type of feedback is very welcomed!
 
-!> DISCLAIMER: This workflow has been specifically thought of for maximum compatibility between Ableton Live and SPAT Revolution under macOS. Some parts of this guide *(mainly the devices provided)* can still be applied to Windows or/and other DAWs.
+:::{.callout-warning}
+ DISCLAIMER: This workflow has been specifically thought of for maximum compatibility between Ableton Live and SPAT Revolution under macOS. Some parts of this guide *(mainly the devices provided)* can still be applied to Windows or/and other DAWs.
+:::
 
 ## Demo
 
@@ -38,10 +42,12 @@ direct link if not loading: [https://youtu.be/l575MU3l5SI](https://youtu.be/l575
 
 ## Installation
 
-> If you already have a FLUX:: account as well as an iLok account and already have a SPAT Revolution License or Trial you can jump to the [next section of the guide](https://doc.flux.audio/#/en_US/spat_revolution_doc/Third_Party_Ableton_Live_Tools_for_SPAT_Revolution?id=tools).
+:::{.callout-note}
+If you already have a FLUX:: account as well as an iLok account and already have a SPAT Revolution License or Trial you can jump to the [next section of the guide](https://doc.flux.audio/#/en_US/spat_revolution_doc/Third_Party_Ableton_Live_Tools_for_SPAT_Revolution?id=tools).
 
-> You can also follow this part with the dedicated video as well: [https://youtu.be/7govpoyIFeA](https://youtu.be/7govpoyIFeA)
-> <iframe width="560" height="315" src="https://www.youtube.com/embed/7govpoyIFeA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+You can also follow this part with the dedicated video as well: [https://youtu.be/7govpoyIFeA](https://youtu.be/7govpoyIFeA)
+{{< video https://www.youtube.com/embed/7govpoyIFeA >}}
+:::
 
 - So we are going to first create our FLUX:: account [here](https://shop.flux.audio/en_US/register).
 
@@ -75,13 +81,15 @@ Connect to your FLUX account and download the _SPAT Revolution_, when you downlo
 
 #### macOS
 
-Once the SPAT Revolution and the Ableton Live Tools for SPAT Revolution have been installed from the FLUX:: Center you can go look for them in the following folder <code>/Library/Application Support/Flux/Ableton Live Devices/SPAT</code>
+Once the SPAT Revolution and the Ableton Live Tools for SPAT Revolution have been installed from the FLUX:: Center you can go look for them in the following folder ```/Library/Application Support/Flux/Ableton Live Devices/SPAT```
 
-It is possible to go to the folder location by opening the **Finder** and use the shortcut: <code>CMD + Shift + G</code> and copy the previous address.
+It is possible to go to the folder location by opening the **Finder** and use the shortcut: ```CMD + Shift + G``` and copy the previous address.
 
 ![Go to Folder](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/Live_Tools/go_to_folder)
 
-!> Please do not change the location of this folder.
+:::{.callout-warning}
+ Please do not change the location of this folder.
+:::
 
 To go faster later, you can add this folder to your Finder’s sidebar:
 
@@ -91,7 +99,7 @@ To go faster later, you can add this folder to your Finder’s sidebar:
 
 If you are on Windows and want to use the devices, please download the archive from this link: [*download*](https://public.3.basecamp.com/p/wFaCfQqbHBgzx2AYReXehVGd/upload/download/Ableton%20Live%20Tools%20for%20SPAT%20Revolution%20-%20Windows.zip?disposition=attachment)
 
-You can place it anywhere on your computer and then add the folder to your Ableton Live using the <code>Add folder</code> in the sidebar of Live.
+You can place it anywhere on your computer and then add the folder to your Ableton Live using the ```Add folder``` in the sidebar of Live.
 
 ### Virtual Audio Driver
 
@@ -104,7 +112,9 @@ We will see later in the guide that there are many ways this can be very helpful
 
 **BlackHole virtual audio driver can be found here:** [https://existential.audio/blackhole](https://existential.audio/blackhole)
 
-> If you plan to have a dual computer setup, you don’t have to get BlackHole. More on that workflow later.*
+:::{.callout-note}
+If you plan to have a dual computer setup, you don’t have to get BlackHole. More on that workflow later.*
+:::
 
 ### Useful addition
 
@@ -114,7 +124,9 @@ Software such as **Loopback** from **Rogue Amoeba** can be very useful to route 
 
 **Loopback:** [https://rogueamoeba.com/loopback](https://rogueamoeba.com/loopback)
 
-!> Don’t forget to restart your mac after installing all that.
+:::{.callout-warning}
+ Don’t forget to restart your mac after installing all that.
+:::
 
 ## Optimization
 
@@ -122,12 +134,12 @@ Now that everything is installed, let's optimize a few parameters in your macOS 
 
 When working with _SPAT Revolution_, and this can extend to any other audio work, you do not want any interference or background apps refreshing that would consume even the tiniest bit of CPU, so disabling Bluetooth, Wi-Fi as well as AirDrop is a great way to start and very simple to do.
 
-You can make it even more simply using the provided *Shortcuts package* we created to do just that. They are located in the same folder as the other device so: <code>/Library/Application Support/Flux/Ableton Live Devices/SPAT/macOS Shortcuts</code>
+You can make it even more simply using the provided *Shortcuts package* we created to do just that. They are located in the same folder as the other device so: ```/Library/Application Support/Flux/Ableton Live Devices/SPAT/macOS Shortcuts```
 
 What are Shortcuts?
 
 Shortcuts is simply an app *(native in macOS)* that lets you combine multiple steps across multiple apps to create powerful task automations.
-To add the provided Shortcuts, simply double click each of them and select the <code>Add Shortcut</code> button.
+To add the provided Shortcuts, simply double click each of them and select the ```Add Shortcut``` button.
 
 ![Shortcut Button](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/Live_Tools/shortcut_button.png)
 
@@ -161,7 +173,9 @@ So open Ableton Live and configure the following:
 
 ![VST](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/Live_Tools/vst.png)
 
-!> If you work with MIDI controller, we also highly recommend that you go into the Live Preferences, into the MIDI tab and change the Takeover Mode to Value Scaling so that parameters you play with don't get too jumpy. ![Value Scaling](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/Live_Tools/value_scaling.png)
+:::{.callout-warning}
+ If you work with MIDI controller, we also highly recommend that you go into the Live Preferences, into the MIDI tab and change the Takeover Mode to Value Scaling so that parameters you play with don't get too jumpy. ![Value Scaling](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/Live_Tools/value_scaling.png)
+:::
 
 - Set BlackHole as your Output Device and enable all the channels of the driver:
 
@@ -170,7 +184,7 @@ So open Ableton Live and configure the following:
 You can do this part when you need more channels, the only advantage of doing it now is that you don't have to do it later!
 
 
-- Add the SPAT folder containing the Tools using the <code>add folder</code> in the sidebar of Live:
+- Add the SPAT folder containing the Tools using the ```add folder``` in the sidebar of Live:
 
 ![Add Folder in Live](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/Live_Tools/add_folder_in_live)
 
@@ -263,7 +277,7 @@ Additional Information❗️
 
 - **Automations:**
 
-Note that Ableton Live takes over the automation parameters inside the DAW so you can move the source inside SPAT Revolution without the parameter moving inside Ableton Live. To fix this simply, right-click on the parameter in question and select <code>Remove Mapping to Send</code>.
+Note that Ableton Live takes over the automation parameters inside the DAW so you can move the source inside SPAT Revolution without the parameter moving inside Ableton Live. To fix this simply, right-click on the parameter in question and select ```Remove Mapping to Send```.
 
 - **Moving the device in Live:**
 
@@ -320,7 +334,7 @@ Additional Information❗️
 
 - **Automations:**
 
-Note that Live takes over the automation parameters inside the DAW, so you can move the source inside SPAT Revolution and without the parameter moving inside Ableton Live. To fix this, simply right-click the parameter in question and select <code>Remove Mapping to Send</code>.
+Note that Live takes over the automation parameters inside the DAW, so you can move the source inside SPAT Revolution and without the parameter moving inside Ableton Live. To fix this, simply right-click the parameter in question and select ```Remove Mapping to Send```.
 
 - **Moving the device in Live:**
 
@@ -361,7 +375,7 @@ Additional Information❗️
 
 - **Automation:**
 
-Note that Live takes over the automation parameters inside the DAW so you can move the source inside SPAT and without the parameter moving inside Ableton Live. To fix this, simply right-click the parameter in question and select <code>Remove Mapping to Send</code>
+Note that Live takes over the automation parameters inside the DAW so you can move the source inside SPAT and without the parameter moving inside Ableton Live. To fix this, simply right-click the parameter in question and select ```Remove Mapping to Send```
 
 - **Moving the device in Live:**
 
@@ -373,9 +387,11 @@ And again unlike the two previously mentioned devices with the return if you hav
 
 Usually in SPAT Revolution we currently cannot do undo/redo action, but in Live with this device it does work! As long as the action you are backtracking is something that has been oparated inside Ableton Live directly.
 
-> *"Don’t forget to rename your tracks for an easier read of your session!"*
->
-> ![Room and Return Ordering](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/Live_Tools/room_return_ordering.png)
+:::{.callout-note}
+*"Don’t forget to rename your tracks for an easier read of your session!"*
+:::
+
+![Room and Return Ordering](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/Live_Tools/room_return_ordering.png)
 
 ### Automator
 
@@ -408,21 +424,24 @@ Additional Information❗️
 
 - **Moving the device in Live:**
 
-Moving this device to another track instead of deleting and creating a new one will un-map the <code>Play/Stop</code> and <code>Rate Style</code> buttons, it is safer to delete the device first and then place a new one on the new track.
+Moving this device to another track instead of deleting and creating a new one will un-map the ```Play/Stop``` and ```Rate Style``` buttons, it is safer to delete the device first and then place a new one on the new track.
 
 ## Workflow
 
-> Watching the corresponding video is highly recommended for this part: [https://youtu.be/YYcnobAmRFk](https://youtu.be/YYcnobAmRFk)
-> <iframe width="560" height="315" src="https://www.youtube.com/embed/YYcnobAmRFk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+:::{.callout-note}
+Watching the corresponding [video](https://youtu.be/YYcnobAmRFk) is highly recommended for this part.
+
+{{< video https://www.youtube.com/embed/YYcnobAmRFk >}}
+:::
 
 Now that we are completely setup, the formula is very simple:
 
-- Optional Step: Use the <code>SPAT MODE ON</code> Shortcut to turn off your external connections
+- Optional Step: Use the ```SPAT MODE ON``` Shortcut to turn off your external connections
 - Open Live and select the "SPAT" folder in the Sidebar of Ableton Live
 - Open the "SPAT Default.als" Template
 - Open SPAT Revolution and load the Template "SPAT Default.json" from the same archive
 
-*If you have lost the location of the archive, it's here: <code>/Library/Application Support/Flux/Ableton Live Devices/SPAT/Templates</code>*
+*If you have lost the location of the archive, it's here: ```/Library/Application Support/Flux/Ableton Live Devices/SPAT/Templates```*
 
 With both templates open, you will have a direct connection between Ableton Live's output and your physical output so that you can start making music without thinking about spatialization in the first place.
 
@@ -434,7 +453,7 @@ With both templates open, you will have a direct connection between Ableton Live
 
 *The ROOM device control the room gain and reverb in the room and the RETURN controls the master volume.*
 
-- You can change the space you are working with by changing the Reverb using the device on the ROOM track inside Ableton Live but also in by clicking <code>Reverb</code> in the Room page of SPAT Revolution.
+- You can change the space you are working with by changing the Reverb using the device on the ROOM track inside Ableton Live but also in by clicking ```Reverb``` in the Room page of SPAT Revolution.
 
 ⚠️ This will change the virtual space sonority but not what your actual output is, you can do change your speaker arrangement or stream type by going back to the setup page, select the Room block and you will have option, Stream Type, Speaker Arrangement *(you can make or re-create your own)*, and the Panning Type used.
 
@@ -473,8 +492,11 @@ Happy Immersive Creating!
 
 ## Printing an Immersive Mix
 
-> This part is also available as a YouTube Video here: [https://youtu.be/lOA86iQuxls](https://youtu.be/lOA86iQuxls)
-> <iframe width="560" height="315" src="https://www.youtube.com/embed/lOA86iQuxls" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+:::{.callout-note}
+This part is also available as a YouTube Video here: [https://youtu.be/lOA86iQuxls](https://youtu.be/lOA86iQuxls)
+
+{{< video https://www.youtube.com/embed/lOA86iQuxls >}}
+:::
 
 Now comes the time to think about how to render what we made inside Ableton Live and SPAT Revolution.
 
@@ -489,10 +511,11 @@ Here is a session which we are going to render for the Binaural *(3d on headphon
 ![Ready to Print](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/Live_Tools/ready_to_render.png)
 
 We will start by creating an "Aggregate Device" in the "AUDIO MIDI SETUP" panel of macOS:
-
 ![Aggregate](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/Live_Tools/aggregate)
 
-!> Both Ableton Live and SPAT Revolution need to be relaunched to detect the newly created Aggregate.
+:::{.callout-warning}
+ Both Ableton Live and SPAT Revolution need to be relaunched to detect the newly created Aggregate.
+:::
 
 Then we will use this device as Output in SPAT Revolution and Input in Ableton Live, set the out channels of the binaural output block to the two corresponding channels of my 2ch device and the rest to the Atmos output.
 
@@ -504,8 +527,11 @@ Then the only thing left to do is to create the tracks in Live that will receive
 
 ## From Single Machine to Dual Computer Setup
 
-> This part is also available as a YouTube Video here: [https://youtu.be/TnZSjCVULlQ](https://youtu.be/TnZSjCVULlQ)
-> <iframe width="560" height="315" src="https://www.youtube.com/embed/TnZSjCVULlQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+:::{.callout-note}
+This part is also available as a YouTube Video here: [https://youtu.be/TnZSjCVULlQ](https://youtu.be/TnZSjCVULlQ)
+
+{{< video https://www.youtube.com/embed/TnZSjCVULlQ >}}
+:::
 
 The process of switch this all workflow from a single computer to a dual one is fairly simple.
 
@@ -516,11 +542,15 @@ We will need two things to make it possible, beside having two computers of cour
 - a network audio solution such as MADI, DANTE, RAVENNA, etc...
 - and a network switch to create send the OSC automations from the computer hosting Live to the one with SPAT Revolution
 
-> We could do it via a Wi-Fi network, but this isn't the best in terms of speed and stability.
+:::{.callout-note}
+We could do it via a Wi-Fi network, but this isn't the best in terms of speed and stability.
+:::
 
 So now, let's change the Output device in Ableton Live for our network audio solution, do the same for the Input device in SPAT Revolution.
 
-> Check that all the channels are active in Live
+:::{.callout-note}
+Check that all the channels are active in Live
+:::
 
 Depending on which Network Audio Solution you use you might need to re-route some of your channels, as output one will not always mean it will go into input one.
 
@@ -528,7 +558,9 @@ And now we need only to setup the new IPs as we are not sending the OSC automati
 
 Simply go into the SPAT Preferences and change (in the OSC Connections part) the plugin Outputs to the IP address of the Live Computer.
 
-> Make sure you are using the IP of the correct network if you work with multiple ones.
+:::{.callout-note}
+Make sure you are using the IP of the correct network if you work with multiple ones.
+:::
 
 Select the corresponding IP for the plugin Input.
 
@@ -552,7 +584,7 @@ To Uninstall the Ableton Live Tools for SPAT Revolution with the FLUX:: Center, 
 
 To Uninstall the Ableton Live Tools for SPAT Revolution simply go to this location:
 
- <code>/Library/Application Support/Flux </code>
+ ```/Library/Application Support/Flux ```
 
 And delete the Ableton Live Devices Folder.
 
@@ -670,7 +702,7 @@ A: Yes, you do not have to get the Ultimate version to start creating with this 
 Q: Is there demo sessions so I can have a quick look?
 
 A: Yes they are located in the same folder as the rest of the tools located here:
-<code>/Library/Application Support/Flux/Ableton Live Devices/SPAT/demo sessions</code>
+```/Library/Application Support/Flux/Ableton Live Devices/SPAT/demo sessions```
 
 ## You want More?!
 

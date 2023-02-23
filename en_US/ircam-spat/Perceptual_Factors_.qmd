@@ -41,8 +41,10 @@ how much the room sound dominates the overall sound.
 This parameter controls the amount of perceived reverb when feeding a continuous music message, where the overall
 sound is a tight blend of the dry and wet signals and the reverb part cannot be mentally separated. It is linked to the early
 reflections decay time.
-> Note: this setting is distinct from 'reverberance' in the reverb tab.
 
+:::{.callout-note}
+Note: this setting is distinct from 'reverberance' in the reverb tab.
+:::
 
 ## (17) Envelop.
 Envelopment corresponds to the the perceived notion of how much the listener feels being surrounded by the ambient
@@ -55,7 +57,9 @@ respect to direct sound.
 This sub-panel displays the acoustical parameter values associated with the current settings. They are provided for the
 more technically inclined users who already know how they can make use of them; you can safely ignore them otherwise.
 
-> Please note this is an indicative feature only, as these settings can not directly be changed here.
+:::{.callout-note}
+Please note this is an indicative feature only, as these settings can not directly be changed here.
+:::
 
 * RT60 (Reverberation Time, in seconds): measure of reverberation decay time, namely the time taken by the reverb to
 drop below -60dB of attenuation.

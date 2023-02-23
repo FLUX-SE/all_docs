@@ -1,7 +1,5 @@
 # Setup
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/TransferFunction/Setup.png)
-
-> Transfer function setup options
+![Transfer function setup options](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/TransferFunction/Setup.png)
 
 Time averaging is on by default as the goal here is to provide the most stable display, and to eliminate any variations of the signal in time.
 

@@ -22,7 +22,9 @@ FLUX:: uses the iLok license management system to deliver software licenses to u
 
 Visit our [License Code Activation page](https://shop.flux.audio/en_US/account/licence_code_redeem "").
 
-> Two different licenses are available for this product: Elixir Session and Elixir Essential. Check the [technical details](Specifications.qmd) page for more informations.
+:::{.callout-note}
+Two different licenses are available for this product: Elixir Session and Elixir Essential. Check the [technical details](Specifications.qmd) page for more informations.
+:::
 
 ## iLok User Account
 
@@ -35,7 +37,9 @@ To activate licenses:
 
 FLUX:: uses the iLok license management system to deliver software licenses to users. If you don’t have an iLok account yet, please create a free iLok account at http://www.ilok.com and download the iLok license manager. All FLUX:: plug-ins come with two activations. Having two activations gives you the possibility of a fixed license on one particular machine and a portable license on an iLok USB key if you own one.
 
-> Cloud license currently not supported
+:::{.callout-warning}
+Cloud license currently not supported
+:::
 
 ## iLok License Manager
 *If you have redeemed your software license or completed your purchase process, your license will automatically be delivered into your iLok account*
@@ -52,7 +56,10 @@ Pressing on the sign in button will allow you to connect to your account. After 
 
 **Simply drag your license to your Local Computer or on an iLok USB key. You are now set!**
 
-> If you require further information about iLok and managing licenses please refer to iLok.com website
+
+:::{.callout-note}
+If you require further information about iLok and managing licenses please refer to iLok.com website
+:::
 
 ## FLUX:: Center
 <!--![](include/FluxCenter_-017.png ':class=img-title')-->
@@ -62,9 +69,13 @@ Next step is to get the installers for the FLUX:: products you are licensed for.
 
 On this page you will find a macOS, a Windows 64 bits, as well as legacy versions for older operating systems. After downloading and installing, you can open the FLUX:: Center applications to begin the process of installing the Elixir.
 
-!> An authentification is required at the launch of FLUX:: Center. This is the login details of your FLUX shop account which allows you to see only your products licensed for (temporary or permanent)
+:::{.callout-warning}
+ An authentification is required at the launch of FLUX:: Center. This is the login details of your FLUX shop account which allows you to see only your products licensed for (temporary or permanent)
+:::
 
-> *To be noted:* The binary is the same for either Session and Essential version. 
+:::{.callout-note}
+*To be noted:* The binary is the same for either Session and Essential version. 
+:::
 
 ## Center Preferences
 

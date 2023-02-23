@@ -1,7 +1,5 @@
 # IO Configuration
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Setup/IOSetup.png)
-
-> IO configuration dialog
+![IO configuration dialog](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Setup/IOSetup.png)
 
 ## Configuration
 Saves / restores a complete user defined configuration.
@@ -14,8 +12,10 @@ Saves / restores a complete user defined configuration.
 
 This setting lets you choose amongst a selection of devices, depending on your particular hardware configuration.
 
-!> **IMPORTANT!** - The Pure Analyzer Studio Session supports audio input only by using the SampleGrabber plug-in. 
+:::{.callout-warning}
+ **IMPORTANT!** - The Pure Analyzer Studio Session supports audio input only by using the SampleGrabber plug-in. 
 No hardware input/output options are supported for the Pure Analyzer Session.
+:::
 
 ### None
 This disables hardware input and output altogether. This is the recommended choice if you do not want to take advantage of Pure Analyzer's built-in audio capabilities, for example if you're working with a SampleGrabber inside a DAW or Avid Venue console setup. With some sound cards that aren't multi-client capable - meaning only one program can access it at once - disabling I/O is necessary to continue using another program simultaneously.
@@ -26,9 +26,7 @@ Any installed soundcard(s) will be listed here. Under Windows, it might appear s
 
 
 ## Sampling rate
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Setup/SamplingRate.png)
-
-> Available sampling rates (hardware specific)
+![Available sampling rates (hardware specific)](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Setup/SamplingRate.png)
 
 Sets the sampling rate used internally by the application. When a hardware device is selected, be sure to match this to the sampling rate set in the application panel of your soundcard control panel. We deliberately chose not to employ resampling, which in our opinion has no place in a measurement instrument. Instead we generally advise you to set your soundcard's sampling rate to 44.1k or 48k, which covers the entire audio hearing range (20-20kHz). Increasing the sampling rate above these values increases the processing power required to carry out the computations without any benefit for most practical applications.
 
@@ -49,13 +47,12 @@ Opens the ASIO (Windows) / CoreAudio (MacOS) control panel for the selected soun
 
 Selects the maximum number of channels to be used by the application, or equivalently the number of channels in the application I/O bus. You should set this according to the source material format you want to analyze and visualize. This determines notably how many real-time curves are displayed in the [Spectrum analyzer](03_Spectrum_analyzer_01_Basic_principles.md) view, whether the [Surround scope](06_Nebula_Surround_scope_01_Usage.md) is displayed, etc.
 
-!> **IMPORTANT!** - The Pure Analyzer Studio Session supports only 2 channels of audio.
+:::{.callout-warning}
+ **IMPORTANT!** - The Pure Analyzer Studio Session supports only 2 channels of audio.
+:::
 
 ## Reference configuration
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Setup/ReferenceConfiguration.png)
-
-> [Reference](07_Metering_01_RMS_Metering_03_Reference.md)
-configurations available with 8 max. channels
+![Reference configurations available with 8 max. channels](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Setup/ReferenceConfiguration.png)
 
 Depending on the setting above, the possible standard channel configurations will be listed here, and will be a subset of the following:
 
@@ -68,9 +65,7 @@ The channels are labeled according to this configuration to make them easier to 
 # Signal generator
 ## Output
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Setup/OutputPatch.png)
-
-> Example of a output channel routing (hardware specific)
+![Example of a output channel routing (hardware specific)](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Setup/OutputPatch.png)
 
 Selects one or two physical channels to which the [Signal generator](12_Signal_generator_01_Signal_types.md) output should be sent.
 

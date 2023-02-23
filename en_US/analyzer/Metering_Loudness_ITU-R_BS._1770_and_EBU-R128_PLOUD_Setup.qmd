@@ -1,7 +1,5 @@
 # Setup
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Metering/PLoudMeterSetup.png)
-
-> EBU R128 Loudness metering setup.
+![EBU R128 Loudness metering setup.](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Metering/PLoudMeterSetup.png)
 
 ## Presets
 

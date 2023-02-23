@@ -45,8 +45,11 @@ Channels taken into account by the algorithm are determined based on the current
 
 For mono/stereo signals, all channels are taken into account. For surround configurations, only Left/Right and Center channels are taken into account, if present.
 
-> Dialogue Intelligence computation only affects I (Integrated) Loudness  values. 
-> Toggling Dialogue Intelligence on and off forces a reset of the meter values.
+:::{.callout-note}
+Dialogue Intelligence computation only affects I (Integrated) Loudness  values. 
+
+Toggling Dialogue Intelligence on and off forces a reset of the meter values.
+:::
 
 # Copyright & patent information
 **Created under license from Dolby Laboratories Licensing Corporation. Use of this Software does not convey a license nor imply a right under any patent, or any other industrial or intellectual property right of Dolby Laboratories.**

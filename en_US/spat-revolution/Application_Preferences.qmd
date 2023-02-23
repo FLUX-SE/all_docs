@@ -82,11 +82,14 @@ The hardware IO panel allows choosing the audio interface that can be accessed b
 
 This menu allows selecting the audio interface. SPAT Revolution audio engine supports all devices compatible with ASIO (Windows) or CoreAudio (macOS).
 
-!> **Note that you should select “None” when using the Local Audio Path connections.**
+:::{.callout-warning}
+**Note that you should select “None” when using the Local Audio Path connections.**
 
 SPAT Revolution audio engine also supports different input and output interfaces, on both macOS and Windows, for maximum flexibility.
 
-!> In case of different input and output devices, the sample rate and the block size need to be the same.
+In case of different input and output devices, the sample rate and the block size need to be the same.
+
+:::
 
 ### Sampling Rate
 

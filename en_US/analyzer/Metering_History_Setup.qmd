@@ -1,7 +1,9 @@
 # Setup
 ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/MeteringHistory/Setup.png)
 
-> Metering history setup options.
+:::{.callout-note}
+Metering history setup options.
+:::
 
 # TimeCode
 
@@ -35,7 +37,9 @@ Set the integration time, in milliseconds.
 ## Color
 Specify the color to use for drawing the curve.
 
-> Percussive content such as drums or rhythm guitar exhibit high dynamics, as opposed to sustained sounds such as strings and synthesizer pads.
+:::{.callout-note}
+Percussive content such as drums or rhythm guitar exhibit high dynamics, as opposed to sustained sounds such as strings and synthesizer pads.
+:::
 
 # Loudness
 These settings allow to specify whether Short-term and/or Momentary EBU R128 Loudness curves should be displayed, as well the color to use when drawing them.

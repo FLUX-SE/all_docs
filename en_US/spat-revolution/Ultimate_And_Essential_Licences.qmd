@@ -39,13 +39,15 @@ Thus, an **Ultimate** session can be opened with an **Essential** license and vi
 
 ### Check Essential compatibility
 
-In the top bar menu, click on <code>File > Check Essential Compatibility</code> to check if the current session is compatible with the SPAT Essential restrictions.
+In the top bar menu, click on ```File > Check Essential Compatibility``` to check if the current session is compatible with the SPAT Essential restrictions.
 
 ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/EssentialAlreadyCompatible.png)
 
 If the session is not compatible, it can be opened with an **Essential** license, the restrictions due to license limitations will automatically deactivate the non-authorized objects. 
 
-> If a session contains elements non-compatible with an **Essential** license, they can be manually deactivated for the session to fit the **Essential** license restrictions. If all the non-authorized elements are inactive, the session is considered as compatible with **Essential** license.
+:::{.callout-note}
+If a session contains elements non-compatible with an **Essential** license, they can be manually deactivated for the session to fit the **Essential** license restrictions. If all the non-authorized elements are inactive, the session is considered as compatible with **Essential** license.
+:::
 
 See [Modules (de)activation](Spat_Environment_Modules_de_activation.md) for more information about automatic and manual (de)activation.
 

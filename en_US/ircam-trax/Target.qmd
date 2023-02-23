@@ -5,7 +5,9 @@ let the plug-in adapt to the specifics of the audio material. For singing voice 
 audio segment that is used covers the complete pitch range that will be processed. Otherwise the internal parameter 
 settings will not achieve optimum quality for the transformation.
 
-!> Do not forget to switch off learn mode when doing the actual processing, or you may encounter strange behavior!
+:::{.callout-warning}
+ Do not forget to switch off learn mode when doing the actual processing, or you may encounter strange behavior!
+:::
 
 Now that you have set the source parameters, here comes the fun part: transforming the source material, according to
 target parameters. T.R.A.X. allows for a large palette of transformations such as:
@@ -19,13 +21,15 @@ target parameters. T.R.A.X. allows for a large palette of transformations such a
 In all of these contexts, unwanted artifacts are kept to a minimum and the natural quality and timbre of voices
 and instruments are preserved, thanks to the innovative analysis algorithms used.
 
-> Please note, however, that in the case of extreme transformations, the perceived quality of the voice might degrade. 
+:::{.callout-note}
+Please note, however, that in the case of extreme transformations, the perceived quality of the voice might degrade. 
 We strongly believe this not due to a flaw or a limitation of the algorithms, but more to the fact that
 the human brain is extremely well trained and sensitive to the perception of voice, with all its intricacies. In other 
 a words, please do not reasonably expect a computer to turn an amateur singer into a seasoned Opera pro
 or your 5-year old son into the 8 o’clock veteran news presenter. This would involve something much more
 complex than pitch and formant modification, such as prosody, and some understanding of the meaning of
 the underlying words or musical emotion conveyed.
+:::
 
 
 ## (12) Target Preset

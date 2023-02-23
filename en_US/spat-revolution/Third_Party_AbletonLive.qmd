@@ -33,9 +33,11 @@ The console is organized in this way:
 - Lastly are a couple of "return tracks", as named after Ableton Live nomenclature, which host your SPAT RETURN plug-ins.
 
 
-> To keep the console organized, we put tracks inside folders. 
-> But, as there is a SPAT SEND on each of the sending tracks, and as the recording tracks are routed straight to our audio interfaces, there will never be any audio on these folders.
+:::{.callout-note}
+To keep the console organized, we put tracks inside folders. 
 
+But, as there is a SPAT SEND on each of the sending tracks, and as the recording tracks are routed straight to our audio interfaces, there will never be any audio on these folders.
+:::
 
 ## DAW optimization
 
@@ -132,7 +134,9 @@ In the template, the tracks allocated to recording are configured to get their a
 Their monitoring is switched on, and they are armed for recording. 
 Also, their output is routed directly to the audio interfaces. 
 
-> **You will need to manually adjust this routing for your needs.**
+:::{.callout-note}
+You will need to manually adjust this routing for your needs.
+:::
 
 ![liveTemplate1_recIO](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/AbletonLiveRecIO.png)
 

@@ -32,4 +32,6 @@ Applies an optional frequency-dependent coloring to the main channel-sum curve.
 
 Magnitude spectrum with color grading enabled
 
-> When enabled, any of the above fixed color settings are overridden.
+:::{.callout-note}
+When enabled, any of the above fixed color settings are overridden.
+:::

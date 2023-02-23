@@ -1,6 +1,8 @@
 # Tablet Remote (Lemur) - Legacy
 
-!> As LEMUR is discontinued, the above patches will not be updated on the future. For an updated tablet remote, please use the [SPAT Revolution REMOTE](ThirdParty_SPATRevolution_Remote).
+:::{.callout-warning}
+ As LEMUR is discontinued, the above patches will not be updated on the future. For an updated tablet remote, please use the [SPAT Revolution REMOTE](ThirdParty_SPATRevolution_Remote).
+:::
 
 ## Templates
 
@@ -22,7 +24,9 @@ Other resolutions will need customization using the Lemur editor. For more infor
 
 [**Download Lemur for Android**](https://play.google.com/store/apps/details?id=net.liine.lemurapp) 
 
-> **Advice:** For most reliable remote control from tablet devices, it is recommended to hardwire your table device to your system. Some adapters offer ethernet connectivity and in some cases, power as well. This way your device can remain 100% charged all the time and will have a solid ethernet connection to make sure you can rely on this remote for the critical times (But yes it does work more than fine in Wi-Fi too!). Multiple tablet devices can mean building yourself a control station!
+:::{.callout-note}
+**Advice:** For most reliable remote control from tablet devices, it is recommended to hardwire your table device to your system. Some adapters offer ethernet connectivity and in some cases, power as well. This way your device can remain 100% charged all the time and will have a solid ethernet connection to make sure you can rely on this remote for the critical times (But yes it does work more than fine in Wi-Fi too!). Multiple tablet devices can mean building yourself a control station!
+:::
 
 ## Loading the templates
 
@@ -46,16 +50,16 @@ To configure the OSC address and port in Lemur, click on the wheel on the right 
 ![image(2)](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/LemurOSCSettings.png)
 
 In OSC Targets, you can see the IP Address of your actual remote device. (Lemur IP: **x.x.x.x**). 
-The port is locked by default at <code>8000</code>. 
+The port is locked by default at ```8000```. 
 
 OSC 0 - OSC 7 are actual targets. 
 You can add up to 8 OSC targets. 
 An example of this could be to target 2 _SPAT Revolution_ for main and back up hardware.
 
-As of _SPAT Revolution_ 20.12, input | Lemur and output | Lemur presets are available in the OSC Connection section. Port are by default <code>8000</code> for input and output.
+As of _SPAT Revolution_ 20.12, input | Lemur and output | Lemur presets are available in the OSC Connection section. Port are by default ```8000``` for input and output.
 
-From the above example, the Lemur IP is <code>192.168.2.5</code> Port <code>8000</code>. 
-And we have set the OSC target OSC 0 to the SPAT computer IP Adress <code>192.168.43.10</code> with port number <code>53700</code>. 
+From the above example, the Lemur IP is ```192.168.2.5``` Port ```8000```. 
+And we have set the OSC target OSC 0 to the SPAT computer IP Adress ```192.168.43.10``` with port number ```53700```. 
 
 
 ## Setting OSC connections in SPAT
@@ -67,9 +71,9 @@ The port and host should match that of the Lemur app.
 
 ![image(3)](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/LemurOSCConnectionsMatrix.png)
 
-- Input from your IP <code>192.168.43.10</code> (or whatever you SPAT computer IP is) with port # <code>53700</code>.
+- Input from your IP ```192.168.43.10``` (or whatever you SPAT computer IP is) with port # ```53700```.
 
-- Output to <code>192.168.2.5</code> (The Lemur iPad IP) with port # <code>8000</code>. Default and needed checkbox setup are: 
+- Output to ```192.168.2.5``` (The Lemur iPad IP) with port # ```8000```. Default and needed checkbox setup are: 
 
     - **AED Packing:** Will only send AED packages. No worry the Lemur patch converts to XYZ.
     - **Auto-Bundle:** Will send OSC bundles when required.

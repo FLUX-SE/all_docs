@@ -14,7 +14,9 @@ The Session Analyser is installed as a single application. It has the same basic
 * Max 96kHz sample rate. 44.1, 48, 88.2, 96
 * No Support for any add-on options
 
-> Please note that the Studio Session Pack license is a bundle license and the Studio Session Analyzer can only be used on the same computer as the rest of the plug-ins in the bundle are used.
+:::{.callout-note}
+Please note that the Studio Session Pack license is a bundle license and the Studio Session Analyzer can only be used on the same computer as the rest of the plug-ins in the bundle are used.
+:::
 
 
 ## User documentation

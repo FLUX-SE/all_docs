@@ -82,7 +82,8 @@ Default Value: 0 %
 Allows process the audio signal independently of the sound level but regarding the signal dynamic range. It is
 mixed with the standard compression scheme.
 
-> *Take a piece of full mixed music, set the ratio to 3-4 and the compression will start working. Now set the threshold
+:::{.callout-note}
+*Take a piece of full mixed music, set the ratio to 3-4 and the compression will start working. Now set the threshold
 of the compressor to the maximum value, the compressor will stop working because the sound level will never reach
 the threshold. Then increase the L.I.D.. and you will see (and hear) the compression working again!!! Now decrease or increase
 the input gain (in Solera or before, as you want) and you will see that the compression will continue to work equally; it's totally,
@@ -96,7 +97,7 @@ to what you think OK, then increase the L.I.D.. (from 20 to 50 %) and listen now
 will always be active but can still take care of High, loud levels (unless you set 100% L.I.D..) and make the compression very
 smooth and no more pumpingº In addition with the Dynamic Ratio function, you'll be able to set a constant and very natural
 envelop that allows to increase low levels, low frequency and to keep important transients.*
-
+:::
 
 ## L.I.D.. Threshold (33)
 Sets the gain range of the L.I.D. parameter.
@@ -115,5 +116,6 @@ only when the orange Dynamic Activity (18) stays inside the area between the two
 When engaged, the threshold for the processing is determined by the maximum values from RMS/peak detection
 OR from the signal dynamic detection. The L.I.D. Threshold is still active, but the L.I.D. mix button is disabled. 
 
-> This feature allows the whole process to be more reactive to the signal content. It worth to be tried on drum tracks.
-
+:::{.callout-note}
+This feature allows the whole process to be more reactive to the signal content. It worth to be tried on drum tracks.
+:::

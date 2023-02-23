@@ -15,9 +15,13 @@ Thanks to the DAW templates provided, this should not happen unless the required
 
 To force the DAW to process this way, each track with SEND plug-in inserted must be routed (directly or indirectly) to the 'return' tracks, using DAW internal routing (ex: dummy busses in ProTools, direct routing in Reaper).
 
-> CPU performance overloading could generate some sync errors.
+:::{.callout-note}
+CPU performance overloading could generate some sync errors.
+:::
 
-> You can reset the sync error by double-clicking on the sync error counter.
+:::{.callout-note}
+You can reset the sync error by double-clicking on the sync error counter.
+:::
 
 If you see red indicators in the bottom left corner section of SPAT, this could be related to having a mismatch in frame size  (buffer) or sample rate between the DAW and the  _SPAT Revolution_.
 
@@ -46,7 +50,9 @@ To work properly, the SEND plug-ins instances must be processed by the DAW **bef
 
 Following are four examples of recommended practice with DAW routing, which should cover the main use cases. If your problems persist even after implementing these suggestions, don't hesitate to drop us a line at FLUX:: support.
 
-> **PLEASE NOTE:** The mixing of HARDWARE inputs and LOCAL AUDIO PATH may report a sync loss, as _SPAT Revolution_ cannot guarantee correct sync in this scenario. Proceed with caution if this is unavoidable. This is not officially supported._
+:::{.callout-note}
+**PLEASE NOTE:** The mixing of HARDWARE inputs and LOCAL AUDIO PATH may report a sync loss, as _SPAT Revolution_ cannot guarantee correct sync in this scenario. Proceed with caution if this is unavoidable. This is not officially supported._
+:::
 
 **SPAT RETURN plug-in on master track**
 
@@ -61,8 +67,9 @@ Issues may happen when return is inserted on an AUX track. Make sure that each S
 
 ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Education/PluginsSchemaAux.png)
 
-> ★ You might achieve the same by routing the track outputs to the bus.
-
+:::{.callout-note}
+You might achieve the same by routing the track outputs to the bus.
+:::
 
 **Several RETURN on AUX tracks**
 
@@ -119,13 +126,13 @@ Consider as well to kill as many processes not required as possible (Wi-Fi/inter
 
 ## Display Performance (CPU) measurements
 
-Included in release version 20.12 is the ability to display performance (CPU) measurements. This can be done in the **Help** menu **Display Performance** option. This can be accesses as well with shortcuts <code>Shift + Option + Command + P</code>.
+Included in release version 20.12 is the ability to display performance (CPU) measurements. This can be done in the **Help** menu **Display Performance** option. This can be accesses as well with shortcuts ```Shift + Option + Command + P```.
 
 ![Display Performance](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Generic/DisplayPerformance.png)
 
 ## Engine Parallel Processing profile
 
-_SPAT Revolution_ v20.12 introduced a new Multi-Core Parallel Computation Algorithm that is key to optimizing your hardware. This is for both the automation and the audio processing. The **Display Performance** option stated above will be our best ally to monitor the results. This can be accessed with shortcuts <code>Shift + Option + Command + P.</code>
+_SPAT Revolution_ v20.12 introduced a new Multi-Core Parallel Computation Algorithm that is key to optimizing your hardware. This is for both the automation and the audio processing. The **Display Performance** option stated above will be our best ally to monitor the results. This can be accessed with shortcuts ```Shift + Option + Command + P.```
 
 The Engine Preference section includes three Profiles for parallel processing
 ![New updated Engine Preference Section](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Preference/Engine.png)

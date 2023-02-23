@@ -21,10 +21,12 @@ Value Range: 0 / 100
 Step: 1  
 Default Value: 0 % 
 
-> To start understanding this setting and easily hear it, take a full mixed drum kit or a complete mix with punchy 
+:::{.callout-note}
+To start understanding this setting and easily hear it, take a full mixed drum kit or a complete mix with punchy 
 drums, set the compression threshold and ratio to values that makes it close to a pumping or an aggressive compression. Then increase the output gain to compensate the gain lost and toggle between 0 and 100% of Dynamic 
 Ratio. At 100 % you should hear more air in the sound, more transient and less of the compression impression, 
 especially the attack.
+:::
 
 ## Dynamic Ratio Inverter (24)
 When engaged, the behaviour of the Dynamic Ratio is inverted.  
@@ -40,23 +42,25 @@ Value Range: 0 / 100
 Step: 1  
 Default Value: 0 % 
 
-> Use a full song mix. Set the ratio to 3-4 for the compression to start working and the threshold of the compressor 
+:::{.callout-note}
+Use a full song mix. Set the ratio to 3-4 for the compression to start working and the threshold of the compressor 
 to the max value, the compressor will stop working because the sound level will never reach the threshold. Now 
 increase the L.I.D. and you will hear the compression working again. Next decrease or increase the input gain, the 
 compression will continue to work equally completely independent of the sound level, only depending on Ratio, 
 Knee and sound content.
->
-> When you have too much dynamic in the sound, going from -3, -6 dB Vu (or less) to +12 dB, and you want to compress the low levels, you will get a pumping effect when the sound reaches the high levels. The only thing to do 
+
+When you have too much dynamic in the sound, going from -3, -6 dB Vu (or less) to +12 dB, and you want to compress the low levels, you will get a pumping effect when the sound reaches the high levels. The only thing to do 
 with a standard compressor is to increase the threshold to retain the airiness in the sound. But when this is done 
 the compressor will not work any more on the low levels and you will hear differences (in term density, live space, 
 grain etc.) especially when the compressor starts working.
->
-> With Solera, adjust the threshold and ratio on the high levels to what you find okay, then increase the L.I.D. 
+
+With Solera, adjust the threshold and ratio on the high levels to what you find okay, then increase the L.I.D. 
 (from 20 to 50 %) and listen to the low levels and especially the transition between low and high levels. You can 
 also increase the ratio for a stronger effect, and you will notice that the compression will still be present and still affect 
 the high/loud levels (unless you set 100% L.I.D.) and make the compression very smooth with no more pumping. 
 In addition to the Dynamic Ratio function you will be able to set a constant and very natural envelope that allows to 
 increase low levels, low frequency and to keep the important transients.
+:::
 
 ## L.I.D.. Threshold (26)
 Sets the gain range of the L.I.D. parameter.

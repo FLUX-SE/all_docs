@@ -16,7 +16,10 @@ The field is editable or not, according to the DAW.
 ## UI size
 
 Set the plugin size.
-> If you choose a too big size and cannot change it anymore, please close the UI of all Elixir instances, and delete "Preferences" on "/Documents/FLUX SE/Elixir". 
+
+:::{.callout-note}
+If you choose a too big size and cannot change it anymore, please close the UI of all Elixir instances, and delete "Preferences" on "/Documents/FLUX SE/Elixir". 
+:::
 
 ## Report latency
 

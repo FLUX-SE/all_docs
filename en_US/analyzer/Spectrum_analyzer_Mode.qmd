@@ -14,7 +14,9 @@ When any of the Octave types are selected, the average of the spectrum over the 
 # Smoothing detail
 Controls the amount of frequency detail of the smoothed curve, when using window smoothing. The value roughly corresponds to the maximum number of valleys and peaks that can stand out the smoothed curve. A low value lets the global tendency of the amplitude spectrum pass through, while values above 20 or so preserve more detail such as harmonics and sharp equalizer cuts and boosts. Default is 3.
 
-> This curves acts as a kind of zoom-out control, as it shows the global frequency content of the signal, leaving out details such as harmonic peaks and variations imputable to transient and noise components. Typical uses for this curve is to monitor the global frequency balance of a mix and to visualize the influence of broad equalizer corrections on the mix.
+:::{.callout-note}
+This curves acts as a kind of zoom-out control, as it shows the global frequency content of the signal, leaving out details such as harmonic peaks and variations imputable to transient and noise components. Typical uses for this curve is to monitor the global frequency balance of a mix and to visualize the influence of broad equalizer corrections on the mix.
+:::
 
 # Curve display
 ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Spectrum/CurveDisplay.png)
@@ -24,7 +26,9 @@ Toggles between the following curve display modes:
 * Smoothed: smoothed curve only.
 * All: both unsmoothed and smoothed curves.
 
-> Selecting one of the first two modes is recommended to avoid display clutter when comparing several channels and/or snapshots.
+:::{.callout-note}
+Selecting one of the first two modes is recommended to avoid display clutter when comparing several channels and/or snapshots.
+:::
 
 # Max curve
 ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Spectrum/MaxCurve.png)
@@ -36,7 +40,9 @@ The max curve setting controls its visibility and whether smoothing is applied:
 * Full: visible, unsmoothed.
 * Smoothed: visible, smoothed.
 
-> The max curve is never displayed for snapshots, as it would be the same as the main curve, since this type of curve does not evolve in time.
+:::{.callout-note}
+The max curve is never displayed for snapshots, as it would be the same as the main curve, since this type of curve does not evolve in time.
+:::
 
 # Peak type
 ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Spectrum/PeakType.png)

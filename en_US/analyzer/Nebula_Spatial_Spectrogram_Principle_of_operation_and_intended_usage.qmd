@@ -24,6 +24,6 @@ Nebula / Spatial Spectrogram display with stereo input | Nebula / Spatial Spectr
 
 ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Nebula/Setup.png)
 
-> Nebula / Spatial Spectrogram setup options
-
-
+:::{.callout-note}
+Nebula / Spatial Spectrogram setup options
+:::

@@ -36,7 +36,9 @@ The [Avid Pro Tools Session Templates](https://public.3.basecamp.com/p/N48YKyqnB
 
 - macOS and Windows: : ```Document/Pro Tools/Session Templates/```  
 
-!>  **Create a FLUX:: Folder for your templates**
+:::{.callout-warning}
+  **Create a FLUX:: Folder for your templates**
+:::
 
 After copying the templates to the proper folder, they will appear in the template in the Pro Tools dashboard:
 ![Create a new session](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/ProToolsTemplates.png)
@@ -60,7 +62,9 @@ You can download the following session templates and presets:
 
 * **[AVID Pro Tools Ultimate - Local Audio Path (64ch)](https://public.3.basecamp.com/p/Mindwq33jeEpieRkFetmj6yq)**   is a template for using Local Audio Path SEND and RETURN for routing (single computer). It renders Atmos 7.1.2, Binaural and HOA 3rd order. It contains 32 Mono, 8 Stereo and 4 HOA 1st order object tracks.
 
-!>  **More object tracks can be added depending on audio interface and/or computer resources**
+:::{.callout-warning}
+  **More object tracks can be added depending on audio interface and/or computer resources**
+:::
 
 For troubleshooting, please review the **[Appendix B - Troubleshooting](Appendix_B.md)**
 
@@ -69,7 +73,9 @@ For troubleshooting, please review the **[Appendix B - Troubleshooting](Appendix
 With the latest release of _SPAT Revolution_, buffer size in Pro Tools needs to be set to 1024 samples, in both ProTools and _SPAT Revolution_ if using the Local Audio Path option.
 In ProTools, go to *Setup/Playback Engine* then set H/W Buffer Size to 1024 samples.
 
-> We highly recommend de-activating dynamic Plug-in processing.
+:::{.callout-note}
+We highly recommend de-activating dynamic Plug-in processing.
+:::
 
 ![image](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/ProToolsEnginePlaybackMenu.png)
 

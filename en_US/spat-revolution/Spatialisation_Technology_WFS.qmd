@@ -12,7 +12,9 @@ Under certain strict conditions, WFS can create the impression of a source posit
 
 ### Availability - WFS Add-on license
 
-> Referred to as a panning type in _SPAT Revolution_, the WFS spatial audio reproduction technique is available with **the WFS Add-on license option**, available with Ultimate and Essential version.
+:::{.callout-note}
+Referred to as a panning type in _SPAT Revolution_, the WFS spatial audio reproduction technique is available with **the WFS Add-on license option**, available with Ultimate and Essential version.
+:::
 
 
 ## SPAT Revolution implementation of WFS
@@ -26,7 +28,9 @@ Where traditionally WFS is used on a collinear array of very tightly spaced loud
 
 The panning method will become available to the room inspector as soon as a minimum of 5 loudspeakers are available.
 
-!> Even if a large spacing between speakers is allowed, keep in mind that the greater the spacing you have, the less coherent the results will be.
+:::{.callout-warning}
+ Even if a large spacing between speakers is allowed, keep in mind that the greater the spacing you have, the less coherent the results will be.
+:::
 
 ![WFS Panning type]( https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/WFSPanning.png)
 
@@ -36,8 +40,9 @@ The chosen WFS implementation is a minimum latency approach. This simply means t
 
 When using the WFS panning technique on a collinear frontal line arrangement, the Efficiency zone section in the room output section provides an option to activate the focus zone, i.e. the zone in front of a line of speakers. It is deactivated by default as it is recommended that a certain density and spacing exist for the speaker arrangement.
 
-
-!>  Enabling this option may trigger an Efficiency zone warning if the system does not respect the 0.4 meter spacing between speaker source elements recommendation.
+:::{.callout-warning}
+  Enabling this option may trigger an Efficiency zone warning if the system does not respect the 0.4 meter spacing between speaker source elements recommendation.
+:::
 
 ![Focus zone Enable]( https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Room/FocusZoneEnable.png)
 
