@@ -1,4 +1,4 @@
-# Release Notes - Build 22.02.0.50206
+# Release Notes - Build 22.10.0.50213
 
 ## Improvements
 - German localisation update

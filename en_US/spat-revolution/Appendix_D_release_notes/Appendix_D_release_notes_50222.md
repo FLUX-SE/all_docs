@@ -1,23 +1,10 @@
-# Release Notes - Build 22.10.0.50219
+# Release Notes - Build 22.10.0.50222
 
-## Improvement
-
-- Speaker editor - Cartesian delay computation for up/down speakers
-
-## Bugs fixes
-- 3D view - Issue with scale of source when an automatic scaling is applied on the speaker editor
-- Grid - Double-clicking on boolean shows "true/false" instead of changing the state
-- LAP - Distance Scaling is re-apply on source selection
-- Room page - Collapsing a panel on the source or room panel does not work after rebuilding the GUI.
-- Setup page - Issues with translation and items inspector
-- Snapshot - Drop audio when creating, duplicating, moving up and down or removing a snapshot
-- Snapshot - Issues with Relative recall and scaling
-- Snapshot - Issues with snapshot list and version list when rebuilding the GUI
-- Snapshot bar - Hiding the snapshot bar does not hide the background bar
-- Speaker editor - Delays are wrongly applied when speakers have elevation and are not oriented toward the listener
-- UI - When rebuilding the GUI, some 3D View parameters are not reapplied (scaling, output and number of view)
- 
-## Known Issues
+# Bugs fixes
+- SPAT Send - Fix: Selection is recorded and played back
+- macOS - Fix SPAT crashes in some circumstances (native AVB on macOS, ...) depending of the OS version.
+- 
+# Known Issues
 - App - A process still running after quitting SPAT Revolution when ASIO4ALL is used as audio driver on Windows
 - App - Bad GUI initialization on Windows with intel graphics chipsets
 - App - Core Audio headphones and loudspeakers cannot be used without an aggregate
