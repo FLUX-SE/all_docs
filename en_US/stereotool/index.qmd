@@ -2,7 +2,7 @@
 Stereo Tool is the perfect tool for correcting the stereophonic image of audio tracks and buses, both for mixing and 
 mastering. The integrated goniometer allows you to easily visualize and identify problems with your stereo signals.
  
-![](include/Stereotool_loupes.png)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Plugins/stereotool/Stereotool_loupes.png)
  
 ## Channel adjustment parameters
 + 1 - Left channel input gain trim  
@@ -29,21 +29,21 @@ the stereo image width and panning.
 ## Goniometer interpretation
 ### Identify mono signals
 **Mono centered**  
-![](include/mono_center.png)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Plugins/stereotool/mono_center.png)
 
 **Mono left panned**  
-![](include/mono_left.png)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Plugins/stereotool/mono_left.png)
 
 **Mono right panned**  
-![](include/mono_right.png)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Plugins/stereotool/mono_right.png)
 
 ### Identify issues in stereo signal
 
 **Out of phase**  
-![](include/out_of_phase.png)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Plugins/stereotool/out_of_phase.png)
 
 **Phase issue/ too wide**  
-![](include/phase_issue.png)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Plugins/stereotool/phase_issue.png)
 
 **Hyper-compressed signal**  
-![](include/Stereotool_hypercompressed.png)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Plugins/stereotool/Stereotool_hypercompressed.png)

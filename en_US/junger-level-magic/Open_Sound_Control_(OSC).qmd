@@ -29,7 +29,7 @@ The following parameters are used to configure OSC manually in LevelMagic(TM)
 
 The image below presents the different OSC parameters used for configuration.
 
-![](include/level_magic_10.png)  
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Plugins/junger-level-magic/level_magic_10.png)  
 
 ## Feedback from the plug-in to the controller
 

@@ -1,5 +1,5 @@
 # Filter
-![](include/verb_session_04.png)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Plugins/ircam-verb-session/verb_session_04.png)
 
 This section sets the characteristics of the filter applied to the signal fed to the reverberation engine, affecting the overall
 frequency response, if required.

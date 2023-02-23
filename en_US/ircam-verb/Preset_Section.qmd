@@ -1,6 +1,6 @@
 # Preset Section
 
-![](include/verb_09.png)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Plugins/ircam-verb/verb_09.png)
 
 ## (50) Save
 Saves a snapshot of the current settings for future use.  

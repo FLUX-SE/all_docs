@@ -1,6 +1,6 @@
 # Time Structure Display
 
-![](include/verb_04.png)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Plugins/ircam-verb/verb_04.png)
 
 ## (7) High density
 Toggles between standard and high density reverberation engine.   

@@ -1,5 +1,5 @@
 # Decay
-![](include/verb_03.png)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Plugins/ircam-verb/verb_03.png)
 
 ## (1) Decay time
 

@@ -83,4 +83,4 @@ peaks are kept and added to the processed sound to preserve the sensitive inform
 > Note that the Dry Mix function takes the delay that may be introduced by the processing into account. The summing is 
 done before the clipper stage, and the displayed gain also reflects the Dry Mix setting.
 
-![](include/solera_02.png)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Plugins/solera/solera_02.png)

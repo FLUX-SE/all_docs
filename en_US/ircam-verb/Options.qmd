@@ -1,6 +1,6 @@
 # Options
 
-![](include/verb_06.png)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Plugins/ircam-verb/verb_06.png)
 
 ## (28) Infinite
 When activated, the signal is recirculated indefinitely inside the reverberation engine.   

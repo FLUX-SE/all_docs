@@ -6,4 +6,4 @@ Clipper excepted).
 Instead, the controls provided typically affect more than one parameter in the underlying algorithms, with everything 
 carefully tweaked allowing for creative processing still ensuring the finest sound achievable.
 
-![](include/syrah_02.png)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Plugins/syrah/syrah_02.png)

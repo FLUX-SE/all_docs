@@ -1,6 +1,6 @@
 # Input Output Section
 
-![](include/verb_08.png)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Plugins/ircam-verb/verb_08.png)
 
 ## (42) Input Gain
 Adjusts the level of the signal fed to the plug-in, in dB increments.

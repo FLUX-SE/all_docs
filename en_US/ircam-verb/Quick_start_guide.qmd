@@ -2,7 +2,7 @@
 
 The Verb is an algorithmic reverberation processor build in a modular way, with an recursive filtering based engine.
 
-![](include/verb_02.png)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Plugins/ircam-verb/verb_02.png)
 
 This block diagram view explain the basics of this engine, to explain the time structure of the reverberation tail:
 

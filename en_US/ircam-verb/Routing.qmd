@@ -1,5 +1,5 @@
 # Routing
-![](include/verb_10.png)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Plugins/ircam-verb/verb_10.png)
 
 This sub-panel is accessed by clicking the Setup button.
 

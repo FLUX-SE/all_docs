@@ -1,5 +1,5 @@
 # Time Structure Display
-![](include/verb_session_03.png)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Plugins/ircam-verb-session/verb_session_03.png)
 
 ## (1) Direct signal
 The grey bar at the start of the reverberation pictogram represents the direct sound send at the input of the plug-in.   

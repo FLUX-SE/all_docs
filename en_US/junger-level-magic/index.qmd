@@ -2,7 +2,7 @@
 [Product Page](https://www.flux.audio/project/junger-audio-level-magic/) 
 | [Shop Page](https://shop.flux.audio/en_US/products/levelmagic)
 
-![](include/level_magic_00.png)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Plugins/junger-level-magic/level_magic_00.png)
 
 LevelMagic (TM) is a comprehensive Real Time and Offline loudness measurement, correction and management processor. 
 Designed to meet the requirements of the global broadcast and media industry it is compliant with all current 

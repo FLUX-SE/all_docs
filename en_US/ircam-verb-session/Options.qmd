@@ -1,6 +1,6 @@
 # Options
 
-![](include/verb_session_05.png)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Plugins/ircam-verb-session/verb_session_05.png)
 
 ## (7) Decay time
 This is the duration of the reverberation ‘tail’ in seconds, in other words how long it takes for the reverberated 

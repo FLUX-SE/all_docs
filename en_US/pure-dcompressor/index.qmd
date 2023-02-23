@@ -2,9 +2,9 @@
 [Product Page](https://www.flux.audio/project/pure-dcompressor/) 
 | [Shop Page](https://shop.flux.audio/en_US/products/pure-dcompressor)
 
-![](include/pure-dcomp_01.png)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Plugins/pure-dcompressor/pure-dcomp_01.png)
 
-![](include/pure-dcomp_02.png)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Plugins/pure-dcompressor/pure-dcomp_02.png)
 
 Pure DCompressor is the de-compressor section of the Solera. A De-compressor must be used to automatically increase the
 peak dynamic. Pure DCompressor allows you to restore the original dynamic of a sound. It‘s very useful for heavily compressed

@@ -1,6 +1,6 @@
 [Product Page](https://www.flux.audio/project/ircam-verb-session/) 
 | [Shop Page](https://shop.flux.audio/en_US/products/ircam-verb-session)
 
-![](include/verb_session_00.png)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Plugins/ircam-verb-session/verb_session_00.png)
 
-![](include/verb_session_01.png)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Plugins/ircam-verb-session/verb_session_01.png)

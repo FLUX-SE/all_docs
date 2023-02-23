@@ -25,5 +25,7 @@ book:
 format:
   html:
     theme: cosmo
+    default-image-extension: gif
   pdf:
     documentclass: scrreport
+    default-image-extension: png
