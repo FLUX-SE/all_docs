@@ -5,7 +5,7 @@ title: "FLUX:: Documentation"
 ## Immersive
 
  - [SPAT Revolution](spat-revolution/index.html)
- - [Ircam HEar](ircam-hear/index.html)
+ - [IRCAM-Tools HEar](ircam-hear/index.html)
 
 ## Analysis
 
@@ -27,9 +27,9 @@ title: "FLUX:: Documentation"
  - [Bittersweet Pro](/bittersweet-pro/index.html)
  - [Elixir](/elixir/index.html)
  - [Epure](/epure/index.html)
- - [Ircam Trax](/ircam-trax/index.html)
- - [Ircam Verb](/ircam-verb/index.html)
- - [Ircam Verb Session](/ircam-verb-session/index.html)
+ - [IRCAM-Tools Trax](/ircam-trax/index.html)
+ - [IRCAM-Tools Verb](/ircam-verb/index.html)
+ - [IRCAM-Tools Verb Session](/ircam-verb-session/index.html)
  - [Pure Compressor](/pure-compressor/index.html)
  - [Pure Dcompressor](/pure-dcompressor/index.html)
  - [Pure Dexpander](/pure-dexpander/index.html)
@@ -43,5 +43,5 @@ title: "FLUX:: Documentation"
 ## Legacy
 
 - [Elixir v3](/elixir-v3/index.html)
-- [Ircam Spat (Plugin)](/ircam_spat/index.html)
+- [IRCAM-Tools Spat (Plugin)](/ircam_spat/index.html)
 - [Jünger Level Magic](/junger-level-magic/index.html)
