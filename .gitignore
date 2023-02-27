@@ -8,3 +8,4 @@ static/
 /.luarc.json
 .vscode
 _build
+/checks.json

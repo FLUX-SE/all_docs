@@ -10,9 +10,9 @@ website:
       - section: "Immersive"
         contents:
           - href: spat-revolution/index.html
-            text: IRCAM HEar
+            text: Spat Revolution
           - href: ircam-hear/index.html
-            text: IRCAM HEar
+            text: IRCAM-Tools HEar
       - section: "Analysis"
         contents:
           - href: anaylzer/index.html
