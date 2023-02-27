@@ -44,11 +44,11 @@ website:
           - href: /epure/index.html
             text: Epure
           - href: /ircam-trax/index.html
-            text: IRCAM Trax
+            text: IRCAM-Tools Trax
           - href: /ircam-verb/index.html
-            text: IRCAM Verb
+            text: IRCAM-Tools Verb
           - href: /ircam-verb-session/index.html
-            text: IRCAM Verb Session
+            text: IRCAM-Tools Verb Session
           - href: /pure-compressor/index.html
             text: Pure Compressor
           - href: /pure-dcompressor/index.html
@@ -72,7 +72,7 @@ website:
           - href: /elixir-v3/index.html
             text: Elixir V3
           - href: /ircam_spat/index.html
-            text: IRCAM SPAT
+            text: IRCAM-Tools SPAT
           - href: /junger-level-magic/index.html
             text: Jünger Level Magic
 
