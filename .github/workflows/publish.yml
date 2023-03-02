@@ -21,198 +21,43 @@ jobs:
           version: 1.3.235
           tinytex: true
 
-      - name: Render and Publish Home
-        uses: quarto-dev/quarto-actions/publish@v2
-        with:
-          path: en_US/home
-          target: gh-pages
-
-      - name: Render and Publish alchemist
-        uses: quarto-dev/quarto-actions/publish@v2
-        with:
-          path: en_US/alchemist
-          target: gh-pages
-
-      - name: Render and Publish analyzer
-        uses: quarto-dev/quarto-actions/publish@v2
-        with:
-          path: en_US/analyzer
-          target: gh-pages
-
-      - name: Render and Publish bittersweet
-        uses: quarto-dev/quarto-actions/publish@v2
-        with:
-          path: en_US/bittersweet
-          target: gh-pages
-
-      - name: Render and Publish bittersweet-pro
-        uses: quarto-dev/quarto-actions/publish@v2
-        with:
-          path: en_US/bittersweet-pro
-          target: gh-pages
-
-      - name: Render and Publish elixir
-        uses: quarto-dev/quarto-actions/publish@v2
-        with:
-          path: en_US/elixir
-          target: gh-pages
-
-      - name: Render and Publish elixir-v3
-        uses: quarto-dev/quarto-actions/publish@v2
-        with:
-          path: en_US/elixir-v3
-          target: gh-pages
-
-      - name: Render and Publish epure
-        uses: quarto-dev/quarto-actions/publish@v2
-        with:
-          path: en_US/epure
-          target: gh-pages
-
-      - name: Render and Publish evo-channel
-        uses: quarto-dev/quarto-actions/publish@v2
-        with:
-          path: en_US/evo-channel
-          target: gh-pages
-
-      - name: Render and Publish evo-comp
-        uses: quarto-dev/quarto-actions/publish@v2
-        with:
-          path: en_US/evo-comp
-          target: gh-pages
-
-      - name: Render and Publish evo-comp
-        uses: quarto-dev/quarto-actions/publish@v2
-        with:
-          path: en_US/evo-comp
-          target: gh-pages
-
-      - name: Render and Publish evo-comp
-        uses: quarto-dev/quarto-actions/publish@v2
-        with:
-          path: en_US/evo-comp
-          target: gh-pages
-
-      - name: Render and Publish evo-eq
-        uses: quarto-dev/quarto-actions/publish@v2
-        with:
-          path: en_US/evo-eq
-          target: gh-pages
-
-      - name: Render and Publish evo-in
-        uses: quarto-dev/quarto-actions/publish@v2
-        with:
-          path: en_US/evo-in
-          target: gh-pages
-
-      - name: Render and Publish evo-touch
-        uses: quarto-dev/quarto-actions/publish@v2
-        with:
-          path: en_US/evo-touch
-          target: gh-pages
-
-      - name: Render and Publish ircam-hear
-        uses: quarto-dev/quarto-actions/publish@v2
-        with:
-          path: en_US/ircam-hear
-          target: gh-pages
-
-      - name: Render and Publish ircam-spat
-        uses: quarto-dev/quarto-actions/publish@v2
-        with:
-          path: en_US/ircam-spat
-          target: gh-pages
-
-      - name: Render and Publish ircam-trax
-        uses: quarto-dev/quarto-actions/publish@v2
-        with:
-          path: en_US/ircam-trax
-          target: gh-pages
-
-      - name: Render and Publish ircam-verb
-        uses: quarto-dev/quarto-actions/publish@v2
-        with:
-          path: en_US/ircam-verb
-          target: gh-pages
-
-      - name: Render and Publish ircam-verb-session
-        uses: quarto-dev/quarto-actions/publish@v2
-        with:
-          path: en_US/ircam-verb-session
-          target: gh-pages
-
-      - name: Render and Publish junger-level-magic
-        uses: quarto-dev/quarto-actions/publish@v2
-        with:
-          path: en_US/junger-level-magic
-          target: gh-pages
-
-      - name: Render and Publish pure-compressor
-        uses: quarto-dev/quarto-actions/publish@v2
-        with:
-          path: en_US/pure-compressor
-          target: gh-pages
-
-      - name: Render and Publish pure-dcompressor
-        uses: quarto-dev/quarto-actions/publish@v2
-        with:
-          path: en_US/pure-dcompressor
-          target: gh-pages
-
-      - name: Render and Publish pure-dexpander
-        uses: quarto-dev/quarto-actions/publish@v2
-        with:
-          path: en_US/pure-dexpander
-          target: gh-pages
-
-      - name: Render and Publish pure-expander
-        uses: quarto-dev/quarto-actions/publish@v2
-        with:
-          path: en_US/pure-expander
-          target: gh-pages
-
-      - name: Render and Publish pure-limiter
-        uses: quarto-dev/quarto-actions/publish@v2
-        with:
-          path: en_US/pure-limiter
-          target: gh-pages
-
-      - name: Render and Publish solera
-        uses: quarto-dev/quarto-actions/publish@v2
-        with:
-          path: en_US/solera
-          target: gh-pages
-
-      - name: Render and Publish spat-revolution
-        uses: quarto-dev/quarto-actions/publish@v2
-        with:
-          path: en_US/spat-revolution
-          target: gh-pages
-
-      - name: Render and Publish stereotool
-        uses: quarto-dev/quarto-actions/publish@v2
-        with:
-          path: en_US/stereotool
-          target: gh-pages
-
-      - name: Render and Publish studio-session-analyser
-        uses: quarto-dev/quarto-actions/publish@v2
-        with:
-          path: en_US/studio-session-analyser
-          target: gh-pages
-
-      - name: Render and Publish studio-session-plugins
-        uses: quarto-dev/quarto-actions/publish@v2
-        with:
-          path: en_US/studio-session-plugins
-          target: gh-pages
-
-      - name: Render and Publish syrah
-        uses: quarto-dev/quarto-actions/publish@v2
-        with:
-          path: en_US/syrah
-          target: gh-pages
-
-
+      - name: Render all Quarto projects
         env:
+          QUARTO_PRINT_STACK: true
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          quarto render en_US/alchemist
+          # quarto render en_US/analyzer
+          quarto render en_US/bittersweet
+          quarto render en_US/bittersweet-pro
+          quarto render en_US/elixir
+          quarto render en_US/elixir-v3
+          quarto render en_US/epure
+          quarto render en_US/evo-channel
+          quarto render en_US/evo-comp
+          quarto render en_US/evo-eq
+          quarto render en_US/evo-in
+          quarto render en_US/evo-touch
+          quarto render en_US/ircam-hear
+          quarto render en_US/ircam-spat
+          quarto render en_US/ircam-trax
+          quarto render en_US/ircam-verb
+          quarto render en_US/ircam-verb-session
+          quarto render en_US/junger-level-magic
+          quarto render en_US/pure-compressor
+          quarto render en_US/pure-dcompressor
+          quarto render en_US/pure-dexpander
+          quarto render en_US/pure-expander
+          quarto render en_US/pure-limiter
+          quarto render en_US/solera
+          # quarto render en_US/spat-revolution
+          quarto render en_US/stereotool
+          quarto render en_US/studio-session-analyser
+          quarto render en_US/studio-session-plugins
+          quarto render en_US/syrah
+          quarto render en_US/home
+          echo "QUARTO_OUTPUT=_build" >> $GITHUB_ENV
+          
+        with:
+          target: gh-pages
+        shell: bash
