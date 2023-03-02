@@ -35,7 +35,7 @@ The main limitations of the **Essential** license are:
 ## Ultimate and Essential sessions compatibility
 
 When creating or opening a session that contains elements non-compatible with the **Essential** license, those elements are simply deactivated (not processed).
-Thus, an **Ultimate** session can be opened with an **Essential** license and vice-versa. See [Modules (de)activation and sessions compatibility](Spat_Environment_Modules_de_activation.md).
+Thus, an **Ultimate** session can be opened with an **Essential** license and vice-versa. See [Modules (de)activation and sessions compatibility -@module-de-activation].
 
 ### Check Essential compatibility
 
@@ -49,7 +49,7 @@ If the session is not compatible, it can be opened with an **Essential** license
 If a session contains elements non-compatible with an **Essential** license, they can be manually deactivated for the session to fit the **Essential** license restrictions. If all the non-authorized elements are inactive, the session is considered as compatible with **Essential** license.
 :::
 
-See [Modules (de)activation](Spat_Environment_Modules_de_activation.md) for more information about automatic and manual (de)activation.
+See [Modules (de)activation -@module-de-activation] for more information about automatic and manual (de)activation.
 
 ### Essential compatibility mode in Ultimate
 

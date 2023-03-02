@@ -63,7 +63,7 @@ Three important dependencies to consider when using VBAP:
  3. 2D Speakers should be on the same horizontal plane as the ears.
  4. VBAP works best when the listening room is not very reverberant.
 
-*See the [Alignment](Spat_Environment_Speaker_Arrangement_Editor.md#alignment-section) section: the speaker alignment feature provides the impression that the actual speakers are equidistant even when they are not.
+*See the [Alignment -@speaker-editor-alignment] section: the speaker alignment feature provides the impression that the actual speakers are equidistant even when they are not.
 
 ## Vector Base Intensity (VBIP)
 
@@ -115,7 +115,7 @@ DBAP localizes sounds towards arbitrarily positioned speakers in a space using a
 Speakers can be freely positioned when using DBAP - look for reflections and reverberations in a room to enhance spatial aspects.
 :::
 
-## K-Nearest Neighbor (KNN) {#panType-KNN}
+## K-Nearest Neighbor (KNN) {#sec-panType-KNN}
 
 KNN is another panning type that does not depend on a _Sweet Spot_ to be perceived correctly. It is a version of a 'Nearest-neighbor' interpolation algorithm. This family of algorithms are also used in the fields of complex systems, 3D graphics and network science to name a few. In _SPAT Revolution_, you can sonically explore a network of loudspeakers using this panning type and some virtual sound sources.
 

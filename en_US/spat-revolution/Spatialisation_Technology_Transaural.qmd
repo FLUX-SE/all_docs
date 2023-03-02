@@ -8,4 +8,4 @@ The term _Transaural_ refers only to the transcoding of binaural signals into lo
  To successfully achieve cross-talk cancellation, it is assumed that the listener _will be placed at a particular position with respect to the loudspeaker pair_, or the spatial information will not be properly perceived. The loudspeaker pair need to be positioned as a regular stereo setup, Left at -30 degrees and Right at +30 degrees.
 :::
 
-An optimum listening position such as that needed for Transaural decoding, is also known as the _Sweet Spot_ (see [_Listener Position_](Spatialisation_Technology_Listener_Position.md)). It is a fundamental concept to be aware of as we move into the next section: _Channel Based_ streams and panning algorithms.
+An optimum listening position such as that needed for Transaural decoding, is also known as the _Sweet Spot_ (see [_Listener Position_ -@listener-position]). It is a fundamental concept to be aware of as we move into the next section: _Channel Based_ streams and panning algorithms.

@@ -1,4 +1,4 @@
-# Source Parameters {#sources-parameters}
+# Source Parameters {#sec-sources-parameters}
 
 ## Room specific gain
 
@@ -8,7 +8,7 @@ New on the 22.02 build, this parameter allows to trim the source gain on each ro
 
 Only the parameter dedicated to the current room will be displayed, but it's possible to display all the specific gains using the filter and selecting "Room gain". 
 
-## Perceptual Factors {#sources-parameters-perceptual-factor}
+## Perceptual Factors {#sec-sources-parameters-perceptual-factor}
 
 ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Room/SourcePerceptualFactors.png)
 

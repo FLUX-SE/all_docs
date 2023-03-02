@@ -1,4 +1,4 @@
-# Listener Position
+# Listener Position {#sec-listener-position}
 
 The impression of positioned audio which is rendered on a speaker array is generally successful when a listener is situated in the optimum position to perceive it, the so-called _Sweet Spot_. Thanks to the popularity of stereo sound, people tend to know that if you want to hear a good stereo image, you should place yourself in front of the two speakers and stand somewhere in the middle. That’s a good way to describe the _Sweet Spot_ to an audience or client.
 

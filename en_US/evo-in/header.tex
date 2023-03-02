@@ -1,0 +1,17 @@
+\usepackage[automark,headsepline]{scrlayer-scrpage}
+
+% \usepackage{kantlipsum}
+
+\deftripstyle{srcreprt}
+  [0pt]
+  [0pt]
+  {}
+  {}
+  {}
+  {Copyright (c) 2023 FLUX:: SE, All Rights Reserved.}
+  {}
+  {\thepage}
+
+\pagestyle{srcreprt}
+% use "pagestyle" also on chapter starting pages
+\renewcommand{\chapterpagestyle}{srcreprt}

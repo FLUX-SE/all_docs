@@ -7,8 +7,8 @@ This is where you will generally start a project by designing the signal-flow gr
 
 The _Environment Setup_ editor is a modular environment. The signal flow starts from the inputs at the top of the graph and concludes with the outputs at the bottom. You add modules to rows using the small ```+``` icon to the left of the window. Modules are:
 
-* [Inputs](Spat_Environment_Input_Modules.md)
-* [Input Transcoders](Spat_Environment_Input_Transcoder_Modules.md)
+* [Inputs -@sec-input-modules]
+* [Input Transcoders -@sec-input-transcoder-module]
 * [Sources](Spat_Environment_Source_Room_Modules.md)
 * [Rooms](Spat_Environment_Source_Room_Modules.md)
 * [Sums](Spat_Environment_Master_Section_Modules.md)

@@ -1,4 +1,4 @@
-# Session compatibility and modules (de)activation
+# Session compatibility and modules (de)activation {#sec-module-de-activation}
 
 _SPAT Revolution_ Essential version aims at being a limited version of Ultimate one. Then, it has the same workflow but limited capacities.
 

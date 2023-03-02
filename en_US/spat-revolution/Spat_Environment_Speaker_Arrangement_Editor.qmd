@@ -1,4 +1,4 @@
-# Speaker Arrangement Window
+# Speaker Arrangement Window {#sec-speaker-editor}
 
 :::{.callout-note}
 The speaker arrangement editor window showing a predefined 13.1 Auro 3D speaker arrangement.
@@ -46,7 +46,7 @@ Open the **speaker arrangement editor** by clicking on the ```Edit``` button of 
 
 **Reset:** revert the *compute* process.
 
-**Compute:** opens a dialog to help to set delay and gain on the speaker arrangement. More information of the [dedicated section below -@spkrArr-editor-alignment]
+**Compute:** opens a dialog to help to set delay and gain on the speaker arrangement. More information of the [dedicated section below -@speaker-editor-alignment]
 
 ### Selected or all speakers section
 
@@ -149,7 +149,7 @@ Error displayed with HOA panning type.
 
 For more information about each pan law, check out the section [Panning algorithms](Spatialisation_Technology_Panning_Algorithms.md).
 
-## Alignment {#spkrArr-editor-alignment}
+## Alignment {#sec-speaker-editor-alignment}
 
 ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/AlignmentDialog.png)
 

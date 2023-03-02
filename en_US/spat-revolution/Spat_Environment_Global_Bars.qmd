@@ -73,5 +73,5 @@ This toolbar has been designed to help to handle snapshots without navigating to
 _This bar can be hided on the snapshot panel of the __Preference__ page._
 
 :::{.callout-note}
-More information about snapshot can be found on the **[snapshots page](Spat_Environment_Snapshot_Page.md)**.
+More information about snapshot can be found on the **[snapshots page -@snapshot]**.
 :::
