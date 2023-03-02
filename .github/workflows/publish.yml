@@ -57,7 +57,4 @@ jobs:
           quarto render en_US/syrah
           quarto render en_US/home
           echo "QUARTO_OUTPUT=_build" >> $GITHUB_ENV
-          
-        with:
-          target: gh-pages
         shell: bash
