@@ -27,34 +27,34 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           quarto render en_US/alchemist
-          # quarto render en_US/analyzer
-          # quarto render en_US/bittersweet
-          # quarto render en_US/bittersweet-pro
-          # quarto render en_US/elixir
-          # quarto render en_US/elixir-v3
-          # quarto render en_US/epure
-          # quarto render en_US/evo-channel
-          # quarto render en_US/evo-comp
-          # quarto render en_US/evo-eq
-          # quarto render en_US/evo-in
-          # quarto render en_US/evo-touch
-          # quarto render en_US/ircam-hear
-          # quarto render en_US/ircam-spat
-          # quarto render en_US/ircam-trax
-          # quarto render en_US/ircam-verb
-          # quarto render en_US/ircam-verb-session
-          # quarto render en_US/junger-level-magic
-          # quarto render en_US/pure-compressor
-          # quarto render en_US/pure-dcompressor
-          # quarto render en_US/pure-dexpander
-          # quarto render en_US/pure-expander
-          # quarto render en_US/pure-limiter
-          # quarto render en_US/solera
-          # quarto render en_US/spat-revolution
-          # quarto render en_US/stereotool
-          # quarto render en_US/studio-session-analyser
-          # quarto render en_US/studio-session-plugins
-          # quarto render en_US/syrah
+          quarto render en_US/analyzer
+          quarto render en_US/bittersweet
+          quarto render en_US/bittersweet-pro
+          quarto render en_US/elixir
+          quarto render en_US/elixir-v3
+          quarto render en_US/epure
+          quarto render en_US/evo-channel
+          quarto render en_US/evo-comp
+          quarto render en_US/evo-eq
+          quarto render en_US/evo-in
+          quarto render en_US/evo-touch
+          quarto render en_US/ircam-hear
+          quarto render en_US/ircam-spat
+          quarto render en_US/ircam-trax
+          quarto render en_US/ircam-verb
+          quarto render en_US/ircam-verb-session
+          quarto render en_US/junger-level-magic
+          quarto render en_US/pure-compressor
+          quarto render en_US/pure-dcompressor
+          quarto render en_US/pure-dexpander
+          quarto render en_US/pure-expander
+          quarto render en_US/pure-limiter
+          quarto render en_US/solera
+          quarto render en_US/spat-revolution
+          quarto render en_US/stereotool
+          quarto render en_US/studio-session-analyser
+          quarto render en_US/studio-session-plugins
+          quarto render en_US/syrah
           quarto render en_US/home
           echo "QUARTO_OUTPUT=_build" >> $GITHUB_ENV
         shell: bash
