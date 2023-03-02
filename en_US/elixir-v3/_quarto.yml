@@ -1,10 +1,7 @@
-docSection: "Processing"
-docSubsection: ""
-
 project:
   type: book
-  output-dir: ../../_build/elixir-v3 ####### <=========== Don't forget to edit path if renaming is needed. YAML don't support concatenation
-
+  output-dir: ../../_build/elixir-v3
+  
 book:
   title: "Elixir V3 (Legacy)"
   author: "FLUX:: Immersive"
@@ -18,9 +15,8 @@ book:
     - Authorization.qmd
     - User_interface.qmd
     - Technical_Details.qmd
-    #- Measurements.qmd
-
-#[Release Notes](../../flux_processing_release_notes.md)
+  appendices:
+    - ../flux_processing_release_notes.qmd
 
 
 format:
@@ -30,3 +26,4 @@ format:
   pdf:
     documentclass: scrreport
     default-image-extension: png
+    include-in-header: ../fluxtemplate.tex

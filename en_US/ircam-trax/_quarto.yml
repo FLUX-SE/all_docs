@@ -1,9 +1,6 @@
-docSection: "Processing"
-docSubsection: ""
-
 project:
   type: book
-  output-dir: ../../_build/ircam-trax ####### <=========== Don't forget to edit path if renaming is needed. YAML don't support concatenation
+  output-dir: ../../_build/ircam-trax
 
 book:
   title: "IRCAM Trax"
@@ -31,9 +28,8 @@ book:
     - Presets_Management.qmd
     - Credits.qmd
     - Specifications.qmd
-    
-#[Release Notes](../../flux_processing_release_notes.md)
-
+  appendices:
+    - ../flux_processing_release_notes.qmd
 
 format:
   html:
@@ -42,3 +38,4 @@ format:
   pdf:
     documentclass: scrreport
     default-image-extension: png
+    include-in-header: ../fluxtemplate.tex

@@ -64,9 +64,11 @@ Configuring SPAT Revolution requires to set the OSC Connection Input and Output 
 - Access the SPAT Revolution preference page and reach the OSC Connection section.
 
 - Add the input | SPAT Remote server preset
+
 ![SPAT Revolution OSC Connection Input](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/SPATRevolutionRemoteSPATOSCConnectionIn.png)
 
 - Add the output| SPAT Remote server preset
+
 ![SPAT Revolution OSC Connection Output](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/SPATRevolutionRemoteSPATOSCConnectionOut.png)
 
 :::{.callout-note}

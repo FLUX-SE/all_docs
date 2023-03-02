@@ -97,3 +97,4 @@ format:
   pdf:
     documentclass: scrreport
     default-image-extension: png
+    include-in-header: ../fluxtemplate.tex

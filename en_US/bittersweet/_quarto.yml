@@ -1,10 +1,7 @@
-docSection: "Processing"
-docSubsection: ""
-
 project:
   type: book
-  output-dir: ../../_build/bittersweet ####### <=========== Don't forget to edit path if renaming is needed. YAML don't support concatenation
-
+  output-dir: ../../_build/bittersweet
+  
 book:
   title: "Bittersweet"
   author: "FLUX:: Immersive"
@@ -12,6 +9,8 @@ book:
   downloads: [pdf]
   chapters:
     - index.qmd
+  appendices:
+    - ../flux_processing_release_notes.qmd
 
 #[Release Notes](../../flux_processing_release_notes.md)
 
@@ -22,3 +21,4 @@ format:
   pdf:
     documentclass: scrreport
     default-image-extension: png
+    include-in-header: ../fluxtemplate.tex

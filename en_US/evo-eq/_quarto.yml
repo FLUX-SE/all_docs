@@ -1,9 +1,6 @@
-docSection: "Processing"
-docSubsection: ""
-
 project:
   type: book
-  output-dir: ../../_build/evo-eq ####### <=========== Don't forget to edit path if renaming is needed. YAML don't support concatenation
+  output-dir: ../../_build/evo-eq
 
 book:
   title: "Evo EQ"
@@ -19,7 +16,8 @@ book:
     - Preset_Management.qmd
     - Preset_Manager.qmd
     - Specifications.qmd
-#[Release Notes](../../flux_processing_release_notes.md)
+  appendices:
+    - ../flux_processing_release_notes.qmd
 
 
 format:
@@ -29,3 +27,4 @@ format:
   pdf:
     documentclass: scrreport
     default-image-extension: png
+    include-in-header: ../fluxtemplate.tex

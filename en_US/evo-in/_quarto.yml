@@ -13,8 +13,8 @@ book:
     - Module_Settings.qmd
     - Plugin_Settings.qmd
     - Specifications.qmd
-  license: "Copyright Acme, Inc. 2021. All Rights Reserved"
-#[Release Notes](../../flux_processing_release_notes.md)
+  appendices:
+    - ../flux_processing_release_notes.qmd
 
 
 format:
@@ -24,4 +24,4 @@ format:
   pdf:
     documentclass: scrreprt
     default-image-extension: png
-    include-in-header: header.tex
+    include-in-header: ../fluxtemplate.tex

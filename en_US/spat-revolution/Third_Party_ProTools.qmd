@@ -41,6 +41,7 @@ The [Avid Pro Tools Session Templates](https://public.3.basecamp.com/p/N48YKyqnB
 :::
 
 After copying the templates to the proper folder, they will appear in the template in the Pro Tools dashboard:
+
 ![Create a new session](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/ProToolsTemplates.png)
 
 All accompanying  _SPAT Revolution_ .JSON session file for the above templates are available as a single download as well:

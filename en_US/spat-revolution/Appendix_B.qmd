@@ -135,6 +135,7 @@ Included in release version 20.12 is the ability to display performance (CPU) me
 _SPAT Revolution_ v20.12 introduced a new Multi-Core Parallel Computation Algorithm that is key to optimizing your hardware. This is for both the automation and the audio processing. The **Display Performance** option stated above will be our best ally to monitor the results. This can be accessed with shortcuts ```Shift + Option + Command + P.```
 
 The Engine Preference section includes three Profiles for parallel processing
+
 ![New updated Engine Preference Section](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Preference/Engine.png)
 
 **Automation Rate** provides the ability to set the refresh rate (frequency) of the automation. By default, we use 10.0 ms (100.00 fps). This can be decreased to lower the frequency if you see that automation is becoming a burden for your system with such a fast refresh.

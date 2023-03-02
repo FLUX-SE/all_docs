@@ -41,6 +41,7 @@ These control parameters (OSC messages) going out to _SPAT Revolution_ source/ob
 The provided template has all these configurations done for you but you can decide to customize with different or less parameters.
 
 **SSL OSC Device Configuration and Address for Switch**
+
 ![SSL Live SPAT OSC Swiches](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/SSLOSCDeviceConfigurationSwitches.png)
 
  

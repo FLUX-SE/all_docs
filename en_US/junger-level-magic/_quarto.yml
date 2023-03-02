@@ -1,10 +1,7 @@
-docSection: "Processing"
-docSubsection: ""
-
 project:
   type: book
-  output-dir: ../../_build/junger-level-magic ####### <=========== Don't forget to edit path if renaming is needed. YAML don't support concatenation
-
+  output-dir: ../../_build/junger-level-magic
+  
 book:
   title: "Jünger Level Magic"
   author: "FLUX:: Immersive"
@@ -17,9 +14,8 @@ book:
     - Preset_Manager_Window.qmd
     - Specifications.qmd
     - Open_Sound_Control_(OSC).qmd
-    
-#[Release Notes](../../flux_processing_release_notes.md)
-
+  appendices:
+    - ../flux_processing_release_notes.qmd
 
 format:
   html:
@@ -28,3 +24,4 @@ format:
   pdf:
     documentclass: scrreport
     default-image-extension: png
+    include-in-header: ../fluxtemplate.tex
