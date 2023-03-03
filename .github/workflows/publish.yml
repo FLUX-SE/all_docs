@@ -26,7 +26,7 @@ jobs:
           QUARTO_PRINT_STACK: true
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          for d in "en_US/*/"
+          for d in "[a-z][a-z]_[A-Z][A-Z]/*/"
           do
             echo "Rendering $d ..."
             quarto render "$d"
