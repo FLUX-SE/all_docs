@@ -9,7 +9,7 @@ title: "FLUX:: Documentation"
 
 ## Analysis
 
- - [FLUX:: Analyzer](anaylzer/index.html)
+ - [FLUX:: Analyzer](analyzer/index.html)
  - [Studio Session Analyzer](/studio-session-analyser/index.html)
 
 ## Evo Modules
@@ -38,10 +38,10 @@ title: "FLUX:: Documentation"
  - [Solera](/solera/index.html)
  - [Stereo Tool](/stereotool/index.html)
  - [Studio Session Plugins](/studio-session-plugins/index.html)
- - [Syrah](/Syrah/index.html)
+ - [Syrah](/syrah/index.html)
  
 ## Legacy
 
 - [Elixir v3](/elixir-v3/index.html)
-- [IRCAM-Tools Spat (Plugin)](/ircam_spat/index.html)
+- [IRCAM-Tools Spat (Plugin)](/ircam-spat/index.html)
 - [Jünger Level Magic](/junger-level-magic/index.html)
