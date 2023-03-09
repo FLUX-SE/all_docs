@@ -21,7 +21,7 @@ This special type of snapshot automates the acquisition of transfer function and
 
 Please check the following for proper operation:
 
-* [Generator output](12_Signal_generator_01_Signal_types.md)(s) should be properly assigned to the corresponding hardware channels .
+* [Generator output -@sec-signal-generator-types](s) should be properly assigned to the corresponding hardware channels .
 * Hardware IO should be properly configured and set to hardware output(s).
 * Sweep start/end frequencies should be set as desired.
 

@@ -1,5 +1,5 @@
 # Frequency scaling
-Scaling controls how the scaling applied to spectrum magnitudes. This is a global setting accessed through the [Main](02_User_Interface_04_Main_setup.md) setup panel.
+Scaling controls how the scaling applied to spectrum magnitudes. This is a global setting accessed through the [Main -@sec-user-interface-main-setup] setup panel.
 
 Scaling controls whether frequency-dependent amplitude scaling should be applied. This affects how various standard reference signals register on the display. The default <i>power</i> scaling will result in a signal with spectrum components of <i>constant power</i> registering as a flat curve, whilst amplitude will have the same effect for components of
 constant <i>amplitude</i> such as pure tones (sine signal).

@@ -1,4 +1,4 @@
-# IO Configuration
+# IO Configuration {#sec-io-config}
 ![IO configuration dialog](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Setup/IOSetup.png)
 
 ## Configuration
@@ -40,12 +40,12 @@ Keep in mind a display refresh rate of 60Hz means one frame lasts for approx. 16
 ## Control panel
 Opens the ASIO (Windows) / CoreAudio (MacOS) control panel for the selected soundcard driver, where you can make further settings depending on your particular hardware, such as routing, input gain etc.
 
-# Channels
+# Channels {#sec-io-config-channels}
 
 ## Max number of channels
 ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Setup/Channels.png)
 
-Selects the maximum number of channels to be used by the application, or equivalently the number of channels in the application I/O bus. You should set this according to the source material format you want to analyze and visualize. This determines notably how many real-time curves are displayed in the [Spectrum analyzer](03_Spectrum_analyzer_01_Basic_principles.md) view, whether the [Surround scope](06_Nebula_Surround_scope_01_Usage.md) is displayed, etc.
+Selects the maximum number of channels to be used by the application, or equivalently the number of channels in the application I/O bus. You should set this according to the source material format you want to analyze and visualize. This determines notably how many real-time curves are displayed in the [Spectrum analyzer -@sec-spectrum-analyzer-basic-principles] view, whether the [Surround scope -@sec-nebula-surround-scope-usage] is displayed, etc.
 
 :::{.callout-warning}
  **IMPORTANT!** - The Pure Analyzer Studio Session supports only 2 channels of audio.
@@ -67,12 +67,12 @@ The channels are labeled according to this configuration to make them easier to 
 
 ![Example of a output channel routing (hardware specific)](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Setup/OutputPatch.png)
 
-Selects one or two physical channels to which the [Signal generator](12_Signal_generator_01_Signal_types.md) output should be sent.
+Selects one or two physical channels to which the [Signal generator -@sec-signal-generator-types] output should be sent.
 
 >In case of stereo output, the signal is identical on both channels. This is provided as a facility for soundcards with minimal routing capabilities, and to avoid using a Y patch cable.
 
 # Channel 1 / Channel 2
-The following group of settings are displayed for every channel selected in [Channels](02_User_Interface_06_IO_Configuration?id=channels). The heading displays the channel number, followed by its name, and whether it corresponds to the reference or microphone input signal for the first two channels in [Live IO](11_Live_IO_00_Live_IO.md) mode.
+The following group of settings are displayed for every channel selected in [Channels -@sec-io-config-channels]. The heading displays the channel number, followed by its name, and whether it corresponds to the reference or microphone input signal for the first two channels in [Live IO -@sec-live-IO] mode.
 
 ## Phase invert
 When engaged, the phase of the corresponding channel is inverted in order to compensate for a reverse polarity somewhere else in the signal chain. Default is off.

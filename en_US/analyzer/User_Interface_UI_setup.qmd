@@ -1,4 +1,4 @@
-# UI Setup
+# UI Setup {#sec-ui-section}
 ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Setup/UISetup.png)
 
 :::{.callout-note}

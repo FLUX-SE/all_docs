@@ -1,4 +1,5 @@
-# SPL
+# SPL {#sec-metering-rms-metering-spl}
+
 ## SPL reference
 
 This is the reference level of the calibrator's output, indicated on the device itself or in the corresponding datasheet. 

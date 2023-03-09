@@ -14,12 +14,12 @@ A pass-trough device, or equivalently, a completely dead space such as an anecho
 The ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Generic/Play.png) button toggles the impulse response real-time update on and off.
 
 ## Delay Set
-The ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Generic/Set2Delay.png) delay Set button set value of the peak time location to the delay value currently set for microphone channels in the [Live IO](11_Live_IO_01_Introduction.md) panel.
+The ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Generic/Set2Delay.png) delay Set button set value of the peak time location to the delay value currently set for microphone channels in the [Live IO -@sec-live-IO-introduction] panel.
 
 If Real Time curve is disable, the Max value of the selected snapshot is used.
 
 ## Delay add
-The ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Generic/Add2Delay.png) delay add button adds value of the peak time location to the delay value currently set for microphone channels in the [Live IO](11_Live_IO_01_Introduction.md) panel.
+The ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Generic/Add2Delay.png) delay add button adds value of the peak time location to the delay value currently set for microphone channels in the [Live IO -@sec-live-IO-introduction] panel.
 
 If Real Time curve is disable, the Max value of the selected snapshot is used.
 

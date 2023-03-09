@@ -1,4 +1,4 @@
-# Principle of operation
+# Principle of operation {#sec-intial-setup-samplegrabber}
 
 Pure Analyzer System completely separates signal acquisition from analysis for maximum flexibility.
 

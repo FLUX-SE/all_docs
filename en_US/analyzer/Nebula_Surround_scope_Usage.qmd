@@ -1,4 +1,5 @@
-# Usage
+# Usage {#sec-nebula-surround-scope-usage}
+
 The Nebula | Surround scope displays a representation of how a surround signal's various components are distributed in a surround environment. 
 The inner region displays the location of the signal frequency components in the selected surround configuration, while the outer ring shows the phase-correlation between channels.
 

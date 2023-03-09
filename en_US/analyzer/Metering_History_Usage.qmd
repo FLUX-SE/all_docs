@@ -1,4 +1,4 @@
-# Usage
+# Usage {#sec-metering-history-usage}
 The metering history panel stores and displays the evolution of meters over time, with a red vertical bar indicating current time. 
 Start and end time-points of the period over which the history are displayed left and right in time-code format.
 

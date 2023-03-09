@@ -1,4 +1,5 @@
-# Time
+# Time {#sec-rms-metering-time}
+
 ## Integration
 
 Defines the meter integration time constant, in milliseconds. 

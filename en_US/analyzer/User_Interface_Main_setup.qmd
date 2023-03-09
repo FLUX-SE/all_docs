@@ -1,4 +1,4 @@
-# Main setup
+# Main setup {#sec-user-interface-main-setup}
 ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Setup/MainSetup.png)
 
 Main setup dialog
@@ -6,7 +6,7 @@ Main setup dialog
 ## Configuration
 Save / restore a user-defined configuration to and from disk,
 including all the settings in this panel, as well as [IO
-Configuration](02_User_Interface_06_IO_Configuration.md) and [UI Setup](02_User_Interface_05_UI_setup.md).
+Configuration -@sec-io-config] and [UI Setup -@sec-ui-section].
 
 ## SampleGrabber
 **SampleGrabber password**
@@ -32,7 +32,7 @@ Sets the frame-rate used for time display in various parts of
 the program. Set it to match the frame-rate of your source material to facilitate locating time events, when working with film, TV or other time-stamped material.
 
 ### Absolute Timecode
-This setting toggles between absolute and relative time-code display formats. Absolute Timecode is taken from the time the application was started. Relative Timecode is the time-elapsed since the Timecode offset position. See [metering history usage](08_Metering_History_01_Usage.md) for information on working with Timecode.
+This setting toggles between absolute and relative time-code display formats. Absolute Timecode is taken from the time the application was started. Relative Timecode is the time-elapsed since the Timecode offset position. See [metering history usage -@sec-metering-history-usage] for information on working with Timecode.
 
 ## Main
 
@@ -106,7 +106,7 @@ Available choices are:
 ## Averaging
 ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Setup/AveragingMode.png)
 
-[Time](07_Metering_01_RMS_Metering_06_Time.md) averaging: engages averaging of spectrum magnitudes over time. Default is off.
+[Time -@sec-rms-metering-time] averaging: engages averaging of spectrum magnitudes over time. Default is off.
 
 ### Mode
 

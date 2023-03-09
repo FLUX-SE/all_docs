@@ -1,4 +1,4 @@
-# Test signals
+# Test signals {#sec-system-analysis-test-signals}
 Pure Analyzer is designed to cover the broadest range of practical use cases, and does not impose a limitation on the measurement signal used.
 
 Traditionally, transfer curve and impulse response measurements are performed by feeding a specially designed test signal into the system, the most commonly employed being pink and white noise and swept sines. 
@@ -11,5 +11,5 @@ You are free to use any kind of test signal generator, outboard or plugin, provi
 A selection of plugins suitable for this task is shown in the chart below.
 
 :::{.callout-note}
-While Pure Analyzer does not impose any limitation on the test signal used, we recommend using the integrated [Signal generator](12_Signal_generator_01_Signal_types.md), which has been especially designed for this task. We conducted thorough tests on a wide panel of signal generators available as plugins or integrated into DAW software and found that many do not meet the requirements for performing accurate and reliable measurements.
+While Pure Analyzer does not impose any limitation on the test signal used, we recommend using the integrated [Signal generator -@sec-signal-generator-types], which has been especially designed for this task. We conducted thorough tests on a wide panel of signal generators available as plugins or integrated into DAW software and found that many do not meet the requirements for performing accurate and reliable measurements.
 :::
