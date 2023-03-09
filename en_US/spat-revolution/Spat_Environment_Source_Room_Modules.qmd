@@ -1,4 +1,4 @@
-# Sources & Rooms Module
+# Sources & Rooms Module {#sec-source-room-modules}
 
 ## Source module
 
@@ -6,7 +6,7 @@ Sources’ modules are very important and quite unique ones. This is where the o
 
 Sources’ modules associated metadata to incoming audio streams. Because of their object-oriented nature, **they can only input and output channel-based streams**. In practice, this means you cannot patch, for example, an ambisonic stream to a room, even if the room in question is ambisonic itself. It first needs to be transcoded by using and input transcoder.
 
-The so-called metadata is the source parameters, such as position and reverberation information. All these parameters are explained in the section [Source properties](Spat_Environment_Source.md).
+The so-called metadata is the source parameters, such as position and reverberation information. All these parameters are explained in the section [Source properties -@sec-sources].
 
 One source can be connected to several rooms. This is one of the advantages of the object-based mixing: it allows to create different mixes in different formats with the same exact information.
 
@@ -36,7 +36,7 @@ SPAT Revolution is able to receive data from RTTrPM open protocol tracking syste
  _RTTrPM protocol is not available with the **Essential** license of SPAT Revolution_.
 :::
 
-When you have correctly set up the BlackTrax protocol (see [BlackTrax Integration section](ThirdParty_BlackTrax.md)) then you can directly assign Tracking Number to virtual sources, and also to listener position (see [Listener position section](Spatialisation_Technology_Listener_Position.md)) for advanced virtual reality interactive audio projects.
+When you have correctly set up the BlackTrax protocol (see [BlackTrax Integration section -@sec-blacktrax]) then you can directly assign Tracking Number to virtual sources, and also to listener position (see [Listener position section -@sec-listener-position]) for advanced virtual reality interactive audio projects.
 
 ### Gain
 
@@ -67,7 +67,7 @@ The first thing to notice is that we can add any number of rooms. In the screens
 Allow renaming a room. 
 
 :::{.callout-warning}
- Rooms cannot share the same name!
+Rooms cannot share the same name!
 :::
 
 ### IO Configuration
@@ -84,7 +84,7 @@ Allow selecting the rendering type and the associated options.
 
 ### Tracking
 
-See [Listener position section](Spatialisation_Technology_Listener_Position.md).
+See [Listener position section -@sec-listener-position].
 
 ### Gain
 

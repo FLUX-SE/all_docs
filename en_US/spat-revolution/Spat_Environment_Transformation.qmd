@@ -1,4 +1,4 @@
-# Transformation
+# Transformation {#sec-transformation}
 
 It is possible to edit objects all at once using geometric transformation. In _SPAT Revolution_, these transformations are mathematical laws used to distribute points (in our case, speakers) in the space, and can be used in either speakers or sources. In other words, it can help to create circles, spheres or lines of speakers in second instead of minutes.
 
@@ -8,7 +8,7 @@ As with the custom speaker arrangement editor, we can apply some transformations
 
 To open the transform menu, right-click on a source in the source panel and choose "Transform." You can also use the shortcut ```CMD/CTRL + SHIFT + T```.
 
-Please check the section about [Speaker Arrangement](Spatialisation_Technology_Speaker_Arrangement.md) if you want more details about the different transform.
+Please check the section about [Speaker Arrangement -@sec-speaker-editor] if you want more details about the different transform.
 Sources’ transformations also include an integration time which allows to create smooth transition between the current and the new source position.
 
 ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Room/SourceTransform.png)

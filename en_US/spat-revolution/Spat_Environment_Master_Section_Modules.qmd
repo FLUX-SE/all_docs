@@ -1,4 +1,4 @@
-# Master Section
+# Master Section {#source-room-modules-master-section}
 
 The **Sum** row of modules is used to mix the output of two or more rooms of the same output configuration and in some contexts, to sum inputs directly without the use of room.
 

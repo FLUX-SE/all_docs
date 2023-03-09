@@ -1,4 +1,4 @@
-# Bitwig Studio
+# Bitwig Studio {#sec-bitwig}
 
 Bitwig Studio is a DAW designed in Berlin with a live hands on philosophy to it.
 Along with its highly animated and intuitive graphic interface, it offers well-designed clip-based and timeline arrangement paradigms for composing. 
@@ -49,5 +49,5 @@ These can be very easily mapped to SPAT SEND parameters for hands on control of 
 
 **Troubleshooting**
 
-For troubleshooting, please review the **[Appendix B - Troubleshooting](Appendix_B.md)**
+For troubleshooting, please review the **[Appendix B - Troubleshooting -@sec-trouble-shooting]**
 

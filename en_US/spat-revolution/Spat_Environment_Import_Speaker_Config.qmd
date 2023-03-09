@@ -1,4 +1,4 @@
-# Import Speaker Array
+# Import Speaker Array {#sec-import-speaker-array}
 
 For systems that are regularly changing such as in live production, setting up the speaker configuration in the simulation software and then  repeating it in the immersive software is not the most fun part!
 

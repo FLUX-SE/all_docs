@@ -1,4 +1,4 @@
-# Avid Pro Tools (2022 Update)
+# Avid Pro Tools (2022 Update) {#sec-protools}
 
 Avid Pro Tools is a leading DAW in the professional audio community and is far from new to the object-based mixing workflow.
 _SPAT Revolution_ can use the AAX version of its plug-in suite SEND, RETURN and ROOM to establish connection between Avid Pro Tools and the _SPAT Revolution_ environment.
@@ -67,7 +67,7 @@ You can download the following session templates and presets:
   **More object tracks can be added depending on audio interface and/or computer resources**
 :::
 
-For troubleshooting, please review the **[Appendix B - Troubleshooting](Appendix_B.md)**
+For troubleshooting, please review the **[Appendix B - Troubleshooting -@sec-trouble-shooting]**
 
 ## Setting Up Sync when using Local Audio Path (LAP)
 

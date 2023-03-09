@@ -1,4 +1,4 @@
-# Figure53 QLab
+# Figure53 QLab {#sec-qlab}
 
 Rock solid and fully featured show control program, based under a 'cue' based paradigm, QLab is great for manually sequencing multiple media and show type events, running video, sound, lights and virtually any type of control scripts through its easy-to-use interface.
 Some of the more advanced control features in QLab make the most of its native OSC network integration - which is why it becomes a great integration partner to _SPAT Revolution_.
@@ -96,7 +96,7 @@ Go to the OSC connection section of _SPAT Revolution_ and:
 On the QLab side, use the Network Patch settings to configure OSC destinations.
 One of them can be SPAT.
 
-You can now send OSC network cues from QLab to SPAT, and control **most if not all parameters** of this virtual environment using [Appendix C - OSC and ADM-OSC Table](Appendix_C_OSC_Table.md).
+You can now send OSC network cues from QLab to SPAT, and control **most if not all parameters** of this virtual environment using [Appendix C - OSC and ADM-OSC Table -@sec-appendix-osc-table].
 Once you get the hang of it, this is really very straightforward.
 
 ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/QLabTemplate.png)

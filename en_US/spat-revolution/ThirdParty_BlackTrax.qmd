@@ -1,4 +1,4 @@
-# BlackTrax integration
+# BlackTrax integration {#sec-blacktrax}
 
 Starting in SPAT version 1.1, a new UI implementation is available in order to integrate BlackTrax RTTrPM tracking protocol in SPAT. 
 This provides a way to map BlackTrax tracking beacons with SPAT source objects and SPAT room listeners. 

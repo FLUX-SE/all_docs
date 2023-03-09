@@ -1,4 +1,4 @@
-# Wave Field Synthesis
+# Wave Field Synthesis {#sec-WFS}
 
 ## Introduction
 

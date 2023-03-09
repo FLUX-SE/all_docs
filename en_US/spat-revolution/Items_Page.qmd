@@ -45,7 +45,7 @@ In addition to the common parameters, when the _Input_ item's type is selected, 
 In addition to the common parameters, when the _Source_ item's type is selected, the Items' Page allows quick edit of:
 
 - **Color**: select the color of the source.
-- **Room**: list the rooms' names the source belongs to. _The rows can be grouped by rooms. See [Group sources by rooms](Items_Page.md#Group sources by rooms)_
+- **Room**: list the rooms' names the source belongs to. _The rows can be grouped by rooms. See Group sources by rooms below_
 - **Speaker arrangement**: select the speaker arrangement of the source.
 - **Remote**: define if the source can be controlled by OSC or not.
 - **Remote number**: define the index of the source on OSC side. _If set to 0, the remote number is equal to the source number. Careful with this behavior: this will be edited with the source order._

@@ -1,4 +1,4 @@
-# Troubleshooting
+# Troubleshooting {#sec-trouble-shooting}
 
 ## Sync issues with LAP
 
@@ -37,7 +37,7 @@ If you are experiencing lost sync when using Local Audio:
 * Reopen  _SPAT Revolution_.
 
 
-Also, please be sure to carefully read the detailed advice of the various DAW in the **[Third party integration](Third_Party_Integration.md)** section of this guide and refer to the various provided templates.
+Also, please be sure to carefully read the detailed advice of the various DAW in the **[Third party integration -@sec-third-party]** section of this guide and refer to the various provided templates.
 
 
 ## SPAT Send and Return DAW
@@ -119,7 +119,7 @@ Changing the Edit Frame Rate will reduce pressure on the graphics updates and im
 
 The latest release of _SPAT Revolution_ includes a new Multi-Core Parallel Computation Algorithm. In the preference of _SPAT Revolution_, in the Engine section at the bottom, you can choose various computer hardware presets that match your setup. This is a simple step to tuning the computation algorithm.
 
-If you are still experiencing performance and sync issues, you may want to ensure that your hardware configuration meets the **[_SPAT Revolution_ requirements and recommendations](Appendix_A.md)**
+If you are still experiencing performance and sync issues, you may want to ensure that your hardware configuration meets the **[_SPAT Revolution_ requirements and recommendations -@sec-specifications]**
 
 Consider as well to kill as many processes not required as possible (Wi-Fi/internet, background services and activity).
 

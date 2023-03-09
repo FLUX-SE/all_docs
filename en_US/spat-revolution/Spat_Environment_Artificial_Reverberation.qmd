@@ -1,4 +1,4 @@
-# Artificial Reverberation
+# Artificial Reverberation {#artificial-reverb}
 
 Each _Virtual Room_ in SPAT can have its own artificial reverberation.
 Reverberation is a very important element in the psycho-acoustic perception of localised sources and immersive sound fields.

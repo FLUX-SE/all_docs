@@ -1,4 +1,4 @@
-# Panning Algorithms
+# Panning Algorithms {#sec-panning-algorithms}
 
 There has been a lot of scientific and artistic works to discover new methods for the electronic reproduction of audio signals to achieve the sensory impression that sounds are positioned in the space between speakers, rather than only coming from a single speaker. One of the underlying mechanisms that makes it possible to position sounds or make it seem like sounds are moving around the listener, is conventionally referred to as _panning_.
 

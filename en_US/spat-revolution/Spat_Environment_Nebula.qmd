@@ -1,4 +1,4 @@
-# Nebula Spatial Spectrogram
+# Nebula Spatial Spectrogram {#sec-nebula}
 
 _Nebula_ is a technology adapted from our flagship **FLUX:: Analyzer System**, a suite of highly regarded professional mastering and mixing visualization tools.
 

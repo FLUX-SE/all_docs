@@ -1,11 +1,12 @@
-# Open Sound Control
-## Introduction to Generic OSC
+# Open Sound Control {#sec-spat-osc}
+
+## Introduction to Generic OSC {#sec-intro-osc}
 
 ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Preference/OSCMain.png)
 
 If you are developing your own control systems to integrate with SPAT, you might find it useful to know that it is possible to export a detailed description of all OSC patterns, syntax and usage to a text file for reference.
 You will find that option in the SPAT preferences.
-You will also find a complete [OSC table](Appendix_C_OSC_Table.md) in the appendix.
+You will also find a complete [OSC table -@sec-appendix-osc-table] in the appendix.
 
 :::{.callout-note}
 Enable commands log will display the received and emitted OSC messages in the log windows to confirm you are receiving data. ```Shift + F7 ``` will open the log window.
@@ -35,7 +36,7 @@ If this option is switched in, then the messages will be of the pattern
 
 where ```i``` is an integer denoting the remote number of the target, and ```f``` according to convention is a float denoting the values of the message.
 
-For more details about the SPAT Revolution OSC dictionary and its usage syntax please refer to [Appendix C](Appendix_C_OSC_Table.md).
+For more details about the SPAT Revolution OSC dictionary and its usage syntax please refer to [Appendix C -@sec-appendix-osc-table].
 
 The **output rate** allows changing how fast the engine will send OSC messages.
 The lower the value is, the more SPAT Revolution will send OSC message and the remote will display the changes, but it will also increase the stress on the CPU.

@@ -41,7 +41,7 @@ This guide works as a base and not an “end all be all”, any ideas on how to 
 ## Installation
 
 :::{.callout-note}
-If you already have a FLUX:: account as well as an iLok account and already have a SPAT Revolution License or Trial you can jump to the [next section of the guide](https://doc.flux.audio/#/en_US/spat_revolution_doc/Third_Party_Ableton_Live_Tools_for_SPAT_Revolution?id=tools).
+If you already have a FLUX:: account as well as an iLok account and already have a SPAT Revolution License or Trial you can jump to the next section of the guide.
 
 :::
 
@@ -221,7 +221,7 @@ The small windows poping up are the actual spat revolution plugins, on which the
 
 ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/Live_Tools/set_input_device)
 
-- Activate the OSC and set up the connection (find more about OSC configuration on the [OSC documentation section](Ecosystem_&_integration_OSC_Connections_Matrix.md):
+- Activate the OSC and set up the connection (find more about OSC configuration on the [OSC documentation section -@sec-intro-osc]:
 
 ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/Live_Tools/enable_OSC)
 

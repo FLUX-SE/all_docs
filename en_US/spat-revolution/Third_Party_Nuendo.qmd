@@ -1,4 +1,4 @@
-# Steinberg Nuendo
+# Steinberg Nuendo {#sec-nuendo}
 
 A tutorial on **[How to set up _SPAT Revolution_ with Nuendo](https://youtu.be/DIE2RiB_i8I)** is available here for a quick dive into this integration.  You can as well have a look at **SYNC: Steinberg Yamaha Network Channel on YouTube for [Nuendo 11 | _SPAT Revolution_ integration](https://www.youtube.com/watch?v=ZW6VveWqYuA)**.
 
@@ -22,12 +22,12 @@ You can download the following session templates:
 * **[Ambisonic HOA mixing NPR](https://public.3.basecamp.com/p/FgvZBZWodG9qUVCGtuXSxCFk)** is a template for using 3rd order HOA and binaural monitoring output formats.
 
 
-For troubleshooting, please review the **[Appendix B - Troubleshooting](Appendix_B.md)**.
+For troubleshooting, please review the **[Appendix B - Troubleshooting -@sec-trouble-shooting]**.
 
 
 ## Nuendo and External OSC rendering
 
-Starting with Nuendo V11, it is now possible to deploy object-oriented sessions using open sound control (OSC). This brings the possibility to send/receive metadata from/to the Nuendo object VST MultiPanner. This functionality allows the support of _SPAT Revolution_ as an external rendering engine using OSC thanks to the [ADM-OSC](Ecosystem_&_integration_ADM_OSC.md) initiative. More information and specifications on the **ADM-OSC** initiative can be found on the dedicated GitHub repository, [immersive-audio-live/ADM-OSC](https://github.com/immersive-audio-live/ADM-OSC).
+Starting with Nuendo V11, it is now possible to deploy object-oriented sessions using open sound control (OSC). This brings the possibility to send/receive metadata from/to the Nuendo object VST MultiPanner. This functionality allows the support of _SPAT Revolution_ as an external rendering engine using OSC thanks to the [ADM-OSC -@sec-adm-osc] initiative. More information and specifications on the **ADM-OSC** initiative can be found on the dedicated GitHub repository, [immersive-audio-live/ADM-OSC](https://github.com/immersive-audio-live/ADM-OSC).
 
 Once configured, you can playback or record object-oriented sessions (audio and metadata) for live production and immersive creations workflows while using _SPAT Revolution_ mixing and rendering capabilities.
 

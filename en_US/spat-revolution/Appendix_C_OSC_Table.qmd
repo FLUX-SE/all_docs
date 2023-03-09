@@ -1,4 +1,4 @@
-# Appendix C - OSC Table
+# Appendix C - OSC Table {#sec-appendix-osc-table}
 
 This table lists all the OSC message supported in  _SPAT Revolution_.
 

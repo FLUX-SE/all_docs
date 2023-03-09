@@ -35,7 +35,7 @@ Different options located on the **Snapshots page** could alter the snapshot run
 
 - Recall relative
 
-This option enable to keep differences between the current state and the current snapshots. More information about it [on the snapshot page section](Spat_Environment_Snapshot_Page.md).
+This option enable to keep differences between the current state and the current snapshots. More information about it [on the snapshot page section -@sec-snapshot].
 
 - Global
 
@@ -71,7 +71,7 @@ The recall of each section could be separately activated.
 
 # Handle snapshots with OSC
 
-Different snapshots actions could be launched by OSC messages. The complete list of them is available on the [OSC Table](Appendix_C_OSC_Table.md).
+Different snapshots actions could be launched by OSC messages. The complete list of them is available on the [OSC Table -@sec-appendix-osc-table].
 
 :::{.callout-note}
 Like sources and rooms, the index could be part of the message (```/snapshot/3/update```), or send as an argument (```/snapshot/update, 3```). All the example below will use it as part of the message.

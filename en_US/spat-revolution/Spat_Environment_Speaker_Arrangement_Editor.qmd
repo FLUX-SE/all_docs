@@ -36,7 +36,7 @@ Open the **speaker arrangement editor** by clicking on the ```Edit``` button of 
 
 **Rename:** rename the current speaker arrangement.
 
-**Import from:** allow importing a speaker configuration from a third-party software. See the [next section](Spat_Environment_Import_Speaker_Config.md) for more detail.
+**Import from:** allow importing a speaker configuration from a third-party software. See the [next section -@sec-speaker-editor] for more detail.
 
 **Export:** open a window to export a selection of speaker arrangement.
 
@@ -50,7 +50,7 @@ Open the **speaker arrangement editor** by clicking on the ```Edit``` button of 
 
 ### Selected or all speakers section
 
-**Transform:** modify the selected or all speakers according to a specified transformation. For more information about it, check out the [transformation section](Spat_Environment_Transformation.md).
+**Transform:** modify the selected or all speakers according to a specified transformation. For more information about it, check out the [transformation section -@sec-transformation].
 
 **Set orientation**: set the orientation of selected or all speakers.
 
@@ -147,7 +147,7 @@ There are five colors associated with the possible panning types:
 Error displayed with HOA panning type.
 :::
 
-For more information about each pan law, check out the section [Panning algorithms](Spatialisation_Technology_Panning_Algorithms.md).
+For more information about each pan law, check out the section [Panning algorithms -@sec-panning-algorithms].
 
 ## Alignment {#sec-speaker-editor-alignment}
 

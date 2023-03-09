@@ -1,4 +1,4 @@
-# SPAT Revolution specifications
+# SPAT Revolution specifications {#sec-specifications}
 
 ## Availability
 

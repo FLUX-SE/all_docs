@@ -1,4 +1,4 @@
-# Speaker Arrangement Editor
+# Speaker Arrangement Editor {#sec-speaker-editor}
 
 ![width=700, atl=_SPAT Revolution_ Speaker Config](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/SpeakerEditor1.png)
 
@@ -24,7 +24,7 @@ While there are many standardized speaker array, such as Dolby Surround, Atmos, 
 
 For such use case, it is possible to create custom speaker arrangements. Using a well-defined custom speaker arrangement will improve the sound stage and the overall impression of immersion of the audience. We always highly recommend taking the time to measure the position of the speakers of your system and to input them in _SPAT Revolution_.
 
-We also create a powerful automatic speaker alignment tool that aligns, in time and in level, all the speakers of the arrangement on the furthest away one. These "virtual" positions are used by _SPAT Revolution_ to process the sound stage through pan law. Please, check the [Speaker Arrangement Editor](Spat_Environment_Speaker_Arrangement_Editor.md) section for more information. 
+We also create a powerful automatic speaker alignment tool that aligns, in time and in level, all the speakers of the arrangement on the furthest away one. These "virtual" positions are used by _SPAT Revolution_ to process the sound stage through pan law. Please, check the [Speaker Arrangement Editor -@sec-speaker-editor] section for more information. 
 
 To make this task as easy as possible, _SPAT Revolution_ supports both cartesian and spherical coordinate system and can also import speaker configurations from third-party softwares, such as NS-1, Blueprint or ArrayCal.
 

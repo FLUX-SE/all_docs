@@ -15,7 +15,7 @@ website:
             text: IRCAM-Tools HEar
       - section: "Analysis"
         contents:
-          - href: anaylzer/index.html
+          - href: /analyzer/index.html
             text: "FLUX:: Analyzer"
           - href: /studio-session-analyser/index.html
             text: Studio Session Analyser
@@ -65,13 +65,13 @@ website:
             text: Stereo Tool
           - href: /studio-session-plugins/index.html
             text: Studio Session Plugins
-          - href: /Syrah/index.html
+          - href: /syrah/index.html
             text: Syrah
       - section: "Legacy"
         contents:
           - href: /elixir-v3/index.html
             text: Elixir V3
-          - href: /ircam_spat/index.html
+          - href: /ircam-spat/index.html
             text: IRCAM-Tools SPAT
           - href: /junger-level-magic/index.html
             text: Jünger Level Magic

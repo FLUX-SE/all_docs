@@ -1,4 +1,4 @@
-# Understanding the mixing zones
+# Understanding the mixing zones {#sec-understanding-3D-view}
 
 ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Room/3DView.png)
 
@@ -72,7 +72,7 @@ When a source is out of the efficiency zone, _SPAT Revolution_ offers three beha
 2. The source is muted
 3. It does nothing (default for pre 22.02 release sessions)
 
-This option can be set in the room’s output section. Check out the [Room section](Spat_Environment_Room.md) for more information.
+This option can be set in the room’s output section. Check out the [Room section -@sec-spat-rooms] for more information.
 
 :::{.callout-note}
 By default, the source is clamped to the border of the efficiency zone.
@@ -132,4 +132,4 @@ Most 3D speaker arrays have at least two speaker layers. Such layers are defined
 
 + Elevation clamping does not occur with distance-based pan law (KNN and WFS) when using 3D speaker array, except for the Z=0 plan. This prevents some jumps and aberrations in sound.
 + When using a 2D non-surrounding speaker array, efficiency and elevation clamping are tied together. If efficiency clamping is activated, _SPAT Revolution_ automatically switches on the elevation clamping. On the contrary, if elevation clamping is turned off, then, so is the efficiency clamping.
-+ WFS is the only case where it can make sense to put virtual sources in front of the speakers, to take advantages of the focus zone. This zone and the associated behaviour is detailed in the  [WFS Section](Spatialisation_Technology_WFS.md) of this user guide.
++ WFS is the only case where it can make sense to put virtual sources in front of the speakers, to take advantages of the focus zone. This zone and the associated behaviour is detailed in the  [WFS Section -@sec-spat-rooms] of this user guide.

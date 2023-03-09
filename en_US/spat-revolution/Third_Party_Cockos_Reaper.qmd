@@ -1,4 +1,4 @@
-# Cockos Reaper
+# Cockos Reaper {#sec-reaper}
 
 Reaper, a DAW developed by Cockos, is a reliable, fully-featured  and highly customisable digital audio workstation. 
 It is available to evaluate freely from https://www.reaper.fm/. 
@@ -7,9 +7,9 @@ It also features a great automation system which is important for precise compos
 It is one of the most complete flexible DAW regarding immersive sound production.
 
 
-Reaper integrates well with the SPAT plug-ins and the Local Audio Path workflow described in section **[SPAT PI : Local audio path](Ecosystem_&_integration_DAW_Automation_Local_Audio_Path.md)**.
+Reaper integrates well with the SPAT plug-ins and the Local Audio Path workflow described in section **[SPAT PI : Local audio path -@sec-lap]**.
 
-If you are using the Local Audio Path, it is also recommended reviewing the **[Appendix B - Troubleshooting](Appendix_B.md)** of this guide.
+If you are using the Local Audio Path, it is also recommended reviewing the **[Appendix B - Troubleshooting -@sec-trouble-shooting]** of this guide.
 
 ## Templates 
 
@@ -38,12 +38,12 @@ ReaVolution is an attempt to provide a customization to Reaper standard configur
 
 The ReaVolution package includes macros (scripts), customized toolbars, system behaviour preference enhancements and makes the integration of _SPAT Revolution_ to Reaper a charm.
 
-Please follow this link for more information on [ReaVolution](Third_Party_ReaVolution.md).
+Please follow this link for more information on [ReaVolution -@sec-reavolution].
 
 
 ## Setting Up Sync
 
-As described in section **[SPAT PI : Local audio path](Ecosystem_&_integration_DAW_Automation_Local_Audio_Path.md)**, when you are using the Local Audio path, the buffer size and sample rate must be matched in both _SPAT Revolution_ and Reaper. 
+As described in section **[SPAT PI : Local audio path -@sec-lap]**, when you are using the Local Audio path, the buffer size and sample rate must be matched in both _SPAT Revolution_ and Reaper. 
 In SPAT, you set this in the preferences and in Reaper in the Audio Device preferences.
 
 ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/ReaperPreferencesDevice.jpg)

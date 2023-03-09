@@ -1,4 +1,4 @@
-# Source
+# Source {#sec-sources}
 
 <!-- The next row transforms the inputs into virtual objects according to their configuration. This is what needs to happen so that a virtual source appears in a virtual room. If you try to connect an input directly into a room, SPAT will always put a source module in between.
 
@@ -31,7 +31,7 @@ If a source is a multichannel one, there will be only one number and one set of 
 Note that the source number can also be used for OSC automation if remote number is set to 0!
 :::
 
-The source's parameters are detailed on the next section, [Source Parameters](Spat_Environment_Source_Parameters.md).
+The source's parameters are detailed on the next section, [Source Parameters -@sec-sources-parameters].
 
 
 ## Basic interactions
@@ -66,17 +66,17 @@ The dot at the center of each cluster, where each virtual “channel emitter” 
 
 These complex spatial positioning algorithms are computed and controlled in real time using _SPAT Revolution’s_ advanced _Barycentric_ and relative direction source parameters.
 A group that may contain many elements can be transformed, scaled, moved and manipulated in complex ways, through only one set of controls.
-See dedicated section for a breakdown of the [**Source Parameters**](Spat_Environment_Source_Parameters.md).
+See dedicated section for a breakdown of the [**Source Parameters** -@sec-sources-parameters].
 
 ### Multiple Source Selection
 
 You can shift click on the Index number of separate sources to create an ad hoc edit group. When you have group Sources in this way, you can perform a number of group edit actions. When you right-Click on an ad hoc group selection, a menu will pop up where you can:
 
-- distribute the sources in the group with the [Transform panel](Spat_Environment_Transformation.md)
+- distribute the sources in the group with the [Transform panel -@sec-transformation]
 - generate different colors for the sources
 - reset the positions of the group
 
-When you have selected an ad hoc group using the shift click technique, you can then open the _[Source Parameter](Spat_Environment_Source_Parameters.md)_ panel by clicking on the property panel header 'fold arrow' as  shown in the screenshot below.
+When you have selected an ad hoc group using the shift click technique, you can then open the _[Source Parameter -@sec-sources-parameters]_ panel by clicking on the property panel header 'fold arrow' as  shown in the screenshot below.
 
 ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/ActionsMultiselection.png)
 
