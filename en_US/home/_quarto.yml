@@ -4,8 +4,19 @@ project:
 
 website:
   title: "FLUX:: Immersive Products Documentation"
+  navbar:
+    title: " "
+    logo: flux-logo.png
+    logo-href: https://www.flux.audio
+    right:
+      - icon: github
+        href: https://github.com/FLUX-SE/doc_images
+        aria-label: GitHub
+      - icon: house
+        href: index.html
   sidebar:
     search: true
+    collapse-level: 1
     contents:
       - section: "Immersive"
         contents:
@@ -78,6 +89,6 @@ website:
 
 format:
   html:
-    theme: cosmo
+    theme: superhero
     css: styles.css
     toc: true

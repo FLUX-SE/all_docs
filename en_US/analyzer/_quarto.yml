@@ -4,9 +4,6 @@ project:
 
 book:
    title: "FLUX:: Analyzer"
-   author: "FLUX:: Immersive"
-   date: "2/6/2023"
-   downloads: [pdf]
    chapters:
    - index.qmd
    - Pure_Analyzer_Pure-analyzer-versions.qmd
@@ -156,12 +153,5 @@ book:
       - Credits.qmd
       - flux_analyser_release_notes.qmd
 
-
-format:
-  html:
-    theme: cosmo
-    default-image-extension: gif
-  pdf:
-    documentclass: scrreport
-    default-image-extension: png
-    include-in-header: ../fluxtemplate.tex
+metadata-files: 
+  - ../_common.yaml

@@ -4,9 +4,6 @@ project:
   
 book:
   title: "Alchemist"
-  author: "FLUX:: Immersive"
-  date: "2/6/2023"
-  downloads: [pdf]
   chapters:
     - index.qmd
     - part: General_Settings_and_Display.qmd
@@ -26,14 +23,5 @@ book:
   appendices:
     - ../flux_processing_release_notes.qmd
 
-#[Release Notes](../../flux_processing_release_notes.md)
-
-
-format:
-  html:
-    theme: cosmo
-    default-image-extension: gif
-  pdf:
-    documentclass: scrreport
-    default-image-extension: png
-    include-in-header: ../fluxtemplate.tex
+metadata-files: 
+  - ../_common.yaml

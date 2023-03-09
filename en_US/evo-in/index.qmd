@@ -1,9 +1,10 @@
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Plugins/evo-in/ManualEvoIn-000.jpg)
+# Introduction
+
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Plugins/evo-in/ManualEvoIn-000.jpg){width=90%}
 
 [Product Page](https://www.flux.audio/project/evo-series/) 
 | [Shop Page](https://shop.flux.audio/en_US/products/evo-series-pack)
 
-# Introduction
 
 EVO In - Stay In Phase – Maintain The Vitality
 

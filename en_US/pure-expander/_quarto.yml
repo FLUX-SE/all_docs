@@ -4,9 +4,6 @@ project:
 
 book:
   title: "Pure Expander"
-  author: "FLUX:: Immersive"
-  date: "2/6/2023"
-  downloads: [pdf]
   chapters:
   - index.qmd
   - General_Settings.qmd
@@ -20,11 +17,5 @@ book:
   appendices:
     - ../flux_processing_release_notes.qmd
 
-format:
-  html:
-    theme: cosmo
-    default-image-extension: gif
-  pdf:
-    documentclass: scrreport
-    default-image-extension: png
-    include-in-header: ../fluxtemplate.tex
+metadata-files: 
+  - ../_common.yaml

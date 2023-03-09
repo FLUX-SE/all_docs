@@ -4,9 +4,6 @@ project:
 
 book:
    title: "SPAT Revolution"
-   author: "FLUX:: Immersive"
-   date: "2/6/2023"
-   downloads: [pdf]
    chapters:
    - index.qmd
    - Credits.qmd
@@ -89,12 +86,6 @@ book:
        text: "Appendix C - OSC message table"
      - href: Appendix_D_release_notes.qmd
        text: "Appendix D - Release notes"
-
-format:
-  html:
-    theme: cosmo
-    default-image-extension: gif
-  pdf:
-    documentclass: scrreport
-    default-image-extension: png
-    include-in-header: ../fluxtemplate.tex
+       
+metadata-files: 
+  - ../_common.yaml

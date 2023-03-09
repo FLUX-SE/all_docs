@@ -1,6 +1,6 @@
 # Evo Channel
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Plugins/evo-channel/ManualEvoChannel-000.jpg)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Plugins/evo-channel/ManualEvoChannel-000.jpg){width=90%}
 
 [Product Page](https://www.flux.audio/project/evo-series/) 
 | [Shop Page](https://shop.flux.audio/en_US/products/evo-series-pack)
@@ -16,5 +16,5 @@ providing everything you need to stay in control of your sound!
 
 ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Plugins/evo-channel/ManualEvoChannel-003.jpg)
 
-EVO Channel architecture :
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Plugins/evo-channel/ManualEvoChannel-005.png)
+
+![EVO Channel architecture](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Plugins/evo-channel/ManualEvoChannel-005.png)
