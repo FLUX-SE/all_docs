@@ -4,20 +4,16 @@ book:
   downloads: pdf
   sidebar:
     collapse-level: 1
-  page-footer:
-    center: 
-      - text: "Back to home page"
-        href: ../index.html
   navbar:
     title: " "
     logo: "../flux-logo.png"
-    logo-href: https://www.flux.audio
+    logo-href: ../index.html
     right:
       - icon: github
         href: https://github.com/FLUX-SE/doc_images
         aria-label: GitHub
       - icon: house
-        href: ../index.html
+        href: https://www.flux.audio
 
 format:
   html:
