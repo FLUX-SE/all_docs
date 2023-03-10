@@ -2,7 +2,8 @@ book:
   author: "FLUX:: Immersive"
   date: "2/6/2023"
   downloads: pdf
-
+  sidebar:
+    collapse-level: 1
   page-footer:
     center: 
       - text: "Back to home page"
