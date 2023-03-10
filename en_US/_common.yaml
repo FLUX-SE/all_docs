@@ -19,9 +19,13 @@ format:
   html:
     theme: superhero
     fig-align: center
+    number-section: true
+    number-depth: 2
     default-image-extension: gif
   pdf:
     documentclass: scrreport
     fig-align: center
     default-image-extension: png
+    number-sections: true
+    number-depth: 2
     include-in-header: ../fluxtemplate.tex

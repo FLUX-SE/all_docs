@@ -7,15 +7,12 @@ book:
    chapters:
    - index.qmd
    - Pure_Analyzer_Pure-analyzer-versions.qmd
-   - Initial_Setup_Introduction.qmd
+   - Credits.qmd
+   - Introduction.qmd
    - part: Initial Setup
      chapters:
-        - Initial_Setup_SampleGrabber_Principe_of_operation.qmd
-        - Initial_Setup_SampleGrabber_Network_Configuration.qmd
-        - Initial_Setup_SampleGrabber_Password.qmd
-        - Initial_Setup_Typical_configuration_Autonomous_mobile_configuration.qmd
-        - Initial_Setup_Typical_configuration_Digital_audio_workstation.qmd
-        - Initial_Setup_Typical_configuration_Avid_venue_console.qmd
+        - Initial_Setup_SampleGrabber.qmd
+        - Initial_Setup_Typical_configuration.qmd
    - part: User interface
      chapters:
         - User_Interface_Common_workflow_Mouse_commands_and_conventions.qmd
@@ -151,7 +148,6 @@ book:
         - System_Requirements_System_requirements.qmd
         - System_Requirements_Compatibility.qmd
    appendices:
-      - Credits.qmd
       - flux_analyser_release_notes.qmd
 
 metadata-files: 

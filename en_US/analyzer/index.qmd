@@ -1,6 +1,33 @@
-# Welcome
-## Thank You!
-Thank you for purchasing FLUX:: Analyzer System.
+# Welcome to FLUX:: Analyzer
+
+**23.XX version**
+
+## A User Guide
+
+**Written by Lorcan Mc Donagh**
+
+with contributions from:
+Gäel Martinet, Vincent Carlier, Florie-Anne Lafaye, Jean-Loup Pecquais & Nicolas Erard.
+
+**Legal Information**
+
+Second edition of FLUX:: _FLUX:: Analyzer_ User Guide published in April 2023
+
+All writing is protected under copyright © 2023 FLUX SOFTWARE ENGINEERING
+
+FLUX:: is a trademark of FLUX SOFTWARE ENGINEERING
+All trademarks and the logos are copyright protected.
+
+```
+FLUX:: SPAT Revolution is published by
+FLUX SOFTWARE ENGINEERING
+31, rue des Marais
+45130 Meung-sur-Loire
+R.C.S 431 616 770 ORLEANS
+```
+
+FLUX:: Analyzer Copyright 2023 FLUX SOFTWARE ENGINEERING and IRCAM. All rights reserved.
+
 
 [Product Page](https://www.flux.audio/project/flux-analyzer/)
 | [Shop Page](https://shop.flux.audio/en_US/products/flux-analyzer)

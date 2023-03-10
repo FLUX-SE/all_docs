@@ -1,0 +1,50 @@
+# Typical configuration
+
+## Autonomous mobile configuration
+
+### Capture
+
+* Required:
+    * Entry-level laptop.
+    * Sound card with at least one stereo input available.
+    * Basic DAW software for SampleGrabber signal capture, capable of using of one of the
+    supported plugin formats.
+    * Network connection.
+
+* Optional:
+    * Phantom-powered microphone input for capturing room signal in performing room acoustics
+    measurements (Transfer function and impulse response).
+    * Wireless network connection.
+
+
+:::{.callout-warning}
+ **IMPORTANT!** - The Pure Analyzer Studio Session supports audio input only by using the plug-in. 
+No hardware input/output options are supported for the Pure Analyzer Session.
+:::
+
+### Analysis
+
+Mid-range desktop with an OpenGL/DirectX capable graphics card that
+meets the minimum [System requirements](18_System_Requirements_00_System_requirements.md).
+
+Capture and analysis can naturally be performed on the same machine, although you can also couple
+the system with a wireless transmitter to route a source test signal to the laptop in order to
+perform transfer curve measurements at different locations more conveniently.
+
+## Digital Audio Workstation
+Any recent computer should be able to run Pure Analyzer smoothly in a stand-alone configuration. Running your preferred DAW host application alongside with an instance of Pure Analyzer naturally raises the requirements. Operating in this way will most probably require a dual-screen setup in order to be able to monitor the Pure Analyzer display and DAW interface simultaneously.
+
+![SampleGrabber and Pure Analyzer running on the same machine](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/SampleGrabber/DAWInsert.png)
+
+![Audio source and Pure Analyzer on separate hardware](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/SampleGrabber/DualHardwareHostConfig.png)
+
+## Avid Venue Console
+SampleGrabber is available as an AAX DSP plugin, which is the preferred format when using an AVIDVenue live console. Using one or more SampleGrabber instances will free up several precious hardware outputs.
+
+When performing transfer function and impulse response measurements, a recommended way of working is to insert a SampleGrabber on the master output and set the microphone signal as key input. This simplifies the routing and allows for fast switching between different microphones.
+
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/SampleGrabber/VENUE.png)
+
+:::{.callout-note}
+Recommended setup with Avid Venue console
+:::
