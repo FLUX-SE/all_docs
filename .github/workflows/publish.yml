@@ -7,7 +7,7 @@ on:
 name: Quarto Publish
 
 jobs:
-  build-deploy:
+  build:
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -21,21 +21,49 @@ jobs:
           version: 1.3.235
           tinytex: true
 
-      - name: Render all Quarto projects
-        env:
-          QUARTO_PRINT_STACK: true
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          for d in "[a-z][a-z]_[A-Z][A-Z]/*/"
-          do
-            echo "Rendering $d ..."
-            quarto render "$d"
-          done
-          echo "QUARTO_OUTPUT=_build" >> $GITHUB_ENV
-        shell: bash
+      - run: quarto render en_US/home
+      - run: quarto render en_US/evo-channel
 
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
+      - name: Archive Production Artifact
+        uses: actions/upload-artifact@master
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./_build
+          name: _build
+          path: _build
+
+      # - name: Render all Quarto projects
+      #   env:
+      #     QUARTO_PRINT_STACK: true
+      #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      #   run: |
+      #     for d in "[a-z][a-z]_[A-Z][A-Z]/*/"
+      #     do
+      #       echo "Rendering $d ..."
+      #       quarto render "$d"
+      #     done
+      #     echo "QUARTO_OUTPUT=_build" >> $GITHUB_ENV
+      #   shell: bash
+
+      # - name: Deploy
+      #   uses: peaceiris/actions-gh-pages@v3
+      #   with:
+      #     github_token: ${{ secrets.GITHUB_TOKEN }}
+      #     publish_dir: ./_build
+
+  deploy:
+    name: Deploy
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@master
+      - name: Download Artifact
+        uses: actions/download-artifact@master
+        with:
+          name: _build
+          path: _build
+      - name: Deploy to Firebase
+        uses: w9jds/firebase-action@master
+        with:
+          args: deploy --only hosting
+        env:
+          GCP_SA_KEY: ${{ secrets.GCP_SA_KEY }}
