@@ -9,7 +9,7 @@ book:
         href: ../index.html
   navbar:
     title: " "
-    logo: flux-logo.png
+    logo: "../flux-logo.png"
     logo-href: https://www.flux.audio
     right:
       - icon: github
