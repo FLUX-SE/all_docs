@@ -7,15 +7,15 @@ book:
    chapters:
    - index.qmd
    - Pure_Analyzer_Pure-analyzer-versions.qmd
+   - Initial_Setup_Introduction.qmd
    - part: Initial Setup
-     chatpers:
-      - Initial_Setup_Introduction.qmd
-      - Initial_Setup_SampleGrabber_Principe_of_operation.qmd
-      - Initial_Setup_SampleGrabber_Network_Configuration.qmd
-      - Initial_Setup_SampleGrabber_Password.qmd
-      - Initial_Setup_Typical_configuration_Autonomous_mobile_configuration.qmd
-      - Initial_Setup_Typical_configuration_Digital_audio_workstation.qmd
-      - Initial_Setup_Typical_configuration_Avid_venue_console.qmd
+     chapters:
+        - Initial_Setup_SampleGrabber_Principe_of_operation.qmd
+        - Initial_Setup_SampleGrabber_Network_Configuration.qmd
+        - Initial_Setup_SampleGrabber_Password.qmd
+        - Initial_Setup_Typical_configuration_Autonomous_mobile_configuration.qmd
+        - Initial_Setup_Typical_configuration_Digital_audio_workstation.qmd
+        - Initial_Setup_Typical_configuration_Avid_venue_console.qmd
    - part: User interface
      chapters:
         - User_Interface_Common_workflow_Mouse_commands_and_conventions.qmd
@@ -114,10 +114,11 @@ book:
         - Signal_generator_Controls.qmd
         - Signal_generator_Setup.qmd
    - part: Transfer function measurement
+     chapters:
         - Transfer_function_measurement_Introduction.qmd
         - Transfer_function_measurement_Transfer_function_magnitude.qmd
         - Transfer_function_measurement_Transfer_function_coherence.qmd
-        - Transfer_function_measurement_Transfer_function_phase.qmd)
+        - Transfer_function_measurement_Transfer_function_phase.qmd
         - Transfer_function_measurement_Setup_Setup.qmd
         - Transfer_function_measurement_Setup_Main.qmd
         - Transfer_function_measurement_Setup_Coherence_Magnitude.qmd

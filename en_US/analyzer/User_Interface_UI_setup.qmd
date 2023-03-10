@@ -3,6 +3,7 @@
 
 :::{.callout-note}
 User interface setup dialog
+:::
 
 ## Configuration
 Saves / restores a complete user defined configuration.

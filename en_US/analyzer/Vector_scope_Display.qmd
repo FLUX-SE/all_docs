@@ -3,6 +3,7 @@
 
 :::{.callout-note}
 Vector scope setup options
+:::
 
 # Fs
 ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/VectorScope/FS.png)
