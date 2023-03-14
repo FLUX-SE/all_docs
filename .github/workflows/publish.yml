@@ -63,4 +63,4 @@ jobs:
         with:
           args: deploy --only hosting
         env:
-          GCP_SA_KEY: ${{ secrets.GCP_SA_KEY }}
+          GCP_SA_KEY: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_FLUX_DOC_1D056 }}
