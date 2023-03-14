@@ -1,4 +1,4 @@
-# SPAT Revolution - Credits
+# SPAT Revolution - Credits {.unnumbered}
 
 ## Version 22.09
 

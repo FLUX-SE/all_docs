@@ -1,0 +1,67 @@
+# Global presentation
+
+<!-- The FLUX:: Analyzer app is built around the concept of layouts. -->
+
+![Default view of the FLUX:: Analyzer](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Generic/analyzer_main.png)
+
+The FLUX:: Analyzer app user interface is devided in two main parts. The header and the body. In the header, you will find many options menus and parameters, while the body section display a selected arrangement of tool depending on the selected layout. It is very important to keep in mind that the FLUX:: Analyzer app is built around the concept of layout, which are factory defined regarding common audio use cases (studio, live workflow, etc.)
+
+## Header section
+
+Starting from the left, we find two drop down menus:
+
++ The source menu allows to choose which audio source you are listening to, the hardware audio interfaces hooked up to Analyzer or a SampleGrabber instances in the local network.
++ The layout menu allows to changed the displayed set of tools in the body part of the app.
+
+In the middle, there is the main toolbar, containing:
+
++ An exit button
++ An info/credit button
++ An access to the main preferences menu
++ An access to the user interface preferences menu
++ An access to the input/ouput preferences menu
++ An info button to show/hide information relative to the mouse cursor position in the main window.
++ A button to open a terminal
+
+At the formost right is disaplyed the current samplerate of the application. If any conflict is detected between the sample rate of the audio interfaces and the app, a red warning will appear at the same spot.
+
+## Body section
+
+The body, or main section of the app, is designed to display various audio analysis tools. All these tools are going to be covered in further dedicated sections.
+
+## Mouse commands and conventions
+
+The following mouse click actions are available:
+
+|           |               |
+|-|---|
+| Left-click | Selects the active element. |
+| Right-click | Toggles the display of the corresponding setup menu for the item beneath the current mouse location. |
+| Modifier + click | ```Ctrl-click``` is equivalent to ```right-click```. Inside a setup menu item, ```Alt-click``` resets the corresponding setting to its default value. ```Alt-click``` inside an item with a zoom factor greater than one, resets the current zoom to full view (Factor = 1). |
+| Double-click | Double-clicking on an editable control such as a slider or text box enters keyboard entry mode, double-clicking again validates the new value. Double-clicking anywhere inside a panel switches the panel to full-window mode, where the whole application screen is occupied by the corresponding panel; double-clicking a second time reverts to the normal layout. |
+| Click and drag | ```Click + drag``` inside an item with a zoom factor greater than one shifts the current scale. ```Alt + Click + drag``` inside an item with a Zoom Factor allows to setup a new zoom according to the defined selection. See @fig-click-drag below. |
+| Scroll wheel + click and drag | Turning the middle mouse wheel, if present, affects the current horizontal zoom level of the item under the cursor. Activating the wheel with the middle button simultaneously engaged shifts the current scale when the current zoom factor is greater than one. |
+
+:::{#fig-click-drag layout-nrow="2"}
+
+![On spectrum](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Generic/ZoomSelection2.png)
+
+![On IR plots](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Generic/ZoomSelection1.png)
+
+Click and drag behavior
+:::
+
+## Keyboard shortcuts
+
+### Main
+
+|   |   |
+|-|---|
+| Toggle full screen mode | Alt + Return |
+| Display context help / credits page | F1 |
+| Reconnect network | F5 |
+| Switch to next layout | TAB |
+| Switch to previous layout | Shift + TAB |
+| Toggle mouse info update on/off | F6 |
+| Toggle real-time curves display | Enter / Return |
+| CTrl + F... Key | go to specified layout |

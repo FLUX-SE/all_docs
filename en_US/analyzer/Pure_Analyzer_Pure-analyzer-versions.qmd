@@ -1,4 +1,4 @@
-# FLUX:: Analyzer Versions
+# FLUX:: Analyzer Versions {.unnumbered}
 
 The Analyzer is available in two different software versions, The Analyzer:: Essential, and the Analyzer:: Session.
 

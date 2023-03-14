@@ -1,4 +1,4 @@
-# Welcome to FLUX:: Analyzer
+# Welcome to FLUX:: Analyzer {.unnumbered}
 
 **23.XX version**
 

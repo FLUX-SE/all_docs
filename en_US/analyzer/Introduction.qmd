@@ -1,4 +1,4 @@
-# Introduction
+# Introduction {.unnumbered}
 
 In a conventional digital system, audio material is captured, stored, transmitted and reproduced as a
 sequence of values, which correspond to the amplitude variations of an electric signal at discrete
