@@ -1,5 +1,5 @@
 # Test signals {#sec-system-analysis-test-signals}
-Pure Analyzer is designed to cover the broadest range of practical use cases, and does not impose a limitation on the measurement signal used.
+FLUX:: Analyzer is designed to cover the broadest range of practical use cases, and does not impose a limitation on the measurement signal used.
 
 Traditionally, transfer curve and impulse response measurements are performed by feeding a specially designed test signal into the system, the most commonly employed being pink and white noise and swept sines. 
 While these type of signals are those that give the best and more accurate results, with each having its own strength and weaknesses, they do prohibit the measurement of a system in the context of a live system with the audience present.
@@ -11,5 +11,5 @@ You are free to use any kind of test signal generator, outboard or plugin, provi
 A selection of plugins suitable for this task is shown in the chart below.
 
 :::{.callout-note}
-While Pure Analyzer does not impose any limitation on the test signal used, we recommend using the integrated [Signal generator -@sec-signal-generator-types], which has been especially designed for this task. We conducted thorough tests on a wide panel of signal generators available as plugins or integrated into DAW software and found that many do not meet the requirements for performing accurate and reliable measurements.
+While FLUX:: Analyzer does not impose any limitation on the test signal used, we recommend using the integrated [Signal generator -@sec-signal-generator-types], which has been especially designed for this task. We conducted thorough tests on a wide panel of signal generators available as plugins or integrated into DAW software and found that many do not meet the requirements for performing accurate and reliable measurements.
 :::

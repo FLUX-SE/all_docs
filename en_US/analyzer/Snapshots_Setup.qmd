@@ -7,7 +7,7 @@ Snapshot setup options
 
 ## Name
 
-You can here define a new project name which will ultimately create a new folder in the user data folder `<User folder>/FLUX SE/Pure Analyzer System/Data/<Project Name>`
+You can here define a new project name which will ultimately create a new folder in the user data folder `<User folder>/FLUX SE/FLUX:: Analyzer System/Data/<Project Name>`
 
 
 ## Display defaults

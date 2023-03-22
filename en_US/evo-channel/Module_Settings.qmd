@@ -4,7 +4,7 @@
 
 ### Analyser Switch
 
-The spectrum analyzer origins from the Flux:: Pure Analyzer and has been optimized for the EVO Channel. It
+The spectrum analyzer origins from the Flux:: FLUX:: Analyzer and has been optimized for the EVO Channel. It
 gives you an accurate direct view of what’s going on in the different frequency domains of your audio. When
 switched on, the spectrum analysis is activated and displayed in the equalization view panel. The grey
 waveform correspond to your input signal (post gain/drive), the same as the input meter. The black one is the

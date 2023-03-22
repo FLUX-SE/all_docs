@@ -32,5 +32,5 @@ see the DFT as a bank of many band-pass filters, with as many meters at the outp
 Whilst constraining the frequencies to be taken at fixed, regular intervals, is convenient both in terms
 of processing resources and simplicity of the computation, amongst other reasons, this linear frequency
 binning does not represent human hearing, which is essentially logarithmic (constant Q), very
-accurately. The analysis engine in Pure Analyzer therefore offers both options, which are discussed in
+accurately. The analysis engine in FLUX:: Analyzer therefore offers both options, which are discussed in
 more detail in <link type="document" target="Spectrum analyzer">Spectrum analyzer</link>.

@@ -42,7 +42,7 @@ Toggles full-screen mode on and off, to maximize screen real estate by masking t
 Exits the application.
 
 ### Help / about
-Displays the application credits, Pure Analyzer software version number, available options with the current license, as well as a table summarizing assigned keyboard shortcuts.
+Displays the application credits, FLUX:: Analyzer software version number, available options with the current license, as well as a table summarizing assigned keyboard shortcuts.
 
 ## Left toolbar
 
@@ -53,7 +53,7 @@ Audio source allows you to select which source to use as input. Depending on you
 * Available hardware device(s), if one or several sound cards are present on the host system, and the corresponding device has been selected in the Hardware IO configuration dialog.
 
 ### Layout mode
-Pure Analyzer offers a number of user interface layouts designed and named according to typical tasks:
+FLUX:: Analyzer offers a number of user interface layouts designed and named according to typical tasks:
 
 
 The layouts are grouped into categories, as described below.
@@ -76,7 +76,7 @@ The layouts are grouped into categories, as described below.
 :::
 
 :::{.callout-important}
-Some layouts might not be available in your Pure Analyzer edition.
+Some layouts might not be available in your FLUX:: Analyzer edition.
 :::
 
 ## Smoothing mode

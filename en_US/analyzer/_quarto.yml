@@ -19,31 +19,37 @@ book:
         - User_Interface_Header_Section.qmd
         - User_Interface_Main_setup.qmd
         - User_Interface_IO_Configuration.qmd
-   - part: System analysis
+   - part: System measurement
      chapters:
         - System_analysis_Introduction.qmd
         - System_analysis_Initial_setup.qmd
         - System_analysis_Practical_considerations_for_capturing_measurement_signals.qmd
         - System_analysis_System_analysis_config.qmd
         - System_analysis_Test_signals.qmd
-   - part: Audio Analysis Tools
+   - part: Spectrum analysis tools
      chapters:
         - Spectrum_analyzer.qmd
+        - Spectrogram.qmd
+        - Nebula_spatial_spectrogram.qmd
         - Wave_scope.qmd
-        - Nebula_spectral_spectrogram.qmd
-        - Nebula_surround.qmd
-        - Vector_scope.qmd
+   - part: Level metering tools
+     chapters:
         - Metering_RMS.qmd
         - Metering_True_Peak.qmd
         - Metering_Loudness.qmd
         - Metering_Leq.qmd
         - Metering_History.qmd
         - Metering_statistic.qmd
+   - part: Spatial Analysis tools
+     chapters:
+        - Nebula_surround.qmd
+        - Vector_scope.qmd
+   - part: Transfer function measurement
+     chapters:
         - Live_IO.qmd
         - Signal_generator.qmd
         - Transfer_function.qmd
         - Impulse_response_measurement.qmd
-        - Spectrogram.qmd
         - Snapshots.qmd
    appendices:
       - User_Interface_Common_workflow_Keyboard_shortcuts.qmd

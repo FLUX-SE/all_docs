@@ -3,7 +3,7 @@
 ## Introduction
 Leq encompasses a set of sound level meter specifications, which are described in detail in the BS EN 61672-1 European Standard.
 
-Pure Analyzer implements the following Leq measurements: time-weighted sound level, time-average sound level and sound exposure level.
+FLUX:: Analyzer implements the following Leq measurements: time-weighted sound level, time-average sound level and sound exposure level.
 
 Frequency weighting is employed for all measurements, A being the standard and default, although other weightings can be specified if necessary.
 

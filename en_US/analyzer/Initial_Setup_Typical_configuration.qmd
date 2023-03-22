@@ -18,8 +18,8 @@
 
 
 :::{.callout-warning}
- **IMPORTANT!** - The Pure Analyzer Studio Session supports audio input only by using the plug-in. 
-No hardware input/output options are supported for the Pure Analyzer Session.
+ **IMPORTANT!** - The FLUX:: Analyzer Studio Session supports audio input only by using the plug-in. 
+No hardware input/output options are supported for the FLUX:: Analyzer Session.
 :::
 
 ### Analysis
@@ -32,11 +32,11 @@ the system with a wireless transmitter to route a source test signal to the lapt
 perform transfer curve measurements at different locations more conveniently.
 
 ## Digital Audio Workstation
-Any recent computer should be able to run Pure Analyzer smoothly in a stand-alone configuration. Running your preferred DAW host application alongside with an instance of Pure Analyzer naturally raises the requirements. Operating in this way will most probably require a dual-screen setup in order to be able to monitor the Pure Analyzer display and DAW interface simultaneously.
+Any recent computer should be able to run FLUX:: Analyzer smoothly in a stand-alone configuration. Running your preferred DAW host application alongside with an instance of FLUX:: Analyzer naturally raises the requirements. Operating in this way will most probably require a dual-screen setup in order to be able to monitor the FLUX:: Analyzer display and DAW interface simultaneously.
 
-![SampleGrabber and Pure Analyzer running on the same machine](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/SampleGrabber/DAWInsert.png)
+![SampleGrabber and FLUX:: Analyzer running on the same machine](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/SampleGrabber/DAWInsert.png)
 
-![Audio source and Pure Analyzer on separate hardware](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/SampleGrabber/DualHardwareHostConfig.png)
+![Audio source and FLUX:: Analyzer on separate hardware](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/SampleGrabber/DualHardwareHostConfig.png)
 
 ## Avid Venue Console
 SampleGrabber is available as an AAX DSP plugin, which is the preferred format when using an AVIDVenue live console. Using one or more SampleGrabber instances will free up several precious hardware outputs.

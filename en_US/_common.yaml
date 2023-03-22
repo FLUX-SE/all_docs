@@ -29,3 +29,5 @@ format:
     number-sections: true
     number-depth: 2
     include-in-header: ../fluxtemplate.tex
+
+number-sections: false
