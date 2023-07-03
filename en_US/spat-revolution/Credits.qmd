@@ -1,4 +1,4 @@
-# SPAT Revolution - Credits {.unnumbered}
+# SPAT Revolution - Credits
 
 ## Version 22.09
 
@@ -116,9 +116,8 @@ Gaël Martinet
 ```
 FLUX SOFTWARE ENGINEERING
 Orléans, France,
-http://www.flux.audio
-Copyright 2020 FLUX SOFTWARE ENGINEERING,
-All Rights Reserved.
+http://wwww.flux.audio
+Copyright (c) 2023 FLUX:: SE, All Rights Reserved.
 ```
 `
 IRCAMTOOLS SPAT and "SPAT Revolution" Copyright 2020 FLUX SOFTWARE ENGINEERING and IRCAM. All rights reserved.`

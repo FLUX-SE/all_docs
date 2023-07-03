@@ -25,28 +25,23 @@ jobs:
         env:
           QUARTO_PRINT_STACK: true
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          for d in "[a-z][a-z]_[A-Z][A-Z]/*/"
-          do
-            echo "Rendering $d ..."
-            quarto render "$d"
-          done
-          echo "QUARTO_OUTPUT=_build" >> $GITHUB_ENV
+        # run: |
+        #   for d in "[a-z][a-z]_[A-Z][A-Z]/*/"
+        #   do
+        #     echo "Rendering $d ..."
+        #     quarto render "$d"
+        #   done
+        #   echo "QUARTO_OUTPUT=_build" >> $GITHUB_ENV
+        run: quarto render home
         shell: bash
-
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./_build
 
       - name: Archive Production Artifact
         uses: actions/upload-artifact@master
         with:
-          name: _build
-          path: _build
+          name: build
+          path: .vercel/output
 
-  deploy:
+  Deploy-Production:
     name: Deploy
     needs: build
     runs-on: ubuntu-latest
@@ -56,11 +51,12 @@ jobs:
       - name: Download Artifact
         uses: actions/download-artifact@master
         with:
-          name: _build
-          path: _build
-      - name: Deploy to Firebase
-        uses: w9jds/firebase-action@master
-        with:
-          args: deploy --only hosting
-        env:
-          GCP_SA_KEY: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_FLUX_DOC_1D056 }}
+          name: build
+          path: .vercel/output
+      - uses: actions/checkout@v2
+      # - name: Pull Vercel Environment Information
+      #   run: vercel pull --yes --environment=production --token=${{ secrets.VERCEL_TOKEN }}
+      # - name: Build Project Artifacts
+      #   run: vercel build --prod --token=${{ secrets.VERCEL_TOKEN }}
+      - name: Deploy Project Artifacts to Vercel
+        run: vercel deploy --prebuilt --prod --token=${{ secrets.VERCEL_TOKEN }}
