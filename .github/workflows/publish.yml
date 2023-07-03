@@ -55,9 +55,8 @@ jobs:
         with:
           name: _build
           path: _build
-      - uses: actions/checkout@v2
-      # - name: Pull Vercel Environment Information
-      #   run: vercel pull --yes --environment=production --token=${{ secrets.VERCEL_TOKEN }}
+      - name: Pull Vercel Environment Information
+        run: vercel pull --yes --environment=production --token=${{ secrets.VERCEL_TOKEN }}
       # - name: Build Project Artifacts
       #   run: vercel build --prod --token=${{ secrets.VERCEL_TOKEN }}
       - name: Deploy Project Artifacts to Vercel
