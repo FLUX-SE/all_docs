@@ -40,8 +40,8 @@ jobs:
       - name: Archive Production Artifact
         uses: actions/upload-artifact@master
         with:
-          name: build
-          path: .vercel/output
+          name: _build
+          path: _build
 
   Deploy-Production:
     name: Deploy
@@ -53,8 +53,8 @@ jobs:
       - name: Download Artifact
         uses: actions/download-artifact@master
         with:
-          name: build
-          path: .vercel/output
+          name: _build
+          path: _build
       - uses: actions/checkout@v2
       # - name: Pull Vercel Environment Information
       #   run: vercel pull --yes --environment=production --token=${{ secrets.VERCEL_TOKEN }}
