@@ -32,7 +32,9 @@ jobs:
         #     quarto render "$d"
         #   done
         #   echo "QUARTO_OUTPUT=_build" >> $GITHUB_ENV
-        run: quarto render en_US/home
+        run: |
+          echo "QUARTO_OUTPUT=_build" >> $GITHUB_ENV
+          quarto render en_US/home
         shell: bash
 
       - name: Archive Production Artifact
