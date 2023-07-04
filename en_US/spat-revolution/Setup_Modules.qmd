@@ -1,0 +1,3 @@
+# SPAT Setup Modules
+
+We have already had a look at the setup page in the previous section. In this section we will look at each of the module types, explaining their function and parameters.

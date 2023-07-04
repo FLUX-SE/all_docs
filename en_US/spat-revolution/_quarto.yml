@@ -6,11 +6,10 @@ book:
    title: "SPAT Revolution"
    chapters:
    - index.qmd
-   - Credits.qmd
-   - Welcome_to_Spat_Revolution.qmd
-   - Users_and_Applications.qmd
    - part: Getting_Started.qmd
      chapters:
+      - Welcome_to_Spat_Revolution.qmd
+      - Users_and_Applications.qmd
       - Installation_and_Activation.qmd
       - Ultimate_And_Essential_Licences.qmd
    - part: Spatialisation_Technology_Spatialisation_Technology.qmd
@@ -25,33 +24,31 @@ book:
       - Spatialisation_Technology_Ambisonic_transcoding.qmd
    - part: Spat_Environment.qmd
      chapters:
+      - Files_&_folders.qmd
       - Spat_Environment_Home_Page.qmd
       - Spat_Environment_Global_Bars.qmd
       - Spat_Environment_Setup_Page.qmd
-      - Spat_Environment_Input_Modules.qmd
-      - Spat_Environment_Input_Transcoder_Modules.qmd
-      - Spat_Environment_Source_Room_Modules.qmd
-      - Spat_Environment_Master_Section_Modules.qmd
-      - Spat_Environment_Output_Modules.qmd
-      - Spat_Environment_Modules_channel_count.qmd
-      - Spat_Environment_Modules_de_activation.qmd
       - Items_Page.qmd
       - Spat_Environment_Snapshot_Page.qmd
-      - Spat_Environment_Room.qmd
-      - Spat_Environment_Source.qmd
-      - Spat_Environment_Source_Parameters.qmd
-      - Spat_Environment_Artificial_Reverberation.qmd
-      - Spat_Environment_Understanding_the_3D_View.qmd
-      - Spat_Environment_Speaker_Arrangement.qmd
       - Spat_Environment_Speaker_Arrangement_Editor.qmd
       - Spat_Environment_Import_Speaker_Config.qmd
       - Spat_Environment_Transformation.qmd
       - Spat_Environment_Balistic.qmd
-      - Spat_Environment_VU_Meters.qmd
-      - Spat_Environment_Nebula.qmd
-      - Spat_Environment_Analyzer_Workflow.qmd
-   - Files_&_folders.qmd
-   - Application_Preferences.qmd
+      - Application_Preferences.qmd
+   - part: Setup_Modules.qmd
+     chapters:
+      - Spat_Environment_Input_Section_Modules.qmd
+      - Spat_Environment_Source_Room_Modules.qmd
+      - Spat_Environment_Master_Section_Modules.qmd
+      - Spat_Environment_Modules_channel_count.qmd
+      - Spat_Environment_Modules_de_activation.qmd
+   - part: Spat_engine.qmd
+     chapters:
+      - Spat_Environment_Source.qmd
+      - Spat_Environment_Source_Parameters.qmd
+      - Spat_Environment_Rooms.qmd
+      - Spat_Environment_Artificial_Reverberation.qmd
+      - Spat_Environment_Understanding_the_3D_View.qmd
    - part: Ecosystem_&_integration_Automation.qmd
      chapters:
       - Ecosystem_&_integration_Using_Hardware_IO.qmd
@@ -78,6 +75,7 @@ book:
       - ThirdParty_SPATRevolution_Remote.qmd
       - ThirdParty_BlackTrax.qmd
    appendices:
+     - Credits.qmd
      - href: Appendix_A.qmd
        text: "Appendix A - SPAT Revolution specification"
      - href: Appendix_B.qmd

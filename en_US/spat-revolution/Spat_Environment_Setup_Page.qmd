@@ -11,15 +11,15 @@ The _Environment Setup_ editor is a modular environment. The signal flow starts 
 * [Input Transcoders -@sec-input-transcoder-module]
 * [Sources -@sec-source-room-modules]
 * [Rooms -@sec-source-room-modules]
-* [Sums -@source-room-modules-master-section]
-* [Master Transcoders -@source-room-modules-master-section]
-* [Masters -@source-room-modules-master-section]
-* [Binaural Monitors -@source-room-modules-master-section]
-* [Outputs -@source-room-modules-output-section]
+* [Sums -@sec-modules-sum]
+* [Master Transcoders -@sec-modules-mtranscode]
+* [Masters -@sec-modules-master]
+* [Binaural Monitors -@sec-modules-binaural]
+* [Outputs -@sec-modules-output]
 
 ## Stream types and associated options
 
-Modules blocs are characterized by their stream type. In spatial audio, audio streams can be of different natures, as seen in the [Spatialisation Technology -@spat-technology] section.
+Modules blocs are characterized by their stream type. In spatial audio, audio streams can be of different natures, as seen in the [Spatialisation Technology -@sec-spat-technology] section.
 
 Stream types and their options are :
 

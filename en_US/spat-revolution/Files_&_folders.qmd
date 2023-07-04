@@ -1,6 +1,6 @@
-# SPAT Revolution files and folders
+# Files and Folders
 
-## SPAT Revolution files
+## Files type
 
 SPAT uses 3 different file types:
 

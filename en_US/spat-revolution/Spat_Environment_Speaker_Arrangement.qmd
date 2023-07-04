@@ -1,6 +1,6 @@
 # Speaker Arrangement Editor {#sec-speaker-editor}
 
-![width=700, atl=_SPAT Revolution_ Speaker Config](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/SpeakerEditor1.png)
+
 
 ## Rendering to Speakers
 
@@ -28,28 +28,4 @@ We also create a powerful automatic speaker alignment tool that aligns, in time 
 
 To make this task as easy as possible, _SPAT Revolution_ supports both cartesian and spherical coordinate system and can also import speaker configurations from third-party softwares, such as NS-1, Blueprint or ArrayCal.
 
-## Understanding when a speaker arrangement, or a sound scene, is 2D or 3D
 
-We can quickly be tempted to create very precise speaker arrays, including height information where it may not be necessary and can do more harm than good.
-
-The rule of thumb is to think in plan and not in absolute height. If speakers are meant to reproduce the same sound plan, they should have the same height. Also, the main sound plan has to be set at a height of zero meter. If you try to validate a speaker arrangement that only has one plan and is not set to a height of 0, it will correct it automatically. It also applies for older sessions that were created before _SPAT Revolution_ had this feature.
-
-## Automatic Scaling
-
-When going on the road with a show, the idea of _SPAT Revolution_ is to always keep the same session, which stores our input routing, our mixing metadata and all of our snapshots. But in such use case, each time the venue changes, the speaker arrangement changes too and its size (or diameter) will much likely be different each time.
-
-As we use absolute, we solve this common use case by using an automatic scaling process. 
-
-If you change the speaker arrangement of a room where you already routed some sources, the global sound scene could be scaled to the new speaker arrangement.
-
-For example, if you first created your session with a speaker arrangement with a diameter of four meters, and then deploy it in a venue where the actual diameter of the sound system is eight meters, then all the source position, incoming automation and snapshot data will be scaled by a factor of two.
-
-## Speaker arrangements examples
-
-Here are some examples of speaker configurations you can find in some venue, like RadioFrance Studio 115, Montreal Satosphere, or Berlin Planetarium. To discover it into _SPAT Revolution_, copy the python file on your desktop: **[Speaker arrangements for various domes and planetariums](https://public.3.basecamp.com/p/pPtg3qFrUsxyPPmQ3b3JLPqW)**.
-
-## Speaker arrangement Python file
-
-Write the speaker arrangement on a python file provides the erasing of the data. It is recommended to do so on fixed installation, or if you really don't want to lose the speaker arrangement data. 
-If you want to build your own custom speaker arrangement script, explanations are provided into the following python file:
-**[Custom Speaker Arrangement Script](https://public.3.basecamp.com/p/rQStK3igPkaXisYS4Gs5sJ2g)**.

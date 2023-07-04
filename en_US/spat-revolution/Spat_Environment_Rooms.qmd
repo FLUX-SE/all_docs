@@ -1,24 +1,39 @@
-<!--MANY BS HERE, TO BE CLEANED UP!!!-->
-
 # Room {#sec-spat-rooms}
 
 In _SPAT Revolution_, spatialization of virtual sources takes places inside _Rooms_. To enter a room and open its graphic editor environment, double-click on a room module in the Setup graph, or select a room tab from the Navigation bar.
 
-When we enter a Room, we will see the 3D view and all the connected sources. Option related to the 3D view display are located in top menu. On the left side panel of the room editor, you get a list representation of each source with its index identification number. We can click on the Index number of each source, and the _[source parameters -@sources-parameters]_ editor for that virtual source will appear.
+When we enter a Room, we will see the 3D view and all the connected sources. Option related to the 3D view display are located in top menu. On the left side panel of the room editor, you get a list representation of each source with its index identification number. We can click on the Index number of each source, and the [source parameters -@sources-parameters] editor for that virtual source will appear.
 
 ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Room/3DView.png)
 
-Two special index items labeled as **(R) REVERB** and **(M) OUTPUT** appear fixed at the bottom of the left panel. By clicking on these, we then enter into two more parameter editors: one relating to the _[Artificial reverberation -@artificial-reverb]_ and one relating to the room output configuration and [Listener Position -@sec-listener-position] editor.
+Two special index items labeled as **(R) REVERB** and **(M) OUTPUT** appear fixed at the bottom of the left panel. By clicking on these, we then enter into two more parameter editors: one relating to the [Artificial reverberation -@artificial-reverb] and one relating to the room output configuration and [Listener Position -@sec-listener-position] editor.
 
 Mutes and solos are manageable for all sources and for the entire room output from this index list. A solo clear button is  available on the top of the source list. Clicking on it will reset all the solo of all rooms.
 
 When you have more than one Room in your project, then the SOURCES switch at the top left of a Room editor can be handy, as it will show all sources from all Rooms in the same editor - allowing edition, mix, solo and mute management of all sources from one Room view.
 
-<!--## Room Graphic Engine
+## Room Graphic Engine
 
-Along with the audio modeling engine, one of SPAT's key features is its ability to model a high definition graphical representation of the virtual space inside each room. We can intuitively interact and move sources and 'camera view' directly with our mouse. Move a source by grabbing its 'emitter' object or in the case of a grouped source grab any one of the emitters that belong to the group. Alternatively, sources can be positioned by manipulating their coordinate-related source parameter controls (see [ Radiation section](6_Spat_Environment_6_6_Source_6_6_Source?id=radiation)).-->
+Along with the audio modeling engine, one of SPAT's key features is its ability to model a high definition graphical representation of the virtual space inside each room. We can intuitively interact and move sources and 'camera view' directly with our mouse. Move a source by grabbing its 'emitter' object or in the case of a grouped source grab any one of the emitters that belong to the group. Alternatively, sources can be positioned by manipulating their coordinate-related source parameter controls.
 
-## Top bar menu
+Source manipulation from the 3D view:
++ one click to select.
++ drag to move them.
+
+The camera angle can also be manipulated:
++ The mousewheel control the zoom factor.
++ *cmd/ctrl+drag* will rotate the scene.
++ *shift+drag* will move the scene.
+
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Room/3DViewDualView.png)
+
+:::{.callout-note}
+A split screen Top-Front view is also available in the top bar menu. See the corresponding section below.
+:::
+
+Selecting a source also displays its name over its 3D representation. At the top of the room, there is an option to display the name of all the sources or of all the speakers.
+
+## Room top menu
 
 This menu allows changing what elements and how they are displayed in the 3D view.
 
@@ -104,6 +119,13 @@ Choose if the 3D view is seen from:
 Located on top of the 3D view, the “display output” drop-down allows choosing which point of the signal path to display.
 
 For example, working in an HOA room create 3D view that does not show any speaker. This is because of the very nature of how ambisonic work. But it also means that you cannot use Nebula in that kind of room. This is where this “display output” feature becomes handy. Instead of showing the actual HOA scene, it is possible to choose to look at the sound scene at the transcoding stage to see what happens with Nebula on the speaker array.
+
+### Display output drop-down
+
+Located on top of the 3D view, the “display output” drop-down allows choosing which point of the signal path to display.
+
+For example, working in an HOA room create 3D view that does not show any speaker. This is because of the very nature of how ambisonic work. But it also means that you cannot use Nebula in that kind of room. This is where this “display output” feature becomes handy. Instead of showing the actual HOA scene, it is possible to choose to look at the sound scene at the transcoding stage to see what happens with Nebula on the speaker array.
+<!--TO BE COMPLETED-->
 
 ## Room output parameters
 

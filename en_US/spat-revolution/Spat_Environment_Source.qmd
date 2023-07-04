@@ -52,7 +52,7 @@ Each parameter has the possibility to store useful preset settings of your own c
 
 ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Generic/ParameterPreset.png)
 
-# Barycentric Groups
+## Barycentric Groups
 
 When a Source in a Room has more than one channel in its format, it will be represented as a single source with ONE unique index.
 It will be visualized as a group in its assigned channel based speaker arrangement.
