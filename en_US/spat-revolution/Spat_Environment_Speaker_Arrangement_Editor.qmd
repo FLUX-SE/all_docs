@@ -48,7 +48,7 @@ For such use case, it is possible to create custom speaker arrangements. Using a
 
 **Reset:** revert the *compute* process.
 
-**Compute:** opens a dialog to help to set delay and gain on the speaker arrangement. More information of the [dedicated section below -@speaker-editor-alignment]
+**Compute:** opens a dialog to help to set delay and gain on the speaker arrangement. More information of the [dedicated section below -@sec-speaker-editor-alignment]
 
 ### Selected or all speakers section
 

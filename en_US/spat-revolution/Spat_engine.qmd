@@ -1,5 +1,9 @@
 # SPAT Mixing Engine
 
+SPAT Revolution mixing engine takes advantage of object-based mixing. Such engine are generally presented in to part :
+
++ First, you have the *objects* (callen **Sources** in SPAT Revolution), which will hold all the mixing informations
+
 In _SPAT Revolution_, spatialization of virtual sources takes places inside _Rooms_. To enter a room and open its graphic editor environment, double-click on a room module in the Setup graph, or select a room tab from the Navigation bar.
 
 ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Room/3DView.png)

@@ -6,9 +6,8 @@ book:
    title: "SPAT Revolution"
    chapters:
    - index.qmd
-   - part: Getting_Started.qmd
+   - part: Welcome_to_Spat_Revolution.qmd
      chapters:
-      - Welcome_to_Spat_Revolution.qmd
       - Users_and_Applications.qmd
       - Installation_and_Activation.qmd
       - Ultimate_And_Essential_Licences.qmd

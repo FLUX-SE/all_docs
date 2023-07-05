@@ -53,3 +53,12 @@ We strongly suggest spending the time to read through this guide before starting
 Expert support and advice can also be sought from the  **[FLUX Immersive FB user group ](https://www.facebook.com/groups/fluximmersive.usergroup/)** and the **[Web-based Knowledge base](https://www.flux.audio/knowledge-base/category/spat-revolution/)**.
 
 Let us start now with a practical guide on getting the software installed and running.
+
+## Getting started
+
+In the following section we will explain how to install the application using the FLUX::Centre and how to redeem and activate your licences.
+
+We will also explain all the differences between the **Ultimate** and **Essential** licenses.
+
+Furthermore, if you are searching for a quick start guide, check this document : [quick start guide](https://public.3.basecamp.com/p/BoK99VxRwAJ2fFM9VGSzS3Am).
+
