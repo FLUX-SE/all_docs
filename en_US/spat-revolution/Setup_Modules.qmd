@@ -1,3 +1,40 @@
 # SPAT Setup Modules
 
-We have already had a look at the setup page in the previous section. In this section we will look at each of the module types, explaining their function and parameters.
+We have already covered the **Setup page** in the SPAT Environment section, focusing on its structure and the various ways of interacting with the user interface.
+
+Now we will look more closely at the setup modules themselves. This is an important part of the session design, so be sure to read the following chapters to understand how the signal chain works in SPAT Revolution.
+
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/complexSetup.png)
+
+## One module, one task
+
+Each module has a specific role. Input and Output modules take care of the routing with the outside world. Sources and Rooms are the heart of SPAT's object-based mixing engine. Basic summing and routing is done with Master and Sum modules. Transcoder can transform audio streams from one type to another. The complete module list is:
+
+* [Inputs -@sec-input-modules]
+* [Input Transcoders -@sec-input-transcoder-module]
+* [Sources -@sec-source-room-modules]
+* [Rooms -@sec-source-room-modules]
+* [Sums -@sec-modules-sum]
+* [Master Transcoders -@sec-modules-mtranscode]
+* [Masters -@sec-modules-masters]
+* [Binaural Monitors -@sec-modules-binaural]
+* [Outputs -@sec-modules-output]
+
+## Stream types and associated options
+
+Modules blocs are characterized by their stream type. In spatial audio, audio streams can be of different natures, as seen in the [Spatialisation Technology -@sec-spat-technology] section.
+
+Stream types and their options are :
+
++ **Channel-based** : most common used bloc where one channel correspond to one speaker or one microphone.
+  + Speaker arrangment : allow to select the channel configuration of the bloc.
++ **HOA** : generic ambisonic bloc.
+  + **Order** : select the ambisonic order from 1 to 7.
+  + **Dimension** : select between a 2D or 3D sound scene.
++ **A-Format** : pre-encoding ambisonic stream (raw ambisonic microphone output).
++ **B-Format** : **deprecated, prefer a 3D HOA first order bloc.**
++ **UHJ** : special 3D first order ambisonic stream meant for archiving and stereo compatibility.
++ **MS** : Mid-side.
++ **Binaural** : headphone oriented render using HRTF.
++ **Transaural** : binaural decoding on speaker.
+

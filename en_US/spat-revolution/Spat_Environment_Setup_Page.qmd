@@ -5,35 +5,7 @@ This is where you will generally start a project by designing the signal-flow gr
 
 ## Setup Modules
 
-The _Environment Setup_ editor is a modular environment. The signal flow starts from the inputs at the top of the graph and concludes with the outputs at the bottom. You add modules to rows using the small ```+``` icon to the left of the window. Modules are:
-
-* [Inputs -@sec-input-modules]
-* [Input Transcoders -@sec-input-transcoder-module]
-* [Sources -@sec-source-room-modules]
-* [Rooms -@sec-source-room-modules]
-* [Sums -@sec-modules-sum]
-* [Master Transcoders -@sec-modules-mtranscode]
-* [Masters -@sec-modules-master]
-* [Binaural Monitors -@sec-modules-binaural]
-* [Outputs -@sec-modules-output]
-
-## Stream types and associated options
-
-Modules blocs are characterized by their stream type. In spatial audio, audio streams can be of different natures, as seen in the [Spatialisation Technology -@sec-spat-technology] section.
-
-Stream types and their options are :
-
-+ **Channel-based** : most common used bloc where one channel correspond to one speaker or one microphone.
-  + Speaker arrangment : allow to select the channel configuration of the bloc.
-+ **HOA** : generic ambisonic bloc.
-  + **Order** : select the ambisonic order from 1 to 7.
-  + **Dimension** : select between a 2D or 3D sound scene.
-+ **A-Format** : pre-encoding ambisonic stream (raw ambisonic microphone output).
-+ **B-Format** : **deprecated, prefer a 3D HOA first order bloc.**
-+ **UHJ** : special 3D first order ambisonic stream meant for archiving and stereo compatibility.
-+ **MS** : Mid-side.
-+ **Binaural** : headphone oriented render using HRTF.
-+ **Transaural** : binaural decoding on speaker.
+The _Environment Setup_ editor is a modular environment. The signal flow starts from the inputs at the top of the graph and concludes with the outputs at the bottom. You add modules to rows using the small ```+``` icon to the left of the window. 
 
 ## The graph editor
 

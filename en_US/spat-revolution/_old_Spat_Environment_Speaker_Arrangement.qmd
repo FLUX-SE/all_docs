@@ -1,7 +1,5 @@
 # Speaker Arrangement Editor {#sec-speaker-editor}
 
-
-
 ## Rendering to Speakers
 
 In order for the virtual scene (our room) to translate correctly as an immersive sound experience on a speaker system, _SPAT Revolution_ needs to have a model of a multichannel speaker arrangement which will be used to apply the panning or synthesis method to map the information to the destination speakers and render the sound field correctly.

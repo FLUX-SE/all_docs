@@ -30,7 +30,6 @@ book:
       - Items_Page.qmd
       - Spat_Environment_Snapshot_Page.qmd
       - Spat_Environment_Speaker_Arrangement_Editor.qmd
-      - Spat_Environment_Import_Speaker_Config.qmd
       - Spat_Environment_Transformation.qmd
       - Spat_Environment_Balistic.qmd
       - Application_Preferences.qmd
@@ -41,7 +40,7 @@ book:
       - Spat_Environment_Master_Section_Modules.qmd
       - Spat_Environment_Modules_channel_count.qmd
       - Spat_Environment_Modules_de_activation.qmd
-   - part: Spat_engine.qmd
+   - part: Spat_Engine.qmd
      chapters:
       - Spat_Environment_Source.qmd
       - Spat_Environment_Source_Parameters.qmd

@@ -1,4 +1,4 @@
-# Artificial Reverberation {#artificial-reverb}
+# Artificial Reverberation {#sec-artificial-reverb}
 
 Each _Virtual Room_ in SPAT can have its own artificial reverberation.
 Reverberation is a very important element in the psycho-acoustic perception of localised sources and immersive sound fields.
@@ -18,7 +18,7 @@ Some Spat Reverb parameters control how the acoustics are _perceived_.
 
 Alongside conventional tuning parameters which you might be familiar with, you will also find perceptual parameters, such as _heaviness_, _liveness_ and _presence_.
 
-These _Perceptual Reverb_ parameters have been derived from the same IRCAM research experiments which were used to define the [_Perceptual Factors_ -@sources-parameters-perceptual-factor] of sources such as _warmth, envelopment_ and _brilliance_.
+These _Perceptual Reverb_ parameters have been derived from the same IRCAM research experiments which were used to define the [_Perceptual Factors_ -@sec-sources-parameters-perceptual-factor] of sources such as _warmth, envelopment_ and _brilliance_.
 These can be found among the parameters for each virtual source.
 
 The SPAT reverb designer can be used for a lot more than only simulating a "normal" acoustic space.

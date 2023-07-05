@@ -4,20 +4,19 @@ This section will go through the _SPAT Revolution_ software environment in more 
 
 ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Education/Environment.png)
 
-<!-- ## General concept
+In a nutshell, the **Setup Page** is the brain of your SPAT Revolution session. It's where you route signals and address your mix to the loudspeaker array you're using.
 
-We have already discussed the idea that SPAT Revolution is an object-based mixing engine. This has two important consequences:
+The **Home Page** is a simple hub that displays your previously opened sessions and gives you a user-friendly way to get started.
 
-+ The mixing operation is entirely decorrelated to the target diffusion system (headphones, ambisonic dome, Dolby Atmos beds 7.1.4, etc.).
-+ From the point of view of the user interface, audio channels are not represented as tracks, but as sound sources living in a virtual space.
+The **Snapshot Page** is the interface to the very powerful Snapshot engine. Here you can create, re-order, retrieve, update snapshots and much more!
 
-This last sentence says a lot about the workflow of SPAT Revolution. Our mix will take place inside sound sources (thanks to their various parameters such as azimuth, elevation, distance, etc.) and we will use the virtual room to render this virtual sound scene.
+The **Item Page** is another way of visualising information in your session. It is very powerful in terms of setup or OSC integration to quickly access the information that matters.
 
-Rendering a sound scene means that we need to know what the playback system is. Is it headphones? Is it some kind of loudspeaker array? To specify what kind of loudspeaker array it is, SPAT integrates a loudspeaker configuration tool that allows the user to either use a standardised (or very common) loudspeaker layout, or to create a very unique one, corresponding to the loudspeaker placement in a concert hall.
+The **Speaker Arrangement Editor** is a simple yet comprehensive tool for creating and managing speaker layouts. Remember, this is a critical step in creating a convincing spatialisation experience.
 
-Last but not least, virtual room also means acoustic simulation, so every aspect of sound localisation is covered by the SPAT Revolution engine.
+The **Preferences Page** is where you will find many of the application settings that allow you to tailor SPAT Revolution to your needs.
 
-Perhaps a brief metaphor will help here. If we were talking about written music, the source parameters would be the score. It represents how the music should be played. The loudspeaker configuration would be very much like the orchestra you are recruiting to play the score: is it a small ensemble or not? Does it cover the whole family of musical instruments? In this case, trying to place a sound behind you while mixing on a stereo system would be very similar to asking a percussionist to play a flute part because the ensemble has not hired a flute. Finally, the virtual space will most likely be the conductor. He will choose a way to manage the ensemble he is working with and find a way to get the most out of it in terms of the instructions given by the score. -->
+While we cover these main menus, we will also discuss the files and folder structure of the application, as well as discussing signal ballistics and a few other topics.
 
 <!-- 
 **Rendering to Speakers**

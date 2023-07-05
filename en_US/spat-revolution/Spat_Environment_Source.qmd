@@ -14,8 +14,9 @@ When using a BlackTrax positional tracking system a Tracking index can be assign
 ## Source Parameters
  -->
 
+A source in SPAT Revolution is a very special object that associates metadata with some audio channels. These metadata are actually all the source parameters that we will discuss in the next chapter. Once we have this association of channels and mixing information, we can send it to a room that acts as a decoder, or interpreter if you prefer. This explains why **only sources can be connected to rooms**.
 
-Every source in a room has its own set of variable parameters which define its simulated positional information, psycho acoustic properties, virtual acoustic properties and other options.
+The various source parameters define the source's simulated positional information, psychoacoustic properties, virtual acoustic properties and other options.
 
 To edit the variables of a source in the _Source Parameter_ editor, you must first be inside a room. Select the source you want to edit from the list on the left side panel of the Room editor by left-clicking on its number. Alternatively, grab its 'emitter' object in the 3D room visualization (or just one of them, if the source is a multichannel group). When you select a source, the _Source Parameter_ editor will pop up as a set of categorized groups with which you can alter the properties of the Virtual Source in the Room.
 
@@ -92,3 +93,19 @@ This feature allows you to display one or several parameters for all the sources
 The key word ```strict:``` allows searching strictly one or several parameter. For example, ```strict: gain presence``` will display only the sources gain and presence, while ```gain presence``` will display the gain, the room specific gain, the presence, the room presence, and all gains of the axis and omni filters.
 
 Some pre-determined presets are available on a menu accessible on the left of this edit to give you some ideas.
+
+## Groups of sources
+
+Barycentric groups are a very convenient way of temporarily editing an ensemble of selected sources. But in some cases, we would prefer the barycentric group to be permanent. That's where groups come in.
+
+A group works very closely to a barycentric group. You can create a group by selecting all the sources you want to include and using the `CMD/CTRL+G` shortcut. In that case the group appears as new source in the Inspector and also as a square in the 3D view. If you move this square, all the sources in the group will move with it. If you move one of the sources in the group, the position of the barycentre will be updated.
+
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Room/3DViewGroups.png)
+
+Another important point is that **groups can be nested**. In other words, you can have groups inside other groups. The depth of the arborescence is indicated by an indentation in the inspector.
+
+Like a source, a group has an OSC index that can be used for external control or automation. The easiest way to find this number is to look at the Item page.
+
+:::{.callout-warning}
+It is recommended that you only record automation for sources and not for groups, otherwise you may end up playing the same automation twice, causing all sorts of strange and unpredictable behaviour.
+:::

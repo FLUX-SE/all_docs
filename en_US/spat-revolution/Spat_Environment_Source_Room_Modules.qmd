@@ -40,7 +40,7 @@ When you have correctly set up the BlackTrax protocol (see [BlackTrax Integratio
 
 ### Gain
 
-Change the input gain of the source.
+Change the input gain of the source. Also includes a phase toggle switch to invert the polarity of the signal.
 
 ### Levels
 
@@ -88,7 +88,7 @@ See [Listener position section -@sec-listener-position].
 
 ### Gain
 
-Change the output level of the room.
+Change the output level of the room. Also includes a phase toggle switch to invert the polarity of the signal.
 
 ### Levels
 

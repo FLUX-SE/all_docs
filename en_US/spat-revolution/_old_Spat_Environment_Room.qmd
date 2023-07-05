@@ -4,11 +4,11 @@
 
 In _SPAT Revolution_, spatialization of virtual sources takes places inside _Rooms_. To enter a room and open its graphic editor environment, double-click on a room module in the Setup graph, or select a room tab from the Navigation bar.
 
-When we enter a Room, we will see the 3D view and all the connected sources. Option related to the 3D view display are located in top menu. On the left side panel of the room editor, you get a list representation of each source with its index identification number. We can click on the Index number of each source, and the [source parameters -@sources-parameters] editor for that virtual source will appear.
+When we enter a Room, we will see the 3D view and all the connected sources. Option related to the 3D view display are located in top menu. On the left side panel of the room editor, you get a list representation of each source with its index identification number. We can click on the Index number of each source, and the [source parameters -@sec-sources-parameters] editor for that virtual source will appear.
 
 ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Room/3DView.png)
 
-Two special index items labeled as **(R) REVERB** and **(M) OUTPUT** appear fixed at the bottom of the left panel. By clicking on these, we then enter into two more parameter editors: one relating to the [Artificial reverberation -@artificial-reverb] and one relating to the room output configuration and [Listener Position -@sec-listener-position] editor.
+Two special index items labeled as **(R) REVERB** and **(M) OUTPUT** appear fixed at the bottom of the left panel. By clicking on these, we then enter into two more parameter editors: one relating to the [Artificial reverberation -@sec-artificial-reverb] and one relating to the room output configuration and [Listener Position -@sec-listener-position] editor.
 
 Mutes and solos are manageable for all sources and for the entire room output from this index list. A solo clear button is  available on the top of the source list. Clicking on it will reset all the solo of all rooms.
 

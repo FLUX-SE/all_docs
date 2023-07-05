@@ -31,6 +31,10 @@ Input stream types are : channel-based, HOA, A-Format, B-Format, UHJ, MS, Binaur
 
 For more options related to stream type, check the [Setup Page -@sec-setup-page] section.
 
+:::{.callout-tip}
+When selecting the *MS* stream type, you can tick the **encode** button to convert a stereo stream to MS. This allows you to use an MS-to-Stereo decoder to manipulate the mid and side components of the sound field.
+:::
+
 ### Routing
 
 Give access to the routing matrix
@@ -39,9 +43,8 @@ Give access to the routing matrix
  This option is only available on hardware input.
 :::
 
-### Levels
 
-Basic true peak metering for each block's channels.
+### Setup
 
 ### Delay
 
@@ -50,6 +53,14 @@ Each input comes with a delay which can be useful:
 - in studio situation, to compensate the plugins delay when using Local Audio Path.
 
 The delay can be set in samples, milliseconds, or distance unit (meters if metric system, feet otherwise). This can be chosen on the **Global** panel of the **Preferences** page.
+
+### Phase inversion
+
+Inverts the polarity of the signal.
+
+### Levels
+
+Basic true peak metering for each block's channels.
 
 ## Input Transcoders {#sec-input-transcoder-module}
 
