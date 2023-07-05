@@ -1,8 +1,0 @@
-# Getting started
-
-In the following section we will introduce you to _SPAT Revolution_ and explain how to install the application using the FLUX::Centre and how to redeem and activate your licences.
-
-We will also explain all the differences between the **Ultimate** and **Essential** licenses.
-
-Furthermore, if you are searching for a quick start guide, check this document : [quick start guide](https://public.3.basecamp.com/p/BoK99VxRwAJ2fFM9VGSzS3Am).
-
