@@ -40,7 +40,7 @@ book:
       - Spat_Environment_Master_Section_Modules.qmd
       - Spat_Environment_Modules_channel_count.qmd
       - Spat_Environment_Modules_de_activation.qmd
-   - part: Spat_Engine.qmd
+   - part: Spat_Mix_Engine.qmd
      chapters:
       - Spat_Environment_Source.qmd
       - Spat_Environment_Source_Parameters.qmd
