@@ -10,7 +10,7 @@ book:
     logo-href: ../index.html
     right:
       - icon: github
-        href: https://github.com/FLUX-SE/doc_images
+        href: https://github.com/FLUX-SE/all_docs
         aria-label: GitHub
       - icon: house
         href: https://www.flux.audio

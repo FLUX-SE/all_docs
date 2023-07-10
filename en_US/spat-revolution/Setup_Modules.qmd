@@ -22,7 +22,7 @@ Each module has a specific role. Input and Output modules take care of the routi
 
 ## Stream types and associated options
 
-Modules blocs are characterized by their stream type. In spatial audio, audio streams can be of different natures, as seen in the [Spatialisation Technology -@sec-spat-technology] section.
+Modules blocs are characterized by their stream type. In spatial audio, audio streams can be of different natures, as seen in the [Spatialisation Technology -@sec-spatTechnology] section.
 
 Stream types and their options are :
 

@@ -1,4 +1,4 @@
-# Spatialization Technology {#sec-spat-technology}
+# Spatialization Technology {#sec-spatTechnology}
 
 In this section, we will discuss on the various spatialization tool used by _SPAT Revolution_.
 
