@@ -14,13 +14,13 @@ Summing a 5.1 and 7.1 rooms together will output a 7.1 where their common L, C, 
 Summing can also be done directly in **Master** and **Output** Modules, but summing into a **Sum** module will save resources if the same sum is performed in different blocks.
 :::
 
-## Master Transcoder modules {#sec-modules-mtranscode}
+## Master Transcoder modules {#sec-modules-mtranscode}
 
 The **Master Transcoder** row of modules offers an opportunity to consolidate the various formats you might have been mixing into one (or more) formats for final output routing by the **Output** modules.
 The same options and routing are available as in the [Input Transcoder modules -@sec-input-transcoder-module].
 
 
-## Master modules {#sec-modules-masters}
+## Master modules {#sec-modules-masters}
 
 The **Master** bloc gives you a last gain staging control, as well as down mixing capabilities. When opening its matrix, it is possible to patch several inputs to one output, or, one input to several outputs. It also includes a phase toggle switch to invert the polarity of the signal.
 

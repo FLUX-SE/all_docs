@@ -18,11 +18,11 @@ A source in SPAT Revolution is a very special object that associates metadata wi
 
 The various source parameters define the source's simulated positional information, psychoacoustic properties, virtual acoustic properties and other options.
 
-To edit the variables of a source in the _Source Parameter_ editor, you must first be inside a room. Select the source you want to edit from the list on the left side panel of the Room editor by left-clicking on its number. Alternatively, grab its 'emitter' object in the 3D room visualization (or just one of them, if the source is a multichannel group). When you select a source, the _Source Parameter_ editor will pop up as a set of categorized groups with which you can alter the properties of the Virtual Source in the Room.
+To edit the variables of a source in the _Source Parameter_ editor, you must first be inside a room. Select the source you want to edit from the list on the left side panel of the Room editor by left-clicking corresponding in lane in the inspector. Alternatively, grab its 'emitter' object in the 3D room visualization (or just one of them, if the source is a multichannel group). When you select a source, the _Source Parameter_ editor will pop up as a set of categorized groups with which you can alter the properties of the Virtual Source in the Room.
 
 The source's parameters are ordered inside panels. Each panel can be minimized or expanded.
 
-Additionally, a _right click_ on a Source Number will bring up some further options, especially useful is the **Color** option, which allows you to set an identification color to a Source or Group.
+Additionally, a _right click_ on a the source lane will bring up some further options, especially useful is the **Color** option, which allows you to set an identification color to a Source or Group.
 
 :::{.callout-note}
 If a source is a multichannel one, there will be only one number and one set of parameters for the whole cluster.
@@ -53,6 +53,17 @@ Each parameter has the possibility to store useful preset settings of your own c
 
 ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Generic/ParameterPreset.png)
 
+## Smart Property Filter
+
+This feature allows you to display one or several parameters for all the sources that are in the same room. It is a useful feature for fast editing. Type "azimuth elevation distance" in the filter box for example, and you will see faders appear for only these properties, grouped for each of the sources as demonstrated in the following screenshot.
+
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Room/SourcesPanelSearch.png)
+<!-- TODO: update the image -->
+
+The key word ```strict:``` allows searching strictly one or several parameter. For example, ```strict: gain presence``` will display only the sources gain and presence, while ```gain presence``` will display the gain, the room specific gain, the presence, the room presence, and all gains of the axis and omni filters.
+
+Some pre-determined presets are available on a menu accessible on the left of this edit to give you some ideas.
+
 ## Barycentric Groups
 
 When a Source in a Room has more than one channel in its format, it will be represented as a single source with ONE unique index.
@@ -71,7 +82,7 @@ See dedicated section for a breakdown of the [**Source Parameters** -@sec-source
 
 ### Multiple Source Selection
 
-You can shift click on the Index number of separate sources to create an ad hoc edit group. When you have group Sources in this way, you can perform a number of group edit actions. When you right-Click on an ad hoc group selection, a menu will pop up where you can:
+You can shift click on the source lane of separate sources to create an ad hoc edit group. When you have group Sources in this way, you can perform a number of group edit actions. When you right-Click on an ad hoc group selection, a menu will pop up where you can:
 
 - distribute the sources in the group with the [Transform panel -@sec-transformation]
 - generate different colors for the sources
@@ -82,17 +93,6 @@ When you have selected an ad hoc group using the shift click technique, you can 
 ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/ActionsMultiselection.png)
 
 Any source parameter variable you adjust manually will assign that same setting on all selected sources in the group. A barycenter will then become practical to work from a center of mass perspective. For example, transformations like scaling, distance, rotation and directivity of the group is managed by SPAT controlling each member of the group a barycentric relationship.
-
-### Smart Property Filter
-
-This feature allows you to display one or several parameters for all the sources that are in the same room. It is a useful feature for fast editing. Type "azimuth elevation distance" in the filter box for example, and you will see faders appear for only these properties, grouped for each of the sources as demonstrated in the following screenshot.
-
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Room/SourcesPanelSearch.png)
-<!-- TODO: update the image -->
-
-The key word ```strict:``` allows searching strictly one or several parameter. For example, ```strict: gain presence``` will display only the sources gain and presence, while ```gain presence``` will display the gain, the room specific gain, the presence, the room presence, and all gains of the axis and omni filters.
-
-Some pre-determined presets are available on a menu accessible on the left of this edit to give you some ideas.
 
 ## Groups of sources
 
