@@ -92,7 +92,7 @@ This routing forced digital audio workstations to process *SPAT Send* plug-ins *
  **Be always sure that each track containing a SPAT Send plug-in is routed to every and each track containing a Spat Return plug-in.**
 :::
 
-For more DAW specific information, please consult our [third-party integration -@sec-third-party] section.
+For more DAW specific information, please consult our third-party integration section.
 
 ## Dealing with DAW CPU optimizations
 
@@ -101,5 +101,5 @@ Some DAWs, like REAPER, use some technic to reduce the load of VST plug-ins on t
 Other DAWs, like Ableton live, put plug-ins that does not receive or send any audio in an off-line state. Although it is not necessarily displayed to the user, this can create some major issues when working with _SPAT Revolution_ plug-ins.
 
 :::{.callout-warning}
- Be sure to consult our [third-party integration -@sec-third-party] section for more DAW specific information.
+ Be sure to consult our third-party integration section for more DAW specific information.
 :::

@@ -37,7 +37,7 @@ If you are experiencing lost sync when using Local Audio:
 * Reopen  _SPAT Revolution_.
 
 
-Also, please be sure to carefully read the detailed advice of the various DAW in the **[Third party integration -@sec-third-party]** section of this guide and refer to the various provided templates.
+Also, please be sure to carefully read the detailed advice of the various DAW in the **Third party integration** section of this guide and refer to the various provided templates.
 
 
 ## SPAT Send and Return DAW
