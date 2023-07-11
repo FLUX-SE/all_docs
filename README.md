@@ -1,4 +1,5 @@
-# ![Flux::](include/favicon-32x32.png ':class=img-title') FLUX:: Documentation
+# ![Flux::](en_US/favicon.svg ':class=img-title') FLUX:: 
+Documentation
 
 ## Immersive
 

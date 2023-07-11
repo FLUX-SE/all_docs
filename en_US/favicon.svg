@@ -1,0 +1,13 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg 
+class="md:hidden" 
+viewBox="0 0 
+1032 1190" width="32" 
+xmlns="http://www.w3.org/2000/svg">
+  <circle fill="#F29100" cx="205" cy="205" r="205" />
+  <circle fill="#0069B3" cx="828" cy="205" r="205" />
+  <circle fill="#5EB030" cx="205" cy="986" r="205" />
+  <circle fill="#E20613" cx="828" cy="986" r="205" />
+</svg>
