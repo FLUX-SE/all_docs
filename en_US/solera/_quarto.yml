@@ -1,0 +1,20 @@
+project:
+  type: book
+  output-dir: ../../_build/solera ####### <=========== Don't forget to edit path if renaming is needed. YAML don't support concatenation
+
+book:
+  title: "Solera"
+  chapters:
+  - index.qmd
+  - General_Settings.qmd
+  - Time_Related_Settings.qmd
+  - Dynamic_Section_Settings.qmd
+  - Display.qmd
+  - The_Side_Chain_EQ_Section.qmd
+  - Preset_Management.qmd
+  - Specifications.qmd
+  appendices:
+    - ../flux_processing_release_notes.qmd
+
+metadata-files: 
+  - ../_common.yaml

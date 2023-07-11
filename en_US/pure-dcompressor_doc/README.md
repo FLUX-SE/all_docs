@@ -1,1 +1,0 @@
-# pure-dcompressor_doc

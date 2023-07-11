@@ -1,0 +1,265 @@
+# Speaker Arrangement Editor {#sec-speaker-editor}
+
+![The speaker arrangement editor window showing a predefined 13.1 Auro 3D speaker arrangement.](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/SpeakerEditor1.png)
+
+The **speaker arrangement editor** offers the ability to prepare the model of the sound diffusion system you are actually using.
+
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/RoomInspectorEdit.png)
+
+When you find yourself working on a custom multi-channels speaker arrangement, the **Speaker Config** editor is where a model of the sound diffusion system can be defined and stored into the list of speaker arrangements.
+
+Open the **speaker arrangement editor** by clicking on the ```Edit``` button of a Channel-Based room, by the _Speaker Arrangement_ pull down menu. Pre-configured arrangements cannot be deleted or modified but can be **duplicated** (a copy will be generated for editing). A **new** config can also be created.
+
+## Rendering to Speakers
+
+In order for the virtual scene to translate correctly as an immersive sound experience in a speaker format, SPAT needs to have an accurate model of a _multichannel speaker arrangement_ which will be used to map the multichannel information to the destination speakers and render the sound field correctly in a real space.
+To this end, you will find a large library of standard and specialized speaker arrangements already built into SPAT which can be used in various places throughout the **Environment Setup**.
+
+Speaker configurations can be used to fit the format of a virtual room to match the actual speaker system being used to diffuse the mix in a real room.
+Channel based speaker configurations can also be used to transcode the format of a virtual source into a virtual room.
+More about this later.
+
+The golden rule when working with multichannel based audio is that you must be sure to choose _exactly_ the right formats, speaker arrangements and channel routing throughout; otherwise the virtual space will not map correctly into a physical space.
+
+## Virtual and Real Diffusion
+
+Successful diffusion of a sound field in space relies on every loudspeaker being assigned correctly to each software rendered output channels.
+
+A diffusion system could range from a simple pair of headphones to a 18 (**Essential**) or unlimited (**Ultimate**) speakers array and anything in between.
+In some of the more virtualized workflows of _SPAT Revolution_, you may even be thinking about diffusion in a virtual space on configurations of virtual speaker arrangements and channel based formats.
+The same rule for successful diffusion applies here—the diffusion in the virtual room will be compromised and sound off if the channel assignments to the virtual systems are incorrect.
+
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Room/3DViewMultichannelSources.png)
+
+In the above illustration, a virtual 5.1 and a virtual Cube arrangement exist together in a High Order Ambisonic Room, which may eventually be rendered to some other channel based end format. -->
+
+## Creating & editing a speaker arrangement
+
+![width=500, atl=_SPAT Revolution_ Speaker Config](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/SpeakerEditor3.png)
+
+While there are many standardized speaker array, such as Dolby Surround, Atmos, Auro 3D, DTS, Quad or even stereo, we are in many cases confronted to a very specific speaker positioning.
+
+For such use case, it is possible to create custom speaker arrangements. Using a well-defined custom speaker arrangement will improve the sound stage and the overall impression of immersion of the audience. We always highly recommend taking the time to measure the position of the speakers of your system and to input them in _SPAT Revolution_.
+
+### Speaker Arrangement section
+
+**Arrangement drop-down menu:** this menu allows access to a list of all your existing speaker arrangement.
+
+**Duplicate:** create a copy of the current speaker arrangement.
+
+:::{.callout-warning}
+ You cannot overwrite a factory arrangement. Duplicate it before trying to edit it.
+:::
+
+**New:** create a new empty speaker arrangement.
+
+**Delete:** delete the current speaker arrangement.
+
+:::{.callout-warning}
+ There is no confirmation before deleting an arrangement.
+:::
+
+**Rename:** rename the current speaker arrangement.
+
+**Import from:** allow importing a speaker configuration from a third-party software. See the [next section -@sec-speaker-editor] for more detail.
+
+**Export:** open a window to export a selection of speaker arrangement.
+
+### Alignment section
+
+![_SPAT Revolution_ Speaker Config](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/SpeakerEditorCompute3.png)
+
+**Reset:** revert the *compute* process.
+
+**Compute:** opens a dialog to help to set delay and gain on the speaker arrangement. More information of the [dedicated section below -@sec-speaker-editor-alignment]
+
+### Selected or all speakers section
+
+**Transform:** modify the selected or all speakers according to a specified transformation. For more information about it, check out the [transformation section -@sec-transformation].
+
+**Set orientation**: set the orientation of selected or all speakers.
+
+**Fix automatic orientation**: for speakers whose orientation is set to automatic, replace it to real orientation (front, back, listener, custom with the given angle, ...) instead of automatic.
+
+**Del.:** remove the selected speaker(s) in the arrangement.
+
+**Move up:** move the selected speaker(s) one row above.
+
+**Move down:** move the selected speaker(s) one row below.
+
+### Add speaker(s) section
+
+**Add:** create a new speaker in the arrangement.
+
+**Add along geometries:** add new speakers according to a specified geometries.
+
+### The speakers list section
+
+:::{.callout-warning}
+Nb.:** identify the channel of the speaker.
+
+The _SPAT Revolution_ **Essential** license limits the total number of channels to 32 input channels, and to 18 output channels.
+:::
+
+**Name:** identify the name of the speaker.
+
+:::{.callout-warning}
+To create an LFE channel, simply name one speaker of the arrangement "LFE". It is possible to create until 4 LFE, naming them "LFE 1", "LFE 2", "LFE 3" and "LFE 4". The corresponding sends button will appear on the source parameters panel.  
+
+ SPAT Revolution uses speaker naming to sum speaker arrangement.
+:::
+
+**X (m):** defines the position of the speaker on the X-axis, in meters.
+
+**Y (m):** defines the position of the speaker on the Y-axis, in meters.
+
+**Z (m):** defines the position of the speaker on the Z-axis, in meters.
+
+**Azimuth (°):** define the angle of incidence of the source to the center of the 3D space, in the horizontal plan.
+
+**Elevation (°):** define the angle between the source, the center of the 3D space and horizontal plan.
+
+**Distance (m):** define the distance between the source and the center of the 3D space, in meters.
+
+**Orientation:** define the orientation of the speaker. Default settings is "Automatic"
+
+  + Automatic: default behavior, the yaw and the pitch angles are determined by the shape of the speaker arrangement. It should be the standard orientation of most cases, but can be inefficient on certain specific designs.
+  + Listener: the speaker points to the listener head
+  + Front: the speaker points to the bottom of the 3D view
+  + Back: the speaker points to the top of the 3D view
+  + Side Left: the speaker points to the left side of the 3D view
+  + Side Right: the speaker points to the right side of the 3D view
+  + Custom: the user can define the orientation with the *yaw* and *pitch* parameters.
+
+:::{.callout-note}
+The orientation (0°,0°) is pointing to the listener.  
+:::
+
+**Yaw:** rotate the speaker around the Z-axis. 0° degree is pointing the listener.
+**Pitch (°):** rotate the speaker in elevation.
+
+:::{.callout-warning}
+ **Orientation**, **yaw** and **pitch** are only useful in WFS use case.
+:::
+
+:::{.callout-note}
+Tips: to point down (speaker with positive elevation) or up (speaker with negative elevation) a speaker, set the pitch to 90 menus the speaker elevation value;
+:::
+
+**Delay (ms):** add a fix amount of latency to a speaker.
+
+**Gain (dB):** change the sound level of the speaker.
+
+:::{.callout-warning}
+ In many cases, it is wiser to let the **delay** and **gain** parameters untouched, and let the "compute" function do the job.
+:::
+
+### Panning Type Tips section
+
+Here, we can find information about which pan law is available in regard of our speaker array. Some explanations are displayed to help understand why some pan laws aren't available.
+
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/SpeakerEditorPanningTips.png)
+
+There are five colors associated with the possible panning types:
++ **Green**: this panning type is valid and functional with the selected speaker array.
++ **Orange**: this panning type is somewhat functional, but there certainly is a better solution available. Hovering the panning type with the mouse will display a message to help improve the arrangement.
++ **Red**: this panning type is not functional with the selected speaker array. Hovering the panning type with the mouse will display a message to explain why it does not work.
++ **Grey**: Two speakers are located at the same spot (i.e. the speakers are coincident). The speaker arrangement is incorrect.
+
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/SpeakerEditorInvalid.png)
+
+:::{.callout-note}
+Error displayed with HOA panning type.
+:::
+
+For more information about each pan law, check out the section [Panning algorithms -@sec-panning-algorithms].
+
+## Understanding when a speaker arrangement, or a sound scene, is 2D or 3D
+
+We can quickly be tempted to create very precise speaker arrays, including height information where it may not be necessary and can do more harm than good.
+
+The rule of thumb is to think in plan and not in absolute height. If speakers are meant to reproduce the same sound plan, they should have the same height. Also, the main sound plan has to be set at a height of zero meter. If you try to validate a speaker arrangement that only has one plan and is not set to a height of 0, it will correct it automatically. It also applies for older sessions that were created before _SPAT Revolution_ had this feature.
+
+### Alignment {#sec-speaker-editor-alignment}
+
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/AlignmentDialog.png)
+
+Speakers alignments section lets _SPAT Revolution_ compute the delay and gain for the selected speaker arrangement. To help to deal with them with complex systems, several methods are provided, allowing adapting your alignment according to the wanted behavior:
+
+- **Spherical**: will align speaker according to a sphere. The farthest speaker will determine the sphere radius. _This is the old behavior of the compute feature._
+- **Cartesian with minimum delay**: will align the speakers according to straight lines.
+- **Cartesian with symmetry**: will align left/right and front/back speakers according to symmetrical straight lines. _A typical use case will be to help to deal with an asymmetrical arrangement._
+
+Alignment can be made on the all arrangement, but also selecting a certain speaker orientation type. 
+It is possible to select the speakers on each the alignment will be done according to their orientation.
+
+### Automatic Scaling
+
+When going on the road with a show, the idea of _SPAT Revolution_ is to always keep the same session, which stores our input routing, our mixing metadata and all of our snapshots. But in such use case, each time the venue changes, the speaker arrangement changes too and its size (or diameter) will much likely be different each time.
+
+As we use absolute, we solve this common use case by using an automatic scaling process. 
+
+If you change the speaker arrangement of a room where you already routed some sources, the global sound scene could be scaled to the new speaker arrangement.
+
+For example, if you first created your session with a speaker arrangement with a diameter of four meters, and then deploy it in a venue where the actual diameter of the sound system is eight meters, then all the source position, incoming automation and snapshot data will be scaled by a factor of two.
+
+### Speaker arrangements examples
+
+Here are some examples of speaker configurations you can find in some venue, like RadioFrance Studio 115, Montreal Satosphere, or Berlin Planetarium. To discover it into _SPAT Revolution_, copy the python file on your desktop: **[Speaker arrangements for various domes and planetariums](https://public.3.basecamp.com/p/pPtg3qFrUsxyPPmQ3b3JLPqW)**.
+
+### Speaker arrangement Python file
+
+Write the speaker arrangement on a python file provides the erasing of the data. It is recommended to do so on fixed installation, or if you really don't want to lose the speaker arrangement data. 
+If you want to build your own custom speaker arrangement script, explanations are provided into the following python file:
+**[Custom Speaker Arrangement Script](https://public.3.basecamp.com/p/rQStK3igPkaXisYS4Gs5sJ2g)**.
+
+## Import Speaker Array {#sec-import-speaker-array}
+
+For systems that are regularly changing such as in live production, setting up the speaker configuration in the simulation software and then  repeating it in the immersive software is not the most fun part!
+
+To ease this part of the setup, you can now import from software of Nexo (NS-1), Adamson (Blueprint), d&b (ArrayCalc), CODA Audio (System Optimiser) and the standard EASE software.
+
+This import is integrated into the **Speaker Arrangement** editor where you can find the ```Import from``` button.
+
+![image](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/SpeakerEditorImportFrom.png)
+To begin is the FLUX IOConfig. This is the FLUX:: speaker arrangements file format. This can be a great tool to export and save your FLUX:: arrangements or to import an arrangement into another session / computer system.
+
+In _SPAT Revolution_, it is important to understand that speaker arrangements **DO**  follow the session file. So if you are opening a .JSON with an arrangement new to your system, _SPAT Revolution_ will copy that arrangement and it will then be part of the user-created arrangements. In consequence, this new arrangement will be accessible for any new _SPAT Revolution_ session.
+
+If you care to know where these arrangements are stored, ```Document/FLUX SE/Spat Revolution/Config``` is where your master IOConfig file, containing all the user-defined arrangement, is located. Note that the repertory ```Document/FLUX SE/Spat Revolution``` is now the folder that contains all of your SPAT preferences. If you ever need to erase your preferences, for troubleshooting purpose, remember to export your speaker arrangements first, and then back them up outside this folder.
+
+### How to import a speaker configuration from
+
+#### Ease
+
+In EASE software, open the project, and click ```Edit Project Data``` on the upper toolbar. In the new window, click on ```Edit``` toolbar button, then ```Loudspeakers```, ```File``` and finally ```Send table to file```.
+
+A popup window will open, asking to use only selected rows. If you want to export all the speakers, click on ```NO```. Select the target catalog for the text file you are going to generate, and click on save. The newly created file can now be imported in SPAT Revolution.
+
+:::{.callout-note}
+Chances are the reference point used in EASE won't be the central reference point typically used in SPAT. Simply use the Transform speaker arrangement option. Typical, you will want to offset X / Y position or Rotate the arrangement 180 degrees.
+:::
+
+#### Nexo NS-1
+
+In NS-1, to export all the speakers : Go to the ```Speaker Positions Windows```,  ```Speakers/Speakers Position``` or ```Ctrl + P```. Select all the Speakers, and click on ```Export, File...```. This will export a .txt file, readable by _SPAT Revolution_.
+
+#### Adamson BluePrint
+
+In BluePrint, to export all the cabinets: Go to the Cabinet tab. In the  line ```Cabinet Group```, click on the 4th button, ```Export All Cabinets```. This will export an .arys file readable by _SPAT Revolution_.
+
+![image(1)](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/AdamsonExport.png)
+
+
+#### d&b ArrayCal
+
+In ArrayCal, export all the sources with "Files/Export/EASE/Coordinates of all sources". This will export a .xld file readable by _SPAT Revolution_.
+
+![image(2)](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/dbExport.png)
+
+#### Excel
+
+![image(2)](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/SpeakerEditorImportExcel.png)
+
+**[Speaker import from Excel template](https://public.3.basecamp.com/p/w1VQL9UbbndSXP5P3qpU6DnU)**
+

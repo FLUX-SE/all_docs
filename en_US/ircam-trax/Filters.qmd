@@ -1,0 +1,30 @@
+# Filters
+
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Plugins/ircam-trax/trax_07.png)
+
+## (36) Filter Curve
+The filter curve displays the overall frequency response of the filter section.
+
+
+## (37) High Pass
+Inserts a 6dB/octave high pass filter in the signal chain.
+
+
+## (38) High Pass On
+Toggles the High Pass Filter in and out.
+
+
+## (39) Post High Pass
+Determines whether the filter acts on the input or output signal. When off, which is the default setting, the 
+corresponding frequencies are filtered out prior to analysis and transformation, which
+can be used to prevent possible tracking errors induced by any excessive rumble or mains interference picked up during 
+recording. If you only want to equalize the signal, enable Post to circumvent this behaviour.
+
+## (40) Low Pass
+Inserts a 6dB/octave low pass filter in the signal chain.
+
+## (41) Low Pass On
+Toggles the Low Pass Filter in and out.
+
+## (42) Post Low Pass
+See 39.

@@ -1,7 +1,0 @@
-plugins:
-  - jekyll-sitemap
-exclude:
-  - Gruntfile.js
-  - package.json
-  - yarn.lock
-  - include/bin

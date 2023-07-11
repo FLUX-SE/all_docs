@@ -1,0 +1,176 @@
+# RMS metering
+
+## About Metering
+
+All meters display the current signal meter values as solid vertical bars, and the peaks are indicated with horizontal lines at the corresponding value. 
+Peak hold time can be adjusted in the settings if necessary. 
+The peak value is also displayed in a numeric format at the top of the meter, which is emphasized in red in case of clipping or overload.
+
+Several meter displays are available, each scrupulously implementing one of the more common and up-to-date industry norms, as detailed in the following paragraphs.
+
+![Meters with stereo input.](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Metering/Stereo.png)
+
+![Meters with 5.1 surround input.](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Metering/Surround51.png)
+
+## Introduction
+
+RMS stands for Root Mean Square, is a measure of the average magnitude of a varying signal, or equivalently, the average power over the signal over a time period, called the integration time.
+
+:::{.callout-note}
+
+The live layouts display dB [SPL -@sec-metering-rms-metering-spl] (Sound Pressure Level) values, which is the standard measure of acoustic pressure. 
+This requires that your input chain first be calibrated in order to get accurate and meaningful readings, as factors such as your particular microphone's sensitivity and preamplifier gain are not known in advance. 
+For this, you will need to get your hands on a calibrator, which is a box fitted with a transducer that outputs a known acoustic level and features a socket designed to hold the microphone.
+
+:::
+
+## Preset
+A number of presets covering widely and not so widely-used metering standards are provided.
+
+![Available RMS metering presets](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Metering/PresetsRMS.png)
+
+### Custom
+User defined values.
+
+### Default
+All-round settings with:
+
+* From -48 to +18 dB range, referenced at -18dB.
+* 160ms integration time, 16dB/s release, 1dB peak release and 60 frames peak hold.
+
+### Ref -18dB A/B/C/K
+Default settings with pre-equalization following either normalized ANSI A/B/C or ITU-R BS.1170-2 weighting curves, referenced to -18dB.
+
+### Ref -20dB A/B/C/K
+Default settings with pre-equalization following either normalized ANSI A/B/C or ITU-R BS.1170-2 weighting curves, referenced to -20dB.
+
+### VU meter Standard
+Standard reference VU settings, with 300ms integration, 66/7dB/s release and peak release times, referenced at 0VU/-4dBu/-18dBFS. 
+The scale is non-linear and covers -20 to +3VU, complying with IEC 60268-17.
+
+### K-System / VU
+Linear scale, conforming to Bob Katz's recommendations, referenced at either -12, -14 or -20dB, 300ms integration, 66.7dB/s release and 12dB/s peak release times, 180 frames peak hold.
+
+### K-System / Slow
+Identical to K-System/VU, except that integration times are doubled. 
+This reflects Bob Katz's view that Vu-meter timings are appropriate for speech, but that longer timings are better suited to music.
+
+### DIN 45406
+This preset conforms to the standard used many European broadcasters such as French (PAD) and German (IRT) television. 
+Integration time is 10ms for a 90% signal increase; fall-back time is 1.7s per 20dB; with a linear scale covering a range from -50 to +5dB, referenced at -9dBFS. 
+The corresponding standards are DIN 45406, IEC 60268-1, and ARD Pfl.H.3/6.
+
+### Nordic N9
+5ms integration time for an 80% increase, fall-back time 1.7s per 20dB, linear scale covering the range from -40 to +9dB, referenced at -18dBFS, according to IEC 60268-10/1 + N9 supp.
+
+### BBC Normal
+10ms integration time for an 80% increase, fall-back time 2.8s per 24dB, custom scale with graduations spaced apart by 4dB, and 4 stands for the -18dBFS reference, according to IEC 60268-10/2a.
+
+### BBC Slow
+Same as above except for ballistics, where the integration time is changed to 69.2ms for an 80% increase, and 3.8s per 24dB fall-back.
+
+### EBU Normal
+10ms integration time for an 80% increase, fall-back time 2.8s per 24dB, linear scale covering the range from -12 to +12dB, referenced at -18dBFS, according to IEC 60268-10/2b.
+
+### EBU Slow
+Same as above except for ballistics, where the integration time is changed to 69.2ms for an 80% increase, and 3.8s per 24dB fall-back.
+
+
+## Settings
+
+![RMS metering setup options](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Metering/Setup.png)
+
+### Reference
+
+#### Zero reference
+Adjusts the reference point. 
+Default is -18dB (DVD standard). 
+Do not change this unless you specifically want to divert from the standard, as this will otherwise compromise meter readings.
+
+Standard values are -18dB for DVD authoring and -20dB for film.
+
+
+#### Weighting
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Metering/Weighting.png)
+
+Applies an optional weighting filter conforming to various standard curves:
+
+* None (default).
+* ITU 1770: K-weighting filter, comprising a shelving and a high-pass (RLB-weighting) filter in series, as specified in ITU-R BS.1170-2 and employed by EBU R128 (PLOUD).
+* ANSI A, which is roughly the inverse of the Fletcher-Munson curve.
+* ANSI B.
+* ANSI C.
+* ANSI D.
+
+### SPL {#sec-metering-rms-metering-spl}
+
+#### SPL reference
+
+This is the reference level of the calibrator's output, indicated on the device itself or in the corresponding datasheet. 
+A typical value is -94dB.
+
+#### SPL trim
+
+This is the offset applied to RMS dB values in order to obtain dB SPL readings. 
+It is determined automatically by the calibration procedure.
+
+#### Calibrate
+
+Press this button after having insert the microphone into the calibrator socket and activated it in order to determine the SPL trim value.
+
+### Range
+
+#### Min / max
+
+Defines the minimum and maximum values to be displayed on the meter bars. 
+This does not affect the text readings above the bars.
+
+### Time {#sec-rms-metering-time}
+
+#### Integration
+
+Defines the meter integration time constant, in milliseconds. 
+This corresponds to the length of the time window over which an RMS level value is computed.
+Decrease this to respond to signal level variations more quickly, at the expense of meter precision and stability. 
+Default is 160ms.
+
+#### Release
+
+Release time of the meter, in decibels per second. 
+This controls the falloff rate of the meter.
+Decrease this to respond to signal level variations more quickly, at the expense of readability.
+Default is 16 dB/s.
+
+#### Peak release
+
+Release time of the peak indicator, in decibels per second. 
+This controls the falloff rate of the peak hold indicators. 
+Increase this to retain peaks for a longer time. 
+Default is 1dB/second.
+
+#### Peak hold
+
+Sets the number of display frames to wait until the peaks actually start to fall-back to zero.
+Default is 60 frames.
+
+### Scale & split
+
+#### Scale
+Meter labels are defined here as a comma separated list of dB values to
+be shown on the side of the meters. 
+This also defines where to the corresponding horizontal markings. 
+Default is -72; -40; -18; -9; -6; -3; -1; 0; 1; 3.
+
+#### Colors
+This lets you customize the values at which color transitions occur. 
+You can enter as many values as you wish, as a comma separated list, but make sure the values are in increasing order. 
+Default is -9;0.
+
+The last value always defines the clip level, which will be indicated in red.
+
+## Bar-graph texturing
+
+Controls whether meters are drawn with texture or in a plain solid color. 
+
+Default is on.
+

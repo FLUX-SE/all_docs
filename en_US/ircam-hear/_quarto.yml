@@ -1,0 +1,18 @@
+project:
+  type: book
+  output-dir: ../../_build/ircam-hear
+
+book:
+  title: "IRCAM HEar"
+  chapters:
+    - index.qmd
+    - Concepts.qmd
+    - Controls.qmd
+    - Credits.qmd
+    - References.qmd
+    - Specifications.qmd
+  appendices:
+    - ../flux_processing_release_notes.qmd
+    
+metadata-files: 
+  - ../_common.yaml

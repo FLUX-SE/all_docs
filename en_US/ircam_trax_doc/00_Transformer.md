@@ -1,1 +1,0 @@
-![](include/trax_01.png)

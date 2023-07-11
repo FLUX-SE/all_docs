@@ -1,0 +1,21 @@
+project:
+  type: book
+  output-dir: ../../_build/pure-expander
+
+book:
+  title: "Pure Expander"
+  chapters:
+  - index.qmd
+  - General_Settings.qmd
+  - Time_Related_Settings.qmd
+  - Dynamic_Section_Settings.qmd
+  - Display.qmd
+  - Preset_Management.qmd
+  - Plug-in_Settings.qmd
+  - Specifications.qmd
+  - Compatibility.qmd
+  appendices:
+    - ../flux_processing_release_notes.qmd
+
+metadata-files: 
+  - ../_common.yaml

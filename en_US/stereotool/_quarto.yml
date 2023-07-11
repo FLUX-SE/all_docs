@@ -1,0 +1,22 @@
+project:
+  type: book
+  output-dir: ../../_build/stereotool ####### <=========== Don't forget to edit path if renaming is needed. YAML don't support concatenation
+
+book:
+  title: "Stereo Tool"
+  author: "FLUX:: Immersive"
+  date: "2/6/2023"
+  downloads: [pdf]
+  chapters:
+  - index.qmd
+  appendices:
+    - ../flux_processing_release_notes.qmd
+
+format:
+  html:
+    theme: cosmo
+    default-image-extension: gif
+  pdf:
+    documentclass: scrreport
+    default-image-extension: png
+    include-in-header: ../fluxtemplate.tex

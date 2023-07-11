@@ -1,0 +1,19 @@
+project:
+  type: book
+  output-dir: ../../_build/elixir
+
+book:
+  title: "Elixir"
+  chapters:
+    - index.qmd
+    - Introduction.qmd
+    - About_True_Peak.qmd
+    - Installation_authorization.qmd
+    - User_interface.qmd
+    - Preferences.qmd
+    - Specifications.qmd
+  appendices:
+    - ../flux_processing_release_notes.qmd
+
+metadata-files: 
+  - ../_common.yaml

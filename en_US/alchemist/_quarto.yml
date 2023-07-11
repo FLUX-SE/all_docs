@@ -1,0 +1,27 @@
+project:
+  type: book
+  output-dir: ../../_build/alchemist
+  
+book:
+  title: "Alchemist"
+  chapters:
+    - index.qmd
+    - part: General_Settings_and_Display.qmd
+      chapters:
+      - General_Settings.qmd
+      - General_Display.qmd
+    - part: Bands_Settings_and_Display.qmd
+      chapters:
+      - Band_Settings.qmd
+      - Time_Related_Settings.qmd
+      - Band_Display.qmd
+    - part: Dynamic_Sections_Settings_and_Display.qmd
+      chapters:
+      - Dynamic_Sections_Settings.qmd
+      - Dynamic_Sections_Display.qmd
+    - part: Specifications.qmd
+  appendices:
+    - ../flux_processing_release_notes.qmd
+    
+metadata-files: 
+  - ../_common.yaml

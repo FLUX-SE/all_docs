@@ -1,0 +1,32 @@
+# Preset Manager
+
+The preset manager contains two preset banks, the Factory bank contains factory presets, this bank is not
+available for saving of presets but any of the presets can be loaded into a preset slot and then saved into, the
+User bank, where all user presets are saved.
+
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Plugins/evo-channel/ManualEvoChannel-014.png)
+
+In the preset manager, any preset can be loaded into a preset slot by double clicking on the name of the desired
+preset in the actual preset list, the preset will then be loaded into the preset slot corresponding to the position of
+the morphing slider.
+
+
+- Additional controls in the preset manager
+- Recall A loads the selected preset into the corresponding slot.
+- Recall B loads the selected preset into the corresponding slot.
+- Update, saves the current settings into the selected preset. (Available in User Bank only)
+- New, saves the current settings into a new preset. (Available in User Bank only)
+- Duplicate creates a copy of the selected preset and saves it to the list.
+- Edit allows for changes to the preset meta properties. (Available in User Bank only)
+- Delete, removes the selected preset. (Available in User Bank only)
+- Export, creates a file reflecting the content of the current preset bank.
+- Import, allows for import of a preset bank file by adding the imported banks content to the content in the
+current preset bank.
+
+When saving or editing a preset, an option to protect the preset is presented. The preset protection, if engaged,
+only allows the original preset author to uncheck and edit the preset. This means that you can protect your
+presets in a multi-user configuration. Protected presets can only be modified using the session used for their
+creation. If used in another user session they can only be imported or deleted.
+
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Plugins/evo-channel/ManualEvoChannel-015.jpg)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Plugins/evo-channel/ManualEvoChannel-016.png)

@@ -1,0 +1,39 @@
+project:
+  type: book
+  output-dir: ../../_build/ircam-spat
+
+book:
+  title: "IRCAM Spat"
+  chapters:
+    - index.qmd
+    - part: Sources.qmd
+      chapters:
+      - Main_Section.qmd
+      - Display.qmd
+      - Perceptual_Factors_.qmd
+      - Radiations.qmd
+      - Axis_Omni_Filters.qmd
+      - Options.qmd
+      - Main_Input_-_Output_Section.qmd
+    - part: Reverb.qmd
+      chapters:
+      - Main_Section2.qmd
+      - Perceptual_Factors.qmd
+      - Room_Response.qmd
+      - Display2.qmd
+      - Options2.qmd
+      - Main_Input_-_Output_Section.qmd
+    - part: Setup.qmd
+      chapters:
+      - Setup2.qmd
+      - Routing.qmd
+      - Stereo_Pair_Width_-_Subwoofer.qmd
+      - Main_Input_-_Output_Section.qmd
+    - Preset_Section.qmd
+    - Preset_Management.qmd
+    - Credits.qmd
+  appendices:
+    - ../flux_processing_release_notes.qmd
+
+metadata-files: 
+  - ../_common.yaml

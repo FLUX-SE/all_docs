@@ -1,0 +1,32 @@
+project:
+  type: book
+  output-dir: ../../_build/ircam-trax
+
+book:
+  title: "IRCAM Trax"
+  chapters:
+    - index.qmd
+    - part: Transformer.qmd
+      chapters:
+      - Mode.qmd
+      - Source.qmd
+      - Target.qmd
+      - Remix.qmd
+      - Filters.qmd
+      - Options.qmd
+      - Modulation.qmd
+      - Spectral_Envelope.qmd
+      - Main_Input_-_Output_Section.qmd
+    - part: Cross_Synthesis_&_Source_Filter_Tools.qmd
+      chapters:
+      - Cross_Synthesis.qmd
+      - Source_Filter.qmd
+    - Preset_Section.qmd
+    - Presets_Management.qmd
+    - Credits.qmd
+    - Specifications.qmd
+  appendices:
+    - ../flux_processing_release_notes.qmd
+
+metadata-files: 
+  - ../_common.yaml
