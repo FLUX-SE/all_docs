@@ -1,0 +1,111 @@
+# True peak metering
+
+All digital audio wave signals are ultimately converted back to analog at some point, and while it is often desirable to maximize the overall volume of a signal or a complete mix, care must be taken in order not to go above the digital scale zero decibel ceiling, or nasty distortion and clipping will occur. 
+This common and widely used rule is however not entirely sufficient, as the digital and analog processing involved in a D/A converter does not guarantee that a 0dBfs peak signal will exactly translate to a 0dB peak in the analog domain.
+
+Without getting into too much detail, this phenomenon can be attributed to the over-sampling and reconstruction filters present in the D/A convertors, whose role are to rebuild a continuous time signal from a set of discrete digital values sampled at regularly spaced time intervals. 
+This interpolation process can therefore generate values which lie above 0dB, which is known as overshoot.
+
+Relying solely on the peak value of samples can lead to the following problems:
+
+* Inconsistent readings between successive playbacks of the same material.
+* Unexpected overloads of the D/A output converter.
+* Under-readings and beating of pure tones.
+
+TruePeak metering aims to overcome these limitations by mimicking parts of the D/A conversion process, effectively up-sampling the measured signal, in order to display the true value of peaks that occur in the analog domain.
+
+![TruePeak metering setup options](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/TruePeakMeter/Setup.png)
+
+## Preset
+
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/TruePeakMeter/Presets.png)
+
+### Custom
+User defined values.
+
+
+### Default
+This preset uses the following all-round settings:
+
+* Range: -72 ... +3 dB referenced at 0dB.
+
+* Scale: 1.8x power factor, 0.06x reference display offset.
+
+* Ballistics: 16dB/s release time, 1dB/s peak release, 60 frames peak hold.
+
+* Scale / split: -72, -40, -18, -9, -6, -1, 0, +1, +3 dB.
+
+### EBU R128
+Referenced at -1dB.
+
+### EBU R128 Max -3dB
+Referenced at -3dB.
+
+### -48.0 -&gt; +3
+Limited -48 ... +3dB range with adapted scale/split values.
+
+### -144.5 -&gt; +3
+Wide -144.5 ... +3dB range with adapted scale/split values, to monitor the full 24-bit dynamic range and possible clipping.
+
+## Settings
+
+### Range
+
+#### Min / max
+Defines the minimum and maximum values to be displayed on the meter bars. 
+This does not affect the text readings above the bars.
+
+#### Ref
+Controls the position of the reference value on the display. 
+This does not affect the meter values per se, it is a cosmetic setting only.
+
+### Scale
+
+#### Power factor
+
+Controls the scaling of the display with respect to meter values. 
+This allows to stretch or compress the
+display around Reference.
+
+#### Ref pixel offset factor
+
+Adjusts the offset of the reference value (Reference) with respect to meter height.
+
+### Time
+
+#### Release
+Release speed of the meter in decibels per second.
+
+#### Peak release
+Release speed of the peaks in decibel per second.
+
+#### Peak hold
+Number of frames to hold the peaks, before the actual release phase begins. 
+60 frames corresponds to 1 second on a fast system, capable of a 60Hz refresh rate.
+
+#### Infinite hold
+When enabled, peaks are held until the next reset, which is useful for checking a whole track never clips.
+
+#### Reset
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Generic/Refresh.png) button resets the meter to its initial state (values and peaks at minimum).
+
+### Scale &amp; split
+
+#### Scale
+
+Meter labels are defined here as a comma separated list of dB values to be shown on the side of the meters. 
+This also defines where to the corresponding horizontal markings. 
+Default is -72;-40;-18;-9;-6;-3;-1;0;1;3.
+
+#### Colors
+
+This lets you customize the values at which color transitions occur. 
+You can enter as many values as you wish, as a comma separated list, but make sure the values are in increasing order. 
+Default is -9;0.
+
+The last value always defines the clip level, which will be indicated in red.
+
+### Other
+
+Controls whether meters are drawn with texture or in a plain solid color. 
+Default is on.

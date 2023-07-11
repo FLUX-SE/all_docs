@@ -1,0 +1,7 @@
+# Dynamic Sections Settings and Display
+
+Every band features four dynamic sections working is parallel.
+
+Alt + Click temporarily unlink the control when the band is linked.
+
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Plugins/alchemist/Alchemist_04.png)

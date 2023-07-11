@@ -1,1 +1,0 @@
-# syrah_doc

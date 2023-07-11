@@ -1,0 +1,8 @@
+# IRCAM Verb
+
+[Product Page](https://www.flux.audio/project/ircam-verb/) 
+| [Shop Page](https://shop.flux.audio/en_US/products/ircam-verb)
+
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Plugins/ircam-verb/verb_00.png)
+
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Plugins/ircam-verb/verb_01.png)

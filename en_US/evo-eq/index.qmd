@@ -1,0 +1,16 @@
+[Product Page](https://www.flux.audio/project/evo-series/) 
+| [Shop Page](https://shop.flux.audio/en_US/products/evo-series-pack)
+
+# Introduction
+
+**EVO EQ - The canvas for painting the colors**
+
+One of the cornerstones in a Channel Strip is a well-built, efficient and complete Equalizer.
+The equalizer in the EVO Channel and EVO EQ is a straightforward comprehensive 4-band parametric equalizer with an additional low/high shelf and a 6-24 dB low/high cut filter.
+
+The graphical interactive EQ curve is layered on top of the built in Spectrum Analyzer for hands-on editing with direct connection to the visual response.
+
+The spectrum analyzer originates from the FLUX:: Analyzer and has been optimized for the EVO Channel and EVO EQ. It gives you an accurate direct view of what’s going on in the different frequency domains of your material.
+
+
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Plugins/evo-eq/evoEQ.png)

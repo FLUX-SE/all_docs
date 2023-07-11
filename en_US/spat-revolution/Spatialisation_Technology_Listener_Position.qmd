@@ -1,0 +1,31 @@
+# Listener Position {#sec-listener-position}
+
+The impression of positioned audio which is rendered on a speaker array is generally successful when a listener is situated in the optimum position to perceive it, the so-called _Sweet Spot_. Thanks to the popularity of stereo sound, people tend to know that if you want to hear a good stereo image, you should place yourself in front of the two speakers and stand somewhere in the middle. That’s a good way to describe the _Sweet Spot_ to an audience or client.
+
+In more complex speaker arrangements, the _Sweet Spot_ is usually considered to be the area that all the speakers, or sound emitters in a virtual space, are pointing to. It has the Cartesian coordinates of (0,0,0) in relation to the speaker positions. In _SPAT Revolution_, the optimum listening area is represented by the dummy head and the inner circle that surrounds it.
+
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Room/3DViewFrontHead.png)
+
+
+The dummy head indicates the _Listener Position_. In _SPAT Revolution_, the _Listener Position_ is actually a bit more useful than just an indication of the _Sweet Spot_. In general, it is useful for getting some bearings in the spatial composition. Knowing which direction the _Listener Position_ is facing, helps you understand the spatial image and place sources correctly. For example, a train audibly approaches from the left in an ambisonic field recording you are working with as a source, but it visually approaches from the right on the video footage you are editing to. You can use the listener position as a reference point to transform the field recording correctly so that it correlates to what’s happening on screen. Also, when working in “stage” oriented spaces, the listener position in a SPAT Room will help you compose a scene with the correct relationship to the front, back and sides of the space. It also provides a method for giving a sense of distance to a sound source by placing virtual sound objects closer or farther away from the _Listener Position_. The internal distance perceptual cues, such as air absorption, doppler and gain drops are all calculated in relation to the _Listener Position_.
+
+
+:::{.callout-note}
+Some Panning and Stream Types have wider _Sweet Spots_ than others and some do not have a _Sweet Spot_ at all.
+:::
+
+It is worth noting that there are some panning algorithms in _SPAT Revolution_ that are **not** _Sweet Spot_ dependent. These are more suitable for use on arbitrarily positioned speaker distributions. We will get to them shortly.
+
+:::{.callout-warning}
+ The dummy head is only visible for _Sweet Spot_ dependent panning types.
+:::
+
+:::{.callout-note}
+The Listener Position can be moved in a _SPAT Revolution_ room.
+:::
+
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Room/OutputChannelBased.png)
+
+## Listener position and head tracking
+
+In certain advanced situations which might combine position tracking systems with real time binaural audio, it is even possible to transform the _Listener Position_ in _SPAT Revolution_. One application of this might be to give the sensation of getting closer to a sound emitter inside a virtual scene for a headset wearing participant at an interactive VR installation. Given the camera position perspective to the listener is as well possible by mapping camera position to the _Listener Position_ of SPAT Revolution.

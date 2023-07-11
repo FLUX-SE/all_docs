@@ -1,0 +1,29 @@
+# Speaker Arrangement Editor {#sec-speaker-editor}
+
+## Rendering to Speakers
+
+In order for the virtual scene (our room) to translate correctly as an immersive sound experience on a speaker system, _SPAT Revolution_ needs to have a model of a multichannel speaker arrangement which will be used to apply the panning or synthesis method to map the information to the destination speakers and render the sound field correctly.
+
+To this end, you will find a large library of standard and specialized speaker arrangements already built into _SPAT Revolution_ which can be used in various places throughout the Environment Setup.
+
+Speaker arrangements can be used to fit the format of a virtual room to match the actual speaker system being used to diffuse the mix in a real room. Channel-based speaker configurations are used to define a multichannel source arrangement, a room speaker source arrangement, and can also be used in the transcoding phase of sound fields.
+
+The golden rule when working with multi-channels based audio is to ensure to have the appropriate format, speaker arrangement, and channel routing throughout, otherwise the virtual space will not map correctly into a physical space.
+
+:::{.callout-warning}
+ *Pay attention to arrangements and channel routing, they are the key!*
+:::
+
+## Custom speaker arrangement
+
+![width=700, atl=_SPAT Revolution_ Speaker Position](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/SpeakerEditorCompute2.jpg)
+
+While there are many standardized speaker array, such as Dolby Surround, Atmos, Auro 3D, DTS, Quad or even stereo, we are in many cases confronted to a very specific speaker positioning.
+
+For such use case, it is possible to create custom speaker arrangements. Using a well-defined custom speaker arrangement will improve the sound stage and the overall impression of immersion of the audience. We always highly recommend taking the time to measure the position of the speakers of your system and to input them in _SPAT Revolution_.
+
+We also create a powerful automatic speaker alignment tool that aligns, in time and in level, all the speakers of the arrangement on the furthest away one. These "virtual" positions are used by _SPAT Revolution_ to process the sound stage through pan law. Please, check the [Speaker Arrangement Editor -@sec-speaker-editor] section for more information. 
+
+To make this task as easy as possible, _SPAT Revolution_ supports both cartesian and spherical coordinate system and can also import speaker configurations from third-party softwares, such as NS-1, Blueprint or ArrayCal.
+
+

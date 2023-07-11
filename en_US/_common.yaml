@@ -1,0 +1,33 @@
+book:
+  author: "FLUX:: Immersive"
+  date: "2/6/2023"
+  downloads: pdf
+  sidebar:
+    collapse-level: 1
+  navbar:
+    title: " "
+    logo: "../flux-logo.png"
+    logo-href: ../index.html
+    right:
+      - icon: github
+        href: https://github.com/FLUX-SE/all_docs
+        aria-label: GitHub
+      - icon: house
+        href: https://www.flux.audio
+
+format:
+  html:
+    theme: superhero
+    fig-align: center
+    number-section: true
+    number-depth: 2
+    default-image-extension: gif
+  pdf:
+    documentclass: scrreport
+    fig-align: center
+    default-image-extension: png
+    number-sections: true
+    number-depth: 2
+    include-in-header: ../fluxtemplate.tex
+
+number-sections: false

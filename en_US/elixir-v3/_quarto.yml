@@ -1,0 +1,19 @@
+project:
+  type: book
+  output-dir: ../../_build/elixir-v3
+  
+book:
+  title: "Elixir V3 (Legacy)"
+  chapters:
+    - index.qmd
+    - Introduction.qmd
+    - About_True_Peak.qmd
+    - Installation.qmd
+    - Authorization.qmd
+    - User_interface.qmd
+    - Technical_Details.qmd
+  appendices:
+    - ../flux_processing_release_notes.qmd
+
+metadata-files: 
+  - ../_common.yaml

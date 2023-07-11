@@ -1,0 +1,77 @@
+# Signal types {#sec-signal-generator-types}
+
+## Pink noise
+Pink noise is a random signal with an amplitude falloff inversely proportional to frequency.
+This is the most commonly employed variety noise in audio measurement, as it a constant-energy perceived content.
+
+## White noise
+White noise is a random signal with constant energy across the audio range.
+Compared to pink noise, it sounds much brighter as it has more energy in high-frequencies.
+Commonly employed for electronic apparatus measurements.
+
+## Sine
+Fixed-frequency, pure tone generator.
+
+## Sweep
+Generates a variable tone from start to end frequencies.
+Linear and logarithmic variants are available.
+Log. sweep is best suited for audio measurements as this corresponds to constant time per octave.
+
+<!-- LIVEVERSIONS-->
+
+## Controls
+![Signal generator controls.](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/SignalGenerator/Main.png)
+
+### Type
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/SignalGenerator/NoiseType.png)
+
+Sets the signal type to generate.
+
+### Level
+Output level of the waveform, expressed in dB RMS.
+
+### Enable
+Toggles signal generator output on and off.
+
+<!-- LIVEVERSIONS-->
+
+## Setup
+![Signal generator setup options.](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/SignalGenerator/Setup.png)
+
+### Output
+Selects the hardware output(s) to which the signal generator should be routed.
+Set to? None? to disable the signal generator output entirely.
+
+#### Output 1
+First generator output.
+
+#### Output 2
+Second generator output.
+
+:::{.callout-note}
+Both signals sent to the hardware output channels are identical.
+:::
+
+### Feed input reference
+Fed the reference input (default input 1) with the signal generator. 
+
+### Sine frequency
+Sets the frequency of the sine generator, only applicable when the signal type is set to Sine.
+
+### Sweep start/end frequencies
+
+Sets the range of frequencies to sweep.
+
+:::{.callout-note}
+Reverse start and end frequencies to obtain reverse sweep.
+:::
+
+### Sweep length
+Sets the overall duration of the sweep in seconds,<i>i.e.</i> the time taken to go from start to end frequency.
+
+### Level
+Generator output level in dB RMS.
+
+
+<!-- LIVEVERSIONS-->
+<!-- TODO: Update image - add Feed input reference -->

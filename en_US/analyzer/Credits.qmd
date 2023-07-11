@@ -1,0 +1,39 @@
+# Credits {.unnumbered}
+
+## Project manager and Designer
+
+Gael Martinet
+
+## Developed by
+
+Gael Martinet, 
+Siegfried Hand, 
+Lorcan Mc Donagh, 
+Samuel Tracol, 
+
+## DSP Algorithms Specialist
+
+Lorcan Mc Donagh
+
+# Graphic engine
+
+Emmanuel Julien, 
+Gael Martinet
+
+## Contributors
+
+Felix Niklasson, 
+Cyril Holtz, 
+Philippe Amouroux, 
+Yves Jaget, 
+Laurent Delenclos (<i>a.k.a</i> Bellote), 
+Madje Malki, 
+Niels Barletta, 
+Jerome Blondel, 
+Sergio Valero Garcia, 
+Anthony Belard
+
+**and thanks to all fantastic testers...**
+
+**Special Thanks to Alain, Yves, Bruno, Cyril and Claude for helping to shape our minds over the years.**
+

@@ -1,0 +1,17 @@
+project:
+  type: book
+  output-dir: ../../_build/epure
+  
+book:
+  title: "Epure"
+  chapters:
+    - index.qmd
+    - Special_Functions.qmd
+    - Setup_-_Input_Routing_-_MS_Encode_Decode_-_Groups.qmd
+    - Specifications.qmd
+    - Compatibility.qmd
+  appendices:
+    - ../flux_processing_release_notes.qmd
+
+metadata-files: 
+  - ../_common.yaml

@@ -1,0 +1,33 @@
+# Input Output Section
+
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Plugins/ircam-verb/verb_08.png)
+
+## (42) Input Gain
+Adjusts the level of the signal fed to the plug-in, in dB increments.
+
+## (43) Input level meter
+Shows the current level of the input signal after applying input gain, in dB FS (deciBel Full Scale).
+
+## (44) Output Gain
+Used to trim the output signal and possibly avoid any overloading of the signal in the rest of the signal-chain.
+
+## (45) Output level meter
+Shows the current level of the input signal after applying output gain, in dB FS(deciBel Full Scale).
+
+## (46) Dry/Wet
+When used as insert effect, one can dial the right amount of "wet", reverberated signal with respect to the "dry", untreated 
+input signal.  
+The default 100-percent wet setting is mostly intended for the typical and preferred use in a send-effect configuration.
+
+## (47) Setup
+Toggles the display of the routing matrix, where the user can adjust the routing between input channels and virtual sources.
+
+## (48) Setting
+Gives access to a sub-menu where you can either select the I/O configuration, namely the input channel count followed by 
+the output channel count, for hosts that support dynamic I/O configuration or display the credits page.  
+The exact I/O combinations available depend on your actual audio hardware and host configuration.
+
+## (49) Day - Night
+Toggles between two interface schemes, which, as the name implies, are best suited to high or low light environments 
+respectively. In a dimly-lit studio environment, switching to the nigthtime scheme with its darker color palette and lower 
+contrast will minimize eye-fatigue when doing long sessions.

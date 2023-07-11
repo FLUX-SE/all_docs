@@ -5,3 +5,7 @@ _site/
 static/
 .DS_Store
 .idea
+/.luarc.json
+.vscode
+_build
+/checks.json

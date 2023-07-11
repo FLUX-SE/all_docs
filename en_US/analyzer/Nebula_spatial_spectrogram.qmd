@@ -1,0 +1,103 @@
+# Nebula (spatial spectrogram)
+
+## Principle of operation
+
+Nebula / Spatial Spectrogram provides a unique representation of the audio material in terms of spectral content and localization in the stereo and/or surround space. 
+Its combines the functionality of a spectrum analyzer and a vector scope in a novel real-time display. 
+As such it provides to be an invaluable tool to get a complete and detailed overview of your mix, which you can finely tune in many aspects to suit your particular needs and preferences. 
+A lot of work has gone into optimizing the real-time rendering of the display, not solely for aesthetic reasons, but because we wanted the display to react instantly to all the details in the incoming audio. 
+The idea is literally for you to be able to see what you hear and feel, and not some gross simplification wrapped into shiny eye-candy, however pleasing to the eye.
+
+The overall principles behind Nebula / Spatial Spectrogram are quite straightforward:
+
+* At any given time, and for every frequency, the engine computes the position of a frequency in space (2D in stereo , ND for N channel-surround). 
+This position is taken as the center of gravity of the various channels, weighted by the relative amplitude of the signal in their corresponding channel.
+
+* A projection onto an LR-spectrum plane is computed, giving a spectrum-space frame constrained to the stereo field.
+
+* Incoming spectrum-space frames are added back to the previous frames.
+
+* Past frames are progressively "forgotten", using blur and dimming, in order to make place for new information, and increase legibility.
+
+
+
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Nebula/Stereo.png) | ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Nebula/51.png)
+---------------------------------|-------------------------------------
+Nebula / Spatial Spectrogram display with stereo input | Nebula / Spatial Spectrogram display with surround input
+
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Nebula/Setup.png)
+
+:::{.callout-note}
+Nebula / Spatial Spectrogram setup options
+:::
+
+## Scale
+
+### Focus
+
+Controls the stereo image width X-axis display range, in dB.
+
+A value comprised between ±18 and ±24dB correlates well with our abilities in perceiving the stereo image.
+
+Default is ±18dB.
+
+:::{.callout-note}
+Pixels outside the focus range are clamped to the view boundaries.
+:::
+
+### AutoScale
+This parameter controls whether the intensity of the particles are modulated by the overall audio level variations. 
+In essence, when enabled, the color nuances will vary according to the relative amplitude of a frequency, allowing to monitor the relative amplitude spectrum variations. 
+When disabled, the color will reflect the absolute audio level. You can also think of this as a kind of auto-gain setting.
+
+### AutoScale release
+This controls whether color variations should be smoothed in time or not. 
+When engaged, color variations is slowed down a bit, which makes overall level transitions more obvious.
+
+>You should to enable this setting when you want to visualize quick level
+variations such as those that frequently occur in movie soundtracks.
+
+### Linear blend range
+Adds a constant blend amount to the particle. 
+This ensures some particles are always blended into the image even if its original magnitude is low.
+
+A low value for this setting has the effect of stabilizing the appearance of particles. 
+With large values more of the spectrum dynamics are taken into account, and only peaks mostly come through.
+
+### Log blending
+Toggles between linear and logarithmic blending of the current particle with old particles.
+
+The default is off, i.e. linear blending, which tends to favor the display of peaks.
+
+Logarithmic blending on the other hand preserves more of the full dynamic range of the data, and also gives some visibility to lower levels.
+
+## Display
+
+### Fading
+Controls display persistence, <i>i.e.</i> the "fade to black" amount for a frame. 
+Lowering this value retains past particles longer, whereas increasing this make them disappear faster.
+
+### Size factor
+Controls the size of individual particles with respect to screen size.
+
+### Blur kernel size
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Nebula/BlurKernelSize.png)
+
+Controls the radius of the blur effect applied to past particles.
+Particles are "smeared" more and more as they become older, depending on this setting. 
+Naturally, a bigger value increases the smearing, at the expense of processing power.
+
+:::{.callout-note}
+Choosing the value for this setting is really matter of taste, although please keep in mind values that above 5 will require a sufficiently powerful graphics card in order to maintain a responsive display.
+:::
+
+### Particle scaling
+Toggles automatic adjustment of particle size with screen size. 
+When enabled, the overall aspect of the display will remain similar even if the view size changes.
+
+### Color mode
+Provides the following particle-coloring modes:
+* Power: the color varies according to the power of the signal in the frequency region
+* Dynamics: same as previous except this mode works on signal dynamics
+* Power / dynamics: a mix of the above
+* Frequency: the color varies according to frequency only, using a rainbow-palette

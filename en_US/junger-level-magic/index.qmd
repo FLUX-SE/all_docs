@@ -1,0 +1,14 @@
+# Level Magic
+[Product Page](https://www.flux.audio/project/junger-audio-level-magic/) 
+| [Shop Page](https://shop.flux.audio/en_US/products/levelmagic)
+
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Plugins/junger-level-magic/level_magic_00.png)
+
+LevelMagic (TM) is a comprehensive Real Time and Offline loudness measurement, correction and management processor. 
+Designed to meet the requirements of the global broadcast and media industry it is compliant with all current 
+worldwide loudness standards. The algorithm is highly adaptive to the structure of the incoming audio and
+requires only a small number of parameters to be set by the user. The result is audio compliant with the selected
+standard, but free of any unwanted artefacts such as pumping, breathing or distortion.
+
+Based on the ITU-R BS.1770(-1/2/3) standard, LevelMagic(TM) provides compatibility with EBU R128, ATSC A/85,
+ARIB TR-B32, FREE TV OP-59 and Portaria 354.

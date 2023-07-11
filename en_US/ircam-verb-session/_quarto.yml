@@ -1,0 +1,23 @@
+project:
+  type: book
+  output-dir: ../../_build/ircam-verb-session
+  
+book:
+  title: "IRCAM Verb Session"
+  chapters:
+    - index.qmd
+    - Quick_Start.qmd
+    - Time_Structure_Display.qmd
+    - Filter.qmd
+    - Options.qmd
+    - Time_Structure_Settings.qmd
+    - Input_Output_Section.qmd
+    - Preset_Section.qmd
+    - Preset_Management.qmd
+    - Credits.qmd
+    - Specifications.qmd
+  appendices:
+    - ../flux_processing_release_notes.qmd
+
+metadata-files: 
+  - ../_common.yaml

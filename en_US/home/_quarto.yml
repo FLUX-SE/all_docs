@@ -1,0 +1,94 @@
+project:
+  type: website
+  output-dir: ../../_build
+
+website:
+  title: "FLUX:: Immersive Products Documentation"
+  navbar:
+    title: " "
+    logo: flux-logo.png
+    logo-href: https://www.flux.audio
+    right:
+      - icon: github
+        href: https://github.com/FLUX-SE/doc_images
+        aria-label: GitHub
+      - icon: house
+        href: index.html
+  sidebar:
+    search: true
+    collapse-level: 1
+    contents:
+      - section: "Immersive"
+        contents:
+          - href: spat-revolution/index.html
+            text: Spat Revolution
+          - href: ircam-hear/index.html
+            text: IRCAM-Tools HEar
+      - section: "Analysis"
+        contents:
+          - href: /analyzer/index.html
+            text: "FLUX:: Analyzer"
+          - href: /studio-session-analyser/index.html
+            text: Studio Session Analyser
+      - section: "Evo Modules"
+        contents:
+          - href: /evo-channel/index.html
+            text: Evo Channel
+          - href: /evo-in/index.html
+            text: Evo In
+          - href: /evo-eq/index.html
+            text: Evo EQ
+          - href: /evo-comp/index.html
+            text: Evo Compressor
+          - href: /evo-touch/index.html
+            text: Evo Touch 
+      - section: "Plug-ins"
+        contents: 
+          - href: /alchemist/index.html
+            text: Alchemist
+          - href: /bittersweet/index.html
+            text: Bittersweet
+          - href: /bittersweet-pro/index.html
+            text: Bittersweet Pro
+          - href: /elixir/index.html
+            text: Elixir
+          - href: /epure/index.html
+            text: Epure
+          - href: /ircam-trax/index.html
+            text: IRCAM-Tools Trax
+          - href: /ircam-verb/index.html
+            text: IRCAM-Tools Verb
+          - href: /ircam-verb-session/index.html
+            text: IRCAM-Tools Verb Session
+          - href: /pure-compressor/index.html
+            text: Pure Compressor
+          - href: /pure-dcompressor/index.html
+            text: Pure DCompressor
+          - href: /pure-dexpander/index.html
+            text: Pure DExpander
+          - href: /pure-expander/index.html
+            text: Pure Expander
+          - href: /pure-limiter/index.html
+            text: Pure Limiter
+          - href: /solera/index.html
+            text: Solera
+          - href: /stereotool/index.html
+            text: Stereo Tool
+          - href: /studio-session-plugins/index.html
+            text: Studio Session Plugins
+          - href: /syrah/index.html
+            text: Syrah
+      - section: "Legacy"
+        contents:
+          - href: /elixir-v3/index.html
+            text: Elixir V3
+          - href: /ircam-spat/index.html
+            text: IRCAM-Tools SPAT
+          - href: /junger-level-magic/index.html
+            text: Jünger Level Magic
+
+format:
+  html:
+    theme: superhero
+    css: styles.css
+    toc: true
