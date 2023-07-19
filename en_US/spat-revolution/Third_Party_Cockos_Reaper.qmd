@@ -96,6 +96,22 @@ In the above screenshot, the Orange ' _BFormat_ ' Send input is the one being ro
 At first, it will appear in SPAT as a Channel Based input by default - in this case it appeared as a 4.0 QUAD. 
 If dealing with ambisonic 1st order such as AmbiX or B-Format, the input stream type in SPAT needs tobe assigned manually.
 
+## Accessing the latency of the FX chain
+
+To access the latency information in REAPER, open the FX windows by clicking on the FX button.
+
+![FX chain button](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/reaper_fxbutton.png)
+
+In this window, REAPER will show you two latency values. The latency of the currently selected plug-in and the actual latency added to the signal chain. REAPER always round up to a number of blocks. You should report the sum of all the plug-in latency in the SPAT Plugin (ergo, not the latency actually added by REAPER).
+
+!> If you are using "post-fader" sends to SPAT Revolution, you don't need to worry about this step.
+
+![FX delay info](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/reaper_pdc.png)
+
+Since REAPER 6.20, the latency is compensate per FX chain. One solution is to revert back to the legacy behavior, which compensate per FX. To do so, go to the option of the FX chain, then to "Chain PDC mode" and select "Per FX compensation". You will have to do this for each track hosting a SPAT send plugin and prior FX that add latency to the signal chain.
+
+![FX chain PDC mode](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/reaper_pdc_mode.png)
+
 ## Optimization 
 
 There are a couple of things to make sure to optimize the integration and avoid inconsistent behaviour:
@@ -111,6 +127,14 @@ There are a couple of things to make sure to optimize the integration and avoid 
 :::
 
 ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/ReaperPerformanceOptionsMenu.jpg)
+
+Also, by default, REAPER does not process automation messages when the plug-in GUI is not open. You can change this behaviour globally by going to the Preferences menu, in Plug-ins, VST. In the "Parameter notification automation" line, select "Process all notifications".
+
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/reaperProcessNotifications.png)
+
+If you don't want this behavior to be global, you can enable it for specific plug-ins. To do this, open the FX Browser, search for SPAT plug-ins and select all three. Then right click and go to "Compatibility settings", "Automation Notifications" and select "Process all notifications".
+
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/reaperPluginsNotifications.png)
 
 
 ## Source/Object Automation

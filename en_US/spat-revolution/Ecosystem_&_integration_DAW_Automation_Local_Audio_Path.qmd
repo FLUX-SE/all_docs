@@ -84,7 +84,9 @@ On some machines, you need to use the ```Tab``` key to register a new Track Name
 
 **Override** - In Return only, override the DAW input path.
 
-## DAW routing priority
+## Implicatios of using the Local Audio Path
+
+### DAW routing priority
 
 In order to make sure that no sync error can happen between _SPAT Revolution_ and the DAW of your choice, it is obligatory to make sure that **each track containing a Spat Send plug-in have to be routed to every and each track containing a Spat Return plug-in.**
 
@@ -96,7 +98,13 @@ This routing forced digital audio workstations to process *SPAT Send* plug-ins *
 
 For more DAW specific information, please consult our third-party integration section.
 
-## Dealing with DAW CPU optimizations
+### Local audio path and delay compensation
+
+Taking the signal inside the FX insert blocks and sending it to SPAT Revolution has many implications on how we integrate with DAWs. For example, many DAWs compensate for processing latency after the entire processing chain (or even at the last possible summing point). This means that audio sent to SPAT Revolution with LAP is not latency compensated by default.
+
+To work around this, we have implemented a delay compensation algorithm directly in SPAT Revolution. To use it, we have to manually enter the amount of latency caused by the processing chain before each LAP plug-in. Each DAW has different ways of reporting this latency. To find out how the DAW you are using can display it, please consult our third party section. If your DAW does not appear here, please consult its user manual.
+
+### Dealing with DAW CPU optimizations
 
 Some DAWs, like REAPER, use some technic to reduce the load of VST plug-ins on the CPU. One common trick is to process an audio track ahead of time and then delay the buffer to play it back at the intended moment. It is called anticipative processing. This is often very efficient and can drastically reduce the CPU load (up to 30-50% !)
 
@@ -105,3 +113,33 @@ Other DAWs, like Ableton live, put plug-ins that does not receive or send any au
 :::{.callout-warning}
  Be sure to consult our third-party integration section for more DAW specific information.
 :::
+
+## Alternative to local audio path
+
+### Pros and Cons of the Local Audio Path
+
+The local audio path is designed to easily create audio connections between an audio application that can host plug-ins and SPAT Revolution, while also providing the automation data.
+
+In some cases, however, LAP may be limited by the DAW used. For example, both Logic and Ableton Live have an internal strategy to save CPU usage, which can cause problems with our SPAT send and return plug-ins.
+
+Also, as most DAWs only allow the use of pre-fader and pre-mute plug-ins, this can either restrict the mixing workflow or make the routing very complex to allow post-fader send to SPAT Revolution.
+
+When dealing with such issues, it is interesting to look at virtual loopback devices.
+
+### Virtual Loopback Devices
+
+Virtual loopback devices allow the audio output of one application to be routed to another application. In this case, we use the direct output of our DAW console to feed the input of SPAT Revolution. If we want to record our mix, we have to send the output of SPAT Revolution back to our DAW.
+
+#### Virtual loopback in MacOS
+
+Within the MacOS environment, you will need to download a virtual driver such as [Blackhole](https://github.com/ExistentialAudio/BlackHole) to send audio from one application to another.
+
+For example, if you are using an application that supports multiple input and output devices (such as SPAT Revolution from Ableton Live), you can set your DAW to use an audio interface as input, set its output to Blackhole, and do the opposite in SPAT Revolution.
+
+If your application does not support different I/O devices, you could try to use aggregate audio, but be aware that the latency may increase significantly.
+
+#### Virtual loopback in Windows
+
+Unfortunately, the Windows audio environment is less responsive to multi-client audio connections. So there aren't many solutions for software loopback within the Microsoft OS.
+
+However, some audio interfaces, such as RME's, allow loopback of an output. If your audio interface has enough audio outputs, this can be a good solution.

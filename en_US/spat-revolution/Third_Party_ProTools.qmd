@@ -89,6 +89,35 @@ In SPAT, go to *Preferences/Hardware IO* , then set:
 
 ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/ProToolsSpatPreferences.png)
 
+### Latency compensation
+
+![Show latency](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/protools_show_pdc.png)
+
+### Setting Up Object Tracks
+
+Setup a Protools session to work with SPAT Revolution using the Local Audio Path mode is simple. 
+Just add SEND and RETURN plug-ins and enable the 'Local Audio Path' (LAP) option for each. 
+When using FLUX Pro Tools templates or presets, although SPAT plug-ins are instantiated, they don't have the LAP activated by default. (Supporting standard audio routing of objects to SPAT Revolution as external renderer) 
+
+Once you engage the *Enable* switch, SEND software inputs should show up at the top of the SPAT Revolution setup environment page, and Return outputs at the bottom.
+
+![img](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Plugin/SendLAP.jpg)
+
+![img](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/BlankLAP.jpg)
+
+<!-- TODO: update the image -->
+
+Select all the objects in the 'empty' signal graph using a drag select or Command click selection, then choose the 'connect selected' action. 
+A default module routing will be completed automatically with a default stereo virtual room.
+
+![img](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/ConnectSelected.jpg)
+
+<!-- TODO: update the image -->
+
+Now you should be able to send and receive audio streams from/to Pro Tools and spatialize your objects.
+
+![img](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/ProToolsMixer.png)
+
 ### The SPATSync (aka dummy bus) and why
 
 Quite simply, all tracks or Aux object tracks that have a SPAT SEND need to be outputting to a common bus that is then feeding to each the input SPAT RETURN buses, in order for the SPAT Send to be computed before the SPAT Return.
@@ -110,6 +139,70 @@ So for example for a NHK 22.2 bus, we can return this to 3 x 8-channels (7.1) bu
 So, Pro Tools Ultimate and Studio are highly recommended.
 Pro Tools Advance Multi-format template for _SPAT Revolution_ reflects this.
 
+<!-- ## Track presets
+
+**FLUX:: Track presets for Pro Tools** is a simple strategy to rapidly add Send and Return objects into a Pro Tools session. **Session Templates** are great because they give a starting point. 
+
+SPAT Revolution is unique as it can deal with send sources/objects that can be mono, stereo, LCR and all the above (up to 16 channels with Pro Tools, 64 with other DAWs). 
+The same applies for the return busses as we are dealing with the various stream formats you can create in SPAT Revolution, for monitoring or rendering. 
+Templates are often just a start point and are most of the time not exactly reflecting your desired session. 
+
+Welcome the **[Avid Pro Tools - Track Presets](https://public.3.basecamp.com/p/ux78xLZDnjtihA3hm8xFKhCP)**.
+
+Simply copy the **Track preset folder** to the Pro Tools track presets folder (/Documents/Pro Tools/Track Presets/Flux). 
+With this in place, you will have track presets that can be used for SEND and RETURN:
+
+- Send Mono
+- Send Stereo
+- Send 5.1
+- Send 7.1
+- Send 7.1.2
+- Send HOA 1
+- Send HOA 2 (not supported on Essential)
+- Send HOA 3 (not supported on Essential)
+- Return Stereo
+- Return Binaural
+- Return Quad
+- Return 5.1
+- Return 7.1
+- Return 7.1.2
+- Return HOA 3
+
+With these track presets, integrating SPAT Revolution in an existing session can be done quite simply. 
+Click on the output selection button of a track and choose "New Track". 
+A pop-up window will appear: choose "Track Presets/Flux" in the category. 
+Lastly, you'll find all the possible object send format accessible in Pro Tools. 
+Select the one that matches your initial track format or your desired object format. 
+This newly created object can be used by other audio tracks too. (Using it a stem object)
+
+
+![track Presets](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/ProToolsTrackPreset.png)
+
+If you also want to send multiple tracks to a single SEND object to SPAT, you can do it easily. 
+Select all tracks, old the option key and change the output of a track to New Track. 
+Click in type, choose "Track Presets/Flux" and then choose the format of the send object that you want.
+
+![trackPreset1](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/ProtoolsSendNewTrack.png)
+
+That’s it. All your selected tracks will be assigned to this newly created bus called SPAT Send, your SPAT source/object. 
+It’s an aux track containing your SPAT SEND plug-in instance ready to enable Local Audio Path or to route to external audio option (virtual audio bridge, network I/O). It’s your object track. 
+Moreover, this creates the "all-format" dummy bus mentioned above, and your Send Object track is already assigned to it. 
+You can do this on a single audio track or a series of tracks to send everything like a stem.
+
+![trackPreset1](include/SpatRevolution_UserGuide_protools_trackPreset1.gif)
+
+Why creating an aux SPAT send object and not instantiating the plug-in directly on the audio track? 
+Although this is possible as well (and you have to make sure your audio tracks have the proper routing), this simply allows to have a post-fader send to SPAT Revolution, as plug-in insert in Pro Tools are always pre-fader. 
+Using the aux track model is simple, clean and allows for creating Send stems.
+
+![trackPreset1](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/ProToolsDummyBus.png)
+
+Last step, the RETURN plug-in. Create a new track. 
+Choose track presets, choose FLUX:: and then choose the required format. 
+SPAT RETURN plug-in will be instantiated on the newly created bus. 
+The bus is already fed from the dummy bus previously created and you don’t have to worry about the routing for synchronization!
+
+![trackPreset2](include/SpatRevolution_UserGuide_protools_trackPreset2.gif) -->
 
 ## SPAT Source/Object Automation
 

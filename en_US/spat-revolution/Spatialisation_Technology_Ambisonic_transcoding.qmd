@@ -4,7 +4,7 @@
 When patching an HOA or B-Format input to a source, or a HOA room to a channel-based output, a transcoder will be automatically inserted. This transcoder will, by default, be set to the Ring or Sloane speaker arrangement corresponding to the HOA order, and, will select an AllRad decoder.
 
 :::{.callout-note}
-Ring and Sloane are uniform setups which are recommended for optimized transcoding. I will guarantee a precise localization, in particular when transcoding an ambisonic input in order to use it in a room.
+Ring and Sloane are uniform setups which are recommended for optimized transcoding. It will guarantee a precise localization, in particular when transcoding an ambisonic input in order to use it in a room.
 :::
 
 ## Transcoding method
@@ -92,3 +92,25 @@ The low end of the audio content is optimized in energy (MaxRe), but a in phase 
 ### InPhaseMaxRe
 
 As phase optimization is more efficient in the low frequencies, and energy optimization is prominent in the high frequencies, this method takes this phenomenon to its advantage by splitting the signal in two frequency bands. The crossover frequency is by default set to 700 Hz and can be adjusted.
+
+## Basic rules of thumb when transcoding ambisonic to speaker
+
+### Ambisonic order and number of speakers
+
+There is a direct relationship between the ambisonic order and the number of loudspeakers we want to use. **There must always be at least as many loudspeakers as there are ambisonic channels. For example, first order ambisonic encapsulates 4 channels and second order ambisonic encapsulates 9 channels. So we should use first-order ambisonic for a 3D array of up to 8 loudspeakers, then move on to second-order ambisonic. We could continue to use second order until our loudspeaker array grows to use more than 15 loudspeakers. We can continue this way of thinking up to 7th order ambisonic.
+
+### How to handle multiple renderings from a single ambisonic room
+
+An example of an ambisonic workflow would be to use a 7th order room and then decode it to the desired loudspeaker array. As mentioned before, we need to adjust the ambisonic order depending on the number of loudspeakers. It is possible to reduce the ambisonic order by changing the order of the input stream in the master transcoder. When this is done, higher order channels will not affect the rendering.
+
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/ambisonicOrderReduction.png)
+
+If we want to transcode a 3D ambisonic stream to a 2D speaker layout, one solution is to use two phantom speakers, one at the top and one at the bottom. For example, we could use the speaker layout shown below to transcode a 3D ambisonic scene into a 5.1 layout. It's important to note that this method will **fade out** the element that had elevation.
+
+:::{.callout-important}
+Phantom speakers must be taken into account when determining the appropriate ambisonic order.
+:::
+
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/ambisonic51Decode.png)
+
+We can then have as many transcoders as we like, each dedicated to a specific loudspeaker layout and each adjusting the ambisonic stream accordingly.

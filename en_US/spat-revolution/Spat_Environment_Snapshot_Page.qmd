@@ -66,6 +66,8 @@ To recall through OSC a snapshot, the name or the index is required. As snapshot
 
 It is possible to generate new indexes for all the snapshots according to list order. To do so, click on the menu ```Snapshot/Reindex all snapshots```.
 
+Last, the index can be manually edited, right-clicking on a snapshot and selecting ```Edit snapshot index```.
+
 ### Recall options
 
 Recalling a snapshot will use four different options:
@@ -90,6 +92,14 @@ Beside each snapshot, there is a checkbox, under a column named "**Global option
 ```Relative recall``` is an option of the recall function. It allows recalling a snapshot while preserving anything that was offset from the previous state. This can help to prevent technical problems during a show.
 
 Here is an example: let's say you have two snapshots, _A_ and _B_. Sources inside your project have different gains between the two snapshots: 0 dB for the snapshot _A_, -5 dB for the snapshot _B_. Now, let's presume that once the show is started, you feel that one of the sources is too quiet (the singer preserves his voice). So you grab the gain parameter and trim by 4 dB. The "Relative recall" function will preserve this offset to any of the future recalled snapshot. Recalling snapshot _B_ will set the gain of the singer to -1 dB instead of -5dB. This allows a perfect blend of live mixing and preparation work.
+
+### Changing snapshots color
+
+![Coloring snapshot](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Snapshots/SnapshotColor.png)
+
+To help to a better organisation of the session, snapshots can be recolored. To do so, right-click on the selected snapshot and choose *Set colors*. A palette, from which you can pick a color, will appear.
+
+It is also possible to *Generate colors* automatically for a multiselection of snapshots. Right-click on one of them and click on the corresponding list entry.
 
 ## Version history
 
