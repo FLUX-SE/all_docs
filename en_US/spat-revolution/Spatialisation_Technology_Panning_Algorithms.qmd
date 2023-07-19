@@ -19,7 +19,7 @@ Try using more than one _SPAT Revolution_ virtual Room to use different panning 
 :::
 
 :::{.callout-note}
-Some academic papers about some following panning laws could be found here [at the end of this section.](https://doc.flux.audio/#/en_US/spat_revolution_doc/Spatialisation_Technology_Panning_Algorithms?id=related-papers).
+Some academic papers about some following panning laws could be found here at the end of this section.
 :::
 
 ## Stereo-exclusive Panning Laws
@@ -30,7 +30,7 @@ This mode reproduces the basic experience of a pan pot. It comes with some optio
 
 + The pan law can follow a **sin/cos** approach or a **square root**. This produces a subtle difference in how the sound travel between the left and right speaker.
 + It is possible to change the **center attenuation**. By default, a sound placing at the center of the two speakers is played back with an attenuation of 3dB (considering acoustic summing). Other possible attenuation is : -4.5dB, -6dB.
-+ The **PMAP**, [Perceptually Motivated Amplitude Panning](https://doc.flux.audio/#/en_US/spat_revolution_doc/Spatialisation_Technology_Panning_Algorithms?id=PMAP), aims at improving sound localization on stereo systems and on any pair speaker system with an arbitrary base angle.
++ The **PMAP**, Perceptually Motivated Amplitude Panning, aims at improving sound localization on stereo systems and on any pair speaker system with an arbitrary base angle.
 
 ### XY and AB
 
