@@ -72,6 +72,8 @@ On some machines, you need to use the ```Tab``` key to register a new Track Name
 
 **Position mode** - In Send only, choose the recorded and read coordinate mode.  
 
+**Input delay** - Use this text field to enter the latency induced by the previous plug-ins in the signal chain. For example, if you use a compressor with a look ahead above in the audio stream that delays the signal by 100 samples, you should enter 100 in the **input delay** field of the SPAT plug-in. Every other incoming streams will be delayed by this value. In more complex cases, where many input latency is set up in different SPAT send instances, the lowest possible delay is applied.
+
 **Local audio path** - Enable the inter-application software stream.
 
 **Thru** - In Send only, choose if you do not want to mute the sent audio through the plug-in.

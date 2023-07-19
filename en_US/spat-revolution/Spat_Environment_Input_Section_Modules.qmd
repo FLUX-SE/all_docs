@@ -49,12 +49,13 @@ Give access to the routing matrix
 
 #### Delay
 
-Each input comes with a delay which can be useful:
+Each input (hardware or software) comes with a delay line which can be useful for:
 
-- in live situation, to compensate delay between microphones.
-- in studio situation, to compensate the plugins delay when using Local Audio Path.
++ live situations, to compensate for delay between microphones.
++ studio situation, to compensate the plug-ins delay when using Local Audio Path. It works in tandem with the **Input delay** option present in SPAT send plug-in to create the automatic delay compensation mechanism.
 
-The delay can be set in samples, milliseconds, or distance unit (meters if metric system, feet otherwise). This can be chosen on the **Global** panel of the **Preferences** page.
+
+The delay can be set in samples, milliseconds, or distance units (meters if the metric system is selected or feet otherwise). This can be chosen on the **Global** panel of the **Preferences** page.
 
 #### Phase inversion
 
