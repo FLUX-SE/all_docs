@@ -1,5 +1,52 @@
 # Release Notes
 
+## Build 23.07.50301 - All plugins
+
+### New features
+
+- Support Pro Tools new track formats
+
+### Bugs fixes
+
+- All plugins - Nuendo - VST3 - crash when stereo plugins are instantiated on multichannel tracks (StereoTools, ...)
+- All plugins - Pace protected plugins fail to scan on Da Vinci Resolve mac
+- All plugins - Popups wrong metrics when changing screen
+- All plugins - Presets not imported
+- All plugins - VST3 - Nuendo - WIN (UHD360) - Wrong window size init
+- All plugins - VST3 - WIN (UHD630) - REAPER - GUI refresh issue when in single window mode
+- All plugins - GUI issue with AMD graphics on windows - flickering issue
+- All plugins - AU - Plugins parameters are reset when bouncing in Reaper
+- All plugins - VST2 - no multichannel with the plugins 23.X in Reaper
+- All plugins - VST - Resizing the GUI does not update the floating window size in Nuendo on Windows with UHD630 graphics
+- Bittersweet - VST3 - crashes on Pyramix on instantiation
+- StereoTool / EVO Channel - VST3 - No goniometer / analyzer in Wavelab
+- Elixir - Not available as 32 channels in Reaper
+- EVO series - AAX - Dark Mode wrong GUI init
+- EVO series - remove unused and duplicated presets
+- EVO Channel - VST3 - spectrum smoothing slider crashes Studio one
+- EVO Channel / EVO Eq - VST3 - Analyzer not working in Ableton Live
+- EVO Channel / EVO Eq - scale eq control always reload on auto mode
+- EVO Eq - weird release on meter
+- EVO In - GUI refresh issue when toggling night/day mode 
+- EVO Touch - Zero Crossing Threshold label missing in the geek panel
+- EVO Touch - frequency band selector does not always recall the good settings on session reload
+- EVO Touch/ EVO Channel - Frequency range slider is hard to handle
+- Pure Serie - VST3 - Attack value max 80ms
+- Pure Comp - Crash when loading "Bass guitar" preset
+- Pure Limiter - VST3 - advanced mode does not turn on advanced settings
+- StereoTool - VST3 - vector scope not working in Ableton Live on Windows
+- StereoTool - Not working in Final Cut Pro
+- TRAX - Crash using oversampling with sessions set at 2FS or higher
+- TRAX Tr - not usable in Protools anymore (build 50123)
+
+### Known issues
+
+- All plugins - VST - GUI issue in Izotope Ozone and RX
+- All plugins - AAX - Preset manager - Default preset is not applied to parameters at plugin instantiation
+- Elixir - Latency not properly compensated after changing stage parameters value in VST and AudioUnit
+- TRAX tr - Learn function returning wrong values
+- VerbV3 - HOA 3rd order not working properly
+
 ## Build 23.1.0.50251 - All plugins
 
 ### New features
