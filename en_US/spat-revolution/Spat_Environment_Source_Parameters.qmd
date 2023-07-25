@@ -197,8 +197,9 @@ The radius is now depreciated, except on rare case where you really want a sourc
 ### XY translation mode
 
 Specifies the two different behaviors:
-- multichannel sources one regarding internal sources orientation. When set to polar, the source orientation will follow the listener. When set to cartesian, it will face the X-axis.
-- snapshot interpolation for all sources when position is moving. If set to cartesian, the source will move to the given point with the shape of a straight line, whereas the shape will be a circular when set to polar. 
+
+- For multichannel sources, when set to polar, the source orientation will follow the listener. When set to cartesian, it will face the X-axis.
+- For snapshot recall, if set to cartesian, the source will move to the given point with the shape of a straight line, whereas the shape will be a circular when set to polar. 
 
 ### Z translation mode
 
