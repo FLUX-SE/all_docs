@@ -95,7 +95,7 @@ Here is an example: let's say you have two snapshots, _A_ and _B_. Sources insid
 
 ### Changing snapshots color
 
-![Coloring snapshot](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Snapshots/SnapshotColor.png)
+<!-- ![Coloring snapshot](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Snapshots/SnapshotColor.png) -->
 
 To help to a better organisation of the session, snapshots can be recolored. To do so, right-click on the selected snapshot and choose *Set colors*. A palette, from which you can pick a color, will appear.
 
