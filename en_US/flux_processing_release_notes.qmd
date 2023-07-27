@@ -1,6 +1,6 @@
 # Release Notes
 
-## Build 23.07.50301 - All plugins
+## Build 23.07.50310 - All plugins
 
 ### New features
 
