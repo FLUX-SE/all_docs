@@ -17,11 +17,5 @@ book:
     - ../flux_processing_release_notes.qmd
 
 
-format:
-  html:
-    theme: cosmo
-    default-image-extension: gif
-  pdf:
-    documentclass: scrreprt
-    default-image-extension: png
-    include-in-header: ../fluxtemplate.tex
+metadata-files: 
+  - ../_common.yaml
