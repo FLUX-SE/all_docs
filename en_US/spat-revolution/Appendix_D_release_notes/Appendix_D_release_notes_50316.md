@@ -13,6 +13,7 @@
 
 
 # Improvements
+- performance improvements in automation, OSC, snapshots and audio processing
 - 3D View - Display signal activity in real source position and group, like in standard sources
 - Add Stereo to LCR encode on the input block
 - Add signal generator options
