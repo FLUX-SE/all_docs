@@ -1,0 +1,24 @@
+# Bugs
+
+- 3D View - Impossible to select and directly move a source, need to unlatch the click then click again
+- OSC - Avoid sending several time the name when loading a session
+- OSC - Send snapshot properties on session load
+- OSC - Snapshot count is sent several times when loading a session
+- Snapshot - Previous and next snapshots are not updated when a snapshot is activated or deactivated
+- Speaker editor - Compute in speaker arrangement is broken
+- Virtual selection - The source panel is not updated when receiving OSC messages, except position
+
+# Known Issues
+- App - A process still running after quitting SPAT Revolution when ASIO4ALL is used as audio driver on Windows
+- App - Bad GUI initialization on Windows with intel graphics chipsets
+- App - Core Audio headphones and loudspeakers cannot be used without an aggregate
+- Display issues when OS display scaling are under the default resolution
+- Nuendo - Room plugin cannot write automation
+- OSC - Broadcast OSC messages are not received on macOS. Have to use unicast
+- OSC - Send polar position to current selection (/source/-1/aed) does not work. Need to restart SPAT after receiving it.
+- PI - AAX - Renaming the send track in protools changes the corresponding source verb enable, early, cluster and tail
+- S6L integration -  SPAT Send track name is not retained properly and sent every time the UI opens (erasing your SPAT Source name).
+- SPAT Plugins - Crash on reloading mixer with Pyramix versions earlier than 14 & Ovation versions earlier than 10
+- SPAT Plugins - Tail reverb is not reported to the plugins in LAP when IO devices are "None" in SPAT Revolution
+- SPAT Send -  Renaming an instance cut the audio in Protools/Windows10. Have to re-enable the LAP to fix
+- SPAT plugins - The second OSC output status is not retained in AAX / AAX VENUE after a reboot or an AAX host rack reset

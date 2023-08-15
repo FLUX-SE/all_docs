@@ -13,12 +13,12 @@
 
 
 # Improvements
-- performance improvements in automation, OSC, snapshots and audio processing
 - 3D View - Display signal activity in real source position and group, like in standard sources
 - Add Stereo to LCR encode on the input block
 - Add signal generator options
 - Better readability of Question and info Dialog box
 - Better readability of Transform dialog
+- Core - Performance improvements in automation, OSC, snapshots and audio processing
 - Core - Source LFE channel is now sent to non-LFE channels if the room does not have an LFE
 - Engine - Preferred number of cores on macOS is now performances core minus one. This provides better results with OSC, automation, and snapshots
 - HRTF - Add a message to prevent when the default HRTF library is missing, and check if the HRTFs file exists before loading a session.
