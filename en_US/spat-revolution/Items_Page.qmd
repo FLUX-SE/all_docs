@@ -67,7 +67,7 @@ In addition to the common parameters, when the _Room_ item's type is selected, t
 - **Reverb enable**: define if the reverb is enabled in this room.
 - **Protection zone width**: define the width of the [protection zone -@sec-about3dview-protectionzone].
 - **Efficiency zone**: select the wanted behavior when a source is out of the [efficiency zone -@sec-about3dview-efficiencyzone] of the room.
-- **Scaling distance**: define the [scaling distance] of the room in meters.
+- **Scaling distance**: define the [scaling distance -@#sec-room-parameter-distancescaling] of the room in meters.
 - **Tracking scaling**: define the tracking scaling of the room in meters.
 
 ![Items page for rooms](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Items/Rooms.png)

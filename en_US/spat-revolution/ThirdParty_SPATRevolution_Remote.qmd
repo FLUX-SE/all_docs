@@ -12,6 +12,7 @@ The first installation step is to download the resources. A config and a patch f
 ![FLUX:: Center SPAT Revolution Remote](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/SPATRevolutionRemoteInstall.png)
 
 This install the resources in:
+
 - macOS: ```Library/Application Support/Flux/SPAT Remote Server```
 - Windows: ```Program Files/Flux/SPAT Remote Server```
 
@@ -63,11 +64,11 @@ Configuring SPAT Revolution requires to set the OSC Connection Input and Output 
 
 - Access the SPAT Revolution preference page and reach the OSC Connection section.
 
-- Add the input | SPAT Remote server preset
+- Add the ```input | SPAT Remote server``` preset
 
 ![SPAT Revolution OSC Connection Input](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/SPATRevolutionRemoteSPATOSCConnectionIn.png)
 
-- Add the output| SPAT Remote server preset
+- Add the ```output| SPAT Remote server``` preset
 
 ![SPAT Revolution OSC Connection Output](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/SPATRevolutionRemoteSPATOSCConnectionOut.png)
 

@@ -28,17 +28,17 @@ QLab templates are available in EURO and US Version, using comma or period for d
 
 
 **[QLab 4_SPAT Revolution_ integration EURO.qlab4](https://public.3.basecamp.com/p/vhf67dYdBTHhwbtVJV4y227i)**
+
 **[QLab 4_SPAT Revolution_ integration US.qlab4](https://public.3.basecamp.com/p/oi3GoHpToVmEqijVV7F4QhJq)**
 
 
 ## Generic QLab Templates (V4, compliant with V5)
 
 
-**QLab _SPAT Revolution_ snapshot carts.qlab4**
-
 This template shows how you can manage _SPAT Revolution_ snapshots within QLab and have some carts for quick actions. It demonstrates how interpolation time value can be used in the snapshot recall messages.
 
 **[Qlab _SPAT Revolution_ snapshot carts EURO.qlab4](https://public.3.basecamp.com/p/gC6XhzQjmEqpgFDRx7AXjuDL)**
+
 **[Qlab _SPAT Revolution_ snapshot carts US.qlab4](https://public.3.basecamp.com/p/F4qR1QAXYVY5iA2Jt67si5ow)**
 
 
@@ -56,6 +56,7 @@ X/Interpolation time value can always be used directly in your messages as well 
 With the latest release of _SPAT Revolution_, the ability to send messages to the currently selected source (s) with index -1 is shown in this template as well.
 
 **[Qlab _SPAT Revolution_ examples EURO.qlab4](https://public.3.basecamp.com/p/nB4YRiTASZ9DrT8nLH11XzqY)**
+
 **[Qlab _SPAT Revolution_ examples US.qlab4](https://public.3.basecamp.com/p/N9foEbx4DhktH5K53yAhugdM)**
 
 ![SPAT Message with interpolletation time](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/QLabMessageXTime.png)

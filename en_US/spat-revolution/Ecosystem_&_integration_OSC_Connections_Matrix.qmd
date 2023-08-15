@@ -16,7 +16,7 @@ In general, SPAT OSC patterns have the form of:
 
 ```/source/[remote number]/x```
 
-where [remote number] represents the Remote number of the Virtual Source, or the index (i.e. the room number) of the Room you wish to control with the message.
+where remote number represents the Remote number of the Virtual Source, or the index (i.e. the room number) of the Room you wish to control with the message.
 
 The three positional formats can be packed into one message if that option is set in the OSC Connections Matrix;
 
@@ -28,7 +28,7 @@ The three positional formats can be packed into one message if that option is se
  Take care to automate EITHER Cartesian OR Polar, not both.
 :::
 
-Sometimes, it is more convenient to have the [remote number] parameter as an argument of the OSC message.
+Sometimes, it is more convenient to have the remote number parameter as an argument of the OSC message.
 This option is available in the OSC Connections Matrix, namely **Index as Arg**.
 If this option is switched in, then the messages will be of the pattern
 

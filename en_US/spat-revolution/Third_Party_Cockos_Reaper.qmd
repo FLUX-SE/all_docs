@@ -104,7 +104,9 @@ To access the latency information in REAPER, open the FX windows by clicking on 
 
 In this window, REAPER will show you two latency values. The latency of the currently selected plug-in and the actual latency added to the signal chain. REAPER always round up to a number of blocks. You should report the sum of all the plug-in latency in the SPAT Plugin (ergo, not the latency actually added by REAPER).
 
-!> If you are using "post-fader" sends to SPAT Revolution, you don't need to worry about this step.
+:::{.callout-warning}
+If you are using "post-fader" sends to SPAT Revolution, you don't need to worry about this step.
+:::
 
 ![FX delay info](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/reaper_pdc.png)
 
@@ -153,11 +155,11 @@ This is a great way to control source properties like _Azimuth_ or _Yaw_ using e
 
 In the Automation parameter list for SPAT SEND just click on the ```LEARN...``` button to manually assign an external controller that you have set up in the Reaper Controller preferences.
 
-From this page by clicking on the MOD... button of an automatable parameter, it is also possible to animate sources with independent LFOs that run all the time in the background, quick and dirty way to spatialise live inputs sources with autopan type effects for example.
+From this page by clicking on the ```MOD...``` button of an automatable parameter, it is also possible to animate sources with independent LFOs that run all the time in the background, quick and dirty way to spatialise live inputs sources with autopan type effects for example.
 
 ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/ReaperLFO.jpg)
 
-## Setting up SPAT RETURN.
+## Setting up SPAT RETURN
 
 Now, to render the scene from the multichannel room output to disk as an interleaved 3rd Order HOA, for example, we need to add a RETURN plug-in. 
 We can calculate that 3HOA3D needs 16 channels.

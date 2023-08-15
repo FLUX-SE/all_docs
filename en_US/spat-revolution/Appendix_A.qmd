@@ -33,18 +33,14 @@ Single computer systems can provide an excellent option for portability but come
 
 **Apple based recommended hardware:**
 
-- Apple Silicon / ARM M1 *
-  - Mac Studio M1 Max / M1 Ultra off the shelf models
-  - Mac Mini M1 Chip
-  - MacBook Pro (13/14/16 inches) M1 Chip
+- Apple Silicon / ARM M2
+  - Mac Studio M2 Max / M2 Ultra off the shelf models
+  - Mac Mini M2 Chip
+  - MacBook Pro (13/14/16 inches) M2 Chip
 - Apple Intel
   - MacPro, 3.5GHz 8‑core Intel Xeon W processor, Radeon Pro W5500X, 32GB RAM
   - iMac Pro, 3.2GHz 8‑core Intel Xeon W Turbo Boost, Radeon Pro Vega 56 8 GB, 32GB RAM
   - MacBook Pro with dedicated GPU video graphic card
-
-:::{.callout-note}
-*_SPAT Revolution_ is fully supported to Silicon / ARM Apple computers via the Rosetta binary translator.
-:::
 
 **Generic hardware specification:**
 
@@ -65,9 +61,9 @@ Single computer systems can provide an excellent option for portability but come
 
 **Apple based recommended hardware:**
 
-- Apple Silicon / ARM M1
-  - Mac Studio M1 Max (10-Core CPU, 24-Core GPU, 32 GB RAM)
-  - Mac Studio M1 Ultra (20-Core CPU, 48-Core GPU, 64 GB RAM)
+- Apple Silicon / ARM M2
+  - Mac Studio M2 Max (10-Core CPU, 24-Core GPU, 32 GB RAM)
+  - Mac Studio M2 Ultra (20-Core CPU, 48-Core GPU, 64 GB RAM)
 - Apple Intel
   - MacPro, 3.5GHz 8‑core Intel Xeon W processor, Radeon Pro W5500X, 32GB RAM
 

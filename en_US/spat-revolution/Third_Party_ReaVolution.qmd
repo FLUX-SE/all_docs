@@ -99,7 +99,7 @@ To display the midi editor, use ```CTRL/CMD + M```
 
 ### SPAT Revolution library
 
-ReaVolution is designed to work seamlessly with the software _SPAT Revolution_ developed by Flux:: Immersive. _SPAT Revolution_ is a stand-alone application to create immersive sound content and support almost any surround sound technologies. Flux:: has also developed audio pipe technologies which allow sending audio from a DAW to _SPAT Revolution_ using a VST/AAX/AU plug-ins. This is a very powerful tool, but it can be quite time-consuming to setup.
+ReaVolution is designed to work seamlessly with the software _SPAT Revolution_ developed by FLUX:: Immersive. _SPAT Revolution_ is a stand-alone application to create immersive sound content and support almost any surround sound technologies. FLUX:: has also developed audio pipe technologies which allow sending audio from a DAW to _SPAT Revolution_ using a VST/AAX/AU plug-ins. This is a very powerful tool, but it can be quite time-consuming to setup.
 
 ReaVolution comes with a set of action that automates all the things that needs to be done prior to sending audio from Reaper to _SPAT Revolution_ and work in pairs with the **Audio Stream library** to support any channel configuration.
 

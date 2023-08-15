@@ -44,8 +44,8 @@ After copying the templates to the proper folder, they will appear in the templa
 
 ![Create a new session](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/ProToolsTemplates.png)
 
-All accompanying  _SPAT Revolution_ .JSON session file for the above templates are available as a single download as well:
-**[SPAT Revolution Session Templates]**(https://public.3.basecamp.com/p/yoAYTeMkGK9mBdMaNkToj2HU).
+All accompanying  _SPAT Revolution_ .json session file for the above templates are available as a single download as well:
+**[SPAT Revolution Session Templates](https://public.3.basecamp.com/p/yoAYTeMkGK9mBdMaNkToj2HU)**.
 
 You can download the following session templates and presets:
 

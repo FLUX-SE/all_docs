@@ -167,7 +167,7 @@ This panel contains options related to the efficiency zone.
 
 ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Room/OutputScalingPanel.png)
 
-#### Distance
+#### Distance {#sec-room-parameter-distancescaling}
 
 This parameter scales all the distance automation (OSC, plugins data and snapshots) by a manual factor. This factor is adapted automatically when editing the arrangement of the room.
 
