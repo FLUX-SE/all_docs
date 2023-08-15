@@ -1,4 +1,6 @@
-# Bugs
+# 23.08.0.50318 {#sec-50318}
+
+## Bugs
 
 - 3D View - Impossible to select and directly move a source, need to unlatch the click then click again
 - OSC - Avoid sending several time the name when loading a session
@@ -8,7 +10,7 @@
 - Speaker editor - Compute in speaker arrangement is broken
 - Virtual selection - The source panel is not updated when receiving OSC messages, except position
 
-# Known Issues
+## Known Issues
 - App - A process still running after quitting SPAT Revolution when ASIO4ALL is used as audio driver on Windows
 - App - Bad GUI initialization on Windows with intel graphics chipsets
 - App - Core Audio headphones and loudspeakers cannot be used without an aggregate

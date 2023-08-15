@@ -49,7 +49,7 @@ If the session is not compatible, it can be opened with an **Essential** license
 If a session contains elements non-compatible with an **Essential** license, they can be manually deactivated for the session to fit the **Essential** license restrictions. If all the non-authorized elements are inactive, the session is considered as compatible with **Essential** license.
 :::
 
-See [Modules (de)activation -@module-de-activation] for more information about automatic and manual (de)activation.
+See [Modules (de)activation -@sec-module-de-activation] for more information about automatic and manual (de)activation.
 
 ### Essential compatibility mode in Ultimate
 
