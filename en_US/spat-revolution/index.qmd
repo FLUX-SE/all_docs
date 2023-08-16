@@ -1,6 +1,6 @@
 ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Generic/SPATionautsImage.png)
 
-# FLUX:: Immersive SPAT Revolution 22.09 {.unnumbered}
+# FLUX:: Immersive SPAT Revolution 23.08 {.unnumbered}
 
 ## A User Guide
 
@@ -11,11 +11,11 @@ Gäel Martinet, Vincent Carlier, Florie-Anne Lafaye, Thibaut Carpentier, Anders 
 
 **Legal Information**
 
-Third edition of FLUX:: _SPAT Revolution_ User Guide published in September 2022
+Fourth edition of FLUX:: _SPAT Revolution_ User Guide published in July 2023.
 
-All writing is protected under copyright © 2023 Cristian Vogel / FLUX SOFTWARE ENGINEERING
+All writing is protected under copyright © 2023 Cristian Vogel / FLUX SOFTWARE ENGINEERING.
 
-FLUX:: is a trademark of FLUX SOFTWARE ENGINEERING
+FLUX:: is a trademark of FLUX SOFTWARE ENGINEERING.
 All trademarks and the logos are copyright protected.
 
 ```

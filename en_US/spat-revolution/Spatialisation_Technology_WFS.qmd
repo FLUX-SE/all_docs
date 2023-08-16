@@ -13,7 +13,7 @@ Under certain strict conditions, WFS can create the impression of a source posit
 ### Availability - WFS Add-on license
 
 :::{.callout-note}
-Referred to as a panning type in _SPAT Revolution_, the WFS spatial audio reproduction technique is available with **the WFS Add-on license option**, available with Ultimate and Essential version.
+Referred to as a panning type in _SPAT Revolution_, the WFS spatial audio reproduction technique is available with **the WFS Add-on license option**, available with Ultimate and Essential versions.
 :::
 
 
@@ -41,7 +41,7 @@ The chosen WFS implementation is a minimum latency approach. This simply means t
 When using the WFS panning technique on a collinear frontal line arrangement, the Efficiency zone section in the room output section provides an option to activate the focus zone, i.e. the zone in front of a line of speakers. It is deactivated by default as it is recommended that a certain density and spacing exist for the speaker arrangement.
 
 :::{.callout-warning}
-  Enabling this option may trigger an Efficiency zone warning if the system does not respect the 0.4 meter spacing between speaker source elements recommendation.
+  Enabling this option may trigger an Efficiency zone warning if the system does not respect the 0.4-meter spacing between speaker source elements recommendation.
 :::
 
 ![Focus zone Enable]( https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Room/FocusZoneEnable.png)
@@ -64,8 +64,8 @@ After activating, it will extend the efficiency zone with a focus area starting 
 
 ![WFS Settings]( https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/WFSSettings.png)
 
-FLUX:: WFS implementation uses an interpolation strategy using a very precise calculation mode for delays values. This is to allow for a smooth transition with source movement rather than delay steps (inherent from digital audio).
-**6 parameters** are available in the room inspector of the setup page, and can allow to fine-tune the WFS render
+FLUX:: WFS implementation uses an interpolation strategy using a very precise calculation mode for delay values. This is to allow for a smooth transition with source movement rather than delay steps (inherent in digital audio).
+**6 parameters** are available in the room inspector of the setup page, and can allow fine-tuning the WFS render.
 
 **Delay interp. time:**
 The delay interpolation time is the time it will take to go from one delay value to another delay value. In WFS, interpolation time allows a smooth transition when a source is moved. Depending on your source content, and your scene movements, you may find this setting useful to modify.
@@ -80,7 +80,7 @@ This parameter allows scaling the computed delays for all sources. It allows sha
 This parameter allows scaling of the computed gains for all sources. It is really useful on close WFS line, in order to spread the audio content all along the line or speaker setup, for front-fills for example. For example, you can decrease the percentage in order to activate more loudspeakers serving well audience sitting close to the loudspeaker line.
 
 **use PreFilter:**
-A spectral correction in WFS systems called Pre-equalization. This parameter enables/disables a low-shelf filter in order to compensate for the low frequencies boost created by the speaker antenna.
+A spectral correction in WFS systems called Pre-equalization. This parameter enables/disables a low-shelf filter in order to compensate for the low frequency boost created by the speaker antenna.
 
 **Blend distance:**
-A 2.0-meter distance behind the speaker line is defined by default providing a transition zone as sources get closed to speakers and can help prevent some artifacts.
+A 2.0-meter distance behind the speaker line is defined by default to provide a transition zone as sources get closed to speakers and can help prevent some artifacts.

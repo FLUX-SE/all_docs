@@ -4,13 +4,13 @@
 
 Simply put: Ambisonics is a specific method for creating, capturing and playing back spatial audio. It is radically different from other surround techniques as the technology is capable of reproducing a spherical representation of sound where the directional information of a source is located in a 3D soundfield.
 
-Ambisonic is also both a recording and a spatial synthesis technique, where one can capture the full environment in 3D sound through the use of so called A-Format microphones such as the: Soundfield SPS200, Røde NT-SF1, Sennheiser Ambeo, Coresound TetraMic and more. Alternatively, a sound field can be synthesized from any mono, stereo and multichannel sources to Ambisonics, constructing a virtual 3D sound environment by placing the sources at locations in a virtual 3 dimensional field.
+Ambisonic is also both a recording and a spatial synthesis technique, where one can capture the full environment in 3D sound through the use of so-called A-Format microphones such as the: Soundfield SPS200, Røde NT-SF1, Sennheiser Ambeo, Coresound TetraMic and more. Alternatively, a sound field can be synthesized from any mono, stereo and multichannel sources to Ambisonics, constructing a virtual 3D sound environment by placing the sources at locations in a virtual 3-dimensional field.
 
 ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Education/Ambisonic.png)
 
 ## Encoded audio
 
-Ambisonic, as opposed to other surround and spatial techniques and methods does not carry a speaker signal. It is an **encoded** audio signal that has to be **decoded** to listen on speakers. This encoding / decoding scheme has the advantage of being very portable and flexible since one is not tied to a specific speaker setup. i.e., you can have your ambisonic mix played on a number of speaker setups, for instance quad, headphones (binaural), 5.1, 6, 8, 7 speakers, etc. based on the chosen decoder.
+Ambisonic, as opposed to other surround and spatial techniques and methods, does not carry a speaker signal. It is an **encoded** audio signal that has to be **decoded** to listen on speakers. This encoding / decoding scheme has the advantage of being very portable and flexible since one is not tied to a specific speaker setup. i.e., you can have your ambisonic mix played on a number of speaker setups, for instance quad, headphones (binaural), 5.1, 6, 8, 7 speakers, etc. based on the chosen decoder.
 
 When Ambisonics is played back on speakers, all the speakers contribute to the directional content, what one is hearing is not the sound coming from a specific speaker but from a specific direction.
 
@@ -59,7 +59,7 @@ _Ambisonics_ can also be encoded without elevation - this is called 2D horizonta
 
 ## Normalization, sorting and presets
 
-These different components are organised according to different standards, known as sorting. The three most used are available in _SPAT Revolution_:
+These different components are organized according to different standards, known as sorting. The three most used are available in _SPAT Revolution_:
 - ACN: Ambisonic Channel Number, WYZXVTRSUQOMKLNP...
 - SID: Single Index Designation, WXYZUVSTRPQNOLMK...
 - FMH: Furse-Malham Harmonics, WXYZRSTUVKLMNOPQ...
@@ -82,7 +82,7 @@ To help with these different standards, we have created Ambisonics presets to si
 
 ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/InputInspectorAFormat.png)
 
-A-format is a 4-channel audio stream. It is the RAW output of a first-order ambisonic microphone, so it has not been encoded to ambisonic yet. So we need to transcode a A-Format input to an HOA or a channel-based stream. Because each manufacturer has their own strategy to create such microphone, we have almost as many transcoder as A-format microphone builder. _SPAT Revolution_ comes with a comprehensive list of A-Format transcoder, including Sennheiser Ambeo, Soundfield, DPA, Oktava etc.
+A-format is a 4-channel audio stream. It is the RAW output of a first-order ambisonic microphone, so it has not been encoded to ambisonic yet. So we need to transcode an A-Format input to an HOA or a channel-based stream. Because each manufacturer has their own strategy to create such microphone, we have almost as many transcoders as A-format microphone builders. _SPAT Revolution_ comes with a comprehensive list of A-Format transcoders, including Sennheiser Ambeo, Soundfield, DPA, Oktava etc.
 
 
 ## History and references
@@ -94,6 +94,6 @@ If you want to learn more about Ambisonics and its mathematical foundation here 
 - [https://www.researchgate.net/publication/280010078_Introduction_to_Ambisonics](https://www.researchgate.net/publication/280010078_Introduction_to_Ambisonics)
 - [Wikipedia article about normalization and sorting](https://en.wikipedia.org/wiki/Ambisonic_data_exchange_formats)
 - [Frank Zotter' book about Ambisonics](https://link.springer.com/book/10.1007/978-3-030-17207-7)
-
 <!--[http://flo.mur.at/writings/HOA-intro.pdf](http://flo.mur.at/writings/HOA-intro.pdf)
+
 -->
