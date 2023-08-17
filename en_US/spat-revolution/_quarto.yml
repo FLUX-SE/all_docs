@@ -80,8 +80,23 @@ book:
        text: "Appendix B - Troubleshooting"
      - href: Appendix_C_OSC_Table.qmd
        text: "Appendix C - OSC message table"
-     - href: Appendix_D_release_notes.qmd
-       text: "Appendix D - Release notes"
-       
+     - part: Appendix_D_release_notes.qmd
+       chapters:
+        - Appendix_D_release_notes/Appendix_D_release_notes_50318.md
+        - Appendix_D_release_notes/Appendix_D_release_notes_50316.md
+        - Appendix_D_release_notes/Appendix_D_release_notes_50222.md
+        - Appendix_D_release_notes/Appendix_D_release_notes_50219.md
+        - Appendix_D_release_notes/Appendix_D_release_notes_50213.md
+        - Appendix_D_release_notes/Appendix_D_release_notes_50206.md
+        - Appendix_D_release_notes/Appendix_D_release_notes_50200.md
+        - Appendix_D_release_notes/Appendix_D_release_notes_50151.md
+        - Appendix_D_release_notes/Appendix_D_release_notes_50148.md
+        - Appendix_D_release_notes/Appendix_D_release_notes_50030.md
+        - Appendix_D_release_notes/Appendix_D_release_notes_50020.md
+        - Appendix_D_release_notes/Appendix_D_release_notes_49943.md
+        - Appendix_D_release_notes/Appendix_D_release_notes_49930.md
+        - Appendix_D_release_notes/Appendix_D_release_notes_49890.md
+        - Appendix_D_release_notes/Appendix_D_release_notes_49880.md
+
 metadata-files: 
   - ../_common.yaml

@@ -1,4 +1,4 @@
-# Release Notes - Build 22.10.0.50213
+# Build 22.10.0.50213 {.unnumbered}
 
 ## Improvements
 - German localisation update

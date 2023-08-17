@@ -1,4 +1,4 @@
-# Release notes - Build 20.12.0.49890
+# Build 20.12.0.49890 {.unnumbered}
 
 ## SPAT Revolution new features
 

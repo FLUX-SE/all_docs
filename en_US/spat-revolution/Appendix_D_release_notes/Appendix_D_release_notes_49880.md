@@ -1,4 +1,4 @@
-# Release notes - Build 20.12.0.49880
+# Build 20.12.0.49880 {.unnumbered}
 
 This build contains SPAT Revolution and SPAT plug-ins suite.
 

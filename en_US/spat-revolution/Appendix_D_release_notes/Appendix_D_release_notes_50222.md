@@ -1,4 +1,4 @@
-# Release Notes - Build 22.10.0.50222
+# Build 22.10.0.50222 {.unnumbered}
 
 # Bugs fixes
 - SPAT Send - Fix: Selection is recorded and played back

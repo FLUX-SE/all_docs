@@ -1,4 +1,4 @@
-# Release Notes - Build 22.02.0.50206
+# Build 22.02.0.50206 {.unnumbered}
 
 ## Bug fixed
 - Any setup action in the setup page unmute ALL rooms

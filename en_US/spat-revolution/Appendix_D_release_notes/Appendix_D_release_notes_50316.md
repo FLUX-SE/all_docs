@@ -1,4 +1,6 @@
-# New Features
+# Build 23.08.0.50316 {.unnumbered}
+
+## New Features
 
 - ARM support for SPAT Revolution and the plugins suite
 - Add Auto Touch/Release for remotes that are not doing it
@@ -12,7 +14,7 @@
 - Speaker editor - Add AFMG EASE new XLD support to import speaker arrangement
 
 
-# Improvements
+## Improvements
 - 3D View - Display signal activity in real source position and group, like in standard sources
 - Add Stereo to LCR encode on the input block
 - Add signal generator options
@@ -29,7 +31,7 @@
 - Source Header - Name requires now to double-click on the label to edit it
 - feed signal generator before processing delay on the input block
 
-# Bugs
+## Bugs
 - 3D view - Barycenter is not updated when selecting several sources through the 3D view
 - App - Reported latency is not accurate when Device In/Out are the same on macOS
 - At session load, plugins transmit their automation through both OSC and LAP when LAP is engaged.
@@ -85,7 +87,7 @@
 - Windows only - Crash at start when an OSC input is disabled
 - macOS - Crash message can appear on some Intel machine at start, although the software starts
 - 
-# Known Issues
+## Known Issues
 - App - A process still running after quitting SPAT Revolution when ASIO4ALL is used as audio driver on Windows
 - App - Bad GUI initialization on Windows with intel graphics chipsets
 - App - Core Audio headphones and loudspeakers cannot be used without an aggregate
