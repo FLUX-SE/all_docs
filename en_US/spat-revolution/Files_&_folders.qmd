@@ -12,11 +12,11 @@ SPAT uses 3 different file types:
 
 To save a session, click on the "Save session" button on the Setup page, or use the shortcut ```Ctrl + S``` on Windows, or ```Cmd + S``` on Mac, on any page of  _SPAT Revolution_.
 
-User created custom speaker arrangement(s) can be exported or imported as *.ioconfig* files in the edit speaker config window.
+User-created custom speaker arrangement(s) can be exported or imported as *.ioconfig* files in the edit speaker config window.
 
 Reverb preset can be stored and exported as *.reverbPresets.* They can later be imported back into a session.
 
-## Preferences and ressources files
+## Preferences and resources files
 
 ```Users/.../Document/FLUX SE```
 

@@ -26,7 +26,7 @@ Let you open a session from a disk.
 
 ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Home/Recent.png)
 
-<!-- TODO: udpate this image with session on the panel -->
+<!-- TODO: update this image with the session on the panel -->
 
 This box lists the latest open session in _SPAT Revolution_. You can open one by double-clicking on it.
 
@@ -35,8 +35,9 @@ This box lists the latest open session in _SPAT Revolution_. You can open one by
 ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Home/Resources.png)
 
 This box gives you direct access to many resources related to _SPAT Revolution_:
-- This documentation
-- DAW templates for using LAP: Ableton Live, Apple Logic Pro X, Avid ProTools, Steinberg Nuendo, Merging Technologies Pyramix 
-- OSC templates, which include a lemur template and a QLab example session
-- Live console templates: S6L, Digico and SSL
-- Examples of various scripts
+
+* This documentation
+* DAW templates for using LAP: Ableton Live, Apple Logic Pro X, Avid ProTools, Steinberg Nuendo, Merging Technologies Pyramix
+* OSC templates, which include a lemur template and a QLab example session
+* Live console templates: S6L, Digico and SSL
+* Examples of various scripts.

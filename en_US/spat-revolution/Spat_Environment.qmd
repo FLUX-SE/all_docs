@@ -10,9 +10,9 @@ The **Home Page** is a simple hub that displays your previously opened sessions 
 
 The **Snapshot Page** is the interface to the very powerful Snapshot engine. Here you can create, re-order, retrieve, update snapshots and much more!
 
-The **Item Page** is another way of visualising information in your session. It is very powerful in terms of setup or OSC integration to quickly access the information that matters.
+The **Item Page** is another way of visualizing information in your session. It is very powerful in terms of setup or OSC integration to quickly access the information that matters.
 
-The **Speaker Arrangement Editor** is a simple yet comprehensive tool for creating and managing speaker layouts. Remember, this is a critical step in creating a convincing spatialisation experience.
+The **Speaker Arrangement Editor** is a simple yet comprehensive tool for creating and managing speaker layouts. Remember, this is a critical step in creating a convincing spatialization experience.
 
 The **Preferences Page** is where you will find many of the application settings that allow you to tailor SPAT Revolution to your needs.
 
@@ -25,19 +25,19 @@ In order for the virtual scene to translate correctly as an immersive sound expe
 To this end, you will find a large library of standard and specialized speaker arrangements already built into SPAT which can be used in various places throughout the **Environment Setup**.
 
 Speaker configurations can be used to fit the format of a virtual room to match the actual speaker system being used to diffuse the mix in a real room.
-Channel based speaker configurations can also be used to transcode the format of a virtual source into a virtual room.
+Channel-based speaker configurations can also be used to transcode the format of a virtual source into a virtual room.
 More about this later.
 
-The golden rule when working with multichannel based audio is that you must be sure to choose _exactly_ the right formats, speaker arrangements and channel routing throughout; otherwise the virtual space will not map correctly into a physical space.
+The golden rule when working with multichannel-based audio is that you must be sure to choose _exactly_ the right formats, speaker arrangements and channel routing throughout; otherwise the virtual space will not map correctly into a physical space.
 
 **Virtual and Real Diffusion**
 
-Successful diffusion of a sound field in space relies on every loudspeaker being assigned correctly to each software rendered output channels.
+Successful diffusion of a sound field in space relies on every loudspeaker being assigned correctly to each software-rendered output channel.
 
-A diffusion system could range from a simple pair of headphones to a 18 (**Essential**) or unlimited (**Ultimate**) speakers array and anything in between.
-In some of the more virtualized workflows of _SPAT Revolution_, you may even be thinking about diffusion in a virtual space on configurations of virtual speaker arrangements and channel based formats.
+A diffusion system could range from a simple pair of headphones to an 18 (**Essential**) or unlimited (**Ultimate**) speakers array and anything in between.
+In some of the more virtualized workflows of _SPAT Revolution_, you may even be thinking about diffusion in a virtual space on configurations of virtual speaker arrangements and channel-based formats.
 The same rule for successful diffusion applies here—the diffusion in the virtual room will be compromised and sound off if the channel assignments to the virtual systems are incorrect.
 
 ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Room/3DViewMultichannelSources.png)
 
-In the above illustration, a virtual 5.1 and a virtual Cube arrangement exist together in a High Order Ambisonic Room, which may eventually be rendered to some other channel based end format. -->
+In the above illustration, a virtual 5.1 and a virtual Cube arrangement exist together in a High Order Ambisonic Room, which may eventually be rendered to some other channel-based end format. -->

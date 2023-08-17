@@ -55,7 +55,7 @@ This snapshot list's top bar regroups all the snapshot actions:
 - ```Recall``` allows loading a previously saved snapshot selected in the snapshot list.
 
 :::{.callout-warning}
- Keep in mind that source with "Snapshot" parameter set off will be stored, but not recalled. Please check the "item page" section for more information.
+ Keep in mind that a source with "Snapshot" parameter set off will be stored, but not recalled. Please check the "item page" section for more information.
 :::
 
 ### Snapshot Index
@@ -66,14 +66,14 @@ To recall through OSC a snapshot, the name or the index is required. As snapshot
 
 It is possible to generate new indexes for all the snapshots according to list order. To do so, click on the menu ```Snapshot/Reindex all snapshots```.
 
-Last, the index can be manually edited, right-clicking on a snapshot and selecting ```Edit snapshot index```.
+Last, the index can be manually edited, by right-clicking on a snapshot and selecting ```Edit snapshot index```.
 
 ### Recall options
 
 Recalling a snapshot will use four different options:
 - The **timing** is the transition time between the current session state and the session state recalled from a snapshot. This allows smoothing out the transition between two scenes and can also be used to create some movements.
 - The **source option** defines if the sources state should be recalled. This refers to the sources' position and other properties.
-- The **room option** defines if the rooms' state should be recalled. This refers to the reverb parameters of rooms and also the listener head. Be careful with this as some parameters of the reverberation can't be recalled without sound dropping.
+- The **room option** defines if the rooms' state should be recalled. This refers to the reverb parameters of rooms and also the listener's head. Be careful with this as some parameters of the reverberation can't be recalled without sound dropping.
 - The **master option** defines if the masters' state should be recalled. This refers to the master level output.
 
 :::{.callout-note}
@@ -81,9 +81,13 @@ By default, only sources' properties are recalled from snapshots.
 If only some parameters are recalled, the whole session is stored on the creation of a snapshot.
 :::
 
-### Using global options or override them
+:::{.callout-note}
+On a room, the setup parameters like distance scaling, protection zone parameters, etc. are deactivated from snapshot recall.
+:::
 
-The snapshot list exposes the four global recall options on its top right corner : the recall timing, the sources recall option, the rooms recall option and the masters recall option. These parameters affect each snapshot with global options activated.
+### Using global options or overriding them
+
+The snapshot list exposes the four global recall options in its top right corner: the recall timing, the sources recall option, the rooms recall option and the masters recall option. These parameters affect each snapshot with global options activated.
 
 Beside each snapshot, there is a checkbox, under a column named "**Global options**". If the checkbox is checked, the default values of the recall preferences refer to the global values. If the checkbox is unchecked, it will override the global preferences and use the specific recall values for the snapshot.
 
@@ -91,13 +95,13 @@ Beside each snapshot, there is a checkbox, under a column named "**Global option
 
 ```Relative recall``` is an option of the recall function. It allows recalling a snapshot while preserving anything that was offset from the previous state. This can help to prevent technical problems during a show.
 
-Here is an example: let's say you have two snapshots, _A_ and _B_. Sources inside your project have different gains between the two snapshots: 0 dB for the snapshot _A_, -5 dB for the snapshot _B_. Now, let's presume that once the show is started, you feel that one of the sources is too quiet (the singer preserves his voice). So you grab the gain parameter and trim by 4 dB. The "Relative recall" function will preserve this offset to any of the future recalled snapshot. Recalling snapshot _B_ will set the gain of the singer to -1 dB instead of -5dB. This allows a perfect blend of live mixing and preparation work.
+Here is an example: let's say you have two snapshots, _A_ and _B_. Sources inside your project have different gains between the two snapshots: 0 dB for snapshot _A_, -5 dB for snapshot _B_. Now, let's presume that once the show is started, you feel that one of the sources is too quiet (the singer preserves his voice). So you grab the gain parameter and trim by 4 dB. The "Relative recall" function will preserve this offset to any of the future recalled snapshots. Recalling snapshot _B_ will set the gain of the singer to -1 dB instead of -5dB. This allows a perfect blend of live mixing and preparation work.
 
-### Changing snapshots color
+### Changing snapshots' color
 
 <!-- ![Coloring snapshot](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Snapshots/SnapshotColor.png) -->
 
-To help to a better organisation of the session, snapshots can be recolored. To do so, right-click on the selected snapshot and choose *Set colors*. A palette, from which you can pick a color, will appear.
+To help to a better organization of the session, snapshots can be recolored. To do so, right-click on the selected snapshot and choose *Set colors*. A palette, from which you can pick a color, will appear.
 
 It is also possible to *Generate colors* automatically for a multiselection of snapshots. Right-click on one of them and click on the corresponding list entry.
 
@@ -105,22 +109,22 @@ It is also possible to *Generate colors* automatically for a multiselection of s
 
 ![Snapshot version history](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Snapshots/VersionHistory.png)
 
-In this panel takes place a very powerful feature. For each snapshot, SPAT Revolution automatically stores the last versions. By default, **ten versions** are stored. It is possible to increase or decrease this number on the Snapshot panel of the **Preferences** page. Of course, you can recall any of this ten previous state, remove one.
+On this panel takes place a very powerful feature. For each snapshot, SPAT Revolution automatically stores the last versions. By default, **ten versions** are stored. It is possible to increase or decrease this number on the Snapshot panel of the **Preferences** page. Of course, you can recall any of these ten previous states, or remove one.
 
-An entry in the version history has for indication its creation date and time. To describe the version, you can insert a custom note.
+An entry in the version history has for indication its of creation date and time. To describe the version, you can insert a custom note.
 
 The **Active** field allows choosing which version will be used when the snapshot is recalled. Only one version can be activated. 
 
-A set of actions is presented on the top:
+A set of actions is presented at the top:
   - A previous snapshot version can be recalled by clicking on the ```Recall``` button. The recalled version will be indicated by the **Current** field.
-  - Versions can be deleted, clicking on ```Delete```.
+  - Versions can be deleted, by clicking on ```Delete```.
   - All versions excluding the selected one(s) can be deleted, clicking on ```Delete all other versions```.
 
 ## Inspector
 
-The inspector lets you visualize the difference between the current state of your session and the selected snapshot, and selected version of a snapshot.
+The inspector lets you visualize the difference between the current state of your session and the selected snapshot, and the selected version of a snapshot.
 
-It allows an easy monitoring of what was changed and how it was changed.
+It allows easy monitoring of what was changed and how it was changed.
 
 ![Inspector](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Snapshots/Inspector.png)
 
@@ -146,7 +150,7 @@ To select differences, use ```Ctrl + Click``` on Windows, or ```Cmd + Click``` o
 
 ![Inspector](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Snapshots/PropagateDialog.png)
 
-On the propagate dialog, the selected data will be retrieved, displaying the absolute value which can be applied when validating on ```Propagate absolute values``` and the trim value which will be added to each snapshot value when validating with ```Propagate trim values```.
+On the propagate dialog, the selected data will be retrieved, displaying the absolute value which can be applied when validating on ```Propagate absolute values ```and the trim value which will be added to each snapshot value when validating with ```Propagate trim values```.
 
 :::{.callout-note}
 For example, if my Accordion has an azimuth value of 50.0, it will become 13.475 propagating with absolute value, and 50.22 propagating with trim value.
@@ -156,4 +160,4 @@ On the left panel, the snapshot list is displayed in order to choose the snapsho
 
 ![Inspector](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Snapshots/PropagateDialogSelectedSnapshots.png)
 
-On the right panel, the differences are displayed. It is possible to select them in order to filter which ones will be propagated. Do not select rows for propagate all the values.
+On the right panel, the differences are displayed. It is possible to select them in order to filter which ones will be propagated. Do not select rows to propagate all the values.

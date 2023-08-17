@@ -1,12 +1,14 @@
-# Application preference {#sec-application-preference}
+# Application preferences {#sec-application-preference}
 
 ![Preference Page]( https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Preference/PageUltimate.png)
 
-This page allows you to change global preferences of the application.
+This page allows you to change the global preferences of the application.
 
 ## Global
 
 ![Global Section]( https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Preference/Global.png)
+
+<!-- TODO: update this image -->
 
 ### Allow sending error data
 
@@ -30,11 +32,11 @@ _On by default_
 
 Change the temperature used in the delay line calculation.
 
-_Default is 20 °C_
+_Default is 20 °C_
 
 ### Input delay - Unit of measure
 
-Change the unit format for delay.
+Change the unit format for the delay.
 
 _Default is sample_
 
@@ -43,23 +45,23 @@ _Default is sample_
 
 Define how many times per second the UI is refreshed.
 
-_Default is 30 Hz_
+_Default is 30 Hz_
 
 ### Engine Frame Rate
 
 Define how many times per second the engine is refreshed.
 
-_Default is 60 Hz_
+_Default is 60 Hz_
 
 ### Meter Default Refresh Rate
 
 Define how many times per second the meters are refreshed
 
-_Default is 30 Hz_
+_Default is 30 Hz_
 
 ### Language
 
-Allow to change the language of SPAT Revolution. English, Italian, German, Korean, French, and Spanish are available. If you wish to help us to translate SPAT in another language, don’t hesitate to contact us.
+Allow to change the language of SPAT Revolution. English, Italian, German, Korean, French, and Spanish are available. If you wish to help us to translate SPAT into another language, don’t hesitate to contact us.
 
 _Default is English_
 
@@ -86,7 +88,7 @@ This menu allows selecting the audio interface. SPAT Revolution audio engine sup
 
 SPAT Revolution audio engine also supports different input and output interfaces, on both macOS and Windows, for maximum flexibility.
 
-In case of different input and output devices, the sample rate and the block size need to be the same.
+In the case of different input and output devices, the sample rate and the block size need to be the same.
 
 :::
 
@@ -110,8 +112,8 @@ This panel contains some general user preferences.
 
 ### Anti-Alias
 
-When enabled, this option smooth out lines in the graphic engine.
-If you are using an Intel-based computer without a dedicated GPU, we highly recommend deactivating this option to improve performances.
+When enabled, this option smooths out lines in the graphic engine.
+If you are using an Intel-based computer without a dedicated GPU, we highly recommend deactivating this option to improve performance.
 
 _On by default_
 
@@ -123,7 +125,7 @@ _On by default_
 
 ### Tooltips
 
-Tooltips contain help and complementary informations. When on, they are displayed when the mouse is over a parameter or a control.
+Tooltips contain help and complementary information. When on, they are displayed when the mouse is over a parameter or a control.
 
 ### Theme
 
@@ -133,11 +135,13 @@ _Set on “dark” by default_
 
 ### Shortcuts window
 
-Display the list of all the shortcut of SPAT Revolution.
+Display the list of all the shortcuts of SPAT Revolution.
 
 ## OSC Main
 
 ![OSC Main Section]( https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Preference/OSCMain.png)
+
+<!-- TODO: update this image -->
 
 This panel contains basic OSC options.
 
@@ -147,15 +151,19 @@ Enable or disable the OSC communication between SPAT Revolution and other device
 
 ### Enable commands log
 
-Allows displaying the OSC messages in the application’s console.
+Allow displaying the OSC messages in the application’s console.
 
 ### Show invalid OSC input messages
 
-Allows displaying the unknown and invalid OSC messages in the application’s terminal.
+Allow displaying the unknown and invalid OSC messages in the application’s terminal.
 
 ### Dump on socket change
 
-Allow to dump all properties when a socket change, i.e. when the IP address or the port number has been edited, or the socket is enabled. This ensures a constant synchronisation between any remote control and SPAT Revolution.
+Allow to dump all properties when a socket changes, i.e. when the IP address or the port number has been edited, or the socket is enabled. This ensures a constant synchronization between any remote control and SPAT Revolution.
+
+### Send current selection messages
+
+Allow sending a particular message for the source selection. For example, for the gain, the /source/-1/gain will be sent each time the selection gain change.
 
 ### Output rate
 
@@ -169,7 +177,7 @@ This button exports the OSC parameters to a text file.
 
 ![OSC Connections Section]( https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Preference/OSCConnections.png)
 
-This panel allows creating OSC connection between SPAT Revolution and other devices, like tablets, phones, computers and many others. More information is available on the [OSC section -@sec-spat-osc].
+This panel allows the creation of an OSC connection between SPAT Revolution and other devices, like tablets, phones, computers and many others. More information is available on the [OSC section -@sec-spat-osc].
 
 ## Snapshots
 
@@ -177,15 +185,15 @@ This panel allows creating OSC connection between SPAT Revolution and other devi
 
 ### Recall sources name
 
-Determines if the source names is recalled with snapshots.
+Determines if the source names are recalled with snapshots.
 
 ### Number of saved versions
 
-Determines the number of version saved when updating a snapshot. Careful: increasing this number increases deeply the size of the .json SPAT file.
+Determines the number of versions saved when updating a snapshot. Careful: increasing this number increases deeply the size of the .json SPAT file.
 
 ### Ask for update before recalling
 
-When checked, a dialog will ask you if you want to update the snapshot before each recalled.
+When checked, a dialog will ask you if you want to update the snapshot before each recall.
 
 ## HRTF
 
@@ -195,11 +203,11 @@ The HRTF panel allows setting up some generic options for HRTF handling.
 
 ### Default HRTF
 
-Choose the default HRTF used in binaural room or binaural monitoring blocks
+Choose the default HRTF used in the binaural room or binaural monitoring blocks
 
 ### Manage HRTFs - Ultimate license only
 
-The button open a window that allows downloading or removed HRTF. You can also import your own HRTF from this menu.
+The button opens a window that allows downloading or removing HRTF. You can also import your own HRTF from this menu.
 
 ## Room
 
@@ -213,20 +221,22 @@ Change the gain of all the rooms of SPAT Revolution.
 
 ### Compute LFE
 
-Off by default, this option allows including the LFE position in the compute of the speaker alignment process.
+Off by default, this option allows including the LFE position in the computing of the speaker alignment process.
 
 
 ### Speaker test post "mute/solo"
 
-Change the behavior of the signal generator for speaker, pre or post speaker's mute and solo.
+Change the behavior of the signal generator for speaker, pre or post-speaker's mute and solo.
 
 ### WFS default truncation distance of Efficiency zone for linear antenna
 
-Add a distance offset to efficiency zone when using WFS with linear antenna to avoid issue with focus zone.
+Add a distance offset to the efficiency zone when using WFS with a linear antenna to avoid issues with the focus zone.
 
 ## Signal Generator
 
 ![Signal Generator Section](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Preference/SignalGenerator.png)
+
+<!-- TODO: update this image -->
 
 Here, you will find the options related to the test signals generated by the application itself.
 
@@ -238,14 +248,25 @@ Configure the signal generator gain.
 
 Configure the type of signal generator.
 
-### Speaker test post "Mute/Solo"
+### Sinus frequency
 
-Allow the speaker test to be post speaker mute/solo, i.e. the speaker test will pass even if the speaker is muted. 
+Configure the frequency of sinus.
+
+### Sweep start frequency
+
+Configure the start frequency of sweep.
+
+### Sweep end frequency
+
+Configure the end frequency of sweep.
+
+### Sweep time
+
+Configure the time sweep.
 
 ## Engine
 
 ![Engine Section](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Preference/Engine.png)
-
 
 This panel allows to modify the behavior of the SPAT Revolution engine.
 
