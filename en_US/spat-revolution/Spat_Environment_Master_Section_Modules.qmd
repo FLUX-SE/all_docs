@@ -8,7 +8,7 @@ The **Sum** row of modules is used to mix the output of two or more rooms of the
 
 The **Sum** module can handle different input configurations.
 It will Sum channels based on their channel names, so a correct naming convention is important.
-Summing a 5.1 and 7.1 rooms together will output a 7.1 where their common L, C, R, Left and Right Surround rear channels will have content summed from both rooms the but Left and Right Back surround will be only from the 7.1 room.
+Summing 5.1 and 7.1 rooms together will output a 7.1 where their common L, C, R, Left, and Right Surround rear channels will have content summed from both rooms but Left and Right Back surround will be only from the 7.1 room.
 
 :::{.callout-note}
 Summing can also be done directly in **Master** and **Output** Modules, but summing into a **Sum** module will save resources if the same sum is performed in different blocks.
@@ -22,7 +22,7 @@ The same options and routing are available as in the [Input Transcoder modules -
 
 ## Master modules {#sec-modules-masters}
 
-The **Master** bloc gives you a last gain staging control, as well as down mixing capabilities. When opening its matrix, it is possible to patch several inputs to one output, or, one input to several outputs. It also includes a phase toggle switch to invert the polarity of the signal.
+The **Master** bloc gives you a last gain staging control, as well as down-mixing capabilities. When opening its matrix, it is possible to patch several inputs to one output, or, one input to several outputs. It also includes a phase toggle switch to invert the polarity of the signal.
 
 ![Master matrix](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/MasterMatrix.png)
 
@@ -31,24 +31,24 @@ The **Master** bloc gives you a last gain staging control, as well as down mixin
 The [**Binaural Monitoring** -@sec-binaural-monitoring] row provides a way to decode the whole scene to headphones only in binaural 3D.
 
 :::{.callout-warning}
-Note that the binaural monitoring block is not designed for binaural production, but for listening to a channel-based mix over headphones. This means that the binaural monitoring modules virtualise loudspeakers and not sources, so the sonic quality of this processing is often less preferable than a proper binaural room.
+Note that the binaural monitoring block is not designed for binaural production, but for listening to a channel-based mix over headphones. This means that the binaural monitoring modules virtualize loudspeakers and not sources, so the sonic quality of this processing is often less preferable than a proper binaural room.
 :::
 
 ## Output modules {#sec-modules-output}
 
 The main thing to note at the output stage is that you can have any number of output routes.
-Like the [Inputs -@sec-input-modules], they may be either direct hardware routes, which returns audio streams (via matrix routing) to the physical outputs of an audio interface connected to your _SPAT Revolution_ workstation.
-The Hardware Output workflow is the most direct way to render in realtime to an actual loudspeaker system (or headphones).
+Like the [Inputs -@sec-input-modules], they may be either direct hardware routes, which return audio streams (via matrix routing) to the physical outputs of an audio interface connected to your _SPAT Revolution_ workstation.
+The Hardware Output workflow is the most direct way to render in real-time to an actual loudspeaker system (or headphones).
 
 :::{.callout-warning}
- Software outputs are created by the instantiation of a SPAT Return plug-in in a compatible DAW, when its local audio path is set to "on".
+ Software outputs are created by the instantiation of a SPAT Return plug-in in a compatible DAW when its local audio path is set to "on".
 :::
 
-Outputs may also be linked to _SPAT Revolution_ RETURN plug-ins, which returns audio streams internally on the same workstation to a valid SPAT RETURN plug hosted in your DAW.
-The software RETURN workflow offers an easy way to render the spatial scene to disk, as _Ambisonic encoded_, _Binaural encoded_ or _Sound system encoded_ multichannel audio.
+Outputs may also be linked to _SPAT Revolution_ RETURN plug-ins, which return audio streams internally on the same workstation to a valid SPAT RETURN plug hosted in your DAW.
+The software RETURN workflow offers an easy way to render the spatial scene to disk, as _Ambisonic encoded_, _Binaural encoded_, or _Sound system encoded_ multichannel audio.
 
 :::{.callout-note}
-Create multiple output routes to capture Ambisonic recordings at the same time as sound system specific rendering.
+Create multiple output routes to capture Ambisonic recordings at the same time as sound system-specific rendering.
 :::
 
 ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/OutputSelected.png)

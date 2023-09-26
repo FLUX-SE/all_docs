@@ -2,12 +2,12 @@
 
 ![Main mixing view of SPAT Revolution](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Room/3DView.png)
 
-SPAT Revolution mixing engine takes advantage of object-based mixing. Such engine are generally presented in to part :
+SPAT Revolution mixing engine takes advantage of object-based mixing. Such engines are generally presented in two parts:
 
-+ First, there are the *objects* (called **Sources** in SPAT Revolution), which contain all the mixing data, such as source position, gain, acoustic behaviour, etc. Objects don't really process audio, they're more like a set of instructions, like a recipe.
-+ Then you have the *decoders*, which look at the instructions in the sources, look at which loudspeaker array is connected, and try to make the best of it. In SPAT Revolution, the job of decoding the source metadata is done by **Rooms**. Rooms are very powerful decoders that can be configured to use many different spatialisation techniques, as well as creating realistic acoustic simulations.
++ First, there are the *objects* (called **Sources** in SPAT Revolution), which contain all the mixing data, such as source position, gain, acoustic behavior, etc. Objects don't process audio, they're more like a set of instructions, like a recipe.
++ Then you have the *decoders*, which look at the instructions in the sources, look at which loudspeaker array is connected, and try to make the best of it. In SPAT Revolution, the job of decoding the source metadata is done by **Rooms**. Rooms are very powerful decoders that can be configured to use many different spatialization techniques, as well as create realistic acoustic simulations.
 
-In the following chapters we will look at these sources and rooms in detail and discuss all their parameters.
+In the following chapters, we will look at these sources and rooms in detail and discuss all their parameters.
 
 <!-- In _SPAT Revolution_, spatialization of virtual sources takes places inside _Rooms_. To enter a room and open its graphic editor environment, double-click on a room module in the Setup graph, or select a room tab from the Navigation bar. -->
 
@@ -20,8 +20,8 @@ We have already discussed the idea that SPAT Revolution is an object-based mixin
 
 This last sentence says a lot about the workflow of SPAT Revolution. Our mix will take place inside sound sources (thanks to their various parameters such as azimuth, elevation, distance, etc.) and we will use the virtual room to render this virtual sound scene.
 
-Rendering a sound scene means that we need to know what the playback system is. Is it headphones? Is it some kind of loudspeaker array? To specify what kind of loudspeaker array it is, SPAT integrates a loudspeaker configuration tool that allows the user to either use a standardised (or very common) loudspeaker layout, or to create a very unique one, corresponding to the loudspeaker placement in a concert hall.
+Rendering a sound scene means that we need to know what the playback system is. Is it headphones? Is it some kind of loudspeaker array? To specify what kind of loudspeaker array it is, SPAT integrates a loudspeaker configuration tool that allows the user to either use a standardized (or very common) loudspeaker layout, or to create a very unique one, corresponding to the loudspeaker placement in a concert hall.
 
-Last but not least, virtual room also means acoustic simulation, so every aspect of sound localisation is covered by the SPAT Revolution engine.
+Last but not least, a virtual room also means acoustic simulation, so every aspect of sound localization is covered by the SPAT Revolution engine.
 
 Perhaps a brief metaphor will help here. If we were talking about written music, the source parameters would be the score. It represents how the music should be played. The loudspeaker configuration would be very much like the orchestra you are recruiting to play the score: is it a small ensemble or not? Does it cover the whole family of musical instruments? In this case, trying to place a sound behind you while mixing on a stereo system would be very similar to asking a percussionist to play a flute part because the ensemble has not hired a flute. Finally, the virtual space will most likely be the conductor. He will choose a way to manage the ensemble he is working with and find a way to get the most out of it in terms of the instructions given by the score. -->

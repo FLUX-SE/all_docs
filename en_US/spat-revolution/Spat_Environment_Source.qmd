@@ -16,23 +16,23 @@ When using a BlackTrax positional tracking system a Tracking index can be assign
 
 A source in SPAT Revolution is a very special object that associates metadata with some audio channels. These metadata are actually all the source parameters that we will discuss in the next chapter. Once we have this association of channels and mixing information, we can send it to a room that acts as a decoder, or interpreter if you prefer. This explains why **only sources can be connected to rooms**.
 
-The various source parameters define the source's simulated positional information, psychoacoustic properties, virtual acoustic properties and other options.
+The various source parameters define the source's simulated positional information, psychoacoustic properties, virtual acoustic properties, and other options.
 
-To edit the variables of a source in the _Source Parameter_ editor, you must first be inside a room. Select the source you want to edit from the list on the left side panel of the Room editor by left-clicking corresponding in lane in the inspector. Alternatively, grab its 'emitter' object in the 3D room visualization (or just one of them, if the source is a multichannel group). When you select a source, the _Source Parameter_ editor will pop up as a set of categorized groups with which you can alter the properties of the Virtual Source in the Room.
+To edit the variables of a source in the _Source Parameter_ editor, you must first be inside a room. Select the source you want to edit from the list on the left side panel of the Room editor by left-clicking the corresponding in-lane in the inspector. Alternatively, grab its 'emitter' object in the 3D room visualization (or just one of them, if the source is a multichannel group). When you select a source, the _Source Parameter_ editor will pop up as a set of categorized groups with which you can alter the properties of the Virtual Source in the Room.
 
 The source's parameters are ordered inside panels. Each panel can be minimized or expanded.
 
-Additionally, a _right click_ on a the source lane will bring up some further options, especially useful is the **Color** option, which allows you to set an identification color to a Source or Group.
+Additionally, a _right-click_ on the source lane will bring up some further options, especially useful is the **Color** option, which allows you to set an identification color to a Source or Group.
 
 :::{.callout-note}
 If a source is a multichannel one, there will be only one number and one set of parameters for the whole cluster.
 :::
 
 :::{.callout-warning}
-Note that the source number can also be used for OSC automation if remote number is set to 0!
+Note that the source number can also be used for OSC automation if the remote number is set to 0!
 :::
 
-The source's parameters are detailed on the next section, [Source Parameters -@sec-sources-parameters].
+The source's parameters are detailed in the next section, [Source Parameters -@sec-sources-parameters].
 
 
 ## Basic interactions
@@ -49,56 +49,57 @@ A double click on any Source Parameter dial will reset it to a SPAT default sett
 
 ### Preset Memories
 
-Each parameter has the possibility to store useful preset settings of your own choosing. Right-click on a parameter dial, and a contextual menu will pop up. From there you can store the current setting to a Memory Slot, or Recall a setting from a previously saved memory slot.
+Each parameter can store useful preset settings of your own choosing. Right-click on a parameter dial and a contextual menu will pop up. From there you can store the current setting to a Memory Slot, or Recall a setting from a previously saved memory slot.
 
 ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Generic/ParameterPreset.png)
 
 ## Smart Property Filter
 
-This feature allows you to display one or several parameters for all the sources that are in the same room. It is a useful feature for fast editing. Type "azimuth elevation distance" in the filter box for example, and you will see faders appear for only these properties, grouped for each of the sources as demonstrated in the following screenshot.
+This feature allows you to display one or several parameters for all the sources that are in the same room. It is a useful feature for fast editing. Type ```azimuth elevation distance``` in the filter box for example, and you will see faders appear for only these properties, grouped for each of the sources as demonstrated in the following screenshot.
 
 ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Room/SourcesPanelSearch.png)
 <!-- TODO: update the image -->
 
-The key word ```strict:``` allows searching strictly one or several parameter. For example, ```strict: gain presence``` will display only the sources gain and presence, while ```gain presence``` will display the gain, the room specific gain, the presence, the room presence, and all gains of the axis and omni filters.
+The key word ```strict:``` allows searching strictly one or several parameters. For example, ```strict: gain presence``` will display only the sources gain and presence, while ```gain presence``` will display the gain, the room-specific gain, the presence, the room presence, and all gains of the axis and omni filters.
 
 Some pre-determined presets are available on a menu accessible on the left of this edit to give you some ideas.
 
 ## Barycentric Groups
 
 When a Source in a Room has more than one channel in its format, it will be represented as a single source with ONE unique index.
-It will be visualized as a group in its assigned channel based speaker arrangement.
+It will be visualized as a group in its assigned channel-based speaker arrangement.
 
 ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Room/3DViewNoSpeakers.png)
 
 In the above screenshot, the red source consists of 5 channels arranged as a DTU 5.0 surround sound configuration.
-A multichannel cluster can be conveniently positioned and manipulated _as a single group_ which maintains its correct internal spatial positioning relationships but moves in relation to the absolute listener position in the Room (the Dummy Head).
+A multichannel cluster can be conveniently positioned and manipulated _as a single group_ which maintains its correct internal spatial positioning relationships but moves about the absolute listener position in the Room (the Dummy Head).
 The dot at the center of each cluster, where each virtual “channel emitter” is attached, is called the “BaryCentric” focus — In other words, a _relative_ listener position that the virtual source configuration remains focused on.
 
 
-These complex spatial positioning algorithms are computed and controlled in real time using _SPAT Revolution’s_ advanced _Barycentric_ and relative direction source parameters.
-A group that may contain many elements can be transformed, scaled, moved and manipulated in complex ways, through only one set of controls.
-See dedicated section for a breakdown of the [**Source Parameters** -@sec-sources-parameters].
+These complex spatial positioning algorithms are computed and controlled in real-time using _SPAT Revolution’s_ advanced _Barycentric_ and relative direction source parameters.
+A group that may contain many elements can be transformed, scaled, moved, and manipulated in complex ways, through only one set of controls.
+See the dedicated section for a breakdown of the [**Source Parameters** -@sec-sources-parameters].
 
 ### Multiple Source Selection
 
-You can shift click on the source lane of separate sources to create an ad hoc edit group. When you have group Sources in this way, you can perform a number of group edit actions. When you right-Click on an ad hoc group selection, a menu will pop up where you can:
+You can shift-click on the source lane of separate sources to create an ad hoc edit group. When you have group Sources in this way, you can perform several group edit actions. When you right-click on an ad hoc group selection, a menu will pop up where you can:
 
 - distribute the sources in the group with the [Transform panel -@sec-transformation]
 - generate different colors for the sources
 - reset the positions of the group
 
-When you have selected an ad hoc group using the shift click technique, you can then open the _[Source Parameter -@sec-sources-parameters]_ panel by clicking on the property panel header 'fold arrow' as  shown in the screenshot below.
+When you have selected an ad hoc group using the shift-click technique, you can then open the _[Source Parameter -@sec-sources-parameters]_ panel by clicking on the property panel header 'fold arrow' as shown in the screenshot below.
 
 ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/ActionsMultiselection.png)
+<!-- TODO: update the image -->
 
-Any source parameter variable you adjust manually will assign that same setting on all selected sources in the group. A barycenter will then become practical to work from a center of mass perspective. For example, transformations like scaling, distance, rotation and directivity of the group is managed by SPAT controlling each member of the group a barycentric relationship.
+Any source parameter variable you adjust manually will assign that same setting to all selected sources in the group. A barycenter will then become practical to work from a center of mass perspective. For example, transformations like scaling, distance, rotation, and directivity of the group are managed by SPAT controlling each member of the group a barycentric relationship.
 
 ## Groups of sources
 
 Barycentric groups are a very convenient way of temporarily editing an ensemble of selected sources. But in some cases, we would prefer the barycentric group to be permanent. That's where groups come in.
 
-A group works very closely to a barycentric group. You can create a group by selecting all the sources you want to include and using the `CMD/CTRL+G` shortcut. In that case the group appears as new source in the Inspector and also as a square in the 3D view. If you move this square, all the sources in the group will move with it. If you move one of the sources in the group, the position of the barycentre will be updated.
+A group works very closely with a barycentric group. You can create a group by selecting all the sources you want to include and using the `CMD/CTRL+G` shortcut. In that case, the group appears as a new source in the Inspector and also as a square in the 3D view. If you move this square, all the sources in the group will move with it. If you move one of the sources in the group, the position of the barycentre will be updated.
 
 ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Room/3DViewGroups.png)
 
@@ -107,5 +108,5 @@ Another important point is that **groups can be nested**. In other words, you ca
 Like a source, a group has an OSC index that can be used for external control or automation. The easiest way to find this number is to look at the Item page.
 
 :::{.callout-warning}
-It is recommended that you only record automation for sources and not for groups, otherwise you may end up playing the same automation twice, causing all sorts of strange and unpredictable behaviour.
+It is recommended that you only record automation for sources and not for groups, otherwise, you may end up playing the same automation twice, causing all sorts of strange and unpredictable behavior.
 :::
