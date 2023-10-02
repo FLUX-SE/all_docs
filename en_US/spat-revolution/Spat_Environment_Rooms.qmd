@@ -1,37 +1,39 @@
 # Room {#sec-spat-rooms}
 
-In _SPAT Revolution_, spatialization of virtual sources takes places inside _Rooms_. To enter a room and open its graphic editor environment, double-click on a room module in the Setup graph, or select a room tab from the Navigation bar.
+In _SPAT Revolution_, spatialization of virtual sources takes place inside _Rooms_. To enter a room and open its graphic editor environment, double-click on a room module in the Setup graph or select a room tab from the Navigation bar.
 
-When we enter a Room, we will see the 3D view and all the connected sources. Option related to the 3D view display are located in top menu. On the left side panel of the room editor, you get a list representation of each source. We can click on an empty part of the source lane, and the [source parameters -@sec-sources-parameters] editor for that virtual source will appear.
+When we enter a Room, we will see the 3D view and all the connected sources. Options related to the 3D view display are located in the top menu. On the left side panel of the room editor, you get a list representation of each source. We can click on an empty part of the source lane, and the [source parameters -@sec-sources-parameters] editor for that virtual source will appear.
 
 ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Room/3DView.png)
 
-Mutes, solos and phase inversions are manageable for all sources and for the entire room output from this index list. A solo clear button is  available on the top of the source list. Clicking on it will reset all the solo of all rooms.
+Mutes, solos, and phase inversions are manageable for all sources and for the entire room output from this index list. A solo clear button is available at the top of the source list. Clicking on it will reset all the solo of all rooms.
 
-Two special index items labeled as **(R) REVERB** and **(M) OUTPUT** appear fixed at the bottom of the left panel. By clicking on these, we then enter into two more parameter editors: one relating to the [Artificial reverberation -@sec-artificial-reverb] and one relating to the room output configuration and [Listener Position -@sec-listener-position] editor.
+Two particular items labeled as **REVERB** and **OUTPUT** appear fixed at the bottom of the left panel. By clicking on these, we then enter into two more parameter editors: one relating to the [Artificial reverberation -@sec-artificial-reverb] and one relating to the room output configuration and [Listener Position -@sec-listener-position] editor.
 
-When you have more than one Room in your project, then the SOURCES switch at the top left of a Room editor can be handy, as it will show all sources from all Rooms in the same editor - allowing edition, mix, solo and mute management of all sources from one Room view.
+When you have more than one room in your project, then the SOURCES switch at the top left of a Room editor can be handy, as it will show all sources from all Rooms in the same editor - allowing edition, mix, solo and mute management of all sources from one Room view.
 
 ## Room Graphic Engine
 
-Along with the audio modeling engine, one of SPAT's key features is its ability to model a high definition graphical representation of the virtual space inside each room. We can intuitively interact and move sources and 'camera view' directly with our mouse. Move a source by grabbing its 'emitter' object or in the case of a grouped source grab any one of the emitters that belong to the group. Alternatively, sources can be positioned by manipulating their coordinate-related source parameter controls.
+Along with the audio modeling engine, one of SPAT's key features is its ability to model a high-definition graphical representation of the virtual space inside each room. We can intuitively interact and move sources and "camera view" directly with our mouse. Move a source by grabbing its "emitter" object, or in the case of a grouped source, grab any one of the emitters that belong to the group. Alternatively, sources can be positioned by manipulating their coordinate-related source parameter controls.
 
 Source manipulation from the 3D view:
-+ one click to select.
-+ drag to move them.
+
++ One click to select.
++ Drag to move them.
 
 The camera angle can also be manipulated:
-+ The mousewheel control the zoom factor.
-+ *cmd/ctrl+drag* will rotate the scene.
-+ *shift+drag* will move the scene.
+
++ The mouse wheel controls the zoom factor.
++ ```cmd/ctrl+drag``` will rotate the scene.
++ ```shift+drag``` will move the scene.
 
 ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Room/3DViewDualView.png)
 
 :::{.callout-note}
-A split screen Top-Front view is also available in the top bar menu. See the corresponding section below.
+A split-screen Top-Front view is also available in the top bar menu. See the corresponding section below.
 :::
 
-Selecting a source also displays its name over its 3D representation. At the top of the room, there is an option to display the name of all the sources or of all the speakers.
+Selecting a source also displays its name over its 3D representation. At the top of the room, there is an option to display the names of all the sources or all the speakers.
 
 ## Room top menu
 
@@ -39,11 +41,11 @@ This menu allows changing what elements and how they are displayed in the 3D vie
 
 **Presence Infos:**
 
-Display the presence factor as a green vector. The brighter it is, the more present the source is. When off, green vector is no more drawn.
+Display the presence factor as a green vector. The brighter it is, the more present the source is. When off, the green vector is no longer drawn.
 
 **Real Pos. Infos:**
 
-In some very specific cases, the position of source in the DSP may be different that the one you set up. When on, the DSP position is also displayed.
+In some particular cases, the position of the source in the DSP may differ from the one you set up. When on, the DSP position is also displayed.
 
 :::{.callout-note}
 To understand better what these two first options do, consult the "[Understanding the mixing zones -@sec-understanding-3D-view]" section.
@@ -51,7 +53,7 @@ To understand better what these two first options do, consult the "[Understandin
 
 **Source Infos:**
 
-Display the name of source even if it is not selected.
+Display the name of the source even if it is not selected.
 
 **Speaker Infos:**
 
@@ -59,7 +61,7 @@ Display the name of the speakers.
 
 **Scale:**
 
-Make the elements bigger of smaller for adjust ease of sight.
+Make the elements bigger or smaller to adjust ease of sight.
 
 **Shininess:**
 
@@ -74,17 +76,17 @@ Change the brightness of the graphical elements.
 Change the transparency of the Nebula spectral analyzer.
 
 :::{.callout-note}
-When set to 0%, Nebula does not take any resources at all.
+When set to 0%, Nebula does not take any resources.
 :::
 
 Consult the "[Nebula Spatial Spectrogram -@sec-nebula]" section for more information.
 
 **Nebula Quality:**
 
-Configure the quality factor of nebula. 
+Configure the quality factor of the Nebula.
 
 :::{.callout-note}
-Changing this factor will significantly change the performances.
+Changing this factor will significantly change the performance.
 :::
 
 **Speaker Alpha:**
@@ -93,7 +95,7 @@ Change the transparency of the speakers.
 
 **Listener Alpha:**
 
-Change the transparency of the listener head.
+Change the transparency of the listener's head.
 
 **Grid type:**
 
@@ -101,7 +103,7 @@ Toggle between polar or cartesian grids.
 
 **Display Output:**
 
-Allows to display the nebula of a difference setup module, connected to this room. This is useful if you want to see the decoding of an ambisonic stream inside an ambisonic room for example.
+Allows to display the Nebula of a different setup module connected to this room. It can be helpful if you want to see the decoding of an ambisonic stream inside an ambisonic room, for example.
 
 **Background color:**
 
@@ -110,22 +112,16 @@ Change the background color.
 **View:**
 
 Choose if the 3D view is seen from:
+
 + The top
 + The front
-+ Or a split view : top and front
++ Or a split view: top and front
 
 ### Display output drop-down
 
 Located on top of the 3D view, the “display output” drop-down allows choosing which point of the signal path to display.
 
-For example, working in an HOA room create 3D view that does not show any speaker. This is because of the very nature of how ambisonic work. But it also means that you cannot use Nebula in that kind of room. This is where this “display output” feature becomes handy. Instead of showing the actual HOA scene, it is possible to choose to look at the sound scene at the transcoding stage to see what happens with Nebula on the speaker array.
-
-### Display output drop-down
-
-Located on top of the 3D view, the “display output” drop-down allows choosing which point of the signal path to display.
-
-For example, working in an HOA room create 3D view that does not show any speaker. This is because of the very nature of how ambisonic work. But it also means that you cannot use Nebula in that kind of room. This is where this “display output” feature becomes handy. Instead of showing the actual HOA scene, it is possible to choose to look at the sound scene at the transcoding stage to see what happens with Nebula on the speaker array.
-<!--TO BE COMPLETED-->
+For example, working in an HOA room creates a 3D view without a speaker. This is because of the very nature of how ambisonic work. But it also means you cannot use Nebula in that room. This is where this “display output” feature becomes handy. Instead of showing the actual HOA scene, it is possible to look at the sound scene at the transcoding stage to see what happens with Nebula on the speaker array.
 
 ## Room output parameters
 
@@ -133,14 +129,14 @@ For example, working in an HOA room create 3D view that does not show any speake
 
 ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Room/OutputListPanel.png)
 
-This panel lists all the speakers used in the room (when set to channel based). It allows quick access to the speaker arrangement editor and to the compute function.
-Each output has a "test" button that sends the signal from the signal generator directly the routed speaker. The signal generator type and level are set in the _[Preferences page -@sec-application-preference]_.
+This panel lists all the speakers used in the room (when set to channel-based). It allows quick access to the speaker arrangement editor and the compute function.
+Each output has a ```test``` button that sends the signal from the signal generator directly to the routed speaker. The signal generator type and level are set in the _[Preferences page -@sec-application-preference]_.
 
 ### Listener
 
 ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Room/OutputListenerPanel.png)
 
-This panel gives access to the listening point. We can change its position, using the _X_, _Y_, _Z_ parameters, and its rotations using _Yaw_, _Pitch_, _Roll_.
+This panel gives access to the listening point. We can change its position using the _X_, _Y_, _Z_ parameters, and its rotations using _Yaw_, _Pitch_, _Roll_.
 
 ### Protection Zone
 
@@ -169,7 +165,7 @@ This panel contains options related to the efficiency zone.
 
 #### Distance {#sec-room-parameter-distancescaling}
 
-This parameter scales all the distance automation (OSC, plugins data and snapshots) by a manual factor. This factor is adapted automatically when editing the arrangement of the room.
+This parameter scales all the distance automation (OSC, plugins data, and snapshots) by a manual factor. This factor is adapted automatically when editing the arrangement of the room.
 
 #### Tracking
 

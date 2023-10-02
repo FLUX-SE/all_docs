@@ -4,7 +4,7 @@
 
 ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Preference/OSCMain.png)
 
-If you are developing your own control systems to integrate with SPAT, you might find it useful to know that it is possible to export a detailed description of all OSC patterns, syntax and usage to a text file for reference.
+Suppose you are developing your own control systems to integrate with SPAT. In that case, you might find it useful to know that it is possible to export a detailed description of all OSC patterns, syntax and usage to a text file for reference.
 You will find that option in the SPAT preferences.
 You will also find a complete [OSC table -@sec-appendix-osc-table] in the appendix.
 
@@ -36,7 +36,7 @@ If this option is switched in, then the messages will be of the pattern
 
 where ```i``` is an integer denoting the remote number of the target, and ```f``` according to convention is a float denoting the values of the message.
 
-For more details about the SPAT Revolution OSC dictionary and its usage syntax please refer to [Appendix C -@sec-appendix-osc-table].
+For more details about the SPAT Revolution OSC dictionary and its syntax, please refer to [Appendix C -@sec-appendix-osc-table].
 
 The **output rate** allows changing how fast the engine will send OSC messages.
 The lower the value is, the more SPAT Revolution will send OSC message and the remote will display the changes, but it will also increase the stress on the CPU.
@@ -49,9 +49,9 @@ There is a lot of flexibility in the OSC connection menu. We find it in the SPAT
 
 ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Preference/OSCConnections.png)
 
-Eight different connections can be set up, either as input or output connection. It is displayed as a table where each connection is a line. 
+Eight different connections can be set up as input or output. It is displayed as a table where each connection is a line.
 
-The first parameter is the **connection type**, which offer many presets for both input and output. These presets come with dedicated network ports, dedicated option and dedicated transform if needed.
+The first parameter is the **connection type**, which offers many input and output presets. These presets come with dedicated network ports, dedicated option and dedicated transform if needed.
 
 :::{.callout-note}
 OSC presets are:
@@ -70,29 +70,29 @@ If the OSC connection is established locally, on the same computer, the port 127
 For other configurations, we need to inform the IP of the targeted device.
 
 Lastly, the **port number** can be adjusted to a free one.
-If a "custom" preset is loaded, we most likely need to edit this parameter to establish a network connection.
+If a "custom" preset is loaded, we must most likely edit this parameter to establish a network connection.
 
 And finally, it is possible to **name the OSC slot**, clicking on the name of the top of the right panel.
 
 If we want to deactivate an OSC socket without losing the parameters, it is possible to **deactivate an OSC socket**. To do this, click right on the OSC socket number and click on ```Activate/Deactivate```, or shift-click on the OSC socket number. As it, the input or output will be deactivated.
 
-If we loose the sync between the remote and SPAT, it is also possible to **dump all the project properties** on a particular socket. To do so, click right on the OSC socket number and click on ```Dump project```. To note that the project is always dumped when the OSC socket is activated, and when the OSC IP address or port are changed. 
+If we loose the sync between the remote and SPAT, it is also possible to **dump all the project properties** on a particular socket. To do so, click right on the OSC socket number and click on ```Dump project```. Note that the project is always dumped when the OSC socket is activated, and when the OSC IP address or port changes.
 
 ## OSC Transform
 
-Interfacing different devices and software in OSC can be problematic as each piece of equipment can have its own scale of value.
+Interfacing different devices and software in OSC can be problematic as each piece of equipment can have its own value scale.
 To overcome these difficulties, some OSC transform presets have been implemented.
 
 ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Preference/OSCTransformList.png)
 
-Transform presets are accessible for each OSC connection and allow some quick re-scaling of the values.
+Transform presets are accessible for each OSC connection and allow quick re-scaling of the values.
 
 :::{.callout-note}
 ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Preference/OSCTransformPresets.png)
 :::
 
-If the included transform preset does not fit yours needs, you can click on the ```+``` button to open the custom OSC transform menu.
-In this menu, you can choose how to scale our input our output values. You can also choose to exclude specific OSC command from the scaling rules.
+If the included transform preset does not fit your needs, you can click on the ```+``` button to open the custom OSC transform menu.
+You can choose how to scale your input or output values in this menu. You can also choose to exclude specific OSC command from the scaling rules.
 
 
 <!-- TODO: Do we need to add more information of the custom transformation? Explain what is "discrete(s)", ... I see most of people having issue understand it -->

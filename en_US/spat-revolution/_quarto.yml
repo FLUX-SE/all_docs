@@ -75,11 +75,11 @@ book:
    appendices:
      - Credits.qmd
      - href: Appendix_A.qmd
-       text: "Appendix A - SPAT Revolution specification"
+       text: "Appendix B - SPAT Revolution specification"
      - href: Appendix_B.qmd
-       text: "Appendix B - Troubleshooting"
+       text: "Appendix C - Troubleshooting"
      - href: Appendix_C_OSC_Table.qmd
-       text: "Appendix C - OSC message table"
+       text: "Appendix D - OSC message table"
      - part: Appendix_D_release_notes.qmd
        chapters:
         - Appendix_D_release_notes/Appendix_D_release_notes_50318.md

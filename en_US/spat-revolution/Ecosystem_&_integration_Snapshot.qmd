@@ -5,9 +5,10 @@ It can be used to capture an audio scene into _SPAT Revolution_.
 Sources, rooms and master properties will be stored in a snapshot.
 It allows a complete transformation of the soundscape, with interpolation.
 
-Snapshots could be controlled by the dedicated page, the dedicated menu, and with OSC messages.
+Snapshots could be controlled [on the snapshot page -@sec-snapshot], the dedicated menu, and with OSC messages.
 
-Sources can be excluded of a snapshot recall:
+It is possible to exclude some sources from the snapshot recall:
+
 - on the **Source Page**, disabling "Snapshot" on the wanted sources.
 - on a **Room Page**, right-clicking on the wanted source and disabling the "Snapshot recall enable" option.
 
@@ -15,7 +16,7 @@ Sources can be excluded of a snapshot recall:
 
 ## Create a snapshot
 
-We can create a snapshot:
+You can create a snapshot:
 - by using the ```Create``` action into the "Snapshots" menu, or the ```Create snapshot``` available on the snapshot bar.
 In this case, the snapshot will be added, following the current snapshot (if there is any).
 The shortcut ```Alt + Space``` could also be used to capture a snapshot (currently not working on Windows).
@@ -35,7 +36,7 @@ Different options located on the **Snapshots page** could alter the snapshot run
 
 - Recall relative
 
-This option enable to keep differences between the current state and the current snapshots. More information about it [on the snapshot page section -@sec-snapshot].
+This option allows to keep differences between the current state and the current snapshot. More information about it [on the snapshot page section -@sec-snapshot].
 
 - Global
 
@@ -48,7 +49,7 @@ The values are ranged between 0 and 3600 seconds.
 
 - Recall Sources / Room / Master
 
-As all the properties are stored into snapshots, this option gives us the possibility to enable or disable the recall of some properties.
+As all the properties are stored into snapshots, this option allows us to enable or disable the recall of some properties.
 The recall of each section could be separately activated.
 
 :::{.callout-warning}
@@ -71,7 +72,7 @@ The recall of each section could be separately activated.
 
 # Handle snapshots with OSC
 
-Different snapshots actions could be launched by OSC messages. The complete list of them is available on the [OSC Table -@sec-appendix-osc-table].
+Different snapshots actions could be launched by OSC messages. The complete list is available on the [OSC Table -@sec-appendix-osc-table].
 
 :::{.callout-note}
 Like sources and rooms, the index could be part of the message (```/snapshot/3/update```), or send as an argument (```/snapshot/update, 3```). All the example below will use it as part of the message.
@@ -85,7 +86,7 @@ The snapshot name could be added in argument (optional).
 
 - Recall a snapshot: ```/snapshot/[index]/recall [*time, *Recall Effective Selection, *Recall Actual Selection, *Enable sources recall, *Enable rooms recall, *Enable masters recall] ```
 
- _Index_: the snapshot index to recall. Used as an argument, it can be replaced by the snapshot name.
+ _Index_: the snapshot index to recall. Used as an argument, the snapshot name can replace it.
 
  _Time_: optional, it will define the recall time. If not given, the default value is 0s.
 
@@ -93,13 +94,13 @@ The snapshot name could be added in argument (optional).
 
  _Recall Actual Selection_: optional, if the value is ```True```, only the parameters of selected sources' will be recalled. Else, all the sources will be recalled (default behavior).
 
-_Enable sources recall, Enable rooms recall, Enable masters recall_: optional, enable to define if sources, rooms and masters parameters will be recalled. If not given, the default set value will be used. 
+_Enable sources recall, Enable rooms recall, Enable masters recall_: optional, enable to define if sources, rooms and masters parameters will be recalled. If not given, the default set value will be used.
 
 
 - Update a snapshot: ```/snapshot/[index]/update ```
 
 _index_: the snapshot index to update.
-It can be replaced by the snapshot name.
+The snapshot name can replace it.
 
 - List all the snapshots: ```/snapshot/list```
 
@@ -117,10 +118,11 @@ _Name_: the new name of the snapshot.
 - Remove a snapshot: ```/snapshot/[index]/remove```
 
 _index_: the snapshot index to remove.
-:::{.callout-warning}
- can be replaced by the snapshot name.
 
- Be careful: there isn't any confirmation.
+:::{.callout-warning}
+The Index can be replaced by the snapshot name.
+
+Be careful: there isn't any confirmation.
 :::
 
 - Change the recall options: ```/snapshot/options/recall/sources [State]```, ```/snapshot/options/recall/rooms [State]```, ```/snapshot/options/recall/masters [State]```.
