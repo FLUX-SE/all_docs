@@ -72,16 +72,12 @@
 
 ## Known Issues
 
-### Most Important
-
 - App - Bad GUI initialization on Windows with intel graphics chipsets
 - App - Core Audio headphones and loudspeakers cannot be used without an aggregate
 - Nuendo - Room plugin cannot write automation
 - PI - AAX - Renaming the send track in protools cuts the audio if verb switches are not the default one.
 - S6L integration -  SPAT Send track name is not retained properly and sent every time the UI opens (erasing your SPAT Source name).
 - SPAT Send -  Renaming an instance cut the audio in Protools/Windows10. Have to re-enable the LAP to fix
-
-### Important
 
 - App - A process still running after quitting SPAT Revolution when ASIO4ALL is used as audio driver on Windows
 - Display issues when OS display scaling are under the default resolution
