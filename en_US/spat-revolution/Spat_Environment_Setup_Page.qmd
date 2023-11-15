@@ -125,6 +125,10 @@ Disconnect connected outputs of selected modules.
 
 Disconnect the connections between selected modules.
 
+### Record arm
+
+Arm the block for recording.
+
 ## Routing Matrix
 
 As you can imagine routing and patching high-density channel counts can get complicated.
@@ -146,7 +150,3 @@ The shortcut ```Ctrl + click``` will route one per one all the following channel
 :::
 
 Master transcoder and master matrix support summing, thus, one input can be connected to several outputs, or the opposite.
-
-### Record arm
-
-Arm the block for recording.
