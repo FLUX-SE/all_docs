@@ -77,3 +77,17 @@ _This bar can be hidden on the snapshot panel of the __Preference__ page._
 :::{.callout-note}
 More information about snapshots can be found on the **[snapshots page -@snapshot]**.
 :::
+
+## Transport bar
+
+The transport bar allows to access to the recording feature of SPAT Revolution. It is possible to write the audio stream going through any blocs (except for the sources) to audio files. 
+
+It is possible to launch the recording by clicking on the "*Record*" button in the transport bar, located at the bottom of the user interface, or using the shortcut "Cmd/Ctrl+Shift+R".
+The session must have been saved to enable the recording. Otherwise, a popup will appear asking to save the session.
+Closing the session, deleting a block, or dearming a block will automatically stopped the recording. 
+
+## Media stream bar
+
+This bar provides information about the recording blocks, the file names and path, the elapsed time of recording, the number of channels recorded, and more.
+It will be automatically displayed when arming a block.
+Also, it can be shown/hidden via the menu "View/Show media stream", or via the shortcut "Cmd/Ctrl+Alt+Shift+O".
