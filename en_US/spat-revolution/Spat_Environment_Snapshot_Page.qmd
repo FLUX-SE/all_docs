@@ -68,6 +68,8 @@ It is possible to generate new indexes for all the snapshots according to list o
 
 Last, the index can be manually edited, by right-clicking on a snapshot and selecting ```Edit snapshot index```.
 
+The action ```Reindex Snapshots```, found in the upper ```Snapshot``` menu reindex all the snapshots, starting from 1 and by their order in the snapshot list.
+
 ### Recall options
 
 Recalling a snapshot will use four different options:
@@ -79,10 +81,7 @@ Recalling a snapshot will use four different options:
 :::{.callout-note}
 By default, only sources' properties are recalled from snapshots.
 If only some parameters are recalled, the whole session is stored on the creation of a snapshot.
-:::
-
-:::{.callout-note}
-On a room, the setup parameters like distance scaling, protection zone parameters, etc. are deactivated from snapshot recall.
+For rooms, the setup parameters like distance scaling, protection zone parameters, etc. are deactivated from snapshot recall.
 :::
 
 ### Using global options or overriding them
@@ -119,6 +118,8 @@ A set of actions is presented at the top:
   - A previous snapshot version can be recalled by clicking on the ```Recall``` button. The recalled version will be indicated by the **Current** field.
   - Versions can be deleted, by clicking on ```Delete```.
   - All versions excluding the selected one(s) can be deleted, clicking on ```Delete all other versions```.
+
+The action ```Consolidate Snapshots```, found in the upper ```Snapshot``` menu remove all the unused snapshot version to lighten the weigth of the session file.
 
 ## Inspector
 

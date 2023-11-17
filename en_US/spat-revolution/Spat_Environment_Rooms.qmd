@@ -59,6 +59,10 @@ Display the name of the source even if it is not selected.
 
 Display the name of the speakers.
 
+**Auto-hide sources**
+
+Automatically hide sources depending on their input level.
+
 **Scale:**
 
 Make the elements bigger or smaller to adjust ease of sight.
@@ -89,6 +93,10 @@ Configure the quality factor of the Nebula.
 Changing this factor will significantly change the performance.
 :::
 
+**Nebula Scale:**
+
+Allows to scale the Nebula "behind" the speakers.
+
 **Speaker Alpha:**
 
 Change the transparency of the speakers.
@@ -96,6 +104,10 @@ Change the transparency of the speakers.
 **Listener Alpha:**
 
 Change the transparency of the listener's head.
+
+**Zone Alpha:**
+
+Change the transparency of the efficiency zone.
 
 **Grid type:**
 
