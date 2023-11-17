@@ -82,6 +82,7 @@ book:
        text: "Appendix D - OSC message table"
      - part: Appendix_D_release_notes.qmd
        chapters:
+        - Appendix_D_release_notes/Appendix_D_release_notes_50341.md
         - Appendix_D_release_notes/Appendix_D_release_notes_50318.md
         - Appendix_D_release_notes/Appendix_D_release_notes_50222.md
         - Appendix_D_release_notes/Appendix_D_release_notes_50219.md
