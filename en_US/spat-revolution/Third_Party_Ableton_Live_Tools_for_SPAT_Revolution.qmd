@@ -479,10 +479,7 @@ Happy Immersive Creating!
 
 
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/Live_Tools/spat_screenshot_cover.png)
-
-<!-- TODO: update this image-->
-
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Room/3DView2.png)
 
 
 ## Printing an Immersive Mix

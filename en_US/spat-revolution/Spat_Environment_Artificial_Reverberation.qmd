@@ -8,7 +8,6 @@ Virtual spaces can be tuned, scaled, and stored.
 Open the _Artificial Reverberation_ graphical editor by clicking on the ```Reverb``` at the bottom of the list of sources on the left side panel of the Room.
 
 ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Room/ReverbPanel.png)
-<!-- TODO: update this image -->
 
 Internally, the _SPAT Revolution_ reverb engine models many technical acoustic parameters, but the user interface has been simplified a great deal to make artificial reverb design more straightforward and functional.
 

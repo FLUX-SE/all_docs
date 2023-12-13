@@ -49,8 +49,6 @@ If the sample rate and the buffer size don't match in  _SPAT Revolution_, double
 
 ![]( https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/ReaperPluginsAdvancedPanel.png)
 
-<!-- TODO: update the image ????-->
-
 Additionally, each plug-in has an IO configuration setting, accessible from the small 'cogs' icon.
 Set the IO Channel Count for each of the plug-ins this way.
 Each plug-in instance can carry up to 64 channels to and from _SPAT Revolution_.

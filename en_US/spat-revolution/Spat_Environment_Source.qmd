@@ -58,7 +58,6 @@ Each parameter can store useful preset settings of your own choosing. Right-clic
 This feature allows you to display one or several parameters for all the sources that are in the same room. It is a useful feature for fast editing. Type ```azimuth elevation distance``` in the filter box for example, and you will see faders appear for only these properties, grouped for each of the sources as demonstrated in the following screenshot.
 
 ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Room/SourcesPanelSearch.png)
-<!-- TODO: update the image -->
 
 The key word ```strict:``` allows searching strictly one or several parameters. For example, ```strict: gain presence``` will display only the sources gain and presence, while ```gain presence``` will display the gain, the room-specific gain, the presence, the room presence, and all gains of the axis and omni filters.
 
@@ -91,7 +90,7 @@ You can shift-click on the source lane of separate sources to create an ad hoc e
 When you have selected an ad hoc group using the shift-click technique, you can then open the _[Source Parameter -@sec-sources-parameters]_ panel by clicking on the property panel header 'fold arrow' as shown in the screenshot below.
 
 ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/ActionsMultiselection.png)
-<!-- TODO: update the image -->
+<!-- TODO: update the image and the text -->
 
 Any source parameter variable you adjust manually will assign that same setting to all selected sources in the group. A barycenter will then become practical to work from a center of mass perspective. For example, transformations like scaling, distance, rotation, and directivity of the group are managed by SPAT controlling each member of the group a barycentric relationship.
 

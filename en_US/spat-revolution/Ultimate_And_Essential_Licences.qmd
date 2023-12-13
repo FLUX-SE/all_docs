@@ -22,12 +22,12 @@ The _SPAT Revolution_ software supports the same installer (binary) for both lic
 
 The main limitations of the **Essential** license are:
 
- - The number of cumulated input channels is limited to 32.
- - The number of cumulated output channels is limited to 18.
- - The number of rooms is limited to 1: no simultaneous rendering.
+- The number of cumulated input channels is limited to 32.
+- The number of cumulated output channels is limited to 18.
+- The number of rooms is limited to 1: no simultaneous rendering.
 - HOA order is limited to 3rd order.
- - Tracking data cannot be modified.
- - RTTrp is not allowed.
+- Tracking data cannot be modified.
+- RTTrp is not allowed.
 
  **Complete specification is available [here](https://www.flux.audio/project/spat-revolution/#specifications).**
 <!-- TODO: update the complete spec --> 

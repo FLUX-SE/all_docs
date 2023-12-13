@@ -31,15 +31,11 @@ The same rule for successful diffusion applies here—the diffusion in the virtu
 
 ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Room/3DViewMultichannelSources.png)
 
-<!-- TODO: update this picture -->
-
 In the above illustration, a virtual 5.1 and a virtual Cube arrangement exist together in a High Order Ambisonic Room, which may eventually be rendered to some other channel-based end format. -->
 
 ## Creating & editing a speaker arrangement
 
 ![SPAT Revolution_ Speaker Config](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/SpeakerEditor3.png)
-
-<!-- TODO: update this picture -->
 
 While there are many standardized speaker arrays, such as Dolby Surround, Atmos, Auro 3D, DTS, Quad or even stereo, we are in many cases confronted with a very specific speaker positioning.
 

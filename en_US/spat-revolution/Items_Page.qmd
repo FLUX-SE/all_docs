@@ -42,8 +42,6 @@ In addition to the common parameters, when the _Input_ item's type is selected, 
 
 ![Items page for sources](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Items/Inputs.png)
 
-<!-- TODO: update this picture -->
-
 ### Source specific parameters
 
 In addition to the common parameters, when the _Source_ item's type is selected, the Items' Page allows quick editing of:
@@ -63,8 +61,6 @@ In addition to the common parameters, when the _Source_ item's type is selected,
 
 ![Items page for sources](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Items/Sources.png)
 
-<!-- TODO: update this picture -->
-
 ### Room specific parameters
 
 In addition to the common parameters, when the _Room_ item's type is selected, the Items' Page shows:
@@ -80,8 +76,6 @@ In addition to the common parameters, when the _Room_ item's type is selected, t
 - **Invert phase**: invert the phase of the selected item.
 
 ![Items page for rooms](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Items/Rooms.png)
-
-<!-- TODO: update this picture -->
 
 ## Navigation
 

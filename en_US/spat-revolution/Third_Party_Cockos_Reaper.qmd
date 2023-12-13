@@ -174,8 +174,6 @@ Enable the Local Audio Path: a Return output module should appear in the SPAT Se
 
 ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/ReaperSessionExample.jpg)
 
-<!-- TODO: update the image -->
-
 ## Recording Immersive creation.
 
 To do this, it is necessary to make Reaper record the software OUTPUT of the audio track:

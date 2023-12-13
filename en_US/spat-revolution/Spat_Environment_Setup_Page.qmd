@@ -98,9 +98,6 @@ The new pop-up window allows to:
 
 ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/DuplicateRoom)
 
-<!-- TODO: update gif -->
-
-
 ### Connect selected
 
 Connect selected modules. Modules can be connected to multiple destinations.

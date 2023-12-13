@@ -93,9 +93,6 @@ Let’s now setup your preferences on _SPAT Revolution_ preferences page:
 
 ![SPAT OSC Main preferences](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Preference/OSCMain.png)
 
-<!-- TODO: update this image -->
-
-
 - In the OSC Connections section, you will see 8 OSC connection slots. Set one connection to Input Avid S6L and one to Output Avid S6L. We will use two slots for this. The output will be to go to S6L SPAT Send Plugin; the input will be to listen to S6L in _SPAT Revolution_.
 
 **SPAT OSC Connections Matrix**
