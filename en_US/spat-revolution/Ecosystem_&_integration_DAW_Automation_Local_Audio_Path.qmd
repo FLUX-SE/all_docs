@@ -83,7 +83,7 @@ On some machines, you must use the ```Tab``` key to register a new Track Name or
 
 **Override** - In Return only, override the DAW input path.
 
-## Implicatios of using the Local Audio Path
+## Implications of using the Local Audio Path
 
 ### DAW routing priority
 
