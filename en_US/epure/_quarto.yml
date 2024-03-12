@@ -10,6 +10,7 @@ book:
     - Setup_-_Input_Routing_-_MS_Encode_Decode_-_Groups.qmd
     - Specifications.qmd
     - Compatibility.qmd
+    - Credits.qmd
   appendices:
     - ../flux_processing_release_notes.qmd
 

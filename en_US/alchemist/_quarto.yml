@@ -20,6 +20,7 @@ book:
       - Dynamic_Sections_Settings.qmd
       - Dynamic_Sections_Display.qmd
     - part: Specifications.qmd
+    - Credits.qmd
   appendices:
     - ../flux_processing_release_notes.qmd
     

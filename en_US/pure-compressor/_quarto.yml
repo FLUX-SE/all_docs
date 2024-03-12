@@ -14,6 +14,7 @@ book:
   - Plug-in_Settings.qmd
   - Specifications.qmd
   - Compatibility.qmd
+  - Credits.qmd
   appendices:
     - ../flux_processing_release_notes.qmd
 

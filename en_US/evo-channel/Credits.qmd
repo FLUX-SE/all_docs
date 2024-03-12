@@ -1,24 +1,13 @@
 # Credits
 
 ### Project Manager and Designer:
-Gaël Martinet
+Gaël Martinet and Yves Jaget
 
 ### Application Development:
-Gaël Martinet, Alexis Gentil, Bastien Prevosto, Anthony Belard, Siegfried Hand and Antoine Lorence.
+Gaël Martinet, Alexis Gentil, Bastien Prevosto, Anthony Belard, Maxence Grandidier, Siegfried Hand and Antoine Lorence.
 
 ### FLUX:: DSP Design and Development:
-Gaël Martinet, Maxence Grandidier and Lorcan Mc Donagh
-
-### IRCAM Design and C++ implementation of signal analysis and signal transformation algorithms (SuperVP):
-Axel Röbel.
-
-### IRCAM Design and C++ implementation of voice transformation algorithms (VoiceForger):
-Snorre Farner, Xavier Rodet and Axel Röbel.
-
-**Thanks for additional contributions:**
-
-instructive discussions and advice to Frederic Cornu, Chunghsin Yeh, Alain Lithaud,
-Niels Bogaards, Norbert Schnell, Fernando Villavicencio Marquez, Greg Beller, and Joshua Fineberg, Gael Martinet.
+Gaël Martinet, Maxence Grandidier, Jipi Horn and Lorcan Mc Donagh
 
 ### Graphic design:
 Nicolas Philippot
@@ -99,11 +88,6 @@ Alain, Yves, Bruno and Claude for helping to shape our minds over the years.
 http://wwww.flux.audio
 Copyright (c) 2024 HARMAN International, All rights reserved.
 FLUX:: is a trademark of HARMAN International.
-
-SuperVP is a registered trademark of Ircam.
-
-The Ambisonic Logo, a trademark formerly owned by Wyastone Estade Ltd, which expired
-in 2010 is featured on page 30 of this guide
 ```
 
 ### FLUX::

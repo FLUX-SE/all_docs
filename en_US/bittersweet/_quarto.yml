@@ -6,6 +6,7 @@ book:
   title: "Bittersweet"
   chapters:
     - index.qmd
+    - Credits.qmd
   appendices:
     - ../flux_processing_release_notes.qmd
 

@@ -13,6 +13,7 @@ book:
     - Module_Settings.qmd
     - Plugin_Settings.qmd
     - Specifications.qmd
+    - Credits.qmd
   appendices:
     - ../flux_processing_release_notes.qmd
 

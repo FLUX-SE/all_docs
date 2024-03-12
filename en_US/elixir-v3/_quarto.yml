@@ -12,6 +12,7 @@ book:
     - Authorization.qmd
     - User_interface.qmd
     - Technical_Details.qmd
+    - Credits.qmd
   appendices:
     - ../flux_processing_release_notes.qmd
 

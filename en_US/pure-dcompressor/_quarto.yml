@@ -12,6 +12,7 @@ book:
   - Display.qmd
   - Preset_Management.qmd
   - Specifications.qmd
+  - Credits.qmd
   appendices:
     - ../flux_processing_release_notes.qmd
 

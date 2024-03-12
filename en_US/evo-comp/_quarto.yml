@@ -15,6 +15,7 @@ book:
     - Preset_Management.qmd
     - Preset_Manager.qmd
     - Specifications.qmd
+    - Credits.qmd
   appendices:
     - ../flux_processing_release_notes.qmd
 

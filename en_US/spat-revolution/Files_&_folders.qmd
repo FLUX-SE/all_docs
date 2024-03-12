@@ -18,13 +18,11 @@ Reverb preset can be stored and exported as *.reverbPresets.* They can later be 
 
 ## Preferences and resources files
 
-```Users/.../Document/FLUX SE```
-
-```Users/.../Document/FLUX SE - IRCAM```
+```Users/.../Document/FLUX```
 
 ```Users/.../Document/Ircam```
 
-The FLUX SE Folder contains a subfolder named *Config*  which has 3 files:  
+The FLUX Folder contains a subfolder named *Config*  which has 3 files:  
 
 * .ioconfig contains your added speaker arrangements to  _SPAT Revolution_
 * .presets contains your reverb presets
@@ -42,7 +40,7 @@ A subfolder named *Shell* containing:
 
 *  history.txt - a history of the terminal commands
 
-The FLUX SE - IRCAM Folder contains preferences and presets of the three _SPAT Revolution_ plug-ins.
+The FLUX - IRCAM Folder contains preferences and presets of the three _SPAT Revolution_ plug-ins.
 
 The Ircam Folder contains a subfolder called *sofa* which contains the sofa.catalog.xml file. The HRTF catalog.
 
@@ -65,7 +63,7 @@ A first file is created when arming a file to prevent CPU spike at the recording
 
 ```Users/.../Desktop```
 
-```Users/.../Document/FLUX SE/Spat Revolution```
+```Users/.../Document/FLUX/Spat Revolution```
 
 :::{.callout-note}
 *An example of a script file is the [customSpeakerArrangement](https://public.3.basecamp.com/p/rQStK3igPkaXisYS4Gs5sJ2g/upload/download/customSpeakerArrangement.py?disposition=attachment) that can be used as a method to add arrangements to  _SPAT Revolution_.*

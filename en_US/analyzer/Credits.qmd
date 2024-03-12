@@ -6,34 +6,146 @@ Gael Martinet
 
 ## Developed by
 
-Gael Martinet, 
-Siegfried Hand, 
-Lorcan Mc Donagh, 
-Samuel Tracol, 
+Gaël Martinet,
+Lorcan Mc Donagh,
+Alexis Gentil,
+Bastien Prevosto,
+Anthony Belard,
+Siegfried Hand
 
 ## DSP Algorithms Specialist
 
 Lorcan Mc Donagh
 
-# Graphic engine
+## DSP development
 
-Emmanuel Julien, 
-Gael Martinet
+Gaël Martinet,
+Lorcan Mc Donagh
 
-## Contributors
+## Graphic design
 
-Felix Niklasson, 
-Cyril Holtz, 
-Philippe Amouroux, 
-Yves Jaget, 
-Laurent Delenclos (<i>a.k.a</i> Bellote), 
-Madje Malki, 
-Niels Barletta, 
-Jerome Blondel, 
-Sergio Valero Garcia, 
-Anthony Belard
+Nicolas Philippot,
+Gaël Martinet
 
-**and thanks to all fantastic testers...**
+## Flux:: Framework development
 
-**Special Thanks to Alain, Yves, Bruno, Cyril and Claude for helping to shape our minds over the years.**
+Gaël Martinet,
+Florie-Anne Lafaye,
+Alexis Gentil,
+Lorcan Mc Donagh,
+Bastien Prevosto,
+Anthony Belard,
+Siegfried Hand,
+Antoine Lorence
 
+### additional contributions:
+
+Jean-Loup Pecquais,
+Nicolas Erard,
+Jean Cruypenynck,
+Pablo Arias,
+Samuel Tracol,
+
+## Flux:: Framework graphic engine
+
+Emmanuel Julien (GS lib),
+Gaël Martinet
+
+## Other lib:
+
++ LibJpeg - Copyright (C) 1991-2016, Thomas G. Lane, Guido Vollbeding
++ libpng :
+    + Copyright (c) 1995-2023 The PNG Reference Library Authors.
+    + Copyright (c) 2018-2023 Cosmin Truta.
+    + Copyright (c) 2000-2002, 2004, 2006-2018 Glenn Randers-Pehrson.
+    + Copyright (c) 1996-1997 Andreas Dilger.
+    + Copyright (c) 1995-1996 Guy Eric Schalnat, Group 42, Inc.
++ Freetype 2 - Copyright (C) 2006-2023 by David Turner, Robert Wilhelm, and Werner Lemberg.
++ Zlib - Copyright (C) 1995-2022 Jean-loup Gailly and Mark Adler
++ bzip2 - Copyright (C) 1996-2010 Julian Seward <jseward@bzip.org>
++ Boost - BSL-1.0
++ pfft:
+    + Copyright (c) 2004 the University Corporation for Atmospheric Research (\" UCAR \")
+    + Copyright (c) 2013  Julien Pommier ( pommier@modartt.com )
+    + Copyright (c) 2019  Hayati Ayguen ( h_ayguen@web.de )
+    + Copyright (c) 2020  Dario Mambro ( dario.mambro@gmail.com )
++ pybind11 - Copyright (c) 2016 Wenzel Jakob <wenzel.jakob@epfl.ch>
++ rtaudio - Copyright (c) 2001-2021 Gary P. Scavone
++ concurrentqueue - Copyright (c) 2013-2016, Cameron Desrochers.
++ readerwriterqueue - Copyright (c) 2013-2021, Cameron Desrochers.
++ enet - Copyright (c) 2002-2020 Lee Salzman
++ fmt - Copyright (c) 2012 - present, Victor Zverovich and {fmt} contributors
++ functions (Erik Rigtorp) - Copyright (c) 2015 Erik Rigtorp <erik@rigtorp.se>
++ inplace_function - BSL-1.0
++ jsoncpp - Copyright (c) 2007-2010 Baptiste Lepilleur and The JsonCpp Authors
++ libcurl - Copyright (c) 1996 - 2023, Daniel Stenberg, daniel@haxx.se, and many contributors
++ magic_enum - Copyright (c) 2019 - 2023 Daniil Goncharov
++ nlohmann_json - Copyright (c) 2013-2022 Niels Lohmann
++ pugixml - Copyright (c) 2006-2022 Arseny Kapoulkine
++ rapidjson - Copyright (C) 2015 THL A29 Limited, a Tencent company, and Milo Yip.
++ shared_recursive_mutex - Copyright (c) 2019 konanM
++ sentry-native - Copyright (c) 2019 Sentry (https://sentry.io) and individual contributors.
++ stb - Copyright (c) 2017 Sean Barrett
++ utfcpp - Copyright 2006 Nemanja Trifunovic
++ unqlite - Copyright (C) 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019 Symisc Systems, S.U.A.R.L [M.I.A.G Mrad Chems Eddine <chm@symisc.net>].
+
+
+## Additional Python modules:
+
++ sourcedefender - Copyright (c) 2018-2024 SOURCEdefender. All rights reserved.
++ argh (Andrey Mikhaylenko) - Copyright © 2010—2023 Andrey Mikhaylenko and contributors
++ chardet (Mark Pilgrim, Daniel Blanchard)
++ charset_normalizer - Copyright (c) 2019 TAHRI Ahmed R.
++ docopt (Vladimir Keleshev) - Copyright (c) 2012 Vladimir Keleshev, <vladimir@keleshev.com>
++ dotenv - Copyright (c) 2014, Saurabh Kumar
++ ecdsa (Peter Pearson) - Copyright (c) 2010 Brian Warner
++ environs (Steven Loria) - Copyright 2023 Steven Loria
++ ftputil (Stefan Schwarzer) - Stefan Schwarzer <sschwarzer@sschwarzer.net> and others contributors
++ numpy - Copyright (c) 2005-2023, NumPy Developers.
++ pendulum - Copyright (c) 2015 Sébastien Eustace
++ psutil (Giampaolo Rodola) - Copyright (c) 2009, Jay Loden, Dave Daeschler, Giampaolo Rodola
++ watchdog:
+    + Copyright 2010 Malthe Borch <mborch@gmail.com>
+    + Copyright 2011 Yesudeep Mangalapilly <yesudeep@gmail.com>Copyright 2012 Google, Inc & contributors.
++ tgcrypto - Copyright (C) 2017-2020 Dan <https://github.com/delivrance>
++ idna - Copyright (c) 2013-2022, Kim Davies and contributors. All rights reserved.
++ marshmallow - Copyright 2023 Steven Loria and contributors
++ packaging - Copyright (c) Donald Stufft and individual contributors.
++ paramiko (Jeff Forcier) - Copyright (C) 2003-2008  Robey Pointer <robeypointer@gmail.com>
++ pathtools Copyright (C) 2010 by Yesudeep Mangalapilly
++ ptvsd (Microsoft) - Copyright (c) Microsoft Corporation.  All rights reserved.
++ pyga (Arun K.R.)
++ pylightxl - Copyright (c) 2019 Viktor Kis
++ pyparsing - Copyright (c) 2003-2019  Paul T. McGuire
++ pytzdata - Copyright (c) 2015 Sébastien Eustace
++ winshell (Tim Golden) - Copyright (c) 2012 Tim Golden
++ six - Copyright (c) 2010-2020 Benjamin Peterson
++ Request (Kenneth Reitz)
++ sentry_sdk - Copyright (c) 2018 Functional Software, Inc. dba Sentry
++ urllib3 - Copyright (c) 2008-2020 Andrey Petrov and contributors
++ certifi (Kenneth Reitz)
++ anytree (c0fec0de)
++ boltons - Copyright (c) 2013, Mahmoud Hashemi
++ msgpack (Inada Naoki) - Copyright (C) 2008-2011 INADA Naoki <songofacandy@gmail.com>
++ dateutil - Copyright 2017- Paul Ganssle <paul@ganssle.io> and dateutil contributors
++ PyYAML (Kirill Simonov)
+
+## And
+
+and thanks to all fantastic testers...
+
+
+## special thanks to
+
+Alain, Yves, Bruno and Claude
+for helping to shape our minds over the years
+
+
+## FLUX::
+www.flux.audio
+
+COPYRIGHT (C) 2024, HARMAN INTERNATIONAL. ALL RIGHTS RESERVED.
+
+## Dolby
+Dolby and the double-D symbol are registered trademarks of Dolby Laboratories.
+Dialogue Intelligence is a trademark of Dolby Laboratories All other trademarks remain the property of their respective owners.
