@@ -30,7 +30,7 @@ You can save and reload as many projects as you want, disk space permitting.
 
 >Projects are saved in
 
-`<User folder>/FLUX/Pure Analyzer System/Data/<Project Name>`
+`<User folder>/FLUX SE/Pure Analyzer System/Data/<Project Name>`
 >
 
 <!-- LIVEVERSION-->
@@ -146,7 +146,7 @@ Snapshot setup options
 
 ### Name
 
-You can here define a new project name which will ultimately create a new folder in the user data folder `<User folder>/FLUX/Pure Analyzer System/Data/<Project Name>`
+You can here define a new project name which will ultimately create a new folder in the user data folder `<User folder>/FLUX SE/Pure Analyzer System/Data/<Project Name>`
 
 
 ### Display defaults

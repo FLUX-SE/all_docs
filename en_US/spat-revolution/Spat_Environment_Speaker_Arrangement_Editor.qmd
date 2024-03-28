@@ -228,7 +228,7 @@ To begin is the FLUX IOConfig. This is the FLUX:: speaker arrangements file form
 
 In _SPAT Revolution_, it is important to understand that speaker arrangements **DO**  follow the session file. So if you are opening a .JSON with an arrangement new to your system, _SPAT Revolution_ will copy that arrangement and it will then be part of the user-created arrangements. In consequence, this new arrangement will be accessible for any new _SPAT Revolution_ session.
 
-If you care to know where these arrangements are stored, ```Document/FLUX/Spat Revolution/Config``` is where your master IOConfig file, containing all the user-defined arrangements, is located. Note that the repertory ```Document/FLUX SE/Spat Revolution``` is now the folder that contains all of your SPAT preferences. If you ever need to erase your preferences, for troubleshooting purposes, remember to export your speaker arrangements first, and then back them up outside this folder.
+If you care to know where these arrangements are stored, ```Document/FLUX SE/Spat Revolution/Config``` is where your master IOConfig file, containing all the user-defined arrangements, is located. Note that the repertory ```Document/FLUX SE/Spat Revolution``` is now the folder that contains all of your SPAT preferences. If you ever need to erase your preferences, for troubleshooting purposes, remember to export your speaker arrangements first, and then back them up outside this folder.
 
 ### How to import a speaker configuration from
 

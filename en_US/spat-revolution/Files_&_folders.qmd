@@ -18,11 +18,13 @@ Reverb preset can be stored and exported as *.reverbPresets.* They can later be 
 
 ## Preferences and resources files
 
-```Users/.../Document/FLUX```
+```Users/.../Document/FLUX SE```
+
+```Users/.../Document/FLUX SE - IRCAM```
 
 ```Users/.../Document/Ircam```
 
-The FLUX Folder contains a subfolder named *Config*  which has 3 files:  
+The FLUX SE Folder contains a subfolder named *Config*  which has 3 files:
 
 * .ioconfig contains your added speaker arrangements to  _SPAT Revolution_
 * .presets contains your reverb presets
