@@ -18,8 +18,11 @@ This installs the resources in:
 
 To operate this server, you will need to download and install [Open Stage Control](https://openstagecontrol.ammd.net/), The application (server) that runs in the background and allows a web remote client access.
 
-  - [MacOS](https://github.com/jean-emmanuel/open-stage-control/releases/download/v1.17.0/open-stage-control-1.17.0-osx.zip)
-  - [Windows (64-bit)](https://github.com/jean-emmanuel/open-stage-control/releases/download/v1.17.0/open-stage-control-1.17.0-win32-x64.zip)
+[Open Stage Control][https://openstagecontrol.ammd.net/download]
+
+:::{.callout-note}
+
+Please note that the remote released in 2024.04 needs the Open Stage Control higher than 1.26.1, and SPAT version higher than 2024.04.XXXXX.
 
 ## Configuration
 
@@ -107,11 +110,59 @@ If you want a shortcut on your iPad to reach the SPAT Revolution remote, you can
 
 Although most pages are pretty much self-explanatory, here is a review of the Main and Snapshot pages
 
-![SPAT Revolution Main Page](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/SPATRevolutionRemoteMain_Review.png)
+![SPAT Revolution Main Page](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/SPATRevolutionRemoteMain.png)
 
-![SPAT Revolution Main Page](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/SPATRevolutionRemoteSnapshot_Review.png)
+![SPAT Revolution Main Page](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/SPATRevolutionRemoteSnapshot.png)
+
+## One SPAT Remote to several SPAT Revolution configuration
+
+As it is possible to control one instance of SPAT Revolution with multiple Remotes, it is also possible to control multiple instances of SPAT Revolution on different computers using the same remote by modifying the "send" address in the server.
+For example, on a subnet of 192.168.1.x, if you send a message to 192.168.1.255, it will broadcast to the entire subnet.
+Similarly, for 10.10.10.x, sending to 10.10.10.255 will have the same effect, and for 169.254.x.x, using 169.254.255.255 will produce a similar broadcast.
+Finally, the address 255.255.255.255 broadcasts to all subnets.
+
 
 ## Release Notes
+
+### 24.04.0.XXXXX
+
+- Tabs are now on the bottom
+- Main:
+    - Added pitch parameters in side dropdown menus.
+    - New selection by source name with dropdown menus.
+    - XY pads maintain a square aspect ratio following screen resolution.
+    - New grid layout for the XY pads.
+- Dual Source XY:
+    - New selection dropdown menus with source names.
+    - Added buttons for: phase invert, mute, solo.
+    - Added a Z-axis fader.
+    - XY pad dots colours follow the source colours.
+    - New grid layout for the XY pads.
+- Multi Source XY :
+    - New selection dropdown menus with source names.
+    - XY pads maintain an aspect ratio of 1:1 (square).
+    - New grid layout for the XY pads.
+- Mixer :
+    - The mixer follows the colours of the sources.
+    - The select button displays the current source name.
+    - improvements to the clear solo button.
+- Source :
+    - Revisited UI with more consistency between tabs
+    - New selection dropdown menus with source names.
+    - Added a phase invert button.
+    - Added an EQ UI
+    - Reverb :
+    - Revisited UI
+    - Added a switch button for room selection.
+    - Improvement of the reverb room response tab.
+- Room :
+    - Revisited UI
+    - Added a switch button for room selection.
+    - Added a phase invert button.
+- Snapshots :
+    - Entirely new fresh design.
+    - Snapshot selection using dropdown menus with snapshot names.
+    - The snapshot bottom panel follows the Spat Revolution bottom snapshot layout.
 
 ### 22.10.0.50212
 
