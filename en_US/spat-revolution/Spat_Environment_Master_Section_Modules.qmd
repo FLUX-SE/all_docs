@@ -4,7 +4,7 @@
 
 The **Sum** row of modules is used to mix the output of two or more rooms of the same output configuration and in some contexts, to sum inputs directly without the use of room.
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/ChannelBasedSession.jpg)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/ChannelBasedSession.png)
 
 The **Sum** module can handle different input configurations.
 It will Sum channels based on their channel names, so a correct naming convention is important.

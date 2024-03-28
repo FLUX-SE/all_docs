@@ -5,15 +5,15 @@ This provides a way to map BlackTrax tracking beacons with SPAT source objects a
 To do this, you will need to configure the output configuration of a BlackTrax system and have your SPAT (or multiple SPAT) computers networked on the same third-party network interface (NIC) of the BlackTrax server hardware.
 In the BlackTrax software, press on the output configuration button or access output configuration via the menu bar in the Settings section (shortcut ```Ctrl + T```).
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/BlackTraxOutputConfigurationButton.jpg)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/BlackTraxOutputConfigurationButton.png)
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/BlackTraxSettingsMenu.jpg)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/BlackTraxSettingsMenu.png)
 
 In the Output Configuration window, you must create with the ```+``` sign 1 (or multiple if running a main and a backup SPAT computer engine) output that will send tracking RTTrPM data to SPAT.
 Clicking the ```+``` sign will give you an edit window.
 
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/BlackTraxOutputConfiguration.jpg)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/BlackTraxOutputConfiguration.png)
 
 In the edit window, you will first label your output to the desired name (ex: SPAT Main).
 The output type will be RTTrPM, the third-party motion protocol of BlackTrax.
@@ -30,7 +30,7 @@ The port number should be left to the default port # ```24002``` as it is the Bl
 Press ```Apply``` and you are set with this step.
 
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/BlackTraxEditWindows.jpg)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/BlackTraxEditWindows.png)
 
 Pressing the Advanced button will give you some advanced options.
 Your default Coordinate System should be ```Stage```.
@@ -41,18 +41,18 @@ In the Active Output window, select your SPAT Main output.
 On the bottom right, select the Beacon you want data sent to and press Enable Selected.
 You can multi-select when pressing the ```CTRL``` key or select all with ```CTRL + A```.
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/BlackTraxEditWidonwsAdvancedSettings.jpg)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/BlackTraxEditWidonwsAdvancedSettings.png)
 
 When done with all operations with BlackTrax, you want to ```Apply``` the changes to the system.
 You can, at this point, close the Output Configuration window and go back to the main BlackTrax page.
 You will want to apply the changes to the system.
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/BlackTraxEditWidonwsAdvancedSettingsApply.jpg)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/BlackTraxEditWidonwsAdvancedSettingsApply.png)
 
 You can confirm that you are sending data by returning to the Output Configuration page.
 The status will give you this information.
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/BlackTraxOutputConfigurationPage.jpg)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/BlackTraxOutputConfigurationPage.png)
 
 Now let’s go and configure the SPAT software.
 In the preference page accessible by clicking on the top right button, you can scroll down to the BlackTrax preference
@@ -71,15 +71,15 @@ In the option are now Tracking options and a pull-down menu to choose the Tracki
 The list will be based on your Max Beacon preference.
 It is possible to have the same Index for multiple sources, allowing multiple sources to track a single beacon.
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/SourceInspector.jpg)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/SourceInspector.png)
 
 Your second option is to assign a Beacon ID to an actual room to track the listener's position. Selecting a room will give you the room menu options.
 In the option are now Tracking options with a pull-down menu to choose the Tracking Index (the beacon ID number you want for this room listener).
 The list will be based on your Max Beacon preference. 
 A Tracking Scale setting is as well provide which would allow to scale the incoming data to adjust to your speaker output setup size if needed.
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/RoomInspector.jpg)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/RoomInspector.png)
 
 In the actual room output parameters in the room view, you will also see a tracking option become available.
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Room/OutputTracking.jpg)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Room/OutputTracking.png)
