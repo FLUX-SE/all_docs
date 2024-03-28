@@ -18,7 +18,9 @@ The field is editable or not, according to the DAW.
 Set the plugin size.
 
 :::{.callout-note}
-If you choose a too big size and cannot change it anymore, please close the UI of all Elixir instances, and delete "Preferences" in "/Users/.../Library/Application Support/FLUX/Elixir" on macOS and in "/Users/.../AppData/Local/FLUX/Elixir".
+If you choose a too big size and cannot change it anymore, please close the UI of all Elixir instances, and delete "Preferences" folder.
+Since the 2024.04 build, this folder is located in "/Users/.../Library/Application Support/FLUX/Elixir" on macOS and in "/Users/.../AppData/Local/FLUX/Elixir".
+Prior to that, it is located on "/Users/.../Documents/FLUX SE".
 :::
 
 ## Report latency

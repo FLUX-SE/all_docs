@@ -26,9 +26,16 @@ On macOS, preferences are located in:
 
 On Windows, there are located in:
 
-```Users/AppData/Local/FLUX```
+```Users/.../AppData/Local/FLUX```
 
-```Users/AppData/Local/Ircam```
+```Users/.../AppData/Local/Ircam```
+
+
+:::{.callout-note}
+Before the 2024.04 release, these folders were located in:
+```Users/.../Documents/FLUX SE```
+```Users/.../Documents/Ircam```
+:::
 
 The FLUX folder contains a subfolder named *Config*  which has 3 files:
 
