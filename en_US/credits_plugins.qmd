@@ -1,0 +1,33 @@
+## Software development
+
+### Project Manager and Designer:
+Gaël Martinet
+
+### Application Development:
+Gaël Martinet, Alexis Gentil, Bastien Prevosto, Anthony Belard, Maxence Grandidier, Siegfried Hand and Antoine Lorence.
+
+### FLUX:: DSP Design and Development:
+Gaël Martinet, Maxence Grandidier and Lorcan Mc Donagh
+
+### Graphic design:
+Nicolas Philippot
+
+### FLUX:: Framework development:
+Gaël Martinet, Florie-Anne Lafaye, Alexis Gentil, Lorcan Mc Donagh, Bastien Prevosto, Anthony Belard, Siegfried Hand and Antoine Lorence
+
+**Additional contributions:**
+Vincent Carlier, Jean-Loup Pecquais, Nicolas Erard, Jean Cruypenynck, Pablo Arias, Samuel Tracol
+
+### FLUX:: Framework graphic engine:
+Emmanuel Julien (GS lib) and Gaël Martinet
+
+### And
+thanks to all fantastic testers...
+
+
+### FLUX:: Special Thanks to:
+Alain, Yves, Bruno and Claude for helping to shape our minds over the years.
+
+{{< include ../credits_flux.qmd >}}
+{{< include ../credits_libs.qmd >}}
+{{< include ../credits_foss_libs.qmd >}}

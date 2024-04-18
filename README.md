@@ -1,45 +1,31 @@
-# ![Flux::](en_US/favicon.svg ':class=img-title') FLUX:: Immersive Documentation
+# FLUX:: Immersive Product Documentation
 
-## Immersive
+This repository host the documentation of all FLUX:: products. It uses quarto to generate the doc.flux.audio html pages as well as pdf documents.
 
- - [SPAT Revolution](spat-revolution/index.html)
- - [IRCAM-Tools HEar](ircam-hear/index.html)
+## Repository structure
 
-## Analysis
+`en_US` is where is stored the sources for the documentation. Each product has a dedicated folder which corresponds to a quarto project. See : [https://quarto.org/docs/projects/quarto-projects.html](https://quarto.org/docs/projects/quarto-projects.html). This folder also store at its root the **common files**:
 
- - [FLUX:: Analyzer](analyzer/index.html)
- - [Studio Session Analyzer](/studio-session-analyser/index.html)
++ `_common.yaml` dictate the two main rendering format (html and pdf)
++ `credits_*.qmd` are credit mentions that are common to several products. They are included in the `Credits.qmd`files of each project using the following syntax : {{< include myfile.qmd >}} . See [https://quarto.org/docs/authoring/includes.html](https://quarto.org/docs/authoring/includes.html)
++ `fluxtemplate.tex` is the common latex style sheet.
 
-## Evo Modules
+Inside `en_US`, the `home` folder/project is a special project to handle the home page of the documentation (doc.flux.audio).
 
- - [Evo Channel](/evo-channel/index.html)
- - [Evo In](/evo-in/index.html)
- - [Evo EQ](/evo-eq/index.html)
- - [Evo Compressor](/evo-comp/index.html)
- - [Evo Touch](/evo-touch/index.html)
+`scripts` is where some utility python scripts are stored.
 
-## Processing
++ `img-checker.py` allows checking the image links from a file or a whole quarto project. As latex rendering for pdf crash if an image has a dead link, it is a good practice to use this script before rendering (as latex rendering is very time consuming). Simply invoke it with the following command: `python3 img-checker.py file_or_folder_to_test`
 
- - [Alchemist](/alchemist/index.html)
- - [Bittersweet](/bittersweet/index.html)
- - [Bittersweet Pro](/bittersweet-pro/index.html)
- - [Elixir](/elixir/index.html)
- - [Epure](/epure/index.html)
- - [IRCAM-Tools Trax](/ircam-trax/index.html)
- - [IRCAM-Tools Verb](/ircam-verb/index.html)
- - [IRCAM-Tools Verb Session](/ircam-verb-session/index.html)
- - [Pure Compressor](/pure-compressor/index.html)
- - [Pure Dcompressor](/pure-dcompressor/index.html)
- - [Pure Dexpander](/pure-dexpander/index.html)
- - [Pure Expander](/pure-expander/index.html)
- - [Pure Limiter](/pure-limiter/index.html)
- - [Solera](/solera/index.html)
- - [Stereo Tool](/stereotool/index.html)
- - [Studio Session Plugins](/studio-session-plugins/index.html)
- - [Syrah](/syrah/index.html)
- 
-## Legacy
+## Local render
 
-- [Elixir v3](/elixir-v3/index.html)
-- [IRCAM-Tools Spat (Plugin)](/ircam-spat/index.html)
-- [Jünger Level Magic](/junger-level-magic/index.html)
+The documentation can be rendered locally per project by using the command `quarto render my_project` where `my_project` is the folder representing the quarto project. The files are then generated in the `.build/my_project` folder at the root of the directory. The folder `.build` is excluded from git.
+
+The rendering of all the documentation can be done by using the `buildAll.bash` script at the root of the repository.
+
+## Online rendering
+
+The generation of all the web pages and pdf files are handled by a GitHub job. The process happens on a push on the master branch. Beware that the process is very long, so be sure that the local render work first before pushing to master. **Obviously, branches should be used for new content or content improving.**
+
+## Rendering failure
+
+If one rendering has failed (for a missing image for example), the generate files in `.build` as well as the LaTeX intermediary files store in the **project folder** (`en_US/my_project`) should be deleted before attempting a new render.

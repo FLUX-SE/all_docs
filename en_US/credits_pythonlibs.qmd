@@ -1,0 +1,41 @@
+### Additional Python modules
+
++ sourcedefender - Copyright (c) 2018-2024 SOURCEdefender. All rights reserved.
++ RTTrPM SDK (Blacktraxx) Copyright (c) 2019 CAST Group of Companies Inc
++ argh (Andrey Mikhaylenko) - Copyright © 2010—2023 Andrey Mikhaylenko and contributors 
++ chardet (Mark Pilgrim, Daniel Blanchard)
++ charset_normalizer - Copyright (c) 2019 TAHRI Ahmed R. 
++ docopt (Vladimir Keleshev) - Copyright (c) 2012 Vladimir Keleshev, <vladimir@keleshev.com> 
++ dotenv - Copyright (c) 2014, Saurabh Kumar 
++ ecdsa (Peter Pearson) - Copyright (c) 2010 Brian Warner 
++ environs (Steven Loria) - Copyright 2022 Steven Loria 
++ ftputil (Stefan Schwarzer) - Stefan Schwarzer <sschwarzer@sschwarzer.net> and others contributors 
++ numpy - Copyright (c) 2005-2023, NumPy Developers. 
++ pendulum - Copyright (c) 2015 Sébastien Eustace 
++ psutil (Giampaolo Rodola) - Copyright (c) 2009, Jay Loden, Dave Daeschler, Giampaolo Rodola 
++ watchdog:
++ Copyright 2010 Malthe Borch <mborch@gmail.com>
++ Copyright 2011 Yesudeep Mangalapilly <yesudeep@gmail.com>Copyright 2012 Google, Inc & contributors.
+ 
++ tgcrypto - Copyright (c) 2017-2020 Dan <https://github.com/delivrance> 
++ idna - Copyright (c) 2013-2022, Kim Davies and contributors. All rights reserved. 
++ marshmallow - Copyright 2021 Steven Loria and contributors 
++ packaging - Copyright (c) Donald Stufft and individual contributors. 
++ paramiko (Jeff Forcier) - Copyright (c) 2003-2008  Robey Pointer <robeypointer@gmail.com> 
++ pathtools Copyright (c) 2010 by Yesudeep Mangalapilly 
++ ptvsd (Microsoft) - Copyright (c) Microsoft Corporation.  All rights reserved. 
++ pyga (Arun K.R.) 
++ pylightxl - Copyright (c) 2019 Viktor Kis 
++ pyparsing - Copyright (c) 2003-2019  Paul T. McGuire 
++ pytzdata - Copyright (c) 2015 Sébastien Eustace 
++ winshell (Tim Golden) - Copyright (c) 2012 Tim Golden 
++ six - Copyright (c) 2010-2020 Benjamin Peterson 
++ Request (Kenneth Reitz) 
++ sentry_sdk - Copyright (c) 2018 Functional Software, Inc. dba Sentry 
++ urllib3 - Copyright (c) 2008-2020 Andrey Petrov and contributors 
++ certifi (Kenneth Reitz) 
++ anytree (c0fec0de) 
++ boltons - Copyright (c) 2013, Mahmoud Hashemi 
++ msgpack (Inada Naoki) - Copyright (c) 2008-2011 INADA Naoki <songofacandy@gmail.com>
++ dateutil - Copyright 2017- Paul Ganssle <paul@ganssle.io> and dateutil contributors
++ PyYAML (Kirill Simonov)
