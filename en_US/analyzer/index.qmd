@@ -16,7 +16,6 @@ Second edition of FLUX:: _FLUX:: Analyzer_ User Guide published in April 2023
 All writing is protected under copyright © 2023 Harman Professional, Inc.
 
 FLUX:: is a trademark of Harman Professional, Inc.
-All trademarks and the logos are copyright protected.
 
 ```
 FLUX:: SPAT Revolution is published by
@@ -26,7 +25,7 @@ Northridge, CA 91329
 United States
 ```
 
-FLUX:: Analyzer Copyright © 2024 Harman Professional, Inc., All rights reserved.
+Copyright 2024 Harman Professional, Inc., All rights reserved.
 
 
 [Product Page](https://www.flux.audio/project/flux-analyzer/)

@@ -16,7 +16,6 @@ Fourth edition of FLUX:: _SPAT Revolution_ User Guide published in July 2023.
 All writing is protected under copyright © 2024 Cristian Vogel / FLUX::.
 
 FLUX:: is a trademark of Harman Professional, Inc.
-All trademarks and the logos are copyright protected.
 
 ```
 FLUX:: SPAT Revolution is published by
@@ -26,4 +25,4 @@ Northridge, CA 91329
 United States
 ```
 
-Spat Revolution Copyright © 2024, Harman Professional, Inc. All Rights Reserved.
+Copyright 2024, Harman Professional, Inc. All Rights Reserved.
