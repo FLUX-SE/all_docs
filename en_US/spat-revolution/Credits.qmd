@@ -111,7 +111,7 @@ thanks to all fantastic testers...
 Alain, Yves, Bruno and Claude
 for helping to shape our minds over the years
 
-<!-- Spat Revolution COPYRIGHT (c) 2024, HARMAN INTERNATIONAL. ALL RIGHTS RESERVED. -->
+<!-- COPYRIGHT 2024, HARMAN INTERNATIONAL. ALL RIGHTS RESERVED. -->
 
 {{< include ../credits_flux.qmd >}}
 {{< include ../credits_libs.qmd >}}
