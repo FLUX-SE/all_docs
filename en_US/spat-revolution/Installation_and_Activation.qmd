@@ -71,7 +71,7 @@ On this page, you will find a macOS, a Windows 64 bits. As well are provided leg
 
 ## Center Preferences
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Center/Generic/TopBar.jpg ':class=img-title')
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Center/Generic/TopBar.png ':class=img-title')
 
 When you open FLUX:: Center you will see a page that lists all FLUX:: products available for you to install. You will also find information about which version you have currently installed on your system and which new versions might be available for you to update. You can select versions to install - or uninstall if necessary - using the pull-down menus. If you would like to access more installer options such as your preferred plug-in format, please click on the gear icon at the top right of the header area.
 
