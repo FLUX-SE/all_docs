@@ -1,8 +1,7 @@
-# Build 24.05.0.50376 {.unnumbered}
+# Build 24.05.0.50377 {.unnumbered}
 
 ## Improvements
 
-- Official support of macOS Sonoma and Windows 11
 - 3D View - Add independent scaling for sources and speakers
 - 3D View - Add option to display only virtual or real speaker
 - Core - Refresh audio device when displaying the audio device list
@@ -10,26 +9,27 @@
 - If a crash occurs when loading a session during the opening of SPAT Revolution, propose to open it without loading the session
 - If the preferences file is corrupted, open SPAT with default preferences.
 - OSC - Add OSC message to arm/unarm objects, to begin and stop the record
+- VST3 - Support up to 64 channels for SPAT Send, Room and Return
 
-## Bugs
+# Bugs
 
 - "Create New Session" and "New Empty Session" should create a new json file for the session
 - 3D View - Background should be visible when loading a file
 - Core - Crash with specific session at low block size
 - Core - Issue when a HOA 3D is connected to a HOA 2D : the channels are not automatically connected
-- Core - Specific session crash when processing audio
+- Core - Jump when moving multi-selection with mono sources with scaling
+- Core - Session crash when processing audio
 - Core - Sound freezes after deactivating an input block
 - Core - When a group is folded, the audio of the subsources is not refreshed when moving the listener's head yaw.
 - Core - rttrPM does not work anymore
-- EULA are shown twice on first opening
 - Group - Adding a group to one of his grandchildren should not be allowed / lead to a crash
 - Group - Fold status is not saved and reloaded with the session
 - Group - Groups should be visible when some children are not muted
 - Group - Impossible to add or delete several sources to/from a group via the source list
 - OSC - Next and previous snapshot name should be sent on session opening, even if empty
 - OSC - Port change is not taken into account if the difference is less than 10
-- OSC - Position is not scaled according to the distance if the scaling is sent without position packing
-- OSC - Receiving an OSC message which updates the name of a room does not update the name on the top bar
+- OSC - Position is not scaled according to the distance scaling is sent without position packing
+- OSC - Receiving an OSC message which updates name of a room does not update the name on the top bar
 - OSC - Snapshot options messages do not update the grid; need to move the mouse over it to update it.
 - Save the license agreement as PDF does not work
 - Send - OSC - Source position XYZ automation is not written
@@ -41,9 +41,9 @@
 - Snapshot - Quickly recalling snapshots with room scope freeze SPAT Revolution with a particular session
 - Speaker arrangement - When an unknown speaker arrangement is loaded with a session, the speaker arrangement is overriden if the block speaker arrangement is changed
 - Speaker config - Ease import should take into account length unit
-- The license agreement page does not show up on first opening
 - UI - HOA decoder crossover is not centered
-- UI - Refresh UI can freeze on MacBook Pro, on battery, using session with high number of sources (like 256)
+- UI - Refresh UI can freeze on MacBook Pro , on batterie, using session with high number of sources (like 256)
+- UI - Source panel is not updated when selecting sources from the 3D view and number of items does not change
 - UI - When opening a session on the home page, the recent session is not updated
 - UI - Wrong default window size initialization
 

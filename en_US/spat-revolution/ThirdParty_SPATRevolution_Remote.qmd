@@ -117,9 +117,18 @@ Although most pages are pretty much self-explanatory, here is a review of the Ma
 ## One SPAT Remote to several SPAT Revolution configuration
 
 As it is possible to control one instance of SPAT Revolution with multiple Remotes, it is also possible to control multiple instances of SPAT Revolution on different computers using the same remote by modifying the "send" address in the server.
-For example, on a subnet of 192.168.1.x, if you send a message to 192.168.1.255, it will broadcast to the entire subnet.
-Similarly, for 10.10.10.x, sending to 10.10.10.255 will have the same effect, and for 169.254.x.x, using 169.254.255.255 will produce a similar broadcast.
-Finally, the address 255.255.255.255 broadcasts to all subnets.
+
+Static IP Solution :
+In Open Stage Control, it's possible to specify a set of predefined IP addresses, for example, ```127.0.0.1:9400 192.168.1.10:9403```.
+In a context where a network switch assigns fixed IPs based on the MAC address of each device, this facilitates the deployment of the installation.
+
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/SPATRemoteMultipleDestinations.png)
+
+Broadcast solution:
+For example, on a subnet of ```192.168.1.x```, if you send a message to ```192.168.1.255```, it will broadcast to the entire subnet.
+Similarly, for ```10.10.10.x```, sending to ```10.10.10.255``` will have the same effect, and for ```169.254.x.x```, using ```169.254.255.255``` will produce a similar broadcast.
+Finally, the address ```255.255.255.255``` broadcasts to all subnets.
+
 
 
 ## Release Notes
