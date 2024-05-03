@@ -1,5 +1,4 @@
 ## FLUX::
 
 www.flux.audio
-COPYRIGHT (C) 2024, HARMAN INTERNATIONAL. ALL RIGHTS RESERVED.
-FLUX:: is a trademark of Harman Professional, Inc.
+Copyright 2024, Harman Professional, Inc. ALL RIGHTS RESERVED.

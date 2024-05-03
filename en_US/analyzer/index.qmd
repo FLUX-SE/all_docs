@@ -13,9 +13,7 @@ Gäel Martinet, Vincent Carlier, Florie-Anne Lafaye, Jean-Loup Pecquais & Nicola
 
 Second edition of FLUX:: _FLUX:: Analyzer_ User Guide published in April 2023
 
-All writing is protected under copyright © 2023 Harman Professional, Inc.
-
-FLUX:: is a trademark of Harman Professional, Inc.
+All writing is protected under copyright © 2024 Harman Professional, Inc.
 
 ```
 FLUX:: SPAT Revolution is published by
