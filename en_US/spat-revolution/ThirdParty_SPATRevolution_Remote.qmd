@@ -22,7 +22,7 @@ To operate this server, you will need to download and install [Open Stage Contro
 
 :::{.callout-note}
 
-Please note that the remote released in 2024.04 needs the Open Stage Control higher than 1.26.1, and SPAT version higher than 2024.04.XXXXX.
+Please note that the remote released in 2024.05 needs the Open Stage Control higher than 1.26.1, and SPAT version higher than 2024.04.XXXXX.
 
 ## Configuration
 
@@ -133,7 +133,7 @@ Finally, the address ```255.255.255.255``` broadcasts to all subnets.
 
 ## Release Notes
 
-### 24.04.0.XXXXX
+### 24.05.0.50377
 
 - Tabs are now on the bottom
 - Main:

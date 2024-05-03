@@ -32,7 +32,7 @@ On Windows, there are located in:
 
 
 :::{.callout-note}
-Before the 2024.04 release, these folders were located in:
+Before the 2024.05 release, these folders were located in:
 ```Users/.../Documents/FLUX SE```
 ```Users/.../Documents/Ircam```
 :::
