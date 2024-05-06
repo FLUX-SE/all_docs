@@ -11,7 +11,7 @@
 - OSC - Add OSC message to arm/unarm objects, to begin and stop the record
 - VST3 - Support up to 64 channels for SPAT Send, Room and Return
 
-# Bugs
+## Bugs
 
 - "Create New Session" and "New Empty Session" should create a new json file for the session
 - 3D View - Background should be visible when loading a file
@@ -49,15 +49,11 @@
 
 ## Known Issues
 
-### Most Important
-
 - App - Bad GUI initialization on Windows with intel graphics chipsets
 - App - Core Audio headphones and loudspeakers cannot be used without an aggregate
 - PI - AAX - Renaming the send track in protools cuts the audio if verb switches are not the default one.
 - S6L integration -  SPAT Send track name is not retained properly and sent every time the UI opens (erasing your SPAT Source name).
 - SPAT Send -  Renaming an instance cut the audio in Protools/Windows10. Have to re-enable the LAP to fix
-
-### Important
 
 - App - A process still running after quitting SPAT Revolution when ASIO4ALL is used as audio driver on Windows
 - Display issues when OS display scaling is under the default resolution
