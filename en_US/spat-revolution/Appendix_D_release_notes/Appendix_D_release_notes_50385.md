@@ -23,7 +23,6 @@
 - Core - Session crash when processing audio
 - Core - Snapshot recall does not send touch/release messages
 - Core - When a group is folded, the audio of the subsources is not refreshed when moving the listener's head yaw.
-- EULA are shown twice on first opening
 - Group - Adding a group to one of his grandchildren should not be allowed / lead to a crash
 - Group - Fold status is not saved and reloaded with the session
 - Group - Groups should be visible when some children are not muted
