@@ -1,5 +1,77 @@
 # Release Notes
 
+## Build 24.06.0.50386 - All plugins
+
+### Improvements
+
+- All plugins - Preset manager filter options updated
+- All plugins - Preset recall button improved
+- All plugins - Preset save button improved
+
+### Bugs
+
+- AAX - Preset manager - Default preset is not applied to parameters at plugin instantiation
+- All plugins - AAX bad GUI recall with user scale x2 and display scale x2
+- All plugins - AU - auval real time safety checks
+- All plugins - All parameters are reset when reloading a session when using presets
+- All plugins - GUI issue on Windows
+- All plugins - GUI issue with Retina in FLStudio
+- All plugins - Mouse wheel not working anymore on knobs
+- All plugins - Parameters are reset when deactivating/reactivating the plugin in Protools
+- All plugins - Parameters are reset when loading a session if a preset is used
+- All plugins - Preset manager font issues
+- All plugins - VST3 - Keys not working in Pyramix
+- All plugins - VST3 - Meters not working in Adobe premiere Pro, Adobe audition, Isotope RX10 and Waves Studio Rack
+- All plugins - VST3 - preset name back reset to default when loading a session
+- All plugins - mouse wheel + shift key increase controls value when scroll down
+- All plugins AAX - Crash protools when using the protools plugin preset manager on Windows
+- All plugins VST3 - crash plugin scan when OSC enabled in prefs
+- EVO Channel - Dark mode display issue when closing/opening the plugin
+- EVO Channel - custom preset does not load some parameters
+- EVO In - Phase shift amount automation line display issue in Logic
+- EVO Series - Display issues on some parameters values
+- EVO Series - Missing controls text
+- EVO Series - Save button from preset manager not working
+- EVO Series - save/recall/copy A & B preset buttons from main window not working
+- EVO Series - wrong RMS reference value initialisation
+- Elixir 1-Stage - GUI broken
+- EvoEq - very low noise generated when offline rendering (32bit FP)
+- HEar - AudioUnit - Crashes validation in Logic
+- Preset Manager - Refresh missing - Preset name still displayed as current preset after being deleted.
+- Solera - VST3 on Windows - DExp tab selected as default
+- StereoTool - Correlation phase meter is wrong when quality setting set at 60fps
+- StudioSession Plugins - May fail to scan in logic
+- StudioSession Plugins - loads without the limitations
+- Trax - VST3 - Learn feature not working
+- VST3 -  Some plugins are blacklisted in Cubase 13 on Windows
+- VST3 - Conformity report
+- VST3 - Display quality (15/30/60Hz) always reverts to initialized value
+- VST3 - Verb & VerbSession - Crash in VST3 test host unit test
+- VST3 - presets slots values are not correctly recalled when a session is saved after using morphing
+- Verb - AAX - Matrix not reloaded on atmos 9.1.4 tracks
+- Verb - Does not load the saved multichannel layout
+- Verb - Multichannel layout not automatically set in Logic
+- Verb - When in High Density, the dry signal is output
+- Verb Session - AAX - GUI issue in HiDPI on Windows
+
+### Known Issues
+
+**Important**
+
+- All plugins - AU - Crash in Logic 10.5 on Macos Mojave
+- All plugins - VST2 - GUI cropped in TwistedWave
+- All plugins - VST3 - Do not process the audio in TwistedWave
+- All plugins VST versions- GUI issue in Izotope Ozone and Davinci Resolve
+- Elixir - Latency not properly compensated after changing stage parameters value in VST and AudioUnit
+- Elixir - Reaper - VST3 - Elixir is not available as 32 channels (24 max)
+- Evo Channel/Evo EQ - All formats -Bad init on the lowpass filter cut off frequency
+- HEar - AU - Crashes Ableton
+- HEar - Do not work properly with Ambisonic streams
+- HEar - Failed to load HRTF message in Logic until audio playback
+- Trax - Ran out of CPU error and playback issue in Protools
+- Verb - AAX - Moving any temporal parameter mute audio and generate noisy artefacts 
+- Verb - HOA 3rd order not working properly
+
 ## Build 23.07.50310 - All plugins
 
 ### New features
