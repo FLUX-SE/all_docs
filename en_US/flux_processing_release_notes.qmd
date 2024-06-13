@@ -23,9 +23,10 @@
 - All plugins - VST3 - Keys not working in Pyramix
 - All plugins - VST3 - Meters not working in Adobe premiere Pro, Adobe audition, Isotope RX10 and Waves Studio Rack
 - All plugins - VST3 - preset name back reset to default when loading a session
+- All plugins - VST3 - Can't edit values using keyboard on Windows
 - All plugins - mouse wheel + shift key increase controls value when scroll down
-- All plugins AAX - Crash protools when using the protools plugin preset manager on Windows
-- All plugins VST3 - crash plugin scan when OSC enabled in prefs
+- All plugins - AAX - Crash protools when using the protools plugin preset manager on Windows
+- All plugins - VST3 - crash plugin scan when OSC enabled in prefs
 - EVO Channel - Dark mode display issue when closing/opening the plugin
 - EVO Channel - custom preset does not load some parameters
 - EVO In - Phase shift amount automation line display issue in Logic
