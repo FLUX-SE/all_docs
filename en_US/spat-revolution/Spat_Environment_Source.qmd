@@ -4,7 +4,7 @@
 
 The Source modules are where you set a descriptive name of each virtual object. It's a good idea to do that, as things can get busy inside the rooms. You can also adjust the overall gain of a Source here no matter how many channels it might have. The Source modules are also important for parameter automation using the _SPAT Send_ plug-in, and also in the case of external OSC control.
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/IndexExplain.png)
+![](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/Setup/IndexExplain.png)
 
 External software needs to know how to identify virtual objects, and that will be done using an index number rather than a name. This index number refers to one of these source modules, numbered from left to right which in turn, becomes a virtual sound emitting object in the _Virtual Room_. When working in a Channel Based Room outputting to a _n.1 surround_ speaker arrangement, each source will additionally acquire an individual _LFE Send_. This dial will be available in the Source Parameters inside the Virtual Room editor, and also mirrored here as a fader directly in the Source modules. _LFE Send_ controls how much of this source's signal is mixed into the LFE channel at the output.
 
@@ -41,7 +41,7 @@ The source's parameters are detailed in the next section, [Source Parameters -@s
 
 A double click on any Source Parameter dial will reset it to a SPAT default setting. The default setting of a parameter is indicated around a dial as a larger tick than the other tick marks. Additionally, a range is graphically indicated between the default setting and the current setting of a variable parameter.
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Room/SourcesInspector.png)
+![](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/Room/SourcesInspector.png)
 
 :::{.callout-note}
 ★ _Use the defaults as points of reference in your spatial sound design._
@@ -51,13 +51,13 @@ A double click on any Source Parameter dial will reset it to a SPAT default sett
 
 Each parameter can store useful preset settings of your own choosing. Right-click on a parameter dial and a contextual menu will pop up. From there you can store the current setting to a Memory Slot, or Recall a setting from a previously saved memory slot.
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Generic/ParameterPreset.png)
+![](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/Generic/ParameterPreset.png)
 
 ## Smart Property Filter
 
 This feature allows you to display one or several parameters for all the sources that are in the same room. It is a useful feature for fast editing. Type ```azimuth elevation distance``` in the filter box for example, and you will see faders appear for only these properties, grouped for each of the sources as demonstrated in the following screenshot.
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Room/SourcesPanelSearch.png)
+![](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/Room/SourcesPanelSearch.png)
 
 The key word ```strict:``` allows searching strictly one or several parameters. For example, ```strict: gain presence``` will display only the sources gain and presence, while ```gain presence``` will display the gain, the room-specific gain, the presence, the room presence, and all gains of the axis and omni filters.
 
@@ -68,7 +68,7 @@ Some pre-determined presets are available on a menu accessible on the left of th
 When a Source in a Room has more than one channel in its format, it will be represented as a single source with ONE unique index.
 It will be visualized as a group in its assigned channel-based speaker arrangement.
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Room/3DViewNoSpeakers.png)
+![](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/Room/3DViewNoSpeakers.png)
 
 In the above screenshot, the red source consists of 5 channels arranged as a DTU 5.0 surround sound configuration.
 A multichannel cluster can be conveniently positioned and manipulated _as a single group_ which maintains its correct internal spatial positioning relationships but moves about the absolute listener position in the Room (the Dummy Head).
@@ -89,7 +89,7 @@ You can shift-click on the source lane of separate sources to create an ad hoc e
 
 When you have selected an ad hoc group using the shift-click technique, you can then open the _[Source Parameter -@sec-sources-parameters]_ panel by clicking on the property panel header 'fold arrow' as shown in the screenshot below.
 
-<!-- ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/ActionsMultiselection.png) -->
+<!-- ![](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/Setup/ActionsMultiselection.png) -->
 
 <!-- TODO: update the image and the text -->
 
@@ -101,7 +101,7 @@ Barycentric groups are a very convenient way of temporarily editing an ensemble 
 
 A group works very closely with a barycentric group. You can create a group by selecting all the sources you want to include and using the `CMD/CTRL+G` shortcut. In that case, the group appears as a new source in the Inspector and also as a square in the 3D view. If you move this square, all the sources in the group will move with it. If you move one of the sources in the group, the position of the barycentre will be updated.
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Room/3DViewGroups.png)
+![](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/Room/3DViewGroups.png)
 
 Another important point is that **groups can be nested**. In other words, you can have groups inside other groups. The depth of the arborescence is indicated by an indentation in the inspector.
 

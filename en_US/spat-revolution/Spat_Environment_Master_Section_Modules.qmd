@@ -4,7 +4,7 @@
 
 The **Sum** row of modules is used to mix the output of two or more rooms of the same output configuration and in some contexts, to sum inputs directly without the use of room.
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/ChannelBasedSession.png)
+![](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/Setup/ChannelBasedSession.png)
 
 The **Sum** module can handle different input configurations.
 It will Sum channels based on their channel names, so a correct naming convention is important.
@@ -24,7 +24,7 @@ The same options and routing are available as in the [Input Transcoder modules -
 
 The **Master** bloc gives you a last gain staging control, as well as down-mixing capabilities. When opening its matrix, it is possible to patch several inputs to one output, or, one input to several outputs. It also includes a phase toggle switch to invert the polarity of the signal.
 
-![Master matrix](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/MasterMatrix.png)
+![Master matrix](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/Setup/MasterMatrix.png)
 
 ## Binaural monitoring modules {#sec-modules-binaural}
 
@@ -51,4 +51,4 @@ The software RETURN workflow offers an easy way to render the spatial scene to d
 Create multiple output routes to capture Ambisonic recordings at the same time as sound system-specific rendering.
 :::
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/OutputSelected.png)
+![](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/Setup/OutputSelected.png)

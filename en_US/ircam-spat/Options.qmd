@@ -1,6 +1,6 @@
 # Options
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Plugins/ircam-spat/spat_08.jpg)
+![](https://flux-shared.s3.amazonaws.com/doc_images/Plugins/ircam-spat/spat_08.jpg)
 
 ## (35) Target Reverb
 Drop-down menu indicating the currently selected reverb engine. Clicking this menu allows you to

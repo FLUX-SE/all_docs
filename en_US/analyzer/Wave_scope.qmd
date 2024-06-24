@@ -1,11 +1,11 @@
 # Wave scope
 The wave scope is a simple oscilloscope-type waveform display.
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Wavescope/Main2.png)
+![](https://flux-shared.s3.amazonaws.com/doc_images/Analyzer/Wavescope/Main2.png)
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Wavescope/Main3.png)
+![](https://flux-shared.s3.amazonaws.com/doc_images/Analyzer/Wavescope/Main3.png)
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Wavescope/Main1.png)
+![](https://flux-shared.s3.amazonaws.com/doc_images/Analyzer/Wavescope/Main1.png)
 
 Wave scope display with stereo input.
 
@@ -16,14 +16,14 @@ The wave scope will include more functionality and settings in future releases.
 <!-- ALLVERSION-->
 
 ## Setup
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Wavescope/Setup.png)
+![](https://flux-shared.s3.amazonaws.com/doc_images/Analyzer/Wavescope/Setup.png)
 
 ### Time
 Time window in milliseconds.
 
 ### Color Mode
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Wavescope/ColorModes.png)
+![](https://flux-shared.s3.amazonaws.com/doc_images/Analyzer/Wavescope/ColorModes.png)
 
 #### Static
 Displays the waves using 1 unique static color.

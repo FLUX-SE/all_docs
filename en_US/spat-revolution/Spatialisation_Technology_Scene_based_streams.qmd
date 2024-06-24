@@ -6,7 +6,7 @@ Simply put: Ambisonics is a specific method for creating, capturing and playing 
 
 Ambisonic is also both a recording and a spatial synthesis technique, where one can capture the full environment in 3D sound through the use of so-called A-Format microphones such as the: Soundfield SPS200, Røde NT-SF1, Sennheiser Ambeo, Coresound TetraMic and more. Alternatively, a sound field can be synthesized from any mono, stereo and multichannel sources to Ambisonics, constructing a virtual 3D sound environment by placing the sources at locations in a virtual 3-dimensional field.
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Education/Ambisonic.png)
+![](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/Education/Ambisonic.png)
 
 ## Encoded audio
 
@@ -14,7 +14,7 @@ Ambisonic, as opposed to other surround and spatial techniques and methods, does
 
 When Ambisonics is played back on speakers, all the speakers contribute to the directional content, what one is hearing is not the sound coming from a specific speaker but from a specific direction.
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/ReaperHOA3DTrack.png)
+![](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/ThirdParty/ReaperHOA3DTrack.png)
 
 :::{.callout-note}
 Overview of a fifth-order HOA 3D Ambisonic File created by Tine Surell Lange.
@@ -80,7 +80,7 @@ To help with these different standards, we have created Ambisonics presets to si
 
 ## A-Format
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/InputInspectorAFormat.png)
+![](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/Setup/InputInspectorAFormat.png)
 
 A-format is a 4-channel audio stream. It is the RAW output of a first-order ambisonic microphone, so it has not been encoded to ambisonic yet. So we need to transcode an A-Format input to an HOA or a channel-based stream. Because each manufacturer has their own strategy to create such microphone, we have almost as many transcoders as A-format microphone builders. _SPAT Revolution_ comes with a comprehensive list of A-Format transcoders, including Sennheiser Ambeo, Soundfield, DPA, Oktava etc.
 

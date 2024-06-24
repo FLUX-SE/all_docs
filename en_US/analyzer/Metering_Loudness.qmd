@@ -216,18 +216,18 @@ The Loudness Range value is displayed once measurement has been running for at l
 according to the EBU [Tech 3342](https://tech.ebu.ch/publications/tech3342) specification,
 otherwise a 'LRA Unstable' warning is shown.
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Metering/LRAUnstable.png)
+![](https://flux-shared.s3.amazonaws.com/doc_images/Analyzer/Metering/LRAUnstable.png)
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Metering/LRAStable.png)
+![](https://flux-shared.s3.amazonaws.com/doc_images/Analyzer/Metering/LRAStable.png)
 
 ### Pause
 
-Clicking the ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Generic/Pause.png) button pauses measurement; clicking again resumes it. 
+Clicking the ![](https://flux-shared.s3.amazonaws.com/doc_images/Analyzer/Generic/Pause.png) button pauses measurement; clicking again resumes it.
 This allows you to make adjustments without affecting Integrated Loudness, instead of having to start all over again.
 
 ### Reset
 
-Clicking the ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Generic/Refresh.png) button resets the meter to its initial state.
+Clicking the ![](https://flux-shared.s3.amazonaws.com/doc_images/Analyzer/Generic/Refresh.png) button resets the meter to its initial state.
 
 :::{.callout-note}
 Don't forget to reset the Loudness meter if you're starting playback of a new track, as Integrated Loudness, by design, measures the overall Loudness since the last reset.
@@ -236,11 +236,11 @@ Otherwise you'd be measuring the overall Loudness of the combined tracks, which 
 :::
 
 ## Setup
-![EBU R128 Loudness metering setup.](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Metering/PLoudMeterSetup.png)
+![EBU R128 Loudness metering setup.](https://flux-shared.s3.amazonaws.com/doc_images/Analyzer/Metering/PLoudMeterSetup.png)
 
 ### Presets
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Metering/LoudnessPresets.png)
+![](https://flux-shared.s3.amazonaws.com/doc_images/Analyzer/Metering/LoudnessPresets.png)
 
 #### Custom
 Uses user-defined custom range according to min./max. values below.

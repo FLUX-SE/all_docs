@@ -30,6 +30,6 @@ Some common speaker channel naming conventions.
 :::
 
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/SpeakerEditor2.png)
+![](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/Setup/SpeakerEditor2.png)
 
 The process of matching the correct channel to the correct speaker is vital to the successful rendering of the spatial composition from a _SPAT Revolution_ _Virtual Room_ into a physical space. Further critical points to a successful project are the choice of panning type in a _Virtual Room_ and consideration of the _Sweet Spot_ for listener positioning. As it is such an important and often misunderstood idea, let us take a look at that topic before going further.

@@ -2,17 +2,17 @@
 
 This page gives an overview and allows editing the major parameters for each item type (Input, Source, Room, etc.)
 
-![The items' page](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Items/Page.png)
+![The items' page](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/Items/Page.png)
 
 The following video illustrates some possibilities that this page offers.
 
-![The Items' page demo](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Items/Demo)
+![The Items' page demo](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/Items/Demo)
 
 ## Items type selection
 
 The upper left list control allows choosing which kind of items you want to display on the Items' Page.
 
-![Items' selection](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Items/ItemSelection)
+![Items' selection](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/Items/ItemSelection)
 
 ## Parameters
 
@@ -40,7 +40,7 @@ In addition to the common parameters, when the _Input_ item's type is selected, 
 - **Connected**: displays if the input is connected to other items.
 - **Invert phase**: invert the phase of the selected item.
 
-![Items page for sources](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Items/Inputs.png)
+![Items page for sources](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/Items/Inputs.png)
 
 ### Source specific parameters
 
@@ -59,7 +59,7 @@ In addition to the common parameters, when the _Source_ item's type is selected,
 - **Mute**: define the mute status of the source.
 - **Invert phase**: invert the phase of the selected item.
 
-![Items page for sources](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Items/Sources.png)
+![Items page for sources](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/Items/Sources.png)
 
 ### Room specific parameters
 
@@ -75,7 +75,7 @@ In addition to the common parameters, when the _Room_ item's type is selected, t
 - **Tracking scaling**: define the tracking scaling of the room in meters.
 - **Invert phase**: invert the phase of the selected item.
 
-![Items page for rooms](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Items/Rooms.png)
+![Items page for rooms](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/Items/Rooms.png)
 
 ## Navigation
 
@@ -108,5 +108,5 @@ Enter text in the top search field to filter the displayed objects. This will se
 
 ### Group sources by rooms
 
-![Group by rooms](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Items/GroupBy)
+![Group by rooms](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/Items/GroupBy)
 

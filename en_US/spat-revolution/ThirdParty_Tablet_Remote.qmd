@@ -35,9 +35,9 @@ As an example, in iOS, once you are trying to open the file (from the above down
 Reach the **copy to Lemur**. 
 _You do have to have Lemur installed first._
 
-![image(0)](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/LemurImportPatch.png)
+![image(0)](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/ThirdParty/LemurImportPatch.png)
 
-![image(1)](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/LemurImportPatchMenu.png)
+![image(1)](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/ThirdParty/LemurImportPatchMenu.png)
 
 The patch will now open in Lemur software. 
 You can save it in your device, clicking on the wheel on the top right.
@@ -47,7 +47,7 @@ You can save it in your device, clicking on the wheel on the top right.
 The simple step to use it with _SPAT Revolution_ is to configure (one time) your OSC Targets, in this case, _SPAT Revolution_. 
 To configure the OSC address and port in Lemur, click on the wheel on the right top, then on “More Settings”.
 
-![image(2)](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/LemurOSCSettings.png)
+![image(2)](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/ThirdParty/LemurOSCSettings.png)
 
 In OSC Targets, you can see the IP Address of your actual remote device. (Lemur IP: **x.x.x.x**). 
 The port is locked by default at ```8000```. 
@@ -69,7 +69,7 @@ You then need to set up an OSC port and host route, in order to connect with SPA
 The port and host should match that of the Lemur app.
 
 
-![image(3)](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/LemurOSCConnectionsMatrix.png)
+![image(3)](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/ThirdParty/LemurOSCConnectionsMatrix.png)
 
 - Input from your IP ```192.168.43.10``` (or whatever you SPAT computer IP is) with port # ```53700```.
 
@@ -83,7 +83,7 @@ The port and host should match that of the Lemur app.
 
 ## SPAT Snapshot
 
-![image(4)](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/LemurSnapshots.png)
+![image(4)](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/ThirdParty/LemurSnapshots.png)
 
 1. Create: Click to create a new snapshot. It will be placed at the end of the snapshot list.
 
@@ -103,7 +103,7 @@ The port and host should match that of the Lemur app.
 
 ## SPAT Remote
 
-![image(5)](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/LemurRemote.png)
+![image(5)](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/ThirdParty/LemurRemote.png)
 
 This patch allows 8 different Remotes to control _SPAT Revolution_’s sources. 
 You have access to the principal parameters, for each source. 
@@ -111,7 +111,7 @@ To choose the source you want to control, touch on the button next to ‘Sources
 A panel will appear with a certain number of sources and a -1 button. 
 This last  control (-1) is the actual selection (or multi-selection) on _SPAT Revolution_.
 
-![image(6)](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/LemurRemoteExplanation.png)
+![image(6)](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/ThirdParty/LemurRemoteExplanation.png)
 
 
 1. Source selection and Snapshot Pad: click on the pad to open the corresponding window.
@@ -129,12 +129,12 @@ This last  control (-1) is the actual selection (or multi-selection) on _SPAT Re
 
 7. XY-Pad Mode: there are 4 different modes, detailed below.
 
-![image(7)](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/LemurXYPadModes.png)
+![image(7)](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/ThirdParty/LemurXYPadModes.png)
   
 
 ## SPAT Multitouch
 
-![image(9)](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/LemurMultitouch.png)
+![image(9)](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/ThirdParty/LemurMultitouch.png)
 
 This patch allows you to control the position of 8 sources at the same time, with different fingers.
 

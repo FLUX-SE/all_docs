@@ -6,21 +6,21 @@ Start and end time-points of the period over which the history are displayed lef
 
 Selecting which meters are to be included in the display is done by clicking the corresponding buttons in the setup.
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/MeteringHistory/Main.png)
+![](https://flux-shared.s3.amazonaws.com/doc_images/Analyzer/MeteringHistory/Main.png)
 
 :::{.callout-note}
 Metering history display.
 :::
 
 ### Timecode offset
-Clicking the ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Generic/TCOffset.png) defines the current time as the Timecode offset.
+Clicking the ![](https://flux-shared.s3.amazonaws.com/doc_images/Analyzer/Generic/TCOffset.png) defines the current time as the Timecode offset.
 
 ### Timecode offset reset
-Clicking the ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Generic/ResetTCOffset.png) button resets the Timecode offset to zero. 
+Clicking the ![](https://flux-shared.s3.amazonaws.com/doc_images/Analyzer/Generic/ResetTCOffset.png) button resets the Timecode offset to zero.
 Absolute and relative Timecode will then be the same.
 
 ### Play
-Clicking the ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Generic/Play.png) toggles history recording on and off. 
+Clicking the ![](https://flux-shared.s3.amazonaws.com/doc_images/Analyzer/Generic/Play.png) toggles history recording on and off.
 Metering values are discarded when off.
 
 :::{.callout-note}
@@ -30,7 +30,7 @@ Keep in mind different meters can be set to different zero reference points when
 :::
 
 ## Setup
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/MeteringHistory/Setup.png)
+![](https://flux-shared.s3.amazonaws.com/doc_images/Analyzer/MeteringHistory/Setup.png)
 
 :::{.callout-note}
 Metering history setup options.

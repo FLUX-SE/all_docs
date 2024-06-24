@@ -2,7 +2,7 @@
 
 Clicking the cogwheel symbol opens a window with a range of general settings and a direct access button to the user manual.
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Plugins/bittersweet-pro/bittersweet-pro_settings.jpg)
+![](https://flux-shared.s3.amazonaws.com/doc_images/Plugins/bittersweet-pro/bittersweet-pro_settings.jpg)
 
 |                             |                                            |
 |            ---              |                   ---                      |

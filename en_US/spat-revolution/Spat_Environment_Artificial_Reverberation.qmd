@@ -7,7 +7,7 @@ The SPAT reverberation engine is designed to synthesize the experience of the vi
 Virtual spaces can be tuned, scaled, and stored.
 Open the _Artificial Reverberation_ graphical editor by clicking on the ```Reverb``` at the bottom of the list of sources on the left side panel of the Room.
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Room/ReverbPanel.png)
+![](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/Room/ReverbPanel.png)
 
 Internally, the _SPAT Revolution_ reverb engine models many technical acoustic parameters, but the user interface has been simplified a great deal to make artificial reverb design more straightforward and functional.
 
@@ -47,14 +47,14 @@ This invites continuous parametric modulation ideas for designing out-of-this-wo
 
 The Artificial Reverberation editor has its own preset management system, where you can save pre-designed models into a user-defined preset list or to disk.
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Room/ReverberationDrawing.png)
+![](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/Room/ReverberationDrawing.png)
 
 This is useful for building up a collection of pre-designed reverberation spaces and for designing models that might closely match the measurements of actual spaces
 you already know.
 
 ## Reverb General
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Room/ReverberationGeneral.png)
+![](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/Room/ReverberationGeneral.png)
 
 ### Reverb enable
 
@@ -83,7 +83,7 @@ Please note that its value can never go below the cluster minimum time, as the r
 
 ## Perceptual Factors
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Room/ReverberationPerceptualFactors.png)
+![](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/Room/ReverberationPerceptualFactors.png)
 
 ### Reverberance
 
@@ -102,7 +102,7 @@ Describes the liveliness and movement associated with the reverb tail (late refl
 
 ## Room Response Parameters
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Room/ReverberationRoomResponse.png)
+![](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/Room/ReverberationRoomResponse.png)
 
 _Early_ refers to the _Early Reflections_ stage of the Room response, one of the most significant stages involved in our rapid aural perception of spatial properties and sound source localization.
 
@@ -147,7 +147,7 @@ See Early Distribution.
 
 ## Options
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Room/ReverberationOptions.png)
+![](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/Room/ReverberationOptions.png)
 
 ### Infinite
 
@@ -172,7 +172,7 @@ Roll-off frequency for the air absorption simulation. Signal content above this 
 
 ## Crossover
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Room/ReverberationCrossover.png)
+![](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/Room/ReverberationCrossover.png)
 
 ### Crossover L
 

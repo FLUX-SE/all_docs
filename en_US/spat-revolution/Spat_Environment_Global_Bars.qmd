@@ -2,7 +2,7 @@
 
 ## Navigation bar
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Generic/TopBar.png)
+![](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/Generic/TopBar.png)
 
 The Navigation bar appears at the top of all views. As well as links to different editor views and to the preference, it also offers you the possibility to mute and unmute rooms.
 
@@ -10,7 +10,7 @@ The status and help bars appear at the bottom of all views. It gives information
 
 ## Status bar
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Generic/StatusBar.png)
+![](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/Generic/StatusBar.png)
 
 The status bar helps you easily monitor many critical information about your hardware and your incoming or outgoing audio stream.
 
@@ -60,7 +60,7 @@ With Send/Return plug-ins, if the sampling rate and block size between DAW and _
 
 ## Snapshot bar
 
-![Snasphot toolbar](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Generic/SnapshotToolbar.png)
+![Snasphot toolbar](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/Generic/SnapshotToolbar.png)
 
 This toolbar has been designed to help to handle snapshots without navigating to the snapshots page. Some of the most important snapshot actions will be found on it:
 * Recall the ```Previous``` snapshot.
@@ -78,7 +78,7 @@ More information about snapshots can be found on the **[snapshots page -@snapsho
 
 ## Transport bar
 
-![Transport bar](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Generic/TransportBar.png)
+![Transport bar](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/Generic/TransportBar.png)
 
 The transport bar allows to access to the recording feature of SPAT Revolution. It is possible to write the audio stream going through any blocs (except for the sources) to audio files. 
 
@@ -88,7 +88,7 @@ Closing the session, deleting a block, or dearming a block will automatically st
 
 ## Media stream bar
 
-![Media bar](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Generic/MediaBar.png)
+![Media bar](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/Generic/MediaBar.png)
 
 This bar provides information about the recording blocks, the file names and path, the elapsed time of recording, the number of channels recorded, and more.
 It will be automatically displayed when arming a block.

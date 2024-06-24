@@ -1,6 +1,6 @@
 # SPAT Mixing Engine
 
-![Main mixing view of SPAT Revolution](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Room/3DView.png)
+![Main mixing view of SPAT Revolution](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/Room/3DView.png)
 
 SPAT Revolution mixing engine takes advantage of object-based mixing. Such engines are generally presented in two parts:
 

@@ -1,10 +1,10 @@
 # Speaker Arrangement Editor {#sec-speaker-editor}
 
-![The speaker arrangement editor window showing a predefined 13.1 Auro 3D speaker arrangement.](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/SpeakerEditor1.png)
+![The speaker arrangement editor window showing a predefined 13.1 Auro 3D speaker arrangement.](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/Setup/SpeakerEditor1.png)
 
 The **speaker arrangement editor** offers the ability to prepare the model of the sound diffusion system you are actually using.
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/RoomInspectorEdit.png)
+![](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/Setup/RoomInspectorEdit.png)
 
 When you find yourself working on a custom multi-channel speaker arrangement, the **Speaker Config** editor is where a model of the sound diffusion system can be defined and stored in the list of speaker arrangements.
 
@@ -29,13 +29,13 @@ A diffusion system could range from a simple pair of headphones to an 18 (**Esse
 In some of the more virtualized workflows of _SPAT Revolution_, you may even be thinking about diffusion in a virtual space on configurations of virtual speaker arrangements and channel-based formats.
 The same rule for successful diffusion applies here—the diffusion in the virtual room will be compromised and sound off if the channel assignments to the virtual systems are incorrect.
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Room/3DViewMultichannelSources.png)
+![](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/Room/3DViewMultichannelSources.png)
 
 In the above illustration, a virtual 5.1 and a virtual Cube arrangement exist together in a High Order Ambisonic Room, which may eventually be rendered to some other channel-based end format. -->
 
 ## Creating & editing a speaker arrangement
 
-![SPAT Revolution_ Speaker Config](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/SpeakerEditor3.png)
+![SPAT Revolution_ Speaker Config](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/Setup/SpeakerEditor3.png)
 
 While there are many standardized speaker arrays, such as Dolby Surround, Atmos, Auro 3D, DTS, Quad or even stereo, we are in many cases confronted with a very specific speaker positioning.
 
@@ -67,7 +67,7 @@ For such a use case, it is possible to create custom speaker arrangements. Using
 
 ### Alignment section
 
-![_SPAT Revolution_ Speaker Config](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/SpeakerEditorCompute3.png)
+![_SPAT Revolution_ Speaker Config](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/Setup/SpeakerEditorCompute3.png)
 
 **Reset:** revert the *compute* process.
 
@@ -159,7 +159,7 @@ Tips: to point down (speaker with positive elevation) or up (speaker with negati
 
 Here, we can find information about which pan law is available in regard to our speaker array. Some explanations are displayed to help understand why some pan laws aren't available.
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/SpeakerEditorPanningTips.png)
+![](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/Setup/SpeakerEditorPanningTips.png)
 
 There are five colors associated with the possible panning types:
 
@@ -168,7 +168,7 @@ There are five colors associated with the possible panning types:
 + **Red**: this panning type is not functional with the selected speaker array. Hovering the panning type with the mouse will display a message to explain why it does not work.
 + **Grey**: Two speakers are located at the same spot (i.e. the speakers are coincident). The speaker arrangement is incorrect.
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/SpeakerEditorInvalid.png)
+![](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/Setup/SpeakerEditorInvalid.png)
 
 :::{.callout-note}
 Error displayed with HOA panning type.
@@ -184,7 +184,7 @@ The rule of thumb is to think in plan and not in absolute height. If speakers ar
 
 ### Alignment {#sec-speaker-editor-alignment}
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/AlignmentDialog.png)
+![](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/Setup/AlignmentDialog.png)
 
 The speakers alignments section lets _SPAT Revolution_ compute the delay and gain for the selected speaker arrangement. To help to deal with them with complex systems, several methods are provided, allowing adapting your alignment according to the wanted behavior:
 
@@ -223,7 +223,7 @@ To ease this part of the setup, you can now import from the software of Nexo (NS
 
 This import is integrated into the **Speaker Arrangement** editor where you can find the ```Import from``` button.
 
-![image](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/SpeakerEditorImportFrom.png)
+![image](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/Setup/SpeakerEditorImportFrom.png)
 To begin is the FLUX IOConfig. This is the FLUX:: speaker arrangements file format. This can be a great tool to export and save your FLUX:: arrangements or to import an arrangement into another session / computer system.
 
 In _SPAT Revolution_, it is important to understand that speaker arrangements **DO**  follow the session file. So if you are opening a .JSON with an arrangement new to your system, _SPAT Revolution_ will copy that arrangement and it will then be part of the user-created arrangements. In consequence, this new arrangement will be accessible for any new _SPAT Revolution_ session.
@@ -255,17 +255,17 @@ In NS-1, to export all the speakers: Go to the ```Speaker Positions Windows```, 
 
 In BluePrint, to export all the cabinets: Go to the Cabinet tab. In the line ```Cabinet Group```, click on the 4th button, ```Export All Cabinets```. This will export a .arys file readable by _SPAT Revolution_.
 
-![image(1)](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/AdamsonExport.png)
+![image(1)](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/Setup/AdamsonExport.png)
 
 
 #### d&b ArrayCal
 
 In ArrayCal, export all the sources with "Files/Export/EASE/Coordinates of all sources". This will export a .xld file readable by _SPAT Revolution_.
 
-![image(2)](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/dbExport.png)
+![image(2)](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/Setup/dbExport.png)
 
 #### Excel
 
-![image(2)](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/SpeakerEditorImportExcel.png)
+![image(2)](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/Setup/SpeakerEditorImportExcel.png)
 
 **[Speaker import from Excel template](https://public.3.basecamp.com/p/w1VQL9UbbndSXP5P3qpU6DnU)**

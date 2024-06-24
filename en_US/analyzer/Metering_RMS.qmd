@@ -8,9 +8,9 @@ The peak value is also displayed in a numeric format at the top of the meter, wh
 
 Several meter displays are available, each scrupulously implementing one of the more common and up-to-date industry norms, as detailed in the following paragraphs.
 
-![Meters with stereo input.](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Metering/Stereo.png)
+![Meters with stereo input.](https://flux-shared.s3.amazonaws.com/doc_images/Analyzer/Metering/Stereo.png)
 
-![Meters with 5.1 surround input.](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Metering/Surround51.png)
+![Meters with 5.1 surround input.](https://flux-shared.s3.amazonaws.com/doc_images/Analyzer/Metering/Surround51.png)
 
 ## Introduction
 
@@ -27,7 +27,7 @@ For this, you will need to get your hands on a calibrator, which is a box fitted
 ## Preset
 A number of presets covering widely and not so widely-used metering standards are provided.
 
-![Available RMS metering presets](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Metering/PresetsRMS.png)
+![Available RMS metering presets](https://flux-shared.s3.amazonaws.com/doc_images/Analyzer/Metering/PresetsRMS.png)
 
 ### Custom
 User defined values.
@@ -78,7 +78,7 @@ Same as above except for ballistics, where the integration time is changed to 69
 
 ## Settings
 
-![RMS metering setup options](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Metering/Setup.png)
+![RMS metering setup options](https://flux-shared.s3.amazonaws.com/doc_images/Analyzer/Metering/Setup.png)
 
 ### Reference
 
@@ -91,7 +91,7 @@ Standard values are -18dB for DVD authoring and -20dB for film.
 
 
 #### Weighting
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Metering/Weighting.png)
+![](https://flux-shared.s3.amazonaws.com/doc_images/Analyzer/Metering/Weighting.png)
 
 Applies an optional weighting filter conforming to various standard curves:
 

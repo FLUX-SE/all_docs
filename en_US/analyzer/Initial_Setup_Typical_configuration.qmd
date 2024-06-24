@@ -34,16 +34,16 @@ perform transfer curve measurements at different locations more conveniently.
 ## Digital Audio Workstation
 Any recent computer should be able to run FLUX:: Analyzer smoothly in a stand-alone configuration. Running your preferred DAW host application alongside with an instance of FLUX:: Analyzer naturally raises the requirements. Operating in this way will most probably require a dual-screen setup in order to be able to monitor the FLUX:: Analyzer display and DAW interface simultaneously.
 
-![SampleGrabber and FLUX:: Analyzer running on the same machine](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/SampleGrabber/DAWInsert.png)
+![SampleGrabber and FLUX:: Analyzer running on the same machine](https://flux-shared.s3.amazonaws.com/doc_images/Analyzer/SampleGrabber/DAWInsert.png)
 
-![Audio source and FLUX:: Analyzer on separate hardware](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/SampleGrabber/DualHardwareHostConfig.png)
+![Audio source and FLUX:: Analyzer on separate hardware](https://flux-shared.s3.amazonaws.com/doc_images/Analyzer/SampleGrabber/DualHardwareHostConfig.png)
 
 ## Avid Venue Console
 SampleGrabber is available as an AAX DSP plugin, which is the preferred format when using an AVIDVenue live console. Using one or more SampleGrabber instances will free up several precious hardware outputs.
 
 When performing transfer function and impulse response measurements, a recommended way of working is to insert a SampleGrabber on the master output and set the microphone signal as key input. This simplifies the routing and allows for fast switching between different microphones.
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/SampleGrabber/VENUE.png)
+![](https://flux-shared.s3.amazonaws.com/doc_images/Analyzer/SampleGrabber/VENUE.png)
 
 :::{.callout-note}
 Recommended setup with Avid Venue console

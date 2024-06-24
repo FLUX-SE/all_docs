@@ -9,7 +9,7 @@ The SPAT Revolution Remote communication adopts the basic [ADM-OSC](Ecosystem_&_
 
 The first installation step is to download the resources. A config and a patch files are available for download via the [FLUX:: Center](https://www.flux.audio/download/)
 
-![FLUX:: Center SPAT Revolution Remote](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/SPATRevolutionRemoteInstall.png)
+![FLUX:: Center SPAT Revolution Remote](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/ThirdParty/SPATRevolutionRemoteInstall.png)
 
 This installs the resources in:
 
@@ -28,7 +28,7 @@ Please note that the remote released in 2024.05 needs the Open Stage Control hig
 
 Once installed, you can simply run the Open Stage Control application and configure it. According to your system, a Windows or macOS config file is downloaded. This config file can be simply loaded to Open Stage Control by pressing the three dots on the right side of the interface.
 
-  ![Load Config](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/SPATRevolutionRemoteLoadConfig.png)
+  ![Load Config](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/ThirdParty/SPATRevolutionRemoteLoadConfig.png)
 
 Simply locate the config file in your folder:
 
@@ -37,18 +37,18 @@ Simply locate the config file in your folder:
 
 This config file will provide a default configuration with predefined OSC (```9400``` and ```9401```) and Web server (```9410```) port numbers.
 
-  ![SPAT Revolution Remote Config](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/SPATRevolutionRemoteConfig.png)
+  ![SPAT Revolution Remote Config](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/ThirdParty/SPATRevolutionRemoteConfig.png)
 
 
 The last step is to run the server. Simply press the Play button, and the server will be up and running. The console will show all the client session info for all the available network interfaces with the computer.
-![Run Server](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/SPATRevolutionRemoteRunServer.png)
-![Server Info](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/SPATRevolutionRemoteServerInfo.png)
+![Run Server](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/ThirdParty/SPATRevolutionRemoteRunServer.png)
+![Server Info](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/ThirdParty/SPATRevolutionRemoteServerInfo.png)
 
 By default, the actual user interface of the Remote control will appear on your computer. You can actually use it but can simply close it if you strictly intend to use it remotely.
 
 If you would rather not see this interface every time the server starts, you can add ```true``` to the no-gui field. But you are serving any browser in all cases.
 
-![No GUI](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/SPATRevolutionRemoteConfigNoGui.png)
+![No GUI](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/ThirdParty/SPATRevolutionRemoteConfigNoGui.png)
 
 :::{.callout-warning}
   **Important: ** *Please ensure to open the server before opening SPAT Revolution*.
@@ -59,7 +59,7 @@ If you would rather not see this interface every time the server starts, you can
 
 You can optionally engage the autostart so the server will run every time Open Stage Control is started. You can also make Open Stage Control part of the launch of your computer so it will always be there running for you.
 
-![Autostart](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/SPATRevolutionRemoteAutostart.png)
+![Autostart](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/ThirdParty/SPATRevolutionRemoteAutostart.png)
 
 ## SPAT Revolution configuration
 
@@ -69,23 +69,23 @@ Configuring SPAT Revolution requires to set the OSC Connection Input and Output 
 
 - Add the ```input | SPAT Remote server``` preset
 
-![SPAT Revolution OSC Connection Input](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/SPATRevolutionRemoteSPATOSCConnectionIn.png)
+![SPAT Revolution OSC Connection Input](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/ThirdParty/SPATRevolutionRemoteSPATOSCConnectionIn.png)
 
 - Add the ```output| SPAT Remote server``` preset
 
-![SPAT Revolution OSC Connection Output](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/SPATRevolutionRemoteSPATOSCConnectionOut.png)
+![SPAT Revolution OSC Connection Output](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/ThirdParty/SPATRevolutionRemoteSPATOSCConnectionOut.png)
 
 :::{.callout-note}
 These above presets use the default ports and address of the supplied Open Stage Control Config files. By default, the local ```127.0.0.1``` address is set as it is assumed that the Remote server (Open Stage Control) is used locally on the same computer as SPAT Revolution. This is the most common scenario. Suppose your server is running on another computer. In that case, you can simply change the IP address on the server before launching it, giving the IP of the SPAT Revolution computer Ethernet interface NIC.
 :::
 
-![Changing the IP address in the server](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/SPATRevolutionRemoteConfig_ChangeIP.png)
+![Changing the IP address in the server](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/ThirdParty/SPATRevolutionRemoteConfig_ChangeIP.png)
 
 ## Reaching the Remote interface from the browser
 
 In the above example, we saw that after launching the server, we saw the addresses that the app was available at:
 
-![Server Info](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/SPATRevolutionRemoteServerInfo.png)
+![Server Info](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/ThirdParty/SPATRevolutionRemoteServerInfo.png)
 
 This is basically giving you all the addresses of your computer's network interfaces that can reach the server as a client (in a browser), and reach the SPAT Revolution Remote. For example, the last one, the ```172.20.10.2``` represents the hardwire connection of an iPad - yes, they form a network when you connect them to USB. This makes a more than ever robust remote instead of relying on Wi-Fi (which still works well).
 
@@ -93,26 +93,26 @@ With this, we can then turn to the iPad and start Safari. It is the preferred br
 
 -  ``` http://172.20.10.2:9410 ```
 
-![Reaching the server from Ipad](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/SPATRevolutionRemote_RemoteClientIpad.png)
+![Reaching the server from Ipad](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/ThirdParty/SPATRevolutionRemote_RemoteClientIpad.png)
 
 
 ### Adding the SPAT Revolution Remote as a shortcut(Ipad)
 
 If you want a shortcut on your iPad to reach the SPAT Revolution remote, you can do this with these simple steps. It is important to note that if you change the server's IP address, you will need to redo this step again.
 
-![Adding Page to iPad Home Screen 1 25%](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/SPATRevolutionRemote_IpadHome1.png)
+![Adding Page to iPad Home Screen 1 25%](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/ThirdParty/SPATRevolutionRemote_IpadHome1.png)
 
-![Adding Page to iPad Home Screen 2](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/SPATRevolutionRemote_IpadHome2.png)
+![Adding Page to iPad Home Screen 2](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/ThirdParty/SPATRevolutionRemote_IpadHome2.png)
 
-![Adding Page to iPad Home Screen 3](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/SPATRevolutionRemote_IpadHome3.png)
+![Adding Page to iPad Home Screen 3](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/ThirdParty/SPATRevolutionRemote_IpadHome3.png)
 
 ## SPAT Revolution Remote  page
 
 Although most pages are pretty much self-explanatory, here is a review of the Main and Snapshot pages
 
-![SPAT Revolution Main Page](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/SPATRevolutionRemoteMain.png)
+![SPAT Revolution Main Page](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/ThirdParty/SPATRevolutionRemoteMain.png)
 
-![SPAT Revolution Main Page](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/SPATRevolutionRemoteSnapshot.png)
+![SPAT Revolution Main Page](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/ThirdParty/SPATRevolutionRemoteSnapshot.png)
 
 ## One SPAT Remote to several SPAT Revolution configuration
 
@@ -122,7 +122,7 @@ Static IP Solution :
 In Open Stage Control, it's possible to specify a set of predefined IP addresses, for example, ```127.0.0.1:9400 192.168.1.10:9403```.
 In a context where a network switch assigns fixed IPs based on the MAC address of each device, this facilitates the deployment of the installation.
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/SPATRemoteMultipleDestinations.png)
+![](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/ThirdParty/SPATRemoteMultipleDestinations.png)
 
 Broadcast solution:
 For example, on a subnet of ```192.168.1.x```, if you send a message to ```192.168.1.255```, it will broadcast to the entire subnet.

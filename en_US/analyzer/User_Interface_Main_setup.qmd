@@ -1,5 +1,5 @@
 # Main setup {#sec-user-interface-main-setup}
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Setup/MainSetup.png)
+![](https://flux-shared.s3.amazonaws.com/doc_images/Analyzer/Setup/MainSetup.png)
 
 Main setup dialog
 
@@ -14,7 +14,7 @@ Configuration -@sec-io-config] and [UI Setup -@sec-ui-section].
 The password entered in this field should match the one used by the SampleGrabber you wish to use as a source. This provides a reasonable level a security and prevents unauthorized access to your audio material broadcast over the network. Please take into consideration the encryption used only provides moderate protection, and is not intended to replace other security guards such as firewalls etc.
 
 ## Graphic engine
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Setup/EngineFrameRate.png)
+![](https://flux-shared.s3.amazonaws.com/doc_images/Analyzer/Setup/EngineFrameRate.png)
 
 :::{.callout-note}
 Available graphic engine frame rates
@@ -25,7 +25,7 @@ Here you can specify the rate at which the display should be refreshed. Please n
 >The effective frame rate can be displayed by typing `SetRenderStats(1)` in the console.
 
 ## Time code
-![Available display frame rates](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Setup/DisplayFrameRate.png)
+![Available display frame rates](https://flux-shared.s3.amazonaws.com/doc_images/Analyzer/Setup/DisplayFrameRate.png)
 
 ### Display frame rate
 Sets the frame-rate used for time display in various parts of
@@ -37,21 +37,21 @@ This setting toggles between absolute and relative time-code display formats. Ab
 ## Main
 
 ### RTA block size
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Setup/RTABlockSize.png)
+![](https://flux-shared.s3.amazonaws.com/doc_images/Analyzer/Setup/RTABlockSize.png)
 
 Defines the size of the blocks, in samples, fed to the main spectrum analyzer engine, which is used by the spectrum magnitude, Nebula and spectrogram views.
 
 Pure spectrum Toggles between optimized frequency analysis (default) and standard FFT.
 
 ### TF/Sweep Block size
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Setup/TFBlockSize.png)
+![](https://flux-shared.s3.amazonaws.com/doc_images/Analyzer/Setup/TFBlockSize.png)
 
 Block size used for the transfer function and snapshot performed with sine-sweep. The default is 32768, which is appropriate for most cases.
 
 Increasing this value gives better frequency resolution, at the expense of CPU load. Lower values can be employed if you're only interested in the overall response of the analyzed system.
 
 ### Overlap Mode
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Setup/OverlapMode.png)
+![](https://flux-shared.s3.amazonaws.com/doc_images/Analyzer/Setup/OverlapMode.png)
 
 The overlap mode setting determines how much incoming audio frames overlap each-other. A higher overlap results in a smoother display update, at the expense of increased CPU usage. The available settings are:
 * Full: highest overlap
@@ -60,7 +60,7 @@ The overlap mode setting determines how much incoming audio frames overlap each-
 
 
 ### Analysis window
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Setup/AnalysisWindow.png)
+![](https://flux-shared.s3.amazonaws.com/doc_images/Analyzer/Setup/AnalysisWindow.png)
 
 Selects the analysis window applied to the incoming blocks.
 
@@ -77,7 +77,7 @@ Available choices are:
 There is no reason to change this setting unless you have a specific reason to do so and fully understand the implications.
 
 ### Normalization
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Setup/Normalization.png)
+![](https://flux-shared.s3.amazonaws.com/doc_images/Analyzer/Setup/Normalization.png)
 
 Selects the normalization mode used to normalize the global gain of the spectrum display.
 
@@ -91,7 +91,7 @@ gives 0dB power.
 
 
 ### Scaling
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Setup/Scaling.png)
+![](https://flux-shared.s3.amazonaws.com/doc_images/Analyzer/Setup/Scaling.png)
 
 This setting controls the frequency dependent amplitude spectrum correction curve.
 
@@ -104,7 +104,7 @@ Available choices are:
 
 
 ## Averaging
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Setup/AveragingMode.png)
+![](https://flux-shared.s3.amazonaws.com/doc_images/Analyzer/Setup/AveragingMode.png)
 
 [Time -@sec-rms-metering-time] averaging: engages averaging of spectrum magnitudes over time. Default is off.
 

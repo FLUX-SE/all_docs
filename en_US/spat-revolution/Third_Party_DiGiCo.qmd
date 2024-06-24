@@ -6,12 +6,12 @@ Templates can be found here:
 * Before starting the SPAT Revolution software, make sure you have connected your Ethernet cable between the mixing desk and the computer running SPAT.
   Ensure you set the correct IP settings for your local network card. In our example, we are using ```192.168.0.200```.
 
-![Network](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/DigicoNetwork.png)
+![Network](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/ThirdParty/DigicoNetwork.png)
 
 * Start the SPAT Revolution software and open the preference page.
 * Enable OSC.
 
-![Enable OSC](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Preference/OSCMain.png)
+![Enable OSC](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/Preference/OSCMain.png)
 
 * In the OSC Connections section, use the pre-configured DiGiCo OSC presets.
   In the pull-down menu, choose **input | DiGiCo** and select your local IP address to communicate with the desk.
@@ -19,7 +19,7 @@ Templates can be found here:
   In the pull-down menu, choose **output | DiGiCo.**
   You will then enter the desk IP address that we will see in the following steps.
 
-![OSC Connections DiGiCo Presets](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/DigicoOSCConnections.png)
+![OSC Connections DiGiCo Presets](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/ThirdParty/DigicoOSCConnections.png)
 
 ## Configuration and Templates
 
@@ -30,14 +30,14 @@ _This is a one-time setup for each specific console._
 
 * Go to the **Setup / External Control** section of the desk.
 
-![Network](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/DigicoMainMenu.png)
+![Network](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/ThirdParty/DigicoMainMenu.png)
 
 You will want to ensure **Enable External Control** is set to **YES** and the **Suppress OSC retransmit** is **active**.
 You will be using OSC generic for channel controllers.
 You are now ready to **add device** to configure the OSC connection.
 It is considered **other OSC** .
 
-![Network](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/DigicoExternalControlMenu.png)
+![Network](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/ThirdParty/DigicoExternalControlMenu.png)
 
 * Press **add device**, and give your device a name: for example, SPAT Revolution.
   Enter the IP address of your SPAT Revolution computer: in this example, ```192.168.0.200```.
@@ -56,14 +56,14 @@ One is for using SPAT control on all input channels; the other is for using it o
 
 After your file is loaded, you can see, for example, how to access these parameters on the desk.
 
-![Network](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/DigicoEnableTrackExternalControl.png)
+![Network](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/ThirdParty/DigicoEnableTrackExternalControl.png)
 
 Select an Input channel and open the channel's output page.
 Select **external control**.
 It will then open the external control tab.
 Here, you will find the predetermined most common parameters for the SPAT Revolution. A user could decide to change these if needed (for example, if rather wanting to use XYZ commands).
 
-![Network](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/DigicoTrackExternalControl.png)
+![Network](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/ThirdParty/DigicoTrackExternalControl.png)
 
 Configured in the templates are:
 
@@ -90,11 +90,11 @@ Configured in the templates are:
 **DiGiCo OSC Generic External Control - Rotaries**
 
 ![DiGiCo OSC Generic External Control - Rotaries
-](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/DigicoExternalControlRotaries.png)
+](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/ThirdParty/DigicoExternalControlRotaries.png)
 
 **DiGiCo OSC Generic External Control - Switch**
 
-![DiGiCo OSC Generic External Control - Switch](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/DigicoExternalControlSwitches.png)
+![DiGiCo OSC Generic External Control - Switch](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/ThirdParty/DigicoExternalControlSwitches.png)
 
 ## Audio routing
 

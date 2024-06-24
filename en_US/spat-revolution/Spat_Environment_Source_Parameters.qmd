@@ -2,7 +2,7 @@
 
 ## Room specific gain
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Room/SourceRoomSpecific.png)
+![](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/Room/SourceRoomSpecific.png)
 
 New on the 22.02 build, this parameter allows trimming the source gain on each room. A source can so have a different level for each room, which can be useful for monitor, musician headphone monitor, N-1, ...
 
@@ -10,7 +10,7 @@ Only the parameter dedicated to the current room will be displayed, but it's pos
 
 ## Perceptual Factors {#sec-sources-parameters-perceptual-factor}
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Room/SourcePerceptualFactors.png)
+![](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/Room/SourcePerceptualFactors.png)
 
 This parameter group holds settings affecting the way the source's direct and reverberated acoustic properties are perceived by the listener.
 
@@ -48,7 +48,7 @@ Envelopment corresponds to the perceived notion of how much the listener feels t
 
 ## Reverb Options
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Room/SourceReverb.png)
+![](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/Room/SourceReverb.png)
 
 ### Reverb Enabled
 
@@ -74,7 +74,7 @@ Controls the width of the sound projection lobe of the early reflections from a 
 
 ## Axis / Omni Filters
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Room/SourceSpectral.png)
+![](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/Room/SourceSpectral.png)
 
 These two spectral processors can be considered as equalizers that have been specially designed for virtual sound emitters simulated in virtual spaces.
 
@@ -94,7 +94,7 @@ Setting a rather flat on-axis equalizer curve, and maybe cutting the treble and 
 
 ## Radiation
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Room/SourceRadiation.png)
+![](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/Room/SourceRadiation.png)
 
 This section controls the simulation of acoustic radiation in relation to the location and emitter orientation of the virtual source. Use these parameters to simulate how a source will interact inside the reverberant environment.
 
@@ -136,7 +136,7 @@ Aperture can make a source 'activate' more of the acoustic space.
 
 ## Send LFE
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Room/SourceSendLFE.png)
+![](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/Room/SourceSendLFE.png)
 
 This panel will only be available when the room is a Channel-Based Format which features one or several LFE speakers in its configuration, such as DTU7.1 / 5.1 / 22.2, AURO, and ATMOS for example.
 
@@ -148,7 +148,7 @@ Automate the LFE sends for dynamic low-frequency effects.
 
 ## Barycentric
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Room/SourceBarycentric.png)
+![](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/Room/SourceBarycentric.png)
 
 These rotational transformations will only work on a virtual source that consists of more than one emitter in a grouped channel-based arrangement. They will also become active when you _shift-select_ mono sources together to form an ad hoc group or shift-select mono sources in combination with grouped channel-based sources. The 3-dimensional group rotations are calculated using a 'barycentric gravity' method to transform a network of sound sources constrained in a group relationship.
 
@@ -166,7 +166,7 @@ The barycentric transformations will continue to orient their on-axis energy tow
 
 ## Options
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Room/SourceOptions.png)
+![](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/Room/SourceOptions.png)
 
 Finally, there are some options available for each source. It is possible to edit a global parameter on the room panel on the preferences page.
 
@@ -208,7 +208,7 @@ Changes the behavior of the translation mode regarding the Z-axis. The behavior 
 
 ## Spreading
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Room/SourceSpreading.png)
+![](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/Room/SourceSpreading.png)
 
 ### Spread Factor
 

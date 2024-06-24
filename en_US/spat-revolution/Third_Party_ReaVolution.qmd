@@ -65,12 +65,12 @@ And that's all!
 
 The basic layout of ReaVolution is a bit different from the default Reaper settings.
 
-![reavolution.jpg](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/ReavolutionEmptyProject.png)
+![reavolution.jpg](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/ThirdParty/ReavolutionEmptyProject.png)
 
 The transport bar is now at the top of the user interface. Just bellow there is the main toolbar. 
 Here you will find all the main state you need to keep an eye on.
 
-![maintoolbar.jpg](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/ReavolutionMainToolbar.png)
+![maintoolbar.jpg](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/ThirdParty/ReavolutionMainToolbar.png)
 
 First is the play mode. 
 When off, the play cursor comes back to its initial state when the playback is stopped. When on, the play cursor stays at its position when the playback is stopped.
@@ -87,7 +87,7 @@ In the middle group of icons, we'll first a toggle to activate the metronome. A 
 
 The third button group contains four actions. The first one automatically group newly recorded items when on. The second one links the automation point to the item position. This means that if the item is moved, the automation point will move with it. Then there is the master group toggle. When on the item's groups are effective. When off, all item's groups are set to off. Lastly, the foremost right icon activates the auto-crossfade option.
 
-![toolbar2.jpg](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/ReavolutionToolbar.png)
+![toolbar2.jpg](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/ThirdParty/ReavolutionToolbar.png)
 
 On the left side of the arrangement view, above the track panel control (TCP), there are two buttons. The red "M" one is a master mute, the other one is a master solo. If at any point one of the track is muted or soloed, the respective toggle will display on. By setting it off, it clears, respectively, all the mute or all the solo.
 
@@ -142,7 +142,7 @@ If you are working on a session that has not been created with ReaVolution, you 
  Inserting an Audio Stream plug-in will not be sufficient to display the stream type in the MCP. You have to right click on the instance and select "Show embedded UI".
 :::
 
-![createSession.gif](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/ReavolutionCreateSession)
+![createSession.gif](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/ThirdParty/ReavolutionCreateSession)
 
 :::{.callout-note}
 When defining a channel based audio stream, you can either enter a number of channels (12 for example) or enter a speaker arrangement (5.1, 7.1, 7.1.4, 22.2 etc...).
@@ -178,7 +178,7 @@ To create a bus, select the desire tracks to group and hit the command ```CTRL/C
 
 A bus created with this command checks the audio stream of each track and adjusts its number of channels to fit them all. It also looks at the parent channel of each track. For example, if you have one mono track going to 3-4 channels and another one going to 5-6 channels, it will create a bus routed to 3-4 and reroute the child track to 1-2 and to 3-4.
 
-![bus.gif](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/ReavolutionBus)
+![bus.gif](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/ThirdParty/ReavolutionBus)
 
 **Creating multi-busses**
 
@@ -210,7 +210,7 @@ ReaVolution comes with an action that do all of this automatically. With the hel
 
 This action is found by right clicking on a track, inside the menu **"SPAT Revolution"**. It is called **"Route selected tracks to SPAT Revolution"**. This action will create a new auxiliary for each selected track, with the right routing, the right configuration and a SPAT Revolution Send Plug-in inserted.
 
-![sendToSpat.gif](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/ReavolutionSendToSpat)
+![sendToSpat.gif](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/ThirdParty/ReavolutionSendToSpat)
 
 After running this action, you should be done at least at 95% of your configuration.
 
@@ -218,11 +218,11 @@ After running this action, you should be done at least at 95% of your configurat
 
 To receive audio from _SPAT Revolution_, simply create a track at the wanted format using **"Audio stream::insert track"**. Then, go back to the **"SPAT Revolution"** menu by right-clicking on the track we just created and choose **"Receive audio from SPAT Revolution on selected track"**.
 
-![receiveFromSpat.gif](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/ReavolutionReceiveFromSpat)
+![receiveFromSpat.gif](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/ThirdParty/ReavolutionReceiveFromSpat)
 
 You will find an option related to SPAT routing in the top bar menu, under **Extension>ReaVolution>When tracks are routed to SPAT**. 
 
-![reavolutionNewExtensionMenu.png](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/ReavolutionNewExtensionMenu.png)
+![reavolutionNewExtensionMenu.png](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/ThirdParty/ReavolutionNewExtensionMenu.png)
 
 This option allows to configure the default behavior of sending audio to and receiving audio from SPAT Revolution. By default, the local audio path, which allows sending audio from Reaper to SPAT using virtual audio pipe, is on, the same as the thru option of SPAT send plug-in and the override option of SPAT Return plug-in.
 
@@ -252,13 +252,13 @@ Regarding the time selection, it is now quite volatile and easy to clear. A simp
 
 You will also notice that the play/edit cursor is know very static. To move it, you can either left click in the ruler of the use the middle click of the mouse in the arrange view.
 
-![mouseEditing.gif](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/ReavolutionMouseEditing)
+![mouseEditing.gif](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/ThirdParty/ReavolutionMouseEditing)
 
 **Moving items**
 
 Items can be move by simply dragging them by clicking on the bottom half. It is also dependent on the time selection. There is no need to cut the items prior to move part of them. If the time selection is longer than the selected items, the time selection is trimmed to adjust to the item selection.
 
-![itemMove.gif](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/ReavolutionItemMove)
+![itemMove.gif](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/ThirdParty/ReavolutionItemMove)
 
 **Advanced mouse usage**
 
@@ -266,7 +266,7 @@ Items can be move by simply dragging them by clicking on the bottom half. It is 
 
 Double clicking in an empty area of a track selects the time between two items or between the beginning of the session and the first item on the track.
 
-![selectEmptyArea.gif](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/ReavolutionSelectEmptyArea)
+![selectEmptyArea.gif](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/ThirdParty/ReavolutionSelectEmptyArea)
 
 - **Quickly move items**
 
@@ -282,7 +282,7 @@ ReaVolution has some quick way to move items to the play cursor:
 
 You can set the snap offset of an item by using the mouse modifier ```SHIFT+CTRL``` and by clicking on the top half of the item.
 
-![moveItem.gif](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/ReavolutionMoveItem)
+![moveItem.gif](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/ThirdParty/ReavolutionMoveItem)
 
 - **Automatic ripple edit**
 
@@ -299,13 +299,13 @@ ReaVolution comes with a set of shortcuts and mouse modifiers that take advantag
 
 :::
 
-![rippleEdit.gif](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/ReavolutionRippleEdit)
+![rippleEdit.gif](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/ThirdParty/ReavolutionRippleEdit)
 
 **Using the keyboard**
 
 ReaVolution comes with a complete set of shortcuts to easily edit audio items. To make it really simple, a zone of the keyboard is dedicated to editing.
 
-![keyboard.jpg](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/ReavolutionKeyboardPicture.png)
+![keyboard.jpg](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/ThirdParty/ReavolutionKeyboardPicture.png)
 
 To keep things logical, there is two sets of shortcuts provided by ReaVolution : an AZERTY one and a QWERTY one. By default ReaVolution is set in AZERTY. To change this layout, go to the action list (shift+?), click on "Key Map" and choose "Import shortcut key map". In the newly opened explorer/finder window, choose the desire ReaVolution key map file. **This key maps only affect the shortcut shown in this section.**
 

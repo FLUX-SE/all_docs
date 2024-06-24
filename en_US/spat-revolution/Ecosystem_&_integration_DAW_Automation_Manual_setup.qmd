@@ -15,11 +15,11 @@ You must set up automation manually when you are not using the local audio path 
 
 The first step is to attend the _SPAT Preferences_ and _Enable OSC_.
 
-![OSC Main](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Preference/OSCMain.png)
+![OSC Main](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/Preference/OSCMain.png)
 
 You must then set up an OSC connection to connect with SPAT plug-ins via OSC. In one of the _SPAT Revolution_ OSC connections, you can choose an input preset for a SPAT plug-in and do the same for the output preset configuration.
 
-![OSC Connection SPAT Plug-ins](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/OSCConnectionsPlugins.png)
+![OSC Connection SPAT Plug-ins](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/ThirdParty/OSCConnectionsPlugins.png)
 
 The port and host should match that of the SPAT plug-ins. By default, the plug-in ports are set according to the _SPAT Revolution_ preset, requiring you simply to choose / set the IP address.
 
@@ -31,7 +31,7 @@ Remember that the index number of each SPAT plug-in links it to a virtual source
  Some systems require you to press ```Tab``` key and not ```Return```to edit a field in the Plug-in.
 :::
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/ReaperSend.png)
+![](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/ThirdParty/ReaperSend.png)
 
 :::{.callout-note}
 All send plug-in instances in one DAW will have the same IP and port number in the DAW, but different and unique Index numbers. 
