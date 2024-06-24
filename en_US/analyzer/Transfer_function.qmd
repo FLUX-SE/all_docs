@@ -72,14 +72,14 @@ This is inevitable and a direct consequence of the complex nature of the system,
 We advise to use Pure spectrum analysis mode which mitigates phase computation inaccuracies compared to plain FFT.
 :::
  
-![Typical transfer function display in a live room!](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/TransferFunction/Main.png)
+![Typical transfer function display in a live room!](https://flux-shared.s3.amazonaws.com/doc_images/Analyzer/TransferFunction/Main.png)
 
 <!-- TODO: What is Pure spectrum analysis mode -->
 
 
 
 ## Setup
-![Transfer function setup options](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/TransferFunction/Setup.png)
+![Transfer function setup options](https://flux-shared.s3.amazonaws.com/doc_images/Analyzer/TransferFunction/Setup.png)
 
 Time averaging is on by default as the goal here is to provide the most stable display, and to eliminate any variations of the signal in time.
 
@@ -97,7 +97,7 @@ The default is 32768, which is appropriate for most cases.
 Increasing this value gives better frequency resolution, at the expense of CPU load.
 Lower values can be employed if you're only interested in the overall response of the analyzed system.
 
-![Transfer function block size](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/TransferFunction/BlockSize.png)
+![Transfer function block size](https://flux-shared.s3.amazonaws.com/doc_images/Analyzer/TransferFunction/BlockSize.png)
 
 #### Time averaging
 Toggles time averaging on and off.
@@ -142,7 +142,7 @@ Toggles between one of three modes:
 * Smoothed: smoothed coherence only.
 * All: both.
 
-![Available coherence display modes](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/TransferFunction/Coherence.png)
+![Available coherence display modes](https://flux-shared.s3.amazonaws.com/doc_images/Analyzer/TransferFunction/Coherence.png)
 
 #### Width
 
@@ -160,7 +160,7 @@ Minimum and maximum values to which the display is clamped, in decibels.
 #### Display
 Toggles between various combinations of raw and smoothed magnitude curve display.
 
-![Available magnitude display modes](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/TransferFunction/Magnitude.png)
+![Available magnitude display modes](https://flux-shared.s3.amazonaws.com/doc_images/Analyzer/TransferFunction/Magnitude.png)
 
 * Full : main unsmoothed magnitude curve.
 * Smoothed: smoothed magnitude only.
@@ -199,7 +199,7 @@ It is important to understand that smoothing destroys information in order to ac
 
 The algorithms employed here are specific to phase, and have more options than the regular smoothing employed for spectrum magnitude, transfer function magnitude and coherence, in case you wish to fine-tune their behaviour.
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/TransferFunction/Phase.png)
+![](https://flux-shared.s3.amazonaws.com/doc_images/Analyzer/TransferFunction/Phase.png)
 
 #### Display
 Toggles between the various phase curve display modes:
@@ -255,7 +255,7 @@ Low-coherence regions are caused by low signal-to-noise ratio, multiple paths, e
 
 #### Method
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/TransferFunction/PhaseSmoothMethod.png)
+![](https://flux-shared.s3.amazonaws.com/doc_images/Analyzer/TransferFunction/PhaseSmoothMethod.png)
 
 Available phase smoothing algorithms.
 

@@ -17,7 +17,7 @@ They are very useful to see when clipping might be occurring in any of the chann
 Also, notice how the “wire” that graphically connects modules in the setup signal graph does not visually change even though it is handling a load of channels.
 
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/InspectorVU.png)
+![](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/Setup/InspectorVU.png)
 
 <!-- TODO: update the image (bad visualization in September release) -->
 
@@ -26,7 +26,7 @@ Also, notice how the “wire” that graphically connects modules in the setup s
 _Nebula_ is a technology adapted from our flagship **FLUX:: Analyzer System**, a suite of highly regarded professional mastering and mixing visualization tools.
 
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Layout/FilmMixingC.png)
+![](https://flux-shared.s3.amazonaws.com/doc_images/Analyzer/Layout/FilmMixingC.png)
 
 :::{.callout-note}
 Screenshot from a Flux FLUX:: Analyzer session.
@@ -38,7 +38,7 @@ Screenshot from a Flux FLUX:: Analyzer session.
 
 The overall principles behind _Nebula_ are quite straightforward. At any given time, and for every frequency, the engine computes the position of a frequency in space (2D in stereo and 3D for multichannel surround). This position is taken as the center of gravity of the various channels, weighted by the relative amplitude of the signal in their corresponding channel. A color-intensity mapped projection is computed for the multi-speaker plane, giving a spectrum-space frame constrained to the surround sound field radius or sphere. Past analysis frames are progressively “forgotten”, using blur and dimming, in order to make place for new information, which gives the graphic display increased legibility and its characteristic 'nebulous' quality.
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Room/3DViewNebula.png)
+![](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/Room/3DViewNebula.png)
 
 
 :::{.callout-note}

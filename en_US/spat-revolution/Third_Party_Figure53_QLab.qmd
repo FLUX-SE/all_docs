@@ -3,14 +3,14 @@
 Rock solid and fully featured show control program, based under a 'cue' based paradigm, QLab is excellent for manually sequencing multiple media and show type events, running video, sound, lights, and virtually any type of control scripts through its easy-to-use interface.
 Some of the more advanced control features in QLab make the most of its native OSC network integration - which is why it becomes a great integration partner to _SPAT Revolution_.
 
-![QLab Dual Computer setup](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/QLabDualComputer.png)
+![QLab Dual Computer setup](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/ThirdParty/QLabDualComputer.png)
 **QLab Dual Computer setup**
 
 ## QLab 5
 
 Starting with QLab5, the network type cue (OSC messages) has been substantially revamped and now includes support to control SPAT Revolution directly. Over 100 predefined messages for SPAT Revolution are currently possible, including project, source, room, master, and snapshot control messages.
 
-![QLab5](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/QLab5.png)
+![QLab5](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/ThirdParty/QLab5.png)
 
 Earlier provided templates (QLab 4) of actual examples of remote control messages for SPAT Revolution are no longer needed to assist with programming. <!--Some QLab 5 templates are now available strictly to provide examples on how to use the SPAT Send plugin on cue outputs to route audio directly into SPAT Revolution application (when on a single computer, such as in creation)-->
 
@@ -42,7 +42,7 @@ This template shows how to manage _SPAT Revolution_ snapshots within QLab and ha
 **[Qlab _SPAT Revolution_ snapshot carts US.qlab4](https://public.3.basecamp.com/p/F4qR1QAXYVY5iA2Jt67si5ow)**
 
 
-![SPAT Snapshot message with interpolletation time](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/QLabSnapshotsInterpollation.png)
+![SPAT Snapshot message with interpolletation time](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/ThirdParty/QLabSnapshotsInterpollation.png)
 
 
 **QLab _SPAT Revolution_ OSC Message examples**
@@ -59,9 +59,9 @@ With the latest release of _SPAT Revolution_, the ability to send messages to th
 
 **[Qlab _SPAT Revolution_ examples US.qlab4](https://public.3.basecamp.com/p/N9foEbx4DhktH5K53yAhugdM)**
 
-![SPAT Message with interpolletation time](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/QLabMessageXTime.png)
+![SPAT Message with interpolletation time](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/ThirdParty/QLabMessageXTime.png)
 
-![2D Fade - trajectory messages](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/QLab2DCueSelectedSource.png)
+![2D Fade - trajectory messages](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/ThirdParty/QLab2DCueSelectedSource.png)
 
 
 
@@ -72,14 +72,14 @@ In a real-time situation, where performers or sounds are being spatialized live 
 To do this interaction, setting up the OSC communication is necessary. It is relatively straightforward.
 _In the _SPAT Revolution_ preferences, ensure the OSC Enable is engaged._
 
-![Setting the OSC Connection](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Preference/OSCMain.png)
+![Setting the OSC Connection](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/Preference/OSCMain.png)
 
 :::{.callout-note}
 Enable commands log to view the commands and confirm you are receiving data (```Shift + F7``` will open the log window). It is recommended to leave it active only sometimes, as it takes some system resources.
 :::
 
 **Setting the OSC Connection**
-![Setting the OSC Connection](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Preference/OSCConnectionCustomLocalHost.png)
+![Setting the OSC Connection](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/Preference/OSCConnectionCustomLocalHost.png)
 
 Go to the OSC connection section of _SPAT Revolution_ and:
 
@@ -92,7 +92,7 @@ Go to the OSC connection section of _SPAT Revolution_ and:
 
 **QLab Workspace Settings / Network**
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/QLabNetworkSettings.png)
+![](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/ThirdParty/QLabNetworkSettings.png)
 
 On the QLab side, use the Network Patch settings to configure OSC destinations.
 One of them can be SPAT.
@@ -100,6 +100,6 @@ One of them can be SPAT.
 You can now send OSC network cues from QLab to SPAT, and control **most if not all parameters** of this virtual environment using [Appendix C - OSC and ADM-OSC Table -@sec-appendix-osc-table].
 Once you get the hang of it, this is really very straightforward.
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/QLabTemplate.png)
+![](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/ThirdParty/QLabTemplate.png)
 
 ...

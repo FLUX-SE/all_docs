@@ -1,6 +1,6 @@
 # Radiations
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Plugins/ircam-spat/spat_06.jpg)
+![](https://flux-shared.s3.amazonaws.com/doc_images/Plugins/ircam-spat/spat_06.jpg)
 
 ## (19) Distance
 Distance from the source to the center reference point (listener position), in meters.

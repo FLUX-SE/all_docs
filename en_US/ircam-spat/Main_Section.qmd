@@ -1,6 +1,6 @@
 # Main Section
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Plugins/ircam-spat/spat_03.jpg)
+![](https://flux-shared.s3.amazonaws.com/doc_images/Plugins/ircam-spat/spat_03.jpg)
 
 The source tab is where sources parameters are set and visualized.
 In essence, input channels are actually fed to one or several virtual sources that

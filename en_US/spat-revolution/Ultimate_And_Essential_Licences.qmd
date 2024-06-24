@@ -41,7 +41,7 @@ Thus, an **Ultimate** session can be opened with an **Essential** license and vi
 
 In the top bar menu, click on ```File > Check Essential Compatibility``` to check if the current session is compatible with the SPAT Essential restrictions.
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/EssentialAlreadyCompatible.png)
+![](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/Setup/EssentialAlreadyCompatible.png)
 
 If the session is not compatible, it can be opened with an **Essential** license, the restrictions due to license limitations will automatically deactivate the non-authorized objects. 
 
@@ -55,5 +55,5 @@ See [Modules (de)activation -@sec-module-de-activation] for more information abo
 
 The **Ultimate** license offers an _Essential Compatibility Mode_, for switching between **Essential** and **Ultimate** behaviors without any change in your license authorization.
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/EssentialCompatibilityModeOn.png)
+![](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/Setup/EssentialCompatibilityModeOn.png)
 

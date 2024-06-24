@@ -11,7 +11,7 @@ Our real-time audio environment provides easy access to some of the most advance
 _'SPAT'_ is short for _Spatialisateur_ in French. 
 It is a real-time audio library that allows composers, sound artists, performers and sound engineers to control the localization of sound sources in virtual and real 3D auditory spaces.
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Room/NicePage.png)
+![](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/Room/NicePage.png)
 
 _SPAT Revolution_ wraps the 'Spat' processing library in a luxurious and characteristic graphic environment to help visualize many aspects of a spatial audio composition in real time.
 This graphic interface allows sound mixes to be composed as interactive spatial models existing in _Virtual Room_. 
@@ -21,7 +21,7 @@ SPAT contains a powerful multichannel reverberation engine that can be applied t
 Artificial Reverberation Editor
 :::
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Room/Reverbation.png)
+![](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/Room/Reverbation.png)
 
 **_SPAT Revolution_ maintains the highest audio quality throughout the entire signal flow.**
 

@@ -8,15 +8,15 @@ The display represents the so-called magnitude spectrum of the incoming signal, 
 
 :::{layout="[50,50]"}
 
-![Magnitude spectrum of a stereo signal with summing disabled, max and smoothed curves enabled](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Spectrum/Stereo.png)
+![Magnitude spectrum of a stereo signal with summing disabled, max and smoothed curves enabled](https://flux-shared.s3.amazonaws.com/doc_images/Analyzer/Spectrum/Stereo.png)
 
-![Magnitude spectrum of a 5.1 surround signal sum with max and smoothed curves enabled](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Spectrum/Sum.png)
+![Magnitude spectrum of a 5.1 surround signal sum with max and smoothed curves enabled](https://flux-shared.s3.amazonaws.com/doc_images/Analyzer/Spectrum/Sum.png)
 
-![Magnitude spectrum of a 5.1 surround signal with summing disabled](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Spectrum/51.png)
+![Magnitude spectrum of a 5.1 surround signal with summing disabled](https://flux-shared.s3.amazonaws.com/doc_images/Analyzer/Spectrum/51.png)
 
-![Magnitude spectrum with Slide option enabled (Real time waterfall)](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Spectrum/Slide.png)
+![Magnitude spectrum with Slide option enabled (Real time waterfall)](https://flux-shared.s3.amazonaws.com/doc_images/Analyzer/Spectrum/Slide.png)
 :::
-![Magnitude spectrum setup dialog](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Spectrum/Setup.png)
+![Magnitude spectrum setup dialog](https://flux-shared.s3.amazonaws.com/doc_images/Analyzer/Spectrum/Setup.png)
 
 ## Settings
 
@@ -119,7 +119,7 @@ Default is _Manual_.
 
 Uses a fixed range as specified by the above settings.
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Spectrum/ManualRange.png)
+![](https://flux-shared.s3.amazonaws.com/doc_images/Analyzer/Spectrum/ManualRange.png)
 
 **Auto**
 
@@ -134,7 +134,7 @@ A slight envelope is applied to the auto-range values in order to improve legibi
 The range is defined by dB Min/Max values, and the Y-axis is also compressed in the lower range.
 This can bring out peaks and valleys in the spectrum to better visualize resonant frequencies and such.
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Spectrum/CompressedRange.png)
+![](https://flux-shared.s3.amazonaws.com/doc_images/Analyzer/Spectrum/CompressedRange.png)
 
 **Compressed &vert; Auto**
 
@@ -172,7 +172,7 @@ Color of the pen used to draw the max curve.
 #### Color grading
 Applies an optional frequency-dependent coloring to the main channel-sum curve.
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Spectrum/Spectrum4.png)
+![](https://flux-shared.s3.amazonaws.com/doc_images/Analyzer/Spectrum/Spectrum4.png)
 
 Magnitude spectrum with color grading enabled
 
@@ -196,7 +196,7 @@ This setting controls the color of the curve corresponding to the n<super>th</su
 
 ### Slide (Real Time waterfall)
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Spectrum/Slide.png)
+![](https://flux-shared.s3.amazonaws.com/doc_images/Analyzer/Spectrum/Slide.png)
 
 #### Enable
 Enable/disable the slide mode.

@@ -16,7 +16,7 @@ The golden rule when working with multi-channels based audio is to ensure to hav
 
 ## Custom speaker arrangement
 
-![width=700, atl=_SPAT Revolution_ Speaker Position](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/SpeakerEditorCompute2.png)
+![width=700, atl=_SPAT Revolution_ Speaker Position](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/Setup/SpeakerEditorCompute2.png)
 
 While there are many standardized speaker array, such as Dolby Surround, Atmos, Auro 3D, DTS, Quad or even stereo, we are in many cases confronted to a very specific speaker positioning.
 

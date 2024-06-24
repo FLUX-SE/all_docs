@@ -7,7 +7,7 @@
 This is where most of the app preferences are located. The main setup menu has its own [documentation section -@sec-user-interface-main-setup].
 
 ### UI Setup {#sec-ui-section}
-![User interface setup dialog](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Setup/UISetup.png)
+![User interface setup dialog](https://flux-shared.s3.amazonaws.com/doc_images/Analyzer/Setup/UISetup.png)
 
 |   |   |
 |-|---|
@@ -22,9 +22,9 @@ This is where most of the app preferences are located. The main setup menu has i
 
 :::{layout-ncol="2"}
 
-![Reverse color scheme off.](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Setup/DarkTheme.png)
+![Reverse color scheme off.](https://flux-shared.s3.amazonaws.com/doc_images/Analyzer/Setup/DarkTheme.png)
 
-![Reverse color scheme on.](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Setup/BrightTheme.png)
+![Reverse color scheme on.](https://flux-shared.s3.amazonaws.com/doc_images/Analyzer/Setup/BrightTheme.png)
 
 :::
 
@@ -69,9 +69,9 @@ The layouts are grouped into categories, as described below.
 
 :::{layout="[35,65]"}
 
-![Available layouts](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Generic/GlobalPresets.png)
+![Available layouts](https://flux-shared.s3.amazonaws.com/doc_images/Analyzer/Generic/GlobalPresets.png)
 
-![Layout contents matrix](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Layout/Layout-Feature-Matrix-export.png)
+![Layout contents matrix](https://flux-shared.s3.amazonaws.com/doc_images/Analyzer/Layout/Layout-Feature-Matrix-export.png)
 
 :::
 
@@ -100,7 +100,7 @@ This curves acts as a kind of zoom-out control, as it shows the global frequency
 :::
 
 ## Curve display
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Spectrum/CurveDisplay.png)
+![](https://flux-shared.s3.amazonaws.com/doc_images/Analyzer/Spectrum/CurveDisplay.png)
 
 Toggles between the following curve display modes:
 * Full: main curve only (no smoothing).
@@ -112,7 +112,7 @@ Selecting one of the first two modes is recommended to avoid display clutter whe
 :::
 
 ## Max curve
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Spectrum/MaxCurve.png)
+![](https://flux-shared.s3.amazonaws.com/doc_images/Analyzer/Spectrum/MaxCurve.png)
 
 The max curve employs much longer release time compared to the main curve, and as such registers short peaks much more easily.
 
@@ -126,14 +126,14 @@ The max curve is never displayed for snapshots, as it would be the same as the m
 :::
 
 ## Peak type
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Spectrum/PeakType.png)
+![](https://flux-shared.s3.amazonaws.com/doc_images/Analyzer/Spectrum/PeakType.png)
 
 This setting controls the manner in which spectrum magnitude peaks are computed:
 * Max (global): compute a global maximum over the entire spectrum range.
 * Max (user): compute the maximum across a user defined portion of the spectrum set in the Peak range.
 
 ## Peak label
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Spectrum/PeakLabel.png)
+![](https://flux-shared.s3.amazonaws.com/doc_images/Analyzer/Spectrum/PeakLabel.png)
 
 Determines the appearance of the peak display:
 * None: peaks are not shown.

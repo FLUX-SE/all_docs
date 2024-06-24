@@ -1,6 +1,6 @@
 # Live IO
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/LiveIO/Main.png)
+![](https://flux-shared.s3.amazonaws.com/doc_images/Analyzer/LiveIO/Main.png)
 
 <!-- TODO: explain the typical use. Defining if source is reference m the audio reference or a microphone. When setting as microphone, a delay fields (smp, ms or m) with on/off button appears together with a delay finder ![](include/Find.png) button ,  -->
 
@@ -21,7 +21,7 @@ In a sound installation context, computing precise time-delay is crucial to alig
 ## Basic operation
 
 ### Compute the delay
-Press the ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Generic/Find.png) button to find the delay using the most recent incoming audio. 
+Press the ![](https://flux-shared.s3.amazonaws.com/doc_images/Analyzer/Generic/Find.png) button to find the delay using the most recent incoming audio.
 The resulting figure is displayed almost instantly as a:
 
 * Delay in samples (smp).
@@ -29,7 +29,7 @@ The resulting figure is displayed almost instantly as a:
 * Delay in milliseconds (ms).
 
 ### Compensate the delay
-Pressing the ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Generic/On.png) button activates a delay line in the source signal path to compensate for the currently displayed delay value, effectively time-aligning <i>source</i> and <i>response</i> signals. 
+Pressing the ![](https://flux-shared.s3.amazonaws.com/doc_images/Analyzer/Generic/On.png) button activates a delay line in the source signal path to compensate for the currently displayed delay value, effectively time-aligning <i>source</i> and <i>response</i> signals.
 Pressing again deactivates the delay line, which allows for quick comparison between uncompensated and compensated signal paths.
 
 ### Fine-tune manually
@@ -41,7 +41,7 @@ using either of these methods:
 * Increment / decrement using the +/- numeric keys.
 
 ### Perform a new measurement
-Press the ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Generic/Find.png) button again to perform a new measurement. 
+Press the ![](https://flux-shared.s3.amazonaws.com/doc_images/Analyzer/Generic/Find.png) button again to perform a new measurement.
 This will overwrite any previous value.
 
 <!-- LIVEVERSIONS-->
@@ -72,32 +72,32 @@ This is where acoustics expertise and trial-and-error comes into play, in order 
 <!-- LIVEVERSIONS-->
 
 ## User interface and controls
-![Live IO controls.](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/LiveIO/Main2.png)
+![Live IO controls.](https://flux-shared.s3.amazonaws.com/doc_images/Analyzer/LiveIO/Main2.png)
 
 ### Name
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/LiveIO/Name.png)
+![](https://flux-shared.s3.amazonaws.com/doc_images/Analyzer/LiveIO/Name.png)
 
 Allows to define a custom name for each channel.
 This is a global name; saved and restored with the preset but not directly related to the Hardware I/O Interface.
 As this, it will be consistent even if you switch the Hardware I/O Interface or switch to connect to a [SampleGrabber -@sec-intial-setup-samplegrabber].
 
 ### Ref
-The ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Generic/Reference.png) button toggles whether the corresponding channel should be used as a reference signal.
+The ![](https://flux-shared.s3.amazonaws.com/doc_images/Analyzer/Generic/Reference.png) button toggles whether the corresponding channel should be used as a reference signal.
 
 Multiple channels can be used as reference, in which case a mono-sum of these channels is used as the internal reference signal.
 
 ### Mic
-The ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Generic/Mic.png) button toggles whether the corresponding channel should be used as a microphone input signal, which is used to capture the response of the system.
+The ![](https://flux-shared.s3.amazonaws.com/doc_images/Analyzer/Generic/Mic.png) button toggles whether the corresponding channel should be used as a microphone input signal, which is used to capture the response of the system.
 
 Multiple channels can be used as microphone input, in which case a mono-sum of these channels is used as the internal microphone signal.
 
 ### Phase invert
-The ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Generic/InvPhase.png) toggles
+The ![](https://flux-shared.s3.amazonaws.com/doc_images/Analyzer/Generic/InvPhase.png) toggles
 phase inversion of the selected channel on and off. 
 This can be used to compensate another known phase inversion somewhere else in the analog signal chain.
 
 ### On/Off
-The  ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Generic/On.png) button
+The  ![](https://flux-shared.s3.amazonaws.com/doc_images/Analyzer/Generic/On.png) button
 toggles delay compensation on and off. 
 When the correct delay has been determined, engage this button to insert a delay line in the reference channel, to align reference and measured signals, and get correct transfer function and impulse response.
 
@@ -122,19 +122,19 @@ Lastly, remember the delay value in samples is the master value, from which othe
 
 ### Find
 Clicking the 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Generic/Find.png) button starts a new delay value computation. Previous values, whether computed using the delay finder or entered by hand, will be erased.
+![](https://flux-shared.s3.amazonaws.com/doc_images/Analyzer/Generic/Find.png) button starts a new delay value computation. Previous values, whether computed using the delay finder or entered by hand, will be erased.
 The algorithm accumulates a certain amount of incoming signal before the actual computation is actually performed, to ensure the delay is always computed using the most current audio.
 
 >Find Delay appears only on channels toggled as microphone>
 
 ### Progress
-An informational text showing the progress of the computation is shown when the ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Generic/Find.png) delay find button is clicked, as well any error potentially encountered.
+An informational text showing the progress of the computation is shown when the ![](https://flux-shared.s3.amazonaws.com/doc_images/Analyzer/Generic/Find.png) delay find button is clicked, as well any error potentially encountered.
 
 <!-- LIVEVERSIONS-->
 
 ## Setup
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/LiveIO/SetupDelayFinder.png)
+![](https://flux-shared.s3.amazonaws.com/doc_images/Analyzer/LiveIO/SetupDelayFinder.png)
 
 :::{.callout-note}
 Delay finder setup options.
@@ -148,7 +148,7 @@ You can decrease this value as this minimizes the possibility of false readings.
 
 ### Algorithm
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/LiveIO/Algorithm.png)
+![](https://flux-shared.s3.amazonaws.com/doc_images/Analyzer/LiveIO/Algorithm.png)
 
 Selects between three different delay finding algorithms:
 
@@ -162,7 +162,7 @@ In the rare case where the standard method fails in your particular environment,
 
 ### Search passes
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/LiveIO/SearchPasses.png)
+![](https://flux-shared.s3.amazonaws.com/doc_images/Analyzer/LiveIO/SearchPasses.png)
 
 The delay can be set to work in one or two passes:
 

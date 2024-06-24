@@ -62,12 +62,12 @@ The parameter “head scale”, available for the four binaural algorithms, allo
 This will adjust the interaural time and level differences. 
 It is available on the room parameter on the **Setup** page, but also on the output panel of the room.
 
-![Headscale parameter](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/HeadScaleParameter.png)
+![Headscale parameter](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/Setup/HeadScaleParameter.png)
 
 
 ## Binaural Monitoring Module {#sec-binaural-monitoring}
 
-![Binaural Monitor](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/BinauralMonitor.png)
+![Binaural Monitor](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/Setup/BinauralMonitor.png)
 
 In the _Setup_ page of _SPAT Revolution_, you will find a module dedicated to binaural monitoring. Its purpose is to monitor any kind of speaker setup using headphones and binaural encoding. This can give you an impression of how your spatialization might sound on a particular channel-based system when you are off-location.
 

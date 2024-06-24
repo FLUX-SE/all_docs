@@ -1,12 +1,12 @@
 # Home Page
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Home/Page.png)
+![](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/Home/Page.png)
 
 This page is the welcome page of _SPAT Revolution_. Here you can create sessions, open ones from disk or from a list of recent ones or access to the resources of _SPAT Revolution_.
 
 ## Welcome box
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Home/WelcomeUltimate.png)
+![](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/Home/WelcomeUltimate.png)
 
 This simple box lets you access to basic action of session management.
 
@@ -24,13 +24,13 @@ Let you open a session from a disk.
 
 ## Recent Sessions
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Home/Recent.png)
+![](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/Home/Recent.png)
 
 This box lists the latest open session in _SPAT Revolution_. You can open one by double-clicking on it.
 
 ## Resources
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Home/Resources.png)
+![](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/Home/Resources.png)
 
 This box gives you direct access to many resources related to _SPAT Revolution_:
 

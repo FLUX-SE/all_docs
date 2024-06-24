@@ -1,6 +1,6 @@
 # Room Response
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Plugins/ircam-spat/spat_13.jpg)
+![](https://flux-shared.s3.amazonaws.com/doc_images/Plugins/ircam-spat/spat_13.jpg)
 
 ## (58) Early Shape
 Governs the amplitude rise or fall of early reflections. The default setting of 0.5 corresponds

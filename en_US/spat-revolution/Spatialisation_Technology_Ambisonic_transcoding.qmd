@@ -103,7 +103,7 @@ There is a direct relationship between the ambisonic order and the number of lou
 
 An example of an ambisonic workflow would be to use a 7th-order room and then decode it to the desired loudspeaker array. As mentioned before, we need to adjust the ambisonic order depending on the number of loudspeakers. It is possible to reduce the ambisonic order by changing the order of the input stream in the master transcoder. When this is done, higher-order channels will not affect the rendering.
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/ambisonicOrderReduction.png)
+![](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/Setup/ambisonicOrderReduction.png)
 
 If we want to transcode a 3D ambisonic stream to a 2D speaker layout, one solution is to use two phantom speakers, one at the top and one at the bottom. For example, we could use the speaker layout shown below to transcode a 3D ambisonic scene into a 5.1 layout. It's important to note that this method will **fade out** the element that had elevation.
 
@@ -111,6 +111,6 @@ If we want to transcode a 3D ambisonic stream to a 2D speaker layout, one soluti
 Phantom speakers must be taken into account when determining the appropriate ambisonic order.
 :::
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/ambisonic51Decode.png)
+![](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/Setup/ambisonic51Decode.png)
 
 We can then have as many transcoders as we like, each dedicated to a specific loudspeaker layout and each adjusting the ambisonic stream accordingly.

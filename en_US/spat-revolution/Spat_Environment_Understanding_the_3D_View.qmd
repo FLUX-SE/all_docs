@@ -1,6 +1,6 @@
 # Understanding the mixing zones {#sec-understanding-3D-view}
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Room/3DView.png)
+![](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/Room/3DView.png)
 
 
 The whole mixing experience of _SPAT Revolution_ takes place in the 3D view. Creating a mix this way is really simple: simply grab a source and move it where you want it to be. But there are a few subtleties that are important to get right.
@@ -14,7 +14,7 @@ Whether you are working with a room using channel-based or not, or depending on 
 
 ## The protection zone {#sec-about3dview-protectionzone}
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Room/ProtectionZone.png)
+![](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/Room/ProtectionZone.png)
 
 The protection zone is an area of the 3D space represented as a sphere around the listener head.
 It is important to understand that as most of the pan law or spatialization techniques are incapable of creating the illusion that a sound source comes from in front of the speakers (some exceptions like WFS) **we should try to avoid putting source inside this zone**
@@ -23,7 +23,7 @@ When a source is placed inside the protection zone, **its distance will no longe
 
 When a source is inside the protection zone on a 3D capable stream type/speaker arrangement. The behaviour is set by the ```Source over listener head``` parameter, which is on by default. It is the legacy function where any source entering the zone follows the sphere of protection in elevation as it tries to enter. Thus, the source is processed at its elevated position. If disabled, the source will simply keep its elevation. In both cases, reaching the protection zone means the attenuation model based on the distance reaches its threshold. (same as for the Air absorption calculation)
 
-![ProtectionZonePanel]( https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR//Room/OutputProtectionZonePanel.png)
+![ProtectionZonePanel]( https://flux-shared.s3.amazonaws.com/doc_images/SpatR//Room/OutputProtectionZonePanel.png)
 
 
 ## The presence of a source
@@ -49,7 +49,7 @@ When **Presence infos** on the top bar of the 3D view is enabled, the overall pr
 
 ## The efficiency zone {#sec-about3dview-efficiencyzone}
 
-![]( https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR//Room/3DViewEfficiencyZone.png)
+![]( https://flux-shared.s3.amazonaws.com/doc_images/SpatR//Room/3DViewEfficiencyZone.png)
 
 <!--TO BE COMPLETED-->
 By definition, the efficiency zone is where the virtual sound sources should be localized.
@@ -91,25 +91,25 @@ Note that the preferred behaviours are clamping or muting. **Clamping will preve
 
 The pictures below shown some key cases of clamping, on non-surround systems:
 
-![]( https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR//Room/3DViewAzimClamping.png)
+![]( https://flux-shared.s3.amazonaws.com/doc_images/SpatR//Room/3DViewAzimClamping.png)
 
 :::{.callout-note}
 Trying to escape the efficiency zone on non-surrounding systems will result in the source being clamped to its foremost left or right.
 :::
 
-![]( https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR//Room/3DViewFrontClamping.png)
+![]( https://flux-shared.s3.amazonaws.com/doc_images/SpatR//Room/3DViewFrontClamping.png)
 
 :::{.callout-note}
 If a source is placed in front of the speakers, it will be clamped to the front line they formed while preserving the azimuth angle.
 :::
 
-![]( https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR//Room/3DViewMirrorClamping.png)
+![]( https://flux-shared.s3.amazonaws.com/doc_images/SpatR//Room/3DViewMirrorClamping.png)
 
 :::{.callout-note}
 When a source is on the opposite side of a non-surround system, the projection of the virtual source will mirror the behavior of the actual source, thus, removing any jump or abrupt change in position of the source.
 :::
 
-![]( https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR//Room/3DViewMuteSource.png)
+![]( https://flux-shared.s3.amazonaws.com/doc_images/SpatR//Room/3DViewMuteSource.png)
 
 :::{.callout-note}
 When a source is outside the efficiency zone and mute behaviour is selected, the source is represented differently.
@@ -129,7 +129,7 @@ When dealing with a 2D speaker array, there is no point at placing a source abov
 
 Most 3D speaker arrays have at least two speaker layers. Such layers are defined by three non-align speakers sharing the same height (z). Elevation clamping will handle sources as they exceed the extreme layers. Like with 2D speaker array, this clamping behavior is shown with phantom sources that indicate the position used inside the DSP stage of _SPAT Revolution_.
 
-![]( https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR//Room/3DViewHeightClamping.png)
+![]( https://flux-shared.s3.amazonaws.com/doc_images/SpatR//Room/3DViewHeightClamping.png)
 
 ## Limit cases
 

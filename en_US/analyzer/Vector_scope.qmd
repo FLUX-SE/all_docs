@@ -3,13 +3,13 @@
 ## Usage
 The vector scope tool is displayed when a stereo input is detected, otherwise the display will switch to [Surround scope -@sec-nebula-surround-scope-usage] provided if your edition of FLUX:: Analyzer includes this option.
 
-![Vector scope display in stereo.](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/VectorScope/Main.png)
+![Vector scope display in stereo.](https://flux-shared.s3.amazonaws.com/doc_images/Analyzer/VectorScope/Main.png)
 
-![Vector scope display in surround (with selection menu).](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/VectorScope/Stereo.png)
+![Vector scope display in surround (with selection menu).](https://flux-shared.s3.amazonaws.com/doc_images/Analyzer/VectorScope/Stereo.png)
 
 ### Modes in Surround :
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/VectorScope/SurroundModes.png)
+![](https://flux-shared.s3.amazonaws.com/doc_images/Analyzer/VectorScope/SurroundModes.png)
 
 **L-R**
 
@@ -45,14 +45,14 @@ Use a mono summation of the front channels + the Lfe (sub) channel.
 
 
 ## Display
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/VectorScope/Setup.png)
+![](https://flux-shared.s3.amazonaws.com/doc_images/Analyzer/VectorScope/Setup.png)
 
 :::{.callout-note}
 Vector scope setup options
 :::
 
 ### Fs
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/VectorScope/FS.png)
+![](https://flux-shared.s3.amazonaws.com/doc_images/Analyzer/VectorScope/FS.png)
 
 Over-sampling factor in multiples of FS, that is the incoming audio is up-sampled as necessary to reach this multiple times 48kHz.
 Increasing this value increases the display precision and reactivity, at the expense of a little CPU overhead.
@@ -78,7 +78,7 @@ Choosing the value for this setting is really matter of taste, although please k
 :::
 
 ### Color mode
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/VectorScope/ColorMode.png)
+![](https://flux-shared.s3.amazonaws.com/doc_images/Analyzer/VectorScope/ColorMode.png)
 
 This defines how the particle color is determined:
 * Static color: use only particle start color (see below)

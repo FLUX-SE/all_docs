@@ -46,13 +46,13 @@ Please follow this link for more information on [ReaVolution -@sec-reavolution].
 As described in section **[SPAT PI : Local audio path -@sec-lap]**, when using the Local Audio path, the buffer size and sample rate must be matched in both _SPAT Revolution_ and Reaper.
 In SPAT, you set this in the preferences and in Reaper in the Audio Device preferences.
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/ReaperPreferencesDevice.png)
+![](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/ThirdParty/ReaperPreferencesDevice.png)
 
 ## Setting Up Tracks
 
 Working with Track Folder structure for your organisation is a good idea.
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/ReaperTrackFolder.png)
+![](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/ThirdParty/ReaperTrackFolder.png)
 
 In the above screenshot, the B-Format Master has been set to be a Folder Parent with 4-Track Channel.
 Reaper channel routing is set on a track by track basis, using the _TrackIO Route_ button of each Track.
@@ -63,7 +63,7 @@ The Y Track is assigned to Parent Channels 3-4 and hard panned left and so on.
 Alternatively, an interleaved 4-channel audio file (B-Format audio in this example) can be placed on one Child Track, which has been specified to have 4 channels.
 
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/ReaperBFormat.png)
+![](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/ThirdParty/ReaperBFormat.png)
 
 Now different interleaved files in the same format can overlap and be composed on the same Track, and they will be summed to the Folder track, and therefore to the same virtual source/object in SPAT.
 All automation for that source should happen in the Envelope Lanes of the Parent Folder track.
@@ -71,7 +71,7 @@ All automation for that source should happen in the Envelope Lanes of the Parent
 
 ## Setting up SPAT SEND
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/ReaperSend.png)
+![](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/ThirdParty/ReaperSend.png)
 
 Simply insert the SPAT SEND plug-in on a Parent Track.
 This means that as the composition grows, multiple Child tracks may send different audio material to the same virtual source/object in SPAT, through one SEND plug-in on the Parent Folder Track.
@@ -90,7 +90,7 @@ If all is well, you will see the SEND appear as an input at the top of the setup
 If you do not see it, you can try clicking on _Get send/return_ on the top actions or in *Setup/Pipes/Get send return* to force SPAT to look for virtual IO.
 
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/ReaperSendBFormat.png)
+![](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/ThirdParty/ReaperSendBFormat.png)
 
 In the above screenshot, the Orange ' _BFormat_ ' Send input is the one being routed by the SEND plug on the Parent Track on the previous example.
 At first, it will appear in SPAT as a Channel Based input by default - in this case it appeared as a 4.0 QUAD.
@@ -100,7 +100,7 @@ If dealing with ambisonic 1st order such as AmbiX or B-Format, the input stream 
 
 To access the latency information in REAPER, open the FX windows by clicking on the FX button.
 
-![FX chain button](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/reaper_fxbutton.png)
+![FX chain button](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/ThirdParty/reaper_fxbutton.png)
 
 In this window, REAPER will show you two latency values. The latency of the currently selected plug-in and the actual latency added to the signal chain. REAPER always round up to a multiple of blocks. You should report the sum of all the plug-in latency in the SPAT Plugin (ergo, not the latency actually added by REAPER).
 
@@ -108,11 +108,11 @@ In this window, REAPER will show you two latency values. The latency of the curr
 If you use "post-fader" sends to SPAT Revolution, you don't need to worry about this step.
 :::
 
-![FX delay info](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/reaper_pdc.png)
+![FX delay info](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/ThirdParty/reaper_pdc.png)
 
 Since REAPER 6.20, the latency is compensate per FX chain. One solution is to revert to the legacy behavior, which compensates per FX. To do so, go to the option of the FX chain, then to "Chain PDC mode" and select "Per FX compensation". You must do this for each track hosting a SPAT send plugin and prior FX that add latency to the signal chain.
 
-![FX chain PDC mode](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/reaper_pdc_mode.png)
+![FX chain PDC mode](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/ThirdParty/reaper_pdc_mode.png)
 
 ## Optimization
 
@@ -122,26 +122,26 @@ There are a couple of things to make sure to optimize the integration and avoid 
  Disable **Full Plug-in State** set by default in Plug-in Compatibility Preferences.
 :::
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/ReaperPreferencesCompatibility.png)
+![](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/ThirdParty/ReaperPreferencesCompatibility.png)
 
 :::{.callout-warning}
  "Prevent Anticipative FX" should be enabled on tracks where SEND / RETURN are inserted.
 :::
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/ReaperPerformanceOptionsMenu.png)
+![](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/ThirdParty/ReaperPerformanceOptionsMenu.png)
 
 Also, by default, REAPER does not process automation messages when the plug-in GUI is not open. You can change this behaviour globally by going to the Preferences menu, in Plug-ins, VST. In the "Parameter notification automation" line, select "Process all notifications".
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/reaperProcessNotifications.png)
+![](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/ThirdParty/reaperProcessNotifications.png)
 
 If you don't want this behavior to be global, you can enable it for specific plug-ins. To do this, open the FX Browser, search for SPAT plug-ins and select all three. Then right click and go to "Compatibility settings", "Automation Notifications" and select "Process all notifications".
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/reaperPluginsNotifications.png)
+![](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/ThirdParty/reaperPluginsNotifications.png)
 
 
 ## Source/Object Automation
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/ReaperAutomation.png)
+![](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/ThirdParty/ReaperAutomation.png)
 
 Now it is simply a case of adding some Envelope lanes for parameters you wish to automate from the DAW timeline.
 Here the B-Format source is being introduced from a distance automating _Aperture, Warmth and Distance_.
@@ -151,28 +151,28 @@ Here the B-Format source is being introduced from a distance automating _Apertur
 In Reaper, mapping any MIDI controllers (including 14-bit) to a Plug-In parameter is easy.
 This is a great way to control source properties like _Azimuth_ or _Yaw_ using external MIDI controllers, so you can control some sources live by hand during a performance or while mixing for example.
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/ReaperMIDI.png)
+![](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/ThirdParty/ReaperMIDI.png)
 
 In the Automation parameter list for SPAT SEND just click on the ```LEARN...``` button to manually assign an external controller that you have set up in the Reaper Controller preferences.
 
 From this page by clicking on the ```MOD...``` button of an automatable parameter, it is also possible to animate sources with independent LFOs that run all the time in the background, quick and dirty way to spatialise live inputs sources with autopan type effects for example.
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/ReaperLFO.png)
+![](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/ThirdParty/ReaperLFO.png)
 
 ## Setting up SPAT RETURN
 
 Now, to render the scene from the multichannel room output to disk as an interleaved 3rd Order HOA, for example, we need to add a RETURN plug-in.
 We can calculate that 3HOA3D needs 16 channels.
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/ReaperTrackChannels.png)
+![](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/ThirdParty/ReaperTrackChannels.png)
 
 First, set up a Track in Reaper that can handle 16 channels simultaneously. Then add a SPAT RETURN plug-in on this track. It should automatically inherit the channel count, if not do it manually using the IO config of the plug-in, available from the little cog wheel in the top corner of SPAT RETURN.
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/ReaperReturn.png)
+![](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/ThirdParty/ReaperReturn.png)
 
 Enable the Local Audio Path: a Return output module should appear in the SPAT Setup Environment. Connecting it to the 3HOA3D stream output from the Room (or Rooms in a mixer/transcoder) and it should inherit the format.
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/ReaperSessionExample.png)
+![](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/ThirdParty/ReaperSessionExample.png)
 
 ## Recording Immersive creation.
 
@@ -180,10 +180,10 @@ To do this, it is necessary to make Reaper record the software OUTPUT of the aud
 
 - the audio coming into the Track is a virtual audio path through the SPAT RETURN plug-in, so it will _not_ appear at the _Inputs_ list of the Track. Right-click on the track's record arm button, and the Track record contextual menu will appear.
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/ReaperRecordOutputMenu.png)
+![](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/ThirdParty/ReaperRecordOutputMenu.png)
 
 Arm the track to record, press play and render the scene to a 3HOA3D interleaved 16-channel WAV file (avoid using FLAC for higher than 8 channels). This is done in realtime.
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/ReaperBounce.png)
+![](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/ThirdParty/ReaperBounce.png)
 
 The same process can be followed to render any Channel Based or other stream type from _SPAT Revolution_ to disk for further composition, mastering or final delivery.

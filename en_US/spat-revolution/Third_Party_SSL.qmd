@@ -25,7 +25,7 @@ A simple template is available for downloading, providing a starting point to co
 
 **SSL OSC Settings**
 
-![SSL Live SPAT OSC Swiches](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/SSLOSCSettings.png)
+![SSL Live SPAT OSC Swiches](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/ThirdParty/SSLOSCSettings.png)
 
 
 
@@ -34,7 +34,7 @@ A simple template is available for downloading, providing a starting point to co
 
 **SSL Generic OSC - External Control**
 
-![SSL Live SPAT OSC Swiches](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/SSLGenericOSC.png)
+![SSL Live SPAT OSC Swiches](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/ThirdParty/SSLGenericOSC.png)
 
 With Solid State Logic live consoles, up to eight *Fader* (i.e., continuously variable) and eight *Switch* parameters per third-party device channel may be defined for control by the console.
 These control parameters (OSC messages) going out to _SPAT Revolution_ source/objects are accessible from each console audio path and dedicated OSC paths with no associated console audio processing.
@@ -42,19 +42,19 @@ The provided template has all these configurations done for you, but you can dec
 
 **SSL OSC Device Configuration and Address for Switch**
 
-![SSL Live SPAT OSC Swiches](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/SSLOSCDeviceConfigurationSwitches.png)
+![SSL Live SPAT OSC Swiches](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/ThirdParty/SSLOSCDeviceConfigurationSwitches.png)
 
 
 **SSL OSC Device Configuration and Address for Fader**
 
-![SSL Live SPAT OSC Faders](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/SSLOSCDeviceConfigurationFaders.png)
+![SSL Live SPAT OSC Faders](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/ThirdParty/SSLOSCDeviceConfigurationFaders.png)
 
 ## Setting up SPAT Revolution
 
 * Start the _SPAT Revolution_ software and open the preference page.
 * Enable OSC.
 
-![Enable OSC](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Preference/OSCMain.png)
+![Enable OSC](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/Preference/OSCMain.png)
 
 * In the OSC Connections section, use the pre-configured SSL Live OSC presets.
   In the pull-down menu, choose **input |SSL Live** and select your local IP address to communicate with the desk.
@@ -62,4 +62,4 @@ The provided template has all these configurations done for you, but you can dec
   In the pull-down menu, choose **output | SSL Live**.
   You will enter the desk IP address as found in the OSC settings. Ports # ```9300``` (Input) and ```9301``` (Output) are pre-configured.
 
-![Enable OSC](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Preference/OSCConnectionsSSL.png)
+![Enable OSC](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/Preference/OSCConnectionsSSL.png)

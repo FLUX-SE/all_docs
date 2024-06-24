@@ -6,7 +6,7 @@ In _SPAT Revolution_, spatialization of virtual sources takes places inside _Roo
 
 When we enter a Room, we will see the 3D view and all the connected sources. Option related to the 3D view display are located in top menu. On the left side panel of the room editor, you get a list representation of each source with its index identification number. We can click on the Index number of each source, and the [source parameters -@sec-sources-parameters] editor for that virtual source will appear.
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Room/3DView.png)
+![](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/Room/3DView.png)
 
 Two special index items labeled as **(R) REVERB** and **(M) OUTPUT** appear fixed at the bottom of the left panel. By clicking on these, we then enter into two more parameter editors: one relating to the [Artificial reverberation -@sec-artificial-reverb] and one relating to the room output configuration and [Listener Position -@sec-listener-position] editor.
 
@@ -22,20 +22,20 @@ Along with the audio modeling engine, one of SPAT's key features is its ability 
 
 ### Output list
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Room/OutputListPanel.png)
+![](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/Room/OutputListPanel.png)
 
 This panel lists all the speakers used in the room (when set to channel based). It allows quick access to the speaker arrangement editor and to the compute function.
 Each output has a "test" button that sends the signal from the signal generator directly the routed speaker. The signal generator type and level are set in the _[Preferences page -@sec-application-preference]_.
 
 ### Listener
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Room/OutputListenerPanel.png)
+![](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/Room/OutputListenerPanel.png)
 
 This panel gives access to the listening point. We can change its position, using the _X_, _Y_, _Z_ parameters, and its rotations using _Yaw_, _Pitch_, _Roll_.
 
 ### Protection Zone
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Room/OutputProtectionZonePanel.png)
+![](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/Room/OutputProtectionZonePanel.png)
 
 This panel controls the behavior and size of the protection zone. By default, it is set to a diameter of four meters. Please check out the section named [Understanding the mixing zone -@sec-understanding-3D-view] if you want more information about the protection zone.
 Note that the protection zone is attached to the listener position.
@@ -46,7 +46,7 @@ Note that the protection zone is attached to the listener position.
 
 ### Efficiency Zone
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Room/OutputEfficiencyZonePanel.png)
+![](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/Room/OutputEfficiencyZonePanel.png)
 
 This panel contains options related to the efficiency zone.
 
@@ -56,7 +56,7 @@ This panel contains options related to the efficiency zone.
 
 ### Scaling
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Room/OutputScalingPanel.png)
+![](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/Room/OutputScalingPanel.png)
 
 #### Distance
 
@@ -68,7 +68,7 @@ This parameter changes the scale of RTTrPM protocol data.
 
 ### Background Image
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Room/OutputBackgroundImagePanel.png)
+![](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/Room/OutputBackgroundImagePanel.png)
 
 This panel allows you to import a background image in _SPAT Revolution_ and to position it in the 3D view.
 

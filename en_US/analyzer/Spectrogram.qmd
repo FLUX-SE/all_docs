@@ -10,8 +10,8 @@ Broadband noise appears as background, a pure tone as a horizontal line, and a t
 
 Harmonic content appears as horizontal groups of parallel lines and vertical bars respectively, etc.
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Spectrogram/Main.png)
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Spectrogram/Main2.png)
+![](https://flux-shared.s3.amazonaws.com/doc_images/Analyzer/Spectrogram/Main.png)
+![](https://flux-shared.s3.amazonaws.com/doc_images/Analyzer/Spectrogram/Main2.png)
 
 :::{.callout-note}
 Example spectrogram view
@@ -21,7 +21,7 @@ Example spectrogram view
 
 ## Setup
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Spectrogram/Setup.png)
+![](https://flux-shared.s3.amazonaws.com/doc_images/Analyzer/Spectrogram/Setup.png)
 
 :::{.callout-note}
 Spectrogram setup
@@ -29,7 +29,7 @@ Spectrogram setup
 
 ### Direction
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Spectrogram/Direction.png)
+![](https://flux-shared.s3.amazonaws.com/doc_images/Analyzer/Spectrogram/Direction.png)
 
 Defines the scrolling direction of the spectrogram.
 
@@ -54,7 +54,7 @@ Sets the minimum amplitude spectrum value to be displayed.
 
 ### Color Mode
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Spectrogram/ColorMode.png)
+![](https://flux-shared.s3.amazonaws.com/doc_images/Analyzer/Spectrogram/ColorMode.png)
 
 #### Duotone
 
