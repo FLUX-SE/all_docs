@@ -46,7 +46,7 @@ When using the WFS panning technique on a collinear frontal line arrangement, th
 
 ![Focus zone Enable]( https://flux-shared.s3.amazonaws.com/doc_images/SpatR/Room/FocusZoneEnable.png)
 
-![Focus zone warning]( https://flux-shared.s3.amazonaws.com/doc_images/SpatR/Room//FocusZoneWarning.png)
+![Focus zone warning]( https://flux-shared.s3.amazonaws.com/doc_images/SpatR/Room/FocusZoneWarning.png)
 
 After activating, it will extend the efficiency zone with a focus area starting at the listening reference thus allowing sources to freely move inside the listening area.
 
