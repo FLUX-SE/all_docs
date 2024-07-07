@@ -38,7 +38,7 @@ The functioning is based on the declared ADM object approach in Nuendo. When a t
 Complete information on dealing with objects in Nuendo is available in their documentation, [steinberg.help - Nuendo 11](https://www.steinberg.help/nuendo-manuals/nuendo/nuendo-11/).
 
 
-![Object-based in Nuendo V11](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/NuendoADM.png ':size=800')
+![Object-based in Nuendo V11](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/ThirdParty/NuendoADM.png ':size=800')
 
 ## Using ADM-OSC in Nuendo / Use cases
 
@@ -54,20 +54,20 @@ Although controlling _SPAT Revolution_ source objects from Nuendo audio tracks i
 
 ### System schematics - Nuendo and SPAT Revolution
 
-![System schematics - Nuendo and SPAT Revolution - Software In / Hardware Out](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/NuendoADMSoftInHardOut.png)
+![System schematics - Nuendo and SPAT Revolution - Software In / Hardware Out](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/ThirdParty/NuendoADMSoftInHardOut.png)
 
 **Basic setup where Nuendo is playing back to SPAT Revolution via software input, and the system output/monitoring is going out directly to your audio hardware device in SPAT Revolution.**
 
-![System schematics - Nuendo and SPAT Revolution - Software I/O with SPAT Plugins](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/NuendoADMSoftIO.png)
+![System schematics - Nuendo and SPAT Revolution - Software I/O with SPAT Plugins](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/ThirdParty/NuendoADMSoftIO.png)
 
 **Setup where you are using SPAT Send and Return Local Audio Path mode to route the signal to/from Nuendo and SPAT Revolution. The return(s) allow to bounce in Nuendo the rendering result and manage the monitoring bussing needs.**
 
-![System schematics - Nuendo and SPAT Revolution - Core Audio / Audio Bridge](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/NuendoADMOSCAudioBridge.png)
+![System schematics - Nuendo and SPAT Revolution - Core Audio / Audio Bridge](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/ThirdParty/NuendoADMOSCAudioBridge.png)
 
 **Setup where audio bridge devices are used to connect Nuendo to/from SPAT Revolution. The typical scenario involves a masOS system with the audio bridge part of an aggregate device with your actual audio interface used for monitoring.**
 
 
-![System schematics - Nuendo and SPAT Revolution - Dual Computers](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/NuendoADMOSCDualComputers.png)
+![System schematics - Nuendo and SPAT Revolution - Dual Computers](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/ThirdParty/NuendoADMOSCDualComputers.png)
 
 **Typical dual computer setup where AoIP AES67 (Ravenna), AVB, Dante, or other multichannel audio interfaces such as with MADI are used to send and receive signals between Nuendo and SPAT Revolution.**
 
@@ -84,7 +84,7 @@ Although controlling _SPAT Revolution_ source objects from Nuendo audio tracks i
 **Even if you aren't going to be using the Dolby capabilities of Nuendo and are planning only to render with _SPAT Revolution_, you need the 7.1.4 Atmos Master bus as this is being used to declared tracks as objects and assign objects IDs**
 
 
-![Audio Connection in Nuendo V11](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/NuendoADMAudioConnections1.png)
+![Audio Connection in Nuendo V11](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/ThirdParty/NuendoADMAudioConnections1.png)
 
 
 <!--
@@ -111,7 +111,7 @@ In the ```Studio / External OSC Render setup``` menu:
 * Header: Insert the ADM-OSC header message, ```/adm/obj/[index]/xyz```
 * Device Port Mapping: Map All - 1 to 1
 
-![Nuendo OSC Renderer Setup](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/NuendoExternalOSCRendererSetup.png ':size=400')
+![Nuendo OSC Renderer Setup](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/ThirdParty/NuendoExternalOSCRendererSetup.png ':size=400')
 
 ## Importing ADM File
 
@@ -119,13 +119,13 @@ To start your project from an existing ADM master file of another environment, g
 
 * Select all tracks in the ADM import menu
 
-![Nuendo Import ADM](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/NuendoADMImport.png)
+![Nuendo Import ADM](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/ThirdParty/NuendoADMImport.png)
 
 * When the import is done, ensure the Atmos_bed track is assigned to the 7.1.2 output bus.
 * Select all Atmos_Obj and assign them to the 7.1.4 Atmos master bus created (Shift + Control + choose the 7.1.4 bus assignment to do them as a batch).
 * Keeping all Atmos_Obj tracks selected (only, not the bed), go to the menu ```Project / ADM Authoring for Dolby Atmos```. If objects already exist, start by deleting them.
 
-![Nuendo ADM Authoring for Dolby Atmos 1](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/NuendoADMAuthoringEmpty.png)
+![Nuendo ADM Authoring for Dolby Atmos 1](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/ThirdParty/NuendoADMAuthoringEmpty.png)
 
 * Choose ```External OSC renderer``` on the Renderer pulldown.
 * Make sure ```Auto-Connect Objects Busses``` is marked.
@@ -133,15 +133,15 @@ To start your project from an existing ADM master file of another environment, g
 * It should create all that you need. All objects are mapped to index 1 to N.
 * New output buses are getting created to match objects 1 to N.
 
-![Nuendo ADM Authoring for Dolby Atmos 2](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/NuendoADMAuthoringObjects.png)
+![Nuendo ADM Authoring for Dolby Atmos 2](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/ThirdParty/NuendoADMAuthoringObjects.png)
 
 ## Nuendo audio connections configured for object
 
-![Audio Connection in Nuendo V11 with Bus and Object outputs](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/NuendoADMAudioConnections2.png)
+![Audio Connection in Nuendo V11 with Bus and Object outputs](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/ThirdParty/NuendoADMAudioConnections2.png)
 
 
 
-![Nuendo Surround VST MultiPanner in Object Mode](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/NuendoPanner.png ':size=500')
+![Nuendo Surround VST MultiPanner in Object Mode](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/ThirdParty/NuendoPanner.png ':size=500')
 
 ## Nuendo object position to SPAT Revolution source objects.
 
@@ -162,7 +162,7 @@ At the time of writing, it is not recommended to configure the objects bi-direct
 
 Go to the ```Studio``` menu and choose ```OSC Object Position Tracking```.
 
-![Nuendo OSC Object Position Tracking](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/NuendoOSCObjectPositionTracking.png ':size=400')
+![Nuendo OSC Object Position Tracking](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/ThirdParty/NuendoOSCObjectPositionTracking.png ':size=400')
 
 * Make sure ```Object Position Tracking``` is activated.
 * Make sure port # is set to ```9001```. This is the default ADM-OSC output port for SPAT Revolution preset.
@@ -176,7 +176,7 @@ Go to the ```Studio``` menu and choose ```OSC Object Position Tracking```.
 
 In the SPAT Revolution OSC Connection preferences:
 
-![SPAT OSC settings for Nuendo ADM-OSC](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Preference/OSCConnectionsADM.png ':size=600')
+![SPAT OSC settings for Nuendo ADM-OSC](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/Preference/OSCConnectionsADM.png ':size=600')
 
 * Choose ```Input ADM-OSC``` preset and select you network interface. If Nuendo and SPAT Revolution are on the same computer, choose Localhost ```127.0.0.1```, otherwise choose the network interface where OSC messages are incoming.
 
@@ -186,7 +186,7 @@ In the SPAT Revolution OSC Connection preferences:
 The "scaling to" is you defining what will be the maximum position value when the Nuendo panner is in its extreme corners.
 :::
 
-![Modifying (edit) the transform of scaling](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Preference/OSCTransformPresetsADM.png ':size=300')
+![Modifying (edit) the transform of scaling](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/Preference/OSCTransformPresetsADM.png ':size=300')
 
 **You are done for the input!**
 
@@ -194,7 +194,7 @@ The "scaling to" is you defining what will be the maximum position value when th
 
 This configuration is for sending SPAT source object data to Nuendo.
 
-![ADM XYZ Output](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Preference/OSCConnectionsADMOutputXYZ.png ':size=600')
+![ADM XYZ Output](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/Preference/OSCConnectionsADMOutputXYZ.png ':size=600')
 
 * Choose the ```Output ADM-XYZ``` preset and set the IP address of the Nuendo computer.(if local, use localhost ```127.0.0.1```)
 * The transformation preset is configured by default, as long as your OSC Object Position Tracking setup in Nuendo has stage dimensions -1.0, 1.0.
@@ -213,7 +213,7 @@ Ready to move info in an object-oriented workflow!
 
 In the second step, in the **Project menu**, you can open the ADM Authoring for Dolby Atmos. This is the main windows for any Object configuration, whatever the renderer.
 
-![Setup up objects in the ADM Authoring for Dolby Atmos](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/NuendoADMAuthoringEmpty.png ':size=800')
+![Setup up objects in the ADM Authoring for Dolby Atmos](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/ThirdParty/NuendoADMAuthoringEmpty.png ':size=800')
 
 * Choose External OSC Renderer.
 * Make sure Auto-Connect Object Busses is selected.
@@ -221,6 +221,6 @@ In the second step, in the **Project menu**, you can open the ADM Authoring for 
 * You can go back to the External OSC renderer setup from here if need be by pressing the gear icon.
 * You are done!
 
-![Setup up objects in the ADM Authoring for Dolby Atmos](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/NuendoADMAuthoringObjects.png ':size=800')
+![Setup up objects in the ADM Authoring for Dolby Atmos](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/ThirdParty/NuendoADMAuthoringObjects.png ':size=800')
 
 -->

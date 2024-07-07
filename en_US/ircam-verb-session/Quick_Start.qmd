@@ -13,7 +13,7 @@ that parameter.
 
 ## Block diagram
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Plugins/ircam-verb-session/verb_session_02.png)
+![](https://flux-shared.s3.amazonaws.com/doc_images/Plugins/ircam-verb-session/verb_session_02.png)
 
 The block diagram above shows the global structure of the reverberation engine, which governs the time-structure of the
 reverberation tail.

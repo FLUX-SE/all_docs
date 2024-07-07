@@ -37,7 +37,7 @@ This value naturally increases with time. For a constant source level, this valu
 :::
 
 ## Mic. channel Leq setup
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/LEQMetering/Setup.png)
+![](https://flux-shared.s3.amazonaws.com/doc_images/Analyzer/LEQMetering/Setup.png)
 
  >Mic. channel Leq setup
 

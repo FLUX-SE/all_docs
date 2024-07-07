@@ -20,10 +20,10 @@ Log. sweep is best suited for audio measurements as this corresponds to constant
 <!-- LIVEVERSIONS-->
 
 ## Controls
-![Signal generator controls.](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/SignalGenerator/Main.png)
+![Signal generator controls.](https://flux-shared.s3.amazonaws.com/doc_images/Analyzer/SignalGenerator/Main.png)
 
 ### Type
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/SignalGenerator/NoiseType.png)
+![](https://flux-shared.s3.amazonaws.com/doc_images/Analyzer/SignalGenerator/NoiseType.png)
 
 Sets the signal type to generate.
 
@@ -36,7 +36,7 @@ Toggles signal generator output on and off.
 <!-- LIVEVERSIONS-->
 
 ## Setup
-![Signal generator setup options.](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/SignalGenerator/Setup.png)
+![Signal generator setup options.](https://flux-shared.s3.amazonaws.com/doc_images/Analyzer/SignalGenerator/Setup.png)
 
 ### Output
 Selects the hardware output(s) to which the signal generator should be routed.

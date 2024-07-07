@@ -4,7 +4,7 @@ We have already covered the **Setup page** in the SPAT Environment section, focu
 
 Now we will look more closely at the setup modules themselves. This is an important part of the session design, so be sure to read the following chapters to understand how the signal chain works in SPAT Revolution.
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/complexSetup.png)
+![](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/Setup/complexSetup.png)
 
 ## One module, one task
 

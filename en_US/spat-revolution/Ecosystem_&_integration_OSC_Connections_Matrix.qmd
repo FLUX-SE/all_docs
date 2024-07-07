@@ -2,7 +2,7 @@
 
 ## Introduction to Generic OSC {#sec-intro-osc}
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Preference/OSCMain.png)
+![](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/Preference/OSCMain.png)
 
 Suppose you are developing your own control systems to integrate with SPAT. In that case, you might find it useful to know that it is possible to export a detailed description of all OSC patterns, syntax and usage to a text file for reference.
 You will find that option in the SPAT preferences.
@@ -47,7 +47,7 @@ By default, it is set to 5.0 ms.
 
 There is a lot of flexibility in the OSC connection menu. We find it in the SPAT Preferences page.
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Preference/OSCConnections.png)
+![](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/Preference/OSCConnections.png)
 
 Eight different connections can be set up as input or output. It is displayed as a table where each connection is a line.
 
@@ -83,12 +83,12 @@ If we loose the sync between the remote and SPAT, it is also possible to **dump 
 Interfacing different devices and software in OSC can be problematic as each piece of equipment can have its own value scale.
 To overcome these difficulties, some OSC transform presets have been implemented.
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Preference/OSCTransformList.png)
+![](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/Preference/OSCTransformList.png)
 
 Transform presets are accessible for each OSC connection and allow quick re-scaling of the values.
 
 :::{.callout-note}
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Preference/OSCTransformPresets.png)
+![](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/Preference/OSCTransformPresets.png)
 :::
 
 If the included transform preset does not fit your needs, you can click on the ```+``` button to open the custom OSC transform menu.

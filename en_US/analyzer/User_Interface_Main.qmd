@@ -2,7 +2,7 @@
 
 <!-- The FLUX:: Analyzer app is built around the concept of layouts. -->
 
-![Default view of the FLUX:: Analyzer](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Generic/analyzer_main.png)
+![Default view of the FLUX:: Analyzer](https://flux-shared.s3.amazonaws.com/doc_images/Analyzer/Generic/analyzer_main.png)
 
 The FLUX:: Analyzer app user interface is devided in two main parts. The header and the body. In the header, you will find many options menus and parameters, while the body section display a selected arrangement of tool depending on the selected layout. It is very important to keep in mind that the FLUX:: Analyzer app is built around the concept of layout, which are factory defined regarding common audio use cases (studio, live workflow, etc.)
 
@@ -44,9 +44,9 @@ The following mouse click actions are available:
 
 :::{#fig-click-drag layout-nrow="2"}
 
-![On spectrum](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Generic/ZoomSelection2.png)
+![On spectrum](https://flux-shared.s3.amazonaws.com/doc_images/Analyzer/Generic/ZoomSelection2.png)
 
-![On IR plots](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Generic/ZoomSelection1.png)
+![On IR plots](https://flux-shared.s3.amazonaws.com/doc_images/Analyzer/Generic/ZoomSelection1.png)
 
 Click and drag behavior
 :::

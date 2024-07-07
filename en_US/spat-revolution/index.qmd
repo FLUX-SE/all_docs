@@ -1,4 +1,4 @@
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Generic/SPATionautsImage.png)
+![](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/Generic/SPATionautsImage.png)
 
 # FLUX:: Immersive SPAT Revolution 24.06 {.unnumbered}
 

@@ -19,18 +19,18 @@ Physical locations of the speakers for the selected configuration are marked on 
 
 :::{layout-ncol="2"}
 
-![Music speaker mode](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Nebula/Music.png)
+![Music speaker mode](https://flux-shared.s3.amazonaws.com/doc_images/Analyzer/Nebula/Music.png)
 
-![Equidistant speaker mode](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Nebula/Equidistant.png)
+![Equidistant speaker mode](https://flux-shared.s3.amazonaws.com/doc_images/Analyzer/Nebula/Equidistant.png)
 
-![Square speaker](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Nebula/Square.png)
+![Square speaker](https://flux-shared.s3.amazonaws.com/doc_images/Analyzer/Nebula/Square.png)
 
-![Theater speaker](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Nebula/Theater.png)
+![Theater speaker](https://flux-shared.s3.amazonaws.com/doc_images/Analyzer/Nebula/Theater.png)
 
 :::
 
 ## Display
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Nebula/SurroundScopeSetup.png)
+![](https://flux-shared.s3.amazonaws.com/doc_images/Analyzer/Nebula/SurroundScopeSetup.png)
 
 :::{.callout-note}
 Nebula | Surround scope setup options
@@ -40,7 +40,7 @@ Nebula | Surround scope setup options
 
 #### Speaker mode
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Nebula/SpeakerMode.png)
+![](https://flux-shared.s3.amazonaws.com/doc_images/Analyzer/Nebula/SpeakerMode.png)
 
 Selects between various commonly employed surround speaker arrangements.
 
@@ -79,7 +79,7 @@ Logarithmic blending on the other hand preserves more of the full dynamic range 
 
 #### Color mode
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Nebula/ColorMode.png)
+![](https://flux-shared.s3.amazonaws.com/doc_images/Analyzer/Nebula/ColorMode.png)
 
 #### Fading
 

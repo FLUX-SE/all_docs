@@ -3,4 +3,4 @@
 The main parameters of the band are gathered on this panel.
 Alt + Click temporarily unlink the control when the band is linked.
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Plugins/alchemist/Alchemist_03.png)
+![](https://flux-shared.s3.amazonaws.com/doc_images/Plugins/alchemist/Alchemist_03.png)

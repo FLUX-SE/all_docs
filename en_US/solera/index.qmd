@@ -86,4 +86,4 @@ Note that the Dry Mix function takes the delay that may be introduced by the pro
 done before the clipper stage, and the displayed gain also reflects the Dry Mix setting.
 :::
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Plugins/solera/solera_02.png)
+![](https://flux-shared.s3.amazonaws.com/doc_images/Plugins/solera/solera_02.png)

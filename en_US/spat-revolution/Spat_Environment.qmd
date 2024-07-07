@@ -2,7 +2,7 @@
 
 This section will go through the _SPAT Revolution_ software environment in more detail. We will step through each of the main Graphic Editor views.
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Education/Environment.png)
+![](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/Education/Environment.png)
 
 In a nutshell, the **Setup Page** is the brain of your SPAT Revolution session. It's where you route signals and address your mix to the loudspeaker array you're using.
 
@@ -38,6 +38,6 @@ A diffusion system could range from a simple pair of headphones to an 18 (**Esse
 In some of the more virtualized workflows of _SPAT Revolution_, you may even be thinking about diffusion in a virtual space on configurations of virtual speaker arrangements and channel-based formats.
 The same rule for successful diffusion applies here—the diffusion in the virtual room will be compromised and sound off if the channel assignments to the virtual systems are incorrect.
 
-![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Room/3DViewMultichannelSources.png)
+![](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/Room/3DViewMultichannelSources.png)
 
 In the above illustration, a virtual 5.1 and a virtual Cube arrangement exist together in a High Order Ambisonic Room, which may eventually be rendered to some other channel-based end format. -->
