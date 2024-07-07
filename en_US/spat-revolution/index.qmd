@@ -1,6 +1,6 @@
 ![](https://flux-shared.s3.amazonaws.com/doc_images/SpatR/Generic/SPATionautsImage.png)
 
-# FLUX:: Immersive SPAT Revolution 23.08 {.unnumbered}
+# FLUX:: Immersive SPAT Revolution 24.06 {.unnumbered}
 
 ## A User Guide
 
