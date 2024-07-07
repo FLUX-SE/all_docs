@@ -1,6 +1,6 @@
 # Welcome to FLUX:: Analyzer {.unnumbered}
 
-**23.XX version**
+**22.01 version**
 
 ## A User Guide
 
