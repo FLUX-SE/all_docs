@@ -1,5 +1,47 @@
 # Release Notes
 
+## Build 24.07.0.50393 - All plugins
+
+### New Features
+- VST3 automation state on UI
+
+### Improvements
+- EVO EQ - Dark mode update
+
+### Bugs
+- All plugins - VST3 - GUI freeze when reloading a session in Studio One
+- All plugins - VST3 - Wrong parameters frequencies when reloading session at 44.1KHz
+- All plugins - crash when loading a StudioOne session
+- All plugins AAX - Crash protools when using the protools plugin preset manager on Windows
+- EVO Channel/Touch and BS Pro - Presets have to be loaded twice to apply the filter values from the Touch section properly
+- Elixir - Latency not properly compensated after changing stage parameters value in VST and AudioUnit
+- Elixir - VST - May crash or bypass  the audio when reloading a previous session in Nuendo
+- Evo Channel - GUI issues on Geek panel
+- Evo Channel/Evo EQ - Bad init on the lowpass filter cut off frequency
+- HEar - Failed to load HRTF message in Logic until audio playback
+- Verb and VerbSession - VST3 - Freeze during Steinberg TestHost on Windows
+
+### Known Issues
+**Important**
+- All plugins - AU - Crash in Logic 10.5 on Macos Mojave
+- All plugins - AU - Sidechain not available
+- All plugins - VST versions - GUI issue in Izotope Ozone and Davinci Resolve
+- Elixir - VST3 - Elixir is not available as 32 channels (24 max) in Reaper
+- HEar - AU - Crashes Ableton
+- HEar - Do not work properly with Ambisonic streams
+- Trax - Ran out of CPU error and playback issue in Protools
+- Verb - AAX - Moving any temporal parameter mute audio and generate noisy artefacts 
+- Verb - HOA 3rd order not working properly
+
+**Host Specific**
+- All plugins - VST2 - GUI cropped in TwistedWave
+- All plugins - VST3 - Do not process the audio in TwistedWave
+- EVO EQ - AAX-DSP - Not listed in DSP plugins list
+- EVO Series - AAX DSP - No metering
+- Evo Channel/Evo EQ - AudioUnit - LPF cut off frequency badly initialized when samplerate is 2FS or more
+- StereoTool - AAX DSP - No metering
+
+
 ## Build 24.06.0.50386 - All plugins
 
 ### Improvements
