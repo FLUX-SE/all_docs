@@ -3,12 +3,15 @@
 ## Build 24.07.0.50393 - All plugins
 
 ### New Features
+
 - VST3 automation state on UI
 
 ### Improvements
+
 - EVO EQ - Dark mode update
 
 ### Bugs
+
 - All plugins - VST3 - GUI freeze when reloading a session in Studio One
 - All plugins - VST3 - Wrong parameters frequencies when reloading session at 44.1KHz
 - All plugins - crash when loading a StudioOne session
@@ -22,7 +25,9 @@
 - Verb and VerbSession - VST3 - Freeze during Steinberg TestHost on Windows
 
 ### Known Issues
+
 **Important**
+
 - All plugins - AU - Crash in Logic 10.5 on Macos Mojave
 - All plugins - AU - Sidechain not available
 - All plugins - VST versions - GUI issue in Izotope Ozone and Davinci Resolve
@@ -34,13 +39,13 @@
 - Verb - HOA 3rd order not working properly
 
 **Host Specific**
+
 - All plugins - VST2 - GUI cropped in TwistedWave
 - All plugins - VST3 - Do not process the audio in TwistedWave
 - EVO EQ - AAX-DSP - Not listed in DSP plugins list
 - EVO Series - AAX DSP - No metering
 - Evo Channel/Evo EQ - AudioUnit - LPF cut off frequency badly initialized when samplerate is 2FS or more
 - StereoTool - AAX DSP - No metering
-
 
 ## Build 24.06.0.50386 - All plugins
 
