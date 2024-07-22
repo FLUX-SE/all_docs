@@ -67,7 +67,7 @@ The Ircam Folder contains a subfolder called *sofa* which contains the sofa.cata
 
 Audio files are recorded in the directory of your session, in a folder named "SessionName_media", SessionName replaced by the name of the SPAT session name.
 To be noted, if the session is in a folder of the same name, the folder for the audio is "Media" (no need to be documented, only for internal information).
-Audio is recorded in wave Riff64, 32-bit float, interleaved. All inputs will be recorded in one unique file. For the other blocks, a single file will be created for each block, with the following name convention: "Blocktype blockname (format) - recordNumber.wav". For example, for a room named "WFS" in the format "Frontal Line 5", it will be "Room WFS (Frontal Line 5) - 0001.wav"
+Audio is recorded in wave Riff64, 24-bit, interleaved. All inputs will be recorded in one unique file. For the other blocks, a single file will be created for each block, with the following name convention: "Blocktype blockname (format) - recordNumber.wav". For example, for a room named "WFS" in the format "Frontal Line 5", it will be "Room WFS (Frontal Line 5) - 0001.wav"
 This is not a broadcast wave for now, the recording has no timestamp.
 
 :::{.callout-note}
