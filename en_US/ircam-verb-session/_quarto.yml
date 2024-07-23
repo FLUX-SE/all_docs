@@ -12,10 +12,13 @@ book:
     - Options.qmd
     - Time_Structure_Settings.qmd
     - Input_Output_Section.qmd
-    - Preset_Section.qmd
-    - Preset_Management.qmd
+    - text: Preset Management
+      href: ../generic_Preset_Management.qmd
+    - text: Preset Manager
+      href: ../generic_Preset_Manager.qmd
     - Credits.qmd
-    - Specifications.qmd
+    - text: Specifications
+      href: ../generic_specifications.qmd
   appendices:
     - ../flux_processing_release_notes.qmd
 

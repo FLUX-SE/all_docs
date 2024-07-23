@@ -11,8 +11,10 @@ book:
     - Geek_Settings.qmd
     - Plugin_Settings.qmd
     - Shortcuts.qmd
-    - Preset_Management.qmd
-    - Preset_Manager.qmd
+    - text: Preset Management
+      href: ../generic_Preset_Management.qmd
+    - text: Preset Manager
+      href: ../generic_Preset_Manager.qmd
     - Specifications.qmd
     - Credits.qmd
   appendices:

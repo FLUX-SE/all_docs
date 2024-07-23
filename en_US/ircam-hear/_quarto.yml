@@ -10,7 +10,8 @@ book:
     - Controls.qmd
     - Credits.qmd
     - References.qmd
-    - Specifications.qmd
+    - text: Specifications
+      href: ../generic_specifications.qmd
   appendices:
     - ../flux_processing_release_notes.qmd
     

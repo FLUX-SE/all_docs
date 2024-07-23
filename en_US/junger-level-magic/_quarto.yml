@@ -9,7 +9,8 @@ book:
     - General_Settings.qmd
     - Preset_Management.qmd
     - Preset_Manager_Window.qmd
-    - Specifications.qmd
+    - text: Specifications
+      href: ../generic_specifications.qmd
     - Open_Sound_Control_(OSC).qmd
   appendices:
     - ../flux_processing_release_notes.qmd

@@ -21,10 +21,13 @@ book:
       chapters:
       - Cross_Synthesis.qmd
       - Source_Filter.qmd
-    - Preset_Section.qmd
-    - Presets_Management.qmd
+    - text: Preset Management
+      href: ../generic_Preset_Management.qmd
+    - text: Preset Manager
+      href: ../generic_Preset_Manager.qmd
+    - text: Specifications
+      href: ../generic_specifications.qmd
     - Credits.qmd
-    - Specifications.qmd
   appendices:
     - ../flux_processing_release_notes.qmd
 

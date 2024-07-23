@@ -10,9 +10,13 @@ book:
   - Time_Related_Settings.qmd
   - Dynamic_Section_Settings.qmd
   - Display.qmd
-  - Preset_Management.qmd
   - Plug-in_Settings.qmd
-  - Specifications.qmd
+  - text: Preset Management
+    href: ../generic_Preset_Management.qmd
+  - text: Preset Manager
+    href: ../generic_Preset_Manager.qmd
+  - text: Specifications
+    href: ../generic_specifications.qmd
   - Compatibility.qmd
   - Credits.qmd
   appendices:

@@ -8,7 +8,12 @@ book:
     - index.qmd
     - Special_Functions.qmd
     - Setup_-_Input_Routing_-_MS_Encode_Decode_-_Groups.qmd
-    - Specifications.qmd
+    - text: Preset Management
+      href: ../generic_Preset_Management.qmd
+    - text: Preset Manager
+      href: ../generic_Preset_Manager.qmd
+    - text: Specifications
+      href: ../generic_specifications.qmd
     - Compatibility.qmd
     - Credits.qmd
   appendices:
