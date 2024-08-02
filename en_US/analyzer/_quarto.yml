@@ -3,7 +3,7 @@ project:
    output-dir: "../../_build/analyzer" 
 
 book:
-   title: "FLUX:: Analyzer"
+   title: "Analyzer"
    chapters:
    - index.qmd
    - Pure_Analyzer_Pure-analyzer-versions.qmd
