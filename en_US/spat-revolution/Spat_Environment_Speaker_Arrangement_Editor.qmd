@@ -1,4 +1,4 @@
-# Speaker Arrangement Editor {#sec-speaker-editor}
+# Speaker Arrangement Editor {#sec-speakereditor}
 
 ![The speaker arrangement editor window showing a predefined 13.1 Auro 3D speaker arrangement.](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/SpeakerEditor1.png)
 
@@ -71,7 +71,7 @@ For such a use case, it is possible to create custom speaker arrangements. Using
 
 **Reset:** revert the *compute* process.
 
-**Compute:** opens a dialog to help to set delay and gain on the speaker arrangement. More information of the [dedicated section below -@sec-speaker-editor-alignment]
+**Compute:** opens a dialog to help to set delay and gain on the speaker arrangement. More information of the [dedicated section below -@sec-speakereditor-alignment]
 
 ### Selected or all speakers section
 
@@ -182,7 +182,7 @@ We can quickly be tempted to create very precise speaker arrays, including heigh
 
 The rule of thumb is to think in plan and not in absolute height. If speakers are meant to reproduce the same sound plan, they should have the same height. Also, the main sound plan has to be set at a height of zero meters. If you try to validate a speaker arrangement that only has one plan and is not set to a height of 0, it will correct it automatically. It also applies to older sessions that were created before _SPAT Revolution_ had this feature.
 
-### Alignment {#sec-speaker-editor-alignment}
+### Alignment {#sec-speakereditor-alignment}
 
 ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/AlignmentDialog.png)
 

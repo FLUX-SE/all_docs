@@ -64,7 +64,7 @@ Three important dependencies to consider when using VBAP:
  4. VBAP works best when the listening room is not very reverberant.
 
 :::{.callout-note}
-See the [Alignment -@sec-speaker-editor-alignment] section: the speaker alignment feature provides the impression that the actual speakers are equidistant even when they are not.
+See the [Alignment -@sec-speakereditor-alignment] section: the speaker alignment feature provides the impression that the actual speakers are equidistant even when they are not.
 :::
 
 ## Vector Base Intensity (VBIP)

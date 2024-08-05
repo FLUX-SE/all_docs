@@ -1,0 +1,101 @@
+# Venue Synthesis
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/EZsBDNCH_uo?si=3hrUHFI9UeaGts5M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+SPAT Revolution offers the capability to **import speaker arrangements** directly from JBL's [Venue Synthesis](https://jblpro.com/en/products/venue-synthesis) prediction tool. This feature streamlines system design and simplifies the creation of immersive audio systems by integrating Venue Synthesis projects into SPAT Revolution.
+
+**Prerequisites**
+
+The import of Venue Synthesis files needs the following versions:
+
++ Venue Synthesis *version 1.1 or later*.
++ SPAT Revolution *version 24.08 or later*.
+
+## Importing Speaker Arrangements
+
+### Setting Up the Venue Synthesis File
+
+In Venue Synthesis, navigate to the **Venue** mode toolbar. Select **Venue > Add > SPAT Revolution Reference**. Define the position of the **SPAT Revolution reference** relative to the VS reference.
+
+::::{.columns}
+
+:::{.column}
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/VS/add_spat_ref.png)
+:::
+
+:::{.column}
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/VS/spat_ref.png)
+:::
+
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/VS/spat_ref_context.png){width="91.5%"}
+
+::::
+
+At this point, your Venue Synthesis file can now be imported directly into the SPAT Revolution speaker editor.
+
+<!-- For example:
+
++ Set the SPAT Reference point at 6 meters on the Y-axis.
++ Adjust the Z height according to your audience configuration (e.g., 1.2m for seated, 1.7m for standing).
++ Rotate the reference to ensure proper orientation (e.g., 180 degrees to face the stage). -->
+
+:::{.callout-important}
+
+::::{.columns}
+
+:::{.column width="25%"}
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/VS/vs_hide.png){width="90%"}
+:::
+
+:::{.column width="75%"}
+Note that system groups that are not active at the saving stage will be discarded upon import into SPAT Revolution. This can become very handy on larger systems to only import the needed elements or to do multiple imports to create different speaker arrangements (or sub-arrangements) in SPAT Revolution (see ). 
+:::
+
+::::
+
+:::
+
+### Import the File into SPAT Revolution
+
+In SPAT Revolution, open the speaker arrangement editor (see @sec-speakereditor). Select Import from and locate your Venue Synthesis .VSYN file. Confirm the import settings to complete the process (see detail @sec-vsimportoptions below). As mentioned above, the import will exclude non-active "hidden" system groups from the Venue Synthesis file.
+
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/VS/import_vs.png)
+
+### Managing Multiple Speaker Arrangements
+
+SPAT Revolution supports the deployment of multiple system functions, such as front fills or balcony systems. Each subsystem can be part of a specific speaker arrangement, enabling:
+
++ Selection of a distinctive panning technique.
++ Optimization of WFS rendering for specific zones.
++ Adjustment of acoustic simulation settings for specific zones.
++ Modification of listener audience-related parameters (e.g., protection zone, listener position and orientation).
++ This configuration allows for dedicated treatment of subsystems or specific listening zones, providing control for leveling and muting different subsystems.
+
+::::{.columns}
+
+:::{.column}
+![First room for surrounding system (VBAP)](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/VS/system_1.png){width=91.5%}
+:::
+
+:::{.column}
+![Second for front fields (WFS)](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/VS/system_2.png)
+:::
+
+::::
+
+## Configure Import Options {#sec-vsimportoptions}
+
+
+::::{.columns}
+
+:::{.column width="60%"}
++ **Layering Tolerance**: Maximum elevation gap under which two speakers are considered as belonging to the same layer. If all the speakers belong to the same layer, the setup is considered 2D.
++ **Import Subwoofer**: Choose whether to include subwoofers and provide an aux/LFE output for each. A maximum of 4 AUX/LFE are supported.
++ **Elevation Correction Type**: Select between Polar or Cartesian for lowering the speaker setup. Polar adjusts both Y and Z values, while Cartesian adjusts only the Z value. Cartesian type is recommended for WFS, KNN and DBAP panning laws. For others, including VBAP and derivative, we recommend using Polar type.
+:::
+
+:::{.column width="40%"}
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/VS/import_options.png)
+:::
+
+::::

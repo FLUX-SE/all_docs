@@ -59,6 +59,7 @@ book:
       - Ecosystem_&_integration_ADM_OSC.qmd
    - part: Third_Party_Integration.qmd
      chapters:
+      - Third_Party_Venue_Synthesis.qmd
       - Third_Party_Cockos_Reaper.qmd
       - Third_Party_ReaVolution.qmd
       - Third_Party_ProTools.qmd
