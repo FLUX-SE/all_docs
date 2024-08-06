@@ -1,4 +1,4 @@
-# Venue Synthesis
+# JBL - Venue Synthesis
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/EZsBDNCH_uo?si=3hrUHFI9UeaGts5M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
@@ -90,7 +90,7 @@ SPAT Revolution supports the deployment of multiple system functions, such as fr
 
 :::{.column width="60%"}
 + **Layering Tolerance**: Maximum elevation gap under which two speakers are considered as belonging to the same layer. If all the speakers belong to the same layer, the setup is considered 2D.
-+ **Import Subwoofer**: Choose whether to include subwoofers and provide an aux/LFE output for each. A maximum of 4 AUX/LFE are supported.
++ **Import Subwoofer**: Choose whether to include subwoofers and provide an aux/LFE output for each. Each subwoofer group will be affected to a specified. A maximum of 4 AUX/LFE are supported.
 + **Elevation Correction Type**: Select between Polar or Cartesian for lowering the speaker setup. Polar adjusts both Y and Z values, while Cartesian adjusts only the Z value. Cartesian type is recommended for WFS, KNN and DBAP panning laws. For others, including VBAP and derivative, we recommend using Polar type.
 :::
 
