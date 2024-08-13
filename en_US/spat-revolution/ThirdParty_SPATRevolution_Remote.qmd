@@ -133,7 +133,7 @@ Finally, the address ```255.255.255.255``` broadcasts to all subnets.
 
 ## Release Notes
 
-### 24.05.0.50377
+### 24.06.0.50385
 
 - Tabs are now on the bottom
 - Main:
